@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    <title>UPSC Revision Hub | Master • Revise • Succeed</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="overlay" id="overlay"></div>
+
+      <div class="sidebar" id="sidebar">
+        <div class="brand">
+          <button class="close-drawer" id="closeDrawer" aria-label="Close menu">
+            ✕
+          </button>
+          <div class="brand-eyebrow">UPSC Civil Services</div>
+          <div class="brand-title">MASTER NOTES</div>
+          <div class="brand-sub">COMPLETE SYLLABUS</div>
+        </div>
+        <div class="overall-progress">
+          <div class="overall-progress-bar">
+            <div
+              class="overall-progress-fill"
+              id="overallFill"
+              style="width: 0%"
+            ></div>
+          </div>
+          <div class="overall-progress-pct" id="overallPct">0%</div>
+        </div>
+        <div class="search-wrap">
+          <input
+            type="text"
+            class="search-input"
+            id="searchInput"
+            placeholder="Search topics..."
+          />
+          <span class="search-icon">🔍</span>
+          <div class="search-results" id="searchResults"></div>
+        </div>
+        <div class="tree-container" id="treeContainer"></div>
+        <div class="sidebar-footer">GS 1–4 · ESSAY · FULL SYLLABUS</div>
+      </div>
+
+      <div class="main">
+        <div class="topbar">
+          <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+            ☰
+          </button>
+          <div class="topbar-title" id="topbarTitle">Dashboard</div>
+          <div class="topbar-tag">UPSC 2025–26</div>
+        </div>
+        <div class="notes-scroll">
+          <div class="notes-content" id="notesContent"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="quiz-overlay" id="quizOverlay">
+      <div class="quiz-modal">
+        <div class="quiz-header">
+          <div class="quiz-header-title" id="quizTitle">QUIZ</div>
+          <button class="quiz-close" id="quizClose">✕</button>
+        </div>
+        <div class="quiz-progress-bar">
+          <div
+            class="quiz-progress-fill"
+            id="quizProgressFill"
+            style="width: 0%"
+          ></div>
+        </div>
+        <div class="quiz-body" id="quizBody"></div>
+        <div class="quiz-footer" id="quizFooter">
+          <button class="quiz-nav-btn" id="quizPrevBtn">◀ Prev</button>
+          <span class="quiz-score-label" id="quizScoreLabel"></span>
+          <button class="quiz-nav-btn" id="quizNextBtn">Next ▶</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
