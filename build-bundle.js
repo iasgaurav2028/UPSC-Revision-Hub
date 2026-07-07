@@ -85,7 +85,11 @@ const FILE_ORDER = [
   "js/data/gs2/ir/index.js",
   "js/data/gs2/index.js",
 
+  "js/data/gs3/economics/budget/budget-2025.js",
+  "js/data/gs3/economics/budget/budget-2026.js",
+  "js/data/gs3/economics/budget/index.js",
   "js/data/gs3/economics/index.js",
+
   "js/data/gs3/security/index.js",
   "js/data/gs3/scitech/index.js",
   "js/data/gs3/environment/index.js",

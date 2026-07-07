@@ -1824,13 +1824,232 @@ const DATA_gs2 = {
   children: [DATA_gs2_polity, DATA_gs2_ir],
 };
 
+// ── js/data/gs3/economics/budget/budget-2025.js ──
+// Newspaper › Economics › Budget › Union Budget 2025-26
+// Presented 1 Feb 2025 by FM Nirmala Sitharaman — her 8th consecutive Budget (a record)
+const DATA_gs3_budget_2025 = {
+  id: "news-budget-2025",
+  title: "Union Budget 2025-26",
+  subtitle: "1 Feb 2025",
+  icon: "📰",
+  isLeaf: true,
+  notes: {
+    newsType: true,
+    date: "1 February 2025",
+    subject: "Economics",
+    section: "Union Budget / Economic Survey",
+    summary:
+      "FM Nirmala Sitharaman presented the Union Budget 2025-26 — her 8th consecutive Budget, a record for any Finance Minister. Themed 'Sabka Vikas' (balanced growth of all regions), it was built around four declared 'engines of growth': Agriculture, MSMEs, Investment, and Exports, with development measures targeted at the poor (Garib), youth, farmers (Annadata), and women (Nari) as part of the Viksit Bharat vision.",
+    keyPoints: [
+      {
+        key: "4 Engines of Growth",
+        detail:
+          "Agriculture, MSMEs, Investment, and Exports — declared as the structural pillars driving the Budget's growth strategy",
+      },
+      {
+        key: "Income Tax Relief",
+        detail:
+          "Zero income tax up to ₹12 lakh under the new tax regime (₹12.75 lakh for salaried taxpayers after standard deduction) — a major consumption-boosting measure for the middle class",
+      },
+      { key: "Fiscal Deficit", detail: "Targeted at 4.4% of GDP for FY26" },
+      {
+        key: "Capital Expenditure",
+        detail: "₹11.21 lakh crore earmarked for FY26 (3.1% of GDP)",
+      },
+      {
+        key: "Overall Fiscal Numbers",
+        detail:
+          "Total receipts (excl. borrowings): ₹34.96 lakh crore; total expenditure: ₹50.65 lakh crore; net tax receipts: ₹28.37 lakh crore; gross market borrowings: ₹14.82 lakh crore",
+      },
+      {
+        key: "PM Dhan-Dhaanya Krishi Yojana",
+        detail:
+          "Launched in partnership with states, covering 100 districts with low productivity, moderate crop intensity, and below-average credit access — modelled on the Aspirational Districts Programme; to benefit 1.7 crore farmers",
+      },
+      {
+        key: "National Manufacturing Mission",
+        detail:
+          "Covers small, medium and large industries to further 'Make in India'; includes a dedicated scheme to make India a global toy-manufacturing hub",
+      },
+      {
+        key: "Export Promotion Mission",
+        detail:
+          "Jointly driven by the Commerce, MSME, and Finance Ministries to help MSMEs access export markets; includes 'BharatTradeNet' (BTN), a unified digital platform for trade documentation and financing",
+      },
+      {
+        key: "Education & Skilling",
+        detail:
+          "50,000 Atal Tinkering Labs to be set up in government schools over 5 years; Bharatiya Bhasha Pustak Scheme for digital-form Indian-language textbooks; Bharatnet broadband extended to all rural government secondary schools and primary health centres",
+      },
+      {
+        key: "Global Capability Centres",
+        detail:
+          "National Framework proposed to promote GCCs in emerging tier-2 cities, alongside support for domestic electronics manufacturing tied to Industry 4.0",
+      },
+    ],
+    syllabusLink:
+      "GS-3: Indian Economy — Government Budgeting, inclusive growth strategy, agricultural and MSME policy. Also relevant for GS-2 (welfare/development schemes) and Essay (Viksit Bharat, balanced regional growth themes).",
+    prelimsPoints: [
+      "Budget 2025-26 presented 1 February 2025 — Nirmala Sitharaman's 8th consecutive Budget (a record for any Finance Minister).",
+      "Theme: 'Sabka Vikas' — stimulating balanced growth of all regions.",
+      "Fiscal deficit target for FY26: 4.4% of GDP.",
+      "New tax regime: Nil tax up to ₹12 lakh (₹12.75 lakh for salaried, after standard deduction).",
+      "PM Dhan-Dhaanya Krishi Yojana: covers 100 districts, benefits 1.7 crore farmers.",
+      "Capital expenditure FY26: ₹11.21 lakh crore (3.1% of GDP).",
+    ],
+    mainsAngle:
+      "Budget 2025-26's twin emphasis — middle-class tax relief to spur consumption alongside targeted agricultural and MSME-focused structural schemes — reflects a demand-and-supply-side balancing act, setting up the subsequent Budget 2026-27's pivot toward a more explicitly capex-led, infrastructure-driven growth strategy.",
+    mainsGS: "GS-3 — Indian Economy (Budgeting & Inclusive Growth Strategy)",
+    recall: [
+      "8th consecutive Budget — record",
+      "Theme: Sabka Vikas",
+      "Zero tax up to ₹12 lakh",
+      "Fiscal deficit target: 4.4% of GDP",
+      "Capex: ₹11.21 lakh crore (3.1% of GDP)",
+      "PM Dhan-Dhaanya Krishi Yojana — 100 districts, 1.7 cr farmers",
+      "BharatTradeNet — export platform",
+      "4 Engines: Agriculture, MSMEs, Investment, Exports",
+    ],
+  },
+};
+
+// ── js/data/gs3/economics/budget/budget-2026.js ──
+// Newspaper › Economics › Budget › Union Budget 2026-27
+// Presented Feb 1, 2026 by FM Nirmala Sitharaman — first Budget from Kartavya Bhawan
+const DATA_gs3_budget_2026 = {
+  id: "news-budget-2026",
+  title: "Union Budget 2026-27",
+  subtitle: "1 Feb 2026",
+  icon: "📰",
+  isLeaf: true,
+  notes: {
+    newsType: true,
+    date: "1 February 2026",
+    subject: "Economics",
+    section: "Union Budget / Economic Survey",
+    summary:
+      "FM Nirmala Sitharaman presented the Union Budget 2026-27 — the first Budget prepared in the newly-named 'Kartavya Bhawan' — built around 3 declared 'kartavyas' (duties): accelerating economic growth, building people's capacity, and ensuring inclusive access to opportunity (Sabka Saath, Sabka Vikas). The Budget retained Budget 2025's income-tax slabs while pushing capital expenditure to a record high and further trimming the fiscal deficit.",
+    keyPoints: [
+      {
+        key: "3 Kartavyas (Duties)",
+        detail:
+          "1) Accelerate & sustain economic growth 2) Fulfil people's aspirations & build capacity 3) Ensure inclusive access (Sabka Saath, Sabka Vikas) across every family/community/region",
+      },
+      {
+        key: "Income Tax Slabs",
+        detail:
+          "UNCHANGED from Budget 2025 — no new slab changes announced; existing structure retained and reinforced",
+      },
+      {
+        key: "Income Tax Act, 2025",
+        detail:
+          "Planned implementation from April 1, 2026 — aims to simplify compliance and reduce legal complexity while retaining existing tax rates/slabs",
+      },
+      {
+        key: "Fiscal Deficit",
+        detail:
+          "FY27 (BE) target: 4.3% of GDP — down from FY26's revised estimate of 4.4%",
+      },
+      {
+        key: "Capital Expenditure",
+        detail:
+          "Record ₹12.2 lakh crore for FY27 (4.4% of GDP) — an 11.5% increase over FY26 revised estimates; highest-ever capex push",
+      },
+      {
+        key: "Debt-to-GDP Ratio",
+        detail:
+          "Estimated at 55.6% of GDP in BE 2026-27, down from 56.1% in RE 2025-26; long-term target ~50% of GDP by March 2031",
+      },
+      {
+        key: "Total Expenditure",
+        detail:
+          "₹53.47 lakh crore proposed; Revenue expenditure ₹41.25 lakh crore (6.6% rise); Receipts (excl. borrowings) ₹36.5 lakh crore (7.2% rise)",
+      },
+      {
+        key: "Biopharma SHAKTI",
+        detail:
+          "₹10,000 crore outlay over 5 years to build India as a global biopharma manufacturing hub; 3 new NIPER institutes + 7 upgraded",
+      },
+      {
+        key: "Infrastructure Push",
+        detail:
+          "Infrastructure spending raised 11.4% to a record ₹12.2 lakh crore (per Reuters); new Infrastructure Risk Guarantee Fund for private developers",
+      },
+      {
+        key: "Railways Capex",
+        detail:
+          "₹2,77,830 crore allocated for FY27 (10.25% higher than FY26's ₹2,52,000 crore) — highest-ever; plus ₹15,000 crore via Extra Budgetary Resources",
+      },
+      {
+        key: "Freight & Waterways",
+        detail:
+          "New Dedicated Freight Corridor (Dankuni to Surat); 20 new National Waterways over 5 years, starting with NW-5 in Odisha",
+      },
+      {
+        key: "Disinvestment Target",
+        detail:
+          "₹80,000 crore for FY27 — first INCREASE in 5 years (FY26 target was ₹47,000 crore; ~71.9% of that was achieved)",
+      },
+      {
+        key: "Semiconductor Mission 2.0",
+        detail:
+          "India Semiconductor Mission 2.0 announced with hiked electronics outlay, alongside a Rare Earth Corridor initiative for critical mineral processing",
+      },
+      {
+        key: "Revenue Deficit",
+        detail:
+          "Targeted at 1.5% of GDP for FY27 — same as FY26's revised estimate",
+      },
+      {
+        key: "GDP Growth",
+        detail:
+          "Real GDP growth for FY26 estimated at 7.4%; nominal growth for FY27 projected at 10%",
+      },
+    ],
+    syllabusLink:
+      "GS-3: Indian Economy — Government Budgeting, capital expenditure & infrastructure policy, fiscal consolidation roadmap (16th Finance Commission target: 3.5% fiscal deficit by 2030-31). Also useful for GS-2 as continuity of Budget-making institutional practice.",
+    prelimsPoints: [
+      "Budget 2026-27 = first Budget prepared in 'Kartavya Bhawan' (new building housing Finance Ministry offices).",
+      "FY27 fiscal deficit target: 4.3% of GDP; FY26 revised estimate: 4.4%.",
+      "16th Finance Commission recommended fiscal deficit reduction to 3.5% of GDP by 2030-31 for the Centre, and 3% of GSDP annually for states.",
+      "Capital expenditure FY27: ₹12.2 lakh crore — record high, 4.4% of GDP.",
+      "Debt-to-GDP target: ~50% by March 2031 (currently 55.6% in BE 2026-27).",
+    ],
+    mainsAngle:
+      "Budget 2026-27's decision to hold income-tax slabs steady while sharply raising capital expenditure signals a shift in policy emphasis from consumption-side stimulus (seen in Budget 2025) toward supply-side, infrastructure-led growth — reflecting the government's calculated bet that public capex crowds in private investment more effectively at this stage of the fiscal consolidation glide path recommended by the 16th Finance Commission.",
+    mainsGS:
+      "GS-3 — Indian Economy (Fiscal Policy, Capital Expenditure & Infrastructure)",
+    recall: [
+      "3 Kartavyas: Growth, Capacity, Inclusion",
+      "Tax slabs UNCHANGED from 2025",
+      "Income Tax Act 2025 — effective April 1, 2026",
+      "FY27 fiscal deficit target: 4.3%",
+      "Capex: ₹12.2 lakh crore (record, 4.4% of GDP)",
+      "Debt-to-GDP: 55.6% (target ~50% by 2031)",
+      "Biopharma SHAKTI — ₹10,000 cr / 5 yrs",
+      "Disinvestment target: ₹80,000 cr (1st rise in 5 yrs)",
+      "Semiconductor Mission 2.0",
+    ],
+  },
+};
+
+// ── js/data/gs3/economics/budget/index.js ──
+// Newspaper › Economics › Budget (combines all budget-year articles)
+const DATA_gs3_budget = {
+  id: "news-budget",
+  title: "Union Budget",
+  subtitle: "Yearly Budget Coverage",
+  icon: "💰",
+  children: [DATA_gs3_budget_2025, DATA_gs3_budget_2026],
+};
+
 // ── js/data/gs3/economics/index.js ──
 // GS3 › Economics (no content yet)
 const DATA_gs3_economics = {
   id: "gs3-economics",
   title: "Economics",
   icon: "💰",
-  children: [],
+  children: [DATA_gs3_budget],
 };
 
 // ── js/data/gs3/security/index.js ──
