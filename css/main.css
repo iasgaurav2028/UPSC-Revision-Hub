@@ -1,0 +1,11 @@
+/* ═══════════════════════════════════════════════════════════
+   MAIN.CSS — Single entry point, imports every stylesheet
+   index.html links ONLY this file. To add/edit styles, open the
+   individual file below (e.g. views.css for quiz/timeline styles)
+   — you never need to touch index.html again for CSS changes.
+   ═══════════════════════════════════════════════════════════ */
+@import url("variables.css");
+@import url("layout.css");
+@import url("components.css");
+@import url("views.css");
+@import url("responsive.css");

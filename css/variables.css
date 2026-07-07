@@ -1,0 +1,71 @@
+/* ═══════════════════════════════════════════════════════════
+   VARIABLES.CSS — Core design tokens & resets
+   This is the ONE file that almost never changes. It defines
+   the site's color palette, fonts, and baseline resets.
+   Edit this only if you want to change the overall color theme.
+   ═══════════════════════════════════════════════════════════ */
+
+:root {
+  --gold: #c9a84c;
+  --gold-light: #e8d5a3;
+  --gold-border: rgba(201, 168, 76, 0.18);
+  --gold-faint: rgba(201, 168, 76, 0.06);
+  --text: #c8d3e0;
+  --text-dim: rgba(200, 211, 224, 0.48);
+  --danger: #f87171;
+  --danger-bg: rgba(239, 68, 68, 0.06);
+  --danger-border: rgba(239, 68, 68, 0.22);
+  --accent: #93c5fd;
+  --accent-bg: rgba(96, 165, 250, 0.05);
+  --accent-border: rgba(96, 165, 250, 0.2);
+  --green: #4ade80;
+  --green-bg: rgba(74, 222, 128, 0.08);
+  --green-border: rgba(74, 222, 128, 0.3);
+  --bg-deep: #0a1628;
+  --bg-sidebar: #0d1b2e;
+  --bg-main: #0f1f35;
+  --bg-card: #13253f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background:
+    radial-gradient(
+      ellipse 80% 60% at 20% 0%,
+      rgba(201, 168, 76, 0.06),
+      transparent
+    ),
+    radial-gradient(
+      ellipse 60% 50% at 100% 100%,
+      rgba(96, 165, 250, 0.05),
+      transparent
+    ),
+    var(--bg-deep);
+  font-family: "EB Garamond", Georgia, serif;
+  color: var(--text);
+  -webkit-tap-highlight-color: transparent;
+}
+button,
+input {
+  font-family: inherit;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 168, 76, 0.25);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 168, 76, 0.4);
+}

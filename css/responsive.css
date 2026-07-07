@@ -1,3 +1,15 @@
+/* ═══════════════════════════════════════════════════════════
+   RESPONSIVE.CSS — Breakpoint overrides
+   Tablet (900px), small tablet/large phone (680px), small
+   phone (380px), and landscape-phone media queries.
+   NOTE: some component files (layout.css, components.css,
+   views.css) ALSO contain their own small inline media queries
+   right next to the feature they adjust — that's intentional,
+   so a component's mobile behavior stays next to its desktop
+   behavior. This file holds the broader, cross-cutting
+   breakpoint rules.
+   ═══════════════════════════════════════════════════════════ */
+
 /* ═══════════════════════════════════════════════════ */
 /* ═══════════ RESPONSIVE — LAPTOP / DESKTOP ═══════════ */
 /* Default styles above already target this (>900px)    */
