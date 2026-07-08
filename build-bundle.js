@@ -20,14 +20,24 @@
  * (Requires Node.js installed. If you don't have Node, ask Claude
  * to regenerate js/bundle.js for you after you share new content.)
  *
- * HOW TO ADD A NEW CHAPTER FILE:
+ * DATA files (DATA_* variables, tree content):
  *   1. Create your new file, e.g.
  *        js/data/gs2/polity/laxmikanth/part1/ch2/ch2.js
  *   2. Add its relative path to FILE_ORDER below, placed AFTER
- *      any files it depends on (e.g. after its own sub-files) and
- *      BEFORE the file that references it (e.g. part1/index.js).
+ *      any files it depends on and BEFORE the file that
+ *      references it (e.g. part1/index.js).
  *   3. Update that parent file's `children: [...]` array to
  *      include your new chapter's variable.
+ *
+ * QUIZ files (QUIZ_* variables, one file per topic — fully
+ * independent, never mutate a shared object):
+ *   1. Create quiz-<topicid>.js right next to that topic's content
+ *      file, e.g. .../ch2/quiz-ch2-someact.js, defining:
+ *        const QUIZ_ch2_someact = { title: "...", questions: [...] };
+ *   2. Add its path to FILE_ORDER below, BEFORE quiz-assembly.js.
+ *   3. Add one line to js/data/quiz-assembly.js:
+ *        "ch2-someact": QUIZ_ch2_someact,
+ *
  *   4. Run: node build-bundle.js
  */
 
@@ -64,9 +74,30 @@ const FILE_ORDER = [
   "js/data/gs2/polity/ncert/class11.js",
   "js/data/gs2/polity/ncert/class12.js",
   "js/data/gs2/polity/ncert/index.js",
+
+  // ── Chapter 1 content ──
   "js/data/gs2/polity/laxmikanth/part1/ch1/company-rule.js",
   "js/data/gs2/polity/laxmikanth/part1/ch1/crown-rule.js",
   "js/data/gs2/polity/laxmikanth/part1/ch1/ch1.js",
+  // ── Chapter 1 quizzes (each fully independent, one file per topic) ──
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-regulating1773.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-amending1781.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-pitts1784.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-act1786.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-charter1793.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-charter1813.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-charter1833.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-charter1853.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-govact1858.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-ica1861.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-ica1892.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-ica1909.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-govact1919.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-simon.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-communalaward.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-govact1935.js",
+  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-indep1947.js",
+
   "js/data/gs2/polity/laxmikanth/part1/index.js",
   "js/data/gs2/polity/laxmikanth/part2/index.js",
   "js/data/gs2/polity/laxmikanth/part3/index.js",
@@ -85,11 +116,19 @@ const FILE_ORDER = [
   "js/data/gs2/ir/index.js",
   "js/data/gs2/index.js",
 
+  // ── Budget content (lives under GS-3 > Economics, not Newspaper) ──
+  "js/data/gs3/economics/budget/budget-static-concepts.js",
+  "js/data/gs3/economics/budget/priority-groups-msme-stats.js",
   "js/data/gs3/economics/budget/budget-2025.js",
   "js/data/gs3/economics/budget/budget-2026.js",
+  // ── Budget quizzes (each fully independent, one file per topic) ──
+  "js/data/gs3/economics/budget/quiz-budget-static.js",
+  "js/data/gs3/economics/budget/quiz-budget-priority-groups.js",
+  "js/data/gs3/economics/budget/quiz-budget-2025.js",
+  "js/data/gs3/economics/budget/quiz-budget-2026.js",
   "js/data/gs3/economics/budget/index.js",
-  "js/data/gs3/economics/index.js",
 
+  "js/data/gs3/economics/index.js",
   "js/data/gs3/security/index.js",
   "js/data/gs3/scitech/index.js",
   "js/data/gs3/environment/index.js",
@@ -120,7 +159,7 @@ const FILE_ORDER = [
   "js/data/newspaper/index.js",
 
   "js/data/tree-assembly.js",
-  "js/data/quiz-data.js",
+  "js/data/quiz-assembly.js",
 
   "js/engine.js",
 ];

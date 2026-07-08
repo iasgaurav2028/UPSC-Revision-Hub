@@ -1,8 +1,13 @@
-// Newspaper › Economics › Budget (combines all budget-year articles)
-const DATA_news_budget = {
-  id: "news-budget",
+// GS3 › Economics › Budget (combines all budget-year content + static reference notes)
+const DATA_gs3_economics_budget = {
+  id: "gs3-economics-budget",
   title: "Union Budget",
   subtitle: "Yearly Budget Coverage",
   icon: "💰",
-  children: [DATA_gs3_budget_2025, DATA_gs3_budget_2026],
+  children: [
+    DATA_news_budget_static,
+    DATA_news_budget_priority_groups,
+    DATA_news_budget_2025,
+    DATA_news_budget_2026,
+  ],
 };

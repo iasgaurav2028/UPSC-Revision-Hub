@@ -1,6 +1,6 @@
 // Newspaper › Economics › Budget › Union Budget 2026-27
 // Presented Feb 1, 2026 by FM Nirmala Sitharaman — first Budget from Kartavya Bhawan
-const DATA_gs3_budget_2026 = {
+const DATA_news_budget_2026 = {
   id: "news-budget-2026",
   title: "Union Budget 2026-27",
   subtitle: "1 Feb 2026",

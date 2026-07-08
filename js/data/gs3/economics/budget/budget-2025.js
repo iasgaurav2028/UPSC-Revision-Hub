@@ -1,6 +1,6 @@
 // Newspaper › Economics › Budget › Union Budget 2025-26
 // Presented 1 Feb 2025 by FM Nirmala Sitharaman — her 8th consecutive Budget (a record)
-const DATA_gs3_budget_2025 = {
+const DATA_news_budget_2025 = {
   id: "news-budget-2025",
   title: "Union Budget 2025-26",
   subtitle: "1 Feb 2025",
