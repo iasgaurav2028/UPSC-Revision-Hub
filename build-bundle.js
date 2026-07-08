@@ -2,196 +2,96 @@
 /**
  * build-bundle.js
  * ─────────────────────────────────────────────────────────────
- * Concatenates every source JS file (in js/data/... plus
- * js/engine.js) into a single js/bundle.js, in the correct
- * dependency order (children before parents).
+ * Concatenates every source JS file under js/data/ (plus
+ * js/engine.js) into a single js/bundle.js.
  *
- * WHY THIS EXISTS:
- * Browsers can't safely auto-discover and load 70+ small JS files
- * via file:// without a build step or a server. Instead, we keep
- * many small SOURCE files (organized in chapter folders, easy to
- * edit) and pre-build them into one bundle.js that index.html
- * actually links. Run this script again any time you add or edit
- * a data file, then re-open index.html.
+ * File order is now AUTOMATIC — computed from a dependency graph
+ * (see scan-data.js), not a hand-maintained list. Every file that
+ * declares `const DATA_x = {...}` or `const QUIZ_x = {...}` is
+ * scanned; any OTHER file that mentions DATA_x/QUIZ_x is treated
+ * as depending on it, and will always be placed later in the
+ * bundle. You never need to edit this file when adding new
+ * chapters or quizzes.
  *
  * HOW TO RUN (from this project's root folder):
  *   node build-bundle.js
  *
- * (Requires Node.js installed. If you don't have Node, ask Claude
- * to regenerate js/bundle.js for you after you share new content.)
+ * HOW TO ADD NEW CONTENT (no changes needed here):
+ *   DATA files:
+ *     1. Create your new file anywhere under js/data/, e.g.
+ *          js/data/gs2/polity/laxmikanth/part1/ch2/ch2.js
+ *        declaring: const DATA_ch2 = { id: "ch2", ..., children: [...] };
+ *     2. Add DATA_ch2 into its parent's `children: [...]` array
+ *        (e.g. part1/index.js's DATA_lax_part1.children).
  *
- * DATA files (DATA_* variables, tree content):
- *   1. Create your new file, e.g.
- *        js/data/gs2/polity/laxmikanth/part1/ch2/ch2.js
- *   2. Add its relative path to FILE_ORDER below, placed AFTER
- *      any files it depends on and BEFORE the file that
- *      references it (e.g. part1/index.js).
- *   3. Update that parent file's `children: [...]` array to
- *      include your new chapter's variable.
+ *   QUIZ files:
+ *     1. Create quiz-<topicid>.js next to that topic's content file,
+ *        declaring: const QUIZ_ch2_someact = { title, questions };
+ *     2. Add one line to js/data/quiz-assembly.js:
+ *          "ch2-someact": QUIZ_ch2_someact,
  *
- * QUIZ files (QUIZ_* variables, one file per topic — fully
- * independent, never mutate a shared object):
- *   1. Create quiz-<topicid>.js right next to that topic's content
- *      file, e.g. .../ch2/quiz-ch2-someact.js, defining:
- *        const QUIZ_ch2_someact = { title: "...", questions: [...] };
- *   2. Add its path to FILE_ORDER below, BEFORE quiz-assembly.js.
- *   3. Add one line to js/data/quiz-assembly.js:
- *        "ch2-someact": QUIZ_ch2_someact,
+ *   Then just run: node build-bundle.js
+ *   (No FILE_ORDER list to maintain — this script figures out the
+ *   correct load order by itself from what each file declares vs.
+ *   references.)
  *
- *   4. Run: node build-bundle.js
+ * If the scan finds a problem (a typo'd reference, a duplicate
+ * declaration, a circular dependency), it will stop and print a
+ * clear error instead of silently producing a broken bundle.
+ * Run `node validate.js` for a deeper integrity check (tree/quiz
+ * consistency, orphaned nodes, missing quizzes, etc).
  */
 
 const fs = require("fs");
 const path = require("path");
-
-// ─────────────────────────────────────────────────────────────
-// FILE_ORDER — the exact load order. Data files must appear
-// BEFORE any file that references their DATA_* variable.
-// engine.js always goes last (it reads TREE_DATA/QUIZ_DATA).
-// ─────────────────────────────────────────────────────────────
-const FILE_ORDER = [
-  "js/data/syllabus/index.js",
-
-  "js/data/gs1/history/ancient.js",
-  "js/data/gs1/history/medieval.js",
-  "js/data/gs1/history/modern.js",
-  "js/data/gs1/history/index.js",
-  "js/data/gs1/geography/ncert/class6.js",
-  "js/data/gs1/geography/ncert/class7.js",
-  "js/data/gs1/geography/ncert/class8.js",
-  "js/data/gs1/geography/ncert/class9.js",
-  "js/data/gs1/geography/ncert/class10.js",
-  "js/data/gs1/geography/ncert/class11.js",
-  "js/data/gs1/geography/ncert/class12.js",
-  "js/data/gs1/geography/ncert/index.js",
-  "js/data/gs1/geography/index.js",
-  "js/data/gs1/society/index.js",
-  "js/data/gs1/culture/index.js",
-  "js/data/gs1/index.js",
-
-  "js/data/gs2/polity/ncert/class9.js",
-  "js/data/gs2/polity/ncert/class10.js",
-  "js/data/gs2/polity/ncert/class11.js",
-  "js/data/gs2/polity/ncert/class12.js",
-  "js/data/gs2/polity/ncert/index.js",
-
-  // ── Chapter 1 content ──
-  "js/data/gs2/polity/laxmikanth/part1/ch1/company-rule.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/crown-rule.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/ch1.js",
-  // ── Chapter 1 quizzes (each fully independent, one file per topic) ──
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-regulating1773.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-amending1781.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-pitts1784.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-act1786.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-charter1793.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-charter1813.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-charter1833.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-charter1853.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-govact1858.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-ica1861.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-ica1892.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-ica1909.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-govact1919.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-simon.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-communalaward.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-govact1935.js",
-  "js/data/gs2/polity/laxmikanth/part1/ch1/quiz-ch1-indep1947.js",
-
-  "js/data/gs2/polity/laxmikanth/part1/index.js",
-  "js/data/gs2/polity/laxmikanth/part2/index.js",
-  "js/data/gs2/polity/laxmikanth/part3/index.js",
-  "js/data/gs2/polity/laxmikanth/part4/index.js",
-  "js/data/gs2/polity/laxmikanth/part5/index.js",
-  "js/data/gs2/polity/laxmikanth/part6/index.js",
-  "js/data/gs2/polity/laxmikanth/part7/index.js",
-  "js/data/gs2/polity/laxmikanth/part8/index.js",
-  "js/data/gs2/polity/laxmikanth/part9/index.js",
-  "js/data/gs2/polity/laxmikanth/part10/index.js",
-  "js/data/gs2/polity/laxmikanth/part11/index.js",
-  "js/data/gs2/polity/laxmikanth/part12/index.js",
-  "js/data/gs2/polity/laxmikanth/part13/index.js",
-  "js/data/gs2/polity/laxmikanth/index.js",
-  "js/data/gs2/polity/index.js",
-  "js/data/gs2/ir/index.js",
-  "js/data/gs2/index.js",
-
-  // ── Budget content (lives under GS-3 > Economics, not Newspaper) ──
-  "js/data/gs3/economics/budget/budget-static-concepts.js",
-  "js/data/gs3/economics/budget/priority-groups-msme-stats.js",
-  "js/data/gs3/economics/budget/budget-2025.js",
-  "js/data/gs3/economics/budget/budget-2026.js",
-  // ── Budget quizzes (each fully independent, one file per topic) ──
-  "js/data/gs3/economics/budget/quiz-budget-static.js",
-  "js/data/gs3/economics/budget/quiz-budget-priority-groups.js",
-  "js/data/gs3/economics/budget/quiz-budget-2025.js",
-  "js/data/gs3/economics/budget/quiz-budget-2026.js",
-  "js/data/gs3/economics/budget/index.js",
-
-  "js/data/gs3/economics/index.js",
-  "js/data/gs3/security/index.js",
-  "js/data/gs3/scitech/index.js",
-  "js/data/gs3/environment/index.js",
-  "js/data/gs3/disaster/index.js",
-  "js/data/gs3/index.js",
-
-  "js/data/gs4/ethics/index.js",
-  "js/data/gs4/integrity/index.js",
-  "js/data/gs4/attitude/index.js",
-  "js/data/gs4/index.js",
-
-  "js/data/essay/index.js",
-
-  "js/data/newspaper/polity/2026-07-05-sc-collegium.js",
-  "js/data/newspaper/history/index.js",
-  "js/data/newspaper/geography/index.js",
-  "js/data/newspaper/society/index.js",
-  "js/data/newspaper/culture/index.js",
-  "js/data/newspaper/polity/index.js",
-  "js/data/newspaper/ir/index.js",
-  "js/data/newspaper/economics/index.js",
-  "js/data/newspaper/security/index.js",
-  "js/data/newspaper/scitech/index.js",
-  "js/data/newspaper/environment/index.js",
-  "js/data/newspaper/disaster/index.js",
-  "js/data/newspaper/ethics/index.js",
-  "js/data/newspaper/misc/index.js",
-  "js/data/newspaper/index.js",
-
-  "js/data/tree-assembly.js",
-  "js/data/quiz-assembly.js",
-
-  "js/engine.js",
-];
+const { scanDataFiles, topoSortFiles } = require("./scan-data.js");
 
 const root = __dirname;
-let output = `// ═══════════════════════════════════════════════════════════
+const dataDir = path.join(root, "js", "data");
+const engineFile = path.join(root, "js", "engine.js");
+const outFile = path.join(root, "js", "bundle.js");
+
+function main() {
+  console.log("Scanning js/data/ ...");
+  const records = scanDataFiles(dataDir);
+  console.log(`Found ${records.length} data file(s).`);
+
+  let sorted;
+  try {
+    sorted = topoSortFiles(records);
+  } catch (err) {
+    console.error("❌ Could not determine a safe file order:\n");
+    console.error("   " + err.message.replace(/\n/g, "\n   "));
+    console.error("\nBundle NOT written. Fix the issue above and re-run.");
+    process.exit(1);
+  }
+
+  let output = `// ═══════════════════════════════════════════════════════════
 // BUNDLE.JS — Auto-generated by build-bundle.js. DO NOT EDIT DIRECTLY.
-// Edit the source files under js/data/ or js/engine.js instead,
-// then re-run: node build-bundle.js
+// File order was computed automatically from a dependency graph —
+// see scan-data.js. Edit the source files under js/data/ or
+// js/engine.js instead, then re-run: node build-bundle.js
 // ═══════════════════════════════════════════════════════════
 
 `;
 
-let missingFiles = [];
-for (const relPath of FILE_ORDER) {
-  const fullPath = path.join(root, relPath);
-  if (!fs.existsSync(fullPath)) {
-    missingFiles.push(relPath);
-    continue;
+  for (const record of sorted) {
+    output += `// ── ${record.relPath} ──\n`;
+    output += fs.readFileSync(record.path, "utf8");
+    output += "\n";
   }
-  output += `// ── ${relPath} ──\n`;
-  output += fs.readFileSync(fullPath, "utf8");
-  output += "\n";
+
+  if (!fs.existsSync(engineFile)) {
+    console.error("❌ js/engine.js not found. Bundle NOT written.");
+    process.exit(1);
+  }
+  output += `// ── js/engine.js ──\n`;
+  output += fs.readFileSync(engineFile, "utf8");
+
+  fs.writeFileSync(outFile, output, "utf8");
+  console.log(
+    `✅ js/bundle.js written (${sorted.length} data files + engine.js, ${output.length} chars)`,
+  );
 }
 
-if (missingFiles.length > 0) {
-  console.error("❌ Missing files, bundle NOT written:");
-  missingFiles.forEach((f) => console.error("   -", f));
-  process.exit(1);
-}
-
-fs.writeFileSync(path.join(root, "js", "bundle.js"), output, "utf8");
-console.log(
-  `✅ js/bundle.js written (${FILE_ORDER.length} files combined, ${output.length} chars)`,
-);
+main();
