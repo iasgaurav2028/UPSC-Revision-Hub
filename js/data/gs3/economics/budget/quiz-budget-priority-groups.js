@@ -1,6 +1,4 @@
-// Quiz for: news-budget-priority-groups (20 MCQs)
-// Fully self-contained — defines its own constant, no shared-object
-// mutation, no dependency on any other quiz file.
+// Quiz for: news-budget-priority-groups (20 questions, UPSC Prelims-style)
 const QUIZ_news_budget_priority_groups = {
   title: "4 Priority Groups & MSME Stats",
   questions: [
@@ -9,10 +7,10 @@ const QUIZ_news_budget_priority_groups = {
       options: ["Two", "Three", "Four", "Five"],
       correct: 2,
       explain:
-        "Union Budgets since 2023-24 have consistently framed welfare spending around 4 priority groups.",
+        "Union Budgets since around 2023-24 have consistently framed welfare spending around 4 priority groups.",
     },
     {
-      q: "Which of the following is NOT one of the 4 priority groups in recent Union Budgets?",
+      q: "Which of the following is NOT one of the 4 priority groups referenced in recent Union Budgets?",
       options: [
         "Garib (Poor)",
         "Yuva (Youth)",
@@ -21,24 +19,17 @@ const QUIZ_news_budget_priority_groups = {
       ],
       correct: 3,
       explain:
-        "The 4 groups are Garib, Yuva, Annadata, and Nari — senior citizens ('Praudh') are not part of this specific framing.",
+        "The 4 groups are Garib, Yuva, Annadata, and Nari — senior citizens are NOT part of this specific framing, a common distractor.",
     },
     {
-      q: "'Annadata' as a priority group in Union Budgets refers to:",
-      options: ["Youth", "Farmers", "Women", "Urban poor"],
-      correct: 1,
-      explain:
-        "'Annadata' (literally 'giver of food') refers to farmers, the group targeted by agricultural schemes.",
-    },
-    {
-      q: "'Nari' as a priority group in Union Budgets refers to:",
-      options: ["Farmers", "Youth", "Women", "Senior citizens"],
+      q: "Consider the following statements regarding the '4 priority groups' framework:\nI. 'Annadata' refers to farmers.\nII. 'Nari' refers to women.\nWhich of the statements given above is/are correct?",
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
-        "'Nari' refers to women, targeted through financial inclusion, entrepreneurship support, and safety-related schemes.",
+        "Both statements are correct — these are two of the four groups in the framework (alongside Garib and Yuva).",
     },
     {
-      q: "Which scheme is most directly associated with the 'Annadata' priority group in Budget 2025-26?",
+      q: "Which scheme is most directly associated with the 'Annadata' priority group in recent Budgets?",
       options: [
         "Atal Tinkering Labs",
         "PM Dhan-Dhaanya Krishi Yojana",
@@ -47,7 +38,19 @@ const QUIZ_news_budget_priority_groups = {
       ],
       correct: 1,
       explain:
-        "The PM Dhan-Dhaanya Krishi Yojana is an agricultural scheme, directly aligned with the 'Annadata' (farmer) priority group.",
+        "The PM Dhan-Dhaanya Krishi Yojana, an agricultural scheme, aligns directly with the 'Annadata' (farmer) priority group.",
+    },
+    {
+      q: "Assertion (A): MSMEs are considered disproportionately important to India's manufacturing and export sectors relative to their overall GDP contribution.\nReason (R): MSMEs contribute approximately 30% to GDP but approximately 45% each to manufacturing output and exports.\nWhich one of the following is correct?",
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R directly explains A — the gap between the lower GDP share (~30%) and higher manufacturing/export shares (~45% each) is exactly the evidence for this disproportionate importance.",
     },
     {
       q: "MSMEs contribute approximately what share of India's GDP?",
@@ -63,96 +66,97 @@ const QUIZ_news_budget_priority_groups = {
         "MSMEs account for approximately 45% of India's total manufacturing output.",
     },
     {
-      q: "MSMEs contribute approximately what share of India's total exports?",
-      options: ["25%", "35%", "45%", "55%"],
+      q: "Consider the following statements regarding MSME contribution figures:\nI. MSMEs contribute approximately 45% to India's total exports.\nII. MSMEs' export contribution is higher than their GDP contribution.\nWhich of the statements given above is/are correct?",
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
-      explain: "MSMEs contribute approximately 45% of India's total exports.",
+      explain:
+        "Both statements are correct — export contribution (~45%) genuinely exceeds GDP contribution (~30%), a frequently tested comparative fact.",
     },
     {
-      q: "Which of the following MSME statistics is INCORRECTLY matched?",
+      q: "Which of the following MSME statistics is INCORRECTLY stated?",
       options: [
-        "GDP contribution — ~30%",
-        "Manufacturing output share — ~45%",
-        "Export share — ~45%",
-        "Employment generation — ~90%",
+        "GDP contribution — approximately 30%",
+        "Manufacturing output share — approximately 45%",
+        "Export share — approximately 45%",
+        "Employment contribution — approximately 90% of GDP",
       ],
       correct: 3,
       explain:
-        "While MSMEs are major employers, the commonly cited figures for this framework are GDP (~30%), manufacturing output (~45%), and exports (~45%) — 'employment ~90%' is not one of the standard cited statistics here.",
+        "This option is incorrect and thus the answer — '90% of GDP' conflates unrelated figures; it is not one of the standard cited MSME statistics in this framework.",
     },
     {
-      q: "The 4 priority-group framing (Garib, Yuva, Annadata, Nari) primarily reflects which policy approach?",
+      q: "The 4 priority-group framing (Garib, Yuva, Annadata, Nari) primarily reflects which broader policy approach?",
       options: [
-        "Universal basic income",
+        "Universal basic income for all citizens",
         "Targeted, demographic-based welfare architecture",
-        "Complete privatisation of welfare",
-        "Uniform subsidy across all citizens",
+        "Complete privatisation of welfare delivery",
+        "A uniform subsidy applied equally to all citizens",
       ],
       correct: 1,
       explain:
-        "This framing reflects a shift toward targeted, demographic-based welfare rather than universal schemes.",
+        "This framing reflects a shift toward targeted, demographic-based welfare architecture, as opposed to universal or uniform approaches.",
     },
     {
-      q: "Which priority group is primarily addressed through skilling missions and employment-linked incentives?",
+      q: "Which priority group is primarily addressed through skilling missions, education infrastructure, and employment-linked incentives?",
       options: ["Garib", "Yuva", "Annadata", "Nari"],
       correct: 1,
       explain:
         "'Yuva' (youth) is addressed through skilling missions, education infrastructure, and employment-linked incentives.",
     },
     {
-      q: "Government schemes targeting poverty alleviation and food security fall under which priority group?",
+      q: "Government schemes targeting poverty alleviation, food security, and direct benefit transfers primarily fall under which priority group?",
       options: ["Garib", "Yuva", "Annadata", "Nari"],
       correct: 0,
       explain:
-        "'Garib' (poor) covers poverty alleviation, food security, and direct benefit transfer schemes.",
+        "'Garib' (poor) is the priority group associated with poverty alleviation, food security, and direct benefit transfer schemes.",
     },
     {
       q: "MSME's contribution to manufacturing output (~45%) is closest in scale to its contribution to:",
       options: [
         "GDP (~30%)",
         "Exports (~45%)",
-        "Foreign Direct Investment",
-        "Government revenue",
+        "Foreign Direct Investment inflows",
+        "Central Government revenue",
       ],
       correct: 1,
       explain:
-        "MSME's manufacturing output share (~45%) and export share (~45%) are roughly equal, both higher than its GDP share (~30%).",
+        "MSME's manufacturing output share (~45%) and export share (~45%) are roughly equal — both notably higher than its GDP share of ~30%.",
     },
     {
-      q: "Which of the following is the LOWEST among the three commonly cited MSME statistics?",
+      q: "Among the three commonly cited MSME statistics (GDP contribution, manufacturing output share, export share), which is the LOWEST?",
       options: [
         "GDP contribution",
         "Manufacturing output share",
         "Export share",
-        "All three are equal",
+        "All three are exactly equal",
       ],
       correct: 0,
       explain:
-        "GDP contribution (~30%) is the lowest of the three, compared to manufacturing output (~45%) and exports (~45%).",
+        "GDP contribution (~30%) is the lowest of the three, notably below manufacturing output share and export share (~45% each).",
     },
     {
-      q: "The 4 priority groups framing is most relevant to which GS paper for Mains?",
+      q: "The 4 priority groups framing is most directly relevant to which GS Paper(s) for Mains preparation?",
       options: [
         "GS-1 only",
         "GS-2 and GS-3 (Welfare policy, Inclusive growth)",
         "GS-4 only",
-        "Essay only, not GS papers",
+        "It has no relevance to any GS paper",
       ],
       correct: 1,
       explain:
-        "This framing is relevant to GS-2 (Social Justice/Welfare) and GS-3 (Inclusive Growth), and is also useful for Essay.",
+        "This framing is relevant to GS-2 (Social Justice/Welfare) and GS-3 (Inclusive Growth), and is also useful for Essay writing.",
     },
     {
-      q: "A UPSC question asking 'which is NOT one of the 4 priority groups' would most likely test confusion with which added term?",
+      q: "A UPSC-style distractor option asking 'which is NOT one of the 4 priority groups' would most plausibly include which added, non-genuine term?",
       options: [
-        "Senior citizens or differently-abled",
-        "Kisan",
+        "Senior citizens or differently-abled persons",
+        "Kisan (as an alternate label for Annadata)",
         "Government employees",
         "Urban middle class",
       ],
       correct: 0,
       explain:
-        "Distractor options often use plausible-sounding groups like senior citizens or differently-abled persons, which are NOT part of the specific 4-group framing.",
+        "Distractors commonly include plausible-sounding but NOT genuinely part of the 4-group framing, such as senior citizens or differently-abled persons.",
     },
     {
       q: "MSME stands for:",
@@ -166,30 +170,30 @@ const QUIZ_news_budget_priority_groups = {
       explain: "MSME stands for Micro, Small and Medium Enterprises.",
     },
     {
-      q: "Which priority group's schemes are most likely to include entrepreneurship support and financial inclusion measures?",
+      q: "Which priority group's associated schemes are most likely to emphasise entrepreneurship support and financial inclusion?",
       options: ["Garib", "Yuva", "Annadata", "Nari"],
       correct: 3,
       explain:
-        "'Nari' (women) schemes commonly emphasise financial inclusion and entrepreneurship support alongside safety.",
+        "'Nari' (women) schemes commonly emphasise financial inclusion and entrepreneurship support, alongside safety-related measures.",
     },
     {
-      q: "The framing of Budget welfare spending around 4 priority groups first became a consistent feature from around which Budget year?",
+      q: "The consistent use of the 4-priority-group framing across Union Budgets became a notable, recurring feature from approximately which Budget year onward?",
       options: ["2019-20", "2021-22", "2023-24", "2025-26"],
       correct: 2,
       explain:
-        "This 4-group framing has been consistently used since around the 2023-24 Budget onward.",
+        "This 4-group framing became a consistent, recurring feature from around the 2023-24 Budget onward.",
     },
     {
-      q: "Considering MSME's roughly 30% GDP share against its roughly 45% share of exports and manufacturing output, which inference is most reasonable?",
+      q: "Considering that MSME's export and manufacturing shares (~45% each) considerably exceed its GDP share (~30%), which of the following inferences is MOST reasonable?",
       options: [
-        "MSMEs are disproportionately export- and manufacturing-intensive relative to their overall GDP share",
-        "MSMEs contribute nothing to services",
-        "MSMEs and large enterprises have identical export shares",
-        "GDP share always equals export share for any sector",
+        "MSMEs are disproportionately concentrated in, and important to, manufacturing and export activity relative to their overall economic footprint",
+        "MSMEs contribute nothing to the services sector",
+        "Large enterprises and MSMEs have identical export shares",
+        "A sector's GDP share must always equal its export share",
       ],
       correct: 0,
       explain:
-        "The gap between MSME's GDP share (~30%) and its much higher manufacturing/export shares (~45% each) suggests MSMEs are disproportionately concentrated in and important to manufacturing and export activity relative to their overall economic footprint.",
+        "The clear gap between MSME's overall GDP share and its much higher manufacturing/export shares supports the inference that MSMEs are disproportionately significant specifically within manufacturing and export activity.",
     },
   ],
 };

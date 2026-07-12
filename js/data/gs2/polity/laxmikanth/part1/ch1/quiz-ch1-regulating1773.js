@@ -1,228 +1,225 @@
-// Quiz for: ch1-regulating1773 (20 MCQs)
-// Fully self-contained — defines its own constant, no shared-object
-// mutation, no dependency on any other quiz file.
+// Quiz for: ch1-regulating1773 (20 questions, UPSC Prelims-style)
+// Single unified set — statement-based, pair-matching, assertion-reason,
+// application, and direct questions are all mixed together, not separated
+// by "type". Rendered as standard 4-option single-select.
 const QUIZ_ch1_regulating1773 = {
   title: "Regulating Act of 1773",
   questions: [
     {
-      q: "The Regulating Act of 1773 is considered a landmark because it:",
+      q: [
+        "With reference to the Regulating Act of 1773, consider the following statements:",
+        "I. It was the first by the British Parliament to regulate the affairs of the East India Company.",
+        "II. It made the Governors of Bombay and Madras fully independent of Bengal.",
+        "III. It laid the foundation of central administration in British India.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I and III only", "II only", "I, II and III", "I only"],
+      correct: 0,
+      explain:
+        "Statement II is incorrect — the Act made Bombay and Madras SUBORDINATE to Bengal, the opposite of independence. Statements I and III are correct.",
+    },
+    {
+      q: "The Governor of Bengal was designated as the 'Governor-General of Bengal' under which Act?",
       options: [
-        "Established the first Supreme Court in Madras",
-        "First recognised the political and administrative functions of the East India Company",
-        "Introduced the dyarchy system in Bengal",
-        "Ended the East India Company's trade monopoly",
+        "Pitt's India Act, 1784",
+        "Regulating Act, 1773",
+        "Charter Act, 1833",
+        "Charter Act, 1793",
       ],
       correct: 1,
       explain:
-        "The Act was the first British legislative step to recognise the Company's political/administrative role, distinct from its purely commercial character.",
+        "The Regulating Act of 1773 first created the office of Governor-General of Bengal.",
     },
     {
-      q: "Who was designated as the first Governor-General of Bengal under the Regulating Act of 1773?",
+      q: "Consider the following pairs:\nOffice — First Holder\nI. Governor-General of Bengal — Warren Hastings\nII. Governor-General of India — Lord Canning\nIII. Viceroy of India — Lord William Bentinck\nHow many of the above pairs are correctly matched?",
       options: [
-        "Lord Cornwallis",
-        "Lord William Bentinck",
-        "Warren Hastings",
-        "Lord Canning",
+        "Only one pair",
+        "Only two pairs",
+        "All three pairs",
+        "None of the pairs",
+      ],
+      correct: 0,
+      explain:
+        "Only pair I is correct. Pair II is wrong (Lord William Bentinck was the first Governor-General of India, not Canning). Pair III is wrong (Lord Canning was the first Viceroy, not Bentinck).",
+    },
+    {
+      q: "Assertion (A): The Supreme Court at Calcutta began functioning only in 1774, though the Regulating Act was passed in 1773.\nReason (R): The Act required a one-year transition period before any of its judicial provisions could take effect.\nWhich one of the following is correct?",
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
       ],
       correct: 2,
       explain:
-        "Warren Hastings became the first Governor-General of Bengal — NOT of India. That distinct title came only with the Charter Act of 1833 (Bentinck).",
+        "A is factually correct — the Court was established in 1774, a year after the Act. However, R is a fabricated explanation; there was no such statutory 'transition period' clause — the gap was simply due to the practical time taken to set up the Court.",
     },
     {
-      q: "Under the Regulating Act of 1773, the Governor-General of Bengal was assisted by an Executive Council of how many members?",
+      q: "The Executive Council created to assist the Governor-General of Bengal under the Regulating Act, 1773 consisted of how many members?",
       options: ["Three", "Four", "Five", "Six"],
       correct: 1,
       explain:
         "A 4-member Executive Council was created to assist the Governor-General of Bengal.",
     },
     {
-      q: "Before the Regulating Act of 1773, the relationship between the Bombay, Madras and Bengal Presidencies was:",
+      q: "Prior to the Regulating Act of 1773, the relationship among the Bengal, Bombay, and Madras Presidencies could best be described as:",
       options: [
-        "Bengal was subordinate to Bombay",
-        "All three were independent of one another",
-        "Madras controlled both Bengal and Bombay",
-        "They were governed jointly by a single council",
+        "Bengal exercised supreme control over the other two",
+        "All three Presidencies functioned independently of one another",
+        "Madras exercised control over Bengal and Bombay",
+        "They were governed jointly by a single Governor-General",
       ],
       correct: 1,
       explain:
-        "Prior to 1773, all three presidencies functioned independently. The Act made Bombay and Madras subordinate to Bengal for the first time.",
+        "Before 1773, the three Presidencies operated independently. The Act subordinated Bombay and Madras to Bengal for the first time.",
     },
     {
-      q: "The Supreme Court established at Calcutta under the Regulating Act of 1773 was actually set up in the year:",
-      options: ["1772", "1773", "1774", "1775"],
-      correct: 2,
+      q: "With reference to the Supreme Court established at Calcutta under the Regulating Act, 1773, consider the following statements:\nI. It comprised one Chief Justice and three other judges.\nII. It was established in the same year the Act was passed.\nWhich of the statements given above is/are correct?",
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 0,
       explain:
-        "Though the Act was passed in 1773, the Supreme Court at Calcutta was actually established a year later, in 1774 — a classic UPSC year-trap.",
+        "Statement I is correct. Statement II is incorrect — the Act was passed in 1773, but the Court began functioning only in 1774.",
     },
     {
-      q: "The Supreme Court at Calcutta, as provided by the Regulating Act, comprised:",
+      q: "Which of the following was a feature of the Regulating Act, 1773?",
       options: [
-        "One Chief Justice and two other judges",
-        "One Chief Justice and three other judges",
-        "Two Chief Justices and one judge",
-        "A Chief Justice alone with no other judges",
+        "It permitted Company servants to engage in private trade with prior permission",
+        "It prohibited Company servants from accepting presents or bribes from 'natives'",
+        "It transferred the Company's territories to the British Crown",
+        "It created the Board of Control to oversee political affairs",
       ],
       correct: 1,
       explain:
-        "The Court comprised one Chief Justice and three other judges, as specified in the Act.",
+        "The Act explicitly prohibited Company servants from private trade and from accepting presents or bribes — the other options describe features of much later Acts (1858 and 1784 respectively).",
     },
     {
-      q: "Which of the following was NOT a feature of the Regulating Act of 1773?",
+      q: "Under the Regulating Act, 1773, the Court of Directors of the East India Company was required to report to the British Government on which of the following matters?\nI. Revenue affairs\nII. Civil affairs\nIII. Military affairs\nSelect the correct answer using the code given below:",
       options: [
-        "Prohibition on Company servants from private trade",
-        "Establishment of the Board of Control",
-        "Governor of Bengal designated as Governor-General of Bengal",
-        "Court of Directors required to report on revenue, civil and military affairs",
-      ],
-      correct: 1,
-      explain:
-        "The Board of Control was created later, by Pitt's India Act of 1784 — not by the Regulating Act of 1773.",
-    },
-    {
-      q: "The Regulating Act of 1773 prohibited Company servants from:",
-      options: [
-        "Marrying local Indian women",
-        "Learning local languages",
-        "Engaging in private trade or accepting bribes/presents from natives",
-        "Traveling outside Calcutta without permission",
-      ],
-      correct: 2,
-      explain:
-        "The Act explicitly barred Company servants from private trade and from accepting presents or bribes from 'natives.'",
-    },
-    {
-      q: "Which body's reporting obligations to the British Government were strengthened by the Regulating Act of 1773?",
-      options: [
-        "Board of Control",
-        "Court of Directors",
-        "Supreme Court of Calcutta",
-        "Governor-General's Executive Council",
-      ],
-      correct: 1,
-      explain:
-        "The Court of Directors (the Company's governing body) was required to report on revenue, civil, and military affairs in India to the British Government.",
-    },
-    {
-      q: "Consider the following statements about the Regulating Act of 1773:\n1. It was the first step by the British Government to regulate EIC affairs.\n2. It made Bombay and Madras superior to Bengal.\n3. It laid the foundation of central administration in India.\nWhich of the statements given above is/are correct?",
-      options: ["1 only", "1 and 3 only", "2 and 3 only", "1, 2 and 3"],
-      correct: 1,
-      explain:
-        "Statement 2 is incorrect — the Act made Bombay and Madras SUBORDINATE to Bengal, not superior. Statements 1 and 3 are both correct.",
-    },
-    {
-      q: "The first Governor-General of India (as distinct from Bengal) was appointed under which Act?",
-      options: [
-        "Regulating Act 1773",
-        "Pitt's India Act 1784",
-        "Charter Act 1833",
-        "Government of India Act 1858",
-      ],
-      correct: 2,
-      explain:
-        "Lord William Bentinck became the first Governor-General of INDIA under the Charter Act of 1833 — a different office from the 1773 'Governor-General of Bengal.'",
-    },
-    {
-      q: "Which of the following pairs is correctly matched?",
-      options: [
-        "Warren Hastings — First Viceroy of India",
-        "Warren Hastings — First Governor-General of Bengal",
-        "Warren Hastings — First Governor-General of India",
-        "Warren Hastings — First Chief Justice of Calcutta Supreme Court",
-      ],
-      correct: 1,
-      explain:
-        "Warren Hastings was the first Governor-General of BENGAL (1773), not of India, and not Viceroy (that was Lord Canning, 1858).",
-    },
-    {
-      q: "The Regulating Act of 1773 is significant primarily because it marked:",
-      options: [
-        "The end of Company rule in India",
-        "The first Parliamentary attempt to control and regulate the East India Company",
-        "The transfer of power to the British Crown",
-        "The introduction of provincial autonomy",
-      ],
-      correct: 1,
-      explain:
-        "It was the FIRST step taken by British Parliament to regulate EIC's affairs — Crown takeover came much later, in 1858.",
-    },
-    {
-      q: "Under the Regulating Act, which Presidency's Governor was designated 'Governor-General'?",
-      options: ["Madras", "Bombay", "Bengal", "Agra"],
-      correct: 2,
-      explain:
-        "The Governor of Bengal was designated as 'Governor-General of Bengal' under the 1773 Act.",
-    },
-    {
-      q: "The Regulating Act of 1773 required which body to report on the Company's revenue, civil and military affairs to the British Government?",
-      options: [
-        "Board of Control",
-        "Supreme Court",
-        "Court of Directors",
-        "Governor-General-in-Council",
-      ],
-      correct: 2,
-      explain:
-        "The Court of Directors — the Company's own governing body — had to report to the British Government, strengthening Parliamentary oversight.",
-    },
-    {
-      q: "Which of the following is a correct statement regarding the Supreme Court established under the Regulating Act?",
-      options: [
-        "It was established in Bombay",
-        "It had jurisdiction only over revenue matters",
-        "It was established at Calcutta in 1774",
-        "It had only a Chief Justice with no other judges",
-      ],
-      correct: 2,
-      explain:
-        "The Supreme Court was established at Calcutta, and it began functioning in 1774 (one year after the Act was passed in 1773).",
-    },
-    {
-      q: "The Regulating Act of 1773 is often cited as having laid the foundation of:",
-      options: [
-        "Indian federalism",
-        "Central administration in India",
-        "Universal adult franchise",
-        "The Indian Judiciary's independence from the executive",
-      ],
-      correct: 1,
-      explain:
-        "One of its three key significances was laying the foundation of CENTRAL administration in British India.",
-    },
-    {
-      q: "Which of the following correctly describes the pre-1773 status of the three Presidencies?",
-      options: [
-        "Bengal was administratively supreme",
-        "They were independent of one another",
-        "Madras controlled revenue collection for all three",
-        "Bombay was the seat of the Supreme Court",
-      ],
-      correct: 1,
-      explain:
-        "Before 1773, Bengal, Bombay, and Madras Presidencies operated independently — the Regulating Act changed this by subordinating Bombay and Madras to Bengal.",
-    },
-    {
-      q: "The Regulating Act of 1773 recognised, for the first time, which functions of the East India Company?",
-      options: [
-        "Only its commercial functions",
-        "Its political and administrative functions",
-        "Its religious functions",
-        "Its military recruitment functions only",
-      ],
-      correct: 1,
-      explain:
-        "This was one of the Act's core significances — formal recognition of the Company's POLITICAL and ADMINISTRATIVE roles, not just commercial trading.",
-    },
-    {
-      q: "Which of the following statements about the Regulating Act of 1773 is INCORRECT?",
-      options: [
-        "It designated the Governor of Bengal as Governor-General of Bengal",
-        "It established a Supreme Court at Calcutta in 1774",
-        "It made Bombay and Madras subordinate to Bengal",
-        "It abolished the East India Company",
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III",
       ],
       correct: 3,
       explain:
-        "The East India Company was abolished only much later, by the Government of India Act of 1858 — not by the Regulating Act of 1773.",
+        "The Act required the Court of Directors to report on revenue, civil, AND military affairs — all three.",
+    },
+    {
+      q: "Which of the following statements about the significance of the Regulating Act, 1773 is NOT correct?",
+      options: [
+        "It was the first step by the British Government to control and regulate the East India Company",
+        "It abolished the East India Company's trading rights entirely",
+        "It recognised, for the first time, the Company's political and administrative functions",
+        "It laid the foundations of central administration in India",
+      ],
+      correct: 1,
+      explain:
+        "The Act did NOT abolish the Company's trading rights — the Company continued as a trading and administrative body until 1833 (commercial role ended) and 1858 (full Crown takeover).",
+    },
+    {
+      q: "A student claims: 'Since Warren Hastings governed British territories in India from Calcutta, he must have held the title of Governor-General of India.' Which of the following best evaluates this claim?",
+      options: [
+        "The claim is correct, since Bengal was the seat of British power",
+        "The claim is incorrect; Hastings held the title Governor-General of BENGAL only, a distinct and earlier office",
+        "The claim is correct, since 'Bengal' and 'India' were used interchangeably in 1773",
+        "The claim is incorrect, since Hastings never governed from Calcutta",
+      ],
+      correct: 1,
+      explain:
+        "This is a frequently tested distinction: Governor-General of Bengal (1773, Warren Hastings) is NOT the same office as Governor-General of India (created in 1833, first held by Lord William Bentinck).",
+    },
+    {
+      q: "Consider the following statements regarding the East India Company before and after the Regulating Act, 1773:\nI. Before 1773, the Company's functions were understood as purely commercial.\nII. The Act formally recognised the Company's political and administrative functions for the first time.\nWhich of the statements given above is/are correct?",
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both statements are correct — this shift in recognised function is one of the Act's three core significances.",
+    },
+    {
+      q: "Which of the following correctly lists the Presidencies made subordinate to Bengal under the Regulating Act, 1773?",
+      options: [
+        "Bombay and Madras",
+        "Bombay and Agra",
+        "Madras and Punjab",
+        "Bombay, Madras, and Agra",
+      ],
+      correct: 0,
+      explain:
+        "The Act subordinated the Bombay and Madras Presidencies to Bengal.",
+    },
+    {
+      q: "With reference to the constitutional history of British India, in which year was the Supreme Court at Calcutta established?",
+      options: ["1772", "1773", "1774", "1775"],
+      correct: 2,
+      explain:
+        "The Supreme Court at Calcutta was established in 1774, one year after the Regulating Act was passed in 1773 — a commonly tested year-trap.",
+    },
+    {
+      q: "Which one of the following best captures the overall constitutional significance of the Regulating Act, 1773?",
+      options: [
+        "It marked the beginning of Parliamentary oversight over the East India Company, shifting it from a purely trading body toward a political-administrative authority",
+        "It marked the complete transfer of Indian territories from Company rule to Crown rule",
+        "It introduced the first elected legislative body in British India",
+        "It ended the East India Company's monopoly over trade with China",
+      ],
+      correct: 0,
+      explain:
+        "This is the Act's defining significance — the FIRST step of Parliamentary control, not the complete/final transfer (that came only in 1858).",
+    },
+    {
+      q: "Consider the following statements:\nI. The Regulating Act, 1773 prohibited Company servants from accepting bribes from Indians.\nII. It provided that the Court of Directors need not report to the British Government on Company affairs.\nWhich of the statements given above is/are correct?",
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 0,
+      explain:
+        "Statement I is correct. Statement II is incorrect — the Act specifically REQUIRED the Court of Directors to report to the British Government, strengthening oversight, not weakening it.",
+    },
+    {
+      q: "The Regulating Act of 1773 is best understood, in the context of India's constitutional evolution, as:",
+      options: [
+        "The final act of British parliamentary control over the East India Company",
+        "The first in a series of Acts progressively increasing British Parliamentary control over the Company",
+        "An act primarily concerned with granting Indians representation in governance",
+        "An act that ended the East India Company's presence in Bengal",
+      ],
+      correct: 1,
+      explain:
+        "The Regulating Act was the FIRST of a long series of Acts (1781, 1784, 1793...1858) that progressively tightened British Parliamentary control over the Company.",
+    },
+    {
+      q: "Which of the following is/are correctly matched with respect to the Regulating Act, 1773?\nI. Executive Council — 4 members\nII. Supreme Court judges (other than Chief Justice) — 3\nIII. Year of establishment of Supreme Court — 1773\nSelect the correct answer using the code given below:",
+      options: [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III",
+      ],
+      correct: 0,
+      explain:
+        "I and II are correct. III is incorrect — the Supreme Court was established in 1774, not 1773 (the Act's passage year).",
+    },
+    {
+      q: "In the context of the Regulating Act, 1773, the term 'Governor-General-in-Council' initially referred to the Governor-General of Bengal acting together with:",
+      options: [
+        "The British Parliament",
+        "The 4-member Executive Council",
+        "The Supreme Court judges",
+        "The Court of Directors",
+      ],
+      correct: 1,
+      explain:
+        "'Governor-General-in-Council' refers to the Governor-General acting jointly with his 4-member Executive Council, as constituted under the 1773 Act.",
+    },
+    {
+      q: "Which of the following statements about the Regulating Act, 1773 is correct?",
+      options: [
+        "It gave the British Crown direct sovereignty over Company territories",
+        "It was passed after the Battle of Plassey but before the grant of Diwani",
+        "It strengthened British Government's control over Company affairs by mandating reports from the Court of Directors",
+        "It abolished the post of Governor of Bengal",
+      ],
+      correct: 2,
+      explain:
+        "The Act strengthened oversight via mandatory reporting. Crown sovereignty came only in 1813 (asserted) and 1858 (complete); Diwani was granted in 1765, before this Act; and the Act CREATED, not abolished, an enhanced Governor's post (as Governor-General).",
     },
   ],
 };

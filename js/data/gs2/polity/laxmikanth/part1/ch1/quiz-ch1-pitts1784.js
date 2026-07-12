@@ -1,131 +1,112 @@
-// Quiz for: ch1-pitts1784 (20 MCQs)
-// Fully self-contained — defines its own constant, no shared-object
-// mutation, no dependency on any other quiz file.
+// Quiz for: ch1-pitts1784 (20 questions, UPSC Prelims-style)
 const QUIZ_ch1_pitts1784 = {
   title: "Pitt's India Act of 1784",
   questions: [
     {
       q: "Pitt's India Act of 1784 was introduced in the British Parliament by:",
       options: [
-        "William Pitt, the British Prime Minister",
         "Lord Cornwallis",
+        "William Pitt, the British Prime Minister",
         "Warren Hastings",
         "Lord Canning",
       ],
+      correct: 1,
+      explain:
+        "The Act was introduced by the then British Prime Minister, William Pitt, hence its name.",
+    },
+    {
+      q: "Consider the following statements regarding Pitt's India Act of 1784:\nI. It distinguished, for the first time, between the commercial and political functions of the East India Company.\nII. It abolished the Court of Directors entirely.\nWhich of the statements given above is/are correct?",
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
-        "It was introduced by the then British Prime Minister, William Pitt, hence the name.",
+        "Statement I is correct. Statement II is incorrect — the Court of Directors was NOT abolished; it continued to manage the Company's commercial affairs.",
     },
     {
-      q: "The key distinction introduced by Pitt's India Act of 1784 was between:",
+      q: "Under Pitt's India Act of 1784, which body was newly created to manage the Company's political affairs?",
       options: [
-        "Central and provincial subjects",
-        "Commercial and political functions of the Company",
-        "Reserved and transferred subjects",
-        "Federal and concurrent powers",
-      ],
-      correct: 1,
-      explain:
-        "The Act distinguished for the first time between the Company's commercial functions and its political functions.",
-    },
-    {
-      q: "Under Pitt's India Act of 1784, commercial affairs of the Company were managed by:",
-      options: [
-        "The Board of Control",
-        "The Court of Directors",
-        "The Governor-General alone",
-        "The British Parliament directly",
-      ],
-      correct: 1,
-      explain:
-        "The Court of Directors continued to manage commercial affairs, while a new Board of Control managed political affairs.",
-    },
-    {
-      q: "The new body created by Pitt's India Act of 1784 to manage the Company's political affairs was called the:",
-      options: [
-        "Board of Control",
         "Council of India",
+        "Board of Control",
         "Secretary of State's Office",
         "Indian Legislative Council",
       ],
-      correct: 0,
+      correct: 1,
       explain:
-        "The Board of Control was newly created by this Act to oversee political affairs.",
+        "The Board of Control was newly created by this Act specifically to oversee the Company's political affairs.",
     },
     {
-      q: "The system established by Pitt's India Act of 1784, involving both the Court of Directors and the Board of Control, is known as:",
+      q: "The arrangement established by Pitt's India Act of 1784, under which the Court of Directors handled commerce while the Board of Control handled politics, is commonly referred to as:",
       options: [
         "Dyarchy",
         "Double Government",
-        "Provincial Autonomy",
         "Diarchy at the Centre",
+        "Provincial Autonomy",
       ],
       correct: 1,
       explain:
-        "This dual arrangement of commercial (Court of Directors) and political (Board of Control) control is termed 'Double Government'.",
+        "This dual arrangement is termed 'Double Government' — distinct from 'dyarchy', which refers to the later provincial/central power-sharing systems of 1919 and 1935.",
     },
     {
-      q: "Pitt's India Act of 1784 empowered the Board of Control to supervise:",
+      q: "Which of the following functions did the Board of Control exercise under Pitt's India Act of 1784?",
       options: [
-        "Only military operations",
-        "Civil, military and revenue operations of British possessions in India",
-        "Only revenue collection",
-        "Only the Supreme Court's functioning",
+        "Supervision of civil, military, and revenue operations of British possessions in India",
+        "Management of the Company's day-to-day trade in tea and textiles",
+        "Direct appointment of the Chief Justice of the Supreme Court",
+        "Framing of personal laws for Hindus and Muslims",
       ],
-      correct: 1,
+      correct: 0,
       explain:
-        "The Board of Control was empowered to supervise and direct all civil, military and revenue operations.",
+        "The Board of Control was empowered to supervise and direct all civil, military, and revenue operations of British possessions in India.",
     },
     {
-      q: "Which term did Pitt's India Act of 1784 first use to describe the Company's Indian territories?",
+      q: "Pitt's India Act of 1784 was the first Act to officially refer to the Company's Indian territories by which term?",
       options: [
-        "Crown colonies",
+        "Crown Colonies of India",
         "British possessions in India",
         "Indian Empire",
         "British Raj",
       ],
       correct: 1,
       explain:
-        "The Act was significant for first calling the Company's Indian territories 'British possessions in India'.",
+        "The Act was significant for first officially calling the Company's Indian territories 'British possessions in India'.",
     },
     {
-      q: "Pitt's India Act of 1784 is significant because it gave the British Government:",
+      q: "Assertion (A): Pitt's India Act of 1784 gave the British Government supreme control over the East India Company's political affairs.\nReason (R): The Act transferred all commercial functions of the Company to the Board of Control.\nWhich one of the following is correct?",
       options: [
-        "Complete ownership of Company profits",
-        "Supreme control over the Company's affairs and administration in India",
-        "The power to appoint the Chief Justice directly",
-        "Authority to dissolve the Company immediately",
-      ],
-      correct: 1,
-      explain:
-        "It gave the British Government supreme control over the Company's affairs and Indian administration, while commerce stayed with the Company.",
-    },
-    {
-      q: "Which of the following is NOT a feature of Pitt's India Act of 1784?",
-      options: [
-        "Creation of the Board of Control",
-        "Distinction between commercial and political functions",
-        "Establishment of the Supreme Court at Calcutta",
-        "System of double government",
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
       ],
       correct: 2,
       explain:
-        "The Supreme Court at Calcutta was established earlier, under the Regulating Act of 1773, not Pitt's India Act.",
+        "A is correct — the British Government gained supreme political control. However, R is false: commercial functions remained with the Court of Directors, NOT the Board of Control, which handled only political affairs.",
     },
     {
-      q: "The 'double government' system created by Pitt's India Act of 1784 was eventually ended by which Act?",
+      q: "Consider the following pairs regarding Pitt's India Act of 1784:\nBody — Function\nI. Court of Directors — Commercial affairs\nII. Board of Control — Political affairs\nHow many of the above pairs are correctly matched?",
       options: [
-        "Charter Act of 1833",
-        "Government of India Act of 1858",
-        "Indian Councils Act of 1861",
-        "Government of India Act of 1919",
+        "Only one pair",
+        "Both pairs",
+        "Neither pair",
+        "Cannot be determined",
       ],
       correct: 1,
       explain:
-        "Double government was ended by the Government of India Act of 1858, which abolished both the Court of Directors and Board of Control.",
+        "Both pairs are correctly matched — this is the core commercial/political division established by the Act.",
     },
     {
-      q: "Under Pitt's India Act of 1784, who retained control over the Company's trade and commerce?",
+      q: "Which of the following is a correct assessment of Pitt's India Act of 1784's place in India's constitutional evolution?",
+      options: [
+        "It marked the complete end of Company rule in India",
+        "It deepened British Parliamentary control over the Company's political functions, foreshadowing the eventual full Crown takeover in 1858",
+        "It was the first Act to introduce Indian representation in governance",
+        "It returned full autonomy to the Company free of British Government oversight",
+      ],
+      correct: 1,
+      explain:
+        "By separating and asserting authority over the Company's political functions while leaving commerce with the Company, the Act deepened British Parliamentary control — a trajectory that culminated in the Crown's full takeover in 1858.",
+    },
+    {
+      q: "Under Pitt's India Act of 1784, control over the Company's trade and commerce remained with:",
       options: [
         "The Board of Control",
         "The Court of Directors",
@@ -134,110 +115,121 @@ const QUIZ_ch1_pitts1784 = {
       ],
       correct: 1,
       explain:
-        "Commercial affairs remained with the Court of Directors, the Company's own governing body.",
+        "Commercial affairs remained with the Court of Directors, the Company's own governing body — only political oversight shifted to the new Board of Control.",
     },
     {
-      q: "Pitt's India Act of 1784 can be seen as a precursor to which later development?",
+      q: "The system of 'double government' introduced by Pitt's India Act of 1784 was eventually ended by which Act?",
       options: [
-        "Introduction of separate electorates",
-        "Full Crown takeover of Indian administration in 1858",
-        "Provincial autonomy in 1937",
-        "Formation of the Constituent Assembly",
+        "Charter Act of 1833",
+        "Government of India Act of 1858",
+        "Indian Councils Act of 1861",
+        "Government of India Act of 1919",
       ],
       correct: 1,
       explain:
-        "By giving the British state political oversight while commerce stayed private, it foreshadowed the complete Crown takeover in 1858.",
+        "The double government system was ended only by the Government of India Act of 1858, which abolished both the Court of Directors and the Board of Control upon transferring power to the Crown.",
     },
     {
-      q: "The Board of Control, established by Pitt's India Act of 1784, was primarily responsible for:",
+      q: "Which of the following statements about Pitt's India Act of 1784 is NOT correct?",
       options: [
-        "Managing the Company's tea trade",
-        "Political and administrative oversight of British possessions in India",
-        "Appointing judges to the Supreme Court",
-        "Framing the Indian Constitution",
+        "It established the Board of Control",
+        "It distinguished commercial from political functions of the Company",
+        "It established the Supreme Court at Calcutta",
+        "It gave the British Government supreme control over the Company's political affairs",
       ],
-      correct: 1,
+      correct: 2,
       explain:
-        "The Board of Control's role was political/administrative oversight, distinct from the Court of Directors' commercial role.",
+        "The Supreme Court at Calcutta was established earlier, under the Regulating Act of 1773 — NOT by Pitt's India Act of 1784.",
     },
     {
-      q: "Which of the following correctly matches the body with its function under Pitt's India Act of 1784?",
+      q: "A student notes: 'Under Pitt's India Act, the Board of Control effectively subordinated the East India Company's political decisions to the will of the British Government.' Which feature of the Act BEST supports this observation?",
       options: [
-        "Court of Directors — Political affairs; Board of Control — Commercial affairs",
-        "Court of Directors — Commercial affairs; Board of Control — Political affairs",
-        "Both bodies handled commercial affairs jointly",
-        "Both bodies handled political affairs jointly",
-      ],
-      correct: 1,
-      explain:
-        "Court of Directors handled commerce; Board of Control handled politics — the reverse pairing is a common trap.",
-    },
-    {
-      q: "Pitt's India Act of 1784 was passed in the aftermath of concerns about:",
-      options: [
-        "Company mismanagement and the need for British Government oversight",
-        "The 1857 Revolt",
-        "The partition of Bengal",
-        "The Simon Commission's recommendations",
+        "The Board's supervisory power over civil, military, and revenue operations",
+        "The naming of Indian territories as 'British possessions'",
+        "The continuation of the Court of Directors' commercial role",
+        "The retention of the Governor-General of Bengal's title",
       ],
       correct: 0,
       explain:
-        "It emerged from growing British concern over Company mismanagement, prompting the need for direct governmental oversight of political affairs.",
+        "The Board of Control's power to supervise and direct civil, military, and revenue operations is the clearest mechanism by which British Government oversight was imposed on the Company's political conduct.",
     },
     {
-      q: "Which statement about the 'British possessions in India' terminology is correct?",
+      q: "In which year was Pitt's India Act passed, relative to the Regulating Act of 1773?",
       options: [
-        "It was first used in the Charter Act of 1833",
-        "It was first used in Pitt's India Act of 1784",
-        "It was first used in the Government of India Act of 1858",
-        "It was never officially used in any Act",
+        "8 years earlier",
+        "8 years later",
+        "11 years later",
+        "20 years later",
+      ],
+      correct: 2,
+      explain: "1784 minus 1773 = 11 years later.",
+    },
+    {
+      q: "Which of the following correctly describes the relationship between the Court of Directors and the Board of Control after 1784?",
+      options: [
+        "The Board of Control reported to the Court of Directors on all matters",
+        "Both bodies operated independently with no overlap in authority, dividing commerce and politics respectively",
+        "The Court of Directors was abolished and its functions absorbed by the Board",
+        "The Board of Control managed only military affairs, while the Court of Directors managed everything else",
       ],
       correct: 1,
       explain:
-        "Pitt's India Act of 1784 was the first to officially refer to the territories as 'British possessions in India'.",
+        "The two bodies operated with a clear division: commerce to the Court of Directors, politics to the Board of Control — this is the essence of 'double government'.",
     },
     {
-      q: "The double government system under Pitt's India Act of 1784 meant that ultimate political authority rested with:",
+      q: "Consider the following statements:\nI. Pitt's India Act of 1784 was passed in response to concerns about East India Company mismanagement.\nII. The Act ended British Parliament's ability to oversee the Company's affairs.\nWhich of the statements given above is/are correct?",
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 0,
+      explain:
+        "Statement I is correct. Statement II is the opposite of what the Act achieved — it deepened Parliamentary oversight, not ended it.",
+    },
+    {
+      q: "Which of the following terms best describes the significance of the 'British possessions in India' terminology introduced in Pitt's India Act of 1784?",
+      options: [
+        "A purely symbolic phrase with no legal or administrative consequence",
+        "An early linguistic marker of the shift from viewing India as Company property toward viewing it as territory under British political authority",
+        "A term used exclusively for Bengal, excluding Bombay and Madras",
+        "A term that immediately transferred legal ownership to the British Crown",
+      ],
+      correct: 1,
+      explain:
+        "While not an immediate legal transfer of ownership (that came later, in 1858), the phrase reflects an early conceptual shift toward treating Indian territories as under British political authority rather than purely Company commercial property.",
+    },
+    {
+      q: "Which body, under Pitt's India Act of 1784, held ultimate political authority over the Company's Indian administration?",
       options: [
         "The Company's shareholders",
-        "The British Government, via the Board of Control",
-        "The Governor-General alone",
-        "The Supreme Court",
+        "The Board of Control, on behalf of the British Government",
+        "The Governor-General alone, independent of London",
+        "The Supreme Court at Calcutta",
       ],
       correct: 1,
       explain:
-        "Although the Company still ran commerce, ultimate political authority shifted toward the British Government through the Board of Control.",
+        "Ultimate political authority rested with the Board of Control, representing British Government oversight, even though the Company still managed commerce.",
     },
     {
       q: "Compared to the Regulating Act of 1773, Pitt's India Act of 1784 represented:",
       options: [
-        "A retreat from British Parliamentary control",
-        "A deepening of British Parliamentary control over the Company's political functions",
-        "The complete abolition of the Company",
-        "A return to full presidency independence",
+        "A retreat from British Parliamentary control over the Company",
+        "A deepening of British Parliamentary control by explicitly separating and asserting authority over the Company's political functions",
+        "The complete abolition of the East India Company",
+        "A return to full independence for the Bombay and Madras Presidencies",
       ],
       correct: 1,
       explain:
-        "It deepened Parliamentary control by explicitly separating and asserting authority over the Company's political functions.",
+        "The Act deepened Parliamentary control by creating a dedicated political oversight body (Board of Control), building on the Regulating Act's earlier, more limited oversight mechanisms.",
     },
     {
-      q: "Which of these was a direct outcome of Pitt's India Act of 1784?",
+      q: "Which of the following is the most accurate characterisation of Pitt's India Act of 1784 within the broader arc of Company Rule (1773–1858)?",
       options: [
-        "Establishment of the Board of Control",
-        "Universal suffrage",
-        "Formation of the Indian National Congress",
-        "Abolition of the Governor-General's post",
+        "It was the final Act of the Company Rule period",
+        "It was an intermediate Act that institutionalised dual control, later superseded by full Crown control in 1858",
+        "It had no lasting institutional impact",
+        "It was superseded almost immediately by the Regulating Act's reintroduction",
       ],
-      correct: 0,
+      correct: 1,
       explain:
-        "The direct, defining outcome of the 1784 Act was the establishment of the Board of Control.",
-    },
-    {
-      q: "The dual control introduced by Pitt's India Act of 1784 lasted until:",
-      options: ["1813", "1833", "1858", "1919"],
-      correct: 2,
-      explain:
-        "The double government system persisted until 1858, when the Government of India Act ended it and transferred full control to the Crown.",
+        "Pitt's India Act sits in the middle of the Company Rule timeline (1773–1858), institutionalising a dual-control model (Company commerce + Government politics) that persisted until the Crown assumed full control in 1858.",
     },
   ],
 };

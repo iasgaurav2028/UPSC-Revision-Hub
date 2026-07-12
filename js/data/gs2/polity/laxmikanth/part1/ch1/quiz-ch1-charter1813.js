@@ -1,128 +1,164 @@
-// Quiz for: ch1-charter1813 (20 MCQs)
-// Fully self-contained — defines its own constant, no shared-object
-// mutation, no dependency on any other quiz file.
+// Quiz for: ch1-charter1813 (14 questions — honest count for moderate content)
 const QUIZ_ch1_charter1813 = {
   title: "Charter Act of 1813",
   questions: [
     {
-      q: "The Charter Act of 1813 asserted, for the first time, the sovereignty of:",
+      q: "The Charter Act of 1813 asserted, for the first time, the sovereignty of which entity over the Company's territories in India?",
       options: [
-        "The Governor-General over all India",
-        "The British Crown over the Company's territories in India",
-        "The Board of Control over the Court of Directors",
-        "The Supreme Court over Provincial Courts",
+        "The Governor-General personally",
+        "The British Crown",
+        "The Board of Control",
+        "The Supreme Court",
       ],
       correct: 1,
       explain:
-        "This Act was the first to assert British Crown sovereignty over the Company's Indian territories.",
+        "This Act was the first to assert British Crown sovereignty over the Company's Indian territories — an important precursor to full Crown takeover in 1858.",
     },
     {
-      q: "Which trade monopoly did the Charter Act of 1813 abolish?",
+      q: "Consider the following statements regarding trade provisions of the Charter Act of 1813:\nI. It abolished the Company's general trade monopoly in India.\nII. It also abolished the Company's monopoly over trade with China.\nWhich of the statements given above is/are correct?",
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 0,
+      explain:
+        "Statement I is correct. Statement II is incorrect — the Company's monopoly over trade with China (and over the tea trade) was specifically RETAINED even as the general trade monopoly was abolished.",
+    },
+    {
+      q: "Which of the following monopolies did the East India Company continue to hold even after the Charter Act of 1813?",
       options: [
-        "The Company's general trade monopoly in India, opening it to all British merchants",
-        "The Company's monopoly over tea trade",
-        "The Company's monopoly over trade with China",
-        "All Company trade monopolies without exception",
+        "Trade in indigo",
+        "Trade in tea and trade with China",
+        "Trade in cotton textiles",
+        "Trade in spices with Southeast Asia",
+      ],
+      correct: 1,
+      explain:
+        "The Company retained its monopoly specifically over tea trade and trade with China, even as its general Indian trade monopoly was abolished.",
+    },
+    {
+      q: "The Charter Act of 1813 permitted which group to travel to India, previously restricted, for the stated purpose of 'enlightening the people'?",
+      options: [
+        "European settlers seeking agricultural land",
+        "Christian missionaries",
+        "Foreign merchants from France and Holland",
+        "Journalists and publishers",
+      ],
+      correct: 1,
+      explain:
+        "The Act allowed Christian missionaries into India — a significant social policy shift with long-term consequences for colonial society.",
+    },
+    {
+      q: "Assertion (A): The Charter Act of 1813 is often linked to the beginnings of socio-religious reform movements in colonial India.\nReason (R): The Act's provisions for Western education and missionary access created early channels for exposure to Western liberal ideas.\nWhich one of the following is correct?",
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
       ],
       correct: 0,
       explain:
-        "The Act abolished the general Indian trade monopoly but retained the tea and China trade monopolies.",
-    },
-    {
-      q: "Which trade monopolies did the Company CONTINUE to hold even after the Charter Act of 1813?",
-      options: [
-        "Trade with France and Spain",
-        "Trade in tea and trade with China",
-        "Trade in textiles",
-        "Trade in spices",
-      ],
-      correct: 1,
-      explain:
-        "The Company retained its monopoly specifically over tea trade and trade with China.",
-    },
-    {
-      q: "The Charter Act of 1813 allowed which group to come to India for the first time under legal sanction?",
-      options: [
-        "European settlers seeking land",
-        "Christian missionaries",
-        "Foreign traders from France",
-        "Journalists",
-      ],
-      correct: 1,
-      explain:
-        "The Act allowed Christian missionaries to come to India for the purpose of 'enlightening' the people.",
-    },
-    {
-      q: "The Charter Act of 1813 provided for the spread of which kind of education in India?",
-      options: [
-        "Vernacular-only education",
-        "Western education",
-        "Religious education only",
-        "Military education",
-      ],
-      correct: 1,
-      explain:
-        "It provided for the spread of Western education among the inhabitants of British India.",
+        "Both are true, and R correctly explains A — Western education and missionary access are widely understood as early channels that later fed into 19th-century reform movements.",
     },
     {
       q: "Under the Charter Act of 1813, Local Governments in India were authorised to:",
       options: [
-        "Print their own currency",
+        "Print their own currency independent of the Company",
         "Impose taxes on persons and punish non-payment",
-        "Declare war",
-        "Appoint judges to the Supreme Court",
+        "Declare war on neighbouring princely states",
+        "Appoint judges to the Supreme Court at Calcutta",
       ],
       correct: 1,
       explain:
-        "Local Governments were authorised to impose taxes and punish those who failed to pay.",
+        "Local Governments were authorised to impose taxes on persons and to punish those who failed to pay — an early expansion of local administrative/fiscal power.",
     },
     {
-      q: "Which of the following is a correct pairing regarding the Charter Act of 1813?",
+      q: "Which of the following statements correctly captures the trade policy of the Charter Act of 1813?",
       options: [
-        "Ended tea trade monopoly, continued general trade monopoly",
-        "Ended general trade monopoly, continued tea and China trade monopoly",
-        "Ended all trade monopolies",
-        "Continued all trade monopolies unchanged",
+        "It ended the Company's tea trade monopoly while retaining its general Indian trade monopoly",
+        "It ended the Company's general Indian trade monopoly while retaining its tea trade and China trade monopoly",
+        "It ended all Company trade monopolies without exception",
+        "It retained all Company trade monopolies without exception",
       ],
       correct: 1,
       explain:
-        "General trade was opened up; tea trade and China trade monopolies were specifically retained.",
+        "General Indian trade was opened to all British merchants; tea trade and trade with China remained Company monopolies — the reverse pairing is a common examination trap.",
     },
     {
-      q: "The assertion of Crown sovereignty by the Charter Act of 1813 is significant because it:",
+      q: "Consider the following statements:\nI. The Charter Act of 1813 provided for the spread of Western education among inhabitants of British India.\nII. The Act explicitly banned all religious missionary activity in Company territories.\nWhich of the statements given above is/are correct?",
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 0,
+      explain:
+        "Statement I is correct. Statement II is the direct opposite of what the Act did — it ALLOWED missionary activity rather than banning it.",
+    },
+    {
+      q: "The assertion of Crown sovereignty in the Charter Act of 1813, though largely symbolic at the time, is significant because it:",
       options: [
-        "Immediately ended Company rule",
-        "Was the first legal step toward eventual full Crown control (completed in 1858)",
-        "Gave full voting rights to Indians",
-        "Established the Federal Court",
+        "Immediately transferred administrative control from the Company to the Crown",
+        "Was the first legal step toward the eventual full Crown control completed in 1858",
+        "Gave Indians voting rights in local elections",
+        "Established the Federal Court of India",
       ],
       correct: 1,
       explain:
-        "Though the Company continued to administer India, this Act legally planted the seed of Crown sovereignty, completed only in 1858.",
+        "Though the Company continued administering India in practice, this Act legally planted the seed of Crown sovereignty, a process completed only with the Government of India Act, 1858.",
     },
     {
-      q: "The Charter Act of 1813 is often linked to which broader social change in colonial India?",
+      q: "Which of the following best explains why the Company retained its tea trade and China trade monopoly even as its general Indian trade monopoly was abolished in 1813?",
       options: [
-        "The beginning of socio-religious reform movements via Western education and missionary access",
-        "The end of the caste system",
-        "The abolition of sati",
-        "The rise of the Indian National Congress",
+        "Tea and China trade were considered strategically and financially significant enough to warrant continued exclusive control",
+        "Tea was not considered valuable enough to open to competition",
+        "China refused to trade with any entity other than the Company",
+        "There is no historical basis for this distinction",
       ],
       correct: 0,
       explain:
-        "By opening India to missionaries and Western education, this Act laid early cultural groundwork for later reform movements.",
+        "The tea trade and China trade were highly lucrative and strategically important, which is why Parliament chose to retain the Company's exclusive control over them even while liberalising general Indian trade.",
+    },
+    {
+      q: "Which of the following pairs is correctly matched with respect to the Charter Act of 1813?",
+      options: [
+        "Crown sovereignty — first asserted",
+        "General trade monopoly — retained",
+        "Tea trade monopoly — abolished",
+        "Christian missionaries — banned",
+      ],
+      correct: 0,
+      explain:
+        "Crown sovereignty over Company territories was indeed first asserted by this Act — the other three pairs each state the opposite of what actually happened.",
+    },
+    {
+      q: "The Charter Act of 1813's provisions on education and missionary access are most directly relevant to which broader theme in India's colonial history?",
+      options: [
+        "The economic drain theory",
+        "The origins of Western-influenced social and religious reform movements",
+        "The 1857 Revolt's military causes",
+        "The partition of Bengal in 1905",
+      ],
+      correct: 1,
+      explain:
+        "These provisions laid early cultural groundwork connected to subsequent socio-religious reform movements influenced by exposure to Western education and missionary activity.",
     },
     {
       q: "Which of the following was NOT a feature of the Charter Act of 1813?",
       options: [
         "Assertion of Crown sovereignty over Company territories",
-        "Permission for Christian missionaries",
-        "Abolition of the Company's trade monopoly in tea",
-        "Authorisation for Local Governments to tax",
+        "Permission granted to Christian missionaries",
+        "Complete abolition of the Company's tea trade monopoly",
+        "Authorisation for Local Governments to levy taxes",
       ],
       correct: 2,
       explain:
-        "The tea trade monopoly was NOT abolished by this Act — only the general trade monopoly was, with tea and China trade retained.",
+        "The tea trade monopoly was NOT abolished by this Act — only the general Indian trade monopoly was, with tea and China trade specifically retained by the Company.",
+    },
+    {
+      q: "In terms of chronology, the Charter Act of 1813 falls between which two Acts?",
+      options: [
+        "Regulating Act (1773) and Pitt's India Act (1784)",
+        "Charter Act of 1793 and Charter Act of 1833",
+        "Charter Act of 1833 and Charter Act of 1853",
+        "Government of India Act (1858) and Indian Councils Act (1861)",
+      ],
+      correct: 1,
+      explain:
+        "The Charter Act of 1813 falls chronologically between the Charter Act of 1793 (20 years earlier) and the Charter Act of 1833 (20 years later).",
     },
   ],
 };

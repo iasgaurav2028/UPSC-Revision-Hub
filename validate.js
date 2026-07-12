@@ -142,6 +142,14 @@ function main() {
   }
   collectLeaves(TREE_DATA);
 
+  // Topics explicitly allowed to have notes but no quiz yet (e.g. known
+  // placeholders/samples). Add an id here ONLY with a clear reason —
+  // this list should stay short. Everything else with real notes MUST
+  // have a matching Practice Hub quiz, or validation fails.
+  const QUIZ_EXEMPT_IDS = [
+    "news-2026-07-05-sc-collegium", // sample/placeholder article, not real content
+  ];
+
   let leavesWithoutNotes = 0;
   let leavesMissingQuiz = [];
   for (const leaf of leaves) {
@@ -171,19 +179,34 @@ function main() {
       }
     }
     if (!QUIZ_DATA[leaf.id]) {
-      leavesMissingQuiz.push(`${leaf.id} (${leaf.title})`);
+      leavesMissingQuiz.push({ id: leaf.id, title: leaf.title });
     }
   }
   console.log(
     `✓ Checked ${leaves.length} leaf topics (${leavesWithoutNotes} are content-less placeholders).`,
   );
 
-  if (leavesMissingQuiz.length > 0) {
+  const trulyMissing = leavesMissingQuiz.filter(
+    (l) => !QUIZ_EXEMPT_IDS.includes(l.id),
+  );
+  const exemptMissing = leavesMissingQuiz.filter((l) =>
+    QUIZ_EXEMPT_IDS.includes(l.id),
+  );
+
+  if (trulyMissing.length > 0) {
+    trulyMissing.forEach((l) => {
+      err(
+        `Topic "${l.id}" (${l.title}) has notes but NO Practice Hub quiz. Every real content topic needs a matching quiz-*.js file wired into quiz-assembly.js. (If this is intentionally a placeholder, add its id to QUIZ_EXEMPT_IDS in validate.js with a reason.)`,
+      );
+    });
+  }
+  if (exemptMissing.length > 0) {
     console.log(
-      `\n📋 Topics with notes but NO Practice Hub quiz (${leavesMissingQuiz.length}):`,
+      `\n📋 Exempted from quiz requirement (${exemptMissing.length}):`,
     );
-    leavesMissingQuiz.forEach((t) => console.log("   - " + t));
-  } else {
+    exemptMissing.forEach((l) => console.log(`   - ${l.id} (${l.title})`));
+  }
+  if (trulyMissing.length === 0 && exemptMissing.length === 0) {
     console.log(`✓ Every topic with notes has a matching Practice Hub quiz.`);
   }
 
@@ -219,7 +242,7 @@ function main() {
   printResultsAndExit();
 }
 
-/** Load the sorted files + engine.js into an isolated VM sandbox and return TREE_DATA/QUIZ_DATA. */
+/** Load the sorted data files into an isolated VM sandbox and return TREE_DATA/QUIZ_DATA. (engine.js is not needed for validation — it only renders, it doesn't define TREE_DATA/QUIZ_DATA.) */
 function loadIntoSandbox(sortedRecords) {
   let combined = "";
   for (const r of sortedRecords)

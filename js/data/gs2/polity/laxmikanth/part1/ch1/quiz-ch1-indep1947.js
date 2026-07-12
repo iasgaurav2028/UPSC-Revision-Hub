@@ -1,11 +1,9 @@
-// Quiz for: ch1-indep1947 (20 MCQs)
-// Fully self-contained — defines its own constant, no shared-object
-// mutation, no dependency on any other quiz file.
+// Quiz for: ch1-indep1947 (20 questions — very rich, culminating Act of Crown Rule)
 const QUIZ_ch1_indep1947 = {
   title: "Indian Independence Act, 1947",
   questions: [
     {
-      q: "British Prime Minister Clement Attlee announced the end of British rule in India by which date?",
+      q: "British Prime Minister Clement Attlee's declaration of February 20, 1947 announced that British rule in India would end by:",
       options: [
         "August 15, 1947",
         "June 30, 1948",
@@ -14,10 +12,10 @@ const QUIZ_ch1_indep1947 = {
       ],
       correct: 1,
       explain:
-        "On February 20, 1947, Attlee declared British rule would end by June 30, 1948 (though independence actually came earlier, on August 15, 1947).",
+        "Attlee declared British rule would end by June 30, 1948 — though independence actually came earlier, on August 15, 1947.",
     },
     {
-      q: "The partition plan announced on June 3, 1947 by Lord Mountbatten is known as the:",
+      q: "The partition plan announced by Lord Mountbatten on June 3, 1947 is known as the:",
       options: [
         "Cripps Plan",
         "Mountbatten Plan",
@@ -29,28 +27,11 @@ const QUIZ_ch1_indep1947 = {
         "This is known as the Mountbatten Plan, accepted by both the Congress and the Muslim League.",
     },
     {
-      q: "The Indian Independence Bill was introduced in the British Parliament on:",
-      options: [
-        "June 3, 1947",
-        "July 4, 1947",
-        "July 18, 1947",
-        "August 15, 1947",
-      ],
-      correct: 1,
+      q: "Consider the following statements regarding the legislative process of the Indian Independence Act, 1947:\nI. The Bill was introduced in the British Parliament on July 4, 1947.\nII. It received Royal Assent before it was introduced in Parliament.\nWhich of the statements given above is/are correct?",
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 0,
       explain:
-        "The Bill was introduced in the British Parliament on July 4, 1947.",
-    },
-    {
-      q: "The Indian Independence Bill received Royal Assent on:",
-      options: [
-        "July 4, 1947",
-        "July 18, 1947",
-        "August 15, 1947",
-        "August 20, 1947",
-      ],
-      correct: 1,
-      explain:
-        "Royal Assent was received on July 18, 1947, and the Act came into force on August 15, 1947.",
+        "Statement I is correct. Statement II is logically and factually incorrect — Royal Assent (July 18, 1947) necessarily came AFTER introduction (July 4, 1947), not before.",
     },
     {
       q: "The Indian Independence Act, 1947 came into force on:",
@@ -65,25 +46,19 @@ const QUIZ_ch1_indep1947 = {
         "The Act came into force on August 15, 1947, the date of India's independence.",
     },
     {
-      q: "The Indian Independence Act, 1947 provided for the creation of how many independent dominions?",
-      options: ["One", "Two", "Three", "Four"],
-      correct: 1,
-      explain: "It provided for two independent dominions: India and Pakistan.",
-    },
-    {
-      q: "Under the Indian Independence Act, 1947, the office of Viceroy was:",
+      q: "Assertion (A): The Indian Independence Act, 1947 abolished the office of Viceroy.\nReason (R): Each new dominion (India and Pakistan) instead received its own Governor-General, appointed by the British King on the advice of the dominion's own cabinet.\nWhich one of the following is correct?",
       options: [
-        "Retained unchanged",
-        "Abolished, replaced by a Governor-General for each dominion",
-        "Merged with the Prime Minister's office",
-        "Transferred to the Secretary of State",
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
       ],
-      correct: 1,
+      correct: 0,
       explain:
-        "The office of Viceroy was abolished; each dominion instead got its own Governor-General.",
+        "Both are true and R directly explains A — the replacement mechanism (dominion-specific Governors-General, appointed on dominion cabinet advice) is precisely what followed from abolishing the single Viceroy's office.",
     },
     {
-      q: "Who became the first Governor-General of independent India?",
+      q: "Who became the first Governor-General of independent India under the Indian Independence Act, 1947?",
       options: [
         "Jawaharlal Nehru",
         "Lord Mountbatten",
@@ -95,7 +70,7 @@ const QUIZ_ch1_indep1947 = {
         "Lord Mountbatten, the last Viceroy, became the first Governor-General of independent India.",
     },
     {
-      q: "Who became the first Prime Minister of independent India?",
+      q: "Who became the first Prime Minister of independent India, sworn in by Mountbatten?",
       options: [
         "Sardar Vallabhbhai Patel",
         "Jawaharlal Nehru",
@@ -104,7 +79,7 @@ const QUIZ_ch1_indep1947 = {
       ],
       correct: 1,
       explain:
-        "Jawaharlal Nehru was sworn in by Mountbatten as the first Prime Minister of independent India.",
+        "Jawaharlal Nehru was sworn in as the first Prime Minister of independent India.",
     },
     {
       q: "Which office was abolished by the Indian Independence Act, 1947, with its functions transferred to the Secretary of State for Commonwealth Affairs?",
@@ -121,65 +96,60 @@ const QUIZ_ch1_indep1947 = {
     {
       q: "Under the Indian Independence Act, 1947, British paramountcy over princely states:",
       options: [
-        "Continued indefinitely",
+        "Continued indefinitely under a new treaty",
         "Lapsed from August 15, 1947",
         "Was transferred to the United Nations",
-        "Was extended by 5 years",
+        "Was extended by 5 years by mutual agreement",
       ],
       correct: 1,
       explain:
-        "British paramountcy over princely states and treaty relations with tribal areas lapsed from August 15, 1947.",
+        "British paramountcy over princely states and treaty relations with tribal areas lapsed automatically from August 15, 1947.",
     },
     {
-      q: "Under the Indian Independence Act, 1947, princely states were given the choice to:",
+      q: "Following the lapse of British paramountcy, princely states under the Indian Independence Act, 1947 had the option to:",
       options: [
         "Only join India",
         "Only join Pakistan",
         "Join India, join Pakistan, or remain independent",
-        "Remain under British rule",
+        "Remain permanently under British protection",
       ],
       correct: 2,
       explain:
-        "Princely states had the freedom to join India, join Pakistan, or remain independent.",
+        "Princely states had the freedom to join India, join Pakistan, or remain independent — though remaining fully independent proved practically unsustainable for most states.",
     },
     {
-      q: "Until new constitutions were framed, India and Pakistan were to be governed under the provisions of:",
+      q: "Until new constitutions were framed, India and Pakistan were to be governed under the provisions of which prior Act?",
       options: [
-        "The Indian Independence Act itself",
+        "The Indian Independence Act itself, with no reference to earlier legislation",
         "The Government of India Act, 1935",
         "The Government of India Act, 1919",
         "The Indian Councils Act, 1909",
       ],
       correct: 1,
       explain:
-        "Each dominion and its provinces were to be governed by the Government of India Act, 1935, until new constitutions were framed.",
+        "Each dominion and its provinces were to be governed by the Government of India Act, 1935 (with dominion-authorised modifications), until new constitutions were framed.",
     },
     {
-      q: "Under the Indian Independence Act, 1947, who retained the power to assent to bills in the King's name?",
+      q: "Under the Indian Independence Act, 1947, who retained the power to assent to bills in the King's name, a power the British Monarch personally lost?",
       options: [
-        "The British Monarch personally",
-        "The Governor-General",
+        "The British Monarch retained this power unchanged",
+        "The Governor-General of each dominion",
         "The Secretary of State for Commonwealth Affairs",
-        "The Chief Justice of India",
+        "The Chief Justice of the dominion's highest court",
       ],
       correct: 1,
       explain:
-        "The British Monarch lost the right to veto bills — this power was reserved for the Governor-General instead.",
+        "The British Monarch lost the right to veto bills; this power was instead reserved for the Governor-General, who could assent to bills fully in the King's name.",
     },
     {
-      q: "Under the Indian Independence Act, 1947, the Governor-General and provincial Governors became:",
-      options: [
-        "Absolute rulers with full executive power",
-        "Constitutional (nominal) heads, acting on ministerial advice",
-        "Judicial authorities",
-        "Military commanders-in-chief",
-      ],
+      q: "Consider the following statements about the status of the Governor-General and provincial Governors under the Indian Independence Act, 1947:\nI. They became absolute rulers with unchecked executive power.\nII. They became constitutional (nominal) heads, acting on the advice of respective Councils of Ministers.\nWhich of the statements given above is/are correct?",
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 1,
       explain:
-        "They became constitutional/nominal heads, required to act on the advice of the respective Council of Ministers.",
+        "Statement II is correct — they became constitutional/nominal heads. Statement I is the opposite of what actually happened.",
     },
     {
-      q: "The Indian Independence Act, 1947 dropped which title from the British King's royal titles?",
+      q: "The Indian Independence Act, 1947 dropped which title from the British King's set of royal titles?",
       options: [
         "King of England",
         "Emperor of India",
@@ -188,10 +158,10 @@ const QUIZ_ch1_indep1947 = {
       ],
       correct: 1,
       explain:
-        "The title 'Emperor of India' was dropped from the British King's royal titles.",
+        "The title 'Emperor of India' was formally dropped from the British King's royal titles following Indian independence.",
     },
     {
-      q: "The Boundary Commission that determined the boundaries between India and Pakistan was headed by:",
+      q: "The Boundary Commission that determined the boundaries between India and Pakistan following partition was headed by:",
       options: [
         "Lord Mountbatten",
         "Sir Cyril Radcliffe",
@@ -199,11 +169,10 @@ const QUIZ_ch1_indep1947 = {
         "Lord Wavell",
       ],
       correct: 1,
-      explain:
-        "The Boundary Commission was headed by Radcliffe (Sir Cyril Radcliffe).",
+      explain: "The Boundary Commission was headed by Sir Cyril Radcliffe.",
     },
     {
-      q: "Which of the following areas was included in Pakistan following partition?",
+      q: "Which of the following areas was included in Pakistan following the partition arrangements associated with the Indian Independence Act, 1947?",
       options: [
         "West Bengal and Bihar",
         "West Punjab, Sind, Baluchistan, East Bengal, NWFP, and Sylhet (Assam)",
@@ -215,12 +184,12 @@ const QUIZ_ch1_indep1947 = {
         "Pakistan included West Punjab, Sind, Baluchistan, East Bengal, North-Western Frontier Province, and the district of Sylhet in Assam.",
     },
     {
-      q: "The referendum results in North-Western Frontier Province and Sylhet were in favour of:",
+      q: "The referenda held in the North-Western Frontier Province and Sylhet, in the context of partition, both resulted in a decision to:",
       options: [
-        "India",
-        "Pakistan",
-        "Remaining independent",
-        "Joining neither dominion",
+        "Remain with India",
+        "Join Pakistan",
+        "Remain independent",
+        "Join neither dominion and seek United Nations trusteeship",
       ],
       correct: 1,
       explain: "Both referenda favoured joining Pakistan.",
@@ -228,14 +197,38 @@ const QUIZ_ch1_indep1947 = {
     {
       q: "Which of the following powers did the Constituent Assemblies of India and Pakistan receive under the Indian Independence Act, 1947?",
       options: [
-        "Power to frame and adopt any constitution, including repealing the Act itself",
-        "Power only to amend the Government of India Act, 1935",
-        "No legislative powers until 1950",
-        "Power only over foreign affairs",
+        "Power to frame and adopt any constitution, including the power to repeal the Indian Independence Act itself",
+        "Power only to amend the Government of India Act, 1935, with no broader constitution-making authority",
+        "No legislative powers until formal independence was later re-confirmed in 1950",
+        "Power limited exclusively to matters of foreign affairs",
       ],
       correct: 0,
       explain:
-        "The Constituent Assemblies were empowered to frame and adopt any constitution, and could even repeal the Indian Independence Act itself.",
+        "The Constituent Assemblies were given the extraordinarily broad power to frame and adopt any constitution, and could even repeal the Indian Independence Act itself — reflecting complete legislative sovereignty.",
+    },
+    {
+      q: "Which of the following correctly orders the key dates leading to India's independence under the Indian Independence Act, 1947?",
+      options: [
+        "Attlee's declaration (Feb 20) → Mountbatten Plan (June 3) → Bill introduced (July 4) → Royal Assent (July 18) → Act in force (Aug 15)",
+        "Mountbatten Plan → Attlee's declaration → Royal Assent → Bill introduced → Act in force",
+        "Bill introduced → Royal Assent → Attlee's declaration → Mountbatten Plan → Act in force",
+        "Act in force → Royal Assent → Bill introduced → Mountbatten Plan → Attlee's declaration",
+      ],
+      correct: 0,
+      explain:
+        "This is the correct chronological sequence of 1947's key constitutional milestones, all occurring within roughly six months.",
+    },
+    {
+      q: "Which of the following statements best captures the overall constitutional significance of the Indian Independence Act, 1947?",
+      options: [
+        "It merely modified minor administrative details within the existing colonial framework",
+        "It completed India's constitutional journey from colonial subordination to sovereign self-determination, granting the Constituent Assembly unconstrained constitution-making power",
+        "It was superseded almost immediately by the Government of India Act, 1935",
+        "It had no lasting significance once the Constitution of India came into force in 1950",
+      ],
+      correct: 1,
+      explain:
+        "The Act's defining significance lies in completing this constitutional journey and granting genuinely unconstrained constitution-making power to the Constituent Assembly — a legal foundation whose consequences (the 1950 Constitution) remain foundational to India today.",
     },
   ],
 };

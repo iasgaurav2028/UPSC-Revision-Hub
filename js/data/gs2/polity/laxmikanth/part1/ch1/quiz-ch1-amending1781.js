@@ -1,248 +1,225 @@
-// Quiz for: ch1-amending1781 (20 MCQs)
-// Fully self-contained — defines its own constant, no shared-object
-// mutation, no dependency on any other quiz file.
+// Quiz for: ch1-amending1781 (20 questions, UPSC Prelims-style)
 const QUIZ_ch1_amending1781 = {
   title: "Amending Act of 1781",
   questions: [
     {
-      q: "The Amending Act of 1781 is also known as the:",
+      q: "The Amending Act of 1781 is also known by which of the following names?",
       options: [
-        "Regulating Act",
+        "Act of Union",
         "Act of Settlement",
+        "Regulating Act",
         "Pitt's India Act",
-        "Charter Act",
       ],
       correct: 1,
       explain:
-        "It is also called the Act of Settlement, passed to rectify defects in the Regulating Act of 1773.",
+        "The Amending Act of 1781 is also known as the Act of Settlement.",
     },
     {
-      q: "The primary purpose of the Amending Act of 1781 was to:",
+      q: "Consider the following statements regarding the Amending Act of 1781:\nI. It was passed to rectify defects in the Regulating Act of 1773.\nII. It expanded the Supreme Court's jurisdiction over revenue matters.\nWhich of the statements given above is/are correct?",
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 0,
+      explain:
+        "Statement I is correct. Statement II is incorrect — the Act EXCLUDED, not expanded, revenue matters from the Supreme Court's jurisdiction.",
+    },
+    {
+      q: "Under the Amending Act of 1781, the Governor-General and Council were exempted from the Supreme Court's jurisdiction with respect to:",
       options: [
-        "Abolish the Supreme Court",
-        "Rectify the defects of the Regulating Act of 1773",
-        "Establish Crown rule in India",
-        "Create the Board of Control",
+        "All personal financial dealings, without exception",
+        "Acts carried out in their official capacity only",
+        "Only matters relating to trade",
+        "Actions taken after their retirement from office",
       ],
       correct: 1,
       explain:
-        "It was passed specifically to fix problems that had emerged from the Regulating Act of 1773.",
+        "The exemption applied strictly to acts performed in an official capacity, not to personal conduct.",
     },
     {
-      q: "Under the Amending Act of 1781, the Governor-General and Council were:",
+      q: "Which of the following categories of disputes were excluded from the jurisdiction of the Supreme Court at Calcutta by the Amending Act of 1781?",
       options: [
-        "Made fully answerable to the Supreme Court",
-        "Exempted from Supreme Court jurisdiction for official acts",
-        "Abolished entirely",
-        "Placed under the Board of Control",
-      ],
-      correct: 1,
-      explain:
-        "The Act exempted the Governor-General and Council from Supreme Court jurisdiction for acts done in their official capacity.",
-    },
-    {
-      q: "Which matters were excluded from the Supreme Court's jurisdiction by the Amending Act of 1781?",
-      options: [
-        "Criminal matters",
+        "Criminal disputes",
         "Revenue matters and revenue-collection disputes",
-        "Matters involving Europeans",
-        "Matters involving the Governor-General personally",
+        "Disputes involving Europeans only",
+        "Disputes involving the Governor-General personally",
       ],
       correct: 1,
       explain:
-        "Revenue matters and disputes arising from revenue collection were excluded from Supreme Court jurisdiction.",
+        "Revenue matters and disputes arising from revenue collection were specifically excluded from the Supreme Court's jurisdiction under this Act.",
     },
     {
-      q: "As per the Amending Act of 1781, over whom did the Supreme Court have jurisdiction?",
+      q: "As per the Amending Act of 1781, the Supreme Court at Calcutta was to apply personal law as follows:",
       options: [
-        "All of Bengal, Bihar and Orissa",
+        "English Common Law uniformly to all litigants",
+        "Hindu law to Hindus and Mohammedan law to Muslims",
+        "Company regulations to all litigants regardless of religion",
+        "Personal law was abolished entirely by this Act",
+      ],
+      correct: 1,
+      explain:
+        "The Act required the Court to apply the litigant's own personal law — Hindu law for Hindus, Mohammedan law for Muslims.",
+    },
+    {
+      q: "Under the Amending Act of 1781, appeals from Provincial Courts were to be directed to:",
+      options: [
+        "The Supreme Court at Calcutta directly",
+        "The Privy Council in London",
+        "The Governor-General-in-Council",
+        "The Board of Control",
+      ],
+      correct: 2,
+      explain:
+        "Appeals from Provincial Courts went to the Governor-General-in-Council, NOT to the Supreme Court — a frequently tested distinction from the 1773 arrangement.",
+    },
+    {
+      q: "Assertion (A): The Amending Act of 1781 was necessitated by conflicts between the newly-established Supreme Court and the Company's executive and revenue administration.\nReason (R): The Regulating Act of 1773 had not clearly defined the extent of the Supreme Court's jurisdiction relative to the executive.\nWhich one of the following is correct?",
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both statements are true, and R correctly explains A — the ambiguity in the 1773 Act's jurisdictional boundaries directly caused the conflicts that the 1781 Act was designed to resolve.",
+    },
+    {
+      q: "Which of the following bodies was empowered by the Amending Act of 1781 to frame regulations for Provincial Courts and Councils?",
+      options: [
+        "The Supreme Court",
+        "The Board of Control",
+        "The Governor-General-in-Council",
+        "The Court of Directors",
+      ],
+      correct: 2,
+      explain:
+        "The Governor-General-in-Council was empowered to frame regulations governing the Provincial Courts and Councils.",
+    },
+    {
+      q: "Consider the following statements:\nI. Company servants were exempted from Supreme Court jurisdiction for their official actions under the Amending Act of 1781.\nII. This exemption was identical in scope to that given to the Governor-General and Council.\nWhich of the statements given above is/are correct?",
+      options: ["I only", "Both I and II", "II only", "Neither I nor II"],
+      correct: 1,
+      explain:
+        "Both statements are correct — Company servants received a parallel exemption from Supreme Court jurisdiction for official actions, matching the Governor-General and Council's exemption.",
+    },
+    {
+      q: "Over which of the following did the Supreme Court retain jurisdiction under the Amending Act of 1781?",
+      options: [
         "All inhabitants of Calcutta",
         "Only Company servants",
-        "Only British subjects in India",
+        "Only British subjects across India",
+        "Only Provincial Court judges",
       ],
-      correct: 1,
+      correct: 0,
       explain:
         "The Supreme Court's jurisdiction was defined as covering all inhabitants of Calcutta.",
     },
     {
-      q: "Under the Amending Act of 1781, Hindus were to be tried according to:",
+      q: "A historian describes the Amending Act of 1781 as reflecting 'a resolution of tension between judicial oversight and administrative convenience, in favour of the latter.' Which feature of the Act BEST supports this characterisation?",
       options: [
-        "English Common Law",
-        "Hindu law",
-        "Mohammedan law",
-        "Company regulations",
+        "The application of personal law to litigants",
+        "The exemption of the Governor-General, Council, and Company servants from Supreme Court jurisdiction for official acts",
+        "The establishment of the Supreme Court itself",
+        "The naming of the Act as the 'Act of Settlement'",
       ],
       correct: 1,
       explain:
-        "The Act required personal laws to be applied — Hindus under Hindu law, Muslims under Mohammedan law.",
+        "The exemption of the executive from judicial oversight for official acts is the clearest evidence of the Act favouring administrative convenience over judicial checks.",
     },
     {
-      q: "Appeals from Provincial Courts, under the Amending Act of 1781, were to be taken to:",
+      q: "Which of the following correctly distinguishes the Regulating Act, 1773 from the Amending Act, 1781?",
       options: [
-        "The Supreme Court directly",
-        "The Governor-General-in-Council",
-        "The Privy Council in London",
-        "The Board of Control",
-      ],
-      correct: 1,
-      explain:
-        "Appeals went to the Governor-General-in-Council, NOT to the Supreme Court — a key distinction from the 1773 arrangement.",
-    },
-    {
-      q: "The Amending Act of 1781 empowered the Governor-General-in-Council to:",
-      options: [
-        "Appoint the Chief Justice",
-        "Frame regulations for Provincial Courts and Councils",
-        "Dissolve the Supreme Court",
-        "Levy new taxes on Britain",
-      ],
-      correct: 1,
-      explain:
-        "It empowered the Governor-General-in-Council to frame regulations governing Provincial Courts and Councils.",
-    },
-    {
-      q: "Company servants, under the Amending Act of 1781, were:",
-      options: [
-        "Made subject to Supreme Court jurisdiction for all acts",
-        "Exempted from Supreme Court jurisdiction for their official actions",
-        "Barred from holding any judicial post",
-        "Required to be tried only in England",
-      ],
-      correct: 1,
-      explain:
-        "Similar to the Governor-General and Council, Company servants were exempted from SC jurisdiction for official actions.",
-    },
-    {
-      q: "Which of the following best describes the overall thrust of the Amending Act of 1781?",
-      options: [
-        "Strengthening judicial oversight over the executive",
-        "Reducing judicial interference in administration and revenue matters",
-        "Ending Company rule",
-        "Introducing elections in India",
-      ],
-      correct: 1,
-      explain:
-        "The Act's core thrust was to curb the Supreme Court's ability to interfere in administrative and revenue matters.",
-    },
-    {
-      q: "The Regulating Act of 1773 and the Amending Act of 1781 both primarily dealt with:",
-      options: [
-        "Trade monopoly",
-        "The judicial-executive relationship in early Company administration",
-        "Indian representation in legislature",
-        "Education policy",
-      ],
-      correct: 1,
-      explain:
-        "Both Acts, in different ways, shaped the balance between judicial oversight (Supreme Court) and executive authority (Governor-General).",
-    },
-    {
-      q: "Which of the following is NOT a feature of the Amending Act of 1781?",
-      options: [
-        "Exemption of G-G and Council from SC jurisdiction",
-        "Exclusion of revenue matters from SC jurisdiction",
-        "Establishment of the Board of Control",
-        "Application of personal law (Hindu/Mohammedan) by the SC",
-      ],
-      correct: 2,
-      explain:
-        "The Board of Control was created later by Pitt's India Act of 1784, not the 1781 Act.",
-    },
-    {
-      q: "The Act of Settlement (1781) is significant chiefly for:",
-      options: [
-        "Introducing a system of double government",
-        "Curtailing the powers of the newly-formed Supreme Court",
-        "Establishing the first Legislative Council",
-        "Ending the East India Company's monopoly",
-      ],
-      correct: 1,
-      explain:
-        "Its central significance lies in restricting the Supreme Court's jurisdiction over the executive and over revenue matters.",
-    },
-    {
-      q: "Which court's jurisdiction was curtailed by the Amending Act of 1781?",
-      options: [
-        "Privy Council",
-        "Federal Court",
-        "Supreme Court at Calcutta",
-        "Provincial Court at Madras",
-      ],
-      correct: 2,
-      explain:
-        "The Supreme Court at Calcutta (established under the 1773 Act) had its jurisdiction curtailed by this Act.",
-    },
-    {
-      q: "Under the 1781 Act, who administered personal law to litigants in the Supreme Court?",
-      options: [
-        "Only British judges applied English law uniformly",
-        "The Court applied Hindu law to Hindus and Mohammedan law to Muslims",
-        "Personal law was abolished",
-        "The Governor-General decided case by case",
-      ],
-      correct: 1,
-      explain:
-        "The Court was required to apply the litigant's own personal law — Hindu law for Hindus, Mohammedan law for Muslims.",
-    },
-    {
-      q: "The exemption granted to the Governor-General and Council under the 1781 Act applied to:",
-      options: [
-        "All their personal financial dealings",
-        "Acts carried out in their official capacity only",
-        "Actions taken after retirement",
-        "Matters relating to trade only",
-      ],
-      correct: 1,
-      explain:
-        "The exemption was limited strictly to acts performed in an official capacity, not personal conduct.",
-    },
-    {
-      q: "Why was the Amending Act of 1781 necessary after the Regulating Act of 1773?",
-      options: [
-        "The 1773 Act had created conflict between the Supreme Court and the executive/revenue administration",
-        "The 1773 Act failed to establish any Supreme Court",
-        "The 1773 Act gave too much power to Bombay and Madras",
-        "The 1773 Act abolished the Company",
+        "The 1773 Act established the Supreme Court; the 1781 Act curtailed its jurisdiction",
+        "The 1773 Act curtailed the Supreme Court's jurisdiction; the 1781 Act established it",
+        "Both Acts equally expanded the Supreme Court's powers",
+        "Neither Act dealt with the Supreme Court",
       ],
       correct: 0,
       explain:
-        "Conflicts between the newly-created Supreme Court and the Company's executive/revenue administration necessitated the corrective 1781 Act.",
+        "The Supreme Court was established by the Regulating Act, 1773; its jurisdiction was subsequently curtailed by the Amending Act, 1781 in response to conflicts it had generated.",
     },
     {
-      q: "Which of the following statements about the 1781 Act is correct?",
+      q: "With reference to the Amending Act of 1781, consider the following statements:\nI. It excluded revenue-collection disputes from Supreme Court jurisdiction.\nII. It required Hindus to be tried under Hindu law and Muslims under Mohammedan law.\nIII. It transferred the power to try revenue disputes to the Supreme Court.\nWhich of the statements given above is/are correct?",
       options: [
-        "It gave the Supreme Court appellate jurisdiction over Provincial Courts",
-        "It removed the Supreme Court's appellate jurisdiction over Provincial Courts, redirecting appeals to the Governor-General-in-Council",
-        "It abolished all Provincial Courts",
-        "It merged the Supreme Court with the Board of Control",
+        "I and II only",
+        "II and III only",
+        "I, II and III",
+        "III only",
+      ],
+      correct: 0,
+      explain:
+        "Statements I and II are correct. Statement III directly contradicts I and is incorrect — revenue disputes were EXCLUDED from, not transferred to, the Supreme Court.",
+    },
+    {
+      q: "The Amending Act of 1781 is significant in the constitutional history of British India primarily because it:",
+      options: [
+        "Established the first Supreme Court in India",
+        "Curtailed judicial oversight over the executive administration and revenue matters",
+        "Introduced representative institutions for Indians",
+        "Ended the East India Company's trade monopoly",
       ],
       correct: 1,
       explain:
-        "Appeals from Provincial Courts went to the Governor-General-in-Council, not the Supreme Court — reducing the SC's appellate reach.",
+        "Its central significance lies in restricting the Supreme Court's jurisdiction over the executive and over revenue matters — the Supreme Court itself was established earlier (1773), and Indian representation and trade monopoly changes came much later.",
     },
     {
-      q: "The Amending Act of 1781 reflects which broader tension in early colonial governance?",
+      q: "Which of the following pairs is correctly matched with respect to the Amending Act, 1781?",
       options: [
-        "Centre vs States",
-        "Judiciary vs Executive convenience",
-        "Legislature vs Judiciary",
-        "Crown vs Parliament",
+        "Appeals from Provincial Courts — Supreme Court",
+        "Regulation-framing for Provincial Courts — Governor-General-in-Council",
+        "Revenue disputes — Supreme Court",
+        "Personal law application — Board of Control",
       ],
       correct: 1,
       explain:
-        "It reflects the tension between judicial oversight (Supreme Court) and administrative/executive convenience — resolved in favour of the executive.",
+        "The Governor-General-in-Council was empowered to frame regulations for Provincial Courts — the other three pairs each reverse or misattribute the correct authority.",
     },
     {
-      q: "Which of the following is TRUE regarding the scope of the 1781 Act's exemptions?",
+      q: "Which of the following is an example of a matter that the Supreme Court, post-1781, could NOT adjudicate?",
       options: [
-        "It exempted only the Governor-General personally, not the Council",
-        "It exempted both the Governor-General and Council, and Company servants, for official acts",
-        "It exempted only Company servants, not the Governor-General",
-        "It provided no exemptions at all",
+        "A civil dispute between two inhabitants of Calcutta",
+        "A dispute arising from the collection of land revenue",
+        "A criminal matter involving a Calcutta resident",
+        "A personal law matter between two Hindu litigants in Calcutta",
       ],
       correct: 1,
       explain:
-        "The exemption from Supreme Court jurisdiction (for official acts) extended to the Governor-General, the Council, AND Company servants.",
+        "Revenue-collection disputes were specifically excluded from the Supreme Court's jurisdiction by the 1781 Act.",
+    },
+    {
+      q: "In the constitutional sequence of Acts governing British India, the Amending Act of 1781 followed the Regulating Act of 1773 by how many years?",
+      options: ["5 years", "6 years", "8 years", "10 years"],
+      correct: 2,
+      explain: "1781 minus 1773 = 8 years.",
+    },
+    {
+      q: "Consider the following statements about the scope of exemption granted under the Amending Act of 1781:\nI. The exemption from Supreme Court jurisdiction applied only to the Governor-General personally.\nII. The exemption extended to the Council and to Company servants as well, for official acts.\nWhich of the statements given above is/are correct?",
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 1,
+      explain:
+        "Statement II is correct — the exemption extended beyond the Governor-General alone to the Council and Company servants, for acts done in an official capacity. Statement I is incorrect as it understates the scope.",
+    },
+    {
+      q: "The requirement under the Amending Act of 1781 that Hindus be tried by Hindu law and Muslims by Mohammedan law reflects which broader colonial administrative principle?",
+      options: [
+        "Uniform codification of law across British India",
+        "Accommodation of personal/religious law within a colonial judicial framework",
+        "Complete replacement of Indian legal traditions with English Common Law",
+        "Abolition of religious distinctions in judicial matters",
+      ],
+      correct: 1,
+      explain:
+        "This reflects the colonial administration's early approach of accommodating existing personal/religious laws rather than imposing a uniform code — a pattern that persisted in various forms through much of British rule.",
+    },
+    {
+      q: "Which of the following statements about the Amending Act of 1781 is NOT correct?",
+      options: [
+        "It is also known as the Act of Settlement",
+        "It was passed to correct defects in the Regulating Act of 1773",
+        "It expanded the Supreme Court's jurisdiction to cover revenue disputes",
+        "It empowered the Governor-General-in-Council to frame regulations for Provincial Courts",
+      ],
+      correct: 2,
+      explain:
+        "This statement is incorrect and thus the answer — the Act EXCLUDED revenue disputes from the Supreme Court's jurisdiction rather than expanding it to cover them.",
     },
   ],
 };
