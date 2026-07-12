@@ -22,7 +22,12 @@ const QUIZ_ch1_ica1861 = {
         "It was the first of three Councils Acts — 1861, 1892, and 1909 — each progressively expanding (in limited ways) Indian participation in legislative councils.",
     },
     {
-      q: "Consider the following statements regarding the Indian Councils Act of 1861:\nI. It provided for the Viceroy to nominate some Indians as non-official members of the council.\nII. These Indians were directly elected by the Indian public.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding the Indian Councils Act of 1861:",
+        "I. It provided for the Viceroy to nominate some Indians as non-official members of the Council.",
+        "II. These Indians were directly elected by the Indian public.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -60,7 +65,11 @@ const QUIZ_ch1_ica1861 = {
         "The Act restored legislative powers to Bombay and Madras, reversing the centralising trend that had run from 1773 to its climax in 1833.",
     },
     {
-      q: "Assertion (A): The Indian Councils Act of 1861 marked a strategic reversal of the centralising trend that had characterised earlier Company-era legislation.\nReason (R): The Act restored legislative powers to the Bombay and Madras Presidencies, which had been progressively curtailed since 1773.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): The Indian Councils Act of 1861 marked a strategic reversal of the centralising trend that had characterised earlier Company-era legislation.",
+        "Reason (R): The Act restored legislative powers to the Bombay and Madras Presidencies, which had been progressively curtailed since 1773.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -115,7 +124,14 @@ const QUIZ_ch1_ica1861 = {
         "Such ordinances, issued unilaterally by the Viceroy during an emergency, had a maximum validity of 6 months.",
     },
     {
-      q: "Consider the following pairs of new legislative councils and their years of establishment following the Indian Councils Act, 1861:\nCouncil — Year\nI. Bengal — 1862\nII. North-Western Provinces — 1886\nIII. Punjab — 1897\nHow many of the above pairs are correctly matched?",
+      q: [
+        "Consider the following pairs of new legislative councils and their years of establishment following the Indian Councils Act, 1861:",
+        "Council — Year",
+        "I. Bengal — 1862",
+        "II. North-Western Provinces — 1886",
+        "III. Punjab — 1897",
+        "How many of the above pairs are correctly matched?",
+      ],
       options: [
         "Only one pair",
         "Only two pairs",

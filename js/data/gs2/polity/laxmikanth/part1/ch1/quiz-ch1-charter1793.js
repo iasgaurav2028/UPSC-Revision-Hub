@@ -12,10 +12,15 @@ const QUIZ_ch1_charter1793 = {
       ],
       correct: 1,
       explain:
-        "The 1793 Act generalised the override power to ALL future Governor-Generals and Presidency Governors, not just Cornwallis's successors in Bengal.",
+        "The 1793 Act generalized the override power to ALL future Governor-Generals and Presidency Governors, not just Cornwallis's successors in Bengal.",
     },
     {
-      q: "Consider the following statements regarding the Charter Act of 1793:\nI. It extended the Company's trade monopoly in India for a further 20 years.\nII. It made the Commander-in-Chief a compulsory member of the Governor-General's council.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding the Charter Act of 1793:",
+        "I. It extended the Company's trade monopoly in India for a further 20 years.",
+        "II. It made the Commander-in-Chief a compulsory member of the Governor-General's Council.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -58,7 +63,11 @@ const QUIZ_ch1_charter1793 = {
         "The Board of Control was established earlier, by Pitt's India Act of 1784 — not by the Charter Act of 1793.",
     },
     {
-      q: "Assertion (A): The Charter Act of 1793 marked a shift from personal privilege to systemic institutional practice.\nReason (R): It converted an override power originally specific to Cornwallis into a standing feature of the Governor-General's office.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): The Charter Act of 1793 marked a shift from personal privilege to systemic institutional practice.",
+        "Reason (R): It converted an override power originally specific to Cornwallis into a standing feature of the Governor-General's office.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -88,7 +97,14 @@ const QUIZ_ch1_charter1793 = {
         "It falls within the Company Rule period (1773–1858), well before the Crown assumed direct control in 1858.",
     },
     {
-      q: "Consider the following pairs regarding provisions of the Charter Act of 1793:\nProvision — Beneficiary/Effect\nI. Override power — extended to all Governors-General and Presidency Governors\nII. Trade monopoly — reduced by 20 years\nIII. Board of Control salaries — paid from Indian revenues\nHow many of the above pairs are correctly matched?",
+      q: [
+        "Consider the following pairs regarding provisions of the Charter Act of 1793:",
+        "Provision — Beneficiary/Effect",
+        "I. Override power — extended to all Governors-General and Presidency Governors",
+        "II. Trade monopoly — reduced by 20 years",
+        "III. Board of Control salaries — paid from Indian revenues",
+        "How many of the above pairs are correctly matched?",
+      ],
       options: [
         "Only one pair",
         "Only two pairs",
@@ -109,7 +125,7 @@ const QUIZ_ch1_charter1793 = {
       ],
       correct: 1,
       explain:
-        "This generalisation of the override power is the Act's defining feature, distinguishing it from the person-specific Act of 1786.",
+        "This generalization of the override power is the Act's defining feature, distinguishing it from the person-specific Act of 1786.",
     },
     {
       q: "Under the Charter Act of 1793, in what circumstance could the Commander-in-Chief become a member of the Governor-General's council?",

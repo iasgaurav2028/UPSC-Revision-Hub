@@ -15,7 +15,12 @@ const QUIZ_news_budget_2025 = {
         "The Budget was presented on 1 February 2025, continuing the tradition (since 2017) of presenting it on the first day of February.",
     },
     {
-      q: "Consider the following statements regarding Union Budget 2025-26:\nI. It was Nirmala Sitharaman's 8th consecutive Budget, a record.\nII. Its declared theme was 'Atmanirbhar Bharat'.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding Union Budget 2025-26:",
+        "I. It was Nirmala Sitharaman's 8th consecutive Budget, a record.",
+        "II. Its declared theme was 'Atmanirbhar Bharat'.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -41,7 +46,11 @@ const QUIZ_news_budget_2025 = {
         "Zero income tax was announced up to ₹12 lakh income under the new tax regime.",
     },
     {
-      q: "Assertion (A): Budget 2025-26 provided a significant boost to middle-class disposable income.\nReason (R): It raised the effective nil-tax threshold for salaried taxpayers to ₹12.75 lakh, after accounting for the standard deduction.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): Budget 2025-26 provided a significant boost to middle-class disposable income.",
+        "Reason (R): It raised the effective nil-tax threshold for salaried taxpayers to ₹12.75 lakh, after accounting for the standard deduction.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -59,7 +68,13 @@ const QUIZ_news_budget_2025 = {
       explain: "The fiscal deficit was targeted at 4.4% of GDP for FY26.",
     },
     {
-      q: "Consider the following pairs regarding Budget 2025-26's fiscal numbers:\nIndicator — Figure\nI. Capital expenditure — ₹11.21 lakh crore\nII. Capital expenditure as % of GDP — 3.1%\nIII. Total expenditure — ₹34.96 lakh crore\nHow many of the above pairs are correctly matched?",
+      q: [
+        "Consider the following pairs regarding Budget 2025-26's fiscal numbers:",
+        "I. Capital expenditure — ₹11.21 lakh crore",
+        "II. Capital expenditure as % of GDP — 3.1%",
+        "III. Total expenditure — ₹34.96 lakh crore",
+        "How many of the above pairs are correctly matched?",
+      ],
       options: [
         "Only one pair",
         "Only two pairs",
@@ -176,7 +191,13 @@ const QUIZ_news_budget_2025 = {
         "The Budget explicitly framed its development measures around the poor (Garib), youth (Yuva), farmers (Annadata), and women (Nari).",
     },
     {
-      q: "Consider the following statements about Budget 2025-26:\n1. It targeted a fiscal deficit of 4.4% of GDP.\n2. Income tax became nil up to ₹15 lakh under the new regime.\n3. The PM Dhan-Dhaanya Krishi Yojana covers 100 districts.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements about Budget 2025-26:",
+        "1. It targeted a fiscal deficit of 4.4% of GDP.",
+        "2. Income tax became nil up to ₹15 lakh under the new regime.",
+        "3. The PM Dhan-Dhaanya Krishi Yojana covers 100 districts.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["1 and 3 only", "2 only", "1, 2 and 3", "1 only"],
       correct: 0,
       explain:

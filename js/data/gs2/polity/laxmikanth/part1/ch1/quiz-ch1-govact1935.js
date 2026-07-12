@@ -27,7 +27,12 @@ const QUIZ_ch1_govact1935 = {
         "It was a lengthy and detailed document — 321 Sections and 10 Schedules — reflecting its comprehensive scope.",
     },
     {
-      q: "Consider the following statements regarding the All-India Federation proposed by the Government of India Act, 1935:\nI. It was to consist of provinces and princely states as units.\nII. It actually came into operation in 1937.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding the All-India Federation proposed by the Government of India Act, 1935:",
+        "I. It was to consist of provinces and princely states as units.",
+        "II. It actually came into operation in 1937.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -53,7 +58,11 @@ const QUIZ_ch1_govact1935 = {
         "The Concurrent List, for both Centre and provinces, had 36 items.",
     },
     {
-      q: "Assertion (A): Residuary powers under the Government of India Act, 1935 were vested in the Viceroy.\nReason (R): Since the All-India Federation never materialised, no federal legislature existed to hold residuary powers instead.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): Residuary powers under the Government of India Act, 1935 were vested in the Viceroy.",
+        "Reason (R): Since the All-India Federation never materialised, no federal legislature existed to hold residuary powers instead.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -134,7 +143,14 @@ const QUIZ_ch1_govact1935 = {
         "The Act provided for establishing the Reserve Bank of India, to control currency and credit — a lasting institutional legacy.",
     },
     {
-      q: "Consider the following pairs:\nInstitution — Status under the 1935 Act\nI. Council of India (est. 1858) — Abolished\nII. Federal Court — Provided for, set up in 1937\nIII. Auditor-General of India — Provision for appointment made\nHow many of the above pairs are correctly matched?",
+      q: [
+        "Consider the following pairs:",
+        "Institution — Status under the 1935 Act",
+        "I. Council of India (est. 1858) — Abolished",
+        "II. Federal Court — Provided for, set up in 1937",
+        "III. Auditor-General of India — Provision for appointment made",
+        "How many of the above pairs are correctly matched?",
+      ],
       options: [
         "Only one pair",
         "Only two pairs",

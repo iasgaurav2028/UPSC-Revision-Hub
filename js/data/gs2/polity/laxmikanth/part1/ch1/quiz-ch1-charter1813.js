@@ -15,7 +15,12 @@ const QUIZ_ch1_charter1813 = {
         "This Act was the first to assert British Crown sovereignty over the Company's Indian territories — an important precursor to full Crown takeover in 1858.",
     },
     {
-      q: "Consider the following statements regarding trade provisions of the Charter Act of 1813:\nI. It abolished the Company's general trade monopoly in India.\nII. It also abolished the Company's monopoly over trade with China.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding trade provisions of the Charter Act of 1813:",
+        "I. It abolished the Company's general trade monopoly in India.",
+        "II. It also abolished the Company's monopoly over trade with China.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -46,7 +51,11 @@ const QUIZ_ch1_charter1813 = {
         "The Act allowed Christian missionaries into India — a significant social policy shift with long-term consequences for colonial society.",
     },
     {
-      q: "Assertion (A): The Charter Act of 1813 is often linked to the beginnings of socio-religious reform movements in colonial India.\nReason (R): The Act's provisions for Western education and missionary access created early channels for exposure to Western liberal ideas.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): The Charter Act of 1813 is often linked to the beginnings of socio-religious reform movements in colonial India.",
+        "Reason (R): The Act's provisions for Western education and missionary access created early channels for exposure to Western liberal ideas.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -58,16 +67,16 @@ const QUIZ_ch1_charter1813 = {
         "Both are true, and R correctly explains A — Western education and missionary access are widely understood as early channels that later fed into 19th-century reform movements.",
     },
     {
-      q: "Under the Charter Act of 1813, Local Governments in India were authorised to:",
+      q: "Under the Charter Act of 1813, Local Governments in India were authorized to:",
       options: [
         "Print their own currency independent of the Company",
         "Impose taxes on persons and punish non-payment",
-        "Declare war on neighbouring princely states",
+        "Declare war on neighboring princely states",
         "Appoint judges to the Supreme Court at Calcutta",
       ],
       correct: 1,
       explain:
-        "Local Governments were authorised to impose taxes on persons and to punish those who failed to pay — an early expansion of local administrative/fiscal power.",
+        "Local Governments were authorized to impose taxes on persons and to punish those who failed to pay — an early expansion of local administrative/fiscal power.",
     },
     {
       q: "Which of the following statements correctly captures the trade policy of the Charter Act of 1813?",
@@ -82,7 +91,12 @@ const QUIZ_ch1_charter1813 = {
         "General Indian trade was opened to all British merchants; tea trade and trade with China remained Company monopolies — the reverse pairing is a common examination trap.",
     },
     {
-      q: "Consider the following statements:\nI. The Charter Act of 1813 provided for the spread of Western education among inhabitants of British India.\nII. The Act explicitly banned all religious missionary activity in Company territories.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements:",
+        "I. The Charter Act of 1813 provided for the spread of Western education among inhabitants of British India.",
+        "II. The Act explicitly banned all religious missionary activity in Company territories.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -110,7 +124,7 @@ const QUIZ_ch1_charter1813 = {
       ],
       correct: 0,
       explain:
-        "The tea trade and China trade were highly lucrative and strategically important, which is why Parliament chose to retain the Company's exclusive control over them even while liberalising general Indian trade.",
+        "The tea trade and China trade were highly lucrative and strategically important, which is why Parliament chose to retain the Company's exclusive control over them even while liberalizing general Indian trade.",
     },
     {
       q: "Which of the following pairs is correctly matched with respect to the Charter Act of 1813?",
@@ -134,7 +148,7 @@ const QUIZ_ch1_charter1813 = {
       ],
       correct: 1,
       explain:
-        "These provisions laid early cultural groundwork connected to subsequent socio-religious reform movements influenced by exposure to Western education and missionary activity.",
+        "These provisions laid early cultural groundwork connected to subsequent sociol-religious reform movements influenced by exposure to Western education and missionary activity.",
     },
     {
       q: "Which of the following was NOT a feature of the Charter Act of 1813?",
@@ -142,7 +156,7 @@ const QUIZ_ch1_charter1813 = {
         "Assertion of Crown sovereignty over Company territories",
         "Permission granted to Christian missionaries",
         "Complete abolition of the Company's tea trade monopoly",
-        "Authorisation for Local Governments to levy taxes",
+        "Authorization for Local Governments to levy taxes",
       ],
       correct: 2,
       explain:

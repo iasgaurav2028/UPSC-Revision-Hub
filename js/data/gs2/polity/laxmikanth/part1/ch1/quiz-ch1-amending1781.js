@@ -15,7 +15,12 @@ const QUIZ_ch1_amending1781 = {
         "The Amending Act of 1781 is also known as the Act of Settlement.",
     },
     {
-      q: "Consider the following statements regarding the Amending Act of 1781:\nI. It was passed to rectify defects in the Regulating Act of 1773.\nII. It expanded the Supreme Court's jurisdiction over revenue matters.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding the Amending Act of 1781:",
+        "I. It was passed to rectify defects in the Regulating Act of 1773.",
+        "II. It expanded the Supreme Court's jurisdiction over revenue matters.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -70,7 +75,11 @@ const QUIZ_ch1_amending1781 = {
         "Appeals from Provincial Courts went to the Governor-General-in-Council, NOT to the Supreme Court — a frequently tested distinction from the 1773 arrangement.",
     },
     {
-      q: "Assertion (A): The Amending Act of 1781 was necessitated by conflicts between the newly-established Supreme Court and the Company's executive and revenue administration.\nReason (R): The Regulating Act of 1773 had not clearly defined the extent of the Supreme Court's jurisdiction relative to the executive.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): The Amending Act of 1781 was necessitated by conflicts between the newly-established Supreme Court and the Company's executive and revenue administration.",
+        "Reason (R): The Regulating Act of 1773 had not clearly defined the extent of the Supreme Court's jurisdiction relative to the executive.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -94,7 +103,12 @@ const QUIZ_ch1_amending1781 = {
         "The Governor-General-in-Council was empowered to frame regulations governing the Provincial Courts and Councils.",
     },
     {
-      q: "Consider the following statements:\nI. Company servants were exempted from Supreme Court jurisdiction for their official actions under the Amending Act of 1781.\nII. This exemption was identical in scope to that given to the Governor-General and Council.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements:",
+        "I. Company servants were exempted from Supreme Court jurisdiction for their official actions under the Amending Act of 1781.",
+        "II. This exemption was identical in scope to that given to the Governor-General and Council.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "Both I and II", "II only", "Neither I nor II"],
       correct: 1,
       explain:
@@ -137,7 +151,13 @@ const QUIZ_ch1_amending1781 = {
         "The Supreme Court was established by the Regulating Act, 1773; its jurisdiction was subsequently curtailed by the Amending Act, 1781 in response to conflicts it had generated.",
     },
     {
-      q: "With reference to the Amending Act of 1781, consider the following statements:\nI. It excluded revenue-collection disputes from Supreme Court jurisdiction.\nII. It required Hindus to be tried under Hindu law and Muslims under Mohammedan law.\nIII. It transferred the power to try revenue disputes to the Supreme Court.\nWhich of the statements given above is/are correct?",
+      q: [
+        "With reference to the Amending Act of 1781, consider the following statements:",
+        "I. It excluded revenue-collection disputes from Supreme Court jurisdiction.",
+        "II. It required Hindus to be tried under Hindu law and Muslims under Mohammedan law.",
+        "III. It transferred the power to try revenue disputes to the Supreme Court.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: [
         "I and II only",
         "II and III only",
@@ -191,7 +211,12 @@ const QUIZ_ch1_amending1781 = {
       explain: "1781 minus 1773 = 8 years.",
     },
     {
-      q: "Consider the following statements about the scope of exemption granted under the Amending Act of 1781:\nI. The exemption from Supreme Court jurisdiction applied only to the Governor-General personally.\nII. The exemption extended to the Council and to Company servants as well, for official acts.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements about the scope of exemption granted under the Amending Act of 1781:",
+        "I. The exemption from Supreme Court jurisdiction applied only to the Governor-General personally.",
+        "II. The exemption extended to the Council and to Company servants as well, for official acts.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 1,
       explain:
