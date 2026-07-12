@@ -4951,7 +4951,13 @@ const QUIZ_ch1_regulating1773 = {
   title: "Regulating Act of 1773",
   questions: [
     {
-      q: "With reference to the Regulating Act of 1773, consider the following statements:\nI. It was the first step by the British Parliament to regulate the affairs of the East India Company.\nII. It made the Governors of Bombay and Madras fully independent of Bengal.\nIII. It laid the foundation of central administration in British India.\nWhich of the statements given above is/are correct?",
+      q: [
+        "With reference to the Regulating Act of 1773, consider the following statements:",
+        "I. It was the step first by the British Parliament to regulate the affairs of the East India Company.",
+        "II. It made the Governors of Bombay and Madras fully independent of Bengal.",
+        "III. It laid the foundation of central administration in British India.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I and III only", "II only", "I, II and III", "I only"],
       correct: 0,
       explain:
@@ -8248,7 +8254,12 @@ function renderQuizQuestion() {
   const letters = ["A", "B", "C", "D"];
 
   let html = `<div class="quiz-qnum">QUESTION ${index + 1} OF ${questions.length}</div>`;
-  html += `<div class="quiz-question">${esc(q.q)}</div>`;
+  // html += `<div class="quiz-question">${esc(q.q)}</div>`;
+  const questionText = Array.isArray(q.q)
+    ? q.q.map((line) => esc(line)).join("<br>")
+    : esc(q.q);
+
+  html += `<div class="quiz-question">${questionText}</div>`;
   q.options.forEach((opt, i) => {
     let cls = "quiz-option";
     if (selected !== null) {
@@ -8408,3 +8419,4 @@ try {
 refreshTree();
 renderSidebarNav();
 renderNotes();
+

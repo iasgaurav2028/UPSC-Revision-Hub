@@ -8,7 +8,7 @@ const QUIZ_ch1_regulating1773 = {
     {
       q: [
         "With reference to the Regulating Act of 1773, consider the following statements:",
-        "I. It was the first by the British Parliament to regulate the affairs of the East India Company.",
+        "I. It was the step first by the British Parliament to regulate the affairs of the East India Company.",
         "II. It made the Governors of Bombay and Madras fully independent of Bengal.",
         "III. It laid the foundation of central administration in British India.",
         "Which of the statements given above is/are correct?",
