@@ -15,12 +15,7 @@ const QUIZ_ch1_pitts1784 = {
         "The Act was introduced by the then British Prime Minister, William Pitt, hence its name.",
     },
     {
-      q: [
-        "Consider the following statements regarding Pitt's India Act of 1784:",
-        "I. It distinguished, for the first time, between the commercial and political functions of the East India Company.",
-        "II. It abolished the Court of Directors entirely.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding Pitt's India Act of 1784:\nI. It distinguished, for the first time, between the commercial and political functions of the East India Company.\nII. It abolished the Court of Directors entirely.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -75,11 +70,7 @@ const QUIZ_ch1_pitts1784 = {
         "The Act was significant for first officially calling the Company's Indian territories 'British possessions in India'.",
     },
     {
-      q: [
-        "Assertion (A): Pitt's India Act of 1784 gave the British Government supreme control over the East India Company's political affairs.",
-        "Reason (R): The Act transferred all commercial functions of the Company to the Board of Control.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): Pitt's India Act of 1784 gave the British Government supreme control over the East India Company's political affairs.\nReason (R): The Act transferred all commercial functions of the Company to the Board of Control.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -186,12 +177,7 @@ const QUIZ_ch1_pitts1784 = {
         "The two bodies operated with a clear division: commerce to the Court of Directors, politics to the Board of Control — this is the essence of 'double government'.",
     },
     {
-      q: [
-        "Consider the following statements:",
-        "I. Pitt's India Act of 1784 was passed in response to concerns about East India Company mismanagement.",
-        "II. The Act ended British Parliament's ability to oversee the Company's affairs.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements:\nI. Pitt's India Act of 1784 was passed in response to concerns about East India Company mismanagement.\nII. The Act ended British Parliament's ability to oversee the Company's affairs.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -234,16 +220,16 @@ const QUIZ_ch1_pitts1784 = {
         "The Act deepened Parliamentary control by creating a dedicated political oversight body (Board of Control), building on the Regulating Act's earlier, more limited oversight mechanisms.",
     },
     {
-      q: "Which of the following is the most accurate characterization of Pitt's India Act of 1784 within the broader arc of Company Rule (1773–1858)?",
+      q: "Which of the following is the most accurate characterisation of Pitt's India Act of 1784 within the broader arc of Company Rule (1773–1858)?",
       options: [
         "It was the final Act of the Company Rule period",
-        "It was an intermediate Act that institutionalized dual control, later superseded by full Crown control in 1858",
+        "It was an intermediate Act that institutionalised dual control, later superseded by full Crown control in 1858",
         "It had no lasting institutional impact",
         "It was superseded almost immediately by the Regulating Act's reintroduction",
       ],
       correct: 1,
       explain:
-        "Pitt's India Act sits in the middle of the Company Rule timeline (1773–1858), institutionalizing a dual-control model (Company commerce + Government politics) that persisted until the Crown assumed full control in 1858.",
+        "Pitt's India Act sits in the middle of the Company Rule timeline (1773–1858), institutionalising a dual-control model (Company commerce + Government politics) that persisted until the Crown assumed full control in 1858.",
     },
   ],
 };

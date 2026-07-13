@@ -27,12 +27,7 @@ const QUIZ_ch1_charter1833 = {
         "Lord William Bentinck was the first Governor-General of India — a distinct office from Warren Hastings's earlier Governor-General of Bengal (1773).",
     },
     {
-      q: [
-        "Consider the following statements regarding legislative power under the Charter Act of 1833:",
-        "I. Bombay and Madras Presidencies lost their legislative powers.",
-        "II. The Governor-General of India gained exclusive legislative power for all of British India.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding legislative power under the Charter Act of 1833:\nI. Bombay and Madras Presidencies lost their legislative powers.\nII. The Governor-General of India gained exclusive legislative power for all of British India.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -77,11 +72,7 @@ const QUIZ_ch1_charter1833 = {
         "The Act specified the territories were now held 'in trust for His Majesty, His heirs and successors' — a conceptual step toward eventual Crown ownership, completed in 1858.",
     },
     {
-      q: [
-        "Assertion (A): The Charter Act of 1833 attempted to introduce open competition for civil service selection, explicitly stating Indians should not be debarred from office.",
-        "Reason (R): This provision was successfully and immediately implemented, opening the Indian Civil Service to Indians from 1833 onward.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Charter Act of 1833 attempted to introduce open competition for civil service selection, explicitly stating Indians should not be debarred from office.\nReason (R): This provision was successfully and immediately implemented, opening the Indian Civil Service to Indians from 1833 onward.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -117,14 +108,7 @@ const QUIZ_ch1_charter1833 = {
         "This is the incorrect statement, and thus the answer — the open competition clause was PROPOSED but ultimately NEGATED, never actually implemented in 1833.",
     },
     {
-      q: [
-        "Consider the following pairs regarding the Charter Act of 1833:",
-        "Provision — Outcome",
-        "I. Open competition for civil services — Implemented successfully",
-        "II. Governor-General of Bengal — Redesignated Governor-General of India",
-        "III. Company's commercial role — Ended",
-        "How many of the above pairs are correctly matched?",
-      ],
+      q: "Consider the following pairs regarding the Charter Act of 1833:\nProvision — Outcome\nI. Open competition for civil services — Implemented successfully\nII. Governor-General of Bengal — Redesignated Governor-General of India\nIII. Company's commercial role — Ended\nHow many of the above pairs are correctly matched?",
       options: [
         "Only one pair",
         "Only two pairs",
@@ -148,7 +132,7 @@ const QUIZ_ch1_charter1833 = {
         "Opposition from the Court of Directors led to this provision being negated, despite its inclusion in the original Act.",
     },
     {
-      q: "A candidate is asked to identify the 'final step towards centralization in British India' among constitutional Acts passed between 1773 and 1858. Which Act best fits this description?",
+      q: "A candidate is asked to identify the 'final step towards centralisation in British India' among constitutional Acts passed between 1773 and 1858. Which Act best fits this description?",
       options: [
         "Regulating Act, 1773",
         "Pitt's India Act, 1784",
@@ -157,7 +141,7 @@ const QUIZ_ch1_charter1833 = {
       ],
       correct: 2,
       explain:
-        "The Charter Act of 1833 is explicitly identified as the final step in this centralizing trend — the subsequent 1853 Act and later 1861 Act began a reverse, decentralizing trajectory.",
+        "The Charter Act of 1833 is explicitly identified as the final step in this centralising trend — the subsequent 1853 Act and later 1861 Act began a reverse, decentralising trajectory.",
     },
     {
       q: "Under the Charter Act of 1833, which Presidencies lost their legislative powers to the Governor-General of India?",

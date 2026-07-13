@@ -15,12 +15,7 @@ const QUIZ_ch1_communalaward = {
         "Ramsay MacDonald, the British Prime Minister, announced the Communal Award.",
     },
     {
-      q: [
-        "Consider the following statements regarding the Communal Award of 1932:",
-        "I. It continued existing separate electorates for Muslims, Sikhs, Indian Christians, Anglo-Indians, and Europeans.",
-        "II. It extended separate electorates to the Depressed Classes for the first time.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the Communal Award of 1932:\nI. It continued existing separate electorates for Muslims, Sikhs, Indian Christians, Anglo-Indians, and Europeans.\nII. It extended separate electorates to the Depressed Classes for the first time.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -51,11 +46,7 @@ const QUIZ_ch1_communalaward = {
         "Gandhiji undertook a fast unto death at Yerawada Jail (Poona) specifically to press for modification of the Award's provisions for Depressed Classes.",
     },
     {
-      q: [
-        "Assertion (A): The Poona Pact resolved the crisis triggered by the Communal Award's treatment of Depressed Classes.",
-        "Reason (R): The Poona Pact replaced the separate electorate for Depressed Classes with a joint electorate and reserved seats.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Poona Pact resolved the crisis triggered by the Communal Award's treatment of Depressed Classes.\nReason (R): The Poona Pact replaced the separate electorate for Depressed Classes with a joint electorate and reserved seats.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",

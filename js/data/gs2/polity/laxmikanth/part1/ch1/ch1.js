@@ -5,5 +5,6 @@ const DATA_ch1 = {
   title: "Chapter 1",
   subtitle: "Historical Background",
   icon: "\ud83d\udcda",
+  isChapter: true, // marks this as a Prev/Next navigation boundary
   children: [DATA_ch1_company, DATA_ch1_crown],
 };

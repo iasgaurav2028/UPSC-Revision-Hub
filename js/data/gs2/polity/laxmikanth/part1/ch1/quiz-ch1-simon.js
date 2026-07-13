@@ -21,23 +21,14 @@ const QUIZ_ch1_simon = {
       explain: "Sir John Simon chaired the seven-member statutory commission.",
     },
     {
-      q: [
-        "Consider the following statements regarding the composition of the Simon Commission:",
-        "I. It had seven members.",
-        "II. All members were British, with no Indian representation.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the composition of the Simon Commission:\nI. It had seven members.\nII. All members were British, with no Indian representation.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
         "Both statements are correct — the Commission's all-British, seven-member composition is central to understanding why it was universally boycotted by Indian parties.",
     },
     {
-      q: [
-        "Assertion (A): The Simon Commission was boycotted by all major Indian political parties.",
-        "Reason (R): The Commission's composition included no Indian members whatsoever.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Simon Commission was boycotted by all major Indian political parties.\nReason (R): The Commission's composition included no Indian members whatsoever.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -68,12 +59,7 @@ const QUIZ_ch1_simon = {
         "The Commission recommended abolishing dyarchy and extending responsible government at the provincial level — universal franchise, immediate independence, and abolition of the Viceroy's office were not among its recommendations.",
     },
     {
-      q: [
-        "Consider the following statements about the Simon Commission's recommendations:",
-        "I. It recommended a federation of British India and princely states.",
-        "II. It recommended abolishing communal electorates entirely.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements about the Simon Commission's recommendations:\nI. It recommended a federation of British India and princely states.\nII. It recommended abolishing communal electorates entirely.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:

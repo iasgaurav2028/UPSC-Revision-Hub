@@ -203,6 +203,80 @@ function subtreeProgress(node) {
   };
 }
 
+// Returns the full chain of ancestor NODES (not just titles) from the
+// root of TREE_DATA down to (and including) the node with the given id.
+// Returns null if not found.
+function findAncestorChain(nodes, id, chain = []) {
+  for (const n of nodes) {
+    const newChain = [...chain, n];
+    if (n.id === id) return newChain;
+    if (n.children) {
+      const found = findAncestorChain(n.children, id, newChain);
+      if (found) return found;
+    }
+  }
+  return null;
+}
+
+// ╔══════════════════════════════════════════════════════════╗
+// ║  CHAPTER-WISE PREV / NEXT NAVIGATION                       ║
+// ║                                                              ║
+// ║  A "chapter" is any node explicitly marked `isChapter: true` ║
+// ║  in its data file (e.g. Chapter 1 combines Company Rule +    ║
+// ║  Crown Rule under one isChapter node; Union Budget combines  ║
+// ║  its 4 topics the same way). Prev/Next moves between the     ║
+// ║  leaf topics flattened under the nearest such ancestor.       ║
+// ║                                                              ║
+// ║  When adding new content that should behave as its own       ║
+// ║  navigable "chapter", set `isChapter: true` on that node.    ║
+// ╚══════════════════════════════════════════════════════════╝
+
+// Identify the "chapter" node for a given leaf id — the ancestor node
+// explicitly marked `isChapter: true` (see e.g. ch1.js, budget/index.js).
+// Falls back to the leaf's direct parent if no ancestor is marked, so
+// navigation still works for content added before this flag existed.
+function findChapterNode(leafId) {
+  const chain = findAncestorChain(TREE_DATA, leafId);
+  if (!chain) return null;
+  for (let i = chain.length - 2; i >= 0; i--) {
+    if (chain[i].isChapter) return chain[i];
+  }
+  return chain[chain.length - 2] || null; // fallback: direct parent
+}
+
+// Flatten a chapter node's descendant leaves, in tree order.
+function chapterLeaves(chapterNode) {
+  return collectLeaves(chapterNode)
+    .map((id) => findNode(TREE_DATA, id))
+    .filter(Boolean);
+}
+
+// Given a leaf id, return { chapterNode, leaves, index } describing its
+// position within its chapter's flattened leaf list.
+function getChapterPosition(leafId) {
+  const chapterNode = findChapterNode(leafId);
+  if (!chapterNode) return null;
+  const leaves = chapterLeaves(chapterNode);
+  const index = leaves.findIndex((n) => n.id === leafId);
+  if (index === -1) return null;
+  return { chapterNode, leaves, index };
+}
+
+// Find the chapter node that comes immediately after the given chapter
+// node, among its own parent's children (skipping non-chapter siblings
+// that have no leaves at all).
+function findNextChapterNode(chapterNode) {
+  const chain = findAncestorChain(TREE_DATA, chapterNode.id);
+  if (!chain || chain.length < 2) return null;
+  const parent = chain[chain.length - 2];
+  const siblings = parent.children || [];
+  const myIndex = siblings.findIndex((s) => s.id === chapterNode.id);
+  for (let i = myIndex + 1; i < siblings.length; i++) {
+    if (collectLeaves(siblings[i]).length > 0) return siblings[i];
+  }
+  return null;
+}
+
 function overallProgress() {
   let leaves = [];
   for (const n of TREE_DATA) leaves = leaves.concat(collectLeaves(n));

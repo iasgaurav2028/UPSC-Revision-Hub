@@ -367,10 +367,12 @@ function attachBrowseHandlers() {
 function renderNotes() {
   if (selectedId === "syllabus") {
     renderSyllabusOverview();
+    hideNoteNavBar();
     return;
   }
   if (!selectedId) {
     renderDashboard();
+    hideNoteNavBar();
     return;
   }
 
@@ -388,16 +390,19 @@ function renderNotes() {
         <div class="empty-title">${node ? esc(node.title) : "Select a Topic"}</div>
         <div class="empty-desc">${prog ? `Progress: ${prog.done}/${prog.total} topics completed (${prog.pct}%)` : "Notes for this topic haven't been added yet. Share the chapter content to add it."}</div>
       </div>`;
+    hideNoteNavBar();
     return;
   }
 
   if (node.notes.newsType) {
     trackNoteOpen(node);
     renderNewsArticleNote(node);
+    updateNoteNavBar(node);
     return;
   }
   trackNoteOpen(node);
   renderStandardNote(node);
+  updateNoteNavBar(node);
 }
 
 function renderStandardNote(node) {
@@ -591,3 +596,107 @@ function renderNewsArticleNote(node) {
     });
   }
 }
+
+// ╔══════════════════════════════════════════════════════════╗
+// ║  NOTE PREV / NEXT — standalone floating buttons                ║
+// ║                                                              ║
+// ║  Two independent floating buttons (bottom-left / bottom-right) ║
+// ║  for moving between leaf topics within the current "chapter"  ║
+// ║  (see findChapterNode in core.js). No wrapping bar/box — each  ║
+// ║  button shows/hides on its own. Works identically in normal   ║
+// ║  and reading mode since both are fixed-position elements.     ║
+// ╚══════════════════════════════════════════════════════════╝
+function hideNoteNavBar() {
+  const prevBtn = document.getElementById("noteNavPrevBtn");
+  const nextBtn = document.getElementById("noteNavNextBtn");
+  if (prevBtn) prevBtn.classList.remove("active");
+  if (nextBtn) nextBtn.classList.remove("active");
+}
+
+function updateNoteNavBar(node) {
+  const prevBtn = document.getElementById("noteNavPrevBtn");
+  const nextBtn = document.getElementById("noteNavNextBtn");
+  if (!prevBtn || !nextBtn || !node) return;
+
+  const pos = getChapterPosition(node.id);
+  if (!pos || pos.leaves.length <= 1) {
+    // Nothing meaningful to navigate between (e.g. a lone topic) — hide both.
+    hideNoteNavBar();
+    return;
+  }
+
+  const { chapterNode, leaves, index } = pos;
+  const isFirst = index === 0;
+  const isLast = index === leaves.length - 1;
+
+  // Previous button: on the very first topic of a chapter, there's
+  // nothing before it — show a calm "beginning" indicator, disabled,
+  // rather than hiding it outright, so it reads as informative rather
+  // than broken.
+  prevBtn.classList.add("active");
+  if (isFirst) {
+    prevBtn.textContent = "◀ You're at the Beginning";
+    prevBtn.disabled = true;
+    prevBtn.onclick = null;
+  } else {
+    prevBtn.textContent = "◀ Previous";
+    prevBtn.disabled = false;
+    prevBtn.onclick = () => selectAndReveal(leaves[index - 1].id);
+  }
+
+  // Next button: always shown while there's a chapter to move through.
+  // On the last topic, it opens the chapter-complete celebration
+  // instead of moving to a (nonexistent) next topic.
+  nextBtn.classList.add("active");
+  nextBtn.disabled = false;
+  if (isLast) {
+    nextBtn.textContent = "Finish Chapter 🎉";
+    nextBtn.onclick = () => openChapterCompleteCelebration(chapterNode);
+  } else {
+    nextBtn.textContent = "Next ▶";
+    nextBtn.onclick = () => selectAndReveal(leaves[index + 1].id);
+  }
+}
+
+function openChapterCompleteCelebration(chapterNode) {
+  const overlay = document.getElementById("chapterCompleteOverlay");
+  const title = document.getElementById("chapterCompleteTitle");
+  const sub = document.getElementById("chapterCompleteSub");
+  const hurrahBtn = document.getElementById("chapterCompleteHurrahBtn");
+
+  const nextChapter = findNextChapterNode(chapterNode);
+
+  title.textContent = "Congratulations! 🎉";
+  if (nextChapter) {
+    sub.innerHTML = `You've completed every topic in <strong>${esc(chapterNode.title)}</strong>.<br>Ready to move on to <strong>${esc(nextChapter.title)}</strong>?`;
+    hurrahBtn.style.display = "block";
+    hurrahBtn.textContent = "Hurrah! Start Next Chapter 🎉";
+    hurrahBtn.onclick = () => {
+      const nextLeaves = chapterLeaves(nextChapter);
+      overlay.classList.remove("active");
+      if (nextLeaves.length > 0) selectAndReveal(nextLeaves[0].id);
+    };
+  } else {
+    sub.innerHTML = `You've completed every topic in <strong>${esc(chapterNode.title)}</strong>.<br>More chapters will appear here as they're added.`;
+    hurrahBtn.style.display = "none";
+  }
+
+  overlay.classList.add("active");
+}
+
+document
+  .getElementById("chapterCompleteCloseBtn")
+  .addEventListener("click", () => {
+    document
+      .getElementById("chapterCompleteOverlay")
+      .classList.remove("active");
+  });
+document
+  .getElementById("chapterCompleteOverlay")
+  .addEventListener("click", (e) => {
+    if (e.target.id === "chapterCompleteOverlay") {
+      document
+        .getElementById("chapterCompleteOverlay")
+        .classList.remove("active");
+    }
+  });

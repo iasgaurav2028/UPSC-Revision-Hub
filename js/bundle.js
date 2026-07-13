@@ -1640,6 +1640,7 @@ const DATA_ch1 = {
   title: "Chapter 1",
   subtitle: "Historical Background",
   icon: "\ud83d\udcda",
+  isChapter: true, // marks this as a Prev/Next navigation boundary
   children: [DATA_ch1_company, DATA_ch1_crown],
 };
 
@@ -1843,12 +1844,7 @@ const QUIZ_ch1_act1786 = {
         "Lord Cornwallis placed two personal conditions before accepting the post of Governor-General of Bengal, leading directly to this Act.",
     },
     {
-      q: [
-        "Consider the following statements regarding the Act of 1786:",
-        "I. It granted the Governor-General power to override his Council's decisions in special cases.",
-        "II. It permitted the Governor-General to simultaneously hold the post of Commander-in-Chief.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the Act of 1786:\nI. It granted the Governor-General power to override his Council's decisions in special cases.\nII. It permitted the Governor-General to simultaneously hold the post of Commander-in-Chief.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -1867,11 +1863,7 @@ const QUIZ_ch1_act1786 = {
         "This override power did not exist prior to 1786 — it was newly introduced as a personal concession to Cornwallis.",
     },
     {
-      q: [
-        "Assertion (A): The Act of 1786 is historically significant despite its narrow, personal origin.",
-        "Reason (R): The override power it granted to Cornwallis was later generalized to all future Governors-General and Presidency Governors by the Charter Act of 1793.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Act of 1786 is historically significant despite its narrow, personal origin.\nReason (R): The override power it granted to Cornwallis was later generalised to all future Governors-General and Presidency Governors by the Charter Act of 1793.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -1898,7 +1890,7 @@ const QUIZ_ch1_act1786 = {
       q: "The Act of 1786 is best understood as an example of which broader phenomenon in early colonial constitutional development?",
       options: [
         "Judicial review shaping executive power",
-        "Individual administrators' personal conditions becoming institutionalized as formal powers of an office",
+        "Individual administrators' personal conditions becoming institutionalised as formal powers of an office",
         "Parliamentary debate leading to reduced executive authority",
         "Indian political pressure influencing British legislation",
       ],
@@ -1907,7 +1899,7 @@ const QUIZ_ch1_act1786 = {
         "The Act illustrates how Cornwallis's personal demands were translated directly into the formal powers of the Governor-General's office.",
     },
     {
-      q: "Which of the following Acts generalized the override power — originally granted only to Cornwallis under the Act of 1786 — to all future Governors-General and Presidency Governors?",
+      q: "Which of the following Acts generalised the override power — originally granted only to Cornwallis under the Act of 1786 — to all future Governors-General and Presidency Governors?",
       options: [
         "Regulating Act of 1773",
         "Charter Act of 1793",
@@ -1970,12 +1962,7 @@ const QUIZ_ch1_amending1781 = {
         "The Amending Act of 1781 is also known as the Act of Settlement.",
     },
     {
-      q: [
-        "Consider the following statements regarding the Amending Act of 1781:",
-        "I. It was passed to rectify defects in the Regulating Act of 1773.",
-        "II. It expanded the Supreme Court's jurisdiction over revenue matters.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the Amending Act of 1781:\nI. It was passed to rectify defects in the Regulating Act of 1773.\nII. It expanded the Supreme Court's jurisdiction over revenue matters.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -2030,11 +2017,7 @@ const QUIZ_ch1_amending1781 = {
         "Appeals from Provincial Courts went to the Governor-General-in-Council, NOT to the Supreme Court — a frequently tested distinction from the 1773 arrangement.",
     },
     {
-      q: [
-        "Assertion (A): The Amending Act of 1781 was necessitated by conflicts between the newly-established Supreme Court and the Company's executive and revenue administration.",
-        "Reason (R): The Regulating Act of 1773 had not clearly defined the extent of the Supreme Court's jurisdiction relative to the executive.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Amending Act of 1781 was necessitated by conflicts between the newly-established Supreme Court and the Company's executive and revenue administration.\nReason (R): The Regulating Act of 1773 had not clearly defined the extent of the Supreme Court's jurisdiction relative to the executive.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -2058,12 +2041,7 @@ const QUIZ_ch1_amending1781 = {
         "The Governor-General-in-Council was empowered to frame regulations governing the Provincial Courts and Councils.",
     },
     {
-      q: [
-        "Consider the following statements:",
-        "I. Company servants were exempted from Supreme Court jurisdiction for their official actions under the Amending Act of 1781.",
-        "II. This exemption was identical in scope to that given to the Governor-General and Council.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements:\nI. Company servants were exempted from Supreme Court jurisdiction for their official actions under the Amending Act of 1781.\nII. This exemption was identical in scope to that given to the Governor-General and Council.\nWhich of the statements given above is/are correct?",
       options: ["I only", "Both I and II", "II only", "Neither I nor II"],
       correct: 1,
       explain:
@@ -2106,13 +2084,7 @@ const QUIZ_ch1_amending1781 = {
         "The Supreme Court was established by the Regulating Act, 1773; its jurisdiction was subsequently curtailed by the Amending Act, 1781 in response to conflicts it had generated.",
     },
     {
-      q: [
-        "With reference to the Amending Act of 1781, consider the following statements:",
-        "I. It excluded revenue-collection disputes from Supreme Court jurisdiction.",
-        "II. It required Hindus to be tried under Hindu law and Muslims under Mohammedan law.",
-        "III. It transferred the power to try revenue disputes to the Supreme Court.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "With reference to the Amending Act of 1781, consider the following statements:\nI. It excluded revenue-collection disputes from Supreme Court jurisdiction.\nII. It required Hindus to be tried under Hindu law and Muslims under Mohammedan law.\nIII. It transferred the power to try revenue disputes to the Supreme Court.\nWhich of the statements given above is/are correct?",
       options: [
         "I and II only",
         "II and III only",
@@ -2166,12 +2138,7 @@ const QUIZ_ch1_amending1781 = {
       explain: "1781 minus 1773 = 8 years.",
     },
     {
-      q: [
-        "Consider the following statements about the scope of exemption granted under the Amending Act of 1781:",
-        "I. The exemption from Supreme Court jurisdiction applied only to the Governor-General personally.",
-        "II. The exemption extended to the Council and to Company servants as well, for official acts.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements about the scope of exemption granted under the Amending Act of 1781:\nI. The exemption from Supreme Court jurisdiction applied only to the Governor-General personally.\nII. The exemption extended to the Council and to Company servants as well, for official acts.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 1,
       explain:
@@ -2219,15 +2186,10 @@ const QUIZ_ch1_charter1793 = {
       ],
       correct: 1,
       explain:
-        "The 1793 Act generalized the override power to ALL future Governor-Generals and Presidency Governors, not just Cornwallis's successors in Bengal.",
+        "The 1793 Act generalised the override power to ALL future Governor-Generals and Presidency Governors, not just Cornwallis's successors in Bengal.",
     },
     {
-      q: [
-        "Consider the following statements regarding the Charter Act of 1793:",
-        "I. It extended the Company's trade monopoly in India for a further 20 years.",
-        "II. It made the Commander-in-Chief a compulsory member of the Governor-General's Council.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the Charter Act of 1793:\nI. It extended the Company's trade monopoly in India for a further 20 years.\nII. It made the Commander-in-Chief a compulsory member of the Governor-General's council.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -2270,11 +2232,7 @@ const QUIZ_ch1_charter1793 = {
         "The Board of Control was established earlier, by Pitt's India Act of 1784 — not by the Charter Act of 1793.",
     },
     {
-      q: [
-        "Assertion (A): The Charter Act of 1793 marked a shift from personal privilege to systemic institutional practice.",
-        "Reason (R): It converted an override power originally specific to Cornwallis into a standing feature of the Governor-General's office.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Charter Act of 1793 marked a shift from personal privilege to systemic institutional practice.\nReason (R): It converted an override power originally specific to Cornwallis into a standing feature of the Governor-General's office.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -2304,14 +2262,7 @@ const QUIZ_ch1_charter1793 = {
         "It falls within the Company Rule period (1773–1858), well before the Crown assumed direct control in 1858.",
     },
     {
-      q: [
-        "Consider the following pairs regarding provisions of the Charter Act of 1793:",
-        "Provision — Beneficiary/Effect",
-        "I. Override power — extended to all Governors-General and Presidency Governors",
-        "II. Trade monopoly — reduced by 20 years",
-        "III. Board of Control salaries — paid from Indian revenues",
-        "How many of the above pairs are correctly matched?",
-      ],
+      q: "Consider the following pairs regarding provisions of the Charter Act of 1793:\nProvision — Beneficiary/Effect\nI. Override power — extended to all Governors-General and Presidency Governors\nII. Trade monopoly — reduced by 20 years\nIII. Board of Control salaries — paid from Indian revenues\nHow many of the above pairs are correctly matched?",
       options: [
         "Only one pair",
         "Only two pairs",
@@ -2332,7 +2283,7 @@ const QUIZ_ch1_charter1793 = {
       ],
       correct: 1,
       explain:
-        "This generalization of the override power is the Act's defining feature, distinguishing it from the person-specific Act of 1786.",
+        "This generalisation of the override power is the Act's defining feature, distinguishing it from the person-specific Act of 1786.",
     },
     {
       q: "Under the Charter Act of 1793, in what circumstance could the Commander-in-Chief become a member of the Governor-General's council?",
@@ -2391,12 +2342,7 @@ const QUIZ_ch1_charter1813 = {
         "This Act was the first to assert British Crown sovereignty over the Company's Indian territories — an important precursor to full Crown takeover in 1858.",
     },
     {
-      q: [
-        "Consider the following statements regarding trade provisions of the Charter Act of 1813:",
-        "I. It abolished the Company's general trade monopoly in India.",
-        "II. It also abolished the Company's monopoly over trade with China.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding trade provisions of the Charter Act of 1813:\nI. It abolished the Company's general trade monopoly in India.\nII. It also abolished the Company's monopoly over trade with China.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -2427,11 +2373,7 @@ const QUIZ_ch1_charter1813 = {
         "The Act allowed Christian missionaries into India — a significant social policy shift with long-term consequences for colonial society.",
     },
     {
-      q: [
-        "Assertion (A): The Charter Act of 1813 is often linked to the beginnings of socio-religious reform movements in colonial India.",
-        "Reason (R): The Act's provisions for Western education and missionary access created early channels for exposure to Western liberal ideas.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Charter Act of 1813 is often linked to the beginnings of socio-religious reform movements in colonial India.\nReason (R): The Act's provisions for Western education and missionary access created early channels for exposure to Western liberal ideas.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -2443,16 +2385,16 @@ const QUIZ_ch1_charter1813 = {
         "Both are true, and R correctly explains A — Western education and missionary access are widely understood as early channels that later fed into 19th-century reform movements.",
     },
     {
-      q: "Under the Charter Act of 1813, Local Governments in India were authorized to:",
+      q: "Under the Charter Act of 1813, Local Governments in India were authorised to:",
       options: [
         "Print their own currency independent of the Company",
         "Impose taxes on persons and punish non-payment",
-        "Declare war on neighboring princely states",
+        "Declare war on neighbouring princely states",
         "Appoint judges to the Supreme Court at Calcutta",
       ],
       correct: 1,
       explain:
-        "Local Governments were authorized to impose taxes on persons and to punish those who failed to pay — an early expansion of local administrative/fiscal power.",
+        "Local Governments were authorised to impose taxes on persons and to punish those who failed to pay — an early expansion of local administrative/fiscal power.",
     },
     {
       q: "Which of the following statements correctly captures the trade policy of the Charter Act of 1813?",
@@ -2467,12 +2409,7 @@ const QUIZ_ch1_charter1813 = {
         "General Indian trade was opened to all British merchants; tea trade and trade with China remained Company monopolies — the reverse pairing is a common examination trap.",
     },
     {
-      q: [
-        "Consider the following statements:",
-        "I. The Charter Act of 1813 provided for the spread of Western education among inhabitants of British India.",
-        "II. The Act explicitly banned all religious missionary activity in Company territories.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements:\nI. The Charter Act of 1813 provided for the spread of Western education among inhabitants of British India.\nII. The Act explicitly banned all religious missionary activity in Company territories.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -2500,7 +2437,7 @@ const QUIZ_ch1_charter1813 = {
       ],
       correct: 0,
       explain:
-        "The tea trade and China trade were highly lucrative and strategically important, which is why Parliament chose to retain the Company's exclusive control over them even while liberalizing general Indian trade.",
+        "The tea trade and China trade were highly lucrative and strategically important, which is why Parliament chose to retain the Company's exclusive control over them even while liberalising general Indian trade.",
     },
     {
       q: "Which of the following pairs is correctly matched with respect to the Charter Act of 1813?",
@@ -2524,7 +2461,7 @@ const QUIZ_ch1_charter1813 = {
       ],
       correct: 1,
       explain:
-        "These provisions laid early cultural groundwork connected to subsequent sociol-religious reform movements influenced by exposure to Western education and missionary activity.",
+        "These provisions laid early cultural groundwork connected to subsequent socio-religious reform movements influenced by exposure to Western education and missionary activity.",
     },
     {
       q: "Which of the following was NOT a feature of the Charter Act of 1813?",
@@ -2532,7 +2469,7 @@ const QUIZ_ch1_charter1813 = {
         "Assertion of Crown sovereignty over Company territories",
         "Permission granted to Christian missionaries",
         "Complete abolition of the Company's tea trade monopoly",
-        "Authorization for Local Governments to levy taxes",
+        "Authorisation for Local Governments to levy taxes",
       ],
       correct: 2,
       explain:
@@ -2583,12 +2520,7 @@ const QUIZ_ch1_charter1833 = {
         "Lord William Bentinck was the first Governor-General of India — a distinct office from Warren Hastings's earlier Governor-General of Bengal (1773).",
     },
     {
-      q: [
-        "Consider the following statements regarding legislative power under the Charter Act of 1833:",
-        "I. Bombay and Madras Presidencies lost their legislative powers.",
-        "II. The Governor-General of India gained exclusive legislative power for all of British India.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding legislative power under the Charter Act of 1833:\nI. Bombay and Madras Presidencies lost their legislative powers.\nII. The Governor-General of India gained exclusive legislative power for all of British India.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -2633,11 +2565,7 @@ const QUIZ_ch1_charter1833 = {
         "The Act specified the territories were now held 'in trust for His Majesty, His heirs and successors' — a conceptual step toward eventual Crown ownership, completed in 1858.",
     },
     {
-      q: [
-        "Assertion (A): The Charter Act of 1833 attempted to introduce open competition for civil service selection, explicitly stating Indians should not be debarred from office.",
-        "Reason (R): This provision was successfully and immediately implemented, opening the Indian Civil Service to Indians from 1833 onward.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Charter Act of 1833 attempted to introduce open competition for civil service selection, explicitly stating Indians should not be debarred from office.\nReason (R): This provision was successfully and immediately implemented, opening the Indian Civil Service to Indians from 1833 onward.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -2673,14 +2601,7 @@ const QUIZ_ch1_charter1833 = {
         "This is the incorrect statement, and thus the answer — the open competition clause was PROPOSED but ultimately NEGATED, never actually implemented in 1833.",
     },
     {
-      q: [
-        "Consider the following pairs regarding the Charter Act of 1833:",
-        "Provision — Outcome",
-        "I. Open competition for civil services — Implemented successfully",
-        "II. Governor-General of Bengal — Redesignated Governor-General of India",
-        "III. Company's commercial role — Ended",
-        "How many of the above pairs are correctly matched?",
-      ],
+      q: "Consider the following pairs regarding the Charter Act of 1833:\nProvision — Outcome\nI. Open competition for civil services — Implemented successfully\nII. Governor-General of Bengal — Redesignated Governor-General of India\nIII. Company's commercial role — Ended\nHow many of the above pairs are correctly matched?",
       options: [
         "Only one pair",
         "Only two pairs",
@@ -2704,7 +2625,7 @@ const QUIZ_ch1_charter1833 = {
         "Opposition from the Court of Directors led to this provision being negated, despite its inclusion in the original Act.",
     },
     {
-      q: "A candidate is asked to identify the 'final step towards centralization in British India' among constitutional Acts passed between 1773 and 1858. Which Act best fits this description?",
+      q: "A candidate is asked to identify the 'final step towards centralisation in British India' among constitutional Acts passed between 1773 and 1858. Which Act best fits this description?",
       options: [
         "Regulating Act, 1773",
         "Pitt's India Act, 1784",
@@ -2713,7 +2634,7 @@ const QUIZ_ch1_charter1833 = {
       ],
       correct: 2,
       explain:
-        "The Charter Act of 1833 is explicitly identified as the final step in this centralizing trend — the subsequent 1853 Act and later 1861 Act began a reverse, decentralizing trajectory.",
+        "The Charter Act of 1833 is explicitly identified as the final step in this centralising trend — the subsequent 1853 Act and later 1861 Act began a reverse, decentralising trajectory.",
     },
     {
       q: "Under the Charter Act of 1833, which Presidencies lost their legislative powers to the Governor-General of India?",
@@ -2815,12 +2736,7 @@ const QUIZ_ch1_charter1853 = {
         "The Charter Acts series ran from 1793 to 1853, with 1853 being the final Act in this series.",
     },
     {
-      q: [
-        "Consider the following statements regarding the Charter Act of 1853:",
-        "I. It separated legislative and executive functions of the Governor-General's Council for the first time.",
-        "II. It fixed a definite 20-year period for the continuation of Company rule, as earlier Charters had done.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the Charter Act of 1853:\nI. It separated legislative and executive functions of the Governor-General's council for the first time.\nII. It fixed a definite 20-year period for the continuation of Company rule, as earlier Charters had done.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -2858,11 +2774,7 @@ const QUIZ_ch1_charter1853 = {
         "The Macaulay Committee (Committee on the Indian Civil Service) was appointed in 1854, following the Act's provision for genuine open competition.",
     },
     {
-      q: [
-        "Assertion (A): The Charter Act of 1853 signalled that Parliament could terminate Company rule at any time it wished.",
-        "Reason (R): Unlike earlier Charter Acts, the 1853 Act did not specify a fixed period for the continuation of the Company's rule.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Charter Act of 1853 signalled that Parliament could terminate Company rule at any time it wished.\nReason (R): Unlike earlier Charter Acts, the 1853 Act did not specify a fixed period for the continuation of the Company's rule.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -2917,13 +2829,7 @@ const QUIZ_ch1_charter1853 = {
         "This is the incorrect statement, and thus the answer — the 1853 Act specified NO fixed period, a deliberate break from earlier Charter Acts.",
     },
     {
-      q: [
-        "Consider the following pairs regarding the Charter Act of 1833 and 1853:",
-        "Act — Nature of Legislative Change",
-        "I. 1833 — Centralised legislative power exclusively in the Governor-General of India",
-        "II. 1853 — Separated legislative function from executive function within the Council",
-        "How many of the above pairs are correctly matched?",
-      ],
+      q: "Consider the following pairs regarding the Charter Act of 1833 and 1853:\nAct — Nature of Legislative Change\nI. 1833 — Centralised legislative power exclusively in the Governor-General of India\nII. 1853 — Separated legislative function from executive function within the council\nHow many of the above pairs are correctly matched?",
       options: [
         "Only one pair",
         "Both pairs",
@@ -3034,12 +2940,7 @@ const QUIZ_ch1_communalaward = {
         "Ramsay MacDonald, the British Prime Minister, announced the Communal Award.",
     },
     {
-      q: [
-        "Consider the following statements regarding the Communal Award of 1932:",
-        "I. It continued existing separate electorates for Muslims, Sikhs, Indian Christians, Anglo-Indians, and Europeans.",
-        "II. It extended separate electorates to the Depressed Classes for the first time.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the Communal Award of 1932:\nI. It continued existing separate electorates for Muslims, Sikhs, Indian Christians, Anglo-Indians, and Europeans.\nII. It extended separate electorates to the Depressed Classes for the first time.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -3070,11 +2971,7 @@ const QUIZ_ch1_communalaward = {
         "Gandhiji undertook a fast unto death at Yerawada Jail (Poona) specifically to press for modification of the Award's provisions for Depressed Classes.",
     },
     {
-      q: [
-        "Assertion (A): The Poona Pact resolved the crisis triggered by the Communal Award's treatment of Depressed Classes.",
-        "Reason (R): The Poona Pact replaced the separate electorate for Depressed Classes with a joint electorate and reserved seats.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Poona Pact resolved the crisis triggered by the Communal Award's treatment of Depressed Classes.\nReason (R): The Poona Pact replaced the separate electorate for Depressed Classes with a joint electorate and reserved seats.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -3298,12 +3195,7 @@ const QUIZ_ch1_govact1858 = {
         "It is also known as the 'Act for the Good Government of India'.",
     },
     {
-      q: [
-        "Consider the following statements regarding the Government of India Act, 1858:",
-        "I. It abolished the East India Company.",
-        "II. It ended the system of double government by abolishing the Board of Control and Court of Directors.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the Government of India Act, 1858:\nI. It abolished the East India Company.\nII. It ended the system of double government by abolishing the Board of Control and Court of Directors.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -3334,11 +3226,7 @@ const QUIZ_ch1_govact1858 = {
         "Lord Canning, who was already serving as Governor-General, became the first Viceroy of India upon the Act's enactment.",
     },
     {
-      q: [
-        "Assertion (A): The Government of India Act, 1858 marked a fundamental legal shift in sovereignty over India.",
-        "Reason (R): It transferred power, territories, and revenues from the East India Company directly to the British Crown.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Government of India Act, 1858 marked a fundamental legal shift in sovereignty over India.\nReason (R): It transferred power, territories, and revenues from the East India Company directly to the British Crown.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -3429,14 +3317,7 @@ const QUIZ_ch1_govact1858 = {
         "Separate electorates were introduced much later, by the Indian Councils Act of 1909 — not by the 1858 Act.",
     },
     {
-      q: [
-        "Consider the following pairs:",
-        "Office/Body — Status after the 1858 Act",
-        "I. East India Company — Abolished",
-        "II. Board of Control — Abolished",
-        "III. Council of India — Newly created",
-        "How many of the above pairs are correctly matched?",
-      ],
+      q: "Consider the following pairs:\nOffice/Body — Status after the 1858 Act\nI. East India Company — Abolished\nII. Board of Control — Abolished\nIII. Council of India — Newly created\nHow many of the above pairs are correctly matched?",
       options: [
         "Only one pair",
         "Only two pairs",
@@ -3552,12 +3433,7 @@ const QUIZ_ch1_govact1919 = {
         "Montagu was the Secretary of State for India; Chelmsford was the Viceroy of India.",
     },
     {
-      q: [
-        "Consider the following statements regarding the Government of India Act, 1919:",
-        "I. It was passed in 1919 and came into force the same year.",
-        "II. It introduced bicameralism at the Centre for the first time.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the Government of India Act, 1919:\nI. It was passed in 1919 and came into force the same year.\nII. It introduced bicameralism at the Centre for the first time.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 1,
       explain:
@@ -3576,11 +3452,7 @@ const QUIZ_ch1_govact1919 = {
         "Dyarchy (double rule) was introduced in the PROVINCES under the 1919 Act — dyarchy at the CENTRE was only proposed (and never implemented) by the later 1935 Act.",
     },
     {
-      q: [
-        "Assertion (A): Provincial dyarchy under the Government of India Act, 1919 is widely regarded as having been largely unsuccessful.",
-        "Reason (R): Reserved subjects were administered by the Governor and his Executive Council WITHOUT accountability to the legislative council, creating a fundamental disconnect from responsible government.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): Provincial dyarchy under the Government of India Act, 1919 is widely regarded as having been largely unsuccessful.\nReason (R): Reserved subjects were administered by the Governor and his Executive Council WITHOUT accountability to the legislative council, creating a fundamental disconnect from responsible government.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -3642,14 +3514,7 @@ const QUIZ_ch1_govact1919 = {
         "Three of the six members (excluding the Commander-in-Chief) were required to be Indian.",
     },
     {
-      q: [
-        "Consider the following pairs regarding the Government of India Act, 1919:",
-        "Provision — Correct Detail",
-        "I. Central Public Service Commission — Set up in 1926, based on Lee Commission recommendations",
-        "II. Provincial budgets — Separated from Central budget for the first time",
-        "III. Chamber of Princes — Inaugurated in 1921, with 120 members",
-        "How many of the above pairs are correctly matched?",
-      ],
+      q: "Consider the following pairs regarding the Government of India Act, 1919:\nProvision — Correct Detail\nI. Central Public Service Commission — Set up in 1926, based on Lee Commission recommendations\nII. Provincial budgets — Separated from Central budget for the first time\nIII. Chamber of Princes — Inaugurated in 1921, with 120 members\nHow many of the above pairs are correctly matched?",
       options: [
         "Only one pair",
         "Only two pairs",
@@ -3791,12 +3656,7 @@ const QUIZ_ch1_govact1935 = {
         "It was a lengthy and detailed document — 321 Sections and 10 Schedules — reflecting its comprehensive scope.",
     },
     {
-      q: [
-        "Consider the following statements regarding the All-India Federation proposed by the Government of India Act, 1935:",
-        "I. It was to consist of provinces and princely states as units.",
-        "II. It actually came into operation in 1937.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the All-India Federation proposed by the Government of India Act, 1935:\nI. It was to consist of provinces and princely states as units.\nII. It actually came into operation in 1937.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -3822,11 +3682,7 @@ const QUIZ_ch1_govact1935 = {
         "The Concurrent List, for both Centre and provinces, had 36 items.",
     },
     {
-      q: [
-        "Assertion (A): Residuary powers under the Government of India Act, 1935 were vested in the Viceroy.",
-        "Reason (R): Since the All-India Federation never materialised, no federal legislature existed to hold residuary powers instead.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): Residuary powers under the Government of India Act, 1935 were vested in the Viceroy.\nReason (R): Since the All-India Federation never materialised, no federal legislature existed to hold residuary powers instead.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -3907,14 +3763,7 @@ const QUIZ_ch1_govact1935 = {
         "The Act provided for establishing the Reserve Bank of India, to control currency and credit — a lasting institutional legacy.",
     },
     {
-      q: [
-        "Consider the following pairs:",
-        "Institution — Status under the 1935 Act",
-        "I. Council of India (est. 1858) — Abolished",
-        "II. Federal Court — Provided for, set up in 1937",
-        "III. Auditor-General of India — Provision for appointment made",
-        "How many of the above pairs are correctly matched?",
-      ],
+      q: "Consider the following pairs:\nInstitution — Status under the 1935 Act\nI. Council of India (est. 1858) — Abolished\nII. Federal Court — Provided for, set up in 1937\nIII. Auditor-General of India — Provision for appointment made\nHow many of the above pairs are correctly matched?",
       options: [
         "Only one pair",
         "Only two pairs",
@@ -4002,12 +3851,7 @@ const QUIZ_ch1_ica1861 = {
         "It was the first of three Councils Acts — 1861, 1892, and 1909 — each progressively expanding (in limited ways) Indian participation in legislative councils.",
     },
     {
-      q: [
-        "Consider the following statements regarding the Indian Councils Act of 1861:",
-        "I. It provided for the Viceroy to nominate some Indians as non-official members of the Council.",
-        "II. These Indians were directly elected by the Indian public.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the Indian Councils Act of 1861:\nI. It provided for the Viceroy to nominate some Indians as non-official members of the council.\nII. These Indians were directly elected by the Indian public.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -4045,11 +3889,7 @@ const QUIZ_ch1_ica1861 = {
         "The Act restored legislative powers to Bombay and Madras, reversing the centralising trend that had run from 1773 to its climax in 1833.",
     },
     {
-      q: [
-        "Assertion (A): The Indian Councils Act of 1861 marked a strategic reversal of the centralising trend that had characterised earlier Company-era legislation.",
-        "Reason (R): The Act restored legislative powers to the Bombay and Madras Presidencies, which had been progressively curtailed since 1773.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Indian Councils Act of 1861 marked a strategic reversal of the centralising trend that had characterised earlier Company-era legislation.\nReason (R): The Act restored legislative powers to the Bombay and Madras Presidencies, which had been progressively curtailed since 1773.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -4104,14 +3944,7 @@ const QUIZ_ch1_ica1861 = {
         "Such ordinances, issued unilaterally by the Viceroy during an emergency, had a maximum validity of 6 months.",
     },
     {
-      q: [
-        "Consider the following pairs of new legislative councils and their years of establishment following the Indian Councils Act, 1861:",
-        "Council — Year",
-        "I. Bengal — 1862",
-        "II. North-Western Provinces — 1886",
-        "III. Punjab — 1897",
-        "How many of the above pairs are correctly matched?",
-      ],
+      q: "Consider the following pairs of new legislative councils and their years of establishment following the Indian Councils Act, 1861:\nCouncil — Year\nI. Bengal — 1862\nII. North-Western Provinces — 1886\nIII. Punjab — 1897\nHow many of the above pairs are correctly matched?",
       options: [
         "Only one pair",
         "Only two pairs",
@@ -4239,12 +4072,7 @@ const QUIZ_ch1_ica1892 = {
         "Despite increasing non-official members, the Act maintained an OFFICIAL majority in both Central and Provincial legislative councils.",
     },
     {
-      q: [
-        "Consider the following statements regarding the Indian Councils Act of 1892:",
-        "I. It gave legislative councils the power to discuss the budget.",
-        "II. It gave legislative councils the power to address questions to the executive.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the Indian Councils Act of 1892:\nI. It gave legislative councils the power to discuss the budget.\nII. It gave legislative councils the power to address questions to the executive.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -4258,11 +4086,7 @@ const QUIZ_ch1_ica1892 = {
         "The Budget system was introduced in 1860, though the power for councils to formally DISCUSS it was only granted decades later, by the 1892 Act.",
     },
     {
-      q: [
-        "Assertion (A): The Indian Councils Act of 1892 introduced a genuinely electoral system for legislative councils.",
-        "Reason (R): The Act explicitly used the term 'election' in describing how non-official members were to be selected.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Indian Councils Act of 1892 introduced a genuinely electoral system for legislative councils.\nReason (R): The Act explicitly used the term 'election' in describing how non-official members were to be selected.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -4358,12 +4182,7 @@ const QUIZ_ch1_ica1892 = {
         "The Bengal Chamber of Commerce was specifically one of the bodies whose recommendation could result in a nomination to the Central Legislative Council.",
     },
     {
-      q: [
-        "Consider the following statements about the Indian Councils Act of 1892:",
-        "I. Provincial council members were nominated by Governors.",
-        "II. The recommending bodies for provincial nominations included universities and trade associations.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements about the Indian Councils Act of 1892:\nI. Provincial council members were nominated by Governors.\nII. The recommending bodies for provincial nominations included universities and trade associations.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -4438,12 +4257,7 @@ const QUIZ_ch1_ica1909 = {
         "Lord Morley was the Secretary of State for India; Lord Minto was the Viceroy — a frequently confused pairing.",
     },
     {
-      q: [
-        "Consider the following statements regarding the Indian Councils Act, 1909:",
-        "I. The size of the Central Legislative Council was increased from 16 to 60 members.",
-        "II. Official majority was removed from the Central Legislative Council.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the Indian Councils Act, 1909:\nI. The size of the Central Legislative Council was increased from 16 to 60 members.\nII. Official majority was removed from the Central Legislative Council.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -4474,11 +4288,7 @@ const QUIZ_ch1_ica1909 = {
         "Satyendra Prasad Sinha was appointed as the Law Member, becoming the first Indian in the Viceroy's Executive Council.",
     },
     {
-      q: [
-        "Assertion (A): The Indian Councils Act, 1909 is often criticised for having 'legalised communalism' in Indian politics.",
-        "Reason (R): The Act introduced the concept of separate electorates for Muslims.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Indian Councils Act, 1909 is often criticised for having 'legalised communalism' in Indian politics.\nReason (R): The Act introduced the concept of separate electorates for Muslims.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -4514,12 +4324,7 @@ const QUIZ_ch1_ica1909 = {
         "Separate representation extended beyond Muslims to presidency corporations, chambers of commerce, universities, and zamindars.",
     },
     {
-      q: [
-        "Consider the following pairs regarding the Indian Councils Act, 1909:",
-        "I. Central Legislative Council — Official majority",
-        "II. Provincial Legislative Councils — Non-official majority",
-        "How many of the above pairs are correctly matched?",
-      ],
+      q: "Consider the following pairs regarding the Indian Councils Act, 1909:\nCouncil Level — Majority Type\nI. Central Legislative Council — Official majority\nII. Provincial Legislative Councils — Non-official majority\nHow many of the above pairs are correctly matched?",
       options: [
         "Only one pair",
         "Both pairs",
@@ -4695,12 +4500,7 @@ const QUIZ_ch1_indep1947 = {
         "This is known as the Mountbatten Plan, accepted by both the Congress and the Muslim League.",
     },
     {
-      q: [
-        "Consider the following statements regarding the legislative process of the Indian Independence Act, 1947:",
-        "I. The Bill was introduced in the British Parliament on July 4, 1947.",
-        "II. It received Royal Assent before it was introduced in Parliament.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the legislative process of the Indian Independence Act, 1947:\nI. The Bill was introduced in the British Parliament on July 4, 1947.\nII. It received Royal Assent before it was introduced in Parliament.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -4719,11 +4519,7 @@ const QUIZ_ch1_indep1947 = {
         "The Act came into force on August 15, 1947, the date of India's independence.",
     },
     {
-      q: [
-        "Assertion (A): The Indian Independence Act, 1947 abolished the office of Viceroy.",
-        "Reason (R): Each new dominion (India and Pakistan) instead received its own Governor-General, appointed by the British King on the advice of the dominion's own cabinet.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Indian Independence Act, 1947 abolished the office of Viceroy.\nReason (R): Each new dominion (India and Pakistan) instead received its own Governor-General, appointed by the British King on the advice of the dominion's own cabinet.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -4819,12 +4615,7 @@ const QUIZ_ch1_indep1947 = {
         "The British Monarch lost the right to veto bills; this power was instead reserved for the Governor-General, who could assent to bills fully in the King's name.",
     },
     {
-      q: [
-        "Consider the following statements about the status of the Governor-General and provincial Governors under the Indian Independence Act, 1947:",
-        "I. They became absolute rulers with unchecked executive power.",
-        "II. They became constitutional (nominal) heads, acting on the advice of respective Councils of Ministers.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements about the status of the Governor-General and provincial Governors under the Indian Independence Act, 1947:\nI. They became absolute rulers with unchecked executive power.\nII. They became constitutional (nominal) heads, acting on the advice of respective Councils of Ministers.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 1,
       explain:
@@ -4933,12 +4724,7 @@ const QUIZ_ch1_pitts1784 = {
         "The Act was introduced by the then British Prime Minister, William Pitt, hence its name.",
     },
     {
-      q: [
-        "Consider the following statements regarding Pitt's India Act of 1784:",
-        "I. It distinguished, for the first time, between the commercial and political functions of the East India Company.",
-        "II. It abolished the Court of Directors entirely.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding Pitt's India Act of 1784:\nI. It distinguished, for the first time, between the commercial and political functions of the East India Company.\nII. It abolished the Court of Directors entirely.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -4993,11 +4779,7 @@ const QUIZ_ch1_pitts1784 = {
         "The Act was significant for first officially calling the Company's Indian territories 'British possessions in India'.",
     },
     {
-      q: [
-        "Assertion (A): Pitt's India Act of 1784 gave the British Government supreme control over the East India Company's political affairs.",
-        "Reason (R): The Act transferred all commercial functions of the Company to the Board of Control.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): Pitt's India Act of 1784 gave the British Government supreme control over the East India Company's political affairs.\nReason (R): The Act transferred all commercial functions of the Company to the Board of Control.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -5104,12 +4886,7 @@ const QUIZ_ch1_pitts1784 = {
         "The two bodies operated with a clear division: commerce to the Court of Directors, politics to the Board of Control — this is the essence of 'double government'.",
     },
     {
-      q: [
-        "Consider the following statements:",
-        "I. Pitt's India Act of 1784 was passed in response to concerns about East India Company mismanagement.",
-        "II. The Act ended British Parliament's ability to oversee the Company's affairs.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements:\nI. Pitt's India Act of 1784 was passed in response to concerns about East India Company mismanagement.\nII. The Act ended British Parliament's ability to oversee the Company's affairs.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -5152,16 +4929,16 @@ const QUIZ_ch1_pitts1784 = {
         "The Act deepened Parliamentary control by creating a dedicated political oversight body (Board of Control), building on the Regulating Act's earlier, more limited oversight mechanisms.",
     },
     {
-      q: "Which of the following is the most accurate characterization of Pitt's India Act of 1784 within the broader arc of Company Rule (1773–1858)?",
+      q: "Which of the following is the most accurate characterisation of Pitt's India Act of 1784 within the broader arc of Company Rule (1773–1858)?",
       options: [
         "It was the final Act of the Company Rule period",
-        "It was an intermediate Act that institutionalized dual control, later superseded by full Crown control in 1858",
+        "It was an intermediate Act that institutionalised dual control, later superseded by full Crown control in 1858",
         "It had no lasting institutional impact",
         "It was superseded almost immediately by the Regulating Act's reintroduction",
       ],
       correct: 1,
       explain:
-        "Pitt's India Act sits in the middle of the Company Rule timeline (1773–1858), institutionalizing a dual-control model (Company commerce + Government politics) that persisted until the Crown assumed full control in 1858.",
+        "Pitt's India Act sits in the middle of the Company Rule timeline (1773–1858), institutionalising a dual-control model (Company commerce + Government politics) that persisted until the Crown assumed full control in 1858.",
     },
   ],
 };
@@ -5175,13 +4952,7 @@ const QUIZ_ch1_regulating1773 = {
   title: "Regulating Act of 1773",
   questions: [
     {
-      q: [
-        "With reference to the Regulating Act of 1773, consider the following statements:",
-        "I. It was the step first by the British Parliament to regulate the affairs of the East India Company.",
-        "II. It made the Governors of Bombay and Madras fully independent of Bengal.",
-        "III. It laid the foundation of central administration in British India.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "With reference to the Regulating Act of 1773, consider the following statements:\nI. It was the first step by the British Parliament to regulate the affairs of the East India Company.\nII. It made the Governors of Bombay and Madras fully independent of Bengal.\nIII. It laid the foundation of central administration in British India.\nWhich of the statements given above is/are correct?",
       options: ["I and III only", "II only", "I, II and III", "I only"],
       correct: 0,
       explain:
@@ -5200,14 +4971,7 @@ const QUIZ_ch1_regulating1773 = {
         "The Regulating Act of 1773 first created the office of Governor-General of Bengal.",
     },
     {
-      q: [
-        "Consider the following pairs:",
-        "Office — First Holder",
-        "I. Governor-General of Bengal — Warren Hastings",
-        "II. Governor-General of India — Lord Canning",
-        "III. Viceroy of India — Lord William Bentinck",
-        "How many of the above pairs are correctly matched?",
-      ],
+      q: "Consider the following pairs:\nOffice — First Holder\nI. Governor-General of Bengal — Warren Hastings\nII. Governor-General of India — Lord Canning\nIII. Viceroy of India — Lord William Bentinck\nHow many of the above pairs are correctly matched?",
       options: [
         "Only one pair",
         "Only two pairs",
@@ -5219,11 +4983,7 @@ const QUIZ_ch1_regulating1773 = {
         "Only pair I is correct. Pair II is wrong (Lord William Bentinck was the first Governor-General of India, not Canning). Pair III is wrong (Lord Canning was the first Viceroy, not Bentinck).",
     },
     {
-      q: [
-        "Assertion (A): The Supreme Court at Calcutta began functioning only in 1774, though the Regulating Act was passed in 1773.",
-        "Reason (R): The Act required a one-year transition period before any of its judicial provisions could take effect.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Supreme Court at Calcutta began functioning only in 1774, though the Regulating Act was passed in 1773.\nReason (R): The Act required a one-year transition period before any of its judicial provisions could take effect.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -5254,12 +5014,7 @@ const QUIZ_ch1_regulating1773 = {
         "Before 1773, the three Presidencies operated independently. The Act subordinated Bombay and Madras to Bengal for the first time.",
     },
     {
-      q: [
-        "With reference to the Supreme Court established at Calcutta under the Regulating Act, 1773, consider the following statements:",
-        "I. It comprised one Chief Justice and three other judges.",
-        "II. It was established in the same year the Act was passed.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "With reference to the Supreme Court established at Calcutta under the Regulating Act, 1773, consider the following statements:\nI. It comprised one Chief Justice and three other judges.\nII. It was established in the same year the Act was passed.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -5278,13 +5033,7 @@ const QUIZ_ch1_regulating1773 = {
         "The Act explicitly prohibited Company servants from private trade and from accepting presents or bribes — the other options describe features of much later Acts (1858 and 1784 respectively).",
     },
     {
-      q: [
-        "Under the Regulating Act, 1773, the Court of Directors of the East India Company was required to report to the British Government on which of the following matters?",
-        "I. Revenue affairs",
-        "II. Civil affairs",
-        "III. Military affairs",
-        "Select the correct answer using the code given below:",
-      ],
+      q: "Under the Regulating Act, 1773, the Court of Directors of the East India Company was required to report to the British Government on which of the following matters?\nI. Revenue affairs\nII. Civil affairs\nIII. Military affairs\nSelect the correct answer using the code given below:",
       options: [
         "I and II only",
         "II and III only",
@@ -5320,16 +5069,11 @@ const QUIZ_ch1_regulating1773 = {
         "This is a frequently tested distinction: Governor-General of Bengal (1773, Warren Hastings) is NOT the same office as Governor-General of India (created in 1833, first held by Lord William Bentinck).",
     },
     {
-      q: [
-        "Consider the following statements regarding the East India Company before and after the Regulating Act, 1773:",
-        "I. Before 1773, the Company's functions were understood as purely commercial.",
-        "II. The Act formally recognized the Company's political and administrative functions for the first time.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the East India Company before and after the Regulating Act, 1773:\nI. Before 1773, the Company's functions were understood as purely commercial.\nII. The Act formally recognised the Company's political and administrative functions for the first time.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
-        "Both statements are correct — this shift in recognized function is one of the Act's three core significances.",
+        "Both statements are correct — this shift in recognised function is one of the Act's three core significances.",
     },
     {
       q: "Which of the following correctly lists the Presidencies made subordinate to Bengal under the Regulating Act, 1773?",
@@ -5363,12 +5107,7 @@ const QUIZ_ch1_regulating1773 = {
         "This is the Act's defining significance — the FIRST step of Parliamentary control, not the complete/final transfer (that came only in 1858).",
     },
     {
-      q: [
-        "Consider the following statements:",
-        "I. The Regulating Act, 1773 prohibited Company servants from accepting bribes from Indians.",
-        "II. It provided that the Court of Directors need not report to the British Government on Company affairs.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements:\nI. The Regulating Act, 1773 prohibited Company servants from accepting bribes from Indians.\nII. It provided that the Court of Directors need not report to the British Government on Company affairs.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -5387,13 +5126,7 @@ const QUIZ_ch1_regulating1773 = {
         "The Regulating Act was the FIRST of a long series of Acts (1781, 1784, 1793...1858) that progressively tightened British Parliamentary control over the Company.",
     },
     {
-      q: [
-        "Which of the following is/are correctly matched with respect to the Regulating Act, 1773?",
-        "I. Executive Council — 4 members",
-        "II. Supreme Court judges (other than Chief Justice) — 3",
-        "III. Year of establishment of Supreme Court — 1773",
-        "Select the correct answer using the code given below:",
-      ],
+      q: "Which of the following is/are correctly matched with respect to the Regulating Act, 1773?\nI. Executive Council — 4 members\nII. Supreme Court judges (other than Chief Justice) — 3\nIII. Year of establishment of Supreme Court — 1773\nSelect the correct answer using the code given below:",
       options: [
         "I and II only",
         "II and III only",
@@ -5455,23 +5188,14 @@ const QUIZ_ch1_simon = {
       explain: "Sir John Simon chaired the seven-member statutory commission.",
     },
     {
-      q: [
-        "Consider the following statements regarding the composition of the Simon Commission:",
-        "I. It had seven members.",
-        "II. All members were British, with no Indian representation.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the composition of the Simon Commission:\nI. It had seven members.\nII. All members were British, with no Indian representation.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
         "Both statements are correct — the Commission's all-British, seven-member composition is central to understanding why it was universally boycotted by Indian parties.",
     },
     {
-      q: [
-        "Assertion (A): The Simon Commission was boycotted by all major Indian political parties.",
-        "Reason (R): The Commission's composition included no Indian members whatsoever.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Simon Commission was boycotted by all major Indian political parties.\nReason (R): The Commission's composition included no Indian members whatsoever.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -5502,12 +5226,7 @@ const QUIZ_ch1_simon = {
         "The Commission recommended abolishing dyarchy and extending responsible government at the provincial level — universal franchise, immediate independence, and abolition of the Viceroy's office were not among its recommendations.",
     },
     {
-      q: [
-        "Consider the following statements about the Simon Commission's recommendations:",
-        "I. It recommended a federation of British India and princely states.",
-        "II. It recommended abolishing communal electorates entirely.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements about the Simon Commission's recommendations:\nI. It recommended a federation of British India and princely states.\nII. It recommended abolishing communal electorates entirely.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -6017,6 +5736,7 @@ const DATA_gs3_economics_budget = {
   title: "Union Budget",
   subtitle: "Yearly Budget Coverage",
   icon: "💰",
+  isChapter: true, // marks this as a Prev/Next navigation boundary
   children: [
     DATA_news_budget_static,
     DATA_news_budget_priority_groups,
@@ -6043,12 +5763,7 @@ const QUIZ_news_budget_2025 = {
         "The Budget was presented on 1 February 2025, continuing the tradition (since 2017) of presenting it on the first day of February.",
     },
     {
-      q: [
-        "Consider the following statements regarding Union Budget 2025-26:",
-        "I. It was Nirmala Sitharaman's 8th consecutive Budget, a record.",
-        "II. Its declared theme was 'Atmanirbhar Bharat'.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding Union Budget 2025-26:\nI. It was Nirmala Sitharaman's 8th consecutive Budget, a record.\nII. Its declared theme was 'Atmanirbhar Bharat'.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -6074,11 +5789,7 @@ const QUIZ_news_budget_2025 = {
         "Zero income tax was announced up to ₹12 lakh income under the new tax regime.",
     },
     {
-      q: [
-        "Assertion (A): Budget 2025-26 provided a significant boost to middle-class disposable income.",
-        "Reason (R): It raised the effective nil-tax threshold for salaried taxpayers to ₹12.75 lakh, after accounting for the standard deduction.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): Budget 2025-26 provided a significant boost to middle-class disposable income.\nReason (R): It raised the effective nil-tax threshold for salaried taxpayers to ₹12.75 lakh, after accounting for the standard deduction.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -6096,13 +5807,7 @@ const QUIZ_news_budget_2025 = {
       explain: "The fiscal deficit was targeted at 4.4% of GDP for FY26.",
     },
     {
-      q: [
-        "Consider the following pairs regarding Budget 2025-26's fiscal numbers:",
-        "I. Capital expenditure — ₹11.21 lakh crore",
-        "II. Capital expenditure as % of GDP — 3.1%",
-        "III. Total expenditure — ₹34.96 lakh crore",
-        "How many of the above pairs are correctly matched?",
-      ],
+      q: "Consider the following pairs regarding Budget 2025-26's fiscal numbers:\nIndicator — Figure\nI. Capital expenditure — ₹11.21 lakh crore\nII. Capital expenditure as % of GDP — 3.1%\nIII. Total expenditure — ₹34.96 lakh crore\nHow many of the above pairs are correctly matched?",
       options: [
         "Only one pair",
         "Only two pairs",
@@ -6219,13 +5924,7 @@ const QUIZ_news_budget_2025 = {
         "The Budget explicitly framed its development measures around the poor (Garib), youth (Yuva), farmers (Annadata), and women (Nari).",
     },
     {
-      q: [
-        "Consider the following statements about Budget 2025-26:",
-        "1. It targeted a fiscal deficit of 4.4% of GDP.",
-        "2. Income tax became nil up to ₹15 lakh under the new regime.",
-        "3. The PM Dhan-Dhaanya Krishi Yojana covers 100 districts.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements about Budget 2025-26:\n1. It targeted a fiscal deficit of 4.4% of GDP.\n2. Income tax became nil up to ₹15 lakh under the new regime.\n3. The PM Dhan-Dhaanya Krishi Yojana covers 100 districts.\nWhich of the statements given above is/are correct?",
       options: ["1 and 3 only", "2 only", "1, 2 and 3", "1 only"],
       correct: 0,
       explain:
@@ -6287,13 +5986,7 @@ const QUIZ_news_budget_2026 = {
         "It was the first Budget prepared in the newly-named 'Kartavya Bhawan', housing Finance Ministry offices.",
     },
     {
-      q: [
-        "Consider the following statements regarding the '3 Kartavyas' framework of Budget 2026-27:",
-        "I. It includes accelerating and sustaining economic growth.",
-        "II. It includes fulfilling people's aspirations and building capacity.",
-        "III. It includes achieving a zero fiscal deficit within the same fiscal year.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the '3 Kartavyas' framework of Budget 2026-27:\nI. It includes accelerating and sustaining economic growth.\nII. It includes fulfilling people's aspirations and building capacity.\nIII. It includes achieving a zero fiscal deficit within the same fiscal year.\nWhich of the statements given above is/are correct?",
       options: [
         "I and II only",
         "II and III only",
@@ -6329,11 +6022,7 @@ const QUIZ_news_budget_2026 = {
         "The Income Tax Act, 2025 was planned to take effect from April 1, 2026, aiming to simplify compliance while retaining existing rates.",
     },
     {
-      q: [
-        "Assertion (A): Budget 2026-27 represented a strategic shift toward supply-side, infrastructure-led growth.",
-        "Reason (R): The Budget held income tax slabs steady while sharply increasing capital expenditure to a record ₹12.2 lakh crore.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): Budget 2026-27 represented a strategic shift toward supply-side, infrastructure-led growth.\nReason (R): The Budget held income tax slabs steady while sharply increasing capital expenditure to a record ₹12.2 lakh crore.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -6364,12 +6053,7 @@ const QUIZ_news_budget_2026 = {
         "A record ₹12.2 lakh crore was allocated for capital expenditure in FY27, equal to 4.4% of GDP — the highest-ever capex allocation.",
     },
     {
-      q: [
-        "Consider the following statements regarding fiscal indicators in Budget 2026-27:",
-        "I. Capital expenditure represented 4.4% of GDP.",
-        "II. This capex figure represented an 11.5% increase over FY26 revised estimates.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding fiscal indicators in Budget 2026-27:\nI. Capital expenditure represented 4.4% of GDP.\nII. This capex figure represented an 11.5% increase over FY26 revised estimates.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -6481,13 +6165,7 @@ const QUIZ_news_budget_2026 = {
         "Revenue Deficit was targeted at 1.5% of GDP for FY27 — the same level as FY26's revised estimate.",
     },
     {
-      q: [
-        "Consider the following statements comparing Budget 2025-26 and Budget 2026-27:",
-        "1. Both Budgets targeted the same fiscal deficit percentage.",
-        "2. Budget 2026-27's capital expenditure allocation was higher than Budget 2025-26's.",
-        "3. Budget 2026-27 retained the income tax slabs introduced in Budget 2025-26.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements comparing Budget 2025-26 and Budget 2026-27:\n1. Both Budgets targeted the same fiscal deficit percentage.\n2. Budget 2026-27's capital expenditure allocation was higher than Budget 2025-26's.\n3. Budget 2026-27 retained the income tax slabs introduced in Budget 2025-26.\nWhich of the statements given above is/are correct?",
       options: ["2 and 3 only", "1 only", "1, 2 and 3", "3 only"],
       correct: 0,
       explain:
@@ -6521,12 +6199,7 @@ const QUIZ_news_budget_priority_groups = {
         "The 4 groups are Garib, Yuva, Annadata, and Nari — senior citizens are NOT part of this specific framing, a common distractor.",
     },
     {
-      q: [
-        "Consider the following statements regarding the '4 priority groups' framework:",
-        "I. 'Annadata' refers to farmers.",
-        "II. 'Nari' refers to women.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the '4 priority groups' framework:\nI. 'Annadata' refers to farmers.\nII. 'Nari' refers to women.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -6545,11 +6218,7 @@ const QUIZ_news_budget_priority_groups = {
         "The PM Dhan-Dhaanya Krishi Yojana, an agricultural scheme, aligns directly with the 'Annadata' (farmer) priority group.",
     },
     {
-      q: [
-        "Assertion (A): MSMEs are considered disproportionately important to India's manufacturing and export sectors relative to their overall GDP contribution.",
-        "Reason (R): MSMEs contribute approximately 30% to GDP but approximately 45% each to manufacturing output and exports.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): MSMEs are considered disproportionately important to India's manufacturing and export sectors relative to their overall GDP contribution.\nReason (R): MSMEs contribute approximately 30% to GDP but approximately 45% each to manufacturing output and exports.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -6574,12 +6243,7 @@ const QUIZ_news_budget_priority_groups = {
         "MSMEs account for approximately 45% of India's total manufacturing output.",
     },
     {
-      q: [
-        "Consider the following statements regarding MSME contribution figures:",
-        "I. MSMEs contribute approximately 45% to India's total exports.",
-        "II. MSMEs' export contribution is higher than their GDP contribution.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding MSME contribution figures:\nI. MSMEs contribute approximately 45% to India's total exports.\nII. MSMEs' export contribution is higher than their GDP contribution.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -6729,12 +6393,7 @@ const QUIZ_news_budget_static = {
         "Fiscal Deficit = Total Expenditure − Total Receipts (excluding borrowings). It indicates how much the government needs to borrow.",
     },
     {
-      q: [
-        "Consider the following statements regarding budgetary deficits:",
-        "I. Revenue Deficit equals Revenue Expenditure minus Revenue Receipts.",
-        "II. Primary Deficit equals Fiscal Deficit minus Interest Payments.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding budgetary deficits:\nI. Revenue Deficit equals Revenue Expenditure minus Revenue Receipts.\nII. Primary Deficit equals Fiscal Deficit minus Interest Payments.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -6765,11 +6424,7 @@ const QUIZ_news_budget_static = {
         "Constructing a railway line creates a long-term asset — a Capital Expenditure example, as opposed to the recurring, non-asset-creating options listed.",
     },
     {
-      q: [
-        "Assertion (A): The chain 'CapEx → Infrastructure → Investment → Employment → Growth' is often cited to justify prioritising capital expenditure.",
-        "Reason (R): Capital expenditure, unlike revenue expenditure, creates durable productive assets that can generate future economic returns.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The chain 'CapEx → Infrastructure → Investment → Employment → Growth' is often cited to justify prioritising capital expenditure.\nReason (R): Capital expenditure, unlike revenue expenditure, creates durable productive assets that can generate future economic returns.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -6800,12 +6455,7 @@ const QUIZ_news_budget_static = {
         "The FRBM Act mandates the government to reduce fiscal and revenue deficits to sustainable levels over a defined timeframe.",
     },
     {
-      q: [
-        "Consider the following statements regarding the FRBM Act:",
-        "I. It has faced criticism for repeated deadline extensions and deviations from its original targets.",
-        "II. It applies exclusively to state governments, not the Union Government.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the FRBM Act:\nI. It has faced criticism for repeated deadline extensions and deviations from its original targets.\nII. It applies exclusively to state governments, not the Union Government.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -6862,12 +6512,7 @@ const QUIZ_news_budget_static = {
         "The Public Account holds funds like provident funds and small savings, where government acts as a banker for depositors' money.",
     },
     {
-      q: [
-        "Consider the following statements regarding the Public Account of India:",
-        "I. It is governed by Article 266(2).",
-        "II. Withdrawal from it requires the same Parliamentary appropriation as the Consolidated Fund.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the Public Account of India:\nI. It is governed by Article 266(2).\nII. Withdrawal from it requires the same Parliamentary appropriation as the Consolidated Fund.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -6898,11 +6543,7 @@ const QUIZ_news_budget_static = {
         "Both the Finance Bill and Appropriation Bill are classified as Money Bills.",
     },
     {
-      q: [
-        "Assertion (A): The Rajya Sabha's power over a Money Bill like the Finance Bill is limited.",
-        "Reason (R): As per Article 110, Money Bills can be introduced only in the Lok Sabha, and the Rajya Sabha can only recommend changes, not amend or reject them.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Rajya Sabha's power over a Money Bill like the Finance Bill is limited.\nReason (R): As per Article 110, Money Bills can be introduced only in the Lok Sabha, and the Rajya Sabha can only recommend changes, not amend or reject them.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -7503,6 +7144,80 @@ function subtreeProgress(node) {
     total: leaves.length,
     pct: Math.round((done / leaves.length) * 100),
   };
+}
+
+// Returns the full chain of ancestor NODES (not just titles) from the
+// root of TREE_DATA down to (and including) the node with the given id.
+// Returns null if not found.
+function findAncestorChain(nodes, id, chain = []) {
+  for (const n of nodes) {
+    const newChain = [...chain, n];
+    if (n.id === id) return newChain;
+    if (n.children) {
+      const found = findAncestorChain(n.children, id, newChain);
+      if (found) return found;
+    }
+  }
+  return null;
+}
+
+// ╔══════════════════════════════════════════════════════════╗
+// ║  CHAPTER-WISE PREV / NEXT NAVIGATION                       ║
+// ║                                                              ║
+// ║  A "chapter" is any node explicitly marked `isChapter: true` ║
+// ║  in its data file (e.g. Chapter 1 combines Company Rule +    ║
+// ║  Crown Rule under one isChapter node; Union Budget combines  ║
+// ║  its 4 topics the same way). Prev/Next moves between the     ║
+// ║  leaf topics flattened under the nearest such ancestor.       ║
+// ║                                                              ║
+// ║  When adding new content that should behave as its own       ║
+// ║  navigable "chapter", set `isChapter: true` on that node.    ║
+// ╚══════════════════════════════════════════════════════════╝
+
+// Identify the "chapter" node for a given leaf id — the ancestor node
+// explicitly marked `isChapter: true` (see e.g. ch1.js, budget/index.js).
+// Falls back to the leaf's direct parent if no ancestor is marked, so
+// navigation still works for content added before this flag existed.
+function findChapterNode(leafId) {
+  const chain = findAncestorChain(TREE_DATA, leafId);
+  if (!chain) return null;
+  for (let i = chain.length - 2; i >= 0; i--) {
+    if (chain[i].isChapter) return chain[i];
+  }
+  return chain[chain.length - 2] || null; // fallback: direct parent
+}
+
+// Flatten a chapter node's descendant leaves, in tree order.
+function chapterLeaves(chapterNode) {
+  return collectLeaves(chapterNode)
+    .map((id) => findNode(TREE_DATA, id))
+    .filter(Boolean);
+}
+
+// Given a leaf id, return { chapterNode, leaves, index } describing its
+// position within its chapter's flattened leaf list.
+function getChapterPosition(leafId) {
+  const chapterNode = findChapterNode(leafId);
+  if (!chapterNode) return null;
+  const leaves = chapterLeaves(chapterNode);
+  const index = leaves.findIndex((n) => n.id === leafId);
+  if (index === -1) return null;
+  return { chapterNode, leaves, index };
+}
+
+// Find the chapter node that comes immediately after the given chapter
+// node, among its own parent's children (skipping non-chapter siblings
+// that have no leaves at all).
+function findNextChapterNode(chapterNode) {
+  const chain = findAncestorChain(TREE_DATA, chapterNode.id);
+  if (!chain || chain.length < 2) return null;
+  const parent = chain[chain.length - 2];
+  const siblings = parent.children || [];
+  const myIndex = siblings.findIndex((s) => s.id === chapterNode.id);
+  for (let i = myIndex + 1; i < siblings.length; i++) {
+    if (collectLeaves(siblings[i]).length > 0) return siblings[i];
+  }
+  return null;
 }
 
 function overallProgress() {
@@ -8332,10 +8047,12 @@ function attachBrowseHandlers() {
 function renderNotes() {
   if (selectedId === "syllabus") {
     renderSyllabusOverview();
+    hideNoteNavBar();
     return;
   }
   if (!selectedId) {
     renderDashboard();
+    hideNoteNavBar();
     return;
   }
 
@@ -8353,16 +8070,19 @@ function renderNotes() {
         <div class="empty-title">${node ? esc(node.title) : "Select a Topic"}</div>
         <div class="empty-desc">${prog ? `Progress: ${prog.done}/${prog.total} topics completed (${prog.pct}%)` : "Notes for this topic haven't been added yet. Share the chapter content to add it."}</div>
       </div>`;
+    hideNoteNavBar();
     return;
   }
 
   if (node.notes.newsType) {
     trackNoteOpen(node);
     renderNewsArticleNote(node);
+    updateNoteNavBar(node);
     return;
   }
   trackNoteOpen(node);
   renderStandardNote(node);
+  updateNoteNavBar(node);
 }
 
 function renderStandardNote(node) {
@@ -8557,6 +8277,110 @@ function renderNewsArticleNote(node) {
   }
 }
 
+// ╔══════════════════════════════════════════════════════════╗
+// ║  NOTE PREV / NEXT — standalone floating buttons                ║
+// ║                                                              ║
+// ║  Two independent floating buttons (bottom-left / bottom-right) ║
+// ║  for moving between leaf topics within the current "chapter"  ║
+// ║  (see findChapterNode in core.js). No wrapping bar/box — each  ║
+// ║  button shows/hides on its own. Works identically in normal   ║
+// ║  and reading mode since both are fixed-position elements.     ║
+// ╚══════════════════════════════════════════════════════════╝
+function hideNoteNavBar() {
+  const prevBtn = document.getElementById("noteNavPrevBtn");
+  const nextBtn = document.getElementById("noteNavNextBtn");
+  if (prevBtn) prevBtn.classList.remove("active");
+  if (nextBtn) nextBtn.classList.remove("active");
+}
+
+function updateNoteNavBar(node) {
+  const prevBtn = document.getElementById("noteNavPrevBtn");
+  const nextBtn = document.getElementById("noteNavNextBtn");
+  if (!prevBtn || !nextBtn || !node) return;
+
+  const pos = getChapterPosition(node.id);
+  if (!pos || pos.leaves.length <= 1) {
+    // Nothing meaningful to navigate between (e.g. a lone topic) — hide both.
+    hideNoteNavBar();
+    return;
+  }
+
+  const { chapterNode, leaves, index } = pos;
+  const isFirst = index === 0;
+  const isLast = index === leaves.length - 1;
+
+  // Previous button: on the very first topic of a chapter, there's
+  // nothing before it — show a calm "beginning" indicator, disabled,
+  // rather than hiding it outright, so it reads as informative rather
+  // than broken.
+  prevBtn.classList.add("active");
+  if (isFirst) {
+    prevBtn.textContent = "◀ You're at the Beginning";
+    prevBtn.disabled = true;
+    prevBtn.onclick = null;
+  } else {
+    prevBtn.textContent = "◀ Previous";
+    prevBtn.disabled = false;
+    prevBtn.onclick = () => selectAndReveal(leaves[index - 1].id);
+  }
+
+  // Next button: always shown while there's a chapter to move through.
+  // On the last topic, it opens the chapter-complete celebration
+  // instead of moving to a (nonexistent) next topic.
+  nextBtn.classList.add("active");
+  nextBtn.disabled = false;
+  if (isLast) {
+    nextBtn.textContent = "Finish Chapter 🎉";
+    nextBtn.onclick = () => openChapterCompleteCelebration(chapterNode);
+  } else {
+    nextBtn.textContent = "Next ▶";
+    nextBtn.onclick = () => selectAndReveal(leaves[index + 1].id);
+  }
+}
+
+function openChapterCompleteCelebration(chapterNode) {
+  const overlay = document.getElementById("chapterCompleteOverlay");
+  const title = document.getElementById("chapterCompleteTitle");
+  const sub = document.getElementById("chapterCompleteSub");
+  const hurrahBtn = document.getElementById("chapterCompleteHurrahBtn");
+
+  const nextChapter = findNextChapterNode(chapterNode);
+
+  title.textContent = "Congratulations! 🎉";
+  if (nextChapter) {
+    sub.innerHTML = `You've completed every topic in <strong>${esc(chapterNode.title)}</strong>.<br>Ready to move on to <strong>${esc(nextChapter.title)}</strong>?`;
+    hurrahBtn.style.display = "block";
+    hurrahBtn.textContent = "Hurrah! Start Next Chapter 🎉";
+    hurrahBtn.onclick = () => {
+      const nextLeaves = chapterLeaves(nextChapter);
+      overlay.classList.remove("active");
+      if (nextLeaves.length > 0) selectAndReveal(nextLeaves[0].id);
+    };
+  } else {
+    sub.innerHTML = `You've completed every topic in <strong>${esc(chapterNode.title)}</strong>.<br>More chapters will appear here as they're added.`;
+    hurrahBtn.style.display = "none";
+  }
+
+  overlay.classList.add("active");
+}
+
+document
+  .getElementById("chapterCompleteCloseBtn")
+  .addEventListener("click", () => {
+    document
+      .getElementById("chapterCompleteOverlay")
+      .classList.remove("active");
+  });
+document
+  .getElementById("chapterCompleteOverlay")
+  .addEventListener("click", (e) => {
+    if (e.target.id === "chapterCompleteOverlay") {
+      document
+        .getElementById("chapterCompleteOverlay")
+        .classList.remove("active");
+    }
+  });
+
 // ── js/engine/practice.js ──
 // ╔══════════════════════════════════════════════════════════╗
 // ║  PRACTICE ENGINE                                            ║
@@ -8609,12 +8433,7 @@ function renderQuizQuestion() {
   const letters = ["A", "B", "C", "D"];
 
   let html = `<div class="quiz-qnum">QUESTION ${index + 1} OF ${questions.length}</div>`;
-  // html += `<div class="quiz-question">${esc(q.q)}</div>`;
-  const questionText = Array.isArray(q.q)
-    ? q.q.map((line) => esc(line)).join("<br>")
-    : esc(q.q);
-
-  html += `<div class="quiz-question">${questionText}</div>`;
+  html += `<div class="quiz-question">${esc(q.q)}</div>`;
   q.options.forEach((opt, i) => {
     let cls = "quiz-option";
     if (selected !== null) {

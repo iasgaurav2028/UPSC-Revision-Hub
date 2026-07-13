@@ -27,12 +27,7 @@ const QUIZ_ch1_govact1919 = {
         "Montagu was the Secretary of State for India; Chelmsford was the Viceroy of India.",
     },
     {
-      q: [
-        "Consider the following statements regarding the Government of India Act, 1919:",
-        "I. It was passed in 1919 and came into force the same year.",
-        "II. It introduced bicameralism at the Centre for the first time.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the Government of India Act, 1919:\nI. It was passed in 1919 and came into force the same year.\nII. It introduced bicameralism at the Centre for the first time.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 1,
       explain:
@@ -51,11 +46,7 @@ const QUIZ_ch1_govact1919 = {
         "Dyarchy (double rule) was introduced in the PROVINCES under the 1919 Act — dyarchy at the CENTRE was only proposed (and never implemented) by the later 1935 Act.",
     },
     {
-      q: [
-        "Assertion (A): Provincial dyarchy under the Government of India Act, 1919 is widely regarded as having been largely unsuccessful.",
-        "Reason (R): Reserved subjects were administered by the Governor and his Executive Council WITHOUT accountability to the legislative council, creating a fundamental disconnect from responsible government.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): Provincial dyarchy under the Government of India Act, 1919 is widely regarded as having been largely unsuccessful.\nReason (R): Reserved subjects were administered by the Governor and his Executive Council WITHOUT accountability to the legislative council, creating a fundamental disconnect from responsible government.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -117,14 +108,7 @@ const QUIZ_ch1_govact1919 = {
         "Three of the six members (excluding the Commander-in-Chief) were required to be Indian.",
     },
     {
-      q: [
-        "Consider the following pairs regarding the Government of India Act, 1919:",
-        "Provision — Correct Detail",
-        "I. Central Public Service Commission — Set up in 1926, based on Lee Commission recommendations",
-        "II. Provincial budgets — Separated from Central budget for the first time",
-        "III. Chamber of Princes — Inaugurated in 1921, with 120 members",
-        "How many of the above pairs are correctly matched?",
-      ],
+      q: "Consider the following pairs regarding the Government of India Act, 1919:\nProvision — Correct Detail\nI. Central Public Service Commission — Set up in 1926, based on Lee Commission recommendations\nII. Provincial budgets — Separated from Central budget for the first time\nIII. Chamber of Princes — Inaugurated in 1921, with 120 members\nHow many of the above pairs are correctly matched?",
       options: [
         "Only one pair",
         "Only two pairs",

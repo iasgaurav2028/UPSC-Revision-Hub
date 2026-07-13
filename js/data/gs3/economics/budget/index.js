@@ -4,6 +4,7 @@ const DATA_gs3_economics_budget = {
   title: "Union Budget",
   subtitle: "Yearly Budget Coverage",
   icon: "💰",
+  isChapter: true, // marks this as a Prev/Next navigation boundary
   children: [
     DATA_news_budget_static,
     DATA_news_budget_priority_groups,

@@ -27,12 +27,7 @@ const QUIZ_ch1_indep1947 = {
         "This is known as the Mountbatten Plan, accepted by both the Congress and the Muslim League.",
     },
     {
-      q: [
-        "Consider the following statements regarding the legislative process of the Indian Independence Act, 1947:",
-        "I. The Bill was introduced in the British Parliament on July 4, 1947.",
-        "II. It received Royal Assent before it was introduced in Parliament.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the legislative process of the Indian Independence Act, 1947:\nI. The Bill was introduced in the British Parliament on July 4, 1947.\nII. It received Royal Assent before it was introduced in Parliament.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -51,11 +46,7 @@ const QUIZ_ch1_indep1947 = {
         "The Act came into force on August 15, 1947, the date of India's independence.",
     },
     {
-      q: [
-        "Assertion (A): The Indian Independence Act, 1947 abolished the office of Viceroy.",
-        "Reason (R): Each new dominion (India and Pakistan) instead received its own Governor-General, appointed by the British King on the advice of the dominion's own cabinet.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): The Indian Independence Act, 1947 abolished the office of Viceroy.\nReason (R): Each new dominion (India and Pakistan) instead received its own Governor-General, appointed by the British King on the advice of the dominion's own cabinet.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -151,12 +142,7 @@ const QUIZ_ch1_indep1947 = {
         "The British Monarch lost the right to veto bills; this power was instead reserved for the Governor-General, who could assent to bills fully in the King's name.",
     },
     {
-      q: [
-        "Consider the following statements about the status of the Governor-General and provincial Governors under the Indian Independence Act, 1947:",
-        "I. They became absolute rulers with unchecked executive power.",
-        "II. They became constitutional (nominal) heads, acting on the advice of respective Councils of Ministers.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements about the status of the Governor-General and provincial Governors under the Indian Independence Act, 1947:\nI. They became absolute rulers with unchecked executive power.\nII. They became constitutional (nominal) heads, acting on the advice of respective Councils of Ministers.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 1,
       explain:

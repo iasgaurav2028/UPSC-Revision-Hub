@@ -26,13 +26,7 @@ const QUIZ_news_budget_2026 = {
         "It was the first Budget prepared in the newly-named 'Kartavya Bhawan', housing Finance Ministry offices.",
     },
     {
-      q: [
-        "Consider the following statements regarding the '3 Kartavyas' framework of Budget 2026-27:",
-        "I. It includes accelerating and sustaining economic growth.",
-        "II. It includes fulfilling people's aspirations and building capacity.",
-        "III. It includes achieving a zero fiscal deficit within the same fiscal year.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding the '3 Kartavyas' framework of Budget 2026-27:\nI. It includes accelerating and sustaining economic growth.\nII. It includes fulfilling people's aspirations and building capacity.\nIII. It includes achieving a zero fiscal deficit within the same fiscal year.\nWhich of the statements given above is/are correct?",
       options: [
         "I and II only",
         "II and III only",
@@ -68,11 +62,7 @@ const QUIZ_news_budget_2026 = {
         "The Income Tax Act, 2025 was planned to take effect from April 1, 2026, aiming to simplify compliance while retaining existing rates.",
     },
     {
-      q: [
-        "Assertion (A): Budget 2026-27 represented a strategic shift toward supply-side, infrastructure-led growth.",
-        "Reason (R): The Budget held income tax slabs steady while sharply increasing capital expenditure to a record ₹12.2 lakh crore.",
-        "Which one of the following is correct?",
-      ],
+      q: "Assertion (A): Budget 2026-27 represented a strategic shift toward supply-side, infrastructure-led growth.\nReason (R): The Budget held income tax slabs steady while sharply increasing capital expenditure to a record ₹12.2 lakh crore.\nWhich one of the following is correct?",
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -103,12 +93,7 @@ const QUIZ_news_budget_2026 = {
         "A record ₹12.2 lakh crore was allocated for capital expenditure in FY27, equal to 4.4% of GDP — the highest-ever capex allocation.",
     },
     {
-      q: [
-        "Consider the following statements regarding fiscal indicators in Budget 2026-27:",
-        "I. Capital expenditure represented 4.4% of GDP.",
-        "II. This capex figure represented an 11.5% increase over FY26 revised estimates.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements regarding fiscal indicators in Budget 2026-27:\nI. Capital expenditure represented 4.4% of GDP.\nII. This capex figure represented an 11.5% increase over FY26 revised estimates.\nWhich of the statements given above is/are correct?",
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -220,13 +205,7 @@ const QUIZ_news_budget_2026 = {
         "Revenue Deficit was targeted at 1.5% of GDP for FY27 — the same level as FY26's revised estimate.",
     },
     {
-      q: [
-        "Consider the following statements comparing Budget 2025-26 and Budget 2026-27:",
-        "1. Both Budgets targeted the same fiscal deficit percentage.",
-        "2. Budget 2026-27's capital expenditure allocation was higher than Budget 2025-26's.",
-        "3. Budget 2026-27 retained the income tax slabs introduced in Budget 2025-26.",
-        "Which of the statements given above is/are correct?",
-      ],
+      q: "Consider the following statements comparing Budget 2025-26 and Budget 2026-27:\n1. Both Budgets targeted the same fiscal deficit percentage.\n2. Budget 2026-27's capital expenditure allocation was higher than Budget 2025-26's.\n3. Budget 2026-27 retained the income tax slabs introduced in Budget 2025-26.\nWhich of the statements given above is/are correct?",
       options: ["2 and 3 only", "1 only", "1, 2 and 3", "3 only"],
       correct: 0,
       explain:
