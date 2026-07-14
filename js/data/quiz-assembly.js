@@ -18,6 +18,7 @@
 // ║      (before this file, since this file references it)             ║
 // ╚══════════════════════════════════════════════════════════════════╝
 const QUIZ_DATA = {
+  "geo6-ch1": QUIZ_geo6_ch1,
   "ch1-regulating1773": QUIZ_ch1_regulating1773,
   "ch1-amending1781": QUIZ_ch1_amending1781,
   "ch1-pitts1784": QUIZ_ch1_pitts1784,
