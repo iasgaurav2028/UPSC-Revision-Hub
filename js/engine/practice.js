@@ -49,7 +49,12 @@ function renderQuizQuestion() {
   const letters = ["A", "B", "C", "D"];
 
   let html = `<div class="quiz-qnum">QUESTION ${index + 1} OF ${questions.length}</div>`;
-  html += `<div class="quiz-question">${esc(q.q)}</div>`;
+
+  const questionText = Array.isArray(q.q)
+    ? q.q.map((line) => esc(line)).join("<br>")
+    : esc(q.q);
+
+  html += `<div class="quiz-question">${questionText}</div>`;
   q.options.forEach((opt, i) => {
     let cls = "quiz-option";
     if (selected !== null) {
