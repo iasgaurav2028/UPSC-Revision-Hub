@@ -629,31 +629,33 @@ function updateNoteNavBar(node) {
   const isFirst = index === 0;
   const isLast = index === leaves.length - 1;
 
-  // Previous button: on the very first topic of a chapter, there's
-  // nothing before it — show a calm "beginning" indicator, disabled,
-  // rather than hiding it outright, so it reads as informative rather
-  // than broken.
+  // Previous button: icon stays a static ◀ — state is communicated via
+  // disabled styling (greyed out, no hover) and the title tooltip,
+  // rather than changing the glyph itself.
   prevBtn.classList.add("active");
   if (isFirst) {
-    prevBtn.textContent = "◀ You're at the Beginning";
     prevBtn.disabled = true;
+    prevBtn.title = "You're at the beginning of this chapter";
     prevBtn.onclick = null;
   } else {
-    prevBtn.textContent = "◀ Previous";
     prevBtn.disabled = false;
+    prevBtn.title = "Previous topic";
     prevBtn.onclick = () => selectAndReveal(leaves[index - 1].id);
   }
 
-  // Next button: always shown while there's a chapter to move through.
-  // On the last topic, it opens the chapter-complete celebration
+  // Next button: always enabled while there's a chapter to move
+  // through. On the last topic, the icon switches to 🎉 as a visual
+  // cue, and clicking it opens the chapter-complete celebration
   // instead of moving to a (nonexistent) next topic.
   nextBtn.classList.add("active");
   nextBtn.disabled = false;
   if (isLast) {
-    nextBtn.textContent = "Finish Chapter 🎉";
+    nextBtn.textContent = "🎉";
+    nextBtn.title = "Finish chapter";
     nextBtn.onclick = () => openChapterCompleteCelebration(chapterNode);
   } else {
-    nextBtn.textContent = "Next ▶";
+    nextBtn.textContent = "▶";
+    nextBtn.title = "Next topic";
     nextBtn.onclick = () => selectAndReveal(leaves[index + 1].id);
   }
 }

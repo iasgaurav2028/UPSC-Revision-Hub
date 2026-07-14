@@ -77,14 +77,31 @@
         <div class="notes-scroll">
           <div class="notes-content" id="notesContent"></div>
         </div>
-        <button class="note-nav-float note-nav-prev" id="noteNavPrevBtn">
-          ◀ Previous
-        </button>
-        <button class="note-nav-float note-nav-next" id="noteNavNextBtn">
-          Next ▶
-        </button>
-        <button class="exit-reading-btn" id="exitReadingBtn">
-          ✕ Exit Reading Mode
+        <div class="note-nav-fab-group" id="noteNavFabGroup">
+          <button
+            class="note-nav-fab note-nav-prev"
+            id="noteNavPrevBtn"
+            title="Previous topic"
+            aria-label="Previous topic"
+          >
+            ◀
+          </button>
+          <button
+            class="note-nav-fab note-nav-next"
+            id="noteNavNextBtn"
+            title="Next topic"
+            aria-label="Next topic"
+          >
+            ▶
+          </button>
+        </div>
+        <button
+          class="exit-reading-btn"
+          id="exitReadingBtn"
+          title="Exit reading mode"
+          aria-label="Exit reading mode"
+        >
+          ✕
         </button>
       </div>
     </div>
