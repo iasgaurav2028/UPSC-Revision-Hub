@@ -2969,14 +2969,150 @@ const DATA_ch1 = {
   children: [DATA_ch1_company, DATA_ch1_crown],
 };
 
+// ── data/gs2/polity/laxmikanth/part1/ch2/constituent-assembly-demand.js ──
+// ═══════════════════════════════════════════════════════════
+// GS2 › Polity › Laxmikanth › Part I › Chapter 2 › Making of the Constitution
+// Topic: Demand for a Constituent Assembly (1934 → Cabinet Mission 1946)
+// ═══════════════════════════════════════════════════════════
+const DATA_ch2_ca_demand = {
+  id: "ch2-ca-demand",
+  title: "Demand for a Constituent Assembly",
+  icon: "🏛",
+  isLeaf: true,
+  pageRef: "Making of the Constitution",
+  notes: {
+    era: "Making of the Constitution (1934–1946)",
+    significance: [
+      "First formal articulation of India's right to frame its own Constitution through an elected body",
+      "Idea of a Constituent Assembly first put forward in 1934 by M.N. Roy — a pioneer of the communist movement in India",
+      "In 1935, the Indian National Congress (INC) officially demanded a Constituent Assembly for the first time",
+      "Traces the journey from an idea (1934) to British acceptance in principle (1940) to a concrete scheme (Cabinet Mission, 1946)",
+    ],
+    features: [
+      {
+        key: "Origin of the Idea (1934)",
+        main: "The concept of a Constituent Assembly for India was put forward for the first time in 1934 by M.N. Roy",
+        note: "M.N. Roy — a pioneer of the communist movement in India",
+      },
+      {
+        key: "First Official Demand (1935)",
+        main: "In 1935, the INC for the first time officially demanded a Constituent Assembly to frame the Constitution of India",
+        note: "",
+      },
+      {
+        key: "Nehru's Declaration (1938)",
+        main: "In 1938, Jawaharlal Nehru (on behalf of INC) declared: the Constitution of free India must be framed, without outside interference, by a Constituent Assembly elected on the basis of adult franchise",
+        note: "Two key principles — (1) no outside/British interference, (2) elected on adult franchise",
+      },
+      {
+        key: "Reiterated (1939)",
+        main: "The INC endorsed and reiterated this view by passing a resolution in 1939",
+        note: "",
+      },
+      {
+        key: "August Offer (1940)",
+        main: "The demand was finally accepted in principle by the British Government in the 'August Offer' of 1940",
+        note: "First time the British conceded the CA demand — but only 'in principle'",
+      },
+      {
+        key: "Cripps Mission (1942)",
+        main: "Sir Stafford Cripps (a member of the Cabinet) came to India in 1942 with a draft proposal for framing an independent Constitution, to be adopted after World War II",
+        note: "Rejected by the Muslim League — which wanted India divided into two autonomous states with two separate Constituent Assemblies",
+      },
+      {
+        key: "Cabinet Mission (1946)",
+        main: "A Cabinet Mission was sent to India. It rejected the idea of two Constituent Assemblies but put forth a scheme for a single Constituent Assembly that more or less satisfied the Muslim League",
+        note: "3 members: Lord Pethick-Lawrence, Sir Stafford Cripps, A.V. Alexander",
+      },
+      {
+        key: "Cabinet Mission — Dates",
+        main: "The Cabinet Mission arrived in India on March 24, 1946 and published its plan on May 16, 1946",
+        note: "Arrival: 24 March 1946  ·  Plan published: 16 May 1946",
+      },
+    ],
+    traps: [
+      {
+        label: "Who Proposed First",
+        lines: [
+          "Idea of CA first given by M.N. Roy (1934) — NOT Nehru, NOT Gandhi",
+          "First OFFICIAL demand by INC → 1935",
+          "(Distinguish 'first idea' 1934 vs 'first official demand' 1935)",
+        ],
+      },
+      {
+        label: "Year Trap",
+        lines: [
+          "Idea → 1934  ·  INC demand → 1935",
+          "Nehru's declaration → 1938  ·  Resolution → 1939",
+          "August Offer (accepted in principle) → 1940",
+          "Cripps Mission → 1942  ·  Cabinet Mission → 1946",
+        ],
+      },
+      {
+        label: "Two-Assembly Trap",
+        lines: [
+          "Muslim League wanted TWO CAs (two autonomous states)",
+          "Cripps Proposals rejected by Muslim League on this ground",
+          "Cabinet Mission REJECTED two CAs → proposed a SINGLE CA",
+        ],
+      },
+      {
+        label: "Cabinet Mission Members",
+        lines: [
+          "Lord Pethick-Lawrence (Chairman, Secretary of State for India)",
+          "Sir Stafford Cripps",
+          "A.V. Alexander",
+          "(All 3 were British Cabinet members)",
+        ],
+      },
+      {
+        label: "Cabinet Mission Dates",
+        lines: [
+          "Arrived: 24 March 1946",
+          "Plan published: 16 May 1946",
+        ],
+      },
+    ],
+    mainsAngle:
+      "The demand for a Constituent Assembly reflected the maturing of Indian nationalism — from asserting self-rule to claiming the exclusive right to author the nation's Constitution through an elected body, free of colonial interference. Its evolution from M.N. Roy's idea (1934) to the Cabinet Mission scheme (1946) mirrors the gradual, negotiated transfer of constituent power from the Crown to the Indian people.",
+    mainsTheme:
+      "From idea to institution: asserting India's right to frame its own Constitution",
+    recall: [
+      "Idea of CA → M.N. Roy (1934)",
+      "First official INC demand → 1935",
+      "Nehru's declaration → 1938 (adult franchise, no outside interference)",
+      "INC resolution reiterating → 1939",
+      "Accepted 'in principle' → August Offer, 1940",
+      "Cripps Mission → 1942 (rejected by Muslim League)",
+      "Muslim League wanted → 2 separate CAs",
+      "Cabinet Mission → single CA scheme (1946)",
+      "Members: Pethick-Lawrence, Cripps, Alexander",
+      "Arrived 24 Mar 1946 · Plan published 16 May 1946",
+    ],
+  },
+};
+
+// ── data/gs2/polity/laxmikanth/part1/ch2/ch2.js ──
+// Chapter 2: Making of the Constitution
+// Leaf topics are defined in sibling files (e.g. constituent-assembly-demand.js),
+// loaded just before this file. Add future topics to the children array below.
+const DATA_ch2 = {
+  id: "ch2",
+  title: "Chapter 2",
+  subtitle: "Making of the Constitution",
+  icon: "📚",
+  isChapter: true, // marks this as a Prev/Next navigation boundary
+  children: [DATA_ch2_ca_demand],
+};
+
 // ── data/gs2/polity/laxmikanth/part1/index.js ──
-// GS2 › Polity › Laxmikanth › Part I (combines Chapter 1; add Chapter 2, 3... here as you complete them)
+// GS2 › Polity › Laxmikanth › Part I (combines Chapters 1–2; add Chapter 3... here as you complete them)
 const DATA_lax_part1 = {
   id: "lax-part1",
   title: "Part I",
   subtitle: "Constitutional Framework",
   icon: "📖",
-  children: [DATA_ch1],
+  children: [DATA_ch1, DATA_ch2],
 };
 
 // ── data/gs2/polity/laxmikanth/part2/index.js ──
@@ -6644,6 +6780,179 @@ const QUIZ_ch1_simon = {
   ],
 };
 
+// ── data/gs2/polity/laxmikanth/part1/ch2/quiz-ch2-ca-demand.js ──
+// Quiz for: ch2-ca-demand (15 questions, UPSC Prelims-style)
+const QUIZ_ch2_ca_demand = {
+  title: "Demand for a Constituent Assembly",
+  questions: [
+    {
+      q: "The idea of a Constituent Assembly for India was put forward for the first time in 1934 by which of the following?",
+      options: [
+        "Jawaharlal Nehru",
+        "M.N. Roy",
+        "Mahatma Gandhi",
+        "B.R. Ambedkar",
+      ],
+      correct: 1,
+      explain:
+        "M.N. Roy, a pioneer of the communist movement in India, first put forward the idea of a Constituent Assembly in 1934.",
+    },
+    {
+      q: "In which year did the Indian National Congress (INC), for the first time, officially demand a Constituent Assembly to frame the Constitution of India?",
+      options: ["1934", "1935", "1938", "1940"],
+      correct: 1,
+      explain:
+        "The INC officially demanded a Constituent Assembly for the first time in 1935. (1934 was when M.N. Roy first floated the idea.)",
+    },
+    {
+      q: "Consider the following statements:\nI. M.N. Roy first proposed the idea of a Constituent Assembly in 1934.\nII. The INC officially demanded a Constituent Assembly for the first time in 1935.\nWhich of the statements given above is/are correct?",
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both statements are correct — the idea (1934, M.N. Roy) preceded the INC's first official demand (1935).",
+    },
+    {
+      q: "In 1938, who declared on behalf of the INC that the Constitution of free India must be framed, without outside interference, by a Constituent Assembly elected on the basis of adult franchise?",
+      options: [
+        "Mahatma Gandhi",
+        "Sardar Patel",
+        "Jawaharlal Nehru",
+        "Dr. Rajendra Prasad",
+      ],
+      correct: 2,
+      explain:
+        "Jawaharlal Nehru made this declaration in 1938 on behalf of the INC.",
+    },
+    {
+      q: "Nehru's 1938 declaration on the framing of India's Constitution emphasised which two key principles?",
+      options: [
+        "Dominion status and communal electorates",
+        "No outside interference and election on the basis of adult franchise",
+        "Two constituent assemblies and separate electorates",
+        "British supervision and limited franchise",
+      ],
+      correct: 1,
+      explain:
+        "Nehru stressed that the Constitution be framed (1) without outside interference, and (2) by a Constituent Assembly elected on the basis of adult franchise.",
+    },
+    {
+      q: "The demand for a Constituent Assembly was reiterated by the INC through a resolution passed in which year?",
+      options: ["1937", "1938", "1939", "1942"],
+      correct: 2,
+      explain:
+        "The INC endorsed and reiterated the demand by passing a resolution in 1939.",
+    },
+    {
+      q: "The demand for a Constituent Assembly was finally accepted 'in principle' by the British Government in which of the following?",
+      options: [
+        "August Offer of 1940",
+        "Cripps Proposals of 1942",
+        "Cabinet Mission Plan of 1946",
+        "Government of India Act, 1935",
+      ],
+      correct: 0,
+      explain:
+        "The 'August Offer' of 1940 was the first time the British Government accepted the demand for a Constituent Assembly in principle.",
+    },
+    {
+      q: "Sir Stafford Cripps came to India in 1942 with a draft proposal on the framing of an independent Constitution. When was this Constitution proposed to be adopted?",
+      options: [
+        "Immediately in 1942",
+        "After the end of World War II",
+        "Before the 1937 provincial elections",
+        "After the Cabinet Mission's arrival",
+      ],
+      correct: 1,
+      explain:
+        "The Cripps draft proposed that the independent Constitution be adopted after World War II.",
+    },
+    {
+      q: "Why did the Muslim League reject the Cripps Proposals of 1942?",
+      options: [
+        "It wanted immediate independence without any assembly",
+        "It wanted India divided into two autonomous states with two separate Constituent Assemblies",
+        "It wanted the British to frame the Constitution directly",
+        "It demanded a single assembly elected on adult franchise",
+      ],
+      correct: 1,
+      explain:
+        "The Muslim League rejected the Cripps Proposals because it wanted India divided into two autonomous states, each with its own separate Constituent Assembly.",
+    },
+    {
+      q: "Regarding the number of Constituent Assemblies, what stand did the Cabinet Mission take?",
+      options: [
+        "It accepted the demand for two separate Constituent Assemblies",
+        "It rejected the idea of two Constituent Assemblies and proposed a single one",
+        "It proposed three Constituent Assemblies",
+        "It left the matter entirely to the Muslim League",
+      ],
+      correct: 1,
+      explain:
+        "The Cabinet Mission rejected the idea of two Constituent Assemblies and put forth a scheme for a single Constituent Assembly that more or less satisfied the Muslim League.",
+    },
+    {
+      q: "Which of the following was NOT a member of the Cabinet Mission that arrived in India in 1946?",
+      options: [
+        "Lord Pethick-Lawrence",
+        "Sir Stafford Cripps",
+        "A.V. Alexander",
+        "Lord Mountbatten",
+      ],
+      correct: 3,
+      explain:
+        "The Cabinet Mission comprised Lord Pethick-Lawrence, Sir Stafford Cripps and A.V. Alexander. Lord Mountbatten was not a member.",
+    },
+    {
+      q: "The Cabinet Mission arrived in India on which date?",
+      options: [
+        "March 24, 1946",
+        "May 16, 1946",
+        "August 15, 1946",
+        "June 3, 1946",
+      ],
+      correct: 0,
+      explain:
+        "The Cabinet Mission arrived in India on March 24, 1946.",
+    },
+    {
+      q: "The Cabinet Mission published its plan on which date?",
+      options: [
+        "March 24, 1946",
+        "May 16, 1946",
+        "July 18, 1946",
+        "August 16, 1946",
+      ],
+      correct: 1,
+      explain:
+        "The Cabinet Mission published its plan on May 16, 1946.",
+    },
+    {
+      q: "Arrange the following events in correct chronological order:\nI. August Offer\nII. M.N. Roy's proposal for a Constituent Assembly\nIII. Cabinet Mission\nIV. Cripps Mission",
+      options: [
+        "II → I → IV → III",
+        "I → II → III → IV",
+        "II → IV → I → III",
+        "IV → II → I → III",
+      ],
+      correct: 0,
+      explain:
+        "Correct order: M.N. Roy's proposal (1934) → August Offer (1940) → Cripps Mission (1942) → Cabinet Mission (1946).",
+    },
+    {
+      q: "Assertion (A): The Cabinet Mission's scheme more or less satisfied the Muslim League.\nReason (R): The Cabinet Mission conceded the demand for two separate Constituent Assemblies.\nWhich one of the following is correct?",
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 2,
+      explain:
+        "A is true — the scheme more or less satisfied the Muslim League. R is false — the Cabinet Mission rejected the idea of two Constituent Assemblies and proposed a single one.",
+    },
+  ],
+};
+
 // ── data/gs3/disaster/index.js ──
 // GS3 › Disaster Management (no content yet)
 const DATA_gs3_disaster = {
@@ -8209,7 +8518,7 @@ const DATA_newspaper = {
 // ╚══════════════════════════════════════════════════════════════════╝
 const QUIZ_DATA = {
   "geo6-ch1": QUIZ_geo6_ch1,
-  "geo6-ch2":QUIZ_geo6_ch2,
+  "geo6-ch2": QUIZ_geo6_ch2,
   "ch1-regulating1773": QUIZ_ch1_regulating1773,
   "ch1-amending1781": QUIZ_ch1_amending1781,
   "ch1-pitts1784": QUIZ_ch1_pitts1784,
@@ -8227,6 +8536,8 @@ const QUIZ_DATA = {
   "ch1-communalaward": QUIZ_ch1_communalaward,
   "ch1-govact1935": QUIZ_ch1_govact1935,
   "ch1-indep1947": QUIZ_ch1_indep1947,
+
+  "ch2-ca-demand": QUIZ_ch2_ca_demand,
 
   "news-budget-2025": QUIZ_news_budget_2025,
   "news-budget-2026": QUIZ_news_budget_2026,

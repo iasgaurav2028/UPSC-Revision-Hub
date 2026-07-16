@@ -19,7 +19,7 @@
 // ╚══════════════════════════════════════════════════════════════════╝
 const QUIZ_DATA = {
   "geo6-ch1": QUIZ_geo6_ch1,
-  "geo6-ch2":QUIZ_geo6_ch2,
+  "geo6-ch2": QUIZ_geo6_ch2,
   "ch1-regulating1773": QUIZ_ch1_regulating1773,
   "ch1-amending1781": QUIZ_ch1_amending1781,
   "ch1-pitts1784": QUIZ_ch1_pitts1784,
@@ -37,6 +37,8 @@ const QUIZ_DATA = {
   "ch1-communalaward": QUIZ_ch1_communalaward,
   "ch1-govact1935": QUIZ_ch1_govact1935,
   "ch1-indep1947": QUIZ_ch1_indep1947,
+
+  "ch2-ca-demand": QUIZ_ch2_ca_demand,
 
   "news-budget-2025": QUIZ_news_budget_2025,
   "news-budget-2026": QUIZ_news_budget_2026,
