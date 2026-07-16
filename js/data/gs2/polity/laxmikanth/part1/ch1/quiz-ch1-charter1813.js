@@ -15,7 +15,12 @@ const QUIZ_ch1_charter1813 = {
         "This Act was the first to assert British Crown sovereignty over the Company's Indian territories — an important precursor to full Crown takeover in 1858.",
     },
     {
-      q: "Consider the following statements regarding trade provisions of the Charter Act of 1813:\nI. It abolished the Company's general trade monopoly in India.\nII. It also abolished the Company's monopoly over trade with China.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding trade provisions of the Charter Act of 1813:",
+        "I. It abolished the Company's general trade monopoly in India.",
+        "II. It also abolished the Company's monopoly over trade with China.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -46,7 +51,11 @@ const QUIZ_ch1_charter1813 = {
         "The Act allowed Christian missionaries into India — a significant social policy shift with long-term consequences for colonial society.",
     },
     {
-      q: "Assertion (A): The Charter Act of 1813 is often linked to the beginnings of socio-religious reform movements in colonial India.\nReason (R): The Act's provisions for Western education and missionary access created early channels for exposure to Western liberal ideas.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): The Charter Act of 1813 is often linked to the beginnings of socio-religious reform movements in colonial India.",
+        "Reason (R): The Act's provisions for Western education and missionary access created early channels for exposure to Western liberal ideas.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -82,7 +91,12 @@ const QUIZ_ch1_charter1813 = {
         "General Indian trade was opened to all British merchants; tea trade and trade with China remained Company monopolies — the reverse pairing is a common examination trap.",
     },
     {
-      q: "Consider the following statements:\nI. The Charter Act of 1813 provided for the spread of Western education among inhabitants of British India.\nII. The Act explicitly banned all religious missionary activity in Company territories.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements:",
+        "I. The Charter Act of 1813 provided for the spread of Western education among inhabitants of British India.",
+        "II. The Act explicitly banned all religious missionary activity in Company territories.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:

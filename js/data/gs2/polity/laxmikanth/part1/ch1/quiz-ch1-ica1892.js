@@ -15,7 +15,12 @@ const QUIZ_ch1_ica1892 = {
         "Despite increasing non-official members, the Act maintained an OFFICIAL majority in both Central and Provincial legislative councils.",
     },
     {
-      q: "Consider the following statements regarding the Indian Councils Act of 1892:\nI. It gave legislative councils the power to discuss the budget.\nII. It gave legislative councils the power to address questions to the executive.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding the Indian Councils Act of 1892:",
+        "I. It gave legislative councils the power to discuss the budget.",
+        "II. It gave legislative councils the power to address questions to the executive.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -29,7 +34,11 @@ const QUIZ_ch1_ica1892 = {
         "The Budget system was introduced in 1860, though the power for councils to formally DISCUSS it was only granted decades later, by the 1892 Act.",
     },
     {
-      q: "Assertion (A): The Indian Councils Act of 1892 introduced a genuinely electoral system for legislative councils.\nReason (R): The Act explicitly used the term 'election' in describing how non-official members were to be selected.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): The Indian Councils Act of 1892 introduced a genuinely electoral system for legislative councils.",
+        "Reason (R): The Act explicitly used the term 'election' in describing how non-official members were to be selected.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -125,7 +134,12 @@ const QUIZ_ch1_ica1892 = {
         "The Bengal Chamber of Commerce was specifically one of the bodies whose recommendation could result in a nomination to the Central Legislative Council.",
     },
     {
-      q: "Consider the following statements about the Indian Councils Act of 1892:\nI. Provincial council members were nominated by Governors.\nII. The recommending bodies for provincial nominations included universities and trade associations.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements about the Indian Councils Act of 1892:",
+        "I. Provincial council members were nominated by Governors.",
+        "II. The recommending bodies for provincial nominations included universities and trade associations.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:

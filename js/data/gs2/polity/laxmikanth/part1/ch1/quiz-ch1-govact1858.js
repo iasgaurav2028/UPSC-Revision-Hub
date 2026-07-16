@@ -27,7 +27,12 @@ const QUIZ_ch1_govact1858 = {
         "It is also known as the 'Act for the Good Government of India'.",
     },
     {
-      q: "Consider the following statements regarding the Government of India Act, 1858:\nI. It abolished the East India Company.\nII. It ended the system of double government by abolishing the Board of Control and Court of Directors.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding the Government of India Act, 1858:",
+        "I. It abolished the East India Company.",
+        "II. It ended the system of double government by abolishing the Board of Control and Court of Directors.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -58,7 +63,11 @@ const QUIZ_ch1_govact1858 = {
         "Lord Canning, who was already serving as Governor-General, became the first Viceroy of India upon the Act's enactment.",
     },
     {
-      q: "Assertion (A): The Government of India Act, 1858 marked a fundamental legal shift in sovereignty over India.\nReason (R): It transferred power, territories, and revenues from the East India Company directly to the British Crown.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): The Government of India Act, 1858 marked a fundamental legal shift in sovereignty over India.",
+        "Reason (R): It transferred power, territories, and revenues from the East India Company directly to the British Crown.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -149,7 +158,14 @@ const QUIZ_ch1_govact1858 = {
         "Separate electorates were introduced much later, by the Indian Councils Act of 1909 — not by the 1858 Act.",
     },
     {
-      q: "Consider the following pairs:\nOffice/Body — Status after the 1858 Act\nI. East India Company — Abolished\nII. Board of Control — Abolished\nIII. Council of India — Newly created\nHow many of the above pairs are correctly matched?",
+      q: [
+        "Consider the following pairs:",
+        "Office/Body — Status after the 1858 Act",
+        "I. East India Company — Abolished",
+        "II. Board of Control — Abolished",
+        "III. Council of India — Newly created",
+        "How many of the above pairs are correctly matched?",
+      ],
       options: [
         "Only one pair",
         "Only two pairs",

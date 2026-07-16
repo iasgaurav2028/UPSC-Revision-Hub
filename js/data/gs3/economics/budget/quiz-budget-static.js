@@ -15,7 +15,12 @@ const QUIZ_news_budget_static = {
         "Fiscal Deficit = Total Expenditure − Total Receipts (excluding borrowings). It indicates how much the government needs to borrow.",
     },
     {
-      q: "Consider the following statements regarding budgetary deficits:\nI. Revenue Deficit equals Revenue Expenditure minus Revenue Receipts.\nII. Primary Deficit equals Fiscal Deficit minus Interest Payments.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding budgetary deficits:",
+        "I. Revenue Deficit equals Revenue Expenditure minus Revenue Receipts.",
+        "II. Primary Deficit equals Fiscal Deficit minus Interest Payments.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -46,7 +51,11 @@ const QUIZ_news_budget_static = {
         "Constructing a railway line creates a long-term asset — a Capital Expenditure example, as opposed to the recurring, non-asset-creating options listed.",
     },
     {
-      q: "Assertion (A): The chain 'CapEx → Infrastructure → Investment → Employment → Growth' is often cited to justify prioritising capital expenditure.\nReason (R): Capital expenditure, unlike revenue expenditure, creates durable productive assets that can generate future economic returns.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): The chain 'CapEx → Infrastructure → Investment → Employment → Growth' is often cited to justify prioritising capital expenditure.",
+        "Reason (R): Capital expenditure, unlike revenue expenditure, creates durable productive assets that can generate future economic returns.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -77,7 +86,12 @@ const QUIZ_news_budget_static = {
         "The FRBM Act mandates the government to reduce fiscal and revenue deficits to sustainable levels over a defined timeframe.",
     },
     {
-      q: "Consider the following statements regarding the FRBM Act:\nI. It has faced criticism for repeated deadline extensions and deviations from its original targets.\nII. It applies exclusively to state governments, not the Union Government.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding the FRBM Act:",
+        "I. It has faced criticism for repeated deadline extensions and deviations from its original targets.",
+        "II. It applies exclusively to state governments, not the Union Government.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -134,7 +148,12 @@ const QUIZ_news_budget_static = {
         "The Public Account holds funds like provident funds and small savings, where government acts as a banker for depositors' money.",
     },
     {
-      q: "Consider the following statements regarding the Public Account of India:\nI. It is governed by Article 266(2).\nII. Withdrawal from it requires the same Parliamentary appropriation as the Consolidated Fund.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding the Public Account of India:",
+        "I. It is governed by Article 266(2).",
+        "II. Withdrawal from it requires the same Parliamentary appropriation as the Consolidated Fund.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -165,7 +184,11 @@ const QUIZ_news_budget_static = {
         "Both the Finance Bill and Appropriation Bill are classified as Money Bills.",
     },
     {
-      q: "Assertion (A): The Rajya Sabha's power over a Money Bill like the Finance Bill is limited.\nReason (R): As per Article 110, Money Bills can be introduced only in the Lok Sabha, and the Rajya Sabha can only recommend changes, not amend or reject them.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): The Rajya Sabha's power over a Money Bill like the Finance Bill is limited.",
+        "Reason (R): As per Article 110, Money Bills can be introduced only in the Lok Sabha, and the Rajya Sabha can only recommend changes, not amend or reject them.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",

@@ -10,7 +10,12 @@ const QUIZ_ch1_charter1853 = {
         "The Charter Acts series ran from 1793 to 1853, with 1853 being the final Act in this series.",
     },
     {
-      q: "Consider the following statements regarding the Charter Act of 1853:\nI. It separated legislative and executive functions of the Governor-General's council for the first time.\nII. It fixed a definite 20-year period for the continuation of Company rule, as earlier Charters had done.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding the Charter Act of 1853:",
+        "I. It separated legislative and executive functions of the Governor-General's council for the first time.",
+        "II. It fixed a definite 20-year period for the continuation of Company rule, as earlier Charters had done.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -48,7 +53,11 @@ const QUIZ_ch1_charter1853 = {
         "The Macaulay Committee (Committee on the Indian Civil Service) was appointed in 1854, following the Act's provision for genuine open competition.",
     },
     {
-      q: "Assertion (A): The Charter Act of 1853 signalled that Parliament could terminate Company rule at any time it wished.\nReason (R): Unlike earlier Charter Acts, the 1853 Act did not specify a fixed period for the continuation of the Company's rule.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): The Charter Act of 1853 signalled that Parliament could terminate Company rule at any time it wished.",
+        "Reason (R): Unlike earlier Charter Acts, the 1853 Act did not specify a fixed period for the continuation of the Company's rule.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -103,7 +112,13 @@ const QUIZ_ch1_charter1853 = {
         "This is the incorrect statement, and thus the answer — the 1853 Act specified NO fixed period, a deliberate break from earlier Charter Acts.",
     },
     {
-      q: "Consider the following pairs regarding the Charter Act of 1833 and 1853:\nAct — Nature of Legislative Change\nI. 1833 — Centralised legislative power exclusively in the Governor-General of India\nII. 1853 — Separated legislative function from executive function within the council\nHow many of the above pairs are correctly matched?",
+      q: [
+        "Consider the following pairs regarding the Charter Act of 1833 and 1853:",
+        "Act — Nature of Legislative Change",
+        "I. 1833 — Centralised legislative power exclusively in the Governor-General of India",
+        "II. 1853 — Separated legislative function from executive function within the council",
+        "How many of the above pairs are correctly matched?",
+      ],
       options: [
         "Only one pair",
         "Both pairs",

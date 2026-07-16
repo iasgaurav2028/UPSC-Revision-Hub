@@ -15,7 +15,12 @@ const QUIZ_ch1_pitts1784 = {
         "The Act was introduced by the then British Prime Minister, William Pitt, hence its name.",
     },
     {
-      q: "Consider the following statements regarding Pitt's India Act of 1784:\nI. It distinguished, for the first time, between the commercial and political functions of the East India Company.\nII. It abolished the Court of Directors entirely.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding Pitt's India Act of 1784:",
+        "I. It distinguished, for the first time, between the commercial and political functions of the East India Company.",
+        "II. It abolished the Court of Directors entirely.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -70,7 +75,11 @@ const QUIZ_ch1_pitts1784 = {
         "The Act was significant for first officially calling the Company's Indian territories 'British possessions in India'.",
     },
     {
-      q: "Assertion (A): Pitt's India Act of 1784 gave the British Government supreme control over the East India Company's political affairs.\nReason (R): The Act transferred all commercial functions of the Company to the Board of Control.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): Pitt's India Act of 1784 gave the British Government supreme control over the East India Company's political affairs.",
+        "Reason (R): The Act transferred all commercial functions of the Company to the Board of Control.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -82,7 +91,13 @@ const QUIZ_ch1_pitts1784 = {
         "A is correct — the British Government gained supreme political control. However, R is false: commercial functions remained with the Court of Directors, NOT the Board of Control, which handled only political affairs.",
     },
     {
-      q: "Consider the following pairs regarding Pitt's India Act of 1784:\nBody — Function\nI. Court of Directors — Commercial affairs\nII. Board of Control — Political affairs\nHow many of the above pairs are correctly matched?",
+      q: [
+        "Consider the following pairs regarding Pitt's India Act of 1784:",
+        "Body — Function",
+        "I. Court of Directors — Commercial affairs",
+        "II. Board of Control — Political affairs",
+        "How many of the above pairs are correctly matched?",
+      ],
       options: [
         "Only one pair",
         "Both pairs",
@@ -177,7 +192,12 @@ const QUIZ_ch1_pitts1784 = {
         "The two bodies operated with a clear division: commerce to the Court of Directors, politics to the Board of Control — this is the essence of 'double government'.",
     },
     {
-      q: "Consider the following statements:\nI. Pitt's India Act of 1784 was passed in response to concerns about East India Company mismanagement.\nII. The Act ended British Parliament's ability to oversee the Company's affairs.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements:",
+        "I. Pitt's India Act of 1784 was passed in response to concerns about East India Company mismanagement.",
+        "II. The Act ended British Parliament's ability to oversee the Company's affairs.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:

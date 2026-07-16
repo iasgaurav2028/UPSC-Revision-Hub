@@ -1,4 +1,4 @@
-// Quiz for: ch2-ca-demand (15 questions, UPSC Prelims-style)
+// Quiz for: ch2-ca-demand (27 questions, UPSC Prelims-style)
 const QUIZ_ch2_ca_demand = {
   title: "Demand for a Constituent Assembly",
   questions: [
@@ -22,7 +22,12 @@ const QUIZ_ch2_ca_demand = {
         "The INC officially demanded a Constituent Assembly for the first time in 1935. (1934 was when M.N. Roy first floated the idea.)",
     },
     {
-      q: "Consider the following statements:\nI. M.N. Roy first proposed the idea of a Constituent Assembly in 1934.\nII. The INC officially demanded a Constituent Assembly for the first time in 1935.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements:",
+        "I. M.N. Roy first proposed the idea of a Constituent Assembly in 1934.",
+        "II. The INC officially demanded a Constituent Assembly for the first time in 1935.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -128,8 +133,7 @@ const QUIZ_ch2_ca_demand = {
         "June 3, 1946",
       ],
       correct: 0,
-      explain:
-        "The Cabinet Mission arrived in India on March 24, 1946.",
+      explain: "The Cabinet Mission arrived in India on March 24, 1946.",
     },
     {
       q: "The Cabinet Mission published its plan on which date?",
@@ -140,11 +144,16 @@ const QUIZ_ch2_ca_demand = {
         "August 16, 1946",
       ],
       correct: 1,
-      explain:
-        "The Cabinet Mission published its plan on May 16, 1946.",
+      explain: "The Cabinet Mission published its plan on May 16, 1946.",
     },
     {
-      q: "Arrange the following events in correct chronological order:\nI. August Offer\nII. M.N. Roy's proposal for a Constituent Assembly\nIII. Cabinet Mission\nIV. Cripps Mission",
+      q: [
+        "Arrange the following events in correct chronological order:",
+        "I. August Offer",
+        "II. M.N. Roy's proposal for a Constituent Assembly",
+        "III. Cabinet Mission",
+        "IV. Cripps Mission",
+      ],
       options: [
         "II → I → IV → III",
         "I → II → III → IV",
@@ -156,7 +165,11 @@ const QUIZ_ch2_ca_demand = {
         "Correct order: M.N. Roy's proposal (1934) → August Offer (1940) → Cripps Mission (1942) → Cabinet Mission (1946).",
     },
     {
-      q: "Assertion (A): The Cabinet Mission's scheme more or less satisfied the Muslim League.\nReason (R): The Cabinet Mission conceded the demand for two separate Constituent Assemblies.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): The Cabinet Mission's scheme more or less satisfied the Muslim League.",
+        "Reason (R): The Cabinet Mission conceded the demand for two separate Constituent Assemblies.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -166,6 +179,148 @@ const QUIZ_ch2_ca_demand = {
       correct: 2,
       explain:
         "A is true — the scheme more or less satisfied the Muslim League. R is false — the Cabinet Mission rejected the idea of two Constituent Assemblies and proposed a single one.",
+    },
+    {
+      q: "M.N. Roy, who first proposed the idea of a Constituent Assembly, was a pioneer of which movement in India?",
+      options: [
+        "The trade union movement",
+        "The communist movement",
+        "The Home Rule movement",
+        "The Khilafat movement",
+      ],
+      correct: 1,
+      explain: "M.N. Roy was a pioneer of the communist movement in India.",
+    },
+    {
+      q: "How many members constituted the Cabinet Mission that came to India in 1946?",
+      options: ["Two", "Three", "Four", "Five"],
+      correct: 1,
+      explain:
+        "The Cabinet Mission had three members — Lord Pethick-Lawrence, Sir Stafford Cripps and A.V. Alexander.",
+    },
+    {
+      q: "Who among the Cabinet Mission members was the Secretary of State for India and chaired the Mission?",
+      options: [
+        "Sir Stafford Cripps",
+        "A.V. Alexander",
+        "Lord Pethick-Lawrence",
+        "Lord Wavell",
+      ],
+      correct: 2,
+      explain:
+        "Lord Pethick-Lawrence, the Secretary of State for India, headed the Cabinet Mission.",
+    },
+    {
+      q: "The 'August Offer', in which the demand for a Constituent Assembly was accepted in principle, belongs to which year?",
+      options: ["1938", "1939", "1940", "1942"],
+      correct: 2,
+      explain: "The August Offer was made in 1940.",
+    },
+    {
+      q: "Sir Stafford Cripps, who came to India in 1942, held which position at the time?",
+      options: [
+        "Viceroy of India",
+        "A member of the British Cabinet",
+        "Governor of Bengal",
+        "Secretary of State for the Commonwealth",
+      ],
+      correct: 1,
+      explain:
+        "Sir Stafford Cripps was a member of the British Cabinet when he came with the 1942 draft proposal.",
+    },
+    {
+      q: "The Cabinet Mission's scheme for a single Constituent Assembly was designed to more or less satisfy which party?",
+      options: [
+        "The Indian National Congress",
+        "The Muslim League",
+        "The Hindu Mahasabha",
+        "The Communist Party of India",
+      ],
+      correct: 1,
+      explain:
+        "While rejecting two separate assemblies, the Cabinet Mission's scheme more or less satisfied the Muslim League.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. The Cripps Proposals were rejected by the Muslim League.",
+        "II. The Muslim League wanted two separate Constituent Assemblies for two autonomous states.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both statements are correct — the Muslim League rejected the Cripps Proposals precisely because it wanted two autonomous states with two separate Constituent Assemblies.",
+    },
+    {
+      q: "Which of the following bodies/proposals rejected the idea of two Constituent Assemblies for India?",
+      options: [
+        "The Muslim League",
+        "The Cripps Mission",
+        "The Cabinet Mission",
+        "The August Offer",
+      ],
+      correct: 2,
+      explain:
+        "The Cabinet Mission rejected the idea of two Constituent Assemblies and instead proposed a single assembly.",
+    },
+    {
+      q: "The draft proposal that Sir Stafford Cripps brought in 1942 was to be adopted only after which event?",
+      options: [
+        "The 1946 provincial elections",
+        "World War II",
+        "The partition of India",
+        "The Cabinet Mission's report",
+      ],
+      correct: 1,
+      explain:
+        "The Cripps draft envisaged an independent Constitution to be adopted after World War II.",
+    },
+    {
+      q: [
+        "Arrange the following in chronological order:",
+        "I. Nehru's declaration on the Constituent Assembly",
+        "II. INC's first official demand for a Constituent Assembly",
+        "III. INC resolution reiterating the demand",
+        "IV. August Offer",
+      ],
+      options: [
+        "II → I → III → IV",
+        "I → II → III → IV",
+        "II → III → I → IV",
+        "I → III → II → IV",
+      ],
+      correct: 0,
+      explain:
+        "Correct order: INC's first demand (1935) → Nehru's declaration (1938) → INC resolution (1939) → August Offer (1940).",
+    },
+    {
+      q: [
+        "Assertion (A): The August Offer of 1940 was a significant milestone in the demand for a Constituent Assembly.",
+        "Reason (R): It was the first time the British Government accepted the demand for a Constituent Assembly in principle.",
+        "Which one is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — the August Offer mattered because it marked the first in-principle British acceptance of the Constituent Assembly demand.",
+    },
+    {
+      q: "Nehru's 1938 declaration proposed that the Constituent Assembly be elected on the basis of which franchise?",
+      options: [
+        "Limited franchise based on property",
+        "Adult franchise",
+        "Communal electorates",
+        "Franchise restricted to provincial legislators",
+      ],
+      correct: 1,
+      explain:
+        "Nehru declared that the Assembly should be elected on the basis of adult franchise, without outside interference.",
     },
   ],
 };

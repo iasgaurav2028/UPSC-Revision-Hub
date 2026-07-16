@@ -95,10 +95,7 @@ const DATA_ch2_ca_demand = {
       },
       {
         label: "Cabinet Mission Dates",
-        lines: [
-          "Arrived: 24 March 1946",
-          "Plan published: 16 May 1946",
-        ],
+        lines: ["Arrived: 24 March 1946", "Plan published: 16 May 1946"],
       },
     ],
     mainsAngle:

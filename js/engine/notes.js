@@ -377,6 +377,25 @@ function renderNotes() {
   }
 
   const node = findNode(TREE_DATA, selectedId);
+
+  // Lazy content loading: the bundled TREE_DATA is a skeleton (no note
+  // bodies). A leaf marked `hasNotes` gets its `notes` filled in from
+  // NOTES_STORE once its subject's content chunk has loaded. If it isn't
+  // loaded yet, show a brief loading state, fetch the chunk, then re-render.
+  if (node && node.hasNotes && !node.notes) {
+    if (NOTES_STORE[node.id]) {
+      node.notes = NOTES_STORE[node.id];
+    } else {
+      renderNoteLoading(node);
+      hideNoteNavBar();
+      ensureChunkLoaded(node.chunk, function () {
+        if (NOTES_STORE[node.id]) node.notes = NOTES_STORE[node.id];
+        if (selectedId === node.id) renderNotes();
+      });
+      return;
+    }
+  }
+
   const container = document.getElementById("notesContent");
   const topbarTitle = document.getElementById("topbarTitle");
 

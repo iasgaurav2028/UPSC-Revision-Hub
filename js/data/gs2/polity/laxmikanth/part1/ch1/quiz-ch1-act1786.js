@@ -16,7 +16,12 @@ const QUIZ_ch1_act1786 = {
         "Lord Cornwallis placed two personal conditions before accepting the post of Governor-General of Bengal, leading directly to this Act.",
     },
     {
-      q: "Consider the following statements regarding the Act of 1786:\nI. It granted the Governor-General power to override his Council's decisions in special cases.\nII. It permitted the Governor-General to simultaneously hold the post of Commander-in-Chief.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding the Act of 1786:",
+        "I. It granted the Governor-General power to override his Council's decisions in special cases.",
+        "II. It permitted the Governor-General to simultaneously hold the post of Commander-in-Chief.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -35,7 +40,11 @@ const QUIZ_ch1_act1786 = {
         "This override power did not exist prior to 1786 — it was newly introduced as a personal concession to Cornwallis.",
     },
     {
-      q: "Assertion (A): The Act of 1786 is historically significant despite its narrow, personal origin.\nReason (R): The override power it granted to Cornwallis was later generalised to all future Governors-General and Presidency Governors by the Charter Act of 1793.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): The Act of 1786 is historically significant despite its narrow, personal origin.",
+        "Reason (R): The override power it granted to Cornwallis was later generalised to all future Governors-General and Presidency Governors by the Charter Act of 1793.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",

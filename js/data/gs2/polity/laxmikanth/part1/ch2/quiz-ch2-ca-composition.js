@@ -1,0 +1,325 @@
+// Quiz for: ch2-ca-composition (30 questions, UPSC Prelims-style)
+const QUIZ_ch2_ca_composition = {
+  title: "Composition of the Constituent Assembly",
+  questions: [
+    {
+      q: "The Constituent Assembly was constituted in November 1946 under the scheme formulated by which of the following?",
+      options: [
+        "Cripps Mission",
+        "Cabinet Mission Plan",
+        "August Offer",
+        "Mountbatten Plan",
+      ],
+      correct: 1,
+      explain:
+        "The Constituent Assembly was constituted in November 1946 under the scheme formulated by the Cabinet Mission Plan.",
+    },
+    {
+      q: "What was the total strength of the Constituent Assembly as fixed under the Cabinet Mission scheme?",
+      options: ["296", "389", "292", "93"],
+      correct: 1,
+      explain:
+        "The total strength was fixed at 389 — 296 seats for British India and 93 for the princely states.",
+    },
+    {
+      q: "Of the total 389 seats, how many were allotted to British India and how many to the princely states respectively?",
+      options: ["292 and 97", "296 and 93", "293 and 96", "300 and 89"],
+      correct: 1,
+      explain:
+        "296 seats were allotted to British India and 93 to the princely states (total 389).",
+    },
+    {
+      q: "The 296 seats allotted to British India were divided as:",
+      options: [
+        "296 all from the governors' provinces",
+        "292 from the eleven governors' provinces and 4 from the four Chief Commissioners' provinces",
+        "290 from provinces and 6 from Delhi",
+        "292 from princely states and 4 from provinces",
+      ],
+      correct: 1,
+      explain:
+        "292 members were drawn from the eleven governors' provinces and 4 from the four Chief Commissioners' provinces (one each).",
+    },
+    {
+      q: "Which of the following was one of the four Chief Commissioners' provinces allotted one seat each?",
+      options: ["Assam", "Sindh", "Coorg", "Punjab"],
+      correct: 2,
+      explain:
+        "The four Chief Commissioners' provinces were Delhi, Ajmer-Merwara, Coorg and British Baluchistan. Assam, Sindh and Punjab were governors' provinces.",
+    },
+    {
+      q: "Under the Cabinet Mission scheme, roughly how many seats were allotted per population?",
+      options: [
+        "One seat for every ten lakh (one million) population",
+        "One seat for every five lakh population",
+        "One seat for every two million population",
+        "One seat for every state regardless of population",
+      ],
+      correct: 0,
+      explain:
+        "Seats were allotted in proportion to population — roughly one seat for every one million (ten lakh) population.",
+    },
+    {
+      q: "The seats allocated to each British province were divided among which three principal communities?",
+      options: [
+        "Hindus, Muslims and Christians",
+        "Muslims, Sikhs and General (all except Muslims and Sikhs)",
+        "Muslims, Sikhs and Scheduled Castes",
+        "Hindus, Muslims and Sikhs",
+      ],
+      correct: 1,
+      explain:
+        "Seats were divided among Muslims, Sikhs, and General — where 'General' meant all communities except Muslims and Sikhs.",
+    },
+    {
+      q: "By what method were the representatives of each community elected to the Constituent Assembly?",
+      options: [
+        "Direct election on adult franchise",
+        "Nomination by the Governor-General",
+        "Proportional representation by means of single transferable vote",
+        "First-past-the-post by the general public",
+      ],
+      correct: 2,
+      explain:
+        "Representatives of each community were elected by members of that community in the provincial legislative assembly through proportional representation by single transferable vote.",
+    },
+    {
+      q: "How were the representatives of the princely states to be chosen for the Constituent Assembly?",
+      options: [
+        "Directly elected by the people of the states",
+        "Elected by the provincial assemblies",
+        "Nominated by the heads of the princely states",
+        "Appointed by the Cabinet Mission",
+      ],
+      correct: 2,
+      explain:
+        "The representatives of the princely states were to be nominated by the heads (rulers) of the princely states.",
+    },
+    {
+      q: "The Constituent Assembly is best described as which type of body?",
+      options: [
+        "A fully directly elected body",
+        "A partly elected and partly nominated body",
+        "A wholly nominated body",
+        "A body elected entirely on adult franchise",
+      ],
+      correct: 1,
+      explain:
+        "It was a partly elected (provincial seats) and partly nominated (princely-state seats) body; members were also only indirectly elected.",
+    },
+    {
+      q: "The limited franchise on which the provincial assemblies were themselves elected was based on which law?",
+      options: [
+        "Indian Councils Act, 1909",
+        "Government of India Act, 1919",
+        "Government of India Act, 1935",
+        "Indian Independence Act, 1947",
+      ],
+      correct: 2,
+      explain:
+        "The Government of India Act of 1935 granted limited franchise on the basis of tax, property and other qualifications.",
+    },
+    {
+      q: "In the elections held in July–August 1946 for the 296 British-Indian seats, how many seats did the Indian National Congress win?",
+      options: ["73", "208", "15", "296"],
+      correct: 1,
+      explain:
+        "The INC won 208 seats, the Muslim League 73, and small groups/independents the remaining 15.",
+    },
+    {
+      q: "Consider the July–August 1946 election results for the Constituent Assembly. Which of the following is correctly matched?",
+      options: [
+        "Muslim League — 208 seats",
+        "INC — 73 seats",
+        "Small groups & independents — 15 seats",
+        "Princely states — 93 seats filled",
+      ],
+      correct: 2,
+      explain:
+        "Small groups and independents won 15 seats. INC won 208, Muslim League 73, and the 93 princely-state seats remained unfilled.",
+    },
+    {
+      q: "Why did the 93 seats allotted to the princely states remain unfilled initially?",
+      options: [
+        "The Cabinet Mission cancelled those seats",
+        "The princely states decided to stay away from the Constituent Assembly",
+        "No suitable representatives could be nominated",
+        "The Muslim League vetoed their entry",
+      ],
+      correct: 1,
+      explain:
+        "The 93 seats were not filled because the princely states decided to stay away from the Constituent Assembly.",
+    },
+    {
+      q: "Which prominent leader was NOT a member of the Constituent Assembly, despite the Assembly including virtually all important personalities of the time?",
+      options: [
+        "Jawaharlal Nehru",
+        "B.R. Ambedkar",
+        "Mahatma Gandhi",
+        "Sardar Patel",
+      ],
+      correct: 2,
+      explain:
+        "The Assembly included all important personalities of the time with the exception of Mahatma Gandhi.",
+    },
+    {
+      q: "In which month and year was the Constituent Assembly constituted?",
+      options: [
+        "August 1946",
+        "November 1946",
+        "December 1946",
+        "January 1947",
+      ],
+      correct: 1,
+      explain:
+        "The Constituent Assembly was constituted in November 1946 under the Cabinet Mission scheme.",
+    },
+    {
+      q: "How many governors' provinces contributed members to the Constituent Assembly from British India?",
+      options: ["Nine", "Ten", "Eleven", "Twelve"],
+      correct: 2,
+      explain:
+        "There were eleven governors' provinces contributing 292 of the British-India seats.",
+    },
+    {
+      q: "How many members were drawn from the eleven governors' provinces?",
+      options: ["296", "292", "289", "293"],
+      correct: 1,
+      explain:
+        "292 members were drawn from the eleven governors' provinces; the remaining 4 came from the four Chief Commissioners' provinces.",
+    },
+    {
+      q: "How many Chief Commissioners' provinces were allotted seats, and how many seats each?",
+      options: [
+        "Three provinces, two seats each",
+        "Four provinces, one seat each",
+        "Four provinces, two seats each",
+        "Five provinces, one seat each",
+      ],
+      correct: 1,
+      explain:
+        "There were four Chief Commissioners' provinces — Delhi, Ajmer-Merwara, Coorg and British Baluchistan — each allotted one seat.",
+    },
+    {
+      q: "Which of the following was NOT one of the eleven governors' provinces?",
+      options: [
+        "United Provinces",
+        "Central Provinces",
+        "Ajmer-Merwara",
+        "Orissa",
+      ],
+      correct: 2,
+      explain:
+        "Ajmer-Merwara was a Chief Commissioners' province, not a governors' province. UP, Central Provinces and Orissa were governors' provinces.",
+    },
+    {
+      q: "Which of the following was a governors' province under the seat-allocation scheme?",
+      options: ["Delhi", "Coorg", "NWFP", "British Baluchistan"],
+      correct: 2,
+      explain:
+        "The North-West Frontier Province (NWFP) was a governors' province. Delhi, Coorg and British Baluchistan were Chief Commissioners' provinces.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Constituent Assembly:",
+        "I. Its members were indirectly elected.",
+        "II. The provincial assemblies that elected them were themselves elected on a limited franchise.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both are correct — members were indirectly elected by provincial assemblies, which were themselves elected on a limited franchise under the GoI Act, 1935.",
+    },
+    {
+      q: "The method of proportional representation by single transferable vote was used for electing which members of the Constituent Assembly?",
+      options: [
+        "The nominated princely-state representatives",
+        "The community representatives from the British provinces",
+        "The women members only",
+        "The Chief Commissioners' provinces' members only",
+      ],
+      correct: 1,
+      explain:
+        "Community representatives from the British provinces were elected by proportional representation via single transferable vote; princely-state members were nominated.",
+    },
+    {
+      q: "In the July–August 1946 elections, how many seats did the Muslim League secure?",
+      options: ["208", "93", "73", "15"],
+      correct: 2,
+      explain:
+        "The Muslim League won 73 seats; INC won 208 and small groups/independents 15.",
+    },
+    {
+      q: "The seat totals of 208 (INC), 73 (Muslim League) and 15 (others) add up to which figure?",
+      options: [
+        "296 — the British-India seats",
+        "389 — the total Assembly strength",
+        "93 — the princely-state seats",
+        "292 — the governors' provinces' seats",
+      ],
+      correct: 0,
+      explain:
+        "208 + 73 + 15 = 296, which is the total number of seats allotted to British India.",
+    },
+    {
+      q: "Which of the following communities was NOT one of the three principal categories used for dividing provincial seats?",
+      options: ["Muslims", "Sikhs", "General", "Anglo-Indians"],
+      correct: 3,
+      explain:
+        "The three categories were Muslims, Sikhs and General. 'General' covered everyone else (including Anglo-Indians), who were not a separate seat-division category.",
+    },
+    {
+      q: "Which of the following sections of society was represented in the Constituent Assembly?",
+      options: [
+        "Only Hindus and Muslims",
+        "Hindus, Muslims, Sikhs, Parsis, Anglo-Indians, Indian Christians, SCs and STs",
+        "Only elected representatives of the majority community",
+        "Only the princely-state nominees",
+      ],
+      correct: 1,
+      explain:
+        "The Assembly comprised representatives of all sections — Hindus, Muslims, Sikhs, Parsis, Anglo-Indians, Indian Christians, SCs and STs, including women from all these sections.",
+    },
+    {
+      q: "With respect to the participation of women in the Constituent Assembly, which statement is correct?",
+      options: [
+        "No women were members of the Assembly",
+        "Women from all represented sections were included as members",
+        "Only women nominated by the princely states were members",
+        "Women were allowed only as observers",
+      ],
+      correct: 1,
+      explain:
+        "The Assembly included women from all the represented sections of Indian society.",
+    },
+    {
+      q: [
+        "Assertion (A): The Constituent Assembly cannot be said to have been directly elected by the people of India.",
+        "Reason (R): Members were chosen by the provincial legislative assemblies through indirect election, not by the general public on adult franchise.",
+        "Which one is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R correctly explains A — the Assembly was indirectly elected by provincial assemblies, so it was not directly elected on adult franchise.",
+    },
+    {
+      q: "The princely states' representatives were nominated rather than elected. This feature made the Constituent Assembly:",
+      options: [
+        "A fully elected body",
+        "Partly nominated in character",
+        "A body based purely on adult franchise",
+        "Entirely appointed by the British Crown",
+      ],
+      correct: 1,
+      explain:
+        "Because the princely-state representatives were nominated by the rulers, the Assembly was partly nominated (and partly elected) in character.",
+    },
+  ],
+};

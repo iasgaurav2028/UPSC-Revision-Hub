@@ -22,7 +22,12 @@ const QUIZ_news_budget_priority_groups = {
         "The 4 groups are Garib, Yuva, Annadata, and Nari — senior citizens are NOT part of this specific framing, a common distractor.",
     },
     {
-      q: "Consider the following statements regarding the '4 priority groups' framework:\nI. 'Annadata' refers to farmers.\nII. 'Nari' refers to women.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding the '4 priority groups' framework:",
+        "I. 'Annadata' refers to farmers.",
+        "II. 'Nari' refers to women.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -41,7 +46,11 @@ const QUIZ_news_budget_priority_groups = {
         "The PM Dhan-Dhaanya Krishi Yojana, an agricultural scheme, aligns directly with the 'Annadata' (farmer) priority group.",
     },
     {
-      q: "Assertion (A): MSMEs are considered disproportionately important to India's manufacturing and export sectors relative to their overall GDP contribution.\nReason (R): MSMEs contribute approximately 30% to GDP but approximately 45% each to manufacturing output and exports.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): MSMEs are considered disproportionately important to India's manufacturing and export sectors relative to their overall GDP contribution.",
+        "Reason (R): MSMEs contribute approximately 30% to GDP but approximately 45% each to manufacturing output and exports.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -66,7 +75,12 @@ const QUIZ_news_budget_priority_groups = {
         "MSMEs account for approximately 45% of India's total manufacturing output.",
     },
     {
-      q: "Consider the following statements regarding MSME contribution figures:\nI. MSMEs contribute approximately 45% to India's total exports.\nII. MSMEs' export contribution is higher than their GDP contribution.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding MSME contribution figures:",
+        "I. MSMEs contribute approximately 45% to India's total exports.",
+        "II. MSMEs' export contribution is higher than their GDP contribution.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:

@@ -156,6 +156,15 @@
     padding: 10px 30px 10px 12px;
     font-size: 14px;
   }
+  /* Shrink the floating exit-reading (fullscreen) button on phones —
+     40px felt oversized on small screens. */
+  .exit-reading-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+    top: 12px;
+    right: 12px;
+  }
 }
 
 /* ═══════════ SMALL PHONE (380px and below) ═══════════ */

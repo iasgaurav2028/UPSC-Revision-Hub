@@ -27,7 +27,12 @@ const QUIZ_ch1_ica1909 = {
         "Lord Morley was the Secretary of State for India; Lord Minto was the Viceroy — a frequently confused pairing.",
     },
     {
-      q: "Consider the following statements regarding the Indian Councils Act, 1909:\nI. The size of the Central Legislative Council was increased from 16 to 60 members.\nII. Official majority was removed from the Central Legislative Council.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding the Indian Councils Act, 1909:",
+        "I. The size of the Central Legislative Council was increased from 16 to 60 members.",
+        "II. Official majority was removed from the Central Legislative Council.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -58,7 +63,11 @@ const QUIZ_ch1_ica1909 = {
         "Satyendra Prasad Sinha was appointed as the Law Member, becoming the first Indian in the Viceroy's Executive Council.",
     },
     {
-      q: "Assertion (A): The Indian Councils Act, 1909 is often criticised for having 'legalised communalism' in Indian politics.\nReason (R): The Act introduced the concept of separate electorates for Muslims.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): The Indian Councils Act, 1909 is often criticised for having 'legalised communalism' in Indian politics.",
+        "Reason (R): The Act introduced the concept of separate electorates for Muslims.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -94,7 +103,13 @@ const QUIZ_ch1_ica1909 = {
         "Separate representation extended beyond Muslims to presidency corporations, chambers of commerce, universities, and zamindars.",
     },
     {
-      q: "Consider the following pairs regarding the Indian Councils Act, 1909:\nCouncil Level — Majority Type\nI. Central Legislative Council — Official majority\nII. Provincial Legislative Councils — Non-official majority\nHow many of the above pairs are correctly matched?",
+      q: [
+        "Consider the following pairs regarding the Indian Councils Act, 1909:",
+        "Council Level — Majority Type",
+        "I. Central Legislative Council — Official majority",
+        "II. Provincial Legislative Councils — Non-official majority",
+        "How many of the above pairs are correctly matched?",
+      ],
       options: [
         "Only one pair",
         "Both pairs",

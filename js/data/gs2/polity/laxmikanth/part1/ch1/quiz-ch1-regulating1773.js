@@ -6,7 +6,13 @@ const QUIZ_ch1_regulating1773 = {
   title: "Regulating Act of 1773",
   questions: [
     {
-      q: "With reference to the Regulating Act of 1773, consider the following statements:\nI. It was the first step by the British Parliament to regulate the affairs of the East India Company.\nII. It made the Governors of Bombay and Madras fully independent of Bengal.\nIII. It laid the foundation of central administration in British India.\nWhich of the statements given above is/are correct?",
+      q: [
+        "With reference to the Regulating Act of 1773, consider the following statements:",
+        "I. It was the first step by the British Parliament to regulate the affairs of the East India Company.",
+        "II. It made the Governors of Bombay and Madras fully independent of Bengal.",
+        "III. It laid the foundation of central administration in British India.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I and III only", "II only", "I, II and III", "I only"],
       correct: 0,
       explain:
@@ -25,7 +31,14 @@ const QUIZ_ch1_regulating1773 = {
         "The Regulating Act of 1773 first created the office of Governor-General of Bengal.",
     },
     {
-      q: "Consider the following pairs:\nOffice — First Holder\nI. Governor-General of Bengal — Warren Hastings\nII. Governor-General of India — Lord Canning\nIII. Viceroy of India — Lord William Bentinck\nHow many of the above pairs are correctly matched?",
+      q: [
+        "Consider the following pairs:",
+        "Office — First Holder",
+        "I. Governor-General of Bengal — Warren Hastings",
+        "II. Governor-General of India — Lord Canning",
+        "III. Viceroy of India — Lord William Bentinck",
+        "How many of the above pairs are correctly matched?",
+      ],
       options: [
         "Only one pair",
         "Only two pairs",
@@ -37,7 +50,11 @@ const QUIZ_ch1_regulating1773 = {
         "Only pair I is correct. Pair II is wrong (Lord William Bentinck was the first Governor-General of India, not Canning). Pair III is wrong (Lord Canning was the first Viceroy, not Bentinck).",
     },
     {
-      q: "Assertion (A): The Supreme Court at Calcutta began functioning only in 1774, though the Regulating Act was passed in 1773.\nReason (R): The Act required a one-year transition period before any of its judicial provisions could take effect.\nWhich one of the following is correct?",
+      q: [
+        "Assertion (A): The Supreme Court at Calcutta began functioning only in 1774, though the Regulating Act was passed in 1773.",
+        "Reason (R): The Act required a one-year transition period before any of its judicial provisions could take effect.",
+        "Which one of the following is correct?",
+      ],
       options: [
         "Both A and R are true, and R is the correct explanation of A",
         "Both A and R are true, but R is NOT the correct explanation of A",
@@ -68,7 +85,12 @@ const QUIZ_ch1_regulating1773 = {
         "Before 1773, the three Presidencies operated independently. The Act subordinated Bombay and Madras to Bengal for the first time.",
     },
     {
-      q: "With reference to the Supreme Court established at Calcutta under the Regulating Act, 1773, consider the following statements:\nI. It comprised one Chief Justice and three other judges.\nII. It was established in the same year the Act was passed.\nWhich of the statements given above is/are correct?",
+      q: [
+        "With reference to the Supreme Court established at Calcutta under the Regulating Act, 1773, consider the following statements:",
+        "I. It comprised one Chief Justice and three other judges.",
+        "II. It was established in the same year the Act was passed.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -87,7 +109,13 @@ const QUIZ_ch1_regulating1773 = {
         "The Act explicitly prohibited Company servants from private trade and from accepting presents or bribes — the other options describe features of much later Acts (1858 and 1784 respectively).",
     },
     {
-      q: "Under the Regulating Act, 1773, the Court of Directors of the East India Company was required to report to the British Government on which of the following matters?\nI. Revenue affairs\nII. Civil affairs\nIII. Military affairs\nSelect the correct answer using the code given below:",
+      q: [
+        "Under the Regulating Act, 1773, the Court of Directors of the East India Company was required to report to the British Government on which of the following matters?",
+        "I. Revenue affairs",
+        "II. Civil affairs",
+        "III. Military affairs",
+        "Select the correct answer using the code given below:",
+      ],
       options: [
         "I and II only",
         "II and III only",
@@ -123,7 +151,12 @@ const QUIZ_ch1_regulating1773 = {
         "This is a frequently tested distinction: Governor-General of Bengal (1773, Warren Hastings) is NOT the same office as Governor-General of India (created in 1833, first held by Lord William Bentinck).",
     },
     {
-      q: "Consider the following statements regarding the East India Company before and after the Regulating Act, 1773:\nI. Before 1773, the Company's functions were understood as purely commercial.\nII. The Act formally recognised the Company's political and administrative functions for the first time.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements regarding the East India Company before and after the Regulating Act, 1773:",
+        "I. Before 1773, the Company's functions were understood as purely commercial.",
+        "II. The Act formally recognised the Company's political and administrative functions for the first time.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 2,
       explain:
@@ -161,7 +194,12 @@ const QUIZ_ch1_regulating1773 = {
         "This is the Act's defining significance — the FIRST step of Parliamentary control, not the complete/final transfer (that came only in 1858).",
     },
     {
-      q: "Consider the following statements:\nI. The Regulating Act, 1773 prohibited Company servants from accepting bribes from Indians.\nII. It provided that the Court of Directors need not report to the British Government on Company affairs.\nWhich of the statements given above is/are correct?",
+      q: [
+        "Consider the following statements:",
+        "I. The Regulating Act, 1773 prohibited Company servants from accepting bribes from Indians.",
+        "II. It provided that the Court of Directors need not report to the British Government on Company affairs.",
+        "Which of the statements given above is/are correct?",
+      ],
       options: ["I only", "II only", "Both I and II", "Neither I nor II"],
       correct: 0,
       explain:
@@ -180,7 +218,13 @@ const QUIZ_ch1_regulating1773 = {
         "The Regulating Act was the FIRST of a long series of Acts (1781, 1784, 1793...1858) that progressively tightened British Parliamentary control over the Company.",
     },
     {
-      q: "Which of the following is/are correctly matched with respect to the Regulating Act, 1773?\nI. Executive Council — 4 members\nII. Supreme Court judges (other than Chief Justice) — 3\nIII. Year of establishment of Supreme Court — 1773\nSelect the correct answer using the code given below:",
+      q: [
+        "Which of the following is/are correctly matched with respect to the Regulating Act, 1773?",
+        "I. Executive Council — 4 members",
+        "II. Supreme Court judges (other than Chief Justice) — 3",
+        "III. Year of establishment of Supreme Court — 1773",
+        "Select the correct answer using the code given below:",
+      ],
       options: [
         "I and II only",
         "II and III only",

@@ -39,6 +39,7 @@ const QUIZ_DATA = {
   "ch1-indep1947": QUIZ_ch1_indep1947,
 
   "ch2-ca-demand": QUIZ_ch2_ca_demand,
+  "ch2-ca-composition": QUIZ_ch2_ca_composition,
 
   "news-budget-2025": QUIZ_news_budget_2025,
   "news-budget-2026": QUIZ_news_budget_2026,
