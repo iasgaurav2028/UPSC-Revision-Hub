@@ -4,16 +4,19 @@
 // ║  Loaded SECOND (right after core.js). The bundle only ships a       ║
 // ║  lightweight TREE_DATA "skeleton" — every node's structure          ║
 // ║  (id/title/icon/hierarchy) but NOT its heavy `notes` body. The      ║
-// ║  actual notes + quizzes for each top-level subject live in a        ║
-// ║  separate file under js/content/<subject>.js, fetched on demand     ║
-// ║  the first time you open a topic in that subject.                   ║
+// ║  actual notes + quizzes live in files under js/content/ that        ║
+// ║  MIRROR the js/data/ notes folder structure (e.g. js/content/       ║
+// ║  gs2/polity/laxmikanth/part1/ch2/constituent-assembly-working.js).  ║
+// ║  Each node's `chunk` field is that file's path (minus js/content/   ║
+// ║  and .js); the file is fetched on demand the first time one of its  ║
+// ║  topics is opened.                                                  ║
 // ║                                                                    ║
 // ║  Chunks are loaded by injecting a <script> tag (NOT fetch()) so     ║
 // ║  the site keeps working when index.html is opened directly from     ║
 // ║  disk (file://), where fetch/XHR are blocked by the browser.        ║
 // ║                                                                    ║
 // ║  Each chunk file is a single call:                                  ║
-// ║     __registerContent("gs2", { notes: {...}, quizzes: {...} });     ║
+// ║     __registerContent("<mirror/path>", { notes:{...}, quizzes:{} });║
 // ╚══════════════════════════════════════════════════════════════════╝
 
 // leafId -> notes object (populated lazily as chunks load)

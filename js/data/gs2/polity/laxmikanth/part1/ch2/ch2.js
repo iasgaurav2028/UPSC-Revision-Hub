@@ -7,9 +7,5 @@ const DATA_ch2 = {
   subtitle: "Making of the Constitution",
   icon: "📚",
   isChapter: true, // marks this as a Prev/Next navigation boundary
-  children: [
-    DATA_ch2_ca_demand,
-    DATA_ch2_ca_composition,
-    DATA_ch2_ca_working,
-  ],
+  children: [DATA_ch2_ca_demand, DATA_ch2_ca_composition, DATA_ch2_ca_working],
 };
