@@ -4,38 +4,4 @@
 // by js/engine/loader.js the first time one of its topics is opened.
 // Edit the source under js/data/ and re-run: node build-bundle.js
 // ═══════════════════════════════════════════════════════════
-__registerContent("newspaper/polity/2026-07-05-sc-collegium", {
-  notes: {
-    "news-2026-07-05-sc-collegium": {
-      newsType: true,
-      date: "5 July 2026",
-      subject: "Polity & Governance",
-      section: "National / Editorial",
-      summary:
-        "This is a SAMPLE entry showing the news-article note format. When you share real Hindu newspaper content, I will replace entries like this with the actual article's summary, key points, and analysis — tagged under whichever subject (Polity, Economics, IR, etc.) the article belongs to.",
-      keyPoints: [
-        {
-          key: "What happened",
-          detail:
-            "Sample placeholder — real key facts from the article go here.",
-        },
-        {
-          key: "Background",
-          detail:
-            "Sample placeholder — relevant constitutional/institutional background goes here.",
-        },
-      ],
-      syllabusLink:
-        "GS-2: Appointment of judges, Collegium system, Executive-Judiciary relations.",
-      prelimsPoints: [
-        "Sample: Article 124 deals with appointment of SC judges.",
-        "Sample: Collegium system is a judicial innovation, not mentioned in the original Constitution text.",
-      ],
-      mainsAngle:
-        "Sample mains angle sentence connecting this news event to a broader constitutional debate — e.g. tension between judicial independence and executive accountability in appointments.",
-      mainsGS: "GS-2 — Polity & Governance",
-      recall: ["Sample tag 1", "Sample tag 2", "Article 124"],
-    },
-  },
-  quizzes: {},
-});
+__registerContent("newspaper/polity/2026-07-05-sc-collegium", {"notes":{"news-2026-07-05-sc-collegium":{"newsType":true,"date":"5 July 2026","subject":"Polity & Governance","section":"National / Editorial","summary":"This is a SAMPLE entry showing the news-article note format. When you share real Hindu newspaper content, I will replace entries like this with the actual article's summary, key points, and analysis — tagged under whichever subject (Polity, Economics, IR, etc.) the article belongs to.","keyPoints":[{"key":"What happened","detail":"Sample placeholder — real key facts from the article go here."},{"key":"Background","detail":"Sample placeholder — relevant constitutional/institutional background goes here."}],"syllabusLink":"GS-2: Appointment of judges, Collegium system, Executive-Judiciary relations.","prelimsPoints":["Sample: Article 124 deals with appointment of SC judges.","Sample: Collegium system is a judicial innovation, not mentioned in the original Constitution text."],"mainsAngle":"Sample mains angle sentence connecting this news event to a broader constitutional debate — e.g. tension between judicial independence and executive accountability in appointments.","mainsGS":"GS-2 — Polity & Governance","recall":["Sample tag 1","Sample tag 2","Article 124"]}},"quizzes":{}});

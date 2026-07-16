@@ -277,6 +277,22 @@ function findNextChapterNode(chapterNode) {
   return null;
 }
 
+// Mirror of findNextChapterNode looking backward: the chapter node that
+// comes immediately BEFORE the given one among its parent's children
+// (skipping empty siblings). Used so "Previous" at a chapter's first
+// topic can step back into the prior chapter's last topic.
+function findPrevChapterNode(chapterNode) {
+  const chain = findAncestorChain(TREE_DATA, chapterNode.id);
+  if (!chain || chain.length < 2) return null;
+  const parent = chain[chain.length - 2];
+  const siblings = parent.children || [];
+  const myIndex = siblings.findIndex((s) => s.id === chapterNode.id);
+  for (let i = myIndex - 1; i >= 0; i--) {
+    if (collectLeaves(siblings[i]).length > 0) return siblings[i];
+  }
+  return null;
+}
+
 function overallProgress() {
   let leaves = [];
   for (const n of TREE_DATA) leaves = leaves.concat(collectLeaves(n));

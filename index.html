@@ -130,6 +130,30 @@
       </div>
     </div>
 
+    <!--
+  PREVIOUS-CHAPTER CONFIRM — shown when the ◀ back button is pressed on
+  the first topic of a chapter and there's an earlier chapter to step
+  into. Reuses the .chapter-complete-* styling (no new CSS) but with
+  neutral, non-celebratory wording.
+-->
+    <div class="chapter-complete-overlay" id="prevChapterOverlay">
+      <div class="chapter-complete-card">
+        <div class="chapter-complete-emoji">📖</div>
+        <div class="chapter-complete-title" id="prevChapterTitle">
+          Go to previous chapter?
+        </div>
+        <div class="chapter-complete-sub" id="prevChapterSub"></div>
+        <div class="chapter-complete-actions">
+          <button class="chapter-complete-hurrah-btn" id="prevChapterGoBtn">
+            ◀ Go Back
+          </button>
+          <button class="chapter-complete-close-btn" id="prevChapterCloseBtn">
+            Stay Here
+          </button>
+        </div>
+      </div>
+    </div>
+
     <div class="quiz-overlay" id="quizOverlay">
       <div class="quiz-modal">
         <div class="quiz-header">

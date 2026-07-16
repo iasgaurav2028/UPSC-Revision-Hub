@@ -653,9 +653,21 @@ function updateNoteNavBar(node) {
   // rather than changing the glyph itself.
   prevBtn.classList.add("active");
   if (isFirst) {
-    prevBtn.disabled = true;
-    prevBtn.title = "You're at the beginning of this chapter";
-    prevBtn.onclick = null;
+    // At the first topic of this chapter: step back into the PREVIOUS
+    // chapter's last topic (the mirror of how Next crosses forward). Only
+    // disabled when there's no earlier chapter at all.
+    const prevChapter = findPrevChapterNode(chapterNode);
+    const prevChapterLeaves = prevChapter ? chapterLeaves(prevChapter) : [];
+    if (prevChapterLeaves.length > 0) {
+      const target = prevChapterLeaves[prevChapterLeaves.length - 1];
+      prevBtn.disabled = false;
+      prevBtn.title = "Previous chapter: " + prevChapter.title;
+      prevBtn.onclick = () => openPrevChapterConfirm(chapterNode, prevChapter, target);
+    } else {
+      prevBtn.disabled = true;
+      prevBtn.title = "You're at the beginning";
+      prevBtn.onclick = null;
+    }
   } else {
     prevBtn.disabled = false;
     prevBtn.title = "Previous topic";
@@ -721,3 +733,40 @@ document
         .classList.remove("active");
     }
   });
+
+// ╔══════════════════════════════════════════════════════════╗
+// ║  PREVIOUS-CHAPTER CONFIRM                                  ║
+// ║  Neutral counterpart to the forward celebration: shown     ║
+// ║  when ◀ is pressed on a chapter's first topic and there's  ║
+// ║  an earlier chapter to step back into. Confirming lands on ║
+// ║  that previous chapter's LAST topic (keeps prev/next a      ║
+// ║  continuous, reversible sequence).                          ║
+// ╚══════════════════════════════════════════════════════════╝
+function openPrevChapterConfirm(currentChapter, prevChapter, targetLeaf) {
+  const overlay = document.getElementById("prevChapterOverlay");
+  const sub = document.getElementById("prevChapterSub");
+  const goBtn = document.getElementById("prevChapterGoBtn");
+  if (!overlay || !sub || !goBtn) return;
+
+  sub.innerHTML = `This takes you back to <strong>${esc(prevChapter.title)}</strong>${
+    prevChapter.subtitle ? " — " + esc(prevChapter.subtitle) : ""
+  }, opening its last topic <strong>${esc(targetLeaf.title)}</strong>.`;
+
+  goBtn.onclick = () => {
+    overlay.classList.remove("active");
+    selectAndReveal(targetLeaf.id);
+  };
+
+  overlay.classList.add("active");
+}
+
+document
+  .getElementById("prevChapterCloseBtn")
+  .addEventListener("click", () => {
+    document.getElementById("prevChapterOverlay").classList.remove("active");
+  });
+document.getElementById("prevChapterOverlay").addEventListener("click", (e) => {
+  if (e.target.id === "prevChapterOverlay") {
+    document.getElementById("prevChapterOverlay").classList.remove("active");
+  }
+});
