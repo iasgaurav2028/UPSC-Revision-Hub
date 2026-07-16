@@ -40,6 +40,7 @@ const QUIZ_DATA = {
 
   "ch2-ca-demand": QUIZ_ch2_ca_demand,
   "ch2-ca-composition": QUIZ_ch2_ca_composition,
+  "ch2-ca-working": QUIZ_ch2_ca_working,
 
   "news-budget-2025": QUIZ_news_budget_2025,
   "news-budget-2026": QUIZ_news_budget_2026,
