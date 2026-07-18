@@ -427,20 +427,17 @@
   }
 }
 
-/* Phone — a wide (landscape) image cropped to a tall screen loses most of
-   the artwork. Instead, fit the FULL image to the width as a top banner
-   and let the navy base fill the rest of the panel below it, so the whole
-   composition stays visible. */
+/* Phone — fill the WHOLE dashboard with the image (same as desktop),
+   centred so the key subjects stay in frame. */
 @media (max-width: 600px) {
   .main.has-dash-bg {
     background:
       linear-gradient(
         180deg,
-        rgba(8, 15, 28, 0.62) 0%,
-        rgba(10, 18, 32, 0.82) 52%,
-        rgba(10, 18, 32, 0.94) 100%
+        rgba(8, 15, 28, 0.82) 0%,
+        rgba(10, 18, 32, 0.9) 100%
       ),
-      url("../images/dashboard-hero.jpg") top center / 100% auto no-repeat,
+      url("../images/dashboard-hero.jpg") center center / cover no-repeat,
       var(--bg-main);
   }
 }
