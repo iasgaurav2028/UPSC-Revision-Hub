@@ -10,6 +10,10 @@
   --gold-light: #e8d5a3;
   --gold-border: rgba(201, 168, 76, 0.18);
   --gold-faint: rgba(201, 168, 76, 0.06);
+  /* "Roli" — warm saffron/vermillion accent (aspirational UPSC warmth).
+     Used to give the sidebar a distinct identity vs the cool main panel. */
+  --roli: #e3562f;
+  --roli-glow: rgba(227, 86, 47, 0.12);
   --text: #c8d3e0;
   --text-dim: rgba(200, 211, 224, 0.48);
   --danger: #f87171;

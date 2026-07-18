@@ -13,7 +13,20 @@ const DASH_ICONS = { gs1: "🏛", gs2: "⚖", gs3: "📊", gs4: "🧭", essay: "
 
 function renderDashboard() {
   document.getElementById("topbarTitle").textContent = "Dashboard";
-  let html = `<div class="dash-grid">`;
+  let html = `
+    <div class="dash-hero">
+      <div class="dash-hero-target" aria-hidden="true"></div>
+      <div class="dash-hero-content">
+        <div class="dash-hero-eyebrow">🎯 Civil Services Examination</div>
+        <div class="dash-hero-title">UPSC Target 2026</div>
+        <div class="dash-hero-sub">Master Notes &nbsp;·&nbsp; Complete Syllabus &nbsp;·&nbsp; Prelims + Mains</div>
+        <div class="dash-hero-tags">
+          <span>Integrity</span><span>Honesty</span><span>Justice</span><span>Empathy</span><span>Courage</span><span>Objectivity</span>
+        </div>
+        <div class="dash-hero-tricolour" aria-hidden="true"></div>
+      </div>
+    </div>
+    <div class="dash-grid">`;
   let cardIndex = 0;
   for (const id of DASHBOARD_IDS) {
     const node = findNode(TREE_DATA, id);

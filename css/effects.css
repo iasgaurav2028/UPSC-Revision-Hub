@@ -1,0 +1,580 @@
+/* ═══════════════════════════════════════════════════════════
+   EFFECTS.CSS — Ambience, entrance animations & micro-interactions
+   Layered on top of everything else (imported last in main.css).
+   Goal: a refined "wow" first impression without hurting
+   readability or performance. All motion is transform/opacity or
+   background-position based (GPU-friendly), and auto-playing
+   animation is gated behind `prefers-reduced-motion: no-preference`
+   so it fully calms down for users who ask for reduced motion.
+   ═══════════════════════════════════════════════════════════ */
+
+/* ─── Calm backdrop behind the main panel ───
+   Deep navy with a single, very soft golden halo bleeding down from
+   the top. Static and understated so it stays distraction-free for
+   long reading. (Adjust the alpha / position below to restyle it.) */
+.main {
+  position: relative; /* anchor the decorative top-trim (::after) to this panel */
+  background:
+    radial-gradient(
+      ellipse 100% 60% at 50% -18%,
+      rgba(201, 168, 76, 0.05),
+      transparent 70%
+    ),
+    var(--bg-main);
+}
+
+/* A faint golden hairline at the very top of the app — subtle "premium" trim. */
+.main::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(201, 168, 76, 0.5),
+    rgba(232, 213, 163, 0.7),
+    rgba(201, 168, 76, 0.5),
+    transparent
+  );
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* ─── Motion layer (respects reduced-motion) ─── */
+@media (prefers-reduced-motion: no-preference) {
+  /* Gentle whole-app fade-in on first paint. */
+  .app {
+    animation: appIn 0.7s ease both;
+  }
+  @keyframes appIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+
+  /* Notes open with a soft staggered rise (a gentle fade-up — no bounce).
+     Excludes the dashboard/browse grids, which have their own card
+     animations. */
+  .notes-content > *:not(.dash-grid) {
+    animation: noteRise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) backwards;
+  }
+  .notes-content > *:nth-child(1) {
+    animation-delay: 0.03s;
+  }
+  .notes-content > *:nth-child(2) {
+    animation-delay: 0.08s;
+  }
+  .notes-content > *:nth-child(3) {
+    animation-delay: 0.13s;
+  }
+  .notes-content > *:nth-child(4) {
+    animation-delay: 0.18s;
+  }
+  .notes-content > *:nth-child(5) {
+    animation-delay: 0.23s;
+  }
+  .notes-content > *:nth-child(6) {
+    animation-delay: 0.28s;
+  }
+  .notes-content > *:nth-child(7) {
+    animation-delay: 0.33s;
+  }
+  .notes-content > *:nth-child(n + 8) {
+    animation-delay: 0.38s;
+  }
+  @keyframes noteRise {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Section-title underline sweeps in from the left. */
+  .section-title::after {
+    transform-origin: left center;
+    animation: lineGrow 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s backwards;
+  }
+  @keyframes lineGrow {
+    from {
+      transform: scaleX(0);
+      opacity: 0;
+    }
+    to {
+      transform: scaleX(1);
+      opacity: 1;
+    }
+  }
+
+  /* Quick-recall "hooks" fade in with a light stagger. */
+  .hook {
+    animation: hookPop 0.4s ease backwards;
+  }
+  .hook:nth-child(2) {
+    animation-delay: 0.04s;
+  }
+  .hook:nth-child(3) {
+    animation-delay: 0.08s;
+  }
+  .hook:nth-child(4) {
+    animation-delay: 0.12s;
+  }
+  .hook:nth-child(5) {
+    animation-delay: 0.16s;
+  }
+  .hook:nth-child(n + 6) {
+    animation-delay: 0.2s;
+  }
+  @keyframes hookPop {
+    from {
+      opacity: 0;
+      transform: translateY(6px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Sidebar tree rows fade in when the tree (re)renders. */
+  .tree-row {
+    animation: rowFade 0.35s ease backwards;
+  }
+  @keyframes rowFade {
+    from {
+      opacity: 0;
+      transform: translateX(-6px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  /* Quiz options slide in as each question renders. */
+  .quiz-option {
+    animation: optIn 0.32s ease backwards;
+  }
+  .quiz-option:nth-child(1) {
+    animation-delay: 0.04s;
+  }
+  .quiz-option:nth-child(2) {
+    animation-delay: 0.1s;
+  }
+  .quiz-option:nth-child(3) {
+    animation-delay: 0.16s;
+  }
+  .quiz-option:nth-child(4) {
+    animation-delay: 0.22s;
+  }
+  @keyframes optIn {
+    from {
+      opacity: 0;
+      transform: translateX(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  /* Diagonal light "sheen" sweep across cards on hover. */
+  .dash-card::after,
+  .browse-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -130%;
+    width: 75%;
+    height: 100%;
+    background: linear-gradient(
+      100deg,
+      transparent,
+      rgba(255, 255, 255, 0.09),
+      transparent
+    );
+    transform: skewX(-18deg);
+    pointer-events: none;
+  }
+  .browse-card {
+    position: relative;
+    overflow: hidden;
+  }
+  .dash-card:hover::after,
+  .browse-card:hover::after {
+    animation: sheen 0.85s ease;
+  }
+  @keyframes sheen {
+    from {
+      left: -130%;
+    }
+    to {
+      left: 130%;
+    }
+  }
+
+  /* Progress fills get a soft moving highlight so they feel dynamic. */
+  .overall-progress-fill,
+  .dash-card-fill {
+    background-image: linear-gradient(
+      90deg,
+      var(--gold),
+      var(--gold-light),
+      var(--gold)
+    );
+    background-size: 200% 100%;
+    animation: fillShift 4s linear infinite;
+  }
+  @keyframes fillShift {
+    from {
+      background-position: 0% 0;
+    }
+    to {
+      background-position: 200% 0;
+    }
+  }
+}
+
+/* ─── Richer hover micro-interactions (user-initiated, always on) ─── */
+.sidebar-nav-btn,
+.browse-filter-chip,
+.browse-mode-btn {
+  transition:
+    all 0.18s ease,
+    transform 0.15s ease;
+}
+.sidebar-nav-btn:hover,
+.browse-filter-chip:hover {
+  transform: translateY(-1px);
+}
+.quiz-option {
+  transition:
+    background 0.15s,
+    border-color 0.15s,
+    transform 0.12s;
+}
+.quiz-option:hover {
+  transform: translateX(3px);
+}
+.quiz-cta-btn:hover {
+  box-shadow:
+    0 4px 16px rgba(96, 165, 250, 0.22),
+    0 0 0 1px rgba(96, 165, 250, 0.25);
+}
+.section-title {
+  transition: letter-spacing 0.3s ease;
+}
+
+/* Selected tree row gets a soft breathing glow so the current topic
+   is always easy to spot. */
+@media (prefers-reduced-motion: no-preference) {
+  .tree-row.selected {
+    animation: selGlow 3.4s ease-in-out infinite;
+  }
+  @keyframes selGlow {
+    0%,
+    100% {
+      box-shadow: inset 0 0 12px rgba(201, 168, 76, 0.08);
+    }
+    50% {
+      box-shadow: inset 0 0 18px rgba(201, 168, 76, 0.18);
+    }
+  }
+}
+
+/* Prettier gold gradient scrollbar thumb. */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    rgba(201, 168, 76, 0.4),
+    rgba(201, 168, 76, 0.18)
+  );
+}
+
+/* ═══════════════════════════════════════════════════════════
+   UPSC "ROLI" WARMTH — distinct sidebar identity
+   The main/dashboard panel stays COOL (navy + gold + blue aurora).
+   The sidebar gets a WARM saffron/vermillion ("roli") colour spread
+   so the two panels read as clearly different surfaces and the app
+   picks up an aspirational civil-services warmth. Pure background
+   layers (no pseudo-element layering), so it's safe and readable.
+   ═══════════════════════════════════════════════════════════ */
+.sidebar {
+  background:
+    radial-gradient(
+      ellipse 130% 22% at 50% -3%,
+      var(--roli-glow),
+      transparent 72%
+    ),
+    radial-gradient(
+      ellipse 150% 32% at 50% 106%,
+      rgba(227, 86, 47, 0.11),
+      transparent 74%
+    ),
+    radial-gradient(
+      ellipse 90% 20% at 100% 40%,
+      rgba(201, 168, 76, 0.05),
+      transparent 70%
+    ),
+    linear-gradient(175deg, #10192e 0%, #0a1526 100%);
+  /* Warm divider makes the seam between sidebar and dashboard obvious. */
+  border-right: 1px solid rgba(227, 86, 47, 0.26);
+  box-shadow:
+    4px 0 26px rgba(0, 0, 0, 0.3),
+    inset -1px 0 0 rgba(201, 168, 76, 0.05);
+}
+
+/* A "roli tilak" bloom glowing down from the top of the brand header —
+   the aspirational splash of colour, echoing a UPSC target poster. */
+.brand {
+  background:
+    radial-gradient(
+      ellipse 110% 90% at 50% -10%,
+      rgba(227, 86, 47, 0.16),
+      transparent 70%
+    ),
+    linear-gradient(180deg, rgba(201, 168, 76, 0.07), rgba(0, 0, 0, 0.15));
+  border-bottom: 1px solid rgba(227, 86, 47, 0.2);
+}
+
+/* The overall-progress fill shifts from saffron into gold — a small
+   warm-to-premium gradient that ties the roli accent into the UI. */
+.overall-progress-fill {
+  background: linear-gradient(
+    90deg,
+    var(--roli),
+    var(--gold),
+    var(--gold-light)
+  );
+}
+
+/* Active sidebar tab keeps its gold fill but gains a warm halo so the
+   navigation feels connected to the sidebar's roli identity. */
+.sidebar-nav-btn.active {
+  box-shadow:
+    0 0 0 1px rgba(227, 86, 47, 0.35),
+    0 4px 12px rgba(227, 86, 47, 0.15);
+}
+
+/* Slow, subtle breathing of the sidebar's warmth (motion-gated). */
+@media (prefers-reduced-motion: no-preference) {
+  .brand {
+    animation: roliBreath 7s ease-in-out infinite;
+  }
+  @keyframes roliBreath {
+    0%,
+    100% {
+      background:
+        radial-gradient(
+          ellipse 110% 90% at 50% -10%,
+          rgba(227, 86, 47, 0.13),
+          transparent 70%
+        ),
+        linear-gradient(180deg, rgba(201, 168, 76, 0.07), rgba(0, 0, 0, 0.15));
+    }
+    50% {
+      background:
+        radial-gradient(
+          ellipse 120% 100% at 50% -8%,
+          rgba(227, 86, 47, 0.22),
+          transparent 72%
+        ),
+        linear-gradient(180deg, rgba(201, 168, 76, 0.09), rgba(0, 0, 0, 0.15));
+    }
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   DASHBOARD HERO BANNER
+   A vector "mix" of the aspirational UPSC motifs: a Holi/roli colour
+   splash, a bullseye target, the tricolour, and headline + ethics
+   keywords. Pure CSS, so it stays crisp at any resolution. Vibrant
+   but contained to this banner — the rest of the app stays calm.
+   ═══════════════════════════════════════════════════════════ */
+.dash-hero {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  margin: 26px 34px 8px;
+  padding: 36px 40px;
+  border-radius: 18px;
+  border: 1px solid var(--gold-border);
+  background: linear-gradient(120deg, #14263f 0%, #0b182e 62%);
+  box-shadow:
+    0 18px 44px rgba(0, 0, 0, 0.38),
+    inset 0 0 0 1px rgba(201, 168, 76, 0.05);
+}
+
+/* Holi / roli colour splash blooming from the right side. A left-fading
+   mask keeps the headline area dark for readability. */
+.dash-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(circle at 68% 28%, rgba(255, 61, 129, 0.55), transparent 22%),
+    radial-gradient(circle at 83% 54%, rgba(255, 153, 51, 0.6), transparent 24%),
+    radial-gradient(circle at 93% 30%, rgba(255, 210, 63, 0.5), transparent 20%),
+    radial-gradient(circle at 76% 74%, rgba(59, 130, 246, 0.5), transparent 22%),
+    radial-gradient(circle at 96% 70%, rgba(25, 169, 116, 0.45), transparent 20%);
+  filter: blur(9px) saturate(1.15);
+  -webkit-mask-image: linear-gradient(90deg, transparent 32%, #000 64%);
+  mask-image: linear-gradient(90deg, transparent 32%, #000 64%);
+}
+
+/* Bullseye target, half-tucked off the right edge. */
+.dash-hero-target {
+  position: absolute;
+  right: -46px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 236px;
+  height: 236px;
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.5;
+  background: radial-gradient(
+    circle,
+    #e2542f 0 12%,
+    #f4f1e9 12% 24%,
+    #e2542f 24% 36%,
+    #f4f1e9 36% 48%,
+    #e2542f 48% 60%,
+    transparent 61%
+  );
+  -webkit-mask-image: radial-gradient(circle, #000 60%, transparent 62%);
+  mask-image: radial-gradient(circle, #000 60%, transparent 62%);
+}
+
+.dash-hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 70%;
+}
+.dash-hero-eyebrow {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 9.5px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--roli);
+  margin-bottom: 11px;
+}
+.dash-hero-title {
+  font-family: "Cinzel Decorative", "Cinzel", Georgia, serif;
+  font-size: 36px;
+  line-height: 1.08;
+  letter-spacing: 1px;
+  margin-bottom: 9px;
+  background: linear-gradient(135deg, var(--gold-light), var(--gold) 55%, #fff3d6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dash-hero-sub {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: var(--text-dim);
+  margin-bottom: 16px;
+}
+.dash-hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 18px;
+}
+.dash-hero-tags span {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 9.5px;
+  letter-spacing: 0.5px;
+  color: var(--gold-light);
+  background: rgba(201, 168, 76, 0.1);
+  border: 1px solid rgba(201, 168, 76, 0.28);
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+.dash-hero-tricolour {
+  height: 4px;
+  width: 210px;
+  max-width: 60%;
+  border-radius: 3px;
+  background: linear-gradient(
+    90deg,
+    #ff9933 0 33%,
+    #f4f1e9 33% 66%,
+    #138808 66% 100%
+  );
+  box-shadow: 0 0 14px rgba(255, 153, 51, 0.3);
+}
+
+@media (max-width: 680px) {
+  .dash-hero {
+    margin: 16px 16px 6px;
+    padding: 24px 20px;
+  }
+  .dash-hero-content {
+    max-width: 100%;
+  }
+  .dash-hero-title {
+    font-size: 25px;
+  }
+  .dash-hero-target {
+    width: 150px;
+    height: 150px;
+    right: -52px;
+    opacity: 0.35;
+  }
+}
+
+/* ─── Accessibility safeguard: honour an explicit reduced-motion request
+   by neutralising all animation/transition across the app. ─── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ─── Brand logo (sidebar emblem) ─── */
+.brand-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 1; /* sit above the brand's ambient glow */
+}
+.brand-logo svg {
+  width: 48px;
+  height: 48px;
+  filter: drop-shadow(0 2px 10px rgba(201, 168, 76, 0.35));
+}
+@media (prefers-reduced-motion: no-preference) {
+  /* Very slow, gentle sheen so the emblem feels alive without spinning. */
+  .brand-logo svg {
+    animation: logoGlow 5.5s ease-in-out infinite;
+  }
+  @keyframes logoGlow {
+    0%,
+    100% {
+      filter: drop-shadow(0 2px 8px rgba(201, 168, 76, 0.25));
+    }
+    50% {
+      filter: drop-shadow(0 2px 14px rgba(201, 168, 76, 0.5));
+    }
+  }
+}
