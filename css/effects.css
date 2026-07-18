@@ -412,6 +412,39 @@
     var(--bg-main);
 }
 
+/* Tablet — keep the image filling the panel, but centre the framing so
+   less of the sides is cropped away. */
+@media (max-width: 900px) {
+  .main.has-dash-bg {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(8, 15, 28, 0.8) 0%,
+        rgba(10, 18, 32, 0.9) 100%
+      ),
+      url("../images/dashboard-hero.jpg") center center / cover no-repeat,
+      var(--bg-main);
+  }
+}
+
+/* Phone — a wide (landscape) image cropped to a tall screen loses most of
+   the artwork. Instead, fit the FULL image to the width as a top banner
+   and let the navy base fill the rest of the panel below it, so the whole
+   composition stays visible. */
+@media (max-width: 600px) {
+  .main.has-dash-bg {
+    background:
+      linear-gradient(
+        180deg,
+        rgba(8, 15, 28, 0.62) 0%,
+        rgba(10, 18, 32, 0.82) 52%,
+        rgba(10, 18, 32, 0.94) 100%
+      ),
+      url("../images/dashboard-hero.jpg") top center / 100% auto no-repeat,
+      var(--bg-main);
+  }
+}
+
 /* ═══════════════════════════════════════════════════════════
    DASHBOARD HERO BANNER
    The headline/keywords now sit over the full-dashboard image
