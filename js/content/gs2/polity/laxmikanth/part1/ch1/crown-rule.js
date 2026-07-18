@@ -4,4 +4,2849 @@
 // by js/engine/loader.js the first time one of its topics is opened.
 // Edit the source under js/data/ and re-run: node build-bundle.js
 // ═══════════════════════════════════════════════════════════
-__registerContent("gs2/polity/laxmikanth/part1/ch1/crown-rule", {"notes":{"ch1-govact1858":{"era":"Crown Rule (1858–1947)","significance":["Enacted in the wake of the Revolt of 1857 (First War of Independence / Sepoy Mutiny)","Also known as the Act for the Good Government of India","Abolished the East India Company; transferred power, territories & revenues to the British Crown"],"features":[{"key":"Viceroy","main":"Governor-General of India → renamed Viceroy of India\nDirect representative of the British Crown","note":"First Viceroy of India: Lord Canning"},{"key":"End of Double Govt","main":"Ended the system of double government by abolishing the Board of Control & Court of Directors","note":""},{"key":"Secretary of State","main":"Created new office: Secretary of State for India\nComplete authority & control over Indian administration","note":"Member of British Cabinet, responsible to British Parliament"},{"key":"Council of India","main":"Established 15-member Council of India to assist the Secretary of State","note":"Advisory body; Secretary of State was its Chairman"},{"key":"Body Corporate","main":"Secretary of State-in-Council made a body corporate — could sue & be sued in India & England","note":""}],"traps":[{"label":"Title Trap","lines":["Governor-General of India (1833 title) → Viceroy of India (1858 title)","First Viceroy = Lord Canning","(He was already G-G; became FIRST Viceroy)"]},{"label":"Scope Trap","lines":["1858 Act mainly improved administrative machinery IN ENGLAND","Did NOT substantially change government system IN INDIA"]},{"label":"Double Govt Trap","lines":["1784 Act CREATED double govt (Court of Directors + Board of Control)","1858 Act ENDED double govt"]}],"mainsAngle":"The Act of 1858 shifted sovereignty from a commercial corporation to the Crown itself, but its impact was confined to restructuring control in England — genuine constitutional change in India came only with later Acts.","mainsTheme":"Sovereignty shift: Company → Crown (but India's governance largely unchanged)","recall":["Post Revolt of 1857","EIC abolished","G-G of India → VICEROY of India","1st Viceroy = Lord Canning","Board of Control + Court of Directors → abolished","New office: Secretary of State for India","15-member Council of India (advisory)"]},"ch1-ica1861":{"era":"Crown Rule (1858–1947)","significance":["Important landmark — began seeking Indian cooperation in administration","First of 3 Councils Acts (1861, 1892, 1909)"],"features":[{"key":"Representative Beginning","main":"Viceroy to nominate some Indians as NON-OFFICIAL members of expanded council","note":"1862: Lord Canning nominated Raja of Benaras, Maharaja of Patiala, Sir Dinkar Rao"},{"key":"Decentralisation","main":"Restored legislative powers to Bombay & Madras Presidencies","note":"Reversed centralising trend from 1773 → climax at 1833; led to provincial autonomy in 1937"},{"key":"New Councils","main":"Provided for new legislative councils for Bengal (1862), NW Provinces (1886), Punjab (1897)","note":""},{"key":"Portfolio System","main":"Recognised the 'portfolio system' (introduced by Canning in 1859)","note":"One council member in-charge of one/more departments, issues final orders"},{"key":"Emergency Ordinances","main":"Viceroy empowered to issue ordinances without council's concurrence during emergency","note":"Life of such ordinance = 6 months"}],"traps":[{"label":"Direction Trap","lines":["1773→1833 = CENTRALISING trend","1861 Act = DECENTRALISING (reversed the trend)"]},{"label":"Nomination ≠ Election","lines":["Indians were NOMINATED, not elected","'Non-official' members ≠ elected members"]},{"label":"Portfolio System Origin","lines":["Introduced by Canning in 1859","Given legal recognition by Act of 1861"]}],"mainsAngle":"The Indian Councils Act of 1861 marked a strategic pivot from pure centralisation to controlled association of Indians and provincial devolution, reflecting the Crown's post-1857 approach of co-option over exclusion.","mainsTheme":"Post-1857 pivot: centralisation → controlled association & devolution","recall":["Indians NOMINATED (non-official) to council","1862: Canning nominates Benaras, Patiala, Dinkar Rao","Bombay & Madras legislative powers RESTORED","Portfolio system (Canning, 1859) → recognised","Viceroy: emergency ordinance power (6-month life)"]},"ch1-ica1892":{"era":"Crown Rule (1858–1947)","significance":["Expanded legislative council functions while retaining official control","Introduced indirect, limited election mechanism (without using the word 'election')"],"features":[{"key":"More Members","main":"Increased non-official members in Central & Provincial legislative councils","note":"Official majority still MAINTAINED"},{"key":"Budget & Questions","main":"Gave councils power to discuss the budget & address questions to the executive","note":"Budget system introduced in British India in 1860"},{"key":"Nomination Process","main":"Central Council members nominated by Viceroy on recommendation of provincial councils & Bengal Chamber of Commerce","note":"Provincial council members nominated by Governors on recommendation of district boards, municipalities, universities, trade bodies, zamindars"}],"traps":[{"label":"No 'Election' Word Trap","lines":["Act made LIMITED, INDIRECT provision for election","But the word 'election' was NEVER used in the Act","Called 'nomination on recommendation of bodies'"]},{"label":"Majority Trap","lines":["Non-official members increased","But OFFICIAL MAJORITY still maintained"]},{"label":"Budget Year Trap","lines":["Budget system started in 1860","Council's power to DISCUSS budget → given in 1892"]}],"mainsAngle":"The 1892 Act's disguised use of quasi-electoral mechanisms — expanding representation without naming it 'election' — reflects the colonial state's cautious, incremental approach to political participation.","mainsTheme":"Cautious incrementalism: representation expanded but 'election' avoided","recall":["Non-official members increased","Official majority STILL maintained","Budget discussion power given","'Election' word NEVER used — indirect nomination only","Budget system started 1860"]},"ch1-ica1909":{"era":"Crown Rule (1858–1947)","significance":["Known as Morley-Minto Reforms","Morley = Secretary of State for India; Minto = Viceroy of India","First to legalise communal representation via separate electorates"],"features":[{"key":"Council Size","main":"Central legislative council members raised from 16 to 60","note":"Provincial council numbers not uniform"},{"key":"Majority Rule","main":"Central council: official majority RETAINED\nProvincial councils: allowed NON-official majority","note":""},{"key":"Deliberative Functions","main":"Enlarged functions — members could ask supplementary questions, move budget resolutions","note":""},{"key":"Indians in Executive Council","main":"First-time association of Indians with Viceroy's & Governors' Executive Councils","note":"Satyendra Prasad Sinha — first Indian in Viceroy's Executive Council (Law Member)"},{"key":"Separate Electorate","main":"Introduced communal representation for Muslims — 'separate electorate' concept","note":"'Legalised communalism'; Lord Minto = 'Father of Communal Electorate'"},{"key":"Other Representation","main":"Separate representation for presidency corporations, chambers of commerce, universities, zamindars","note":""}],"traps":[{"label":"Central vs Provincial Majority","lines":["Central council → Official majority RETAINED","Provincial councils → NON-official majority allowed","(Opposite treatment — common trap!)"]},{"label":"First Indian Trap","lines":["Satyendra Prasad Sinha = 1st Indian in Viceroy's Exec. Council","He was appointed as LAW Member"]},{"label":"Communal Electorate Trap","lines":["1909 Act = FIRST to introduce separate electorate (for Muslims)","Lord Minto = 'Father of Communal Electorate'","(Not Morley — Minto was the Viceroy)"]}],"mainsAngle":"The Morley-Minto Reforms of 1909, while expanding Indian participation, institutionalised communalism through separate electorates — a decision whose long-term political consequences proved deeply significant for India's constitutional trajectory.","mainsTheme":"Expanded participation but institutionalised communalism (separate electorate)","recall":["= Morley-Minto Reforms","Morley = Sec. of State; Minto = Viceroy","Central council: 16 → 60 members","Central = official majority; Provincial = non-official majority","S.P. Sinha = 1st Indian in Exec. Council (Law Member)","Separate electorate for Muslims introduced","Minto = 'Father of Communal Electorate'"]},"ch1-govact1919":{"era":"Crown Rule (1858–1947)","significance":["Known as Montagu-Chelmsford Reforms (Montford Reforms)","Montagu = Secretary of State; Chelmsford = Viceroy","Followed Aug 20, 1917 declaration — first official promise of 'responsible government' in India","Came into force in 1921"],"features":[{"key":"Central-Provincial Split","main":"Classified subjects into Central & Provincial subjects (via 'Devolution Rules')","note":"Relaxed central control; but structure remained centralised & unitary overall"},{"key":"Dyarchy in Provinces","main":"Provincial subjects split into Transferred (Governor + Ministers) & Reserved (Governor + Exec. Council)","note":"'Dyarchy' = Greek 'di-arche' = double rule. Largely UNSUCCESSFUL"},{"key":"Bicameralism","main":"Introduced bicameralism & direct elections FIRST TIME\nUpper House = Council of State; Lower House = Legislative Assembly","note":"Majority of both Houses directly elected"},{"key":"Indians in Exec. Council","main":"3 of 6 members of Viceroy's Exec. Council (excl. C-in-C) had to be Indian","note":""},{"key":"Communal Representation","main":"Extended separate electorates to Sikhs, Indian Christians, Anglo-Indians, Europeans","note":""},{"key":"Franchise","main":"Limited franchise granted based on property/tax qualifications","note":""},{"key":"High Commissioner","main":"Created office of High Commissioner for India in London","note":"Took over some functions from Secretary of State"},{"key":"Public Service Commission","main":"Provided for a Public Service Commission","note":"Central PSC set up 1926 (on Lee Commission recommendation, 1923-24)"},{"key":"Separate Budgets","main":"Separated Provincial budgets from Central budget FIRST TIME","note":""},{"key":"Statutory Commission","main":"Provided for a statutory commission to review the Act after 10 years","note":"This became the Simon Commission (1927)"},{"key":"Chamber of Princes","main":"Proposed Chamber of Princes (Narendra Mandal); inaugurated 1921","note":"120 members: 108 princes + 12 representatives; headed by Viceroy"}],"traps":[{"label":"Dyarchy Location Trap","lines":["1919 Act: Dyarchy introduced in PROVINCES","1935 Act: Dyarchy proposed at CENTRE (never implemented)"]},{"label":"First-Time Trap","lines":["1919 = FIRST bicameralism + direct elections","1919 = FIRST separate provincial budgets"]},{"label":"PSC Year Trap","lines":["1919 Act PROVIDED for PSC","Central PSC actually SET UP in 1926","Based on Lee Commission (1923-24)"]},{"label":"Reforms Naming Trap","lines":["Montagu = Secretary of State (not Viceroy)","Chelmsford = Viceroy (not Secretary of State)"]}],"mainsAngle":"The Government of India Act, 1919 introduced dyarchy as India's first real experiment in responsible government, but its failure demonstrated that partial devolution without genuine accountability could not satisfy nationalist aspirations.","mainsTheme":"Dyarchy: first experiment in responsible govt — largely unsuccessful","recall":["= Montagu-Chelmsford (Montford) Reforms","Montagu = Sec. of State; Chelmsford = Viceroy","In force from 1921","Dyarchy in PROVINCES (Transferred + Reserved)","1st bicameralism + direct elections","3/6 Exec. Council members = Indian","Central PSC set up 1926 (Lee Commission)","1st separate provincial budgets","Statutory Commission clause → led to Simon Commission","Chamber of Princes (Narendra Mandal) — 1921"]},"ch1-simon":{"era":"Crown Rule (1858–1947)","significance":["Announced Nov 1927 — 2 years BEFORE its scheduled time","All 7 members were British → boycotted by all Indian parties","Report submitted in 1930"],"features":[{"key":"Chairman","main":"Sir John Simon chaired the 7-member statutory commission","note":""},{"key":"Recommendations","main":"Abolition of dyarchy; extension of responsible govt in provinces; federation of British India + princely states; continuation of communal electorate","note":""},{"key":"Follow-up Process","main":"3 Round Table Conferences held → 'White Paper on Constitutional Reforms' prepared","note":"Sent to Joint Select Committee of British Parliament"},{"key":"Outcome","main":"Committee's recommendations incorporated (with changes) into Government of India Act, 1935","note":""}],"traps":[{"label":"All-British Trap","lines":["ALL 7 members of Simon Commission were British","→ hence boycotted by ALL Indian parties"]},{"label":"Timing Trap","lines":["Announced Nov 1927 — 2 YEARS EARLY (not on schedule)","Report submitted in 1930"]}],"mainsAngle":"The all-European composition of the Simon Commission, provoking universal Indian boycott, underscored the widening gap between colonial constitutional processes and genuine Indian political representation in the interwar period.","mainsTheme":"Exclusion of Indians triggers universal boycott — legitimacy crisis","recall":["Chairman: Sir John Simon","ALL 7 members British → boycotted","Announced 1927 (2 yrs early)","Report: 1930","→ 3 Round Table Conferences","→ White Paper → Joint Select Committee","→ feeds into GoI Act 1935"]},"ch1-communalaward":{"era":"Crown Rule (1858–1947)","significance":["Announced Aug 1932 by British PM Ramsay MacDonald","Extended separate electorate to depressed classes (Scheduled Castes)","Led to the Poona Pact"],"features":[{"key":"Continuation","main":"Continued separate electorates for Muslims, Sikhs, Indian Christians, Anglo-Indians, Europeans","note":""},{"key":"Extension","main":"Extended separate electorate to the Depressed Classes (Scheduled Castes)","note":"This is what distressed Gandhiji"},{"key":"Gandhiji's Response","main":"Undertook fast unto death in Yerawada Jail (Poona) to get the award modified","note":""},{"key":"Poona Pact","main":"Agreement between Congress & Dr. B.R. Ambedkar (leader of depressed classes)","note":"Retained Hindu JOINT electorate; gave RESERVED seats to depressed classes"},{"key":"Final Outcome","main":"British Govt accepted Poona Pact; dropped separate electorate for depressed classes","note":"Provisions incorporated into Government of India Act, 1935"}],"traps":[{"label":"Separate vs Reserved Trap","lines":["Communal Award = SEPARATE electorate for SCs","Poona Pact = JOINT electorate + RESERVED seats for SCs","(Poona Pact REPLACED separate electorate provision)"]},{"label":"Who vs Who Trap","lines":["Poona Pact = Congress + Dr. B.R. Ambedkar","NOT Gandhi + Ambedkar directly (Congress negotiated)"]},{"label":"PM Trap","lines":["Communal Award announced by Ramsay MacDonald","(British PM, NOT Viceroy)"]}],"mainsAngle":"The Poona Pact represents a foundational compromise in India's social justice discourse — trading separate political identity for guaranteed representation within a joint electorate, a tension that persists in debates on reservation policy today.","mainsTheme":"Poona Pact: joint electorate + reserved seats — foundational SC representation compromise","recall":["Announced by Ramsay MacDonald (Aug 1932)","Extended separate electorate to Depressed Classes","Gandhiji: fast unto death, Yerawada Jail","Poona Pact = Congress + Ambedkar","Result: JOINT electorate + RESERVED seats","Incorporated into GoI Act 1935"]},"ch1-govact1935":{"era":"Crown Rule (1858–1947)","significance":["Second milestone towards completely responsible government","Lengthy & detailed: 321 Sections, 10 Schedules","Most provisions of the Indian Constitution derive from this Act"],"features":[{"key":"All-India Federation","main":"Provided for All-India Federation of provinces + princely states","note":"Federal List (59), Provincial List (54), Concurrent List (36); Residuary → Viceroy. Federation NEVER came into being"},{"key":"Provincial Autonomy","main":"Abolished dyarchy in provinces; introduced 'Provincial Autonomy'","note":"Governor to act on advice of responsible ministers. In effect 1937, discontinued 1939"},{"key":"Dyarchy at Centre","main":"Provided for dyarchy at the Centre (federal subjects → reserved + transferred)","note":"This provision NEVER came into operation"},{"key":"Bicameralism","main":"Introduced bicameralism in 6 of 11 provinces","note":"Bengal, Bombay, Madras, Bihar, Assam, United Provinces"},{"key":"SC Representation","main":"Reserved seats for depressed classes (SCs); extended representation to women & labour","note":""},{"key":"Council of India Abolished","main":"Abolished the Council of India (est. by 1858 Act)","note":"Secretary of State given a team of advisors instead"},{"key":"Franchise","main":"Extended franchise — about 14% of total population got voting rights","note":""},{"key":"RBI","main":"Provided for establishment of Reserve Bank of India","note":""},{"key":"Public Service Commissions","main":"Provided for Federal PSC, Provincial PSC, and Joint PSC (for 2+ provinces)","note":""},{"key":"Federal Court","main":"Provided for a Federal Court — set up in 1937","note":""},{"key":"Burma Separated","main":"Separated Burma (now Myanmar) from India","note":""},{"key":"New Provinces","main":"Created 2 new provinces: Orissa and Sind","note":""},{"key":"Minority Safeguards","main":"Provided safeguards to protect minority interests","note":""},{"key":"Railway Authority","main":"Provided for a Federal Railway Authority","note":""},{"key":"Auditor-General","main":"Provided for appointment of an Auditor-General of India","note":""}],"traps":[{"label":"Federation Never Happened","lines":["All-India Federation was PROVIDED but NEVER materialised","Princely states did not join"]},{"label":"Dyarchy Location Trap","lines":["1919: Dyarchy in PROVINCES (implemented, failed)","1935: Dyarchy at CENTRE (never implemented at all)","1935: Provincial Autonomy REPLACED provincial dyarchy"]},{"label":"Provincial Autonomy Dates","lines":["Came into effect: 1937","Discontinued: 1939"]},{"label":"List Numbers Trap","lines":["Federal List = 59 items","Provincial List = 54 items","Concurrent List = 36 items","Residuary power → Viceroy (NOT a list)"]},{"label":"Bicameral Provinces","lines":["Only 6 of 11 provinces got bicameral legislature","Bengal, Bombay, Madras, Bihar, Assam, United Provinces"]}],"mainsAngle":"The Government of India Act, 1935 is the direct structural template for India's post-independence Constitution — its federal scheme, lists, provincial autonomy, and public service commissions were substantially retained by the Constituent Assembly.","mainsTheme":"Blueprint for Indian Constitution — federal scheme & institutions largely retained","recall":["321 Sections, 10 Schedules","All-India Federation — NEVER materialised","Federal(59) / Provincial(54) / Concurrent(36) Lists","Provincial Autonomy: 1937–1939","Dyarchy shifted to Centre — never implemented","Bicameral in 6/11 provinces","RBI established","Federal Court — 1937","Burma separated; Orissa & Sind created","Council of India (1858) — abolished"]},"ch1-indep1947":{"era":"Crown Rule (1858–1947)","significance":["Feb 20, 1947: PM Clement Attlee declared British rule would end by June 30, 1948","June 3, 1947: Mountbatten Plan (Partition Plan) announced — accepted by Congress & Muslim League","Bill introduced in British Parliament: July 4, 1947; Royal Assent: July 18, 1947","Act came into force: August 15, 1947"],"features":[{"key":"End of British Rule","main":"Ended British rule; declared India independent & sovereign from Aug 15, 1947","note":""},{"key":"Partition","main":"Provided for partition — creation of 2 independent dominions: India & Pakistan","note":"Each with right to secede from British Commonwealth"},{"key":"Governor-General (new role)","main":"Abolished office of Viceroy; each dominion got a Governor-General","note":"Appointed by British King on advice of dominion cabinet"},{"key":"Constituent Assemblies","main":"Empowered both dominions' Constituent Assemblies to frame & adopt any constitution","note":"Could even repeal any British Parliament Act, including this one"},{"key":"Interim Legislation","main":"Assemblies empowered to legislate till new constitutions were drafted","note":"No post-Aug 15, 1947 British law would extend to India/Pakistan unless adopted by them"},{"key":"Secretary of State Abolished","main":"Abolished office of Secretary of State for India","note":"Functions transferred to Secretary of State for Commonwealth Affairs"},{"key":"Paramountcy Lapses","main":"British paramountcy over princely states & treaty relations with tribal areas lapsed from Aug 15, 1947","note":""},{"key":"Princely States' Choice","main":"Princely states free to join India, join Pakistan, or remain independent","note":""},{"key":"Interim Governance","main":"Each dominion & province governed by GoI Act 1935 till new constitutions framed","note":"Dominions authorised to modify the 1935 Act"},{"key":"No Royal Veto","main":"British Monarch lost right to veto bills; this power reserved for Governor-General","note":"G-G had full power to assent to bills in the King's name"},{"key":"Nominal Heads","main":"Governor-General of India & provincial Governors made constitutional (nominal) heads","note":"Acted on advice of respective Council of Ministers"},{"key":"Title Dropped","main":"'Emperor of India' title dropped from British King's royal titles","note":""},{"key":"Civil Services","main":"Discontinued Secretary of State's power over civil service appointments/reservations","note":"Pre-Aug 15, 1947 civil servants retained all existing benefits"}],"traps":[{"label":"Timeline Trap","lines":["Attlee's declaration: Feb 20, 1947 (deadline: June 1948)","Mountbatten Plan: June 3, 1947","Bill introduced: July 4, 1947","Royal Assent: July 18, 1947","Act in force: August 15, 1947"]},{"label":"Viceroy vs Governor-General","lines":["Office of VICEROY abolished by this Act","New Governor-General (of each dominion) created instead","Mountbatten = last Viceroy, 1st G-G of independent India"]},{"label":"Boundary Commission","lines":["Boundary Commission headed by Radcliffe (not part of the Act itself)","Pakistan: West Punjab, Sind, Baluchistan, East Bengal, NWFP, Sylhet (Assam)"]},{"label":"First PM vs First G-G","lines":["Mountbatten = 1st Governor-General of independent India","Nehru = 1st Prime Minister of independent India"]}],"mainsAngle":"The Indian Independence Act, 1947 completed India's constitutional journey from colonial subordination to sovereign self-determination, notably empowering the Constituent Assembly to frame a constitution entirely free of British parliamentary constraint.","mainsTheme":"Final transfer of sovereignty; Constituent Assembly's unconstrained constitution-making power","recall":["Attlee's declaration: Feb 20, 1947","Mountbatten Plan: June 3, 1947","Royal Assent: July 18, 1947","In force: August 15, 1947","India + Pakistan = 2 dominions","Viceroy office ABOLISHED → Governor-General (each dominion)","Mountbatten = 1st G-G of India","Nehru = 1st PM of India","Paramountcy over princely states LAPSED","Princely states: join India / Pakistan / stay independent","'Emperor of India' title dropped","Radcliffe = Boundary Commission head"]}},"quizzes":{"ch1-govact1858":{"title":"Government of India Act, 1858","questions":[{"q":"The Government of India Act, 1858 was enacted in the immediate aftermath of:","options":["The Charter Act of 1853","The Revolt of 1857","The Simon Commission report","The Poona Pact"],"correct":1,"explain":"This Act was a direct legislative response to the Revolt of 1857 (First War of Independence / Sepoy Mutiny)."},{"q":"The Government of India Act, 1858 is also known by which other name?","options":["Act of Settlement","Act for the Good Government of India","Morley-Minto Reforms","Montford Reforms"],"correct":1,"explain":"It is also known as the 'Act for the Good Government of India'."},{"q":["Consider the following statements regarding the Government of India Act, 1858:","I. It abolished the East India Company.","II. It ended the system of double government by abolishing the Board of Control and Court of Directors.","Which of the statements given above is/are correct?"],"options":["I only","II only","Both I and II","Neither I nor II"],"correct":2,"explain":"Both statements are correct — the Act abolished the Company entirely and simultaneously ended the double-government system that had operated since 1784."},{"q":"Under the Government of India Act, 1858, the Governor-General of India's designation was changed to:","options":["President of India","Viceroy of India","Chief Administrator of India","Secretary of State for India"],"correct":1,"explain":"The Governor-General of India was redesignated Viceroy of India — the direct representative of the Crown."},{"q":"Who became the first Viceroy of India under the Government of India Act, 1858?","options":["Lord William Bentinck","Lord Canning","Lord Curzon","Lord Mountbatten"],"correct":1,"explain":"Lord Canning, who was already serving as Governor-General, became the first Viceroy of India upon the Act's enactment."},{"q":["Assertion (A): The Government of India Act, 1858 marked a fundamental legal shift in sovereignty over India.","Reason (R): It transferred power, territories, and revenues from the East India Company directly to the British Crown.","Which one of the following is correct?"],"options":["Both A and R are true, and R is the correct explanation of A","Both A and R are true, but R is NOT the correct explanation of A","A is true, but R is false","A is false, but R is true"],"correct":0,"explain":"Both are true and R directly explains A — this direct transfer of power, territories, and revenue is precisely what constituted the fundamental sovereignty shift."},{"q":"The new office created by the Government of India Act, 1858, holding complete authority over Indian administration and answerable to the British Parliament, was the:","options":["Viceroy of India","Secretary of State for India","Governor-General of Bengal","High Commissioner for India"],"correct":1,"explain":"The Secretary of State for India was newly created, holding complete control over Indian administration as a member of the British Cabinet."},{"q":"The Secretary of State for India, created under the 1858 Act, was assisted by a Council of India comprising how many members?","options":["10","12","15","20"],"correct":2,"explain":"A 15-member Council of India was established to assist the Secretary of State in an advisory capacity."},{"q":"Who served as Chairman of the newly-formed Council of India established by the Government of India Act, 1858?","options":["The Viceroy","The Secretary of State for India","The Governor-General of Bengal","The Chief Justice of Calcutta"],"correct":1,"explain":"The Secretary of State for India himself was made the Chairman of the advisory Council of India."},{"q":"The Government of India Act, 1858 made the Secretary of State-in-Council a 'body corporate', meaning it could:","options":["Print its own currency","Sue and be sued in both India and England","Dissolve the British Parliament","Appoint the British Prime Minister"],"correct":1,"explain":"This body corporate status gave the Secretary of State-in-Council legal standing to sue and be sued in both India and England."},{"q":"Which two bodies were abolished by the Government of India Act, 1858, thereby ending the system of 'double government' that had existed since 1784?","options":["The Supreme Court and the Privy Council","The Board of Control and the Court of Directors","The Governor-General's post and the Viceroy's post","The Legislative and Executive Councils"],"correct":1,"explain":"Both the Board of Control (created 1784) and the Court of Directors (the Company's own governing body) were abolished, finally ending the double-government arrangement."},{"q":"Which of the following best describes the scope and practical effect of the Government of India Act, 1858?","options":["It introduced a complete overhaul of governance mechanisms within India itself","It primarily restructured administrative control mechanisms in England, with limited immediate change to India's internal governance","It introduced universal adult franchise in India","It created a federal structure with clearly demarcated Union and State lists"],"correct":1,"explain":"The Act largely reorganised control mechanisms based in England (abolishing the Board/Court, creating the Secretary of State); substantive changes to India's actual internal governance came only with later Acts (1861, 1892, 1909, 1919, 1935)."},{"q":"Which of the following statements about the Government of India Act, 1858 is NOT correct?","options":["It abolished the East India Company","It created the office of Secretary of State for India","It introduced separate electorates for religious communities","It redesignated the Governor-General of India as Viceroy"],"correct":2,"explain":"Separate electorates were introduced much later, by the Indian Councils Act of 1909 — not by the 1858 Act."},{"q":["Consider the following pairs:","Office/Body — Status after the 1858 Act","I. East India Company — Abolished","II. Board of Control — Abolished","III. Council of India — Newly created","How many of the above pairs are correctly matched?"],"options":["Only one pair","Only two pairs","All three pairs","None of the pairs"],"correct":2,"explain":"All three pairs are correctly matched — the Company and Board of Control were abolished, while the new Council of India was created to assist the Secretary of State."},{"q":"A student argues: 'The 1858 Act was less about changing how India was governed on the ground, and more about who in London controlled that governance.' Which feature of the Act BEST supports this view?","options":["The abolition of the Company and creation of the Secretary of State, Council of India, replacing the Board of Control/Court of Directors structure","The introduction of universal franchise for Indians","The establishment of provincial legislatures with elected majorities","The creation of the Federal Court of India"],"correct":0,"explain":"The restructuring of London-based oversight bodies (Company → Crown, Board/Directors → Secretary of State/Council) is precisely the kind of change that altered control in England without immediately changing governance mechanisms within India."},{"q":"Which of the following correctly identifies the relationship between Lord Canning's two titles?","options":["He was the last Viceroy and the first Governor-General of India","He was already Governor-General of India and became the first Viceroy of India under the 1858 Act","He held neither title, serving only as Secretary of State","He was the first Governor-General of Bengal"],"correct":1,"explain":"Canning was already serving as Governor-General of India when the 1858 Act redesignated the office as Viceroy — making him the first Viceroy while retaining continuity of person."},{"q":"The Government of India Act, 1858 can be seen as the culmination of a trend beginning with which earlier Act?","options":["The Regulating Act of 1773, which first asserted Parliamentary oversight over the Company","The Indian Councils Act of 1861","The Charter Act of 1853","The Government of India Act of 1919"],"correct":0,"explain":"The trajectory of increasing British Parliamentary control, beginning with the Regulating Act (1773) and passing through Pitt's India Act (1784), the Charter Acts, culminated in full Crown takeover via the 1858 Act."},{"q":"Which of the following statements correctly distinguishes the pre-1858 and post-1858 status of India's governing authority?","options":["Before 1858: governed by the Crown directly; After 1858: governed by the Company","Before 1858: governed by the East India Company (under Parliamentary oversight); After 1858: governed directly by the British Crown","There was no change in governing authority before or after 1858","Before 1858: governed by Parliament directly; After 1858: governed by the Company"],"correct":1,"explain":"This is the fundamental shift the Act achieved — from Company rule (increasingly regulated by Parliament since 1773) to direct Crown rule."},{"q":"The abolition of the Company's Court of Directors under the 1858 Act meant that the Company's former commercial-governance advisory role was effectively replaced by:","options":["The Supreme Court at Calcutta","The Council of India, advising the Secretary of State","The Governor-General's Executive Council alone","The British House of Commons directly"],"correct":1,"explain":"The newly-created Council of India, advising the Secretary of State for India, effectively took over the advisory function previously exercised by the Court of Directors."},{"q":"Which of the following best captures why the Government of India Act, 1858 is considered a watershed moment in India's constitutional history?","options":["It introduced India's first written constitution","It marked the definitive end of Company rule and the beginning of direct Crown rule, fundamentally altering the legal basis of British authority in India","It granted India dominion status","It established the Indian National Congress"],"correct":1,"explain":"Its watershed significance lies in ending Company rule (1773–1858) and beginning direct Crown rule (1858–1947) — a fundamental legal and constitutional turning point, distinct from the later, separate developments listed in the other options."}]},"ch1-ica1861":{"title":"Indian Councils Act, 1861","questions":[{"q":"The Indian Councils Act of 1861 is regarded as an important landmark primarily because it:","options":["Introduced universal adult franchise in British India","Began the process of seeking Indian cooperation in administration","Abolished the office of Viceroy","Transferred full legislative power to Indians"],"correct":1,"explain":"The Act marked the beginning of a policy of associating Indians with administration, though only in a very limited, nominated capacity."},{"q":"The Indian Councils Act of 1861 was the first of how many Councils Acts passed in the 19th century?","options":["Two","Three","Four","Five"],"correct":1,"explain":"It was the first of three Councils Acts — 1861, 1892, and 1909 — each progressively expanding (in limited ways) Indian participation in legislative councils."},{"q":["Consider the following statements regarding the Indian Councils Act of 1861:","I. It provided for the Viceroy to nominate some Indians as non-official members of the council.","II. These Indians were directly elected by the Indian public.","Which of the statements given above is/are correct?"],"options":["I only","II only","Both I and II","Neither I nor II"],"correct":0,"explain":"Statement I is correct. Statement II is incorrect — the Indians were NOMINATED by the Viceroy, not elected by the public; direct election was far in the future."},{"q":"In 1862, which Viceroy first nominated Indians to the legislative council under the provisions of the 1861 Act?","options":["Lord Canning","Lord Minto","Lord Curzon","Lord Ripon"],"correct":0,"explain":"Lord Canning, in 1862, nominated the first Indians to the council under this Act's provisions."},{"q":"Which of the following was NOT among the first three Indians nominated to the legislative council in 1862?","options":["Raja of Benaras","Maharaja of Patiala","Sir Dinkar Rao","Satyendra Prasad Sinha"],"correct":3,"explain":"Satyendra Prasad Sinha became the first Indian in the Viceroy's EXECUTIVE Council much later, under the Indian Councils Act of 1909 — not among the 1862 nominees under the 1861 Act."},{"q":"The Indian Councils Act of 1861 restored legislative powers to which of the following Presidencies?","options":["Bengal and Agra","Bombay and Madras","Punjab and Sindh","Assam and Orissa"],"correct":1,"explain":"The Act restored legislative powers to Bombay and Madras, reversing the centralising trend that had run from 1773 to its climax in 1833."},{"q":["Assertion (A): The Indian Councils Act of 1861 marked a strategic reversal of the centralising trend that had characterised earlier Company-era legislation.","Reason (R): The Act restored legislative powers to the Bombay and Madras Presidencies, which had been progressively curtailed since 1773.","Which one of the following is correct?"],"options":["Both A and R are true, and R is the correct explanation of A","Both A and R are true, but R is NOT the correct explanation of A","A is true, but R is false","A is false, but R is true"],"correct":0,"explain":"Both are true, and R directly explains A — restoring Presidency legislative powers is precisely the mechanism through which the centralising trend was reversed."},{"q":"The centralising trend reversed by the Indian Councils Act of 1861 had reached its climax under which earlier Act?","options":["Regulating Act of 1773","Charter Act of 1833","Pitt's India Act of 1784","Charter Act of 1853"],"correct":1,"explain":"Centralisation of legislative power peaked with the Charter Act of 1833; the 1861 Act began reversing this trend toward decentralisation."},{"q":"The 'portfolio system', given legal recognition by the Indian Councils Act of 1861, had originally been introduced by:","options":["Lord Canning in 1859","Warren Hastings in 1774","Lord Cornwallis in 1786","Lord Dalhousie in 1848"],"correct":0,"explain":"The portfolio system was introduced administratively by Lord Canning in 1859 and later given formal legal recognition by the 1861 Act."},{"q":"Under the portfolio system recognised by the Indian Councils Act of 1861, a council member holding a portfolio was authorised to:","options":["Consult the full council before every decision in his department","Issue final orders on behalf of the council for the department(s) under his charge","Exercise no independent decision-making authority","Only handle judicial matters, regardless of portfolio"],"correct":1,"explain":"A council member in charge of a department (or departments) could issue final orders on behalf of the council specifically for that department — a significant administrative delegation."},{"q":"The Indian Councils Act of 1861 empowered the Viceroy to issue emergency ordinances, without the council's concurrence, valid for a maximum period of:","options":["3 months","6 months","12 months","18 months"],"correct":1,"explain":"Such ordinances, issued unilaterally by the Viceroy during an emergency, had a maximum validity of 6 months."},{"q":["Consider the following pairs of new legislative councils and their years of establishment following the Indian Councils Act, 1861:","Council — Year","I. Bengal — 1862","II. North-Western Provinces — 1886","III. Punjab — 1897","How many of the above pairs are correctly matched?"],"options":["Only one pair","Only two pairs","All three pairs","None of the pairs"],"correct":2,"explain":"All three pairs are correctly matched — Bengal's council was established in 1862, North-Western Provinces' in 1886, and Punjab's in 1897."},{"q":"Which of the following statements about the Indian Councils Act of 1861 is NOT correct?","options":["It restored legislative powers to Bombay and Madras","It provided for direct election of Indian members to the legislative council","It gave legal recognition to the portfolio system","It empowered the Viceroy to issue time-limited emergency ordinances"],"correct":1,"explain":"This is the incorrect statement, and thus the answer — Indian members were NOMINATED under this Act, not directly elected; direct election came much later."},{"q":"The Indian Councils Act of 1861 eventually contributed, through its policy of legislative devolution, to which later development?","options":["Complete Indian independence achieved in 1861 itself","The grant of near-complete provincial autonomy in 1937","The Poona Pact of 1932","The formation of the Constituent Assembly in 1946"],"correct":1,"explain":"The policy of legislative devolution begun in 1861 eventually culminated in the grant of near-complete internal autonomy to provinces in 1937, under the Government of India Act, 1935."},{"q":"A historian describes the 1861 Act's Indian nominees as members of a 'non-official' category. Which of the following best explains what 'non-official' meant in this context?","options":["They were elected representatives with no government affiliation","They were nominated individuals who were not government officials, distinct from official (bureaucrat) members of the council","They held no real membership status at all","They were foreign observers with no voting rights"],"correct":1,"explain":"'Non-official' members were individuals (often notable Indians) nominated by the Viceroy who were NOT part of the official government bureaucracy — distinguishing them from 'official' members who were serving administrators."},{"q":"Which of the following correctly describes the overall thrust of the Indian Councils Act of 1861, compared to the centralising Acts of 1773–1833?","options":["It continued and intensified centralisation of power in the Governor-General","It began a policy shift toward decentralisation and limited association of Indians with governance","It had no relationship to the earlier centralising trend","It centralised power while also disbanding all Presidency governments"],"correct":1,"explain":"The 1861 Act represents a clear policy pivot — from the centralising trajectory of 1773–1833 toward decentralisation (restoring Presidency powers) and limited, controlled association of Indians with administration."},{"q":"Which of the following is the most accurate characterisation of the pace of reform introduced by the Indian Councils Act, 1861?","options":["Rapid and comprehensive, granting Indians full legislative equality","Cautious and limited — nomination rather than election, and administrative rather than political power-sharing","Non-existent — the Act made no changes to Indian participation","Focused exclusively on judicial reform"],"correct":1,"explain":"The 1861 Act's reforms were cautious and limited in nature — nominated (not elected) Indian participation, and administrative devolution to Presidencies rather than a fundamental political power-sharing arrangement."},{"q":"The post-1857 policy shift reflected in the Indian Councils Act of 1861 is best described as one of:","options":["Complete exclusion of Indians from any administrative role","Co-option of select Indians into governance structures, alongside administrative decentralisation","Immediate transfer of full self-government to India","Abolition of all legislative councils"],"correct":1,"explain":"The Crown's post-1857 approach favoured controlled co-option of prominent Indians (via nomination) combined with administrative decentralisation — rather than either exclusion or full self-government."},{"q":"Which of the following features distinguishes the Indian Councils Act of 1861 from the subsequent Indian Councils Act of 1892?","options":["1861 introduced direct elections; 1892 removed them","1861 introduced nominated non-official members; 1892 introduced limited indirect election mechanisms (without using the term 'election')","Both Acts were identical in their approach to representation","1861 dealt only with judicial matters; 1892 dealt only with executive matters"],"correct":1,"explain":"This distinction is important for sequencing — 1861 relied purely on nomination, while 1892 introduced a limited, indirect quasi-electoral mechanism, still without formally using the word 'election'."},{"q":"Which of the following statements correctly captures the significance of the Indian Councils Act of 1861 within the broader arc of India's constitutional development?","options":["It was an isolated Act with no connection to subsequent reforms","It set in motion two enduring trends — Indian association with governance and administrative decentralisation — both of which shaped future constitutional Acts","It reversed all prior constitutional developments back to pre-1773 conditions","It was primarily a judicial reform Act with no political significance"],"correct":1,"explain":"The 1861 Act's twin themes — Indian association with governance (how far to include Indians) and decentralisation (how much power provinces should hold) — recur throughout subsequent Acts up to 1935, making it a genuine turning point."}]},"ch1-ica1892":{"title":"Indian Councils Act, 1892","questions":[{"q":"The Indian Councils Act of 1892 increased the number of non-official members in legislative councils while:","options":["Also granting non-official majority","Maintaining official majority","Abolishing the Central Legislative Council","Removing all non-official members entirely"],"correct":1,"explain":"Despite increasing non-official members, the Act maintained an OFFICIAL majority in both Central and Provincial legislative councils."},{"q":["Consider the following statements regarding the Indian Councils Act of 1892:","I. It gave legislative councils the power to discuss the budget.","II. It gave legislative councils the power to address questions to the executive.","Which of the statements given above is/are correct?"],"options":["I only","II only","Both I and II","Neither I nor II"],"correct":2,"explain":"Both statements are correct — the Act expanded deliberative functions to include budget discussion and executive questioning."},{"q":"The system of Budget in British India was first introduced in which year — notably BEFORE the Indian Councils Act of 1892 gave councils the power to discuss it?","options":["1858","1860","1892","1909"],"correct":1,"explain":"The Budget system was introduced in 1860, though the power for councils to formally DISCUSS it was only granted decades later, by the 1892 Act."},{"q":["Assertion (A): The Indian Councils Act of 1892 introduced a genuinely electoral system for legislative councils.","Reason (R): The Act explicitly used the term 'election' in describing how non-official members were to be selected.","Which one of the following is correct?"],"options":["Both A and R are true, and R is the correct explanation of A","Both A and R are true, but R is NOT the correct explanation of A","A is false, and R is also false","A is true, but R is false"],"correct":2,"explain":"Both A and R are false — this is a key UPSC trap. The Act made only limited, INDIRECT provision resembling election, and crucially never used the word 'election' at all; the process was formally called 'nomination on recommendation of certain bodies'."},{"q":"Under the Indian Councils Act of 1892, Central Legislative Council members were nominated by the Viceroy on the recommendation of:","options":["Direct public ballot","Provincial legislative councils and the Bengal Chamber of Commerce","The Board of Control","The British Parliament directly"],"correct":1,"explain":"Nomination was based on recommendations from provincial legislative councils and the Bengal Chamber of Commerce — an indirect, institution-mediated process."},{"q":"Which of the following bodies could recommend candidates for nomination to Provincial legislative councils under the 1892 Act?","options":["District boards, municipalities, universities, trade associations, and zamindars","Only the Indian National Congress","Only religious institutions","Only British trading companies"],"correct":0,"explain":"Governors nominated provincial council members based on recommendations from a range of bodies including district boards, municipalities, universities, trade associations, and zamindars."},{"q":"Did the Indian Councils Act of 1892 explicitly use the word 'election' anywhere in its text?","options":["Yes, it introduced direct elections openly","No — despite making limited, indirect provision resembling election, the word 'election' itself was never used","Yes, but only for the Bombay Presidency","No, because the Act made no electoral provision of any kind"],"correct":1,"explain":"This is a classic and frequently tested UPSC trap — the Act's process resembled election in substance but was formally termed 'nomination on recommendation of certain bodies', deliberately avoiding the word 'election'."},{"q":"Which of the following best characterises the Indian Councils Act of 1892's overall approach to political representation?","options":["Bold and immediate full democratisation","Cautious, indirect, and incremental expansion of representation","Complete rejection of any form of representation","Introduction of full adult franchise"],"correct":1,"explain":"The Act's approach was deliberately cautious and incremental — expanding representation in substance while avoiding the formal language and full implications of genuine elections."},{"q":"Which of the following is TRUE regarding legislative council composition under the Indian Councils Act of 1892?","options":["Provincial councils were given a non-official majority","Non-official members increased in number, but official majority was maintained in both Central and Provincial councils","The Central Legislative Council was abolished","Separate electorates were introduced for Muslims"],"correct":1,"explain":"Non-official membership increased, but official majority was preserved throughout — non-official majority and separate electorates came only with the later 1909 Act."},{"q":"The Indian Councils Act of 1892 was primarily aimed at expanding which specific aspect of legislative councils' functioning?","options":["Judicial powers over criminal cases","Deliberative and consultative functions, particularly regarding the budget","Executive powers over the military","Financial autonomy from the British Treasury"],"correct":1,"explain":"The Act's core aim was expanding councils' deliberative functions — specifically budget discussion and the ability to question the executive."},{"q":"Which body's recommendation could specifically lead to the nomination of a Central Legislative Council member under the 1892 Act?","options":["Bengal Chamber of Commerce","Indian National Congress","All-India Muslim League","Zamindari Association of Bengal"],"correct":0,"explain":"The Bengal Chamber of Commerce was specifically one of the bodies whose recommendation could result in a nomination to the Central Legislative Council."},{"q":["Consider the following statements about the Indian Councils Act of 1892:","I. Provincial council members were nominated by Governors.","II. The recommending bodies for provincial nominations included universities and trade associations.","Which of the statements given above is/are correct?"],"options":["I only","II only","Both I and II","Neither I nor II"],"correct":2,"explain":"Both statements are correct — Governors handled provincial nominations, drawing on recommendations from bodies including universities and trade associations."},{"q":"How did the deliberative powers granted by the Indian Councils Act of 1892 compare to those existing before the Act?","options":["They were reduced compared to the pre-1892 position","They were enlarged, allowing budget discussion and executive questioning for the first time in this form","There was no change at all","They were transferred entirely to the judiciary"],"correct":1,"explain":"The Act genuinely enlarged deliberative powers by allowing councils to discuss the budget and pose questions to the executive — a real, if limited, expansion of council functions."},{"q":"Which of the following statements about the Indian Councils Act of 1892 is INCORRECT?","options":["It increased non-official members in legislative councils","It maintained official majority in both Central and Provincial councils","It explicitly introduced the term 'election' for selecting non-official members","It gave councils the power to discuss the budget"],"correct":2,"explain":"This is the incorrect statement, and thus the answer — the Act deliberately avoided using the term 'election', despite making indirect, election-like provisions."},{"q":"In the sequence of the three Councils Acts (1861, 1892, 1909), the Indian Councils Act of 1892 is best positioned as:","options":["The first, introducing nomination for the first time","The middle Act, expanding deliberative powers and introducing limited indirect election-like mechanisms without full electoral language","The last, introducing separate electorates","An isolated Act unrelated to the other two"],"correct":1,"explain":"The 1892 Act sits between the 1861 Act (which introduced pure nomination) and the 1909 Act (which introduced separate electorates and non-official majority in provinces) — expanding deliberative functions and introducing indirect, election-resembling mechanisms as an intermediate step."}]},"ch1-ica1909":{"title":"Indian Councils Act, 1909","questions":[{"q":"The Indian Councils Act of 1909 is popularly known as the:","options":["Montford Reforms","Morley-Minto Reforms","Simon Reforms","Ripon Reforms"],"correct":1,"explain":"It is known as the Morley-Minto Reforms, after Lord Morley (Secretary of State) and Lord Minto (Viceroy)."},{"q":"In the context of the Morley-Minto Reforms of 1909, which office did Lord Morley hold?","options":["Viceroy of India","Secretary of State for India","Governor-General of Bengal","President of the Board of Control"],"correct":1,"explain":"Lord Morley was the Secretary of State for India; Lord Minto was the Viceroy — a frequently confused pairing."},{"q":["Consider the following statements regarding the Indian Councils Act, 1909:","I. The size of the Central Legislative Council was increased from 16 to 60 members.","II. Official majority was removed from the Central Legislative Council.","Which of the statements given above is/are correct?"],"options":["I only","II only","Both I and II","Neither I nor II"],"correct":0,"explain":"Statement I is correct. Statement II is incorrect — official majority was RETAINED in the Central council; it was only provincial councils that were allowed non-official majority."},{"q":"Under the Indian Councils Act, 1909, which councils were allowed to have a non-official majority?","options":["Central council only","Provincial legislative councils","Neither Central nor Provincial councils","Only the Bengal council"],"correct":1,"explain":"Provincial councils, unlike the Central council, were permitted a non-official majority — a key contrast frequently tested by UPSC."},{"q":"Who became the first Indian to join the Viceroy's Executive Council under the Indian Councils Act, 1909?","options":["Sir Dinkar Rao","Satyendra Prasad Sinha","Dr. B.R. Ambedkar","C. Rajagopalachari"],"correct":1,"explain":"Satyendra Prasad Sinha was appointed as the Law Member, becoming the first Indian in the Viceroy's Executive Council."},{"q":["Assertion (A): The Indian Councils Act, 1909 is often criticised for having 'legalised communalism' in Indian politics.","Reason (R): The Act introduced the concept of separate electorates for Muslims.","Which one of the following is correct?"],"options":["Both A and R are true, and R is the correct explanation of A","Both A and R are true, but R is NOT the correct explanation of A","A is true, but R is false","A is false, but R is true"],"correct":0,"explain":"Both are true, and R directly explains A — the introduction of separate electorates for Muslims is precisely the mechanism that led historians to describe the Act as having 'legalised communalism'."},{"q":"Lord Minto is popularly referred to in Indian constitutional history as the:","options":["Father of Indian Federalism","Father of Communal Electorate","Father of the Indian Civil Service","Father of Provincial Autonomy"],"correct":1,"explain":"Due to introducing separate electorates for Muslims, Lord Minto — not Morley — earned the epithet 'Father of Communal Electorate'."},{"q":"Besides Muslims, which of the following also received separate representation under the Indian Councils Act, 1909?","options":["Presidency corporations, chambers of commerce, universities and zamindars","Only Anglo-Indians","Only Sikhs and Christians","Only the depressed classes"],"correct":0,"explain":"Separate representation extended beyond Muslims to presidency corporations, chambers of commerce, universities, and zamindars."},{"q":["Consider the following pairs regarding the Indian Councils Act, 1909:","Council Level — Majority Type","I. Central Legislative Council — Official majority","II. Provincial Legislative Councils — Non-official majority","How many of the above pairs are correctly matched?"],"options":["Only one pair","Both pairs","Neither pair","Cannot be determined"],"correct":1,"explain":"Both pairs are correctly matched — this Central-vs-Provincial majority contrast is one of the Act's most distinctive and frequently tested features."},{"q":"Which deliberative powers were enlarged for council members under the Indian Councils Act, 1909?","options":["Powers to ask supplementary questions and move budget resolutions","Powers to declare war","Powers to appoint the Viceroy","Powers to impeach judges of the Supreme Court"],"correct":0,"explain":"The Act enlarged deliberative functions by allowing members to ask supplementary questions and move resolutions on the budget."},{"q":"Satyendra Prasad Sinha was appointed to the Viceroy's Executive Council specifically as the:","options":["Finance Member","Law Member","Home Member","Defence Member"],"correct":1,"explain":"He was specifically appointed as the Law Member of the Viceroy's Executive Council — the specific portfolio detail is often tested."},{"q":"Which of the following statements about the Indian Councils Act, 1909 is NOT correct?","options":["It raised Central Legislative Council membership from 16 to 60","It introduced separate electorates for Muslims","It gave the Central Legislative Council a non-official majority","It allowed the first Indian association with the Viceroy's Executive Council"],"correct":2,"explain":"This is the incorrect statement, and thus the answer — the Central council RETAINED official majority; only provincial councils gained non-official majority."},{"q":"The introduction of separate electorates under the Indian Councils Act, 1909 is widely regarded by historians as having:","options":["Strengthened national political unity","Legalised and institutionalised communal representation in Indian politics","Ended religious representation debates permanently","Reduced overall British control over elections"],"correct":1,"explain":"This is a widely-used historical characterisation of the Act's most consequential and controversial legacy."},{"q":"A UPSC question notes that the Morley-Minto Reforms allowed 'first-time association of Indians' with certain bodies. Which bodies does this refer to?","options":["The Supreme Court and High Courts","The Viceroy's and Governors' Executive Councils","The Board of Control and Court of Directors","The Federal Court and Privy Council"],"correct":1,"explain":"This refers specifically to the first-time inclusion of Indians (like S.P. Sinha) in the Viceroy's and Governors' EXECUTIVE Councils — a step beyond earlier, purely legislative-council nominations."},{"q":"Which of the following correctly distinguishes the Indian Councils Act, 1909 from the Indian Councils Act, 1892?","options":["1909 avoided the word 'election'; 1892 explicitly used it","1909 introduced separate electorates and non-official majority in provinces; 1892 did neither","Both Acts were functionally identical","1892 introduced separate electorates; 1909 removed them"],"correct":1,"explain":"The 1909 Act went significantly further than 1892 by introducing genuine separate electorates and non-official provincial majorities — substantive advances beyond 1892's limited, nomination-based reforms."},{"q":"Which of the following is a correct pairing of reformer and role in the Morley-Minto Reforms?","options":["Lord Morley — Viceroy of India","Lord Minto — Secretary of State for India","Lord Morley — Secretary of State; Lord Minto — Viceroy","Both Morley and Minto were Viceroys at different times"],"correct":2,"explain":"The correct pairing is Morley as Secretary of State and Minto as Viceroy — reversing this pairing is a very common examination trap."},{"q":"The Indian Councils Act, 1909 can be considered a turning point in Indian constitutional history primarily because it:","options":["Was the first Act to introduce the principle of communal representation through separate electorates","Was the first Act to introduce any legislative council in India","Ended British rule in India","Introduced universal adult suffrage"],"correct":0,"explain":"Its status as a turning point rests specifically on being the FIRST Act to introduce communal representation via separate electorates — legislative councils themselves existed since 1861."},{"q":"Which of the following best explains why provincial councils, but not the Central council, were given a non-official majority under the 1909 Act?","options":["The British Government sought to retain firm central control while allowing more local flexibility","Provincial councils had no British officials at all","The Central council was entirely abolished","There is no discernible logic; it was an arbitrary distinction"],"correct":0,"explain":"This differential treatment reflects a calculated approach — retaining firm control at the centre (where overall imperial policy was set) while allowing somewhat greater local voice at the provincial level."},{"q":"Which of the following statements correctly reflects the composition change in the Central Legislative Council under the 1909 Act?","options":["Membership decreased from 60 to 16","Membership increased from 16 to 60, nearly a fourfold increase","Membership remained unchanged at 16","Membership increased to exactly 100"],"correct":1,"explain":"The Central Legislative Council's membership was raised from 16 to 60 — a substantial, nearly fourfold expansion."},{"q":"In evaluating the overall legacy of the Indian Councils Act, 1909, which of the following captures the central tension historians identify?","options":["The Act expanded Indian participation in governance while simultaneously institutionalising religious division through separate electorates","The Act had purely positive consequences with no lasting controversy","The Act had no lasting impact on subsequent constitutional developments","The Act eliminated all forms of communal representation"],"correct":0,"explain":"This central tension — genuine expansion of participation alongside the institutionalisation of communal division — is the defining historiographical debate surrounding the 1909 Act."}]},"ch1-govact1919":{"title":"Government of India Act, 1919","questions":[{"q":"The Government of India Act, 1919 is also known as the:","options":["Morley-Minto Reforms","Montagu-Chelmsford Reforms","Simon Reforms","Ripon Reforms"],"correct":1,"explain":"This Act is known as the Montagu-Chelmsford (Montford) Reforms."},{"q":"In the Montagu-Chelmsford Reforms, Montagu held which office?","options":["Viceroy of India","Secretary of State for India","Governor-General of Bengal","President of the Board of Control"],"correct":1,"explain":"Montagu was the Secretary of State for India; Chelmsford was the Viceroy of India."},{"q":["Consider the following statements regarding the Government of India Act, 1919:","I. It was passed in 1919 and came into force the same year.","II. It introduced bicameralism at the Centre for the first time.","Which of the statements given above is/are correct?"],"options":["I only","II only","Both I and II","Neither I nor II"],"correct":1,"explain":"Statement II is correct. Statement I is incorrect — although passed in 1919, the Act actually came into force only in 1921."},{"q":"The scheme of 'dyarchy' introduced by the Government of India Act, 1919 applied at which level of government?","options":["Central level only","Provincial level","Both Central and Provincial levels equally","Princely states only"],"correct":1,"explain":"Dyarchy (double rule) was introduced in the PROVINCES under the 1919 Act — dyarchy at the CENTRE was only proposed (and never implemented) by the later 1935 Act."},{"q":["Assertion (A): Provincial dyarchy under the Government of India Act, 1919 is widely regarded as having been largely unsuccessful.","Reason (R): Reserved subjects were administered by the Governor and his Executive Council WITHOUT accountability to the legislative council, creating a fundamental disconnect from responsible government.","Which one of the following is correct?"],"options":["Both A and R are true, and R is the correct explanation of A","Both A and R are true, but R is NOT the correct explanation of A","A is true, but R is false","A is false, but R is true"],"correct":0,"explain":"Both are true and R correctly explains A — this lack of accountability for reserved subjects was a core structural flaw contributing to dyarchy's failure."},{"q":"Under provincial dyarchy, which of the following subjects would typically fall under 'transferred subjects', administered by the Governor WITH accountable ministers?","options":["Police","Education","Administration of justice","Land revenue"],"correct":1,"explain":"Education is a classic example of a 'transferred' subject; police, justice, and land revenue were typically 'reserved' subjects, administered without legislative accountability."},{"q":"The word 'dyarchy', used to describe the scheme introduced in provinces by the 1919 Act, is derived from a Greek term meaning:","options":["Single rule","Double rule","No rule","Divine rule"],"correct":1,"explain":"'Dyarchy' derives from the Greek 'di-arche', meaning double rule — referring to the dual transferred/reserved subject administration."},{"q":"Which of the following did the Government of India Act, 1919 introduce for the FIRST TIME in Indian legislative history?","options":["Legislative councils of any kind","Bicameralism and direct elections at the Centre","Separate electorates","Indian participation in any executive council"],"correct":1,"explain":"The 1919 Act introduced bicameralism (Council of State + Legislative Assembly) and direct elections for the first time — legislative councils, separate electorates, and Indian executive participation all predate this Act."},{"q":"Under the Government of India Act, 1919, the Upper House of the central legislature was called the:","options":["Legislative Assembly","Council of State","Rajya Sabha","Indian Legislative Council"],"correct":1,"explain":"The Upper House was the Council of State; the Lower House was the Legislative Assembly."},{"q":"How many of the six members of the Viceroy's Executive Council (excluding the Commander-in-Chief) were required to be Indian under the 1919 Act?","options":["One","Two","Three","Four"],"correct":2,"explain":"Three of the six members (excluding the Commander-in-Chief) were required to be Indian."},{"q":["Consider the following pairs regarding the Government of India Act, 1919:","Provision — Correct Detail","I. Central Public Service Commission — Set up in 1926, based on Lee Commission recommendations","II. Provincial budgets — Separated from Central budget for the first time","III. Chamber of Princes — Inaugurated in 1921, with 120 members","How many of the above pairs are correctly matched?"],"options":["Only one pair","Only two pairs","All three pairs","None of the pairs"],"correct":2,"explain":"All three pairs are correctly matched — this is a dense but accurate set of factual details from the Act."},{"q":"The Central Public Service Commission, though provided for by the 1919 Act, was actually set up in which year?","options":["1919 itself","1923","1926","1935"],"correct":2,"explain":"Though provided for in 1919, the Central PSC was actually established in 1926, based on the Lee Commission's recommendation (1923-24) — a frequently tested provision-vs-implementation gap."},{"q":"The Lee Commission, whose recommendations led to the establishment of the Central PSC, submitted its report during which period?","options":["1919-20","1923-24","1929-30","1934-35"],"correct":1,"explain":"The Lee Commission on Superior Civil Services in India reported in 1923-24."},{"q":"For the first time, the Government of India Act, 1919 separated which of the following?","options":["Judiciary from the executive","Provincial budgets from the Central budget","Legislature from the judiciary","Police from the judiciary"],"correct":1,"explain":"The Act separated provincial budgets from the Central budget for the first time, authorising provinces to enact their own budgets — a significant fiscal decentralisation."},{"q":"The statutory review clause of the Government of India Act, 1919 led to the constitution of which commission after 10 years?","options":["Lee Commission","Simon Commission","Hunter Commission","Cripps Commission"],"correct":1,"explain":"The Act's provision for a statutory review after 10 years directly led to the constitution of the Simon Commission in 1927."},{"q":"The Chamber of Princes (Narendra Mandal), proposed by the Government of India Act, 1919, was inaugurated in which year and comprised how many members?","options":["1919; 100 members","1921; 120 members","1926; 108 members","1930; 150 members"],"correct":1,"explain":"The Chamber of Princes was inaugurated in 1921, with 120 members — 108 Princes of states plus 12 representatives of other states, headed by the Viceroy."},{"q":"Which new office in London was created by the Government of India Act, 1919, taking over some functions previously held by the Secretary of State?","options":["Secretary of State for India","High Commissioner for India","Viceroy's London Representative","Board of Control Chairman"],"correct":1,"explain":"The Act created the office of High Commissioner for India in London, absorbing certain functions previously exercised by the Secretary of State."},{"q":"The August 20, 1917 declaration that preceded the Government of India Act, 1919 marked the first official British commitment to:","options":["Complete and immediate independence for India","The gradual introduction of responsible government in India","Dominion status for India within one year","Abolition of the office of Viceroy"],"correct":1,"explain":"The 1917 declaration promised the gradual, progressive realisation of responsible government in India — a phased commitment, not immediate independence or dominion status."},{"q":"Under the 1919 Act, franchise (voting rights) was extended based on:","options":["Universal adult suffrage","Property, tax, or other qualifications","Educational qualifications alone","Religious affiliation alone"],"correct":1,"explain":"Franchise remained limited, granted based on property, tax, or other qualifications — universal adult suffrage came only with the Indian Constitution post-independence."},{"q":"Which of the following communities had separate electorates EXTENDED to them (beyond Muslims, who already had this under the 1909 Act) by the Government of India Act, 1919?","options":["Sikhs, Indian Christians, Anglo-Indians, and Europeans","Only Scheduled Castes","Only women voters","No new communities were added; the 1919 Act removed separate electorates entirely"],"correct":0,"explain":"The 1919 Act extended the principle of separate electorates (introduced for Muslims in 1909) to Sikhs, Indian Christians, Anglo-Indians, and Europeans."}]},"ch1-simon":{"title":"Simon Commission (1927)","questions":[{"q":"The Simon Commission was announced in November 1927, which was:","options":["Exactly on its scheduled date as per the 1919 Act's statutory review clause","Two years BEFORE its scheduled time","Two years AFTER its scheduled time","Five years before its scheduled time"],"correct":1,"explain":"The Commission was announced two years ahead of its statutorily scheduled time, a decision that itself generated controversy."},{"q":"The Simon Commission was chaired by:","options":["Lord Simon","Sir John Simon","Lord Morley","Lord Minto"],"correct":1,"explain":"Sir John Simon chaired the seven-member statutory commission."},{"q":["Consider the following statements regarding the composition of the Simon Commission:","I. It had seven members.","II. All members were British, with no Indian representation.","Which of the statements given above is/are correct?"],"options":["I only","II only","Both I and II","Neither I nor II"],"correct":2,"explain":"Both statements are correct — the Commission's all-British, seven-member composition is central to understanding why it was universally boycotted by Indian parties."},{"q":["Assertion (A): The Simon Commission was boycotted by all major Indian political parties.","Reason (R): The Commission's composition included no Indian members whatsoever.","Which one of the following is correct?"],"options":["Both A and R are true, and R is the correct explanation of A","Both A and R are true, but R is NOT the correct explanation of A","A is true, but R is false","A is false, but R is true"],"correct":0,"explain":"Both are true, and R directly explains A — the complete exclusion of Indians is precisely why the Commission faced universal boycott."},{"q":"The Simon Commission submitted its final report in which year?","options":["1927","1929","1930","1932"],"correct":2,"explain":"Despite being announced in 1927, the Commission's report was submitted only in 1930."},{"q":"Which of the following was a recommendation made by the Simon Commission?","options":["Introduction of universal adult franchise","Abolition of dyarchy and extension of responsible government in the provinces","Immediate and complete independence for India","Abolition of the office of Viceroy"],"correct":1,"explain":"The Commission recommended abolishing dyarchy and extending responsible government at the provincial level — universal franchise, immediate independence, and abolition of the Viceroy's office were not among its recommendations."},{"q":["Consider the following statements about the Simon Commission's recommendations:","I. It recommended a federation of British India and princely states.","II. It recommended abolishing communal electorates entirely.","Which of the statements given above is/are correct?"],"options":["I only","II only","Both I and II","Neither I nor II"],"correct":0,"explain":"Statement I is correct. Statement II is incorrect — the Commission recommended CONTINUATION of communal electorates, not their abolition."},{"q":"Following the Simon Commission's report, what process was undertaken to further discuss its proposals with Indian and British representatives?","options":["A national referendum in India","Three Round Table Conferences","Direct implementation without discussion","A single meeting of the Viceroy's Executive Council"],"correct":1,"explain":"Three Round Table Conferences were convened to discuss the Commission's proposals, involving British, British Indian, and princely state representatives."},{"q":"The discussions following the Simon Commission process led to the preparation of which document?","options":["Blue Paper on Governance","White Paper on Constitutional Reforms","Green Paper on Federalism","Red Paper on Independence"],"correct":1,"explain":"A 'White Paper on Constitutional Reforms' emerged from the Round Table Conference discussions."},{"q":"The White Paper arising from the Simon Commission process was sent for consideration to which body?","options":["The Indian National Congress","The Joint Select Committee of the British Parliament","The Muslim League","The Chamber of Princes"],"correct":1,"explain":"The White Paper was submitted to the Joint Select Committee of the British Parliament for detailed consideration."},{"q":"The recommendations arising from the entire Simon Commission process were eventually incorporated (with modifications) into which Act?","options":["Government of India Act, 1919","Government of India Act, 1935","Indian Independence Act, 1947","Indian Councils Act, 1909"],"correct":1,"explain":"The Joint Select Committee's recommendations, tracing back to the Simon Commission process, fed directly into the Government of India Act, 1935."},{"q":"Which of the following best explains the widespread Indian political opposition to the Simon Commission?","options":["Its recommendations were considered too radical","Its entirely British composition was seen as a denial of Indian political agency in determining India's own constitutional future","It recommended immediate independence, which conservative parties opposed","It was formed without any legal basis"],"correct":1,"explain":"The core objection was the Commission's all-British composition — Indians viewed this as fundamentally denying their agency in shaping India's constitutional future."},{"q":"Which of the following statements about the Simon Commission is NOT correct?","options":["It was chaired by Sir John Simon","It had Indian members alongside British members","It was announced in 1927, two years ahead of schedule","Its report was submitted in 1930"],"correct":1,"explain":"This is the incorrect statement, and thus the answer — the Commission had NO Indian members; all seven were British."},{"q":"In the sequence of events leading to the Government of India Act, 1935, which of the following correctly orders the process?","options":["Simon Commission → Round Table Conferences → White Paper → Joint Select Committee → GoI Act 1935","GoI Act 1935 → Simon Commission → Round Table Conferences","Round Table Conferences → Simon Commission → White Paper","White Paper → Simon Commission → Round Table Conferences"],"correct":0,"explain":"This is the correct chronological sequence — Simon Commission's report first, followed by discussion through Round Table Conferences, then the White Paper, then Joint Select Committee review, culminating in the 1935 Act."}]},"ch1-communalaward":{"title":"Communal Award (1932)","questions":[{"q":"The Communal Award was announced in August 1932 by:","options":["Lord Irwin","Ramsay MacDonald","Winston Churchill","Lord Willingdon"],"correct":1,"explain":"Ramsay MacDonald, the British Prime Minister, announced the Communal Award."},{"q":["Consider the following statements regarding the Communal Award of 1932:","I. It continued existing separate electorates for Muslims, Sikhs, Indian Christians, Anglo-Indians, and Europeans.","II. It extended separate electorates to the Depressed Classes for the first time.","Which of the statements given above is/are correct?"],"options":["I only","II only","Both I and II","Neither I nor II"],"correct":2,"explain":"Both statements are correct — the Award continued prior arrangements AND extended the principle to Depressed Classes (Scheduled Castes) for the first time."},{"q":"The extension of separate electorates to the Depressed Classes under the Communal Award primarily distressed which leader, prompting a significant political response?","options":["Jawaharlal Nehru","Mahatma Gandhi","Muhammad Ali Jinnah","Sardar Vallabhbhai Patel"],"correct":1,"explain":"Gandhiji was deeply distressed by this extension, viewing it as a threat to Hindu social unity, and responded with direct political action."},{"q":"Gandhiji's response to the Communal Award's provision for Depressed Classes took the form of:","options":["Resignation from the Congress","A fast unto death at Yerawada Jail, Poona","Launch of the Quit India Movement","A formal appeal to the League of Nations"],"correct":1,"explain":"Gandhiji undertook a fast unto death at Yerawada Jail (Poona) specifically to press for modification of the Award's provisions for Depressed Classes."},{"q":["Assertion (A): The Poona Pact resolved the crisis triggered by the Communal Award's treatment of Depressed Classes.","Reason (R): The Poona Pact replaced the separate electorate for Depressed Classes with a joint electorate and reserved seats.","Which one of the following is correct?"],"options":["Both A and R are true, and R is the correct explanation of A","Both A and R are true, but R is NOT the correct explanation of A","A is true, but R is false","A is false, but R is true"],"correct":0,"explain":"Both are true, and R directly explains A — this precise substitution (separate electorate → joint electorate with reserved seats) is exactly how the political crisis was resolved."},{"q":"The Poona Pact was concluded as an agreement between the Indian National Congress and which leader of the Depressed Classes?","options":["Muhammad Ali Jinnah","Dr. B.R. Ambedkar","Sardar Patel","Subhas Chandra Bose"],"correct":1,"explain":"The Poona Pact was an agreement between the Congress and Dr. B.R. Ambedkar, the recognised leader of the Depressed Classes."},{"q":"Under the Poona Pact, what specifically replaced the idea of separate electorates for the Depressed Classes?","options":["Complete exclusion from any political representation","A joint (Hindu) electorate combined with reserved seats for the Depressed Classes","Continuation of separate electorates, unchanged","Nomination only, with no electoral mechanism at all"],"correct":1,"explain":"The Poona Pact retained a Hindu JOINT electorate while providing RESERVED seats specifically for the Depressed Classes — a structural compromise distinct from the original Communal Award provision."},{"q":["Consider the following pairs:","Document — Key Provision for Depressed Classes","I. Communal Award (1932) — Separate electorate","II. Poona Pact (1932) — Joint electorate with reserved seats","How many of the above pairs are correctly matched?"],"options":["Only one pair","Both pairs","Neither pair","Cannot be determined"],"correct":1,"explain":"Both pairs are correctly matched — this is arguably the single most frequently tested distinction from this topic."},{"q":"Did the British Government formally accept the Poona Pact?","options":["No, it was rejected outright by the British Government","Yes, and the Communal Award was modified accordingly with respect to Depressed Classes","It was accepted only on a temporary, one-year trial basis","The question of acceptance was never formally addressed"],"correct":1,"explain":"The British Government formally accepted the Poona Pact and modified the Communal Award's provisions for Depressed Classes accordingly."},{"q":"The provisions of the Poona Pact, following British acceptance, were ultimately incorporated into which subsequent Act?","options":["Government of India Act, 1919","Government of India Act, 1935","Indian Independence Act, 1947","Indian Councils Act, 1909"],"correct":1,"explain":"The Poona Pact's provisions on Depressed Classes representation were incorporated into the Government of India Act, 1935."},{"q":"Which of the following best summarises the shift achieved by the Poona Pact, relative to the original Communal Award?","options":["From joint electorate to separate electorate for Depressed Classes","From separate electorate to joint electorate with reserved seats for Depressed Classes","From reserved seats to complete exclusion from representation","From nomination to direct separate representation"],"correct":1,"explain":"The key shift was FROM separate electorate (under the Communal Award) TO joint electorate with reserved seats (under the Poona Pact) — reversing this direction is a classic examination trap."},{"q":"Which of the following communities' separate electorates, already established prior to 1932, were CONTINUED (not newly created) by the Communal Award?","options":["Muslims, Sikhs, Indian Christians, Anglo-Indians, and Europeans","Only the Depressed Classes","Only Muslims","No communities had separate electorates before the Communal Award"],"correct":0,"explain":"Separate electorates for Muslims (from 1909), Sikhs, Indian Christians, Anglo-Indians, and Europeans (from 1919) already existed and were simply continued by the Communal Award — only the Depressed Classes' inclusion was genuinely new."},{"q":"A student writes: 'The Poona Pact represented Gandhiji's complete victory, eliminating any special political provisions for the Depressed Classes.' Which of the following best evaluates this claim?","options":["The claim is correct in every respect","The claim is partially incorrect — while separate electorates were removed, reserved seats (a form of special provision) were retained under the Pact","The claim is entirely incorrect, since separate electorates were retained","The claim is irrelevant since the Poona Pact was never implemented"],"correct":1,"explain":"This nuance is important — Gandhiji succeeded in removing separate electorates, but the compromise still involved RESERVED SEATS, a distinct form of special political provision that persisted."},{"q":"Which British Prime Minister's name is associated with the Communal Award of 1932?","options":["Winston Churchill","Ramsay MacDonald","Stanley Baldwin","Neville Chamberlain"],"correct":1,"explain":"Ramsay MacDonald announced the Communal Award — a detail frequently tested alongside the Simon Commission's Sir John Simon and the Morley-Minto/Montford reformer pairs."},{"q":"Which of the following statements about the Communal Award of 1932 is NOT correct?","options":["It was announced by British PM Ramsay MacDonald","It extended separate electorate to the Depressed Classes","It led directly to the Poona Pact","It was announced by the Viceroy, not the British Prime Minister"],"correct":3,"explain":"This is the incorrect statement, and thus the answer — the Communal Award was announced by British PM Ramsay MacDonald, NOT by the Viceroy."},{"q":"The Poona Pact is best understood as representing which broader theme in India's political and social history?","options":["A purely religious dispute with no lasting political consequence","A foundational compromise in the ongoing debate over political representation and social justice for historically marginalised communities","A purely symbolic gesture with no legal effect","An agreement exclusively concerning economic issues"],"correct":1,"explain":"The Poona Pact represents a foundational moment in the enduring debate over political representation for marginalised communities — a theme that continues to resonate in India's reservation policy debates today."},{"q":"Which of the following correctly captures the chronological relationship between the Communal Award and the Poona Pact?","options":["The Poona Pact preceded the Communal Award by several months","Both were announced simultaneously in August 1932","The Communal Award (Aug 1932) provoked Gandhiji's fast, which led to the Poona Pact being concluded shortly afterward, in the same year","The Poona Pact was signed a decade after the Communal Award"],"correct":2,"explain":"The sequence is significant — the Communal Award (August 1932) directly provoked Gandhiji's fast, which in turn produced the Poona Pact within the same year, as a rapid political response."},{"q":"Which of the following is the most accurate description of 'reserved seats', as introduced for Depressed Classes by the Poona Pact?","options":["Seats reserved exclusively for British nominees","A specific number of seats set aside within a joint electorate, to be contested only by candidates from the Depressed Classes, but voted on by the general (joint) electorate","Seats where only Depressed Class voters could vote","An entirely separate legislature reserved for Depressed Classes"],"correct":1,"explain":"Reserved seats under a joint electorate meant that candidates from the Depressed Classes contested designated seats, but voting was open to the general (joint) electorate — distinct from a separate electorate where only Depressed Class voters would vote."},{"q":"Which of the following statements best explains why the Poona Pact is considered a compromise rather than a clear victory for either side?","options":["Gandhiji got everything he wanted, and Ambedkar got nothing","Ambedkar secured guaranteed political representation (reserved seats) while Gandhiji secured the removal of separate electorates — each side gained something, neither achieved their original maximalist position","Neither side gained anything from the agreement","The agreement was purely symbolic and changed nothing in practice"],"correct":1,"explain":"This is the classic characterisation of a negotiated compromise — Ambedkar's original demand (separate electorates) was replaced, but he secured guaranteed representation via reserved seats, while Gandhiji's goal of preserving joint Hindu electorates was achieved."},{"q":"In the broader chronology of communal representation in British India, the Communal Award of 1932 represents which stage?","options":["The first introduction of communal representation of any kind","The point at which communal/special representation was extended furthest, incorporating caste-based representation alongside religion-based representation","The final abolition of all communal representation","A stage entirely disconnected from earlier developments (1909, 1919)"],"correct":1,"explain":"The Communal Award represents the point of maximum extension of this principle — building on religion-based separate electorates (1909, 1919) by adding caste-based representation for Depressed Classes, before the Poona Pact partially reversed this specific extension."}]},"ch1-govact1935":{"title":"Government of India Act, 1935","questions":[{"q":"The Government of India Act, 1935 is often described as:","options":["The first milestone towards responsible government","The second milestone towards completely responsible government","The final step of Company rule","The beginning of Crown rule"],"correct":1,"explain":"It is described as the SECOND milestone (after the 1919 Act) towards completely responsible government."},{"q":"The Government of India Act, 1935 contained how many Sections and Schedules?","options":["221 Sections and 8 Schedules","321 Sections and 10 Schedules","421 Sections and 12 Schedules","150 Sections and 6 Schedules"],"correct":1,"explain":"It was a lengthy and detailed document — 321 Sections and 10 Schedules — reflecting its comprehensive scope."},{"q":["Consider the following statements regarding the All-India Federation proposed by the Government of India Act, 1935:","I. It was to consist of provinces and princely states as units.","II. It actually came into operation in 1937.","Which of the statements given above is/are correct?"],"options":["I only","II only","Both I and II","Neither I nor II"],"correct":0,"explain":"Statement I is correct. Statement II is incorrect — the Federation NEVER came into being because the princely states did not join it, despite provincial autonomy separately coming into effect in 1937."},{"q":"Under the Government of India Act, 1935, how many items did the Federal List contain?","options":["54","59","36","97"],"correct":1,"explain":"The Federal List had 59 items, meant for the Centre."},{"q":"How many items did the Provincial List contain under the Government of India Act, 1935?","options":["59","54","36","42"],"correct":1,"explain":"The Provincial List, for provinces, had 54 items."},{"q":"How many items did the Concurrent List contain under the Government of India Act, 1935?","options":["36","54","59","20"],"correct":0,"explain":"The Concurrent List, for both Centre and provinces, had 36 items."},{"q":["Assertion (A): Residuary powers under the Government of India Act, 1935 were vested in the Viceroy.","Reason (R): Since the All-India Federation never materialised, no federal legislature existed to hold residuary powers instead.","Which one of the following is correct?"],"options":["Both A and R are true, and R is the correct explanation of A","Both A and R are true, but R is NOT the correct explanation of A","A is true, but R is false","A is false, but R is true"],"correct":1,"explain":"A is correct — residuary powers were indeed vested in the Viceroy. However, R is not the correct explanation: the vesting of residuary power in the Viceroy was a DELIBERATE design choice made in the Act itself, not a consequence of the Federation's later failure to materialise."},{"q":"The Government of India Act, 1935 abolished dyarchy in the provinces and replaced it with:","options":["Full independence","Provincial Autonomy","Central Autonomy","Presidential rule"],"correct":1,"explain":"Provincial dyarchy (introduced in 1919) was abolished and replaced with 'Provincial Autonomy'."},{"q":"Provincial Autonomy under the 1935 Act came into effect in which year, and was discontinued in which year?","options":["1935 and 1939","1937 and 1939","1939 and 1942","1937 and 1947"],"correct":1,"explain":"Provincial Autonomy came into effect in 1937 and was discontinued in 1939, largely due to the outbreak of World War II."},{"q":"The dyarchy scheme proposed for the CENTRE under the Government of India Act, 1935:","options":["Was successfully implemented alongside provincial autonomy","Never came into operation at all","Was implemented for a trial period of 2 years","Applied only to Bengal and Bombay"],"correct":1,"explain":"Unlike provincial dyarchy under the 1919 Act, the dyarchy proposed at the CENTRE by the 1935 Act NEVER came into operation — a frequently tested location-based distinction."},{"q":"The Government of India Act, 1935 introduced bicameralism in how many of the 11 existing provinces?","options":["4","6","8","All 11"],"correct":1,"explain":"Bicameralism was introduced in 6 of the 11 provinces: Bengal, Bombay, Madras, Bihar, Assam, and United Provinces."},{"q":"Which of the following provinces did NOT receive a bicameral legislature under the Government of India Act, 1935?","options":["Bengal","Madras","Punjab","Bihar"],"correct":2,"explain":"Punjab was NOT among the six provinces (Bengal, Bombay, Madras, Bihar, Assam, United Provinces) given bicameral legislatures."},{"q":"Approximately what percentage of the total population received voting rights under the Government of India Act, 1935?","options":["14%","25%","40%","5%"],"correct":0,"explain":"About 14% of the total population got the right to vote — a significant expansion, though still far short of universal suffrage."},{"q":"Which financial institution's establishment was provided for by the Government of India Act, 1935?","options":["State Bank of India","Reserve Bank of India","National Housing Bank","NABARD"],"correct":1,"explain":"The Act provided for establishing the Reserve Bank of India, to control currency and credit — a lasting institutional legacy."},{"q":["Consider the following pairs:","Institution — Status under the 1935 Act","I. Council of India (est. 1858) — Abolished","II. Federal Court — Provided for, set up in 1937","III. Auditor-General of India — Provision for appointment made","How many of the above pairs are correctly matched?"],"options":["Only one pair","Only two pairs","All three pairs","None of the pairs"],"correct":2,"explain":"All three pairs are correctly matched — this dense factual set spans several of the Act's institutional provisions."},{"q":"The Federal Court, provided for by the Government of India Act, 1935, was actually set up in which year?","options":["1935","1937","1940","1950"],"correct":1,"explain":"Though provided for in the 1935 Act, the Federal Court was actually set up in 1937 — a provision-vs-implementation gap similar to the Central PSC under the 1919 Act."},{"q":"Which territory was separated from India by the Government of India Act, 1935?","options":["Ceylon","Burma (now Myanmar)","Nepal","Bhutan"],"correct":1,"explain":"Burma (present-day Myanmar) was separated from India under this Act."},{"q":"Which two new provinces were created by the Government of India Act, 1935?","options":["Bihar and Orissa","Orissa and Sind","Punjab and Sindh (as a single unit)","Assam and Bengal"],"correct":1,"explain":"The Act created two new provinces: Orissa and Sind."},{"q":"Which body, established originally by the Government of India Act of 1858, was abolished by the Government of India Act, 1935?","options":["The Indian Councils Act of 1909's provisions","The Government of India Act of 1919's provisions","The Council of India","The Indian Independence Act of 1947's provisions"],"correct":2,"explain":"The Council of India (established in 1858 to assist the Secretary of State) was abolished by the 1935 Act, replaced by a smaller team of advisors for the Secretary of State."},{"q":"Which of the following statements best captures why the Government of India Act, 1935 is often regarded as the direct structural template for independent India's Constitution?","options":["It was drafted by the same Constituent Assembly that later framed the Constitution","Its federal scheme, lists (Federal/Provincial/Concurrent), provincial autonomy structure, and institutions like Federal/Provincial Public Service Commissions were substantially retained in the Constitution","It granted India full independence in 1935","It was identical in every respect to the Constitution of India"],"correct":1,"explain":"While NOT drafted by India's Constituent Assembly and certainly not granting independence, many of its structural elements — the three-list scheme, provincial autonomy concepts, and institutions like Public Service Commissions — were substantially retained when the Constitution was framed."}]},"ch1-indep1947":{"title":"Indian Independence Act, 1947","questions":[{"q":"British Prime Minister Clement Attlee's declaration of February 20, 1947 announced that British rule in India would end by:","options":["August 15, 1947","June 30, 1948","December 31, 1947","January 26, 1950"],"correct":1,"explain":"Attlee declared British rule would end by June 30, 1948 — though independence actually came earlier, on August 15, 1947."},{"q":"The partition plan announced by Lord Mountbatten on June 3, 1947 is known as the:","options":["Cripps Plan","Mountbatten Plan","Cabinet Mission Plan","Wavell Plan"],"correct":1,"explain":"This is known as the Mountbatten Plan, accepted by both the Congress and the Muslim League."},{"q":["Consider the following statements regarding the legislative process of the Indian Independence Act, 1947:","I. The Bill was introduced in the British Parliament on July 4, 1947.","II. It received Royal Assent before it was introduced in Parliament.","Which of the statements given above is/are correct?"],"options":["I only","II only","Both I and II","Neither I nor II"],"correct":0,"explain":"Statement I is correct. Statement II is logically and factually incorrect — Royal Assent (July 18, 1947) necessarily came AFTER introduction (July 4, 1947), not before."},{"q":"The Indian Independence Act, 1947 came into force on:","options":["July 18, 1947","August 15, 1947","January 26, 1950","November 26, 1949"],"correct":1,"explain":"The Act came into force on August 15, 1947, the date of India's independence."},{"q":["Assertion (A): The Indian Independence Act, 1947 abolished the office of Viceroy.","Reason (R): Each new dominion (India and Pakistan) instead received its own Governor-General, appointed by the British King on the advice of the dominion's own cabinet.","Which one of the following is correct?"],"options":["Both A and R are true, and R is the correct explanation of A","Both A and R are true, but R is NOT the correct explanation of A","A is true, but R is false","A is false, but R is true"],"correct":0,"explain":"Both are true and R directly explains A — the replacement mechanism (dominion-specific Governors-General, appointed on dominion cabinet advice) is precisely what followed from abolishing the single Viceroy's office."},{"q":"Who became the first Governor-General of independent India under the Indian Independence Act, 1947?","options":["Jawaharlal Nehru","Lord Mountbatten","C. Rajagopalachari","Dr. Rajendra Prasad"],"correct":1,"explain":"Lord Mountbatten, the last Viceroy, became the first Governor-General of independent India."},{"q":"Who became the first Prime Minister of independent India, sworn in by Mountbatten?","options":["Sardar Vallabhbhai Patel","Jawaharlal Nehru","Dr. Rajendra Prasad","C. Rajagopalachari"],"correct":1,"explain":"Jawaharlal Nehru was sworn in as the first Prime Minister of independent India."},{"q":"Which office was abolished by the Indian Independence Act, 1947, with its functions transferred to the Secretary of State for Commonwealth Affairs?","options":["Secretary of State for India","Viceroy of India","Governor-General of Bengal","High Commissioner for India"],"correct":0,"explain":"The Act abolished the office of Secretary of State for India, transferring its functions to the Secretary of State for Commonwealth Affairs."},{"q":"Under the Indian Independence Act, 1947, British paramountcy over princely states:","options":["Continued indefinitely under a new treaty","Lapsed from August 15, 1947","Was transferred to the United Nations","Was extended by 5 years by mutual agreement"],"correct":1,"explain":"British paramountcy over princely states and treaty relations with tribal areas lapsed automatically from August 15, 1947."},{"q":"Following the lapse of British paramountcy, princely states under the Indian Independence Act, 1947 had the option to:","options":["Only join India","Only join Pakistan","Join India, join Pakistan, or remain independent","Remain permanently under British protection"],"correct":2,"explain":"Princely states had the freedom to join India, join Pakistan, or remain independent — though remaining fully independent proved practically unsustainable for most states."},{"q":"Until new constitutions were framed, India and Pakistan were to be governed under the provisions of which prior Act?","options":["The Indian Independence Act itself, with no reference to earlier legislation","The Government of India Act, 1935","The Government of India Act, 1919","The Indian Councils Act, 1909"],"correct":1,"explain":"Each dominion and its provinces were to be governed by the Government of India Act, 1935 (with dominion-authorised modifications), until new constitutions were framed."},{"q":"Under the Indian Independence Act, 1947, who retained the power to assent to bills in the King's name, a power the British Monarch personally lost?","options":["The British Monarch retained this power unchanged","The Governor-General of each dominion","The Secretary of State for Commonwealth Affairs","The Chief Justice of the dominion's highest court"],"correct":1,"explain":"The British Monarch lost the right to veto bills; this power was instead reserved for the Governor-General, who could assent to bills fully in the King's name."},{"q":["Consider the following statements about the status of the Governor-General and provincial Governors under the Indian Independence Act, 1947:","I. They became absolute rulers with unchecked executive power.","II. They became constitutional (nominal) heads, acting on the advice of respective Councils of Ministers.","Which of the statements given above is/are correct?"],"options":["I only","II only","Both I and II","Neither I nor II"],"correct":1,"explain":"Statement II is correct — they became constitutional/nominal heads. Statement I is the opposite of what actually happened."},{"q":"The Indian Independence Act, 1947 dropped which title from the British King's set of royal titles?","options":["King of England","Emperor of India","Head of the Commonwealth","Defender of the Faith"],"correct":1,"explain":"The title 'Emperor of India' was formally dropped from the British King's royal titles following Indian independence."},{"q":"The Boundary Commission that determined the boundaries between India and Pakistan following partition was headed by:","options":["Lord Mountbatten","Sir Cyril Radcliffe","Sir John Simon","Lord Wavell"],"correct":1,"explain":"The Boundary Commission was headed by Sir Cyril Radcliffe."},{"q":"Which of the following areas was included in Pakistan following the partition arrangements associated with the Indian Independence Act, 1947?","options":["West Bengal and Bihar","West Punjab, Sind, Baluchistan, East Bengal, NWFP, and Sylhet (Assam)","Delhi and Punjab (East)","Kashmir and Jammu"],"correct":1,"explain":"Pakistan included West Punjab, Sind, Baluchistan, East Bengal, North-Western Frontier Province, and the district of Sylhet in Assam."},{"q":"The referenda held in the North-Western Frontier Province and Sylhet, in the context of partition, both resulted in a decision to:","options":["Remain with India","Join Pakistan","Remain independent","Join neither dominion and seek United Nations trusteeship"],"correct":1,"explain":"Both referenda favoured joining Pakistan."},{"q":"Which of the following powers did the Constituent Assemblies of India and Pakistan receive under the Indian Independence Act, 1947?","options":["Power to frame and adopt any constitution, including the power to repeal the Indian Independence Act itself","Power only to amend the Government of India Act, 1935, with no broader constitution-making authority","No legislative powers until formal independence was later re-confirmed in 1950","Power limited exclusively to matters of foreign affairs"],"correct":0,"explain":"The Constituent Assemblies were given the extraordinarily broad power to frame and adopt any constitution, and could even repeal the Indian Independence Act itself — reflecting complete legislative sovereignty."},{"q":"Which of the following correctly orders the key dates leading to India's independence under the Indian Independence Act, 1947?","options":["Attlee's declaration (Feb 20) → Mountbatten Plan (June 3) → Bill introduced (July 4) → Royal Assent (July 18) → Act in force (Aug 15)","Mountbatten Plan → Attlee's declaration → Royal Assent → Bill introduced → Act in force","Bill introduced → Royal Assent → Attlee's declaration → Mountbatten Plan → Act in force","Act in force → Royal Assent → Bill introduced → Mountbatten Plan → Attlee's declaration"],"correct":0,"explain":"This is the correct chronological sequence of 1947's key constitutional milestones, all occurring within roughly six months."},{"q":"Which of the following statements best captures the overall constitutional significance of the Indian Independence Act, 1947?","options":["It merely modified minor administrative details within the existing colonial framework","It completed India's constitutional journey from colonial subordination to sovereign self-determination, granting the Constituent Assembly unconstrained constitution-making power","It was superseded almost immediately by the Government of India Act, 1935","It had no lasting significance once the Constitution of India came into force in 1950"],"correct":1,"explain":"The Act's defining significance lies in completing this constitutional journey and granting genuinely unconstrained constitution-making power to the Constituent Assembly — a legal foundation whose consequences (the 1950 Constitution) remain foundational to India today."}]}}});
+__registerContent("gs2/polity/laxmikanth/part1/ch1/crown-rule", {
+  notes: {
+    "ch1-govact1858": {
+      era: "Crown Rule (1858–1947)",
+      significance: [
+        "Enacted in the wake of the Revolt of 1857 (First War of Independence / Sepoy Mutiny)",
+        "Also known as the Act for the Good Government of India",
+        "Abolished the East India Company; transferred power, territories & revenues to the British Crown",
+      ],
+      features: [
+        {
+          key: "Viceroy",
+          main: "Governor-General of India → renamed Viceroy of India\nDirect representative of the British Crown",
+          note: "First Viceroy of India: Lord Canning",
+        },
+        {
+          key: "End of Double Govt",
+          main: "Ended the system of double government by abolishing the Board of Control & Court of Directors",
+          note: "",
+        },
+        {
+          key: "Secretary of State",
+          main: "Created new office: Secretary of State for India\nComplete authority & control over Indian administration",
+          note: "Member of British Cabinet, responsible to British Parliament",
+        },
+        {
+          key: "Council of India",
+          main: "Established 15-member Council of India to assist the Secretary of State",
+          note: "Advisory body; Secretary of State was its Chairman",
+        },
+        {
+          key: "Body Corporate",
+          main: "Secretary of State-in-Council made a body corporate — could sue & be sued in India & England",
+          note: "",
+        },
+      ],
+      traps: [
+        {
+          label: "Title Trap",
+          lines: [
+            "Governor-General of India (1833 title) → Viceroy of India (1858 title)",
+            "First Viceroy = Lord Canning",
+            "(He was already G-G; became FIRST Viceroy)",
+          ],
+        },
+        {
+          label: "Scope Trap",
+          lines: [
+            "1858 Act mainly improved administrative machinery IN ENGLAND",
+            "Did NOT substantially change government system IN INDIA",
+          ],
+        },
+        {
+          label: "Double Govt Trap",
+          lines: [
+            "1784 Act CREATED double govt (Court of Directors + Board of Control)",
+            "1858 Act ENDED double govt",
+          ],
+        },
+      ],
+      mainsAngle:
+        "The Act of 1858 shifted sovereignty from a commercial corporation to the Crown itself, but its impact was confined to restructuring control in England — genuine constitutional change in India came only with later Acts.",
+      mainsTheme:
+        "Sovereignty shift: Company → Crown (but India's governance largely unchanged)",
+      recall: [
+        "Post Revolt of 1857",
+        "EIC abolished",
+        "G-G of India → VICEROY of India",
+        "1st Viceroy = Lord Canning",
+        "Board of Control + Court of Directors → abolished",
+        "New office: Secretary of State for India",
+        "15-member Council of India (advisory)",
+      ],
+    },
+    "ch1-ica1861": {
+      era: "Crown Rule (1858–1947)",
+      significance: [
+        "Important landmark — began seeking Indian cooperation in administration",
+        "First of 3 Councils Acts (1861, 1892, 1909)",
+      ],
+      features: [
+        {
+          key: "Representative Beginning",
+          main: "Viceroy to nominate some Indians as NON-OFFICIAL members of expanded council",
+          note: "1862: Lord Canning nominated Raja of Benaras, Maharaja of Patiala, Sir Dinkar Rao",
+        },
+        {
+          key: "Decentralisation",
+          main: "Restored legislative powers to Bombay & Madras Presidencies",
+          note: "Reversed centralising trend from 1773 → climax at 1833; led to provincial autonomy in 1937",
+        },
+        {
+          key: "New Councils",
+          main: "Provided for new legislative councils for Bengal (1862), NW Provinces (1886), Punjab (1897)",
+          note: "",
+        },
+        {
+          key: "Portfolio System",
+          main: "Recognised the 'portfolio system' (introduced by Canning in 1859)",
+          note: "One council member in-charge of one/more departments, issues final orders",
+        },
+        {
+          key: "Emergency Ordinances",
+          main: "Viceroy empowered to issue ordinances without council's concurrence during emergency",
+          note: "Life of such ordinance = 6 months",
+        },
+      ],
+      traps: [
+        {
+          label: "Direction Trap",
+          lines: [
+            "1773→1833 = CENTRALISING trend",
+            "1861 Act = DECENTRALISING (reversed the trend)",
+          ],
+        },
+        {
+          label: "Nomination ≠ Election",
+          lines: [
+            "Indians were NOMINATED, not elected",
+            "'Non-official' members ≠ elected members",
+          ],
+        },
+        {
+          label: "Portfolio System Origin",
+          lines: [
+            "Introduced by Canning in 1859",
+            "Given legal recognition by Act of 1861",
+          ],
+        },
+      ],
+      mainsAngle:
+        "The Indian Councils Act of 1861 marked a strategic pivot from pure centralisation to controlled association of Indians and provincial devolution, reflecting the Crown's post-1857 approach of co-option over exclusion.",
+      mainsTheme:
+        "Post-1857 pivot: centralisation → controlled association & devolution",
+      recall: [
+        "Indians NOMINATED (non-official) to council",
+        "1862: Canning nominates Benaras, Patiala, Dinkar Rao",
+        "Bombay & Madras legislative powers RESTORED",
+        "Portfolio system (Canning, 1859) → recognised",
+        "Viceroy: emergency ordinance power (6-month life)",
+      ],
+    },
+    "ch1-ica1892": {
+      era: "Crown Rule (1858–1947)",
+      significance: [
+        "Expanded legislative council functions while retaining official control",
+        "Introduced indirect, limited election mechanism (without using the word 'election')",
+      ],
+      features: [
+        {
+          key: "More Members",
+          main: "Increased non-official members in Central & Provincial legislative councils",
+          note: "Official majority still MAINTAINED",
+        },
+        {
+          key: "Budget & Questions",
+          main: "Gave councils power to discuss the budget & address questions to the executive",
+          note: "Budget system introduced in British India in 1860",
+        },
+        {
+          key: "Nomination Process",
+          main: "Central Council members nominated by Viceroy on recommendation of provincial councils & Bengal Chamber of Commerce",
+          note: "Provincial council members nominated by Governors on recommendation of district boards, municipalities, universities, trade bodies, zamindars",
+        },
+      ],
+      traps: [
+        {
+          label: "No 'Election' Word Trap",
+          lines: [
+            "Act made LIMITED, INDIRECT provision for election",
+            "But the word 'election' was NEVER used in the Act",
+            "Called 'nomination on recommendation of bodies'",
+          ],
+        },
+        {
+          label: "Majority Trap",
+          lines: [
+            "Non-official members increased",
+            "But OFFICIAL MAJORITY still maintained",
+          ],
+        },
+        {
+          label: "Budget Year Trap",
+          lines: [
+            "Budget system started in 1860",
+            "Council's power to DISCUSS budget → given in 1892",
+          ],
+        },
+      ],
+      mainsAngle:
+        "The 1892 Act's disguised use of quasi-electoral mechanisms — expanding representation without naming it 'election' — reflects the colonial state's cautious, incremental approach to political participation.",
+      mainsTheme:
+        "Cautious incrementalism: representation expanded but 'election' avoided",
+      recall: [
+        "Non-official members increased",
+        "Official majority STILL maintained",
+        "Budget discussion power given",
+        "'Election' word NEVER used — indirect nomination only",
+        "Budget system started 1860",
+      ],
+    },
+    "ch1-ica1909": {
+      era: "Crown Rule (1858–1947)",
+      significance: [
+        "Known as Morley-Minto Reforms",
+        "Morley = Secretary of State for India; Minto = Viceroy of India",
+        "First to legalise communal representation via separate electorates",
+      ],
+      features: [
+        {
+          key: "Council Size",
+          main: "Central legislative council members raised from 16 to 60",
+          note: "Provincial council numbers not uniform",
+        },
+        {
+          key: "Majority Rule",
+          main: "Central council: official majority RETAINED\nProvincial councils: allowed NON-official majority",
+          note: "",
+        },
+        {
+          key: "Deliberative Functions",
+          main: "Enlarged functions — members could ask supplementary questions, move budget resolutions",
+          note: "",
+        },
+        {
+          key: "Indians in Executive Council",
+          main: "First-time association of Indians with Viceroy's & Governors' Executive Councils",
+          note: "Satyendra Prasad Sinha — first Indian in Viceroy's Executive Council (Law Member)",
+        },
+        {
+          key: "Separate Electorate",
+          main: "Introduced communal representation for Muslims — 'separate electorate' concept",
+          note: "'Legalised communalism'; Lord Minto = 'Father of Communal Electorate'",
+        },
+        {
+          key: "Other Representation",
+          main: "Separate representation for presidency corporations, chambers of commerce, universities, zamindars",
+          note: "",
+        },
+      ],
+      traps: [
+        {
+          label: "Central vs Provincial Majority",
+          lines: [
+            "Central council → Official majority RETAINED",
+            "Provincial councils → NON-official majority allowed",
+            "(Opposite treatment — common trap!)",
+          ],
+        },
+        {
+          label: "First Indian Trap",
+          lines: [
+            "Satyendra Prasad Sinha = 1st Indian in Viceroy's Exec. Council",
+            "He was appointed as LAW Member",
+          ],
+        },
+        {
+          label: "Communal Electorate Trap",
+          lines: [
+            "1909 Act = FIRST to introduce separate electorate (for Muslims)",
+            "Lord Minto = 'Father of Communal Electorate'",
+            "(Not Morley — Minto was the Viceroy)",
+          ],
+        },
+      ],
+      mainsAngle:
+        "The Morley-Minto Reforms of 1909, while expanding Indian participation, institutionalised communalism through separate electorates — a decision whose long-term political consequences proved deeply significant for India's constitutional trajectory.",
+      mainsTheme:
+        "Expanded participation but institutionalised communalism (separate electorate)",
+      recall: [
+        "= Morley-Minto Reforms",
+        "Morley = Sec. of State; Minto = Viceroy",
+        "Central council: 16 → 60 members",
+        "Central = official majority; Provincial = non-official majority",
+        "S.P. Sinha = 1st Indian in Exec. Council (Law Member)",
+        "Separate electorate for Muslims introduced",
+        "Minto = 'Father of Communal Electorate'",
+      ],
+    },
+    "ch1-govact1919": {
+      era: "Crown Rule (1858–1947)",
+      significance: [
+        "Known as Montagu-Chelmsford Reforms (Montford Reforms)",
+        "Montagu = Secretary of State; Chelmsford = Viceroy",
+        "Followed Aug 20, 1917 declaration — first official promise of 'responsible government' in India",
+        "Came into force in 1921",
+      ],
+      features: [
+        {
+          key: "Central-Provincial Split",
+          main: "Classified subjects into Central & Provincial subjects (via 'Devolution Rules')",
+          note: "Relaxed central control; but structure remained centralised & unitary overall",
+        },
+        {
+          key: "Dyarchy in Provinces",
+          main: "Provincial subjects split into Transferred (Governor + Ministers) & Reserved (Governor + Exec. Council)",
+          note: "'Dyarchy' = Greek 'di-arche' = double rule. Largely UNSUCCESSFUL",
+        },
+        {
+          key: "Bicameralism",
+          main: "Introduced bicameralism & direct elections FIRST TIME\nUpper House = Council of State; Lower House = Legislative Assembly",
+          note: "Majority of both Houses directly elected",
+        },
+        {
+          key: "Indians in Exec. Council",
+          main: "3 of 6 members of Viceroy's Exec. Council (excl. C-in-C) had to be Indian",
+          note: "",
+        },
+        {
+          key: "Communal Representation",
+          main: "Extended separate electorates to Sikhs, Indian Christians, Anglo-Indians, Europeans",
+          note: "",
+        },
+        {
+          key: "Franchise",
+          main: "Limited franchise granted based on property/tax qualifications",
+          note: "",
+        },
+        {
+          key: "High Commissioner",
+          main: "Created office of High Commissioner for India in London",
+          note: "Took over some functions from Secretary of State",
+        },
+        {
+          key: "Public Service Commission",
+          main: "Provided for a Public Service Commission",
+          note: "Central PSC set up 1926 (on Lee Commission recommendation, 1923-24)",
+        },
+        {
+          key: "Separate Budgets",
+          main: "Separated Provincial budgets from Central budget FIRST TIME",
+          note: "",
+        },
+        {
+          key: "Statutory Commission",
+          main: "Provided for a statutory commission to review the Act after 10 years",
+          note: "This became the Simon Commission (1927)",
+        },
+        {
+          key: "Chamber of Princes",
+          main: "Proposed Chamber of Princes (Narendra Mandal); inaugurated 1921",
+          note: "120 members: 108 princes + 12 representatives; headed by Viceroy",
+        },
+      ],
+      traps: [
+        {
+          label: "Dyarchy Location Trap",
+          lines: [
+            "1919 Act: Dyarchy introduced in PROVINCES",
+            "1935 Act: Dyarchy proposed at CENTRE (never implemented)",
+          ],
+        },
+        {
+          label: "First-Time Trap",
+          lines: [
+            "1919 = FIRST bicameralism + direct elections",
+            "1919 = FIRST separate provincial budgets",
+          ],
+        },
+        {
+          label: "PSC Year Trap",
+          lines: [
+            "1919 Act PROVIDED for PSC",
+            "Central PSC actually SET UP in 1926",
+            "Based on Lee Commission (1923-24)",
+          ],
+        },
+        {
+          label: "Reforms Naming Trap",
+          lines: [
+            "Montagu = Secretary of State (not Viceroy)",
+            "Chelmsford = Viceroy (not Secretary of State)",
+          ],
+        },
+      ],
+      mainsAngle:
+        "The Government of India Act, 1919 introduced dyarchy as India's first real experiment in responsible government, but its failure demonstrated that partial devolution without genuine accountability could not satisfy nationalist aspirations.",
+      mainsTheme:
+        "Dyarchy: first experiment in responsible govt — largely unsuccessful",
+      recall: [
+        "= Montagu-Chelmsford (Montford) Reforms",
+        "Montagu = Sec. of State; Chelmsford = Viceroy",
+        "In force from 1921",
+        "Dyarchy in PROVINCES (Transferred + Reserved)",
+        "1st bicameralism + direct elections",
+        "3/6 Exec. Council members = Indian",
+        "Central PSC set up 1926 (Lee Commission)",
+        "1st separate provincial budgets",
+        "Statutory Commission clause → led to Simon Commission",
+        "Chamber of Princes (Narendra Mandal) — 1921",
+      ],
+    },
+    "ch1-simon": {
+      era: "Crown Rule (1858–1947)",
+      significance: [
+        "Announced Nov 1927 — 2 years BEFORE its scheduled time",
+        "All 7 members were British → boycotted by all Indian parties",
+        "Report submitted in 1930",
+      ],
+      features: [
+        {
+          key: "Chairman",
+          main: "Sir John Simon chaired the 7-member statutory commission",
+          note: "",
+        },
+        {
+          key: "Recommendations",
+          main: "Abolition of dyarchy; extension of responsible govt in provinces; federation of British India + princely states; continuation of communal electorate",
+          note: "",
+        },
+        {
+          key: "Follow-up Process",
+          main: "3 Round Table Conferences held → 'White Paper on Constitutional Reforms' prepared",
+          note: "Sent to Joint Select Committee of British Parliament",
+        },
+        {
+          key: "Outcome",
+          main: "Committee's recommendations incorporated (with changes) into Government of India Act, 1935",
+          note: "",
+        },
+      ],
+      traps: [
+        {
+          label: "All-British Trap",
+          lines: [
+            "ALL 7 members of Simon Commission were British",
+            "→ hence boycotted by ALL Indian parties",
+          ],
+        },
+        {
+          label: "Timing Trap",
+          lines: [
+            "Announced Nov 1927 — 2 YEARS EARLY (not on schedule)",
+            "Report submitted in 1930",
+          ],
+        },
+      ],
+      mainsAngle:
+        "The all-European composition of the Simon Commission, provoking universal Indian boycott, underscored the widening gap between colonial constitutional processes and genuine Indian political representation in the interwar period.",
+      mainsTheme:
+        "Exclusion of Indians triggers universal boycott — legitimacy crisis",
+      recall: [
+        "Chairman: Sir John Simon",
+        "ALL 7 members British → boycotted",
+        "Announced 1927 (2 yrs early)",
+        "Report: 1930",
+        "→ 3 Round Table Conferences",
+        "→ White Paper → Joint Select Committee",
+        "→ feeds into GoI Act 1935",
+      ],
+    },
+    "ch1-communalaward": {
+      era: "Crown Rule (1858–1947)",
+      significance: [
+        "Announced Aug 1932 by British PM Ramsay MacDonald",
+        "Extended separate electorate to depressed classes (Scheduled Castes)",
+        "Led to the Poona Pact",
+      ],
+      features: [
+        {
+          key: "Continuation",
+          main: "Continued separate electorates for Muslims, Sikhs, Indian Christians, Anglo-Indians, Europeans",
+          note: "",
+        },
+        {
+          key: "Extension",
+          main: "Extended separate electorate to the Depressed Classes (Scheduled Castes)",
+          note: "This is what distressed Gandhiji",
+        },
+        {
+          key: "Gandhiji's Response",
+          main: "Undertook fast unto death in Yerawada Jail (Poona) to get the award modified",
+          note: "",
+        },
+        {
+          key: "Poona Pact",
+          main: "Agreement between Congress & Dr. B.R. Ambedkar (leader of depressed classes)",
+          note: "Retained Hindu JOINT electorate; gave RESERVED seats to depressed classes",
+        },
+        {
+          key: "Final Outcome",
+          main: "British Govt accepted Poona Pact; dropped separate electorate for depressed classes",
+          note: "Provisions incorporated into Government of India Act, 1935",
+        },
+      ],
+      traps: [
+        {
+          label: "Separate vs Reserved Trap",
+          lines: [
+            "Communal Award = SEPARATE electorate for SCs",
+            "Poona Pact = JOINT electorate + RESERVED seats for SCs",
+            "(Poona Pact REPLACED separate electorate provision)",
+          ],
+        },
+        {
+          label: "Who vs Who Trap",
+          lines: [
+            "Poona Pact = Congress + Dr. B.R. Ambedkar",
+            "NOT Gandhi + Ambedkar directly (Congress negotiated)",
+          ],
+        },
+        {
+          label: "PM Trap",
+          lines: [
+            "Communal Award announced by Ramsay MacDonald",
+            "(British PM, NOT Viceroy)",
+          ],
+        },
+      ],
+      mainsAngle:
+        "The Poona Pact represents a foundational compromise in India's social justice discourse — trading separate political identity for guaranteed representation within a joint electorate, a tension that persists in debates on reservation policy today.",
+      mainsTheme:
+        "Poona Pact: joint electorate + reserved seats — foundational SC representation compromise",
+      recall: [
+        "Announced by Ramsay MacDonald (Aug 1932)",
+        "Extended separate electorate to Depressed Classes",
+        "Gandhiji: fast unto death, Yerawada Jail",
+        "Poona Pact = Congress + Ambedkar",
+        "Result: JOINT electorate + RESERVED seats",
+        "Incorporated into GoI Act 1935",
+      ],
+    },
+    "ch1-govact1935": {
+      era: "Crown Rule (1858–1947)",
+      significance: [
+        "Second milestone towards completely responsible government",
+        "Lengthy & detailed: 321 Sections, 10 Schedules",
+        "Most provisions of the Indian Constitution derive from this Act",
+      ],
+      features: [
+        {
+          key: "All-India Federation",
+          main: "Provided for All-India Federation of provinces + princely states",
+          note: "Federal List (59), Provincial List (54), Concurrent List (36); Residuary → Viceroy. Federation NEVER came into being",
+        },
+        {
+          key: "Provincial Autonomy",
+          main: "Abolished dyarchy in provinces; introduced 'Provincial Autonomy'",
+          note: "Governor to act on advice of responsible ministers. In effect 1937, discontinued 1939",
+        },
+        {
+          key: "Dyarchy at Centre",
+          main: "Provided for dyarchy at the Centre (federal subjects → reserved + transferred)",
+          note: "This provision NEVER came into operation",
+        },
+        {
+          key: "Bicameralism",
+          main: "Introduced bicameralism in 6 of 11 provinces",
+          note: "Bengal, Bombay, Madras, Bihar, Assam, United Provinces",
+        },
+        {
+          key: "SC Representation",
+          main: "Reserved seats for depressed classes (SCs); extended representation to women & labour",
+          note: "",
+        },
+        {
+          key: "Council of India Abolished",
+          main: "Abolished the Council of India (est. by 1858 Act)",
+          note: "Secretary of State given a team of advisors instead",
+        },
+        {
+          key: "Franchise",
+          main: "Extended franchise — about 14% of total population got voting rights",
+          note: "",
+        },
+        {
+          key: "RBI",
+          main: "Provided for establishment of Reserve Bank of India",
+          note: "",
+        },
+        {
+          key: "Public Service Commissions",
+          main: "Provided for Federal PSC, Provincial PSC, and Joint PSC (for 2+ provinces)",
+          note: "",
+        },
+        {
+          key: "Federal Court",
+          main: "Provided for a Federal Court — set up in 1937",
+          note: "",
+        },
+        {
+          key: "Burma Separated",
+          main: "Separated Burma (now Myanmar) from India",
+          note: "",
+        },
+        {
+          key: "New Provinces",
+          main: "Created 2 new provinces: Orissa and Sind",
+          note: "",
+        },
+        {
+          key: "Minority Safeguards",
+          main: "Provided safeguards to protect minority interests",
+          note: "",
+        },
+        {
+          key: "Railway Authority",
+          main: "Provided for a Federal Railway Authority",
+          note: "",
+        },
+        {
+          key: "Auditor-General",
+          main: "Provided for appointment of an Auditor-General of India",
+          note: "",
+        },
+      ],
+      traps: [
+        {
+          label: "Federation Never Happened",
+          lines: [
+            "All-India Federation was PROVIDED but NEVER materialised",
+            "Princely states did not join",
+          ],
+        },
+        {
+          label: "Dyarchy Location Trap",
+          lines: [
+            "1919: Dyarchy in PROVINCES (implemented, failed)",
+            "1935: Dyarchy at CENTRE (never implemented at all)",
+            "1935: Provincial Autonomy REPLACED provincial dyarchy",
+          ],
+        },
+        {
+          label: "Provincial Autonomy Dates",
+          lines: ["Came into effect: 1937", "Discontinued: 1939"],
+        },
+        {
+          label: "List Numbers Trap",
+          lines: [
+            "Federal List = 59 items",
+            "Provincial List = 54 items",
+            "Concurrent List = 36 items",
+            "Residuary power → Viceroy (NOT a list)",
+          ],
+        },
+        {
+          label: "Bicameral Provinces",
+          lines: [
+            "Only 6 of 11 provinces got bicameral legislature",
+            "Bengal, Bombay, Madras, Bihar, Assam, United Provinces",
+          ],
+        },
+      ],
+      mainsAngle:
+        "The Government of India Act, 1935 is the direct structural template for India's post-independence Constitution — its federal scheme, lists, provincial autonomy, and public service commissions were substantially retained by the Constituent Assembly.",
+      mainsTheme:
+        "Blueprint for Indian Constitution — federal scheme & institutions largely retained",
+      recall: [
+        "321 Sections, 10 Schedules",
+        "All-India Federation — NEVER materialised",
+        "Federal(59) / Provincial(54) / Concurrent(36) Lists",
+        "Provincial Autonomy: 1937–1939",
+        "Dyarchy shifted to Centre — never implemented",
+        "Bicameral in 6/11 provinces",
+        "RBI established",
+        "Federal Court — 1937",
+        "Burma separated; Orissa & Sind created",
+        "Council of India (1858) — abolished",
+      ],
+    },
+    "ch1-indep1947": {
+      era: "Crown Rule (1858–1947)",
+      significance: [
+        "Feb 20, 1947: PM Clement Attlee declared British rule would end by June 30, 1948",
+        "June 3, 1947: Mountbatten Plan (Partition Plan) announced — accepted by Congress & Muslim League",
+        "Bill introduced in British Parliament: July 4, 1947; Royal Assent: July 18, 1947",
+        "Act came into force: August 15, 1947",
+      ],
+      features: [
+        {
+          key: "End of British Rule",
+          main: "Ended British rule; declared India independent & sovereign from Aug 15, 1947",
+          note: "",
+        },
+        {
+          key: "Partition",
+          main: "Provided for partition — creation of 2 independent dominions: India & Pakistan",
+          note: "Each with right to secede from British Commonwealth",
+        },
+        {
+          key: "Governor-General (new role)",
+          main: "Abolished office of Viceroy; each dominion got a Governor-General",
+          note: "Appointed by British King on advice of dominion cabinet",
+        },
+        {
+          key: "Constituent Assemblies",
+          main: "Empowered both dominions' Constituent Assemblies to frame & adopt any constitution",
+          note: "Could even repeal any British Parliament Act, including this one",
+        },
+        {
+          key: "Interim Legislation",
+          main: "Assemblies empowered to legislate till new constitutions were drafted",
+          note: "No post-Aug 15, 1947 British law would extend to India/Pakistan unless adopted by them",
+        },
+        {
+          key: "Secretary of State Abolished",
+          main: "Abolished office of Secretary of State for India",
+          note: "Functions transferred to Secretary of State for Commonwealth Affairs",
+        },
+        {
+          key: "Paramountcy Lapses",
+          main: "British paramountcy over princely states & treaty relations with tribal areas lapsed from Aug 15, 1947",
+          note: "",
+        },
+        {
+          key: "Princely States' Choice",
+          main: "Princely states free to join India, join Pakistan, or remain independent",
+          note: "",
+        },
+        {
+          key: "Interim Governance",
+          main: "Each dominion & province governed by GoI Act 1935 till new constitutions framed",
+          note: "Dominions authorised to modify the 1935 Act",
+        },
+        {
+          key: "No Royal Veto",
+          main: "British Monarch lost right to veto bills; this power reserved for Governor-General",
+          note: "G-G had full power to assent to bills in the King's name",
+        },
+        {
+          key: "Nominal Heads",
+          main: "Governor-General of India & provincial Governors made constitutional (nominal) heads",
+          note: "Acted on advice of respective Council of Ministers",
+        },
+        {
+          key: "Title Dropped",
+          main: "'Emperor of India' title dropped from British King's royal titles",
+          note: "",
+        },
+        {
+          key: "Civil Services",
+          main: "Discontinued Secretary of State's power over civil service appointments/reservations",
+          note: "Pre-Aug 15, 1947 civil servants retained all existing benefits",
+        },
+      ],
+      traps: [
+        {
+          label: "Timeline Trap",
+          lines: [
+            "Attlee's declaration: Feb 20, 1947 (deadline: June 1948)",
+            "Mountbatten Plan: June 3, 1947",
+            "Bill introduced: July 4, 1947",
+            "Royal Assent: July 18, 1947",
+            "Act in force: August 15, 1947",
+          ],
+        },
+        {
+          label: "Viceroy vs Governor-General",
+          lines: [
+            "Office of VICEROY abolished by this Act",
+            "New Governor-General (of each dominion) created instead",
+            "Mountbatten = last Viceroy, 1st G-G of independent India",
+          ],
+        },
+        {
+          label: "Boundary Commission",
+          lines: [
+            "Boundary Commission headed by Radcliffe (not part of the Act itself)",
+            "Pakistan: West Punjab, Sind, Baluchistan, East Bengal, NWFP, Sylhet (Assam)",
+          ],
+        },
+        {
+          label: "First PM vs First G-G",
+          lines: [
+            "Mountbatten = 1st Governor-General of independent India",
+            "Nehru = 1st Prime Minister of independent India",
+          ],
+        },
+      ],
+      mainsAngle:
+        "The Indian Independence Act, 1947 completed India's constitutional journey from colonial subordination to sovereign self-determination, notably empowering the Constituent Assembly to frame a constitution entirely free of British parliamentary constraint.",
+      mainsTheme:
+        "Final transfer of sovereignty; Constituent Assembly's unconstrained constitution-making power",
+      recall: [
+        "Attlee's declaration: Feb 20, 1947",
+        "Mountbatten Plan: June 3, 1947",
+        "Royal Assent: July 18, 1947",
+        "In force: August 15, 1947",
+        "India + Pakistan = 2 dominions",
+        "Viceroy office ABOLISHED → Governor-General (each dominion)",
+        "Mountbatten = 1st G-G of India",
+        "Nehru = 1st PM of India",
+        "Paramountcy over princely states LAPSED",
+        "Princely states: join India / Pakistan / stay independent",
+        "'Emperor of India' title dropped",
+        "Radcliffe = Boundary Commission head",
+      ],
+    },
+  },
+  quizzes: {
+    "ch1-govact1858": {
+      title: "Government of India Act, 1858",
+      questions: [
+        {
+          q: "The Government of India Act, 1858 was enacted in the immediate aftermath of:",
+          options: [
+            "The Charter Act of 1853",
+            "The Revolt of 1857",
+            "The Simon Commission report",
+            "The Poona Pact",
+          ],
+          correct: 1,
+          explain:
+            "This Act was a direct legislative response to the Revolt of 1857 (First War of Independence / Sepoy Mutiny).",
+        },
+        {
+          q: "The Government of India Act, 1858 is also known by which other name?",
+          options: [
+            "Act of Settlement",
+            "Act for the Good Government of India",
+            "Morley-Minto Reforms",
+            "Montford Reforms",
+          ],
+          correct: 1,
+          explain:
+            "It is also known as the 'Act for the Good Government of India'.",
+        },
+        {
+          q: [
+            "Consider the following statements regarding the Government of India Act, 1858:",
+            "I. It abolished the East India Company.",
+            "II. It ended the system of double government by abolishing the Board of Control and Court of Directors.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+          correct: 2,
+          explain:
+            "Both statements are correct — the Act abolished the Company entirely and simultaneously ended the double-government system that had operated since 1784.",
+        },
+        {
+          q: "Under the Government of India Act, 1858, the Governor-General of India's designation was changed to:",
+          options: [
+            "President of India",
+            "Viceroy of India",
+            "Chief Administrator of India",
+            "Secretary of State for India",
+          ],
+          correct: 1,
+          explain:
+            "The Governor-General of India was redesignated Viceroy of India — the direct representative of the Crown.",
+        },
+        {
+          q: "Who became the first Viceroy of India under the Government of India Act, 1858?",
+          options: [
+            "Lord William Bentinck",
+            "Lord Canning",
+            "Lord Curzon",
+            "Lord Mountbatten",
+          ],
+          correct: 1,
+          explain:
+            "Lord Canning, who was already serving as Governor-General, became the first Viceroy of India upon the Act's enactment.",
+        },
+        {
+          q: [
+            "Assertion (A): The Government of India Act, 1858 marked a fundamental legal shift in sovereignty over India.",
+            "Reason (R): It transferred power, territories, and revenues from the East India Company directly to the British Crown.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both A and R are true, and R is the correct explanation of A",
+            "Both A and R are true, but R is NOT the correct explanation of A",
+            "A is true, but R is false",
+            "A is false, but R is true",
+          ],
+          correct: 0,
+          explain:
+            "Both are true and R directly explains A — this direct transfer of power, territories, and revenue is precisely what constituted the fundamental sovereignty shift.",
+        },
+        {
+          q: "The new office created by the Government of India Act, 1858, holding complete authority over Indian administration and answerable to the British Parliament, was the:",
+          options: [
+            "Viceroy of India",
+            "Secretary of State for India",
+            "Governor-General of Bengal",
+            "High Commissioner for India",
+          ],
+          correct: 1,
+          explain:
+            "The Secretary of State for India was newly created, holding complete control over Indian administration as a member of the British Cabinet.",
+        },
+        {
+          q: "The Secretary of State for India, created under the 1858 Act, was assisted by a Council of India comprising how many members?",
+          options: ["10", "12", "15", "20"],
+          correct: 2,
+          explain:
+            "A 15-member Council of India was established to assist the Secretary of State in an advisory capacity.",
+        },
+        {
+          q: "Who served as Chairman of the newly-formed Council of India established by the Government of India Act, 1858?",
+          options: [
+            "The Viceroy",
+            "The Secretary of State for India",
+            "The Governor-General of Bengal",
+            "The Chief Justice of Calcutta",
+          ],
+          correct: 1,
+          explain:
+            "The Secretary of State for India himself was made the Chairman of the advisory Council of India.",
+        },
+        {
+          q: "The Government of India Act, 1858 made the Secretary of State-in-Council a 'body corporate', meaning it could:",
+          options: [
+            "Print its own currency",
+            "Sue and be sued in both India and England",
+            "Dissolve the British Parliament",
+            "Appoint the British Prime Minister",
+          ],
+          correct: 1,
+          explain:
+            "This body corporate status gave the Secretary of State-in-Council legal standing to sue and be sued in both India and England.",
+        },
+        {
+          q: "Which two bodies were abolished by the Government of India Act, 1858, thereby ending the system of 'double government' that had existed since 1784?",
+          options: [
+            "The Supreme Court and the Privy Council",
+            "The Board of Control and the Court of Directors",
+            "The Governor-General's post and the Viceroy's post",
+            "The Legislative and Executive Councils",
+          ],
+          correct: 1,
+          explain:
+            "Both the Board of Control (created 1784) and the Court of Directors (the Company's own governing body) were abolished, finally ending the double-government arrangement.",
+        },
+        {
+          q: "Which of the following best describes the scope and practical effect of the Government of India Act, 1858?",
+          options: [
+            "It introduced a complete overhaul of governance mechanisms within India itself",
+            "It primarily restructured administrative control mechanisms in England, with limited immediate change to India's internal governance",
+            "It introduced universal adult franchise in India",
+            "It created a federal structure with clearly demarcated Union and State lists",
+          ],
+          correct: 1,
+          explain:
+            "The Act largely reorganised control mechanisms based in England (abolishing the Board/Court, creating the Secretary of State); substantive changes to India's actual internal governance came only with later Acts (1861, 1892, 1909, 1919, 1935).",
+        },
+        {
+          q: "Which of the following statements about the Government of India Act, 1858 is NOT correct?",
+          options: [
+            "It abolished the East India Company",
+            "It created the office of Secretary of State for India",
+            "It introduced separate electorates for religious communities",
+            "It redesignated the Governor-General of India as Viceroy",
+          ],
+          correct: 2,
+          explain:
+            "Separate electorates were introduced much later, by the Indian Councils Act of 1909 — not by the 1858 Act.",
+        },
+        {
+          q: [
+            "Consider the following pairs:",
+            "Office/Body — Status after the 1858 Act",
+            "I. East India Company — Abolished",
+            "II. Board of Control — Abolished",
+            "III. Council of India — Newly created",
+            "How many of the above pairs are correctly matched?",
+          ],
+          options: [
+            "Only one pair",
+            "Only two pairs",
+            "All three pairs",
+            "None of the pairs",
+          ],
+          correct: 2,
+          explain:
+            "All three pairs are correctly matched — the Company and Board of Control were abolished, while the new Council of India was created to assist the Secretary of State.",
+        },
+        {
+          q: "A student argues: 'The 1858 Act was less about changing how India was governed on the ground, and more about who in London controlled that governance.' Which feature of the Act BEST supports this view?",
+          options: [
+            "The abolition of the Company and creation of the Secretary of State, Council of India, replacing the Board of Control/Court of Directors structure",
+            "The introduction of universal franchise for Indians",
+            "The establishment of provincial legislatures with elected majorities",
+            "The creation of the Federal Court of India",
+          ],
+          correct: 0,
+          explain:
+            "The restructuring of London-based oversight bodies (Company → Crown, Board/Directors → Secretary of State/Council) is precisely the kind of change that altered control in England without immediately changing governance mechanisms within India.",
+        },
+        {
+          q: "Which of the following correctly identifies the relationship between Lord Canning's two titles?",
+          options: [
+            "He was the last Viceroy and the first Governor-General of India",
+            "He was already Governor-General of India and became the first Viceroy of India under the 1858 Act",
+            "He held neither title, serving only as Secretary of State",
+            "He was the first Governor-General of Bengal",
+          ],
+          correct: 1,
+          explain:
+            "Canning was already serving as Governor-General of India when the 1858 Act redesignated the office as Viceroy — making him the first Viceroy while retaining continuity of person.",
+        },
+        {
+          q: "The Government of India Act, 1858 can be seen as the culmination of a trend beginning with which earlier Act?",
+          options: [
+            "The Regulating Act of 1773, which first asserted Parliamentary oversight over the Company",
+            "The Indian Councils Act of 1861",
+            "The Charter Act of 1853",
+            "The Government of India Act of 1919",
+          ],
+          correct: 0,
+          explain:
+            "The trajectory of increasing British Parliamentary control, beginning with the Regulating Act (1773) and passing through Pitt's India Act (1784), the Charter Acts, culminated in full Crown takeover via the 1858 Act.",
+        },
+        {
+          q: "Which of the following statements correctly distinguishes the pre-1858 and post-1858 status of India's governing authority?",
+          options: [
+            "Before 1858: governed by the Crown directly; After 1858: governed by the Company",
+            "Before 1858: governed by the East India Company (under Parliamentary oversight); After 1858: governed directly by the British Crown",
+            "There was no change in governing authority before or after 1858",
+            "Before 1858: governed by Parliament directly; After 1858: governed by the Company",
+          ],
+          correct: 1,
+          explain:
+            "This is the fundamental shift the Act achieved — from Company rule (increasingly regulated by Parliament since 1773) to direct Crown rule.",
+        },
+        {
+          q: "The abolition of the Company's Court of Directors under the 1858 Act meant that the Company's former commercial-governance advisory role was effectively replaced by:",
+          options: [
+            "The Supreme Court at Calcutta",
+            "The Council of India, advising the Secretary of State",
+            "The Governor-General's Executive Council alone",
+            "The British House of Commons directly",
+          ],
+          correct: 1,
+          explain:
+            "The newly-created Council of India, advising the Secretary of State for India, effectively took over the advisory function previously exercised by the Court of Directors.",
+        },
+        {
+          q: "Which of the following best captures why the Government of India Act, 1858 is considered a watershed moment in India's constitutional history?",
+          options: [
+            "It introduced India's first written constitution",
+            "It marked the definitive end of Company rule and the beginning of direct Crown rule, fundamentally altering the legal basis of British authority in India",
+            "It granted India dominion status",
+            "It established the Indian National Congress",
+          ],
+          correct: 1,
+          explain:
+            "Its watershed significance lies in ending Company rule (1773–1858) and beginning direct Crown rule (1858–1947) — a fundamental legal and constitutional turning point, distinct from the later, separate developments listed in the other options.",
+        },
+      ],
+    },
+    "ch1-ica1861": {
+      title: "Indian Councils Act, 1861",
+      questions: [
+        {
+          q: "The Indian Councils Act of 1861 is regarded as an important landmark primarily because it:",
+          options: [
+            "Introduced universal adult franchise in British India",
+            "Began the process of seeking Indian cooperation in administration",
+            "Abolished the office of Viceroy",
+            "Transferred full legislative power to Indians",
+          ],
+          correct: 1,
+          explain:
+            "The Act marked the beginning of a policy of associating Indians with administration, though only in a very limited, nominated capacity.",
+        },
+        {
+          q: "The Indian Councils Act of 1861 was the first of how many Councils Acts passed in the 19th century?",
+          options: ["Two", "Three", "Four", "Five"],
+          correct: 1,
+          explain:
+            "It was the first of three Councils Acts — 1861, 1892, and 1909 — each progressively expanding (in limited ways) Indian participation in legislative councils.",
+        },
+        {
+          q: [
+            "Consider the following statements regarding the Indian Councils Act of 1861:",
+            "I. It provided for the Viceroy to nominate some Indians as non-official members of the council.",
+            "II. These Indians were directly elected by the Indian public.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+          correct: 0,
+          explain:
+            "Statement I is correct. Statement II is incorrect — the Indians were NOMINATED by the Viceroy, not elected by the public; direct election was far in the future.",
+        },
+        {
+          q: "In 1862, which Viceroy first nominated Indians to the legislative council under the provisions of the 1861 Act?",
+          options: ["Lord Canning", "Lord Minto", "Lord Curzon", "Lord Ripon"],
+          correct: 0,
+          explain:
+            "Lord Canning, in 1862, nominated the first Indians to the council under this Act's provisions.",
+        },
+        {
+          q: "Which of the following was NOT among the first three Indians nominated to the legislative council in 1862?",
+          options: [
+            "Raja of Benaras",
+            "Maharaja of Patiala",
+            "Sir Dinkar Rao",
+            "Satyendra Prasad Sinha",
+          ],
+          correct: 3,
+          explain:
+            "Satyendra Prasad Sinha became the first Indian in the Viceroy's EXECUTIVE Council much later, under the Indian Councils Act of 1909 — not among the 1862 nominees under the 1861 Act.",
+        },
+        {
+          q: "The Indian Councils Act of 1861 restored legislative powers to which of the following Presidencies?",
+          options: [
+            "Bengal and Agra",
+            "Bombay and Madras",
+            "Punjab and Sindh",
+            "Assam and Orissa",
+          ],
+          correct: 1,
+          explain:
+            "The Act restored legislative powers to Bombay and Madras, reversing the centralising trend that had run from 1773 to its climax in 1833.",
+        },
+        {
+          q: [
+            "Assertion (A): The Indian Councils Act of 1861 marked a strategic reversal of the centralising trend that had characterised earlier Company-era legislation.",
+            "Reason (R): The Act restored legislative powers to the Bombay and Madras Presidencies, which had been progressively curtailed since 1773.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both A and R are true, and R is the correct explanation of A",
+            "Both A and R are true, but R is NOT the correct explanation of A",
+            "A is true, but R is false",
+            "A is false, but R is true",
+          ],
+          correct: 0,
+          explain:
+            "Both are true, and R directly explains A — restoring Presidency legislative powers is precisely the mechanism through which the centralising trend was reversed.",
+        },
+        {
+          q: "The centralising trend reversed by the Indian Councils Act of 1861 had reached its climax under which earlier Act?",
+          options: [
+            "Regulating Act of 1773",
+            "Charter Act of 1833",
+            "Pitt's India Act of 1784",
+            "Charter Act of 1853",
+          ],
+          correct: 1,
+          explain:
+            "Centralisation of legislative power peaked with the Charter Act of 1833; the 1861 Act began reversing this trend toward decentralisation.",
+        },
+        {
+          q: "The 'portfolio system', given legal recognition by the Indian Councils Act of 1861, had originally been introduced by:",
+          options: [
+            "Lord Canning in 1859",
+            "Warren Hastings in 1774",
+            "Lord Cornwallis in 1786",
+            "Lord Dalhousie in 1848",
+          ],
+          correct: 0,
+          explain:
+            "The portfolio system was introduced administratively by Lord Canning in 1859 and later given formal legal recognition by the 1861 Act.",
+        },
+        {
+          q: "Under the portfolio system recognised by the Indian Councils Act of 1861, a council member holding a portfolio was authorised to:",
+          options: [
+            "Consult the full council before every decision in his department",
+            "Issue final orders on behalf of the council for the department(s) under his charge",
+            "Exercise no independent decision-making authority",
+            "Only handle judicial matters, regardless of portfolio",
+          ],
+          correct: 1,
+          explain:
+            "A council member in charge of a department (or departments) could issue final orders on behalf of the council specifically for that department — a significant administrative delegation.",
+        },
+        {
+          q: "The Indian Councils Act of 1861 empowered the Viceroy to issue emergency ordinances, without the council's concurrence, valid for a maximum period of:",
+          options: ["3 months", "6 months", "12 months", "18 months"],
+          correct: 1,
+          explain:
+            "Such ordinances, issued unilaterally by the Viceroy during an emergency, had a maximum validity of 6 months.",
+        },
+        {
+          q: [
+            "Consider the following pairs of new legislative councils and their years of establishment following the Indian Councils Act, 1861:",
+            "Council — Year",
+            "I. Bengal — 1862",
+            "II. North-Western Provinces — 1886",
+            "III. Punjab — 1897",
+            "How many of the above pairs are correctly matched?",
+          ],
+          options: [
+            "Only one pair",
+            "Only two pairs",
+            "All three pairs",
+            "None of the pairs",
+          ],
+          correct: 2,
+          explain:
+            "All three pairs are correctly matched — Bengal's council was established in 1862, North-Western Provinces' in 1886, and Punjab's in 1897.",
+        },
+        {
+          q: "Which of the following statements about the Indian Councils Act of 1861 is NOT correct?",
+          options: [
+            "It restored legislative powers to Bombay and Madras",
+            "It provided for direct election of Indian members to the legislative council",
+            "It gave legal recognition to the portfolio system",
+            "It empowered the Viceroy to issue time-limited emergency ordinances",
+          ],
+          correct: 1,
+          explain:
+            "This is the incorrect statement, and thus the answer — Indian members were NOMINATED under this Act, not directly elected; direct election came much later.",
+        },
+        {
+          q: "The Indian Councils Act of 1861 eventually contributed, through its policy of legislative devolution, to which later development?",
+          options: [
+            "Complete Indian independence achieved in 1861 itself",
+            "The grant of near-complete provincial autonomy in 1937",
+            "The Poona Pact of 1932",
+            "The formation of the Constituent Assembly in 1946",
+          ],
+          correct: 1,
+          explain:
+            "The policy of legislative devolution begun in 1861 eventually culminated in the grant of near-complete internal autonomy to provinces in 1937, under the Government of India Act, 1935.",
+        },
+        {
+          q: "A historian describes the 1861 Act's Indian nominees as members of a 'non-official' category. Which of the following best explains what 'non-official' meant in this context?",
+          options: [
+            "They were elected representatives with no government affiliation",
+            "They were nominated individuals who were not government officials, distinct from official (bureaucrat) members of the council",
+            "They held no real membership status at all",
+            "They were foreign observers with no voting rights",
+          ],
+          correct: 1,
+          explain:
+            "'Non-official' members were individuals (often notable Indians) nominated by the Viceroy who were NOT part of the official government bureaucracy — distinguishing them from 'official' members who were serving administrators.",
+        },
+        {
+          q: "Which of the following correctly describes the overall thrust of the Indian Councils Act of 1861, compared to the centralising Acts of 1773–1833?",
+          options: [
+            "It continued and intensified centralisation of power in the Governor-General",
+            "It began a policy shift toward decentralisation and limited association of Indians with governance",
+            "It had no relationship to the earlier centralising trend",
+            "It centralised power while also disbanding all Presidency governments",
+          ],
+          correct: 1,
+          explain:
+            "The 1861 Act represents a clear policy pivot — from the centralising trajectory of 1773–1833 toward decentralisation (restoring Presidency powers) and limited, controlled association of Indians with administration.",
+        },
+        {
+          q: "Which of the following is the most accurate characterisation of the pace of reform introduced by the Indian Councils Act, 1861?",
+          options: [
+            "Rapid and comprehensive, granting Indians full legislative equality",
+            "Cautious and limited — nomination rather than election, and administrative rather than political power-sharing",
+            "Non-existent — the Act made no changes to Indian participation",
+            "Focused exclusively on judicial reform",
+          ],
+          correct: 1,
+          explain:
+            "The 1861 Act's reforms were cautious and limited in nature — nominated (not elected) Indian participation, and administrative devolution to Presidencies rather than a fundamental political power-sharing arrangement.",
+        },
+        {
+          q: "The post-1857 policy shift reflected in the Indian Councils Act of 1861 is best described as one of:",
+          options: [
+            "Complete exclusion of Indians from any administrative role",
+            "Co-option of select Indians into governance structures, alongside administrative decentralisation",
+            "Immediate transfer of full self-government to India",
+            "Abolition of all legislative councils",
+          ],
+          correct: 1,
+          explain:
+            "The Crown's post-1857 approach favoured controlled co-option of prominent Indians (via nomination) combined with administrative decentralisation — rather than either exclusion or full self-government.",
+        },
+        {
+          q: "Which of the following features distinguishes the Indian Councils Act of 1861 from the subsequent Indian Councils Act of 1892?",
+          options: [
+            "1861 introduced direct elections; 1892 removed them",
+            "1861 introduced nominated non-official members; 1892 introduced limited indirect election mechanisms (without using the term 'election')",
+            "Both Acts were identical in their approach to representation",
+            "1861 dealt only with judicial matters; 1892 dealt only with executive matters",
+          ],
+          correct: 1,
+          explain:
+            "This distinction is important for sequencing — 1861 relied purely on nomination, while 1892 introduced a limited, indirect quasi-electoral mechanism, still without formally using the word 'election'.",
+        },
+        {
+          q: "Which of the following statements correctly captures the significance of the Indian Councils Act of 1861 within the broader arc of India's constitutional development?",
+          options: [
+            "It was an isolated Act with no connection to subsequent reforms",
+            "It set in motion two enduring trends — Indian association with governance and administrative decentralisation — both of which shaped future constitutional Acts",
+            "It reversed all prior constitutional developments back to pre-1773 conditions",
+            "It was primarily a judicial reform Act with no political significance",
+          ],
+          correct: 1,
+          explain:
+            "The 1861 Act's twin themes — Indian association with governance (how far to include Indians) and decentralisation (how much power provinces should hold) — recur throughout subsequent Acts up to 1935, making it a genuine turning point.",
+        },
+      ],
+    },
+    "ch1-ica1892": {
+      title: "Indian Councils Act, 1892",
+      questions: [
+        {
+          q: "The Indian Councils Act of 1892 increased the number of non-official members in legislative councils while:",
+          options: [
+            "Also granting non-official majority",
+            "Maintaining official majority",
+            "Abolishing the Central Legislative Council",
+            "Removing all non-official members entirely",
+          ],
+          correct: 1,
+          explain:
+            "Despite increasing non-official members, the Act maintained an OFFICIAL majority in both Central and Provincial legislative councils.",
+        },
+        {
+          q: [
+            "Consider the following statements regarding the Indian Councils Act of 1892:",
+            "I. It gave legislative councils the power to discuss the budget.",
+            "II. It gave legislative councils the power to address questions to the executive.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+          correct: 2,
+          explain:
+            "Both statements are correct — the Act expanded deliberative functions to include budget discussion and executive questioning.",
+        },
+        {
+          q: "The system of Budget in British India was first introduced in which year — notably BEFORE the Indian Councils Act of 1892 gave councils the power to discuss it?",
+          options: ["1858", "1860", "1892", "1909"],
+          correct: 1,
+          explain:
+            "The Budget system was introduced in 1860, though the power for councils to formally DISCUSS it was only granted decades later, by the 1892 Act.",
+        },
+        {
+          q: [
+            "Assertion (A): The Indian Councils Act of 1892 introduced a genuinely electoral system for legislative councils.",
+            "Reason (R): The Act explicitly used the term 'election' in describing how non-official members were to be selected.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both A and R are true, and R is the correct explanation of A",
+            "Both A and R are true, but R is NOT the correct explanation of A",
+            "A is false, and R is also false",
+            "A is true, but R is false",
+          ],
+          correct: 2,
+          explain:
+            "Both A and R are false — this is a key UPSC trap. The Act made only limited, INDIRECT provision resembling election, and crucially never used the word 'election' at all; the process was formally called 'nomination on recommendation of certain bodies'.",
+        },
+        {
+          q: "Under the Indian Councils Act of 1892, Central Legislative Council members were nominated by the Viceroy on the recommendation of:",
+          options: [
+            "Direct public ballot",
+            "Provincial legislative councils and the Bengal Chamber of Commerce",
+            "The Board of Control",
+            "The British Parliament directly",
+          ],
+          correct: 1,
+          explain:
+            "Nomination was based on recommendations from provincial legislative councils and the Bengal Chamber of Commerce — an indirect, institution-mediated process.",
+        },
+        {
+          q: "Which of the following bodies could recommend candidates for nomination to Provincial legislative councils under the 1892 Act?",
+          options: [
+            "District boards, municipalities, universities, trade associations, and zamindars",
+            "Only the Indian National Congress",
+            "Only religious institutions",
+            "Only British trading companies",
+          ],
+          correct: 0,
+          explain:
+            "Governors nominated provincial council members based on recommendations from a range of bodies including district boards, municipalities, universities, trade associations, and zamindars.",
+        },
+        {
+          q: "Did the Indian Councils Act of 1892 explicitly use the word 'election' anywhere in its text?",
+          options: [
+            "Yes, it introduced direct elections openly",
+            "No — despite making limited, indirect provision resembling election, the word 'election' itself was never used",
+            "Yes, but only for the Bombay Presidency",
+            "No, because the Act made no electoral provision of any kind",
+          ],
+          correct: 1,
+          explain:
+            "This is a classic and frequently tested UPSC trap — the Act's process resembled election in substance but was formally termed 'nomination on recommendation of certain bodies', deliberately avoiding the word 'election'.",
+        },
+        {
+          q: "Which of the following best characterises the Indian Councils Act of 1892's overall approach to political representation?",
+          options: [
+            "Bold and immediate full democratisation",
+            "Cautious, indirect, and incremental expansion of representation",
+            "Complete rejection of any form of representation",
+            "Introduction of full adult franchise",
+          ],
+          correct: 1,
+          explain:
+            "The Act's approach was deliberately cautious and incremental — expanding representation in substance while avoiding the formal language and full implications of genuine elections.",
+        },
+        {
+          q: "Which of the following is TRUE regarding legislative council composition under the Indian Councils Act of 1892?",
+          options: [
+            "Provincial councils were given a non-official majority",
+            "Non-official members increased in number, but official majority was maintained in both Central and Provincial councils",
+            "The Central Legislative Council was abolished",
+            "Separate electorates were introduced for Muslims",
+          ],
+          correct: 1,
+          explain:
+            "Non-official membership increased, but official majority was preserved throughout — non-official majority and separate electorates came only with the later 1909 Act.",
+        },
+        {
+          q: "The Indian Councils Act of 1892 was primarily aimed at expanding which specific aspect of legislative councils' functioning?",
+          options: [
+            "Judicial powers over criminal cases",
+            "Deliberative and consultative functions, particularly regarding the budget",
+            "Executive powers over the military",
+            "Financial autonomy from the British Treasury",
+          ],
+          correct: 1,
+          explain:
+            "The Act's core aim was expanding councils' deliberative functions — specifically budget discussion and the ability to question the executive.",
+        },
+        {
+          q: "Which body's recommendation could specifically lead to the nomination of a Central Legislative Council member under the 1892 Act?",
+          options: [
+            "Bengal Chamber of Commerce",
+            "Indian National Congress",
+            "All-India Muslim League",
+            "Zamindari Association of Bengal",
+          ],
+          correct: 0,
+          explain:
+            "The Bengal Chamber of Commerce was specifically one of the bodies whose recommendation could result in a nomination to the Central Legislative Council.",
+        },
+        {
+          q: [
+            "Consider the following statements about the Indian Councils Act of 1892:",
+            "I. Provincial council members were nominated by Governors.",
+            "II. The recommending bodies for provincial nominations included universities and trade associations.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+          correct: 2,
+          explain:
+            "Both statements are correct — Governors handled provincial nominations, drawing on recommendations from bodies including universities and trade associations.",
+        },
+        {
+          q: "How did the deliberative powers granted by the Indian Councils Act of 1892 compare to those existing before the Act?",
+          options: [
+            "They were reduced compared to the pre-1892 position",
+            "They were enlarged, allowing budget discussion and executive questioning for the first time in this form",
+            "There was no change at all",
+            "They were transferred entirely to the judiciary",
+          ],
+          correct: 1,
+          explain:
+            "The Act genuinely enlarged deliberative powers by allowing councils to discuss the budget and pose questions to the executive — a real, if limited, expansion of council functions.",
+        },
+        {
+          q: "Which of the following statements about the Indian Councils Act of 1892 is INCORRECT?",
+          options: [
+            "It increased non-official members in legislative councils",
+            "It maintained official majority in both Central and Provincial councils",
+            "It explicitly introduced the term 'election' for selecting non-official members",
+            "It gave councils the power to discuss the budget",
+          ],
+          correct: 2,
+          explain:
+            "This is the incorrect statement, and thus the answer — the Act deliberately avoided using the term 'election', despite making indirect, election-like provisions.",
+        },
+        {
+          q: "In the sequence of the three Councils Acts (1861, 1892, 1909), the Indian Councils Act of 1892 is best positioned as:",
+          options: [
+            "The first, introducing nomination for the first time",
+            "The middle Act, expanding deliberative powers and introducing limited indirect election-like mechanisms without full electoral language",
+            "The last, introducing separate electorates",
+            "An isolated Act unrelated to the other two",
+          ],
+          correct: 1,
+          explain:
+            "The 1892 Act sits between the 1861 Act (which introduced pure nomination) and the 1909 Act (which introduced separate electorates and non-official majority in provinces) — expanding deliberative functions and introducing indirect, election-resembling mechanisms as an intermediate step.",
+        },
+      ],
+    },
+    "ch1-ica1909": {
+      title: "Indian Councils Act, 1909",
+      questions: [
+        {
+          q: "The Indian Councils Act of 1909 is popularly known as the:",
+          options: [
+            "Montford Reforms",
+            "Morley-Minto Reforms",
+            "Simon Reforms",
+            "Ripon Reforms",
+          ],
+          correct: 1,
+          explain:
+            "It is known as the Morley-Minto Reforms, after Lord Morley (Secretary of State) and Lord Minto (Viceroy).",
+        },
+        {
+          q: "In the context of the Morley-Minto Reforms of 1909, which office did Lord Morley hold?",
+          options: [
+            "Viceroy of India",
+            "Secretary of State for India",
+            "Governor-General of Bengal",
+            "President of the Board of Control",
+          ],
+          correct: 1,
+          explain:
+            "Lord Morley was the Secretary of State for India; Lord Minto was the Viceroy — a frequently confused pairing.",
+        },
+        {
+          q: [
+            "Consider the following statements regarding the Indian Councils Act, 1909:",
+            "I. The size of the Central Legislative Council was increased from 16 to 60 members.",
+            "II. Official majority was removed from the Central Legislative Council.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+          correct: 0,
+          explain:
+            "Statement I is correct. Statement II is incorrect — official majority was RETAINED in the Central council; it was only provincial councils that were allowed non-official majority.",
+        },
+        {
+          q: "Under the Indian Councils Act, 1909, which councils were allowed to have a non-official majority?",
+          options: [
+            "Central council only",
+            "Provincial legislative councils",
+            "Neither Central nor Provincial councils",
+            "Only the Bengal council",
+          ],
+          correct: 1,
+          explain:
+            "Provincial councils, unlike the Central council, were permitted a non-official majority — a key contrast frequently tested by UPSC.",
+        },
+        {
+          q: "Who became the first Indian to join the Viceroy's Executive Council under the Indian Councils Act, 1909?",
+          options: [
+            "Sir Dinkar Rao",
+            "Satyendra Prasad Sinha",
+            "Dr. B.R. Ambedkar",
+            "C. Rajagopalachari",
+          ],
+          correct: 1,
+          explain:
+            "Satyendra Prasad Sinha was appointed as the Law Member, becoming the first Indian in the Viceroy's Executive Council.",
+        },
+        {
+          q: [
+            "Assertion (A): The Indian Councils Act, 1909 is often criticised for having 'legalised communalism' in Indian politics.",
+            "Reason (R): The Act introduced the concept of separate electorates for Muslims.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both A and R are true, and R is the correct explanation of A",
+            "Both A and R are true, but R is NOT the correct explanation of A",
+            "A is true, but R is false",
+            "A is false, but R is true",
+          ],
+          correct: 0,
+          explain:
+            "Both are true, and R directly explains A — the introduction of separate electorates for Muslims is precisely the mechanism that led historians to describe the Act as having 'legalised communalism'.",
+        },
+        {
+          q: "Lord Minto is popularly referred to in Indian constitutional history as the:",
+          options: [
+            "Father of Indian Federalism",
+            "Father of Communal Electorate",
+            "Father of the Indian Civil Service",
+            "Father of Provincial Autonomy",
+          ],
+          correct: 1,
+          explain:
+            "Due to introducing separate electorates for Muslims, Lord Minto — not Morley — earned the epithet 'Father of Communal Electorate'.",
+        },
+        {
+          q: "Besides Muslims, which of the following also received separate representation under the Indian Councils Act, 1909?",
+          options: [
+            "Presidency corporations, chambers of commerce, universities and zamindars",
+            "Only Anglo-Indians",
+            "Only Sikhs and Christians",
+            "Only the depressed classes",
+          ],
+          correct: 0,
+          explain:
+            "Separate representation extended beyond Muslims to presidency corporations, chambers of commerce, universities, and zamindars.",
+        },
+        {
+          q: [
+            "Consider the following pairs regarding the Indian Councils Act, 1909:",
+            "Council Level — Majority Type",
+            "I. Central Legislative Council — Official majority",
+            "II. Provincial Legislative Councils — Non-official majority",
+            "How many of the above pairs are correctly matched?",
+          ],
+          options: [
+            "Only one pair",
+            "Both pairs",
+            "Neither pair",
+            "Cannot be determined",
+          ],
+          correct: 1,
+          explain:
+            "Both pairs are correctly matched — this Central-vs-Provincial majority contrast is one of the Act's most distinctive and frequently tested features.",
+        },
+        {
+          q: "Which deliberative powers were enlarged for council members under the Indian Councils Act, 1909?",
+          options: [
+            "Powers to ask supplementary questions and move budget resolutions",
+            "Powers to declare war",
+            "Powers to appoint the Viceroy",
+            "Powers to impeach judges of the Supreme Court",
+          ],
+          correct: 0,
+          explain:
+            "The Act enlarged deliberative functions by allowing members to ask supplementary questions and move resolutions on the budget.",
+        },
+        {
+          q: "Satyendra Prasad Sinha was appointed to the Viceroy's Executive Council specifically as the:",
+          options: [
+            "Finance Member",
+            "Law Member",
+            "Home Member",
+            "Defence Member",
+          ],
+          correct: 1,
+          explain:
+            "He was specifically appointed as the Law Member of the Viceroy's Executive Council — the specific portfolio detail is often tested.",
+        },
+        {
+          q: "Which of the following statements about the Indian Councils Act, 1909 is NOT correct?",
+          options: [
+            "It raised Central Legislative Council membership from 16 to 60",
+            "It introduced separate electorates for Muslims",
+            "It gave the Central Legislative Council a non-official majority",
+            "It allowed the first Indian association with the Viceroy's Executive Council",
+          ],
+          correct: 2,
+          explain:
+            "This is the incorrect statement, and thus the answer — the Central council RETAINED official majority; only provincial councils gained non-official majority.",
+        },
+        {
+          q: "The introduction of separate electorates under the Indian Councils Act, 1909 is widely regarded by historians as having:",
+          options: [
+            "Strengthened national political unity",
+            "Legalised and institutionalised communal representation in Indian politics",
+            "Ended religious representation debates permanently",
+            "Reduced overall British control over elections",
+          ],
+          correct: 1,
+          explain:
+            "This is a widely-used historical characterisation of the Act's most consequential and controversial legacy.",
+        },
+        {
+          q: "A UPSC question notes that the Morley-Minto Reforms allowed 'first-time association of Indians' with certain bodies. Which bodies does this refer to?",
+          options: [
+            "The Supreme Court and High Courts",
+            "The Viceroy's and Governors' Executive Councils",
+            "The Board of Control and Court of Directors",
+            "The Federal Court and Privy Council",
+          ],
+          correct: 1,
+          explain:
+            "This refers specifically to the first-time inclusion of Indians (like S.P. Sinha) in the Viceroy's and Governors' EXECUTIVE Councils — a step beyond earlier, purely legislative-council nominations.",
+        },
+        {
+          q: "Which of the following correctly distinguishes the Indian Councils Act, 1909 from the Indian Councils Act, 1892?",
+          options: [
+            "1909 avoided the word 'election'; 1892 explicitly used it",
+            "1909 introduced separate electorates and non-official majority in provinces; 1892 did neither",
+            "Both Acts were functionally identical",
+            "1892 introduced separate electorates; 1909 removed them",
+          ],
+          correct: 1,
+          explain:
+            "The 1909 Act went significantly further than 1892 by introducing genuine separate electorates and non-official provincial majorities — substantive advances beyond 1892's limited, nomination-based reforms.",
+        },
+        {
+          q: "Which of the following is a correct pairing of reformer and role in the Morley-Minto Reforms?",
+          options: [
+            "Lord Morley — Viceroy of India",
+            "Lord Minto — Secretary of State for India",
+            "Lord Morley — Secretary of State; Lord Minto — Viceroy",
+            "Both Morley and Minto were Viceroys at different times",
+          ],
+          correct: 2,
+          explain:
+            "The correct pairing is Morley as Secretary of State and Minto as Viceroy — reversing this pairing is a very common examination trap.",
+        },
+        {
+          q: "The Indian Councils Act, 1909 can be considered a turning point in Indian constitutional history primarily because it:",
+          options: [
+            "Was the first Act to introduce the principle of communal representation through separate electorates",
+            "Was the first Act to introduce any legislative council in India",
+            "Ended British rule in India",
+            "Introduced universal adult suffrage",
+          ],
+          correct: 0,
+          explain:
+            "Its status as a turning point rests specifically on being the FIRST Act to introduce communal representation via separate electorates — legislative councils themselves existed since 1861.",
+        },
+        {
+          q: "Which of the following best explains why provincial councils, but not the Central council, were given a non-official majority under the 1909 Act?",
+          options: [
+            "The British Government sought to retain firm central control while allowing more local flexibility",
+            "Provincial councils had no British officials at all",
+            "The Central council was entirely abolished",
+            "There is no discernible logic; it was an arbitrary distinction",
+          ],
+          correct: 0,
+          explain:
+            "This differential treatment reflects a calculated approach — retaining firm control at the centre (where overall imperial policy was set) while allowing somewhat greater local voice at the provincial level.",
+        },
+        {
+          q: "Which of the following statements correctly reflects the composition change in the Central Legislative Council under the 1909 Act?",
+          options: [
+            "Membership decreased from 60 to 16",
+            "Membership increased from 16 to 60, nearly a fourfold increase",
+            "Membership remained unchanged at 16",
+            "Membership increased to exactly 100",
+          ],
+          correct: 1,
+          explain:
+            "The Central Legislative Council's membership was raised from 16 to 60 — a substantial, nearly fourfold expansion.",
+        },
+        {
+          q: "In evaluating the overall legacy of the Indian Councils Act, 1909, which of the following captures the central tension historians identify?",
+          options: [
+            "The Act expanded Indian participation in governance while simultaneously institutionalising religious division through separate electorates",
+            "The Act had purely positive consequences with no lasting controversy",
+            "The Act had no lasting impact on subsequent constitutional developments",
+            "The Act eliminated all forms of communal representation",
+          ],
+          correct: 0,
+          explain:
+            "This central tension — genuine expansion of participation alongside the institutionalisation of communal division — is the defining historiographical debate surrounding the 1909 Act.",
+        },
+      ],
+    },
+    "ch1-govact1919": {
+      title: "Government of India Act, 1919",
+      questions: [
+        {
+          q: "The Government of India Act, 1919 is also known as the:",
+          options: [
+            "Morley-Minto Reforms",
+            "Montagu-Chelmsford Reforms",
+            "Simon Reforms",
+            "Ripon Reforms",
+          ],
+          correct: 1,
+          explain:
+            "This Act is known as the Montagu-Chelmsford (Montford) Reforms.",
+        },
+        {
+          q: "In the Montagu-Chelmsford Reforms, Montagu held which office?",
+          options: [
+            "Viceroy of India",
+            "Secretary of State for India",
+            "Governor-General of Bengal",
+            "President of the Board of Control",
+          ],
+          correct: 1,
+          explain:
+            "Montagu was the Secretary of State for India; Chelmsford was the Viceroy of India.",
+        },
+        {
+          q: [
+            "Consider the following statements regarding the Government of India Act, 1919:",
+            "I. It was passed in 1919 and came into force the same year.",
+            "II. It introduced bicameralism at the Centre for the first time.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+          correct: 1,
+          explain:
+            "Statement II is correct. Statement I is incorrect — although passed in 1919, the Act actually came into force only in 1921.",
+        },
+        {
+          q: "The scheme of 'dyarchy' introduced by the Government of India Act, 1919 applied at which level of government?",
+          options: [
+            "Central level only",
+            "Provincial level",
+            "Both Central and Provincial levels equally",
+            "Princely states only",
+          ],
+          correct: 1,
+          explain:
+            "Dyarchy (double rule) was introduced in the PROVINCES under the 1919 Act — dyarchy at the CENTRE was only proposed (and never implemented) by the later 1935 Act.",
+        },
+        {
+          q: [
+            "Assertion (A): Provincial dyarchy under the Government of India Act, 1919 is widely regarded as having been largely unsuccessful.",
+            "Reason (R): Reserved subjects were administered by the Governor and his Executive Council WITHOUT accountability to the legislative council, creating a fundamental disconnect from responsible government.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both A and R are true, and R is the correct explanation of A",
+            "Both A and R are true, but R is NOT the correct explanation of A",
+            "A is true, but R is false",
+            "A is false, but R is true",
+          ],
+          correct: 0,
+          explain:
+            "Both are true and R correctly explains A — this lack of accountability for reserved subjects was a core structural flaw contributing to dyarchy's failure.",
+        },
+        {
+          q: "Under provincial dyarchy, which of the following subjects would typically fall under 'transferred subjects', administered by the Governor WITH accountable ministers?",
+          options: [
+            "Police",
+            "Education",
+            "Administration of justice",
+            "Land revenue",
+          ],
+          correct: 1,
+          explain:
+            "Education is a classic example of a 'transferred' subject; police, justice, and land revenue were typically 'reserved' subjects, administered without legislative accountability.",
+        },
+        {
+          q: "The word 'dyarchy', used to describe the scheme introduced in provinces by the 1919 Act, is derived from a Greek term meaning:",
+          options: ["Single rule", "Double rule", "No rule", "Divine rule"],
+          correct: 1,
+          explain:
+            "'Dyarchy' derives from the Greek 'di-arche', meaning double rule — referring to the dual transferred/reserved subject administration.",
+        },
+        {
+          q: "Which of the following did the Government of India Act, 1919 introduce for the FIRST TIME in Indian legislative history?",
+          options: [
+            "Legislative councils of any kind",
+            "Bicameralism and direct elections at the Centre",
+            "Separate electorates",
+            "Indian participation in any executive council",
+          ],
+          correct: 1,
+          explain:
+            "The 1919 Act introduced bicameralism (Council of State + Legislative Assembly) and direct elections for the first time — legislative councils, separate electorates, and Indian executive participation all predate this Act.",
+        },
+        {
+          q: "Under the Government of India Act, 1919, the Upper House of the central legislature was called the:",
+          options: [
+            "Legislative Assembly",
+            "Council of State",
+            "Rajya Sabha",
+            "Indian Legislative Council",
+          ],
+          correct: 1,
+          explain:
+            "The Upper House was the Council of State; the Lower House was the Legislative Assembly.",
+        },
+        {
+          q: "How many of the six members of the Viceroy's Executive Council (excluding the Commander-in-Chief) were required to be Indian under the 1919 Act?",
+          options: ["One", "Two", "Three", "Four"],
+          correct: 2,
+          explain:
+            "Three of the six members (excluding the Commander-in-Chief) were required to be Indian.",
+        },
+        {
+          q: [
+            "Consider the following pairs regarding the Government of India Act, 1919:",
+            "Provision — Correct Detail",
+            "I. Central Public Service Commission — Set up in 1926, based on Lee Commission recommendations",
+            "II. Provincial budgets — Separated from Central budget for the first time",
+            "III. Chamber of Princes — Inaugurated in 1921, with 120 members",
+            "How many of the above pairs are correctly matched?",
+          ],
+          options: [
+            "Only one pair",
+            "Only two pairs",
+            "All three pairs",
+            "None of the pairs",
+          ],
+          correct: 2,
+          explain:
+            "All three pairs are correctly matched — this is a dense but accurate set of factual details from the Act.",
+        },
+        {
+          q: "The Central Public Service Commission, though provided for by the 1919 Act, was actually set up in which year?",
+          options: ["1919 itself", "1923", "1926", "1935"],
+          correct: 2,
+          explain:
+            "Though provided for in 1919, the Central PSC was actually established in 1926, based on the Lee Commission's recommendation (1923-24) — a frequently tested provision-vs-implementation gap.",
+        },
+        {
+          q: "The Lee Commission, whose recommendations led to the establishment of the Central PSC, submitted its report during which period?",
+          options: ["1919-20", "1923-24", "1929-30", "1934-35"],
+          correct: 1,
+          explain:
+            "The Lee Commission on Superior Civil Services in India reported in 1923-24.",
+        },
+        {
+          q: "For the first time, the Government of India Act, 1919 separated which of the following?",
+          options: [
+            "Judiciary from the executive",
+            "Provincial budgets from the Central budget",
+            "Legislature from the judiciary",
+            "Police from the judiciary",
+          ],
+          correct: 1,
+          explain:
+            "The Act separated provincial budgets from the Central budget for the first time, authorising provinces to enact their own budgets — a significant fiscal decentralisation.",
+        },
+        {
+          q: "The statutory review clause of the Government of India Act, 1919 led to the constitution of which commission after 10 years?",
+          options: [
+            "Lee Commission",
+            "Simon Commission",
+            "Hunter Commission",
+            "Cripps Commission",
+          ],
+          correct: 1,
+          explain:
+            "The Act's provision for a statutory review after 10 years directly led to the constitution of the Simon Commission in 1927.",
+        },
+        {
+          q: "The Chamber of Princes (Narendra Mandal), proposed by the Government of India Act, 1919, was inaugurated in which year and comprised how many members?",
+          options: [
+            "1919; 100 members",
+            "1921; 120 members",
+            "1926; 108 members",
+            "1930; 150 members",
+          ],
+          correct: 1,
+          explain:
+            "The Chamber of Princes was inaugurated in 1921, with 120 members — 108 Princes of states plus 12 representatives of other states, headed by the Viceroy.",
+        },
+        {
+          q: "Which new office in London was created by the Government of India Act, 1919, taking over some functions previously held by the Secretary of State?",
+          options: [
+            "Secretary of State for India",
+            "High Commissioner for India",
+            "Viceroy's London Representative",
+            "Board of Control Chairman",
+          ],
+          correct: 1,
+          explain:
+            "The Act created the office of High Commissioner for India in London, absorbing certain functions previously exercised by the Secretary of State.",
+        },
+        {
+          q: "The August 20, 1917 declaration that preceded the Government of India Act, 1919 marked the first official British commitment to:",
+          options: [
+            "Complete and immediate independence for India",
+            "The gradual introduction of responsible government in India",
+            "Dominion status for India within one year",
+            "Abolition of the office of Viceroy",
+          ],
+          correct: 1,
+          explain:
+            "The 1917 declaration promised the gradual, progressive realisation of responsible government in India — a phased commitment, not immediate independence or dominion status.",
+        },
+        {
+          q: "Under the 1919 Act, franchise (voting rights) was extended based on:",
+          options: [
+            "Universal adult suffrage",
+            "Property, tax, or other qualifications",
+            "Educational qualifications alone",
+            "Religious affiliation alone",
+          ],
+          correct: 1,
+          explain:
+            "Franchise remained limited, granted based on property, tax, or other qualifications — universal adult suffrage came only with the Indian Constitution post-independence.",
+        },
+        {
+          q: "Which of the following communities had separate electorates EXTENDED to them (beyond Muslims, who already had this under the 1909 Act) by the Government of India Act, 1919?",
+          options: [
+            "Sikhs, Indian Christians, Anglo-Indians, and Europeans",
+            "Only Scheduled Castes",
+            "Only women voters",
+            "No new communities were added; the 1919 Act removed separate electorates entirely",
+          ],
+          correct: 0,
+          explain:
+            "The 1919 Act extended the principle of separate electorates (introduced for Muslims in 1909) to Sikhs, Indian Christians, Anglo-Indians, and Europeans.",
+        },
+      ],
+    },
+    "ch1-simon": {
+      title: "Simon Commission (1927)",
+      questions: [
+        {
+          q: "The Simon Commission was announced in November 1927, which was:",
+          options: [
+            "Exactly on its scheduled date as per the 1919 Act's statutory review clause",
+            "Two years BEFORE its scheduled time",
+            "Two years AFTER its scheduled time",
+            "Five years before its scheduled time",
+          ],
+          correct: 1,
+          explain:
+            "The Commission was announced two years ahead of its statutorily scheduled time, a decision that itself generated controversy.",
+        },
+        {
+          q: "The Simon Commission was chaired by:",
+          options: [
+            "Lord Simon",
+            "Sir John Simon",
+            "Lord Morley",
+            "Lord Minto",
+          ],
+          correct: 1,
+          explain:
+            "Sir John Simon chaired the seven-member statutory commission.",
+        },
+        {
+          q: [
+            "Consider the following statements regarding the composition of the Simon Commission:",
+            "I. It had seven members.",
+            "II. All members were British, with no Indian representation.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+          correct: 2,
+          explain:
+            "Both statements are correct — the Commission's all-British, seven-member composition is central to understanding why it was universally boycotted by Indian parties.",
+        },
+        {
+          q: [
+            "Assertion (A): The Simon Commission was boycotted by all major Indian political parties.",
+            "Reason (R): The Commission's composition included no Indian members whatsoever.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both A and R are true, and R is the correct explanation of A",
+            "Both A and R are true, but R is NOT the correct explanation of A",
+            "A is true, but R is false",
+            "A is false, but R is true",
+          ],
+          correct: 0,
+          explain:
+            "Both are true, and R directly explains A — the complete exclusion of Indians is precisely why the Commission faced universal boycott.",
+        },
+        {
+          q: "The Simon Commission submitted its final report in which year?",
+          options: ["1927", "1929", "1930", "1932"],
+          correct: 2,
+          explain:
+            "Despite being announced in 1927, the Commission's report was submitted only in 1930.",
+        },
+        {
+          q: "Which of the following was a recommendation made by the Simon Commission?",
+          options: [
+            "Introduction of universal adult franchise",
+            "Abolition of dyarchy and extension of responsible government in the provinces",
+            "Immediate and complete independence for India",
+            "Abolition of the office of Viceroy",
+          ],
+          correct: 1,
+          explain:
+            "The Commission recommended abolishing dyarchy and extending responsible government at the provincial level — universal franchise, immediate independence, and abolition of the Viceroy's office were not among its recommendations.",
+        },
+        {
+          q: [
+            "Consider the following statements about the Simon Commission's recommendations:",
+            "I. It recommended a federation of British India and princely states.",
+            "II. It recommended abolishing communal electorates entirely.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+          correct: 0,
+          explain:
+            "Statement I is correct. Statement II is incorrect — the Commission recommended CONTINUATION of communal electorates, not their abolition.",
+        },
+        {
+          q: "Following the Simon Commission's report, what process was undertaken to further discuss its proposals with Indian and British representatives?",
+          options: [
+            "A national referendum in India",
+            "Three Round Table Conferences",
+            "Direct implementation without discussion",
+            "A single meeting of the Viceroy's Executive Council",
+          ],
+          correct: 1,
+          explain:
+            "Three Round Table Conferences were convened to discuss the Commission's proposals, involving British, British Indian, and princely state representatives.",
+        },
+        {
+          q: "The discussions following the Simon Commission process led to the preparation of which document?",
+          options: [
+            "Blue Paper on Governance",
+            "White Paper on Constitutional Reforms",
+            "Green Paper on Federalism",
+            "Red Paper on Independence",
+          ],
+          correct: 1,
+          explain:
+            "A 'White Paper on Constitutional Reforms' emerged from the Round Table Conference discussions.",
+        },
+        {
+          q: "The White Paper arising from the Simon Commission process was sent for consideration to which body?",
+          options: [
+            "The Indian National Congress",
+            "The Joint Select Committee of the British Parliament",
+            "The Muslim League",
+            "The Chamber of Princes",
+          ],
+          correct: 1,
+          explain:
+            "The White Paper was submitted to the Joint Select Committee of the British Parliament for detailed consideration.",
+        },
+        {
+          q: "The recommendations arising from the entire Simon Commission process were eventually incorporated (with modifications) into which Act?",
+          options: [
+            "Government of India Act, 1919",
+            "Government of India Act, 1935",
+            "Indian Independence Act, 1947",
+            "Indian Councils Act, 1909",
+          ],
+          correct: 1,
+          explain:
+            "The Joint Select Committee's recommendations, tracing back to the Simon Commission process, fed directly into the Government of India Act, 1935.",
+        },
+        {
+          q: "Which of the following best explains the widespread Indian political opposition to the Simon Commission?",
+          options: [
+            "Its recommendations were considered too radical",
+            "Its entirely British composition was seen as a denial of Indian political agency in determining India's own constitutional future",
+            "It recommended immediate independence, which conservative parties opposed",
+            "It was formed without any legal basis",
+          ],
+          correct: 1,
+          explain:
+            "The core objection was the Commission's all-British composition — Indians viewed this as fundamentally denying their agency in shaping India's constitutional future.",
+        },
+        {
+          q: "Which of the following statements about the Simon Commission is NOT correct?",
+          options: [
+            "It was chaired by Sir John Simon",
+            "It had Indian members alongside British members",
+            "It was announced in 1927, two years ahead of schedule",
+            "Its report was submitted in 1930",
+          ],
+          correct: 1,
+          explain:
+            "This is the incorrect statement, and thus the answer — the Commission had NO Indian members; all seven were British.",
+        },
+        {
+          q: "In the sequence of events leading to the Government of India Act, 1935, which of the following correctly orders the process?",
+          options: [
+            "Simon Commission → Round Table Conferences → White Paper → Joint Select Committee → GoI Act 1935",
+            "GoI Act 1935 → Simon Commission → Round Table Conferences",
+            "Round Table Conferences → Simon Commission → White Paper",
+            "White Paper → Simon Commission → Round Table Conferences",
+          ],
+          correct: 0,
+          explain:
+            "This is the correct chronological sequence — Simon Commission's report first, followed by discussion through Round Table Conferences, then the White Paper, then Joint Select Committee review, culminating in the 1935 Act.",
+        },
+      ],
+    },
+    "ch1-communalaward": {
+      title: "Communal Award (1932)",
+      questions: [
+        {
+          q: "The Communal Award was announced in August 1932 by:",
+          options: [
+            "Lord Irwin",
+            "Ramsay MacDonald",
+            "Winston Churchill",
+            "Lord Willingdon",
+          ],
+          correct: 1,
+          explain:
+            "Ramsay MacDonald, the British Prime Minister, announced the Communal Award.",
+        },
+        {
+          q: [
+            "Consider the following statements regarding the Communal Award of 1932:",
+            "I. It continued existing separate electorates for Muslims, Sikhs, Indian Christians, Anglo-Indians, and Europeans.",
+            "II. It extended separate electorates to the Depressed Classes for the first time.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+          correct: 2,
+          explain:
+            "Both statements are correct — the Award continued prior arrangements AND extended the principle to Depressed Classes (Scheduled Castes) for the first time.",
+        },
+        {
+          q: "The extension of separate electorates to the Depressed Classes under the Communal Award primarily distressed which leader, prompting a significant political response?",
+          options: [
+            "Jawaharlal Nehru",
+            "Mahatma Gandhi",
+            "Muhammad Ali Jinnah",
+            "Sardar Vallabhbhai Patel",
+          ],
+          correct: 1,
+          explain:
+            "Gandhiji was deeply distressed by this extension, viewing it as a threat to Hindu social unity, and responded with direct political action.",
+        },
+        {
+          q: "Gandhiji's response to the Communal Award's provision for Depressed Classes took the form of:",
+          options: [
+            "Resignation from the Congress",
+            "A fast unto death at Yerawada Jail, Poona",
+            "Launch of the Quit India Movement",
+            "A formal appeal to the League of Nations",
+          ],
+          correct: 1,
+          explain:
+            "Gandhiji undertook a fast unto death at Yerawada Jail (Poona) specifically to press for modification of the Award's provisions for Depressed Classes.",
+        },
+        {
+          q: [
+            "Assertion (A): The Poona Pact resolved the crisis triggered by the Communal Award's treatment of Depressed Classes.",
+            "Reason (R): The Poona Pact replaced the separate electorate for Depressed Classes with a joint electorate and reserved seats.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both A and R are true, and R is the correct explanation of A",
+            "Both A and R are true, but R is NOT the correct explanation of A",
+            "A is true, but R is false",
+            "A is false, but R is true",
+          ],
+          correct: 0,
+          explain:
+            "Both are true, and R directly explains A — this precise substitution (separate electorate → joint electorate with reserved seats) is exactly how the political crisis was resolved.",
+        },
+        {
+          q: "The Poona Pact was concluded as an agreement between the Indian National Congress and which leader of the Depressed Classes?",
+          options: [
+            "Muhammad Ali Jinnah",
+            "Dr. B.R. Ambedkar",
+            "Sardar Patel",
+            "Subhas Chandra Bose",
+          ],
+          correct: 1,
+          explain:
+            "The Poona Pact was an agreement between the Congress and Dr. B.R. Ambedkar, the recognised leader of the Depressed Classes.",
+        },
+        {
+          q: "Under the Poona Pact, what specifically replaced the idea of separate electorates for the Depressed Classes?",
+          options: [
+            "Complete exclusion from any political representation",
+            "A joint (Hindu) electorate combined with reserved seats for the Depressed Classes",
+            "Continuation of separate electorates, unchanged",
+            "Nomination only, with no electoral mechanism at all",
+          ],
+          correct: 1,
+          explain:
+            "The Poona Pact retained a Hindu JOINT electorate while providing RESERVED seats specifically for the Depressed Classes — a structural compromise distinct from the original Communal Award provision.",
+        },
+        {
+          q: [
+            "Consider the following pairs:",
+            "Document — Key Provision for Depressed Classes",
+            "I. Communal Award (1932) — Separate electorate",
+            "II. Poona Pact (1932) — Joint electorate with reserved seats",
+            "How many of the above pairs are correctly matched?",
+          ],
+          options: [
+            "Only one pair",
+            "Both pairs",
+            "Neither pair",
+            "Cannot be determined",
+          ],
+          correct: 1,
+          explain:
+            "Both pairs are correctly matched — this is arguably the single most frequently tested distinction from this topic.",
+        },
+        {
+          q: "Did the British Government formally accept the Poona Pact?",
+          options: [
+            "No, it was rejected outright by the British Government",
+            "Yes, and the Communal Award was modified accordingly with respect to Depressed Classes",
+            "It was accepted only on a temporary, one-year trial basis",
+            "The question of acceptance was never formally addressed",
+          ],
+          correct: 1,
+          explain:
+            "The British Government formally accepted the Poona Pact and modified the Communal Award's provisions for Depressed Classes accordingly.",
+        },
+        {
+          q: "The provisions of the Poona Pact, following British acceptance, were ultimately incorporated into which subsequent Act?",
+          options: [
+            "Government of India Act, 1919",
+            "Government of India Act, 1935",
+            "Indian Independence Act, 1947",
+            "Indian Councils Act, 1909",
+          ],
+          correct: 1,
+          explain:
+            "The Poona Pact's provisions on Depressed Classes representation were incorporated into the Government of India Act, 1935.",
+        },
+        {
+          q: "Which of the following best summarises the shift achieved by the Poona Pact, relative to the original Communal Award?",
+          options: [
+            "From joint electorate to separate electorate for Depressed Classes",
+            "From separate electorate to joint electorate with reserved seats for Depressed Classes",
+            "From reserved seats to complete exclusion from representation",
+            "From nomination to direct separate representation",
+          ],
+          correct: 1,
+          explain:
+            "The key shift was FROM separate electorate (under the Communal Award) TO joint electorate with reserved seats (under the Poona Pact) — reversing this direction is a classic examination trap.",
+        },
+        {
+          q: "Which of the following communities' separate electorates, already established prior to 1932, were CONTINUED (not newly created) by the Communal Award?",
+          options: [
+            "Muslims, Sikhs, Indian Christians, Anglo-Indians, and Europeans",
+            "Only the Depressed Classes",
+            "Only Muslims",
+            "No communities had separate electorates before the Communal Award",
+          ],
+          correct: 0,
+          explain:
+            "Separate electorates for Muslims (from 1909), Sikhs, Indian Christians, Anglo-Indians, and Europeans (from 1919) already existed and were simply continued by the Communal Award — only the Depressed Classes' inclusion was genuinely new.",
+        },
+        {
+          q: "A student writes: 'The Poona Pact represented Gandhiji's complete victory, eliminating any special political provisions for the Depressed Classes.' Which of the following best evaluates this claim?",
+          options: [
+            "The claim is correct in every respect",
+            "The claim is partially incorrect — while separate electorates were removed, reserved seats (a form of special provision) were retained under the Pact",
+            "The claim is entirely incorrect, since separate electorates were retained",
+            "The claim is irrelevant since the Poona Pact was never implemented",
+          ],
+          correct: 1,
+          explain:
+            "This nuance is important — Gandhiji succeeded in removing separate electorates, but the compromise still involved RESERVED SEATS, a distinct form of special political provision that persisted.",
+        },
+        {
+          q: "Which British Prime Minister's name is associated with the Communal Award of 1932?",
+          options: [
+            "Winston Churchill",
+            "Ramsay MacDonald",
+            "Stanley Baldwin",
+            "Neville Chamberlain",
+          ],
+          correct: 1,
+          explain:
+            "Ramsay MacDonald announced the Communal Award — a detail frequently tested alongside the Simon Commission's Sir John Simon and the Morley-Minto/Montford reformer pairs.",
+        },
+        {
+          q: "Which of the following statements about the Communal Award of 1932 is NOT correct?",
+          options: [
+            "It was announced by British PM Ramsay MacDonald",
+            "It extended separate electorate to the Depressed Classes",
+            "It led directly to the Poona Pact",
+            "It was announced by the Viceroy, not the British Prime Minister",
+          ],
+          correct: 3,
+          explain:
+            "This is the incorrect statement, and thus the answer — the Communal Award was announced by British PM Ramsay MacDonald, NOT by the Viceroy.",
+        },
+        {
+          q: "The Poona Pact is best understood as representing which broader theme in India's political and social history?",
+          options: [
+            "A purely religious dispute with no lasting political consequence",
+            "A foundational compromise in the ongoing debate over political representation and social justice for historically marginalised communities",
+            "A purely symbolic gesture with no legal effect",
+            "An agreement exclusively concerning economic issues",
+          ],
+          correct: 1,
+          explain:
+            "The Poona Pact represents a foundational moment in the enduring debate over political representation for marginalised communities — a theme that continues to resonate in India's reservation policy debates today.",
+        },
+        {
+          q: "Which of the following correctly captures the chronological relationship between the Communal Award and the Poona Pact?",
+          options: [
+            "The Poona Pact preceded the Communal Award by several months",
+            "Both were announced simultaneously in August 1932",
+            "The Communal Award (Aug 1932) provoked Gandhiji's fast, which led to the Poona Pact being concluded shortly afterward, in the same year",
+            "The Poona Pact was signed a decade after the Communal Award",
+          ],
+          correct: 2,
+          explain:
+            "The sequence is significant — the Communal Award (August 1932) directly provoked Gandhiji's fast, which in turn produced the Poona Pact within the same year, as a rapid political response.",
+        },
+        {
+          q: "Which of the following is the most accurate description of 'reserved seats', as introduced for Depressed Classes by the Poona Pact?",
+          options: [
+            "Seats reserved exclusively for British nominees",
+            "A specific number of seats set aside within a joint electorate, to be contested only by candidates from the Depressed Classes, but voted on by the general (joint) electorate",
+            "Seats where only Depressed Class voters could vote",
+            "An entirely separate legislature reserved for Depressed Classes",
+          ],
+          correct: 1,
+          explain:
+            "Reserved seats under a joint electorate meant that candidates from the Depressed Classes contested designated seats, but voting was open to the general (joint) electorate — distinct from a separate electorate where only Depressed Class voters would vote.",
+        },
+        {
+          q: "Which of the following statements best explains why the Poona Pact is considered a compromise rather than a clear victory for either side?",
+          options: [
+            "Gandhiji got everything he wanted, and Ambedkar got nothing",
+            "Ambedkar secured guaranteed political representation (reserved seats) while Gandhiji secured the removal of separate electorates — each side gained something, neither achieved their original maximalist position",
+            "Neither side gained anything from the agreement",
+            "The agreement was purely symbolic and changed nothing in practice",
+          ],
+          correct: 1,
+          explain:
+            "This is the classic characterisation of a negotiated compromise — Ambedkar's original demand (separate electorates) was replaced, but he secured guaranteed representation via reserved seats, while Gandhiji's goal of preserving joint Hindu electorates was achieved.",
+        },
+        {
+          q: "In the broader chronology of communal representation in British India, the Communal Award of 1932 represents which stage?",
+          options: [
+            "The first introduction of communal representation of any kind",
+            "The point at which communal/special representation was extended furthest, incorporating caste-based representation alongside religion-based representation",
+            "The final abolition of all communal representation",
+            "A stage entirely disconnected from earlier developments (1909, 1919)",
+          ],
+          correct: 1,
+          explain:
+            "The Communal Award represents the point of maximum extension of this principle — building on religion-based separate electorates (1909, 1919) by adding caste-based representation for Depressed Classes, before the Poona Pact partially reversed this specific extension.",
+        },
+      ],
+    },
+    "ch1-govact1935": {
+      title: "Government of India Act, 1935",
+      questions: [
+        {
+          q: "The Government of India Act, 1935 is often described as:",
+          options: [
+            "The first milestone towards responsible government",
+            "The second milestone towards completely responsible government",
+            "The final step of Company rule",
+            "The beginning of Crown rule",
+          ],
+          correct: 1,
+          explain:
+            "It is described as the SECOND milestone (after the 1919 Act) towards completely responsible government.",
+        },
+        {
+          q: "The Government of India Act, 1935 contained how many Sections and Schedules?",
+          options: [
+            "221 Sections and 8 Schedules",
+            "321 Sections and 10 Schedules",
+            "421 Sections and 12 Schedules",
+            "150 Sections and 6 Schedules",
+          ],
+          correct: 1,
+          explain:
+            "It was a lengthy and detailed document — 321 Sections and 10 Schedules — reflecting its comprehensive scope.",
+        },
+        {
+          q: [
+            "Consider the following statements regarding the All-India Federation proposed by the Government of India Act, 1935:",
+            "I. It was to consist of provinces and princely states as units.",
+            "II. It actually came into operation in 1937.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+          correct: 0,
+          explain:
+            "Statement I is correct. Statement II is incorrect — the Federation NEVER came into being because the princely states did not join it, despite provincial autonomy separately coming into effect in 1937.",
+        },
+        {
+          q: "Under the Government of India Act, 1935, how many items did the Federal List contain?",
+          options: ["54", "59", "36", "97"],
+          correct: 1,
+          explain: "The Federal List had 59 items, meant for the Centre.",
+        },
+        {
+          q: "How many items did the Provincial List contain under the Government of India Act, 1935?",
+          options: ["59", "54", "36", "42"],
+          correct: 1,
+          explain: "The Provincial List, for provinces, had 54 items.",
+        },
+        {
+          q: "How many items did the Concurrent List contain under the Government of India Act, 1935?",
+          options: ["36", "54", "59", "20"],
+          correct: 0,
+          explain:
+            "The Concurrent List, for both Centre and provinces, had 36 items.",
+        },
+        {
+          q: [
+            "Assertion (A): Residuary powers under the Government of India Act, 1935 were vested in the Viceroy.",
+            "Reason (R): Since the All-India Federation never materialised, no federal legislature existed to hold residuary powers instead.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both A and R are true, and R is the correct explanation of A",
+            "Both A and R are true, but R is NOT the correct explanation of A",
+            "A is true, but R is false",
+            "A is false, but R is true",
+          ],
+          correct: 1,
+          explain:
+            "A is correct — residuary powers were indeed vested in the Viceroy. However, R is not the correct explanation: the vesting of residuary power in the Viceroy was a DELIBERATE design choice made in the Act itself, not a consequence of the Federation's later failure to materialise.",
+        },
+        {
+          q: "The Government of India Act, 1935 abolished dyarchy in the provinces and replaced it with:",
+          options: [
+            "Full independence",
+            "Provincial Autonomy",
+            "Central Autonomy",
+            "Presidential rule",
+          ],
+          correct: 1,
+          explain:
+            "Provincial dyarchy (introduced in 1919) was abolished and replaced with 'Provincial Autonomy'.",
+        },
+        {
+          q: "Provincial Autonomy under the 1935 Act came into effect in which year, and was discontinued in which year?",
+          options: [
+            "1935 and 1939",
+            "1937 and 1939",
+            "1939 and 1942",
+            "1937 and 1947",
+          ],
+          correct: 1,
+          explain:
+            "Provincial Autonomy came into effect in 1937 and was discontinued in 1939, largely due to the outbreak of World War II.",
+        },
+        {
+          q: "The dyarchy scheme proposed for the CENTRE under the Government of India Act, 1935:",
+          options: [
+            "Was successfully implemented alongside provincial autonomy",
+            "Never came into operation at all",
+            "Was implemented for a trial period of 2 years",
+            "Applied only to Bengal and Bombay",
+          ],
+          correct: 1,
+          explain:
+            "Unlike provincial dyarchy under the 1919 Act, the dyarchy proposed at the CENTRE by the 1935 Act NEVER came into operation — a frequently tested location-based distinction.",
+        },
+        {
+          q: "The Government of India Act, 1935 introduced bicameralism in how many of the 11 existing provinces?",
+          options: ["4", "6", "8", "All 11"],
+          correct: 1,
+          explain:
+            "Bicameralism was introduced in 6 of the 11 provinces: Bengal, Bombay, Madras, Bihar, Assam, and United Provinces.",
+        },
+        {
+          q: "Which of the following provinces did NOT receive a bicameral legislature under the Government of India Act, 1935?",
+          options: ["Bengal", "Madras", "Punjab", "Bihar"],
+          correct: 2,
+          explain:
+            "Punjab was NOT among the six provinces (Bengal, Bombay, Madras, Bihar, Assam, United Provinces) given bicameral legislatures.",
+        },
+        {
+          q: "Approximately what percentage of the total population received voting rights under the Government of India Act, 1935?",
+          options: ["14%", "25%", "40%", "5%"],
+          correct: 0,
+          explain:
+            "About 14% of the total population got the right to vote — a significant expansion, though still far short of universal suffrage.",
+        },
+        {
+          q: "Which financial institution's establishment was provided for by the Government of India Act, 1935?",
+          options: [
+            "State Bank of India",
+            "Reserve Bank of India",
+            "National Housing Bank",
+            "NABARD",
+          ],
+          correct: 1,
+          explain:
+            "The Act provided for establishing the Reserve Bank of India, to control currency and credit — a lasting institutional legacy.",
+        },
+        {
+          q: [
+            "Consider the following pairs:",
+            "Institution — Status under the 1935 Act",
+            "I. Council of India (est. 1858) — Abolished",
+            "II. Federal Court — Provided for, set up in 1937",
+            "III. Auditor-General of India — Provision for appointment made",
+            "How many of the above pairs are correctly matched?",
+          ],
+          options: [
+            "Only one pair",
+            "Only two pairs",
+            "All three pairs",
+            "None of the pairs",
+          ],
+          correct: 2,
+          explain:
+            "All three pairs are correctly matched — this dense factual set spans several of the Act's institutional provisions.",
+        },
+        {
+          q: "The Federal Court, provided for by the Government of India Act, 1935, was actually set up in which year?",
+          options: ["1935", "1937", "1940", "1950"],
+          correct: 1,
+          explain:
+            "Though provided for in the 1935 Act, the Federal Court was actually set up in 1937 — a provision-vs-implementation gap similar to the Central PSC under the 1919 Act.",
+        },
+        {
+          q: "Which territory was separated from India by the Government of India Act, 1935?",
+          options: ["Ceylon", "Burma (now Myanmar)", "Nepal", "Bhutan"],
+          correct: 1,
+          explain:
+            "Burma (present-day Myanmar) was separated from India under this Act.",
+        },
+        {
+          q: "Which two new provinces were created by the Government of India Act, 1935?",
+          options: [
+            "Bihar and Orissa",
+            "Orissa and Sind",
+            "Punjab and Sindh (as a single unit)",
+            "Assam and Bengal",
+          ],
+          correct: 1,
+          explain: "The Act created two new provinces: Orissa and Sind.",
+        },
+        {
+          q: "Which body, established originally by the Government of India Act of 1858, was abolished by the Government of India Act, 1935?",
+          options: [
+            "The Indian Councils Act of 1909's provisions",
+            "The Government of India Act of 1919's provisions",
+            "The Council of India",
+            "The Indian Independence Act of 1947's provisions",
+          ],
+          correct: 2,
+          explain:
+            "The Council of India (established in 1858 to assist the Secretary of State) was abolished by the 1935 Act, replaced by a smaller team of advisors for the Secretary of State.",
+        },
+        {
+          q: "Which of the following statements best captures why the Government of India Act, 1935 is often regarded as the direct structural template for independent India's Constitution?",
+          options: [
+            "It was drafted by the same Constituent Assembly that later framed the Constitution",
+            "Its federal scheme, lists (Federal/Provincial/Concurrent), provincial autonomy structure, and institutions like Federal/Provincial Public Service Commissions were substantially retained in the Constitution",
+            "It granted India full independence in 1935",
+            "It was identical in every respect to the Constitution of India",
+          ],
+          correct: 1,
+          explain:
+            "While NOT drafted by India's Constituent Assembly and certainly not granting independence, many of its structural elements — the three-list scheme, provincial autonomy concepts, and institutions like Public Service Commissions — were substantially retained when the Constitution was framed.",
+        },
+      ],
+    },
+    "ch1-indep1947": {
+      title: "Indian Independence Act, 1947",
+      questions: [
+        {
+          q: "British Prime Minister Clement Attlee's declaration of February 20, 1947 announced that British rule in India would end by:",
+          options: [
+            "August 15, 1947",
+            "June 30, 1948",
+            "December 31, 1947",
+            "January 26, 1950",
+          ],
+          correct: 1,
+          explain:
+            "Attlee declared British rule would end by June 30, 1948 — though independence actually came earlier, on August 15, 1947.",
+        },
+        {
+          q: "The partition plan announced by Lord Mountbatten on June 3, 1947 is known as the:",
+          options: [
+            "Cripps Plan",
+            "Mountbatten Plan",
+            "Cabinet Mission Plan",
+            "Wavell Plan",
+          ],
+          correct: 1,
+          explain:
+            "This is known as the Mountbatten Plan, accepted by both the Congress and the Muslim League.",
+        },
+        {
+          q: [
+            "Consider the following statements regarding the legislative process of the Indian Independence Act, 1947:",
+            "I. The Bill was introduced in the British Parliament on July 4, 1947.",
+            "II. It received Royal Assent before it was introduced in Parliament.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+          correct: 0,
+          explain:
+            "Statement I is correct. Statement II is logically and factually incorrect — Royal Assent (July 18, 1947) necessarily came AFTER introduction (July 4, 1947), not before.",
+        },
+        {
+          q: "The Indian Independence Act, 1947 came into force on:",
+          options: [
+            "July 18, 1947",
+            "August 15, 1947",
+            "January 26, 1950",
+            "November 26, 1949",
+          ],
+          correct: 1,
+          explain:
+            "The Act came into force on August 15, 1947, the date of India's independence.",
+        },
+        {
+          q: [
+            "Assertion (A): The Indian Independence Act, 1947 abolished the office of Viceroy.",
+            "Reason (R): Each new dominion (India and Pakistan) instead received its own Governor-General, appointed by the British King on the advice of the dominion's own cabinet.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both A and R are true, and R is the correct explanation of A",
+            "Both A and R are true, but R is NOT the correct explanation of A",
+            "A is true, but R is false",
+            "A is false, but R is true",
+          ],
+          correct: 0,
+          explain:
+            "Both are true and R directly explains A — the replacement mechanism (dominion-specific Governors-General, appointed on dominion cabinet advice) is precisely what followed from abolishing the single Viceroy's office.",
+        },
+        {
+          q: "Who became the first Governor-General of independent India under the Indian Independence Act, 1947?",
+          options: [
+            "Jawaharlal Nehru",
+            "Lord Mountbatten",
+            "C. Rajagopalachari",
+            "Dr. Rajendra Prasad",
+          ],
+          correct: 1,
+          explain:
+            "Lord Mountbatten, the last Viceroy, became the first Governor-General of independent India.",
+        },
+        {
+          q: "Who became the first Prime Minister of independent India, sworn in by Mountbatten?",
+          options: [
+            "Sardar Vallabhbhai Patel",
+            "Jawaharlal Nehru",
+            "Dr. Rajendra Prasad",
+            "C. Rajagopalachari",
+          ],
+          correct: 1,
+          explain:
+            "Jawaharlal Nehru was sworn in as the first Prime Minister of independent India.",
+        },
+        {
+          q: "Which office was abolished by the Indian Independence Act, 1947, with its functions transferred to the Secretary of State for Commonwealth Affairs?",
+          options: [
+            "Secretary of State for India",
+            "Viceroy of India",
+            "Governor-General of Bengal",
+            "High Commissioner for India",
+          ],
+          correct: 0,
+          explain:
+            "The Act abolished the office of Secretary of State for India, transferring its functions to the Secretary of State for Commonwealth Affairs.",
+        },
+        {
+          q: "Under the Indian Independence Act, 1947, British paramountcy over princely states:",
+          options: [
+            "Continued indefinitely under a new treaty",
+            "Lapsed from August 15, 1947",
+            "Was transferred to the United Nations",
+            "Was extended by 5 years by mutual agreement",
+          ],
+          correct: 1,
+          explain:
+            "British paramountcy over princely states and treaty relations with tribal areas lapsed automatically from August 15, 1947.",
+        },
+        {
+          q: "Following the lapse of British paramountcy, princely states under the Indian Independence Act, 1947 had the option to:",
+          options: [
+            "Only join India",
+            "Only join Pakistan",
+            "Join India, join Pakistan, or remain independent",
+            "Remain permanently under British protection",
+          ],
+          correct: 2,
+          explain:
+            "Princely states had the freedom to join India, join Pakistan, or remain independent — though remaining fully independent proved practically unsustainable for most states.",
+        },
+        {
+          q: "Until new constitutions were framed, India and Pakistan were to be governed under the provisions of which prior Act?",
+          options: [
+            "The Indian Independence Act itself, with no reference to earlier legislation",
+            "The Government of India Act, 1935",
+            "The Government of India Act, 1919",
+            "The Indian Councils Act, 1909",
+          ],
+          correct: 1,
+          explain:
+            "Each dominion and its provinces were to be governed by the Government of India Act, 1935 (with dominion-authorised modifications), until new constitutions were framed.",
+        },
+        {
+          q: "Under the Indian Independence Act, 1947, who retained the power to assent to bills in the King's name, a power the British Monarch personally lost?",
+          options: [
+            "The British Monarch retained this power unchanged",
+            "The Governor-General of each dominion",
+            "The Secretary of State for Commonwealth Affairs",
+            "The Chief Justice of the dominion's highest court",
+          ],
+          correct: 1,
+          explain:
+            "The British Monarch lost the right to veto bills; this power was instead reserved for the Governor-General, who could assent to bills fully in the King's name.",
+        },
+        {
+          q: [
+            "Consider the following statements about the status of the Governor-General and provincial Governors under the Indian Independence Act, 1947:",
+            "I. They became absolute rulers with unchecked executive power.",
+            "II. They became constitutional (nominal) heads, acting on the advice of respective Councils of Ministers.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+          correct: 1,
+          explain:
+            "Statement II is correct — they became constitutional/nominal heads. Statement I is the opposite of what actually happened.",
+        },
+        {
+          q: "The Indian Independence Act, 1947 dropped which title from the British King's set of royal titles?",
+          options: [
+            "King of England",
+            "Emperor of India",
+            "Head of the Commonwealth",
+            "Defender of the Faith",
+          ],
+          correct: 1,
+          explain:
+            "The title 'Emperor of India' was formally dropped from the British King's royal titles following Indian independence.",
+        },
+        {
+          q: "The Boundary Commission that determined the boundaries between India and Pakistan following partition was headed by:",
+          options: [
+            "Lord Mountbatten",
+            "Sir Cyril Radcliffe",
+            "Sir John Simon",
+            "Lord Wavell",
+          ],
+          correct: 1,
+          explain: "The Boundary Commission was headed by Sir Cyril Radcliffe.",
+        },
+        {
+          q: "Which of the following areas was included in Pakistan following the partition arrangements associated with the Indian Independence Act, 1947?",
+          options: [
+            "West Bengal and Bihar",
+            "West Punjab, Sind, Baluchistan, East Bengal, NWFP, and Sylhet (Assam)",
+            "Delhi and Punjab (East)",
+            "Kashmir and Jammu",
+          ],
+          correct: 1,
+          explain:
+            "Pakistan included West Punjab, Sind, Baluchistan, East Bengal, North-Western Frontier Province, and the district of Sylhet in Assam.",
+        },
+        {
+          q: "The referenda held in the North-Western Frontier Province and Sylhet, in the context of partition, both resulted in a decision to:",
+          options: [
+            "Remain with India",
+            "Join Pakistan",
+            "Remain independent",
+            "Join neither dominion and seek United Nations trusteeship",
+          ],
+          correct: 1,
+          explain: "Both referenda favoured joining Pakistan.",
+        },
+        {
+          q: "Which of the following powers did the Constituent Assemblies of India and Pakistan receive under the Indian Independence Act, 1947?",
+          options: [
+            "Power to frame and adopt any constitution, including the power to repeal the Indian Independence Act itself",
+            "Power only to amend the Government of India Act, 1935, with no broader constitution-making authority",
+            "No legislative powers until formal independence was later re-confirmed in 1950",
+            "Power limited exclusively to matters of foreign affairs",
+          ],
+          correct: 0,
+          explain:
+            "The Constituent Assemblies were given the extraordinarily broad power to frame and adopt any constitution, and could even repeal the Indian Independence Act itself — reflecting complete legislative sovereignty.",
+        },
+        {
+          q: "Which of the following correctly orders the key dates leading to India's independence under the Indian Independence Act, 1947?",
+          options: [
+            "Attlee's declaration (Feb 20) → Mountbatten Plan (June 3) → Bill introduced (July 4) → Royal Assent (July 18) → Act in force (Aug 15)",
+            "Mountbatten Plan → Attlee's declaration → Royal Assent → Bill introduced → Act in force",
+            "Bill introduced → Royal Assent → Attlee's declaration → Mountbatten Plan → Act in force",
+            "Act in force → Royal Assent → Bill introduced → Mountbatten Plan → Attlee's declaration",
+          ],
+          correct: 0,
+          explain:
+            "This is the correct chronological sequence of 1947's key constitutional milestones, all occurring within roughly six months.",
+        },
+        {
+          q: "Which of the following statements best captures the overall constitutional significance of the Indian Independence Act, 1947?",
+          options: [
+            "It merely modified minor administrative details within the existing colonial framework",
+            "It completed India's constitutional journey from colonial subordination to sovereign self-determination, granting the Constituent Assembly unconstrained constitution-making power",
+            "It was superseded almost immediately by the Government of India Act, 1935",
+            "It had no lasting significance once the Constitution of India came into force in 1950",
+          ],
+          correct: 1,
+          explain:
+            "The Act's defining significance lies in completing this constitutional journey and granting genuinely unconstrained constitution-making power to the Constituent Assembly — a legal foundation whose consequences (the 1950 Constitution) remain foundational to India today.",
+        },
+      ],
+    },
+  },
+});

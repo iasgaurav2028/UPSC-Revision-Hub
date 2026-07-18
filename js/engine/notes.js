@@ -11,8 +11,16 @@
 const CIRCLED = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩"];
 const DASH_ICONS = { gs1: "🏛", gs2: "⚖", gs3: "📊", gs4: "🧭", essay: "✍" };
 
+// Toggle the dashboard background image on the main panel. Only the
+// dashboard uses it; note/timeline/browse views keep the plain background.
+function setDashboardBg(on) {
+  const mainEl = document.querySelector(".main");
+  if (mainEl) mainEl.classList.toggle("has-dash-bg", on);
+}
+
 function renderDashboard() {
   document.getElementById("topbarTitle").textContent = "Dashboard";
+  setDashboardBg(true);
   let html = `
     <div class="dash-hero">
       <div class="dash-hero-target" aria-hidden="true"></div>
@@ -177,6 +185,7 @@ const TIMELINE_EVENTS = [
 ];
 
 function renderTimelineView() {
+  setDashboardBg(false);
   document.getElementById("topbarTitle").textContent =
     "Constitutional Timeline";
   const container = document.getElementById("notesContent");
@@ -254,6 +263,7 @@ function getAllLeafNodesWithPath() {
 }
 
 function renderBrowseAllView() {
+  setDashboardBg(false);
   document.getElementById("topbarTitle").textContent = "Browse All Topics";
   const container = document.getElementById("notesContent");
   const allLeaves = getAllLeafNodesWithPath();
@@ -378,6 +388,7 @@ function attachBrowseHandlers() {
 }
 
 function renderNotes() {
+  setDashboardBg(false); // re-enabled by renderDashboard() below if needed
   if (selectedId === "syllabus") {
     renderSyllabusOverview();
     hideNoteNavBar();
