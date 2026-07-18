@@ -138,6 +138,7 @@ function switchSidebarView() {
     selectedId = null;
     renderTimelineView();
     closeMobileDrawer();
+    pushHistory();
     return;
   }
   if (sidebarView === "browse") {
@@ -145,6 +146,7 @@ function switchSidebarView() {
     selectedId = null;
     renderBrowseAllView();
     closeMobileDrawer();
+    pushHistory();
     return;
   }
 }
@@ -315,6 +317,7 @@ function attachTreeHandlers() {
         selectedId = selectedId === id ? null : id;
         renderNotes();
         closeMobileDrawer();
+        pushHistory();
       }
       refreshTree();
     });
@@ -391,6 +394,7 @@ function selectAndReveal(id) {
   selectedId = id;
   refreshTree();
   renderNotes();
+  pushHistory();
 }
 
 // ╔══════════════════════════════════════════════════════════╗

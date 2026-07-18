@@ -6,7 +6,564 @@
 // source under js/data/ or js/engine/, then re-run: node build-bundle.js
 // ═══════════════════════════════════════════════════════════
 
-const TREE_DATA = [{"id":"syllabus","title":"UPSC Syllabus","subtitle":"Overview & Structure","icon":"📋","isLeaf":true},{"id":"gs1","title":"GS-1","subtitle":"History, Geography, Society, Culture","icon":"🏛","children":[{"id":"gs1-history","title":"History","icon":"📜","children":[{"id":"gs1-history-ancient","title":"Ancient History","icon":"🏺"},{"id":"gs1-history-medieval","title":"Medieval History","icon":"🕌"},{"id":"gs1-history-modern","title":"Modern History","icon":"🇮🇳"}]},{"id":"gs1-geography","title":"Geography","icon":"🌍","children":[{"id":"gs1-geography-ncert","title":"NCERT","icon":"📗","children":[{"id":"gs1-geo-class6","title":"Class 6","icon":"📘","children":[{"id":"geo6-ch1","title":"The Earth in the Solar System","subtitle":"NCERT Class 6, Chapter 1","icon":"🌍","isLeaf":true,"isChapter":true,"hasNotes":true,"chunk":"gs1/geography/ncert/class6/ch1/ch1","hasQuiz":true},{"id":"geo6-ch2","title":"Globe: Latitudes and Longitudes","subtitle":"NCERT Class 6, Chapter 2","icon":"🌐","isLeaf":true,"isChapter":true,"hasNotes":true,"chunk":"gs1/geography/ncert/class6/ch2/ch2","hasQuiz":true}]},{"id":"gs1-geo-class7","title":"Class 7","icon":"📘"},{"id":"gs1-geo-class8","title":"Class 8","icon":"📘"},{"id":"gs1-geo-class9","title":"Class 9","icon":"📘"},{"id":"gs1-geo-class10","title":"Class 10","icon":"📘"},{"id":"gs1-geo-class11","title":"Class 11","subtitle":"Physical Geography — critical","icon":"📘"},{"id":"gs1-geo-class12","title":"Class 12","icon":"📘"}]}]},{"id":"gs1-society","title":"Indian Society","icon":"👥"},{"id":"gs1-culture","title":"Art & Culture","icon":"🎭"}]},{"id":"gs2","title":"GS-2","subtitle":"Polity, Governance, IR","icon":"⚖","children":[{"id":"gs2-polity","title":"Polity","icon":"🏛","children":[{"id":"gs2-polity-ncert","title":"NCERT","icon":"📗","children":[{"id":"gs2-polity-ncert-class9","title":"Class 9","icon":"📘"},{"id":"gs2-polity-ncert-class10","title":"Class 10","icon":"📘"},{"id":"gs2-polity-ncert-class11","title":"Class 11","icon":"📘"},{"id":"gs2-polity-ncert-class12","title":"Class 12","icon":"📘"}]},{"id":"gs2-polity-laxmikanth","title":"Laxmikanth","icon":"📕","children":[{"id":"lax-part1","title":"Part I","subtitle":"Constitutional Framework","icon":"📖","children":[{"id":"ch1","title":"Chapter 1","subtitle":"Historical Background","icon":"📚","isChapter":true,"children":[{"id":"ch1-company","title":"Company Rule","subtitle":"1773 – 1858","icon":"🏛","children":[{"id":"ch1-regulating1773","title":"Regulating Act of 1773","icon":"⚖","pageRef":"Pages 5–7","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true},{"id":"ch1-amending1781","title":"Amending Act of 1781","icon":"⚖","pageRef":"Act of Settlement","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true},{"id":"ch1-pitts1784","title":"Pitt's India Act of 1784","icon":"⚖","pageRef":"By PM William Pitt","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true},{"id":"ch1-act1786","title":"Act of 1786","icon":"⚖","pageRef":"Lord Cornwallis's demands","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true},{"id":"ch1-charter1793","title":"Charter Act of 1793","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true},{"id":"ch1-charter1813","title":"Charter Act of 1813","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true},{"id":"ch1-charter1833","title":"Charter Act of 1833","icon":"⚖","pageRef":"Final step to centralisation","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true},{"id":"ch1-charter1853","title":"Charter Act of 1853","icon":"⚖","pageRef":"Last of the Charter Acts","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true}]},{"id":"ch1-crown","title":"Crown Rule","subtitle":"1858 – 1947","icon":"👑","children":[{"id":"ch1-govact1858","title":"Government of India Act, 1858","icon":"⚖","pageRef":"Post Revolt of 1857","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-ica1861","title":"Indian Councils Act, 1861","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-ica1892","title":"Indian Councils Act, 1892","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-ica1909","title":"Indian Councils Act, 1909","subtitle":"Morley-Minto Reforms","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-govact1919","title":"Government of India Act, 1919","subtitle":"Montagu-Chelmsford Reforms","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-simon","title":"Simon Commission (1927)","icon":"📋","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-communalaward","title":"Communal Award (1932)","icon":"📋","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-govact1935","title":"Government of India Act, 1935","subtitle":"321 Sections, 10 Schedules","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-indep1947","title":"Indian Independence Act, 1947","icon":"🇮🇳","pageRef":"In force: Aug 15, 1947","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true}]}]},{"id":"ch2","title":"Chapter 2","subtitle":"Making of the Constitution","icon":"📚","isChapter":true,"children":[{"id":"ch2-ca-demand","title":"Demand for a Constituent Assembly","icon":"🏛","pageRef":"Making of the Constitution","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/constituent-assembly-demand","hasQuiz":true},{"id":"ch2-ca-composition","title":"Composition of the Constituent Assembly","icon":"🏛","pageRef":"Making of the Constitution","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/constituent-assembly-composition","hasQuiz":true},{"id":"ch2-ca-working","title":"Working of the Constituent Assembly","icon":"🏛","pageRef":"Making of the Constitution","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/constituent-assembly-working","hasQuiz":true}]}]},{"id":"lax-part2","title":"Part II","subtitle":"System of Government","icon":"📖"},{"id":"lax-part3","title":"Part III","subtitle":"Central Government","icon":"📖"},{"id":"lax-part4","title":"Part IV","subtitle":"State Government","icon":"📖"},{"id":"lax-part5","title":"Part V","subtitle":"Local Government","icon":"📖"},{"id":"lax-part6","title":"Part VI","subtitle":"UTs and Special Areas","icon":"📖"},{"id":"lax-part7","title":"Part VII","subtitle":"Constitutional Bodies","icon":"📖"},{"id":"lax-part8","title":"Part VIII","subtitle":"Non-Constitutional Bodies","icon":"📖"},{"id":"lax-part9","title":"Part IX","subtitle":"Other Constitution Dimensions","icon":"📖"},{"id":"lax-part10","title":"Part X","subtitle":"Political Dynamics","icon":"📖"},{"id":"lax-part11","title":"Part XI","subtitle":"Working of the Constitution","icon":"📖"},{"id":"lax-part12","title":"Part XII","subtitle":"Judgements and Doctrines","icon":"📖"},{"id":"lax-part13","title":"Part XIII","subtitle":"Comparison of the Constitution","icon":"📖"}]}]},{"id":"gs2-ir","title":"International Relations","icon":"🌐"}]},{"id":"gs3","title":"GS-3","subtitle":"Economy, Security, S&T, Environment","icon":"📊","children":[{"id":"gs3-economics","title":"Economics","icon":"💰","children":[{"id":"gs3-economics-budget","title":"Union Budget","subtitle":"Yearly Budget Coverage","icon":"💰","isChapter":true,"children":[{"id":"news-budget-static","title":"Budget — Static Concepts","subtitle":"FRBM, Funds, Process, Rev vs Cap Exp","icon":"📘","isLeaf":true,"hasNotes":true,"chunk":"gs3/economics/budget/budget-static-concepts","hasQuiz":true},{"id":"news-budget-priority-groups","title":"4 Priority Groups & MSME Stats","subtitle":"Garib, Yuva, Annadata, Nari + MSME figures","icon":"👥","isLeaf":true,"hasNotes":true,"chunk":"gs3/economics/budget/priority-groups-msme-stats","hasQuiz":true},{"id":"news-budget-2025","title":"Union Budget 2025-26","subtitle":"1 Feb 2025","icon":"📰","isLeaf":true,"hasNotes":true,"chunk":"gs3/economics/budget/budget-2025","newsType":true,"hasQuiz":true},{"id":"news-budget-2026","title":"Union Budget 2026-27","subtitle":"1 Feb 2026","icon":"📰","isLeaf":true,"hasNotes":true,"chunk":"gs3/economics/budget/budget-2026","newsType":true,"hasQuiz":true}]}]},{"id":"gs3-security","title":"Internal Security & Challenges","icon":"🛡"},{"id":"gs3-scitech","title":"Science & Technology","icon":"🔬"},{"id":"gs3-environment","title":"Environment","icon":"🌱"},{"id":"gs3-disaster","title":"Disaster Management","icon":"🌊"}]},{"id":"gs4","title":"GS-4","subtitle":"Ethics, Integrity, Aptitude","icon":"🧭","children":[{"id":"gs4-ethics","title":"Ethics","icon":"⚖"},{"id":"gs4-integrity","title":"Integrity","icon":"🤝"},{"id":"gs4-attitude","title":"Attitude","icon":"🧠"}]},{"id":"essay","title":"Essay","subtitle":"Essay Paper","icon":"✍"},{"id":"newspaper","title":"Daily Newspaper","subtitle":"The Hindu — Curated for UPSC","icon":"📰","children":[{"id":"news-history","title":"History","icon":"📜"},{"id":"news-geography","title":"Geography","icon":"🌍"},{"id":"news-society","title":"Society","icon":"👥"},{"id":"news-culture","title":"Art & Culture","icon":"🎭"},{"id":"news-polity","title":"Polity & Governance","icon":"⚖","children":[{"id":"news-2026-07-05-sc-collegium","title":"SC Collegium Recommends New HC Judges","subtitle":"5 Jul 2026","icon":"📰","isLeaf":true,"hasNotes":true,"chunk":"newspaper/polity/2026-07-05-sc-collegium","newsType":true}]},{"id":"news-ir","title":"International Relations","icon":"🌐"},{"id":"news-economics","title":"Economics","icon":"💰"},{"id":"news-security","title":"Internal Security","icon":"🛡"},{"id":"news-scitech","title":"Science & Technology","icon":"🔬"},{"id":"news-environment","title":"Environment","icon":"🌱"},{"id":"news-disaster","title":"Disaster Management","icon":"🌊"},{"id":"news-ethics","title":"Ethics","icon":"🧭"},{"id":"news-misc","title":"Miscellaneous / Schemes","icon":"📌"}]}];
+const TREE_DATA = [
+  {
+    id: "syllabus",
+    title: "UPSC Syllabus",
+    subtitle: "Overview & Structure",
+    icon: "📋",
+    isLeaf: true,
+  },
+  {
+    id: "gs1",
+    title: "GS-1",
+    subtitle: "History, Geography, Society, Culture",
+    icon: "🏛",
+    children: [
+      {
+        id: "gs1-history",
+        title: "History",
+        icon: "📜",
+        children: [
+          { id: "gs1-history-ancient", title: "Ancient History", icon: "🏺" },
+          { id: "gs1-history-medieval", title: "Medieval History", icon: "🕌" },
+          { id: "gs1-history-modern", title: "Modern History", icon: "🇮🇳" },
+        ],
+      },
+      {
+        id: "gs1-geography",
+        title: "Geography",
+        icon: "🌍",
+        children: [
+          {
+            id: "gs1-geography-ncert",
+            title: "NCERT",
+            icon: "📗",
+            children: [
+              {
+                id: "gs1-geo-class6",
+                title: "Class 6",
+                icon: "📘",
+                children: [
+                  {
+                    id: "geo6-ch1",
+                    title: "The Earth in the Solar System",
+                    subtitle: "NCERT Class 6, Chapter 1",
+                    icon: "🌍",
+                    isLeaf: true,
+                    isChapter: true,
+                    hasNotes: true,
+                    chunk: "gs1/geography/ncert/class6/ch1/ch1",
+                    hasQuiz: true,
+                  },
+                  {
+                    id: "geo6-ch2",
+                    title: "Globe: Latitudes and Longitudes",
+                    subtitle: "NCERT Class 6, Chapter 2",
+                    icon: "🌐",
+                    isLeaf: true,
+                    isChapter: true,
+                    hasNotes: true,
+                    chunk: "gs1/geography/ncert/class6/ch2/ch2",
+                    hasQuiz: true,
+                  },
+                ],
+              },
+              { id: "gs1-geo-class7", title: "Class 7", icon: "📘" },
+              { id: "gs1-geo-class8", title: "Class 8", icon: "📘" },
+              { id: "gs1-geo-class9", title: "Class 9", icon: "📘" },
+              { id: "gs1-geo-class10", title: "Class 10", icon: "📘" },
+              {
+                id: "gs1-geo-class11",
+                title: "Class 11",
+                subtitle: "Physical Geography — critical",
+                icon: "📘",
+              },
+              { id: "gs1-geo-class12", title: "Class 12", icon: "📘" },
+            ],
+          },
+        ],
+      },
+      { id: "gs1-society", title: "Indian Society", icon: "👥" },
+      { id: "gs1-culture", title: "Art & Culture", icon: "🎭" },
+    ],
+  },
+  {
+    id: "gs2",
+    title: "GS-2",
+    subtitle: "Polity, Governance, IR",
+    icon: "⚖",
+    children: [
+      {
+        id: "gs2-polity",
+        title: "Polity",
+        icon: "🏛",
+        children: [
+          {
+            id: "gs2-polity-ncert",
+            title: "NCERT",
+            icon: "📗",
+            children: [
+              { id: "gs2-polity-ncert-class9", title: "Class 9", icon: "📘" },
+              { id: "gs2-polity-ncert-class10", title: "Class 10", icon: "📘" },
+              { id: "gs2-polity-ncert-class11", title: "Class 11", icon: "📘" },
+              { id: "gs2-polity-ncert-class12", title: "Class 12", icon: "📘" },
+            ],
+          },
+          {
+            id: "gs2-polity-laxmikanth",
+            title: "Laxmikanth",
+            icon: "📕",
+            children: [
+              {
+                id: "lax-part1",
+                title: "Part I",
+                subtitle: "Constitutional Framework",
+                icon: "📖",
+                children: [
+                  {
+                    id: "ch1",
+                    title: "Chapter 1",
+                    subtitle: "Historical Background",
+                    icon: "📚",
+                    isChapter: true,
+                    children: [
+                      {
+                        id: "ch1-company",
+                        title: "Company Rule",
+                        subtitle: "1773 – 1858",
+                        icon: "🏛",
+                        children: [
+                          {
+                            id: "ch1-regulating1773",
+                            title: "Regulating Act of 1773",
+                            icon: "⚖",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk:
+                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
+                            hasQuiz: true,
+                          },
+                          {
+                            id: "ch1-amending1781",
+                            title: "Amending Act of 1781",
+                            icon: "⚖",
+                            pageRef: "Act of Settlement",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk:
+                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
+                            hasQuiz: true,
+                          },
+                          {
+                            id: "ch1-pitts1784",
+                            title: "Pitt's India Act of 1784",
+                            icon: "⚖",
+                            pageRef: "By PM William Pitt",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk:
+                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
+                            hasQuiz: true,
+                          },
+                          {
+                            id: "ch1-act1786",
+                            title: "Act of 1786",
+                            icon: "⚖",
+                            pageRef: "Lord Cornwallis's demands",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk:
+                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
+                            hasQuiz: true,
+                          },
+                          {
+                            id: "ch1-charter1793",
+                            title: "Charter Act of 1793",
+                            icon: "⚖",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk:
+                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
+                            hasQuiz: true,
+                          },
+                          {
+                            id: "ch1-charter1813",
+                            title: "Charter Act of 1813",
+                            icon: "⚖",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk:
+                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
+                            hasQuiz: true,
+                          },
+                          {
+                            id: "ch1-charter1833",
+                            title: "Charter Act of 1833",
+                            icon: "⚖",
+                            pageRef: "Final step to centralisation",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk:
+                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
+                            hasQuiz: true,
+                          },
+                          {
+                            id: "ch1-charter1853",
+                            title: "Charter Act of 1853",
+                            icon: "⚖",
+                            pageRef: "Last of the Charter Acts",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk:
+                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
+                            hasQuiz: true,
+                          },
+                        ],
+                      },
+                      {
+                        id: "ch1-crown",
+                        title: "Crown Rule",
+                        subtitle: "1858 – 1947",
+                        icon: "👑",
+                        children: [
+                          {
+                            id: "ch1-govact1858",
+                            title: "Government of India Act, 1858",
+                            icon: "⚖",
+                            pageRef: "Post Revolt of 1857",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
+                            hasQuiz: true,
+                          },
+                          {
+                            id: "ch1-ica1861",
+                            title: "Indian Councils Act, 1861",
+                            icon: "⚖",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
+                            hasQuiz: true,
+                          },
+                          {
+                            id: "ch1-ica1892",
+                            title: "Indian Councils Act, 1892",
+                            icon: "⚖",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
+                            hasQuiz: true,
+                          },
+                          {
+                            id: "ch1-ica1909",
+                            title: "Indian Councils Act, 1909",
+                            subtitle: "Morley-Minto Reforms",
+                            icon: "⚖",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
+                            hasQuiz: true,
+                          },
+                          {
+                            id: "ch1-govact1919",
+                            title: "Government of India Act, 1919",
+                            subtitle: "Montagu-Chelmsford Reforms",
+                            icon: "⚖",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
+                            hasQuiz: true,
+                          },
+                          {
+                            id: "ch1-simon",
+                            title: "Simon Commission (1927)",
+                            icon: "📋",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
+                            hasQuiz: true,
+                          },
+                          {
+                            id: "ch1-communalaward",
+                            title: "Communal Award (1932)",
+                            icon: "📋",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
+                            hasQuiz: true,
+                          },
+                          {
+                            id: "ch1-govact1935",
+                            title: "Government of India Act, 1935",
+                            subtitle: "321 Sections, 10 Schedules",
+                            icon: "⚖",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
+                            hasQuiz: true,
+                          },
+                          {
+                            id: "ch1-indep1947",
+                            title: "Indian Independence Act, 1947",
+                            icon: "🇮🇳",
+                            pageRef: "In force: Aug 15, 1947",
+                            isLeaf: true,
+                            hasNotes: true,
+                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
+                            hasQuiz: true,
+                          },
+                        ],
+                      },
+                    ],
+                  },
+                  {
+                    id: "ch2",
+                    title: "Chapter 2",
+                    subtitle: "Making of the Constitution",
+                    icon: "📚",
+                    isChapter: true,
+                    children: [
+                      {
+                        id: "ch2-ca-demand",
+                        title: "Demand for a Constituent Assembly",
+                        icon: "🏛",
+                        pageRef: "Making of the Constitution",
+                        isLeaf: true,
+                        hasNotes: true,
+                        chunk:
+                          "gs2/polity/laxmikanth/part1/ch2/constituent-assembly-demand",
+                        hasQuiz: true,
+                      },
+                      {
+                        id: "ch2-ca-composition",
+                        title: "Composition of the Constituent Assembly",
+                        icon: "🏛",
+                        pageRef: "Making of the Constitution",
+                        isLeaf: true,
+                        hasNotes: true,
+                        chunk:
+                          "gs2/polity/laxmikanth/part1/ch2/constituent-assembly-composition",
+                        hasQuiz: true,
+                      },
+                      {
+                        id: "ch2-ca-working",
+                        title: "Working of the Constituent Assembly",
+                        icon: "🏛",
+                        pageRef: "Making of the Constitution",
+                        isLeaf: true,
+                        hasNotes: true,
+                        chunk:
+                          "gs2/polity/laxmikanth/part1/ch2/constituent-assembly-working",
+                        hasQuiz: true,
+                      },
+                    ],
+                  },
+                ],
+              },
+              {
+                id: "lax-part2",
+                title: "Part II",
+                subtitle: "System of Government",
+                icon: "📖",
+              },
+              {
+                id: "lax-part3",
+                title: "Part III",
+                subtitle: "Central Government",
+                icon: "📖",
+              },
+              {
+                id: "lax-part4",
+                title: "Part IV",
+                subtitle: "State Government",
+                icon: "📖",
+              },
+              {
+                id: "lax-part5",
+                title: "Part V",
+                subtitle: "Local Government",
+                icon: "📖",
+              },
+              {
+                id: "lax-part6",
+                title: "Part VI",
+                subtitle: "UTs and Special Areas",
+                icon: "📖",
+              },
+              {
+                id: "lax-part7",
+                title: "Part VII",
+                subtitle: "Constitutional Bodies",
+                icon: "📖",
+              },
+              {
+                id: "lax-part8",
+                title: "Part VIII",
+                subtitle: "Non-Constitutional Bodies",
+                icon: "📖",
+              },
+              {
+                id: "lax-part9",
+                title: "Part IX",
+                subtitle: "Other Constitution Dimensions",
+                icon: "📖",
+              },
+              {
+                id: "lax-part10",
+                title: "Part X",
+                subtitle: "Political Dynamics",
+                icon: "📖",
+              },
+              {
+                id: "lax-part11",
+                title: "Part XI",
+                subtitle: "Working of the Constitution",
+                icon: "📖",
+              },
+              {
+                id: "lax-part12",
+                title: "Part XII",
+                subtitle: "Judgements and Doctrines",
+                icon: "📖",
+              },
+              {
+                id: "lax-part13",
+                title: "Part XIII",
+                subtitle: "Comparison of the Constitution",
+                icon: "📖",
+              },
+            ],
+          },
+        ],
+      },
+      { id: "gs2-ir", title: "International Relations", icon: "🌐" },
+    ],
+  },
+  {
+    id: "gs3",
+    title: "GS-3",
+    subtitle: "Economy, Security, S&T, Environment",
+    icon: "📊",
+    children: [
+      {
+        id: "gs3-economics",
+        title: "Economics",
+        icon: "💰",
+        children: [
+          {
+            id: "gs3-economics-budget",
+            title: "Union Budget",
+            subtitle: "Yearly Budget Coverage",
+            icon: "💰",
+            isChapter: true,
+            children: [
+              {
+                id: "news-budget-static",
+                title: "Budget — Static Concepts",
+                subtitle: "FRBM, Funds, Process, Rev vs Cap Exp",
+                icon: "📘",
+                isLeaf: true,
+                hasNotes: true,
+                chunk: "gs3/economics/budget/budget-static-concepts",
+                hasQuiz: true,
+              },
+              {
+                id: "news-budget-priority-groups",
+                title: "4 Priority Groups & MSME Stats",
+                subtitle: "Garib, Yuva, Annadata, Nari + MSME figures",
+                icon: "👥",
+                isLeaf: true,
+                hasNotes: true,
+                chunk: "gs3/economics/budget/priority-groups-msme-stats",
+                hasQuiz: true,
+              },
+              {
+                id: "news-budget-2025",
+                title: "Union Budget 2025-26",
+                subtitle: "1 Feb 2025",
+                icon: "📰",
+                isLeaf: true,
+                hasNotes: true,
+                chunk: "gs3/economics/budget/budget-2025",
+                newsType: true,
+                hasQuiz: true,
+              },
+              {
+                id: "news-budget-2026",
+                title: "Union Budget 2026-27",
+                subtitle: "1 Feb 2026",
+                icon: "📰",
+                isLeaf: true,
+                hasNotes: true,
+                chunk: "gs3/economics/budget/budget-2026",
+                newsType: true,
+                hasQuiz: true,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "gs3-security",
+        title: "Internal Security & Challenges",
+        icon: "🛡",
+      },
+      { id: "gs3-scitech", title: "Science & Technology", icon: "🔬" },
+      { id: "gs3-environment", title: "Environment", icon: "🌱" },
+      { id: "gs3-disaster", title: "Disaster Management", icon: "🌊" },
+    ],
+  },
+  {
+    id: "gs4",
+    title: "GS-4",
+    subtitle: "Ethics, Integrity, Aptitude",
+    icon: "🧭",
+    children: [
+      { id: "gs4-ethics", title: "Ethics", icon: "⚖" },
+      { id: "gs4-integrity", title: "Integrity", icon: "🤝" },
+      { id: "gs4-attitude", title: "Attitude", icon: "🧠" },
+    ],
+  },
+  { id: "essay", title: "Essay", subtitle: "Essay Paper", icon: "✍" },
+  {
+    id: "newspaper",
+    title: "Daily Newspaper",
+    subtitle: "The Hindu — Curated for UPSC",
+    icon: "📰",
+    children: [
+      { id: "news-history", title: "History", icon: "📜" },
+      { id: "news-geography", title: "Geography", icon: "🌍" },
+      { id: "news-society", title: "Society", icon: "👥" },
+      { id: "news-culture", title: "Art & Culture", icon: "🎭" },
+      {
+        id: "news-polity",
+        title: "Polity & Governance",
+        icon: "⚖",
+        children: [
+          {
+            id: "news-2026-07-05-sc-collegium",
+            title: "SC Collegium Recommends New HC Judges",
+            subtitle: "5 Jul 2026",
+            icon: "📰",
+            isLeaf: true,
+            hasNotes: true,
+            chunk: "newspaper/polity/2026-07-05-sc-collegium",
+            newsType: true,
+          },
+        ],
+      },
+      { id: "news-ir", title: "International Relations", icon: "🌐" },
+      { id: "news-economics", title: "Economics", icon: "💰" },
+      { id: "news-security", title: "Internal Security", icon: "🛡" },
+      { id: "news-scitech", title: "Science & Technology", icon: "🔬" },
+      { id: "news-environment", title: "Environment", icon: "🌱" },
+      { id: "news-disaster", title: "Disaster Management", icon: "🌊" },
+      { id: "news-ethics", title: "Ethics", icon: "🧭" },
+      { id: "news-misc", title: "Miscellaneous / Schemes", icon: "📌" },
+    ],
+  },
+];
 
 // ── js/engine/core.js ──
 // ╔══════════════════════════════════════════════════════════════════╗
@@ -302,6 +859,39 @@ function findPrevChapterNode(chapterNode) {
     if (collectLeaves(siblings[i]).length > 0) return siblings[i];
   }
   return null;
+}
+
+// Build the location header shown on a note from the node's position in
+// the tree (rather than hand-written `subject`/`era`/`source` fields):
+//   - crumb   : the full path as a breadcrumb, e.g.
+//               "GS-2 › Laxmikanth › Part I › Chapter 1 › Company Rule"
+//               (the top GS paper + every level in between, EXCLUDING the
+//               subject node and the leaf topic itself)
+//   - subject : the subject node's title (e.g. "Polity", "Geography") —
+//               used on the source line in place of the old "Laxmikanth"
+// Deriving these from the tree keeps every note's header correct and
+// consistent automatically, no matter how many notes/chapters are added.
+function buildNoteCrumb(nodeId) {
+  const chain = findAncestorChain(TREE_DATA, nodeId);
+  if (!chain || !chain.length) return { crumb: "", subject: "" };
+  const top = chain[0];
+  const hasSubject = chain.length > 2; // [paper, subject, ..., leaf]
+  // Middle = everything between the subject and the leaf (both excluded).
+  const middle = chain.slice(hasSubject ? 2 : 1, chain.length - 1);
+  const crumbNodes = [top, ...middle];
+  // The final segment (the topic's grouping, e.g. "Company Rule") also
+  // shows its subtitle in parentheses when it has one, giving e.g.
+  // "Company Rule (1773 – 1858)". Never applied to the GS paper itself.
+  const crumb = crumbNodes
+    .map((n, i) => {
+      const isLast = i === crumbNodes.length - 1;
+      return isLast && i > 0 && n.subtitle
+        ? `${n.title} (${n.subtitle})`
+        : n.title;
+    })
+    .join(" › ");
+  const subject = hasSubject ? chain[1].title : top.title;
+  return { crumb, subject };
 }
 
 function overallProgress() {
@@ -618,6 +1208,7 @@ function switchSidebarView() {
     selectedId = null;
     renderTimelineView();
     closeMobileDrawer();
+    pushHistory();
     return;
   }
   if (sidebarView === "browse") {
@@ -625,6 +1216,7 @@ function switchSidebarView() {
     selectedId = null;
     renderBrowseAllView();
     closeMobileDrawer();
+    pushHistory();
     return;
   }
 }
@@ -795,6 +1387,7 @@ function attachTreeHandlers() {
         selectedId = selectedId === id ? null : id;
         renderNotes();
         closeMobileDrawer();
+        pushHistory();
       }
       refreshTree();
     });
@@ -871,6 +1464,7 @@ function selectAndReveal(id) {
   selectedId = id;
   refreshTree();
   renderNotes();
+  pushHistory();
 }
 
 // ╔══════════════════════════════════════════════════════════╗
@@ -1314,15 +1908,21 @@ function renderStandardNote(node) {
   const isFavourited = !!favourited[node.id];
   topbarTitle.textContent = node.title;
 
+  // Location header derived automatically from the tree (see buildNoteCrumb):
+  //   eyebrow = full path breadcrumb (paper › … › group)
+  //   source  = subject name (Polity/Geography/…), replacing old "Laxmikanth"
+  const crumbInfo = buildNoteCrumb(node.id);
+  const subjectLabel = n.source || crumbInfo.subject || "Notes";
+
   let html = "";
   html += `<div class="note-header"><div class="note-title-row"><div>`;
-  html += `<div class="note-eyebrow">${esc(n.subject || "GS")} &nbsp;·&nbsp; ${esc(n.era || "")}</div>`;
+  html += `<div class="note-eyebrow">${esc(crumbInfo.crumb)}</div>`;
   html += `<div class="note-title-line">
     <div class="note-title">${esc(node.title)}</div>
     <button class="icon-toggle-btn bookmark-toggle ${isBookmarked ? "active" : ""}" id="bookmarkBtn" title="Bookmark this note">${isBookmarked ? "🔖" : "📑"}</button>
     <button class="icon-toggle-btn favourite-toggle ${isFavourited ? "active" : ""}" id="favouriteBtn" title="Favourite this topic">${isFavourited ? "⭐" : "☆"}</button>
   </div>`;
-  html += `<div class="note-source">${esc(n.source || "Laxmikanth")} ${node.pageRef ? "&nbsp;·&nbsp; " + esc(node.pageRef) : ""}</div>`;
+  html += `<div class="note-source">${esc(subjectLabel)}${node.pageRef ? " &nbsp;·&nbsp; " + esc(node.pageRef) : ""}</div>`;
   html += `</div>`;
   html += `<div class="note-actions">`;
   html += `<button class="mark-done-btn ${isDone ? "is-done" : ""}" id="markDoneBtn">${isDone ? "✓ Completed" : "Mark as Done"}</button>`;
@@ -1420,12 +2020,33 @@ function renderNewsArticleNote(node) {
   const isDone = !!completed[node.id];
   topbarTitle.textContent = node.title;
 
+  // Header style depends on where this news-type note lives:
+  //   • Under the top-level "newspaper" section → genuine daily clipping,
+  //     keep the "📰 The Hindu · date · subject" eyebrow.
+  //   • Embedded inside a subject (e.g. GS-3 › Economics › Budget) → use the
+  //     same location breadcrumb as standard notes, with the subject shown
+  //     below the heading.
+  const crumbInfo = buildNoteCrumb(node.id);
+  const chain = findAncestorChain(TREE_DATA, node.id);
+  const isClipping = !!(chain && chain[0] && chain[0].id === "newspaper");
+
   let html = "";
   html += `<div class="note-header"><div class="note-title-row"><div>`;
-  html += `<div class="note-eyebrow">📰 The Hindu &nbsp;·&nbsp; ${esc(n.date || "")} &nbsp;·&nbsp; ${esc(n.subject || "")}</div>`;
-  html += `<div class="note-title">${esc(node.title)}</div>`;
-  if (n.section)
-    html += `<div class="note-source">Section: ${esc(n.section)}</div>`;
+  if (isClipping) {
+    html += `<div class="note-eyebrow">📰 The Hindu &nbsp;·&nbsp; ${esc(n.date || "")} &nbsp;·&nbsp; ${esc(n.subject || "")}</div>`;
+    html += `<div class="note-title">${esc(node.title)}</div>`;
+    if (n.section)
+      html += `<div class="note-source">Section: ${esc(n.section)}</div>`;
+  } else {
+    html += `<div class="note-eyebrow">${esc(crumbInfo.crumb)}</div>`;
+    html += `<div class="note-title">${esc(node.title)}</div>`;
+    const belowBits = [
+      n.subject || crumbInfo.subject,
+      n.date,
+      n.section,
+    ].filter(Boolean);
+    html += `<div class="note-source">${esc(belowBits.join("  ·  "))}</div>`;
+  }
   html += `</div>`;
   html += `<div class="note-actions">`;
   html += `<button class="mark-done-btn ${isDone ? "is-done" : ""}" id="markDoneBtn">${isDone ? "✓ Reviewed" : "Mark as Reviewed"}</button>`;
@@ -1542,7 +2163,8 @@ function updateNoteNavBar(node) {
       const target = prevChapterLeaves[prevChapterLeaves.length - 1];
       prevBtn.disabled = false;
       prevBtn.title = "Previous chapter: " + prevChapter.title;
-      prevBtn.onclick = () => openPrevChapterConfirm(chapterNode, prevChapter, target);
+      prevBtn.onclick = () =>
+        openPrevChapterConfirm(chapterNode, prevChapter, target);
     } else {
       prevBtn.disabled = true;
       prevBtn.title = "You're at the beginning";
@@ -1640,11 +2262,9 @@ function openPrevChapterConfirm(currentChapter, prevChapter, targetLeaf) {
   overlay.classList.add("active");
 }
 
-document
-  .getElementById("prevChapterCloseBtn")
-  .addEventListener("click", () => {
-    document.getElementById("prevChapterOverlay").classList.remove("active");
-  });
+document.getElementById("prevChapterCloseBtn").addEventListener("click", () => {
+  document.getElementById("prevChapterOverlay").classList.remove("active");
+});
 document.getElementById("prevChapterOverlay").addEventListener("click", (e) => {
   if (e.target.id === "prevChapterOverlay") {
     document.getElementById("prevChapterOverlay").classList.remove("active");
@@ -1856,6 +2476,82 @@ document.addEventListener("keydown", (e) => {
 });
 
 // ╔══════════════════════════════════════════════════════════╗
+// ║  BROWSER HISTORY (Back/Forward between viewed notes)      ║
+// ║                                                            ║
+// ║  This is a single-page app; without this, the browser's    ║
+// ║  Back button (or Android back gesture) would leave the     ║
+// ║  site. We push a history entry whenever the main panel     ║
+// ║  view changes — opening a note, or switching to the        ║
+// ║  dashboard / timeline / browse — so Back returns to the    ║
+// ║  previously viewed note instead of closing the site.       ║
+// ║  pushState is called WITHOUT a URL change, so this also     ║
+// ║  works when index.html is opened directly from disk.       ║
+// ╚══════════════════════════════════════════════════════════╝
+let __suppressHistory = false; // true while restoring a state (avoid re-push)
+
+function currentViewState() {
+  if (selectedId) return { view: "note", id: selectedId };
+  if (sidebarView === "timeline") return { view: "timeline" };
+  if (sidebarView === "browse") return { view: "browse" };
+  return { view: "dashboard" };
+}
+
+function sameView(a, b) {
+  return !!a && !!b && a.view === b.view && a.id === b.id;
+}
+
+// Record the current view as a new browser-history entry (skipped while
+// we're restoring a state, and de-duplicated against the current entry).
+function pushHistory() {
+  if (__suppressHistory) return;
+  const s = currentViewState();
+  if (sameView(history.state, s)) return;
+  try {
+    history.pushState(s, "");
+  } catch (err) {
+    /* pushState blocked in rare sandboxed contexts — safe to ignore */
+  }
+}
+
+// Restore a view from a history entry (on Back/Forward) WITHOUT pushing a
+// new entry.
+function applyViewState(state) {
+  __suppressHistory = true;
+  try {
+    const s = state || { view: "dashboard" };
+    if (s.view === "note" && s.id) {
+      if (sidebarView !== "tree") {
+        sidebarView = "tree";
+        renderSidebarNav();
+      }
+      selectAndReveal(s.id);
+    } else if (s.view === "timeline") {
+      sidebarView = "timeline";
+      renderSidebarNav();
+      switchSidebarView();
+    } else if (s.view === "browse") {
+      sidebarView = "browse";
+      renderSidebarNav();
+      switchSidebarView();
+    } else {
+      if (sidebarView !== "tree") {
+        sidebarView = "tree";
+        renderSidebarNav();
+      }
+      selectedId = null;
+      refreshTree();
+      renderNotes();
+    }
+  } finally {
+    __suppressHistory = false;
+  }
+}
+
+window.addEventListener("popstate", (e) => {
+  applyViewState(e.state);
+});
+
+// ╔══════════════════════════════════════════════════════════╗
 // ║  INIT                                                     ║
 // ╚══════════════════════════════════════════════════════════╝
 // Clean up stale keys from older versions of this site (tree-expand
@@ -1869,3 +2565,6 @@ refreshTree();
 renderSidebarNav();
 renderNotes();
 
+// Seed the initial history entry (the dashboard) so the first Back press
+// returns here rather than immediately leaving the site.
+history.replaceState(currentViewState(), "");

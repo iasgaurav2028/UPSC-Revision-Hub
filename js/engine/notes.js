@@ -434,15 +434,21 @@ function renderStandardNote(node) {
   const isFavourited = !!favourited[node.id];
   topbarTitle.textContent = node.title;
 
+  // Location header derived automatically from the tree (see buildNoteCrumb):
+  //   eyebrow = full path breadcrumb (paper › … › group)
+  //   source  = subject name (Polity/Geography/…), replacing old "Laxmikanth"
+  const crumbInfo = buildNoteCrumb(node.id);
+  const subjectLabel = n.source || crumbInfo.subject || "Notes";
+
   let html = "";
   html += `<div class="note-header"><div class="note-title-row"><div>`;
-  html += `<div class="note-eyebrow">${esc(n.subject || "GS")} &nbsp;·&nbsp; ${esc(n.era || "")}</div>`;
+  html += `<div class="note-eyebrow">${esc(crumbInfo.crumb)}</div>`;
   html += `<div class="note-title-line">
     <div class="note-title">${esc(node.title)}</div>
     <button class="icon-toggle-btn bookmark-toggle ${isBookmarked ? "active" : ""}" id="bookmarkBtn" title="Bookmark this note">${isBookmarked ? "🔖" : "📑"}</button>
     <button class="icon-toggle-btn favourite-toggle ${isFavourited ? "active" : ""}" id="favouriteBtn" title="Favourite this topic">${isFavourited ? "⭐" : "☆"}</button>
   </div>`;
-  html += `<div class="note-source">${esc(n.source || "Laxmikanth")} ${node.pageRef ? "&nbsp;·&nbsp; " + esc(node.pageRef) : ""}</div>`;
+  html += `<div class="note-source">${esc(subjectLabel)}${node.pageRef ? " &nbsp;·&nbsp; " + esc(node.pageRef) : ""}</div>`;
   html += `</div>`;
   html += `<div class="note-actions">`;
   html += `<button class="mark-done-btn ${isDone ? "is-done" : ""}" id="markDoneBtn">${isDone ? "✓ Completed" : "Mark as Done"}</button>`;
@@ -540,12 +546,33 @@ function renderNewsArticleNote(node) {
   const isDone = !!completed[node.id];
   topbarTitle.textContent = node.title;
 
+  // Header style depends on where this news-type note lives:
+  //   • Under the top-level "newspaper" section → genuine daily clipping,
+  //     keep the "📰 The Hindu · date · subject" eyebrow.
+  //   • Embedded inside a subject (e.g. GS-3 › Economics › Budget) → use the
+  //     same location breadcrumb as standard notes, with the subject shown
+  //     below the heading.
+  const crumbInfo = buildNoteCrumb(node.id);
+  const chain = findAncestorChain(TREE_DATA, node.id);
+  const isClipping = !!(chain && chain[0] && chain[0].id === "newspaper");
+
   let html = "";
   html += `<div class="note-header"><div class="note-title-row"><div>`;
-  html += `<div class="note-eyebrow">📰 The Hindu &nbsp;·&nbsp; ${esc(n.date || "")} &nbsp;·&nbsp; ${esc(n.subject || "")}</div>`;
-  html += `<div class="note-title">${esc(node.title)}</div>`;
-  if (n.section)
-    html += `<div class="note-source">Section: ${esc(n.section)}</div>`;
+  if (isClipping) {
+    html += `<div class="note-eyebrow">📰 The Hindu &nbsp;·&nbsp; ${esc(n.date || "")} &nbsp;·&nbsp; ${esc(n.subject || "")}</div>`;
+    html += `<div class="note-title">${esc(node.title)}</div>`;
+    if (n.section)
+      html += `<div class="note-source">Section: ${esc(n.section)}</div>`;
+  } else {
+    html += `<div class="note-eyebrow">${esc(crumbInfo.crumb)}</div>`;
+    html += `<div class="note-title">${esc(node.title)}</div>`;
+    const belowBits = [
+      n.subject || crumbInfo.subject,
+      n.date,
+      n.section,
+    ].filter(Boolean);
+    html += `<div class="note-source">${esc(belowBits.join("  ·  "))}</div>`;
+  }
   html += `</div>`;
   html += `<div class="note-actions">`;
   html += `<button class="mark-done-btn ${isDone ? "is-done" : ""}" id="markDoneBtn">${isDone ? "✓ Reviewed" : "Mark as Reviewed"}</button>`;
@@ -662,7 +689,8 @@ function updateNoteNavBar(node) {
       const target = prevChapterLeaves[prevChapterLeaves.length - 1];
       prevBtn.disabled = false;
       prevBtn.title = "Previous chapter: " + prevChapter.title;
-      prevBtn.onclick = () => openPrevChapterConfirm(chapterNode, prevChapter, target);
+      prevBtn.onclick = () =>
+        openPrevChapterConfirm(chapterNode, prevChapter, target);
     } else {
       prevBtn.disabled = true;
       prevBtn.title = "You're at the beginning";
@@ -760,11 +788,9 @@ function openPrevChapterConfirm(currentChapter, prevChapter, targetLeaf) {
   overlay.classList.add("active");
 }
 
-document
-  .getElementById("prevChapterCloseBtn")
-  .addEventListener("click", () => {
-    document.getElementById("prevChapterOverlay").classList.remove("active");
-  });
+document.getElementById("prevChapterCloseBtn").addEventListener("click", () => {
+  document.getElementById("prevChapterOverlay").classList.remove("active");
+});
 document.getElementById("prevChapterOverlay").addEventListener("click", (e) => {
   if (e.target.id === "prevChapterOverlay") {
     document.getElementById("prevChapterOverlay").classList.remove("active");

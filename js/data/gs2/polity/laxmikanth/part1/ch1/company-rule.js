@@ -13,7 +13,6 @@ const DATA_ch1_company = {
       title: "Regulating Act of 1773",
       icon: "⚖",
       isLeaf: true,
-      pageRef: "Pages 5–7",
       notes: {
         era: "Company Rule (1773–1858)",
         significance: [

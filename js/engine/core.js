@@ -293,6 +293,39 @@ function findPrevChapterNode(chapterNode) {
   return null;
 }
 
+// Build the location header shown on a note from the node's position in
+// the tree (rather than hand-written `subject`/`era`/`source` fields):
+//   - crumb   : the full path as a breadcrumb, e.g.
+//               "GS-2 › Laxmikanth › Part I › Chapter 1 › Company Rule"
+//               (the top GS paper + every level in between, EXCLUDING the
+//               subject node and the leaf topic itself)
+//   - subject : the subject node's title (e.g. "Polity", "Geography") —
+//               used on the source line in place of the old "Laxmikanth"
+// Deriving these from the tree keeps every note's header correct and
+// consistent automatically, no matter how many notes/chapters are added.
+function buildNoteCrumb(nodeId) {
+  const chain = findAncestorChain(TREE_DATA, nodeId);
+  if (!chain || !chain.length) return { crumb: "", subject: "" };
+  const top = chain[0];
+  const hasSubject = chain.length > 2; // [paper, subject, ..., leaf]
+  // Middle = everything between the subject and the leaf (both excluded).
+  const middle = chain.slice(hasSubject ? 2 : 1, chain.length - 1);
+  const crumbNodes = [top, ...middle];
+  // The final segment (the topic's grouping, e.g. "Company Rule") also
+  // shows its subtitle in parentheses when it has one, giving e.g.
+  // "Company Rule (1773 – 1858)". Never applied to the GS paper itself.
+  const crumb = crumbNodes
+    .map((n, i) => {
+      const isLast = i === crumbNodes.length - 1;
+      return isLast && i > 0 && n.subtitle
+        ? `${n.title} (${n.subtitle})`
+        : n.title;
+    })
+    .join(" › ");
+  const subject = hasSubject ? chain[1].title : top.title;
+  return { crumb, subject };
+}
+
 function overallProgress() {
   let leaves = [];
   for (const n of TREE_DATA) leaves = leaves.concat(collectLeaves(n));
