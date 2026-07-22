@@ -357,6 +357,17 @@ const TREE_DATA = [
                           "gs2/polity/laxmikanth/part1/ch2/constituent-assembly-working",
                         hasQuiz: true,
                       },
+                      {
+                        id: "ch2-obj-resolution",
+                        title: "Objectives Resolution",
+                        icon: "📜",
+                        pageRef: "Objectives Resolution",
+                        isLeaf: true,
+                        hasNotes: true,
+                        chunk:
+                          "gs2/polity/laxmikanth/part1/ch2/objectives-resolution",
+                        hasQuiz: true,
+                      },
                     ],
                   },
                 ],

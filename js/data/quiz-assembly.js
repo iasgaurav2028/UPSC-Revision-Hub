@@ -42,6 +42,8 @@ const QUIZ_DATA = {
   "ch2-ca-composition": QUIZ_ch2_ca_composition,
   "ch2-ca-working": QUIZ_ch2_ca_working,
 
+  "ch2-obj-resolution": QUIZ_ch2_obj_resolution,
+
   "news-budget-2025": QUIZ_news_budget_2025,
   "news-budget-2026": QUIZ_news_budget_2026,
   "news-budget-static": QUIZ_news_budget_static,
