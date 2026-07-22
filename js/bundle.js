@@ -368,6 +368,17 @@ const TREE_DATA = [
                           "gs2/polity/laxmikanth/part1/ch2/objectives-resolution",
                         hasQuiz: true,
                       },
+                      {
+                        id: "ch2-changes-independence-act",
+                        title: "Changes by the Independence Act",
+                        subtitle: "Sovereignty, Dual Role & Other Functions",
+                        icon: "⚖",
+                        isLeaf: true,
+                        hasNotes: true,
+                        chunk:
+                          "gs2/polity/laxmikanth/part1/ch2/changes-independence-act",
+                        hasQuiz: true,
+                      },
                     ],
                   },
                 ],

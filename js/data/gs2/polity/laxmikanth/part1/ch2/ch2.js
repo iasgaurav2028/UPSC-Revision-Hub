@@ -12,5 +12,6 @@ const DATA_ch2 = {
     DATA_ch2_ca_composition,
     DATA_ch2_ca_working,
     DATA_ch2_obj_resolution,
+    DATA_ch2_changes_independence_act,
   ],
 };
