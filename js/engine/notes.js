@@ -26,7 +26,7 @@ function renderDashboard() {
       <div class="dash-hero-target" aria-hidden="true"></div>
       <div class="dash-hero-content">
         <div class="dash-hero-eyebrow">🎯 Civil Services Examination</div>
-        <div class="dash-hero-title">UPSC Target 2026</div>
+        <div class="dash-hero-title">UPSC Target 2028</div>
         <div class="dash-hero-sub">Master Notes &nbsp;·&nbsp; Complete Syllabus &nbsp;·&nbsp; Prelims + Mains</div>
         <div class="dash-hero-tags">
           <span>Integrity</span><span>Honesty</span><span>Justice</span><span>Empathy</span><span>Courage</span><span>Objectivity</span>
