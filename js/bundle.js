@@ -379,6 +379,41 @@ const TREE_DATA = [
                           "gs2/polity/laxmikanth/part1/ch2/changes-independence-act",
                         hasQuiz: true,
                       },
+                      {
+                        id: "ch2-committees-major",
+                        title: "Major Committees",
+                        subtitle:
+                          "8 Major Committees of the Constituent Assembly",
+                        icon: "🏛",
+                        isLeaf: true,
+                        hasNotes: true,
+                        chunk:
+                          "gs2/polity/laxmikanth/part1/ch2/major-committees",
+                        hasQuiz: true,
+                      },
+                      {
+                        id: "ch2-committees-minor",
+                        title: "Minor Committees",
+                        subtitle:
+                          "13 Minor Committees of the Constituent Assembly",
+                        icon: "📋",
+                        isLeaf: true,
+                        hasNotes: true,
+                        chunk:
+                          "gs2/polity/laxmikanth/part1/ch2/minor-committees",
+                        hasQuiz: true,
+                      },
+                      {
+                        id: "ch2-committees-drafting",
+                        title: "Drafting Committee",
+                        subtitle: "The Most Important Committee",
+                        icon: "✍",
+                        isLeaf: true,
+                        hasNotes: true,
+                        chunk:
+                          "gs2/polity/laxmikanth/part1/ch2/drafting-committees",
+                        hasQuiz: true,
+                      },
                     ],
                   },
                 ],

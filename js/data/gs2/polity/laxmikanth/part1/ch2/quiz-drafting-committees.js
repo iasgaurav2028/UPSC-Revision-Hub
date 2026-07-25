@@ -1,0 +1,248 @@
+// Quiz for: ch2-committees-drafting — 20 questions, UPSC Prelims-style
+const QUIZ_drafting_committees = {
+  title: "Drafting Committee of the Constituent Assembly",
+  questions: [
+    {
+      q: "The Drafting Committee was set up on:",
+      options: [
+        "15 August 1947",
+        "26 January 1947",
+        "29 August 1947",
+        "22 January 1947",
+      ],
+      correct: 2,
+      explain:
+        "The Drafting Committee was set up on 29 August 1947, entrusted with the task of preparing a draft of the new Constitution.",
+    },
+    {
+      q: "How many members did the Drafting Committee consist of?",
+      options: ["5", "6", "7", "9"],
+      correct: 2,
+      explain:
+        "The Drafting Committee consisted of 7 members, chaired by Dr. B.R. Ambedkar.",
+    },
+    {
+      q: [
+        "Consider the following members of the Drafting Committee:",
+        "I. N. Gopalaswamy Ayyangar",
+        "II. Alladi Krishnaswami Ayyar",
+        "III. Jawaharlal Nehru",
+        "IV. Dr. K.M. Munshi",
+        "Which of the above were actually members of the Drafting Committee?",
+      ],
+      options: [
+        "I, II and IV only",
+        "I, II, III and IV",
+        "II and IV only",
+        "I and III only",
+      ],
+      correct: 0,
+      explain:
+        "N. Gopalaswamy Ayyangar, Alladi Krishnaswami Ayyar, and Dr. K.M. Munshi were members. Jawaharlal Nehru was NOT a member of the Drafting Committee — he chaired three other major committees.",
+    },
+    {
+      q: "N. Madhava Rau replaced which original member of the Drafting Committee, and why?",
+      options: [
+        "He replaced D.P. Khaitan, who died in 1948",
+        "He replaced B.L. Mitter, who resigned due to ill-health",
+        "He replaced Syed Mohammad Saadullah, who moved to Pakistan",
+        "He replaced Alladi Krishnaswami Ayyar, who became a judge",
+      ],
+      correct: 1,
+      explain:
+        "N. Madhava Rau replaced B.L. Mitter, who resigned due to ill-health.",
+    },
+    {
+      q: "T.T. Krishnamachari replaced which original member of the Drafting Committee, and why?",
+      options: [
+        "He replaced B.L. Mitter, who resigned due to ill-health",
+        "He replaced N. Gopalaswamy Ayyangar, who was appointed a minister",
+        "He replaced D.P. Khaitan, who died in 1948",
+        "He replaced Syed Mohammad Saadullah, who was disqualified",
+      ],
+      correct: 2,
+      explain: "T.T. Krishnamachari replaced D.P. Khaitan, who died in 1948.",
+    },
+    {
+      q: [
+        "Assertion (A): The Drafting Committee had to accommodate two changes in its membership during its tenure.",
+        "Reason (R): B.L. Mitter resigned due to ill-health and was replaced by N. Madhava Rau; D.P. Khaitan died in 1948 and was replaced by T.T. Krishnamachari.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R correctly explains A — the two replacements (Mitter→Madhava Rau; Khaitan→T.T. Krishnamachari) are the specific factual basis for A.",
+    },
+    {
+      q: "The first draft of the Constitution prepared by the Drafting Committee was published in:",
+      options: [
+        "August 1947",
+        "February 1948",
+        "October 1948",
+        "November 1949",
+      ],
+      correct: 1,
+      explain:
+        "The first draft was published in February 1948, after which the public was given 8 months to discuss and propose amendments.",
+    },
+    {
+      q: "After publishing the first draft in February 1948, the public was given how long to discuss and propose amendments?",
+      options: ["4 months", "6 months", "8 months", "12 months"],
+      correct: 2,
+      explain:
+        "The public was given 8 months to discuss the first draft and propose amendments.",
+    },
+    {
+      q: "The second draft of the Constitution was published in:",
+      options: [
+        "February 1948",
+        "August 1948",
+        "October 1948",
+        "November 1949",
+      ],
+      correct: 2,
+      explain:
+        "The second draft was published in October 1948, prepared in light of public comments, criticisms, and suggestions on the first draft.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Drafting Committee's timeline:",
+        "I. First Draft: February 1948",
+        "II. Public comment period: 8 months",
+        "III. Second Draft: August 1948",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I and II only", "II and III only", "I, II and III", "I only"],
+      correct: 0,
+      explain:
+        "Statements I and II are correct. Statement III is incorrect — the second draft was published in OCTOBER 1948, not August.",
+    },
+    {
+      q: "The Drafting Committee took how long to prepare its draft?",
+      options: [
+        "Less than 3 months",
+        "Less than 6 months",
+        "Exactly 1 year",
+        "More than 2 years",
+      ],
+      correct: 1,
+      explain:
+        "The Drafting Committee took less than 6 months to prepare its draft.",
+    },
+    {
+      q: "In total, the Drafting Committee sat for how many days?",
+      options: ["114 days", "141 days", "165 days", "180 days"],
+      correct: 1,
+      explain:
+        "The Drafting Committee sat for 141 days in total. (Note: the full Constituent Assembly considered the Draft Constitution for 114 days — two different figures often confused.)",
+    },
+    {
+      q: [
+        "Consider the following numerical facts about the Drafting Committee:",
+        "I. It consisted of 7 members.",
+        "II. It sat for 141 days.",
+        "III. It took more than 1 year to prepare its draft.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I and II only", "II and III only", "I, II and III", "I only"],
+      correct: 0,
+      explain:
+        "Statements I and II are correct. Statement III is incorrect — the Drafting Committee took LESS than 6 months (not more than 1 year) to prepare its draft.",
+    },
+    {
+      q: [
+        "Read the following passage and answer the question:",
+        "'The Drafting Committee, after taking into consideration the proposals of the various committees, prepared the first draft of the Constitution of India, which was published in February, 1948. The people of India were given eight months to discuss the draft and propose amendments. In light of the public comments, criticisms and suggestions, the Drafting Committee prepared a second draft, which was published in October, 1948.'",
+        "Which of the following is most directly supported by this passage?",
+      ],
+      options: [
+        "The Drafting Committee worked in isolation without consulting other committees",
+        "The Constitution-making process included a phase of public participation between the two drafts",
+        "The second draft incorporated all amendments proposed by the public",
+        "The public was given 12 months to review the first draft",
+      ],
+      correct: 1,
+      explain:
+        "The passage explicitly describes an 8-month public comment period between the first and second drafts — confirming public participation was built into the process. The passage says 8 months (not 12), and says 'in light of' comments (not 'all amendments').",
+    },
+    {
+      q: "Which of the following correctly lists the original 7 members of the Drafting Committee (before any replacements)?",
+      options: [
+        "Ambedkar, Gopalaswamy Ayyangar, Alladi Krishnaswami Ayyar, K.M. Munshi, Saadullah, B.L. Mitter, D.P. Khaitan",
+        "Ambedkar, Nehru, Patel, Prasad, Munshi, Mitter, Khaitan",
+        "Ambedkar, Gopalaswamy Ayyangar, Munshi, N. Madhava Rau, Saadullah, Alladi Krishnaswami Ayyar, T.T. Krishnamachari",
+        "Ambedkar, Mitter, Khaitan, Nehru, Patel, Prasad, Mavalankar",
+      ],
+      correct: 0,
+      explain:
+        "The original 7 were: Ambedkar (Chairman), N. Gopalaswamy Ayyangar, Alladi Krishnaswami Ayyar, Dr. K.M. Munshi, Syed Mohammad Saadullah, B.L. Mitter (later replaced), and D.P. Khaitan (later replaced).",
+    },
+    {
+      q: "After replacements, who were the final 7 members of the Drafting Committee?",
+      options: [
+        "Ambedkar, Gopalaswamy Ayyangar, Alladi Krishnaswami Ayyar, K.M. Munshi, Saadullah, B.L. Mitter, D.P. Khaitan",
+        "Ambedkar, Gopalaswamy Ayyangar, Alladi Krishnaswami Ayyar, K.M. Munshi, Saadullah, N. Madhava Rau, T.T. Krishnamachari",
+        "Ambedkar, Nehru, Patel, Prasad, Munshi, Madhava Rau, Krishnamachari",
+        "Ambedkar, Mitter, Khaitan, Munshi, Saadullah, Madhava Rau, Krishnamachari",
+      ],
+      correct: 1,
+      explain:
+        "After B.L. Mitter was replaced by N. Madhava Rau and D.P. Khaitan was replaced by T.T. Krishnamachari, the final seven were: Ambedkar, Gopalaswamy Ayyangar, Alladi Krishnaswami Ayyar, K.M. Munshi, Saadullah, Madhava Rau, and T.T. Krishnamachari.",
+    },
+    {
+      q: "What process did the Drafting Committee follow after receiving the public's comments on the first draft?",
+      options: [
+        "It submitted the first draft directly to the President for assent",
+        "It prepared a second draft incorporating public comments, criticisms, and suggestions",
+        "It dissolved and a new committee was formed to prepare the second draft",
+        "It sent the first draft to the British Parliament for approval",
+      ],
+      correct: 1,
+      explain:
+        "In light of public comments, criticisms, and suggestions, the Drafting Committee prepared a second draft, published in October 1948.",
+    },
+    {
+      q: "How does the '141 days' figure (Drafting Committee's sitting days) differ from the '114 days' figure associated with the Constitution-making process?",
+      options: [
+        "Both figures refer to the Drafting Committee's work — one counting calendar days and one counting working days",
+        "141 days = total sitting days of the Drafting Committee; 114 days = days the full Constituent Assembly spent considering the Draft Constitution",
+        "141 days = full Constitution adoption process; 114 days = Drafting Committee's sitting days",
+        "There is no meaningful difference — both refer to the same process",
+      ],
+      correct: 1,
+      explain:
+        "141 days = the Drafting Committee's own sitting days; 114 days = the number of days the full Constituent Assembly deliberated on the Draft Constitution. These are two different stages of the process.",
+    },
+    {
+      q: "Why is the Drafting Committee considered 'the most important committee' of the Constituent Assembly?",
+      options: [
+        "Because it had the most members of any committee",
+        "Because it was chaired by the President of the Constituent Assembly",
+        "Because it was entrusted with preparing the actual text of the Constitution — the core task of constitutional drafting",
+        "Because it met for the longest number of days",
+      ],
+      correct: 2,
+      explain:
+        "The Drafting Committee's primacy stems from its core task — writing the actual text of the Constitution. Other committees prepared proposals; the Drafting Committee gave those proposals their final legal form.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. The Drafting Committee was set up on 29 August 1947.",
+        "II. Syed Mohammad Saadullah was a member of the Drafting Committee.",
+        "III. The first draft was published in October 1948.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I and II only", "II and III only", "I, II and III", "I only"],
+      correct: 0,
+      explain:
+        "Statements I and II are correct. Statement III is incorrect — the FIRST draft was published in February 1948; October 1948 was when the SECOND draft was published.",
+    },
+  ],
+};
