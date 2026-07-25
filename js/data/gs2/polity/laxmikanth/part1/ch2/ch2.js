@@ -16,5 +16,7 @@ const DATA_ch2 = {
     DATA_major_committees,
     DATA_minor_committees,
     DATA_drafting_committees,
+    DATA_criticism,
+    DATA_important_facts,
   ],
 };

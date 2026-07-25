@@ -1,0 +1,252 @@
+const QUIZ_important_facts = {
+  title: "Important Facts About the Constituent Assembly",
+  questions: [
+    {
+      q: "Which animal was adopted as the symbol (seal) of the Constituent Assembly?",
+      options: ["Lion", "Tiger", "Elephant", "Horse"],
+      correct: 2,
+      explain:
+        "The elephant was adopted as the symbol (seal) of the Constituent Assembly.",
+    },
+    {
+      q: "Who was appointed as the Constitutional Advisor (Legal Advisor) to the Constituent Assembly?",
+      options: [
+        "S.N. Mukherjee",
+        "H.V.R. Iyengar",
+        "Sir B.N. Rau",
+        "Prem Behari Narain Raizada",
+      ],
+      correct: 2,
+      explain:
+        "Sir B.N. Rau was appointed as the Constitutional Advisor to the Constituent Assembly. He played a key role in preparing the initial constitutional framework before the Drafting Committee began work.",
+    },
+    {
+      q: "Who served as the Secretary to the Constituent Assembly?",
+      options: [
+        "Sir B.N. Rau",
+        "H.V.R. Iyengar",
+        "S.N. Mukherjee",
+        "G.V. Mavalankar",
+      ],
+      correct: 1,
+      explain: "H.V.R. Iyengar was the Secretary to the Constituent Assembly.",
+    },
+    {
+      q: "The Chief Draftsman of the Constitution in the Constituent Assembly was:",
+      options: [
+        "Dr. B.R. Ambedkar",
+        "Sir B.N. Rau",
+        "S.N. Mukherjee",
+        "Prem Behari Narain Raizada",
+      ],
+      correct: 2,
+      explain:
+        "S.N. Mukherjee was the Chief Draftsman — different from Dr. Ambedkar (Chairman of the Drafting Committee) and Sir B.N. Rau (Constitutional Advisor).",
+    },
+    {
+      q: "Who calligraphed the original Constitution of India in a flowing italic style?",
+      options: [
+        "Vasant Krishan Vaidya",
+        "Nand Lal Bose",
+        "Prem Behari Narain Raizada",
+        "Beohar Rammanohar Sinha",
+      ],
+      correct: 2,
+      explain:
+        "Prem Behari Narain Raizada handwrote the original Constitution in a flowing italic style — the entire document was handwritten, not printed.",
+    },
+    {
+      q: [
+        "Consider the following pairs:",
+        "Role — Person",
+        "I. Constitutional Advisor — Sir B.N. Rau",
+        "II. Chief Draftsman — H.V.R. Iyengar",
+        "III. English Calligrapher — Prem Behari Narain Raizada",
+        "IV. Secretary to the Assembly — S.N. Mukherjee",
+        "How many of the above pairs are correctly matched?",
+      ],
+      options: [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs",
+      ],
+      correct: 1,
+      explain:
+        "Pairs I and III are correctly matched. Pair II is incorrect — H.V.R. Iyengar was the Secretary, not the Chief Draftsman (S.N. Mukherjee). Pair IV is incorrect — S.N. Mukherjee was the Chief Draftsman, not the Secretary.",
+    },
+    {
+      q: "The artists who beautified and decorated the original Constitution were from:",
+      options: [
+        "Visva-Bharati, Santiniketan",
+        "Delhi School of Art",
+        "Bombay Art School",
+        "Calcutta School of Fine Arts",
+      ],
+      correct: 0,
+      explain:
+        "Artists from Shantiniketan (Visva-Bharati) beautified the original Constitution, including Nand Lal Bose and Beohar Rammanohar Sinha.",
+    },
+    {
+      q: "Who illuminated, beautified, and ornamented the original Preamble of the Constitution?",
+      options: [
+        "Nand Lal Bose",
+        "Vasant Krishan Vaidya",
+        "Beohar Rammanohar Sinha",
+        "Prem Behari Narain Raizada",
+      ],
+      correct: 2,
+      explain:
+        "Beohar Rammanohar Sinha illuminated, beautified, and ornamented the original Preamble (which was calligraphed by Prem Behari Narain Raizada).",
+    },
+    {
+      q: "The calligraphy of the Hindi version of the original Constitution was done by:",
+      options: [
+        "Nand Lal Bose",
+        "Prem Behari Narain Raizada",
+        "Beohar Rammanohar Sinha",
+        "Vasant Krishan Vaidya",
+      ],
+      correct: 3,
+      explain:
+        "Vasant Krishan Vaidya did the calligraphy of the Hindi version. The Hindi version was then elegantly decorated and illuminated by Nand Lal Bose.",
+    },
+    {
+      q: "Nand Lal Bose's role in the Constitution was:",
+      options: [
+        "Writing the original English text in calligraphy",
+        "Serving as the Constitutional Advisor",
+        "Decorating and illuminating the Hindi version of the Constitution",
+        "Illuminating the original Preamble in English",
+      ],
+      correct: 2,
+      explain:
+        "Nand Lal Bose elegantly decorated and illuminated the Hindi version. Beohar Rammanohar Sinha illuminated the original English Preamble.",
+    },
+    {
+      q: [
+        "Assertion (A): Beohar Rammanohar Sinha and Nand Lal Bose had distinct contributions to the Constitution — one worked on the English Preamble, the other on the Hindi version.",
+        "Reason (R): Sinha illuminated the original Preamble (English); Bose decorated the Hindi version.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R correctly explains A — this is one of the most precise distinctions in this section, with Sinha on the English Preamble and Bose on the Hindi version.",
+    },
+    {
+      q: "Originally, the Constitution of India had/did not have a provision for an authoritative Hindi text. Which amendment rectified this?",
+      options: [
+        "44th Constitutional Amendment Act, 1978",
+        "52nd Constitutional Amendment Act, 1985",
+        "58th Constitutional Amendment Act, 1987",
+        "61st Constitutional Amendment Act, 1989",
+      ],
+      correct: 2,
+      explain:
+        "The 58th Constitutional Amendment Act, 1987 provided for the authoritative Hindi text of the Constitution.",
+    },
+    {
+      q: "The 58th Constitutional Amendment Act, 1987 inserted which Article to provide for the Hindi authoritative text of the Constitution?",
+      options: [
+        "Article 393-A",
+        "Article 394-A",
+        "Article 395-A",
+        "Article 396-A",
+      ],
+      correct: 1,
+      explain:
+        "Article 394-A was inserted in Part XXII of the Constitution by the 58th Amendment to provide for the authoritative Hindi text.",
+    },
+    {
+      q: "Article 394-A was inserted in which Part of the Constitution?",
+      options: ["Part XX", "Part XXI", "Part XXII", "Part XXIII"],
+      correct: 2,
+      explain:
+        "Article 394-A was inserted in Part XXII — the last Part of the Constitution at the time.",
+    },
+    {
+      q: "Under Article 394-A, who is responsible for causing the publication of the Hindi translation of the Constitution?",
+      options: [
+        "The Prime Minister",
+        "The Speaker of Lok Sabha",
+        "The President",
+        "The Chief Justice of India",
+      ],
+      correct: 2,
+      explain:
+        "Article 394-A states the President shall cause to be published the Hindi translation of the Constitution and of every amendment.",
+    },
+    {
+      q: [
+        "Consider the following statements about Article 394-A:",
+        "I. The President shall cause publication of a Hindi translation of the Constitution.",
+        "II. If any difficulty arises in interpretation, the President shall cause the Hindi text to be revised.",
+        "III. The Hindi translation is deemed to be the authoritative text in Hindi for all purposes.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I and II only", "II and III only", "I, II and III", "I only"],
+      correct: 2,
+      explain:
+        "All three statements correctly summarise the three main provisions of Article 394-A.",
+    },
+    {
+      q: [
+        "Read the following passage:",
+        "'The translation of the Constitution and its every amendment published shall be deemed to be, for all purposes, its authoritative text in Hindi.'",
+        "What does this provision imply?",
+      ],
+      options: [
+        "The Hindi text supersedes the English text in case of conflict",
+        "The Hindi translation, once published under the President's authority, is the official authoritative Hindi version for all legal purposes",
+        "The Hindi text is merely advisory and has no legal standing",
+        "Only the Parliament can declare a Hindi translation authoritative",
+      ],
+      correct: 1,
+      explain:
+        "The passage makes the published Hindi translation the authoritative Hindi text for all purposes. However, in cases of conflict with the English text, the English original prevails — the Hindi text is an authoritative translation, not a replacement.",
+    },
+    {
+      q: "The original Constitution of India was:",
+      options: [
+        "Printed in a government press and bound in leather",
+        "Handwritten by Prem Behari Narain Raizada in a flowing italic style",
+        "Typed on a typewriter and then signed",
+        "Printed in both English and Hindi simultaneously",
+      ],
+      correct: 1,
+      explain:
+        "The original Constitution was entirely handwritten by Prem Behari Narain Raizada in a flowing italic style — it was not printed.",
+    },
+    {
+      q: "Which of the following correctly distinguishes Sir B.N. Rau from S.N. Mukherjee in the Constitution-making process?",
+      options: [
+        "Both held identical roles as co-draftsmen of the Constitution",
+        "Sir B.N. Rau was the Constitutional Advisor who prepared the initial framework; S.N. Mukherjee was the Chief Draftsman who handled the technical drafting within the committee process",
+        "Sir B.N. Rau was the Secretary; S.N. Mukherjee was the Constitutional Advisor",
+        "Both were members of the Drafting Committee under Dr. Ambedkar",
+      ],
+      correct: 1,
+      explain:
+        "Rau (Constitutional Advisor) prepared preliminary drafts and frameworks; Mukherjee (Chief Draftsman) was responsible for the technical drafting of the Constitution's text within the Drafting Committee process — two distinct roles often confused.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. The elephant was the symbol of the Constituent Assembly.",
+        "II. The Hindi text of the Constitution was provided for by the 58th Amendment, 1987, through Article 394-A.",
+        "III. The calligrapher of the Hindi version was Prem Behari Narain Raizada.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I and II only", "II and III only", "I, II and III", "I only"],
+      correct: 0,
+      explain:
+        "Statements I and II are correct. Statement III is incorrect — Prem Behari Narain Raizada calligraphed the ENGLISH version; the Hindi calligrapher was Vasant Krishan Vaidya.",
+    },
+  ],
+};

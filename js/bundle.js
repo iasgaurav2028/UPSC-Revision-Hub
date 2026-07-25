@@ -414,6 +414,28 @@ const TREE_DATA = [
                           "gs2/polity/laxmikanth/part1/ch2/drafting-committees",
                         hasQuiz: true,
                       },
+                      {
+                        id: "ch2-criticism",
+                        title: "Criticism of the Constituent Assembly",
+                        subtitle: "6 Major Criticisms",
+                        icon: "⚖",
+                        isLeaf: true,
+                        hasNotes: true,
+                        chunk:
+                          "gs2/polity/laxmikanth/part1/ch2/criticism-constituent-assembly",
+                        hasQuiz: true,
+                      },
+                      {
+                        id: "ch2-important-facts",
+                        title: "Important Facts About the Constituent Assembly",
+                        subtitle: "Symbol, Officials, Calligraphy & Hindi Text",
+                        icon: "📌",
+                        isLeaf: true,
+                        hasNotes: true,
+                        chunk:
+                          "gs2/polity/laxmikanth/part1/ch2/important-facts",
+                        hasQuiz: true,
+                      },
                     ],
                   },
                 ],
