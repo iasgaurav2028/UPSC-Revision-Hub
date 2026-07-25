@@ -1,0 +1,129 @@
+const QUIZ_ch2_congress_experts = {
+  title: "Congress Experts Committee",
+  questions: [
+    {
+      q: "The Congress Experts Committee was appointed by the Indian National Congress on:",
+      options: [
+        "9 December 1946",
+        "8 July 1946",
+        "13 December 1946",
+        "15 August 1946",
+      ],
+      correct: 1,
+      explain:
+        "The Congress Experts Committee was appointed on 8 July 1946, while elections to the Constituent Assembly were still in progress.",
+    },
+    {
+      q: "Who chaired the Congress Experts Committee?",
+      options: [
+        "Sardar Vallabhbhai Patel",
+        "Dr. B.R. Ambedkar",
+        "Jawaharlal Nehru",
+        "Dr. Rajendra Prasad",
+      ],
+      correct: 2,
+      explain:
+        "Jawaharlal Nehru was the Chairman of the Congress Experts Committee.",
+    },
+    {
+      q: "Which of the following was NOT an original member of the Congress Experts Committee?",
+      options: ["K.M. Munshi", "D.R. Gadgil", "Krishna Kripalani", "K.T. Shah"],
+      correct: 2,
+      explain:
+        "Krishna Kripalani was later co-opted as a member and convener on the Chairman's (Nehru's) proposal — he was not an original member.",
+    },
+    {
+      q: "The Congress Experts Committee had two sittings. Which of the following correctly identifies both?",
+      options: [
+        "First: Bombay, 20–22 July 1946; Second: New Delhi, 15–17 August 1946",
+        "First: New Delhi, 20–22 July 1946; Second: Bombay, 15–17 August 1946",
+        "First: Calcutta, 8–10 July 1946; Second: New Delhi, 20–22 July 1946",
+        "First: New Delhi, 15–17 August 1946; Second: Bombay, 20–22 July 1946",
+      ],
+      correct: 1,
+      explain:
+        "First sitting: New Delhi, 20–22 July 1946. Second sitting: Bombay, 15–17 August 1946.",
+    },
+    {
+      q: [
+        "Assertion (A): The Congress Experts Committee is considered the intellectual precursor to the Constituent Assembly's work.",
+        "Reason (R): It drafted a resolution closely resembling the Objectives Resolution, and made general suggestions on powers of provinces, the Centre, princely states, and the amending power.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R correctly explains A — the committee's preparatory work (proto-Objectives Resolution + substantive suggestions) directly supports its characterisation as an intellectual precursor.",
+    },
+    {
+      q: "Granville Austin assessed the Congress Experts Committee's role as:",
+      options: [
+        "'The committee that replaced the need for a Constituent Assembly'",
+        "'It was the Congress Experts Committee that set India on the road to her present Constitution'",
+        "'A purely academic exercise with no practical impact on constitution-making'",
+        "'The committee that drafted the final version of the Objectives Resolution'",
+      ],
+      correct: 1,
+      explain:
+        "Granville Austin stated: 'It was the Congress Experts Committee that set India on the road to her present Constitution.'",
+    },
+    {
+      q: [
+        "Consider the following statements about the Congress Experts Committee:",
+        "I. It was constituted before the Constituent Assembly held its first session.",
+        "II. It drafted a resolution closely resembling the Objectives Resolution.",
+        "III. Jawaharlal Nehru chaired it and later moved the actual Objectives Resolution in the Constituent Assembly.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I and II only", "I, II and III", "II and III only", "I only"],
+      correct: 1,
+      explain:
+        "All three are correct — the Experts Committee predated the Assembly (constituted July 1946, Assembly met December 1946), it drafted a proto-Objectives Resolution, and Nehru chaired both the committee and moved the actual Objectives Resolution on 13 December 1946.",
+    },
+    {
+      q: "Which members of the Congress Experts Committee later became members of the Drafting Committee of the Constituent Assembly?",
+      options: [
+        "K.T. Shah and D.R. Gadgil",
+        "K.M. Munshi and N. Gopalaswami Ayyangar",
+        "M. Asaf Ali and Humayun Kabir",
+        "K. Santhanam and Krishna Kripalani",
+      ],
+      correct: 1,
+      explain:
+        "K.M. Munshi and N. Gopalaswami Ayyangar served on both the Congress Experts Committee and later as members of the Drafting Committee — showing deliberate continuity of expertise.",
+    },
+    {
+      q: "The Congress Experts Committee discussed which of the following topics at its sittings?",
+      options: [
+        "Only the procedure to be adopted by the Constituent Assembly",
+        "Procedure of the Assembly, appointment of various committees, and a draft resolution on constitutional objectives",
+        "Only the draft of the Objectives Resolution",
+        "The question of India's membership in the Commonwealth",
+      ],
+      correct: 1,
+      explain:
+        "The committee discussed three main things: Assembly procedure, appointment of various committees, and drafted a resolution on constitutional objectives (closely resembling the Objectives Resolution).",
+    },
+    {
+      q: [
+        "Read the following passage:",
+        "'It was the Congress Experts Committee that set India on the road to her present Constitution. The committee members, working within the framework of the Cabinet Mission Scheme, made general suggestions about autonomous areas, the powers of provincial Governments and the Centre, and about such issues as the princely states and the amending power. They also drafted a resolution, closely resembling the Objectives Resolution.' — Granville Austin",
+        "Which of the following is NOT directly supported by this passage?",
+      ],
+      options: [
+        "The committee worked within the Cabinet Mission framework",
+        "The committee made suggestions about the amending power",
+        "The committee's draft resolution was identical to the Objectives Resolution",
+        "The committee discussed powers of provincial governments and the Centre",
+      ],
+      correct: 2,
+      explain:
+        "The passage says 'closely resembling' — not 'identical to' — the Objectives Resolution. Saying it was 'identical' would go beyond what the passage states.",
+    },
+  ],
+};
