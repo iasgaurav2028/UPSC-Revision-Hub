@@ -20,6 +20,9 @@
 const QUIZ_DATA = {
   "geo6-ch1": QUIZ_geo6_ch1,
   "geo6-ch2": QUIZ_geo6_ch2,
+  "geo6-ch3": QUIZ_geo6_ch3,
+  "geo6-ch4": QUIZ_geo6_ch4,
+
   "ch1-regulating1773": QUIZ_ch1_regulating1773,
   "ch1-amending1781": QUIZ_ch1_amending1781,
   "ch1-pitts1784": QUIZ_ch1_pitts1784,
@@ -38,11 +41,11 @@ const QUIZ_DATA = {
   "ch1-govact1935": QUIZ_ch1_govact1935,
   "ch1-indep1947": QUIZ_ch1_indep1947,
 
-  "ch2-ca-demand": QUIZ_ch2_ca_demand,
-  "ch2-ca-composition": QUIZ_ch2_ca_composition,
-  "ch2-ca-working": QUIZ_ch2_ca_working,
-  "ch2-obj-resolution": QUIZ_ch2_obj_resolution,
-  "ch2-changes-independence-act": QUIZ_ch2_changes_independence_act,
+  "ch2-ca-demand": QUIZ_ca_demand,
+  "ch2-ca-composition": QUIZ_ca_composition,
+  "ch2-ca-working": QUIZ_ca_working,
+  "ch2-obj-resolution": QUIZ_obj_resolution,
+  "ch2-changes-independence-act": QUIZ_changes_independence_act,
   "ch2-committees-major": QUIZ_major_committees,
   "ch2-committees-minor": QUIZ_minor_committees,
   "ch2-committees-drafting": QUIZ_drafting_committees,

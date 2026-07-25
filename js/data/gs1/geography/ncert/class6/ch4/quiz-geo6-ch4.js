@@ -1,0 +1,281 @@
+const QUIZ_geo6_ch4 = {
+  title: "Maps",
+  questions: [
+    {
+      q: "A map is best defined as:",
+      options: [
+        "A three-dimensional model of the Earth",
+        "A representation or drawing of the Earth's surface or a part of it drawn on a flat surface according to a scale",
+        "A drawing based on memory and not to scale",
+        "A collection of satellite photographs of the Earth",
+      ],
+      correct: 1,
+      explain:
+        "A map is a representation/drawing of the Earth's surface or part of it on a flat surface, drawn according to a scale.",
+    },
+    {
+      q: "When many maps are put together, we get a/an:",
+      options: [
+        "Encyclopedia",
+        "Atlas",
+        "Thematic collection",
+        "Survey report",
+      ],
+      correct: 1,
+      explain:
+        "When many maps are put together, we get an Atlas. Atlases are of various sizes, with measurements drawn on different scales.",
+    },
+    {
+      q: "Which of the following correctly lists the three components of a map?",
+      options: [
+        "Scale, Colour, Legend",
+        "Distance (Scale), Direction, Symbol",
+        "Title, Scale, North Arrow",
+        "Latitude, Longitude, Scale",
+      ],
+      correct: 1,
+      explain:
+        "The three components of a map are Distance (Scale), Direction, and Symbol.",
+    },
+    {
+      q: "Maps showing natural features like mountains, plateaus, plains, rivers, and oceans are called:",
+      options: [
+        "Political maps",
+        "Thematic maps",
+        "Physical or relief maps",
+        "Sketch maps",
+      ],
+      correct: 2,
+      explain:
+        "Maps showing natural physical features are called physical or relief maps.",
+    },
+    {
+      q: "Which type of map would show cities, towns, villages, and country/state boundaries?",
+      options: ["Physical map", "Political map", "Thematic map", "Sketch map"],
+      correct: 1,
+      explain:
+        "Political maps show cities, towns, villages, and different countries and states with their boundaries.",
+    },
+    {
+      q: "A rainfall map, a map showing forest distribution, and a road map are all examples of:",
+      options: [
+        "Physical maps",
+        "Political maps",
+        "Thematic maps",
+        "Relief maps",
+      ],
+      correct: 2,
+      explain:
+        "Maps focusing on specific information (rainfall, forests, roads, industries) are called thematic maps — suitable titles based on the specific information are given.",
+    },
+    {
+      q: "Scale is defined as:",
+      options: [
+        "The actual distance between two places on the ground",
+        "The ratio between the actual distance on the ground and the distance shown on the map",
+        "The size of the map relative to a globe",
+        "The number of kilometres represented by one degree of longitude",
+      ],
+      correct: 1,
+      explain:
+        "Scale = ratio of actual ground distance to map distance. It allows you to calculate real-world distances from a map.",
+    },
+    {
+      q: "If a map shows 10 km as 2 cm, what is the scale of the map?",
+      options: ["1 cm = 2 km", "1 cm = 5 km", "1 cm = 10 km", "2 cm = 1 km"],
+      correct: 1,
+      explain: "10 km shown as 2 cm → 1 cm = 5 km. This is the map's scale.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. Small scale maps are used to show large areas like continents or countries.",
+        "II. Large scale maps give more information than small scale maps.",
+        "III. Large scale maps are used to show large areas.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: [
+        "I and II only",
+        "II and III only",
+        "I, II and III",
+        "III only",
+      ],
+      correct: 0,
+      explain:
+        "Statements I and II are correct. Statement III is incorrect — large scale maps show SMALL areas (village, town) with great detail; SMALL scale maps show large areas.",
+    },
+    {
+      q: [
+        "Assertion (A): Large scale maps give more information than small scale maps.",
+        "Reason (R): A large scale map represents a small area in greater detail, while a small scale map covers a large area with less detail per unit area.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R correctly explains A — the more area you cover, the less detail you can show per unit; focusing on a small area (large scale) allows more detail.",
+    },
+    {
+      q: "The arrow marked 'N' at the upper right-hand corner of a map is called the:",
+      options: [
+        "Compass rose",
+        "North line",
+        "Cardinal marker",
+        "Meridian arrow",
+      ],
+      correct: 1,
+      explain:
+        "The arrow marked 'N' showing north direction is called the north line. Knowing north allows you to determine all other directions.",
+    },
+    {
+      q: "The four major directions (North, South, East, West) are collectively called:",
+      options: [
+        "Intermediate directions",
+        "Cardinal points",
+        "Primary meridians",
+        "Compass bearings",
+      ],
+      correct: 1,
+      explain: "The four major directions are called cardinal points.",
+    },
+    {
+      q: [
+        "Consider the following intermediate directions:",
+        "I. NE (North-East)",
+        "II. SE (South-East)",
+        "III. SW (South-West)",
+        "IV. NW (North-West)",
+        "How many of the above are correct intermediate directions?",
+      ],
+      options: ["Only two", "Only three", "All four", "None of the above"],
+      correct: 2,
+      explain:
+        "All four (NE, SE, SW, NW) are the four intermediate directions used alongside the four cardinal points to locate places more accurately.",
+    },
+    {
+      q: "A compass is used to find directions. Which of the following correctly describes its magnetic needle?",
+      options: [
+        "It always points towards the east",
+        "It always points towards the north-south direction",
+        "It rotates freely to show all eight directions simultaneously",
+        "It points towards the geographic South Pole only",
+      ],
+      correct: 1,
+      explain:
+        "The magnetic needle of a compass always points towards the north-south direction, helping determine north (and consequently all other directions).",
+    },
+    {
+      q: "Symbols on maps that have an international agreement and can be understood universally are called:",
+      options: [
+        "Topographic symbols",
+        "Conventional symbols",
+        "Legend symbols",
+        "Thematic symbols",
+      ],
+      correct: 1,
+      explain:
+        "Due to an international agreement, certain standardised symbols are used on maps — these are called conventional symbols, making maps a universal language.",
+    },
+    {
+      q: [
+        "Consider the following pairs (map colour — feature represented):",
+        "I. Blue — Water bodies",
+        "II. Brown — Mountains",
+        "III. Green — Plateau",
+        "IV. Yellow — Plains",
+        "How many of the above pairs are correctly matched?",
+      ],
+      options: [
+        "Only one pair",
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs",
+      ],
+      correct: 1,
+      explain:
+        "Pairs I and II are correctly matched. Pair III is incorrect — Green represents PLAINS (not plateau). Pair IV is incorrect — Yellow represents PLATEAU (not plains). The correct set: Blue=water, Brown=mountains, Yellow=plateau, Green=plains.",
+    },
+    {
+      q: "Which of the following colour conventions for maps is correctly stated?",
+      options: [
+        "Yellow is used for water bodies; blue for plateau",
+        "Brown is used for plains; green for mountains",
+        "Blue is used for water bodies; brown for mountains; yellow for plateau; green for plains",
+        "Green is used for water bodies; yellow for mountains",
+      ],
+      correct: 2,
+      explain:
+        "The correct colour convention: Blue = water bodies, Brown = mountains, Yellow = plateau, Green = plains.",
+    },
+    {
+      q: "A sketch is best defined as:",
+      options: [
+        "A map drawn to an accurate scale",
+        "A plan of a small area drawn on a large scale",
+        "A drawing mainly based on memory and spot observation, NOT to scale",
+        "A satellite image of a region",
+      ],
+      correct: 2,
+      explain:
+        "A sketch is drawn mainly from memory and spot observation, and is NOT to scale. A rough drawing of an area showing location relative to other places is called a sketch map.",
+    },
+    {
+      q: "A plan differs from a map primarily in that a plan:",
+      options: [
+        "Is not drawn to scale",
+        "Is a drawing of a small area on a large scale, showing detailed measurements",
+        "Shows only physical features, not administrative boundaries",
+        "Can only be drawn for entire countries",
+      ],
+      correct: 1,
+      explain:
+        "A plan is a drawing of a SMALL area on a LARGE scale — it shows detailed measurements (like length and breadth of a room) that cannot be shown on a regular map.",
+    },
+    {
+      q: [
+        "Read the following passage:",
+        "'With the use of these symbols, maps can be drawn easily and are simple to read. Even if you don't know the language of an area and therefore cannot ask someone for directions, you can collect information from maps with the help of these symbols. Maps have a universal language that can be understood by all. There is an international agreement regarding the use of these symbols. These are called conventional symbols.'",
+        "Which of the following is most directly supported by this passage?",
+      ],
+      options: [
+        "Conventional symbols must be translated before use in different countries",
+        "Conventional symbols make maps a universal information tool, transcending language barriers",
+        "Only trained geographers can understand conventional symbols",
+        "Conventional symbols differ from country to country with no international agreement",
+      ],
+      correct: 1,
+      explain:
+        "The passage explicitly states that symbols allow maps to be understood even without knowing the local language, and that they are governed by international agreement — making them universally comprehensible.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. A globe is more useful than a map when studying only a specific district or town.",
+        "II. Maps provide more information than a globe for specific areas.",
+        "III. It is impossible to completely flatten a round shape without some distortion.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I and II only", "II and III only", "I, II and III", "I only"],
+      correct: 1,
+      explain:
+        "Statements II and III are correct. Statement I is incorrect — a GLOBE is useful for studying the Earth as a whole; MAPS are more useful for studying specific parts like a district or town.",
+    },
+    {
+      q: "Which of the following correctly describes the difference between a 'small scale map' and a 'large scale map' with examples from the chapter?",
+      options: [
+        "Small scale: 5 cm = 500 metres (village); Large scale: 5 cm = 500 km (country)",
+        "Small scale: 5 cm = 500 km (continents/countries); Large scale: 5 cm = 500 metres (village/town)",
+        "Both types show the same area with equal detail",
+        "Small scale maps are always older than large scale maps",
+      ],
+      correct: 1,
+      explain:
+        "The chapter's examples: small scale — 5 cm on map = 500 km (for large areas like continents); large scale — 5 cm on map = 500 metres (for small areas like villages).",
+    },
+  ],
+};
