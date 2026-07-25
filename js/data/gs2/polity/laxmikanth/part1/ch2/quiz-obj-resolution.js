@@ -1,5 +1,5 @@
 // Quiz for: ch2 (Objectives Resolution) — 20 questions, UPSC Prelims-style
-const QUIZ_ch2_obj_resolution = {
+const QUIZ_obj_resolution = {
   title: "Objectives Resolution",
   questions: [
     {

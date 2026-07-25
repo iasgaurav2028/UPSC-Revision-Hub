@@ -2,7 +2,7 @@
 // GS2 › Polity › Laxmikanth › Part I › Chapter 2 › Making of the Constitution
 // Topic: Demand for a Constituent Assembly (1934 → Cabinet Mission 1946)
 // ═══════════════════════════════════════════════════════════
-const DATA_ch2_ca_demand = {
+const DATA_ca_demand = {
   id: "ch2-ca-demand",
   title: "Demand for a Constituent Assembly",
   icon: "🏛",

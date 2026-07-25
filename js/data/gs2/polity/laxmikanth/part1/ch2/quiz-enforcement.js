@@ -1,4 +1,4 @@
-const QUIZ_ch2_enforcement = {
+const QUIZ_enforcement = {
   title: "Enforcement of the Constitution",
   questions: [
     {

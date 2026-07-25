@@ -1,5 +1,5 @@
 // GS2 › Polity › Laxmikanth › Part I › Chapter 2: Objectives Resolution
-const DATA_ch2_obj_resolution = {
+const DATA_obj_resolution = {
   id: "ch2-obj-resolution",
   title: "Objectives Resolution",
   icon: "📜",

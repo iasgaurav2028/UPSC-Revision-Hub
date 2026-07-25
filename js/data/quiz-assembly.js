@@ -48,6 +48,9 @@ const QUIZ_DATA = {
   "ch2-committees-drafting": QUIZ_drafting_committees,
   "ch2-criticism": QUIZ_criticism,
   "ch2-important-facts": QUIZ_important_facts,
+  "ch2-enactment": QUIZ_enactment,
+  "ch2-enforcement": QUIZ_enforcement,
+  "ch2-congress-experts": QUIZ_congress_experts,
 
   "news-budget-2025": QUIZ_news_budget_2025,
   "news-budget-2026": QUIZ_news_budget_2026,

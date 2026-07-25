@@ -2,7 +2,7 @@
 // GS2 › Polity › Laxmikanth › Part I › Chapter 2 › Making of the Constitution
 // Topic: Composition of the Constituent Assembly (Cabinet Mission scheme, Nov 1946)
 // ═══════════════════════════════════════════════════════════
-const DATA_ch2_ca_composition = {
+const DATA_ca_composition = {
   id: "ch2-ca-composition",
   title: "Composition of the Constituent Assembly",
   icon: "🏛",

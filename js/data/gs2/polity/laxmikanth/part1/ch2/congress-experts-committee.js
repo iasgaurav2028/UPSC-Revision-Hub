@@ -1,4 +1,4 @@
-const DATA_ch2_congress_experts = {
+const DATA_congress_experts = {
   id: "ch2-congress-experts",
   title: "Congress Experts Committee",
   subtitle: "The Committee That Set India on the Road to Its Constitution",

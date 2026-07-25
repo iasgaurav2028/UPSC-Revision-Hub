@@ -1,4 +1,4 @@
-const QUIZ_ch2_congress_experts = {
+const QUIZ_congress_experts = {
   title: "Congress Experts Committee",
   questions: [
     {

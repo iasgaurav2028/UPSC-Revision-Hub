@@ -1,4 +1,4 @@
-const DATA_ch2_enforcement = {
+const DATA_enforcement = {
   id: "ch2-enforcement",
   title: "Enforcement of the Constitution",
   subtitle: "26 Nov 1949 vs 26 Jan 1950 — Key Distinctions",

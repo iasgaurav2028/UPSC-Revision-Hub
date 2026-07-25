@@ -2,7 +2,7 @@
 // GS2 › Polity › Laxmikanth › Part I › Chapter 2 › Making of the Constitution
 // Topic: Working of the Constituent Assembly (first meeting → dual functions)
 // ═══════════════════════════════════════════════════════════
-const DATA_ch2_ca_working = {
+const DATA_ca_working = {
   id: "ch2-ca-working",
   title: "Working of the Constituent Assembly",
   icon: "🏛",

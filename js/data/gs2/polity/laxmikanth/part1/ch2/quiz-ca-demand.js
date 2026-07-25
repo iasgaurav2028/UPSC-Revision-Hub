@@ -1,5 +1,5 @@
 // Quiz for: ch2-ca-demand (27 questions, UPSC Prelims-style)
-const QUIZ_ch2_ca_demand = {
+const QUIZ_ca_demand = {
   title: "Demand for a Constituent Assembly",
   questions: [
     {

@@ -1,5 +1,5 @@
 // Quiz for: ch2-ca-composition (30 questions, UPSC Prelims-style)
-const QUIZ_ch2_ca_composition = {
+const QUIZ_ca_composition = {
   title: "Composition of the Constituent Assembly",
   questions: [
     {

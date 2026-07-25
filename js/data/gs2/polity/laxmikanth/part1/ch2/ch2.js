@@ -8,15 +8,18 @@ const DATA_ch2 = {
   icon: "📚",
   isChapter: true, // marks this as a Prev/Next navigation boundary
   children: [
-    DATA_ch2_ca_demand,
-    DATA_ch2_ca_composition,
-    DATA_ch2_ca_working,
-    DATA_ch2_obj_resolution,
-    DATA_ch2_changes_independence_act,
+    DATA_ca_demand,
+    DATA_ca_composition,
+    DATA_ca_working,
+    DATA_obj_resolution,
+    DATA_changes_independence_act,
     DATA_major_committees,
     DATA_minor_committees,
     DATA_drafting_committees,
     DATA_criticism,
     DATA_important_facts,
+    DATA_enactment,
+    DATA_enforcement,
+    DATA_congress_experts,
   ],
 };

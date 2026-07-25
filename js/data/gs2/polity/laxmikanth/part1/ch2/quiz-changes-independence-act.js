@@ -1,5 +1,5 @@
 // Quiz for: ch2-changes-independence-act — 20 questions, UPSC Prelims-style
-const QUIZ_ch2_changes_independence_act = {
+const QUIZ_changes_independence_act = {
   title: "Changes by the Independence Act",
   questions: [
     {

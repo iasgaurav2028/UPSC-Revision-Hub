@@ -1,5 +1,5 @@
 // GS2 › Polity › Laxmikanth › Part I › Chapter 2: Changes by the Independence Act
-const DATA_ch2_changes_independence_act = {
+const DATA_changes_independence_act = {
   id: "ch2-changes-independence-act",
   title: "Changes by the Independence Act",
   subtitle: "Sovereignty, Dual Role & Other Functions",

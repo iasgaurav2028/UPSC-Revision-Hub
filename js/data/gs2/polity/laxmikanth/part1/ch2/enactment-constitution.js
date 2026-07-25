@@ -1,4 +1,4 @@
-const DATA_ch2_enactment = {
+const DATA_enactment = {
   id: "ch2-enactment",
   title: "Enactment of the Constitution",
   subtitle: "Three Readings & Ambedkar's Role",

@@ -1,5 +1,5 @@
 // Quiz for: ch2-ca-working (18 questions, UPSC Prelims-style)
-const QUIZ_ch2_ca_working = {
+const QUIZ_ca_working = {
   title: "Working of the Constituent Assembly",
   questions: [
     {
