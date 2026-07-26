@@ -28,6 +28,10 @@ const QUIZ_DATA = {
   "geo7-ch1": QUIZ_geo7_ch1,
   "geo7-ch2": QUIZ_geo7_ch2,
   "geo7-ch3": QUIZ_geo7_ch3,
+  "geo7-ch4": QUIZ_geo7_ch4,
+  "geo7-ch5": QUIZ_geo7_ch5,
+  "geo7-ch6": QUIZ_geo7_ch6,
+  "geo7-ch7": QUIZ_geo7_ch7,
 
   "ch1-regulating1773": QUIZ_ch1_regulating1773,
   "ch1-amending1781": QUIZ_ch1_amending1781,
