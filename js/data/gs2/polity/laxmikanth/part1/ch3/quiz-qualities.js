@@ -1,0 +1,218 @@
+const QUIZ_qualities = {
+  title: "Qualities of a Good Constitution",
+  questions: [
+    {
+      q: "How many qualities of a good constitution are discussed in the chapter?",
+      options: ["5", "6", "7", "8"],
+      correct: 2,
+      explain:
+        "The chapter discusses exactly 7 qualities: Brevity, Clarity, Definiteness, Comprehensiveness, Suitability, Stability, and Adaptability.",
+    },
+    {
+      q: "'A constitution should be dynamic and not static. It should be able to adapt itself to changing situations and requirements. It should be a living document.' This describes which quality?",
+      options: ["Stability", "Clarity", "Suitability", "Adaptability"],
+      correct: 3,
+      explain:
+        "This describes Adaptability — the quality that a constitution should be a living document capable of evolving with changing circumstances, not a static text frozen at the time of drafting.",
+    },
+    {
+      q: "The quality of 'Definiteness' is important because ambiguous and different meanings in a constitution would:",
+      options: [
+        "Make the constitution more democratic",
+        "Increase the discretion of the judges in interpretation",
+        "Reduce the scope for controversies and litigations",
+        "Strengthen the obedience of citizens to the constitution",
+      ],
+      correct: 1,
+      explain:
+        "The chapter explicitly states: 'The ambiguous and different meanings would increase the discretion of the judges in their interpretation.' Definiteness reduces judicial overreach by giving provisions clear, unambiguous meaning.",
+    },
+    {
+      q: "Which quality of a good constitution directly addresses the need for the constitution to be suitable to the historical, socio-cultural, economic and political conditions of the nation?",
+      options: ["Brevity", "Comprehensiveness", "Suitability", "Stability"],
+      correct: 2,
+      explain:
+        "Suitability requires the constitution to reflect the needs and aspirations of the people AND be suitable to the historical, socio-cultural, economic and political conditions of the nation — contextual groundedness.",
+    },
+    {
+      q: [
+        "Assertion (A): Brevity and Comprehensiveness are the most inherently contradictory qualities among the seven.",
+        "Reason (R): A brief constitution cannot cover all necessary provisions, while a comprehensive constitution necessarily becomes lengthy — they pull in opposite directions.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R correctly explains A — Brevity (keep it short) and Comprehensiveness (cover everything) are inherently in tension. India chose comprehensiveness; the USA chose brevity. Neither can be maximised simultaneously.",
+    },
+    {
+      q: "The quality of 'Stability' requires that the constitution should NOT allow easy tampering. In India, this is primarily achieved through:",
+      options: [
+        "A complete prohibition on constitutional amendments after adoption",
+        "The three-tier amendment procedure under Article 368 — with some provisions requiring special majority and state ratification",
+        "The President's absolute veto power over all constitutional amendments",
+        "The requirement that all amendments be approved by the Supreme Court",
+      ],
+      correct: 1,
+      explain:
+        "India's Article 368 provides a graduated (three-tier) amendment procedure: (1) simple majority for some schedules, (2) special majority for most provisions, (3) special majority + ratification by at least half the State legislatures for specific provisions — providing stability without total rigidity.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Quality — Effect of its ABSENCE on a constitution):",
+        "I. Clarity — Reduced understanding and accessibility of the constitution",
+        "II. Brevity — Confusion in interpretation of clauses",
+        "III. Suitability — Constitution fails to reflect the needs and conditions of the people",
+        "IV. Definiteness — Citizens obey the constitution more readily",
+        "How many of the above pairs are correctly matched?",
+      ],
+      options: [
+        "Only two pairs",
+        "Only three pairs",
+        "All four pairs",
+        "Only one pair",
+      ],
+      correct: 1,
+      explain:
+        "Pairs I, II, and III are correctly matched. Pair IV is INCORRECT — Definiteness's absence increases judicial discretion; Stability (not Definiteness) strengthens citizens' obedience to the constitution.",
+    },
+    {
+      q: "The 'living document' concept, associated with the quality of Adaptability, is best exemplified in Indian constitutional history by:",
+      options: [
+        "The adoption of the original Constitution text in 1949, which has never been interpreted beyond its literal meaning",
+        "The Supreme Court's progressive expansion of Article 21 to include rights like privacy, livelihood, clean environment, and speedy trial over decades",
+        "The rigidity of the Basic Structure Doctrine which prevents all constitutional change",
+        "The Constitution's specific enumeration of all future rights in Article 13",
+      ],
+      correct: 1,
+      explain:
+        "The Supreme Court's progressive expansion of Article 21 (Right to Life) — to include right to privacy (K.S. Puttaswamy, 2017), right to livelihood (Olga Tellis), right to education, right to clean environment, right to speedy trial — is the clearest 'living document' example.",
+    },
+    {
+      q: "Which of the following statements about the qualities of a good constitution is INCORRECT?",
+      options: [
+        "Brevity requires a constitution to be precise and avoid unwanted provisions",
+        "Comprehensiveness reduces the scope for controversies and litigations by covering all major areas",
+        "Adaptability means the constitution should be rigid to prevent arbitrary changes",
+        "Suitability requires the constitution to reflect the historical and socio-cultural conditions of the nation",
+      ],
+      correct: 2,
+      explain:
+        "This is incorrect — Adaptability means the constitution should be DYNAMIC (not rigid). Rigidity preventing arbitrary change is the description of STABILITY, not Adaptability. The two are distinct and complementary qualities.",
+    },
+    {
+      q: "India's choice to draft the 'world's longest written constitution' reflects a prioritisation of which quality OVER another?",
+      options: [
+        "Stability over Adaptability",
+        "Comprehensiveness over Brevity",
+        "Definiteness over Clarity",
+        "Suitability over Stability",
+      ],
+      correct: 1,
+      explain:
+        "India chose COMPREHENSIVENESS (covering all major aspects of governance, rights, federalism, minorities, etc.) over BREVITY — resulting in the world's longest written constitution. The USA, by contrast, chose brevity, resulting in a very short constitution with gaps filled by judicial interpretation.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. A constitution that is too brief may create ambiguities that require extensive judicial interpretation.",
+        "II. A constitution that is too detailed may create confusion in interpretation of its clauses.",
+        "III. The USA adopted a detailed, comprehensive constitution while India adopted a brief one.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "I and II only", "II and III only", "I, II and III"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is INCORRECT — it is the OPPOSITE: USA adopted a BRIEF constitution (7 Articles + 27 Amendments); India adopted a COMPREHENSIVE/DETAILED constitution (originally 395 Articles, 8 Schedules — world's longest written constitution).",
+    },
+    {
+      q: "The correct mnemonic/memory aid for the 7 qualities of a good constitution (Brevity, Clarity, Definiteness, Comprehensiveness, Suitability, Stability, Adaptability) can be represented as:",
+      options: ["BC DCS A", "ABS CDC", "CDS BAC", "SAB CDA"],
+      correct: 0,
+      explain:
+        "'BC DCS A' — Brevity, Clarity | Definiteness, Comprehensiveness, Suitability | Stability, Adaptability — represents the 7 qualities in the order given in the chapter.",
+    },
+    {
+      q: [
+        "Assertion (A): Stability and Adaptability are the second most important pair of contradictory qualities in a constitution.",
+        "Reason (R): A constitution that is too stable (rigid) cannot adapt to changing social needs, while one that is too adaptable (flexible) can be easily manipulated for partisan purposes.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R correctly explains A — the stability-adaptability tension mirrors the rigidity-flexibility classification of constitutions. India's three-tier amendment (Article 368) + Basic Structure Doctrine attempts to balance both: stable enough to prevent manipulation, adaptable enough for genuine reform.",
+    },
+    {
+      q: [
+        "Read the following passage from the chapter:",
+        "'A constitution should facilitate political stability and should not allow easy tampering. This would strengthen the obedience of the citizens to the constitution.'",
+        "This passage is describing which quality?",
+      ],
+      options: ["Suitability", "Adaptability", "Stability", "Definiteness"],
+      correct: 2,
+      explain:
+        "This describes Stability — the quality that a constitution should resist easy tampering to maintain political stability and ensure citizens' respect for and obedience to the constitutional order.",
+    },
+    {
+      q: [
+        "The quality of 'Comprehensiveness' specifically requires a constitution to comprehensively cover:",
+        "I. The powers of the government",
+        "II. The rights and duties of citizens",
+        "III. The foreign policy positions of the state",
+        "IV. The procedure for constitutional amendments",
+        "Select the correct answer:",
+      ],
+      options: [
+        "I and II only",
+        "I, II and IV only",
+        "I, II, III and IV",
+        "II and IV only",
+      ],
+      correct: 0,
+      explain:
+        "The chapter specifically states comprehensiveness means covering: 'the powers of the government as well as the rights and duties of the citizens.' Foreign policy positions and amendment procedures may be included in a constitution but are NOT part of the chapter's definition of comprehensiveness.",
+    },
+    {
+      q: "Which of the following correctly explains why 'Clarity' is listed as a separate quality from 'Definiteness'?",
+      options: [
+        "They are actually the same quality mentioned twice",
+        "Clarity relates to LANGUAGE (clear terms vs complicated language); Definiteness relates to MEANING (one definite meaning vs ambiguous interpretations)",
+        "Clarity is for courts; Definiteness is for citizens",
+        "Clarity applies to rights provisions; Definiteness applies to institutional provisions",
+      ],
+      correct: 1,
+      explain:
+        "Clarity and Definiteness are distinct: Clarity is about the LANGUAGE being simple and clear (vs complicated), so citizens can understand it. Definiteness is about MEANING being unambiguous (vs ambiguous), so judges have limited discretion in interpretation. One is about language; the other is about meaning.",
+    },
+    {
+      q: [
+        "The quality of 'Suitability' is most directly relevant to debates about India's Constitution because:",
+        "I. India's Constitution was drafted after 200+ years of colonial rule, requiring specific provisions against authoritarian governance.",
+        "II. India's massive diversity (linguistic, religious, ethnic, regional) required specific constitutional responses unlike any Western model.",
+        "III. India simply copied the British Constitution as it was the most suitable model available.",
+        "IV. India's post-independence economic underdevelopment required strong DPSP provisions committing the state to social goals.",
+        "Select the correct answer:",
+      ],
+      options: [
+        "I, II and IV only",
+        "II and III only",
+        "I, II, III and IV",
+        "I and IV only",
+      ],
+      correct: 0,
+      explain:
+        "Statements I, II, and IV are correct. Statement III is INCORRECT — India did NOT copy the British Constitution; it drew from ~60 constitutions and tailored provisions to India's specific historical, cultural, and social conditions — precisely the exercise of 'Suitability'.",
+    },
+  ],
+};

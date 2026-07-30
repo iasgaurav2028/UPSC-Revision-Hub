@@ -65,8 +65,16 @@ const QUIZ_DATA = {
   "ch2-enforcement": QUIZ_enforcement,
   "ch2-congress-experts": QUIZ_congress_experts,
 
+  "ch3-meaning": QUIZ_meaning,
+  "ch3-functions": QUIZ_functions,
+  "ch3-qualities": QUIZ_qualities,
+  "ch3-classification": QUIZ_classification,
+  "ch3-constitutionalism": QUIZ_constitutionalism,
+
   "news-budget-2025": QUIZ_news_budget_2025,
   "news-budget-2026": QUIZ_news_budget_2026,
   "news-budget-static": QUIZ_news_budget_static,
   "news-budget-priority-groups": QUIZ_news_budget_priority_groups,
+
+  "news-2026-07-26-rice-methane": QUIZ_news_rice_methane,
 };

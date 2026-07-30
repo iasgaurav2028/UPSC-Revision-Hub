@@ -4,5 +4,5 @@ const DATA_lax_part1 = {
   title: "Part I",
   subtitle: "Constitutional Framework",
   icon: "📖",
-  children: [DATA_ch1, DATA_ch2],
+  children: [DATA_ch1, DATA_ch2, DATA_ch3],
 };
