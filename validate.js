@@ -37,10 +37,10 @@
  * WARN-level issues are printed but don't fail the run.
  */
 
-const fs = require("fs");
 const path = require("path");
-const vm = require("vm");
-const { scanDataFiles, topoSortFiles } = require("./scan-data.js");
+const { scanDataFiles, topoSortFiles, loadDataObjects } = require(
+  "./scan-data.js",
+);
 
 const root = __dirname;
 const dataDir = path.join(root, "js", "data");
@@ -102,7 +102,7 @@ function main() {
   // ── Step 3: actually load everything into a sandbox to inspect the tree ──
   let sandbox;
   try {
-    sandbox = loadIntoSandbox(sorted);
+    sandbox = loadDataObjects(sorted);
   } catch (e) {
     err("Runtime error while loading data files: " + e.message);
     printResultsAndExit();
@@ -240,65 +240,6 @@ function main() {
   );
 
   printResultsAndExit();
-}
-
-/** Load the sorted data files into an isolated VM sandbox and return TREE_DATA/QUIZ_DATA. (engine.js is not needed for validation — it only renders, it doesn't define TREE_DATA/QUIZ_DATA.) */
-function loadIntoSandbox(sortedRecords) {
-  let combined = "";
-  for (const r of sortedRecords)
-    combined += fs.readFileSync(r.path, "utf8") + "\n";
-
-  const sandbox = {
-    console,
-    document: {
-      createElement: () => ({
-        style: {},
-        addEventListener() {},
-        textContent: "",
-        get innerHTML() {
-          return this.textContent;
-        },
-        set innerHTML(v) {
-          this._h = v;
-        },
-      }),
-      getElementById: () => ({
-        addEventListener() {},
-        style: {},
-        classList: { add() {}, remove() {}, contains: () => false },
-        innerHTML: "",
-        textContent: "",
-        value: "",
-        querySelectorAll: () => [],
-      }),
-      querySelectorAll: () => [],
-      querySelector: () => ({
-        scrollTop: 0,
-        classList: { add() {}, remove() {}, contains: () => false },
-      }),
-      addEventListener: () => {},
-      documentElement: {},
-      fullscreenElement: null,
-      webkitFullscreenElement: null,
-      exitFullscreen: () => Promise.resolve(),
-    },
-    localStorage: {
-      getItem: () => null,
-      setItem: () => {},
-      removeItem: () => {},
-    },
-  };
-  sandbox.window = sandbox;
-  vm.createContext(sandbox);
-
-  // Top-level `const TREE_DATA`/`const QUIZ_DATA` inside a vm context create
-  // LEXICAL bindings, not properties on the sandbox object — so we can't
-  // read sandbox.TREE_DATA afterwards. Instead, run the data files, then
-  // in the SAME context evaluate an expression that returns them together.
-  vm.runInContext(combined, sandbox);
-  const result = vm.runInContext("({ TREE_DATA, QUIZ_DATA })", sandbox);
-
-  return result;
 }
 
 function printResultsAndExit() {

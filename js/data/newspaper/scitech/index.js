@@ -3,5 +3,5 @@ const DATA_news_scitech = {
   id: "news-scitech",
   title: "Science & Technology",
   icon: "🔬",
-  children: [],
+  children: [DATA_news_ondevice_ai],
 };

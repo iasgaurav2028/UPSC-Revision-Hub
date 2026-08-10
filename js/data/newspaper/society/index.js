@@ -3,5 +3,5 @@ const DATA_news_society = {
   id: "news-society",
   title: "Society",
   icon: "👥",
-  children: [],
+  children: [DATA_news_education_collapse],
 };

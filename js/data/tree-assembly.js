@@ -17,4 +17,5 @@ const TREE_DATA = [
   DATA_gs4,
   DATA_essay,
   DATA_newspaper,
+  DATA_quickrecall,
 ];

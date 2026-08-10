@@ -21,6 +21,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const vm = require("vm");
 
 /** Recursively list every .js file under a directory. */
 function walkJsFiles(dir) {
@@ -119,7 +120,7 @@ function topoSortFiles(records) {
       if (!depPath) {
         throw new Error(
           `Unresolved reference: "${refName}" is used in ${relPath} but no file declares it.\n` +
-            `  (Check for a typo, or a missing/not-yet-created file.)`,
+          `  (Check for a typo, or a missing/not-yet-created file.)`,
         );
       }
       if (depPath !== relPath) visit(depPath, chain.concat(relPath));
@@ -135,4 +136,74 @@ function topoSortFiles(records) {
   return order.map((relPath) => byPath[relPath]);
 }
 
-module.exports = { walkJsFiles, scanDataFiles, topoSortFiles };
+/**
+ * Load a list of topo-sorted file records into an isolated VM sandbox
+ * and return the assembled `{ TREE_DATA, QUIZ_DATA }`.
+ *
+ * The data files are pure data, but a few touch a minimal document/
+ * localStorage API at load time, so we provide harmless stubs. Both
+ * build-bundle.js and validate.js use this — keep the single source of
+ * truth here so the two never drift apart.
+ *
+ * Note: top-level `const TREE_DATA`/`const QUIZ_DATA` inside a vm context
+ * create LEXICAL bindings, not properties on the sandbox object — so we
+ * run the files, then evaluate an expression in the SAME context that
+ * returns them together.
+ */
+function loadDataObjects(sortedRecords) {
+  let combined = "";
+  for (const r of sortedRecords)
+    combined += fs.readFileSync(r.path, "utf8") + "\n";
+
+  const sandbox = {
+    console,
+    document: {
+      createElement: () => ({
+        style: {},
+        addEventListener() { },
+        textContent: "",
+        get innerHTML() {
+          return this.textContent;
+        },
+        set innerHTML(v) {
+          this._h = v;
+        },
+      }),
+      getElementById: () => ({
+        addEventListener() { },
+        style: {},
+        classList: { add() { }, remove() { }, contains: () => false },
+        innerHTML: "",
+        textContent: "",
+        value: "",
+        querySelectorAll: () => [],
+      }),
+      querySelectorAll: () => [],
+      querySelector: () => ({
+        scrollTop: 0,
+        classList: { add() { }, remove() { }, contains: () => false },
+      }),
+      addEventListener: () => { },
+      documentElement: {},
+      fullscreenElement: null,
+      webkitFullscreenElement: null,
+      exitFullscreen: () => Promise.resolve(),
+    },
+    localStorage: {
+      getItem: () => null,
+      setItem: () => { },
+      removeItem: () => { },
+    },
+  };
+  sandbox.window = sandbox;
+  vm.createContext(sandbox);
+  vm.runInContext(combined, sandbox);
+  return vm.runInContext("({ TREE_DATA, QUIZ_DATA })", sandbox);
+}
+
+module.exports = {
+  walkJsFiles,
+  scanDataFiles,
+  topoSortFiles,
+  loadDataObjects,
+};

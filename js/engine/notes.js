@@ -501,16 +501,25 @@ function renderStandardNote(node) {
   html += `<div class="two-col-cell"><div class="section-title">⚠ Prelims Traps</div><div class="trap-box">`;
   (n.traps || []).forEach((t) => {
     html += `<div class="trap-item"><span class="t-icon">✗</span><div>`;
-    html += `<div class="t-label">${esc(t.label)}</div>`;
-    t.lines.forEach((line) => {
-      html += `<div class="t-line">${esc(line)}</div>`;
-    });
+    if (typeof t === "string") {
+      // Simple shape: a plain trap line.
+      html += `<div class="t-line">${esc(t)}</div>`;
+    } else {
+      // Structured shape: { label, lines: [ ... ] }.
+      if (t.label) html += `<div class="t-label">${esc(t.label)}</div>`;
+      (t.lines || []).forEach((line) => {
+        html += `<div class="t-line">${esc(line)}</div>`;
+      });
+    }
     html += `</div></div>`;
   });
   html += `</div></div>`;
 
   html += `<div class="two-col-cell"><div class="section-title">✍ Mains Angle</div><div class="mains-box">`;
-  html += `<div class="mains-quote">&ldquo;${esc(n.mainsAngle || "")}&rdquo;</div>`;
+  const stdMainsAngle = Array.isArray(n.mainsAngle)
+    ? n.mainsAngle.join(" ")
+    : n.mainsAngle || "";
+  html += `<div class="mains-quote">&ldquo;${esc(stdMainsAngle)}&rdquo;</div>`;
   html += `<div class="mains-theme-label">Key Theme</div>`;
   html += `<div class="mains-theme">${esc(n.mainsTheme || "")}</div>`;
   html += `</div></div>`;
@@ -611,8 +620,27 @@ function renderNewsArticleNote(node) {
   if (n.keyPoints && n.keyPoints.length) {
     html += `<div class="section-title">🔎 Key Points</div><div class="features">`;
     n.keyPoints.forEach((kp) => {
-      html += `<div class="feature-row"><div class="fkey">${esc(kp.key)}</div><div>`;
-      html += `<div class="fval-line first">${esc(kp.detail)}</div>`;
+      const label = kp.key || kp.heading || "";
+      html += `<div class="feature-row"><div class="fkey">${esc(label)}</div><div>`;
+      if (Array.isArray(kp.points)) {
+        // Rich shape: { heading, points: [ ... ] }
+        kp.points.forEach((p, j) => {
+          html += `<div class="fval-line ${j === 0 ? "first" : ""}">${esc(p)}</div>`;
+        });
+      } else {
+        // Compact shape: { key, detail }
+        html += `<div class="fval-line first">${esc(kp.detail || "")}</div>`;
+      }
+      html += `</div></div>`;
+    });
+    html += `</div>`;
+  }
+
+  if (n.importantTerms && n.importantTerms.length) {
+    html += `<div class="section-title">📚 Important Terms</div><div class="features">`;
+    n.importantTerms.forEach((t) => {
+      html += `<div class="feature-row"><div class="fkey">${esc(t.term)}</div><div>`;
+      html += `<div class="fval-line first">${esc(t.explanation)}</div>`;
       html += `</div></div>`;
     });
     html += `</div>`;
@@ -624,18 +652,37 @@ function renderNewsArticleNote(node) {
     html += `</div>`;
   }
 
-  if ((n.prelimsPoints && n.prelimsPoints.length) || n.mainsAngle) {
+  if (n.mainsAnswerNotes && n.mainsAnswerNotes.length) {
+    html += `<div class="section-title">✍ Mains Answer Notes</div><div class="sig-box">`;
+    n.mainsAnswerNotes.forEach((m, i) => {
+      html += `<div class="sig-item"><span class="sig-num">${CIRCLED[i] || i + 1 + "."}</span><span class="sig-text">${esc(m)}</span></div>`;
+    });
+    html += `</div>`;
+  }
+
+  // Prelims list can arrive as `prelimsPoints` (compact notes) or `prelims`
+  // (rich news articles). Mains angle can be a string or an array.
+  const newsPrelims =
+    n.prelimsPoints && n.prelimsPoints.length
+      ? n.prelimsPoints
+      : n.prelims && n.prelims.length
+        ? n.prelims
+        : null;
+  if ((newsPrelims && newsPrelims.length) || n.mainsAngle) {
     html += `<div class="two-col">`;
-    if (n.prelimsPoints && n.prelimsPoints.length) {
+    if (newsPrelims && newsPrelims.length) {
       html += `<div class="two-col-cell"><div class="section-title">⚠ Prelims Pointers</div><div class="trap-box">`;
-      n.prelimsPoints.forEach((p) => {
+      newsPrelims.forEach((p) => {
         html += `<div class="trap-item"><span class="t-icon">•</span><div class="t-line">${esc(p)}</div></div>`;
       });
       html += `</div></div>`;
     }
     if (n.mainsAngle) {
+      const mainsText = Array.isArray(n.mainsAngle)
+        ? n.mainsAngle.join(" ")
+        : n.mainsAngle;
       html += `<div class="two-col-cell"><div class="section-title">✍ Mains Angle</div><div class="mains-box">`;
-      html += `<div class="mains-quote">&ldquo;${esc(n.mainsAngle)}&rdquo;</div>`;
+      html += `<div class="mains-quote">&ldquo;${esc(mainsText)}&rdquo;</div>`;
       if (n.mainsGS) {
         html += `<div class="mains-theme-label">Likely GS Paper</div><div class="mains-theme">${esc(n.mainsGS)}</div>`;
       }
@@ -800,9 +847,8 @@ function openPrevChapterConfirm(currentChapter, prevChapter, targetLeaf) {
   const goBtn = document.getElementById("prevChapterGoBtn");
   if (!overlay || !sub || !goBtn) return;
 
-  sub.innerHTML = `This takes you back to <strong>${esc(prevChapter.title)}</strong>${
-    prevChapter.subtitle ? " — " + esc(prevChapter.subtitle) : ""
-  }, opening its last topic <strong>${esc(targetLeaf.title)}</strong>.`;
+  sub.innerHTML = `This takes you back to <strong>${esc(prevChapter.title)}</strong>${prevChapter.subtitle ? " — " + esc(prevChapter.subtitle) : ""
+    }, opening its last topic <strong>${esc(targetLeaf.title)}</strong>.`;
 
   goBtn.onclick = () => {
     overlay.classList.remove("active");

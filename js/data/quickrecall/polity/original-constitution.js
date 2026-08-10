@@ -1,0 +1,80 @@
+const DATA_qr_original_constitution = {
+  id: "qr-original-constitution",
+  title: "The Original Constitution",
+  subtitle: "Calligraphy, Artwork & Preservation Facts",
+  icon: "📜",
+  isLeaf: true,
+  notes: {
+    era: "Quick Recall — Polity & Governance",
+    significance: [
+      "Facts about the handwritten Constitution — calligraphers, artists and preservation — are popular Prelims and interview trivia",
+      "The adoption date and the time taken to frame the Constitution are frequently confused with the enforcement date, making them classic trap questions",
+      "The artwork linking the Constitution to India's civilisational heritage is a useful Essay and Mains illustration",
+    ],
+    features: [
+      {
+        key: "Handwritten in two languages",
+        main: "The original Constitution was HANDWRITTEN (not printed) in two languages — English and Hindi. The English version was calligraphed by PREM BIHARI NARAIN RAIZADA in flowing italic style; the Hindi version was written by VASANT KRISHNA VAIDYA.",
+        note: "Prem Bihari Narain Raizada charged no fee; he only asked that his name and his grandfather's name appear on each page.",
+      },
+      {
+        key: "Drafting Committee",
+        main: "The Constitution was drafted by the Drafting Committee, headed by Dr. B. R. AMBEDKAR, known as the 'Father of the Indian Constitution'.",
+        note: "The Drafting Committee had 7 members.",
+      },
+      {
+        key: "Artwork and decoration",
+        main: "The pages were decorated by artists from SHANTINIKETAN, led by NANDALAL BOSE. The beautification of the Preamble and calligraphic borders of the Hindi version were done by BEOHAR RAMMANOHAR SINHA. The illustrations depict scenes from India's history — Mohenjo-daro seals, the Vedic period, Ajanta paintings, the Gupta and Maurya eras, and the freedom movement.",
+        note: "The art connects the document to India's civilisational journey.",
+      },
+      {
+        key: "Preservation",
+        main: "The original copies are preserved in special helium-filled (with nitrogen) cases in the Library of the Parliament of India, New Delhi, to protect them from decay.",
+        note: "Flag moth-balls and controlled conditions are used for preservation.",
+      },
+      {
+        key: "Key dates and records",
+        main: "The Constitution took 2 years, 11 months and 18 days to complete. It was ADOPTED on 26 November 1949 (celebrated as Constitution Day / Samvidhan Divas) and came into FORCE on 26 January 1950. It is the world's LENGTHIEST written constitution of any sovereign country.",
+        note: "26 January was chosen to honour the Purna Swaraj declaration of 1930.",
+      },
+    ],
+    traps: [
+      {
+        label: "Adopted vs Enforced",
+        lines: [
+          "Adopted: 26 November 1949 (Constitution Day).",
+          "Came into force / enforced: 26 January 1950 (Republic Day).",
+          "Common trap: swapping these two dates.",
+        ],
+      },
+      {
+        label: "Who wrote which version",
+        lines: [
+          "English calligraphy: Prem Bihari Narain Raizada.",
+          "Hindi calligraphy: Vasant Krishna Vaidya.",
+          "Artwork: Nandalal Bose and Beohar Rammanohar Sinha (Shantiniketan).",
+        ],
+      },
+      {
+        label: "Time taken",
+        lines: [
+          "2 years, 11 months and 18 days.",
+          "Do not confuse with the number of Constituent Assembly sessions or sittings.",
+        ],
+      },
+    ],
+    mainsAngle:
+      "The handwritten Constitution, adorned with imagery from the Indus Valley to the freedom struggle, is more than a legal text — it is a civilisational statement that roots India's modern republic in a long, plural heritage. Its careful preservation and the symbolism of its artwork reinforce the idea of the Constitution as a living, transformative document rather than a mere rulebook.",
+    mainsTheme:
+      "The Constitution as a civilisational and transformative document",
+    recall: [
+      "Handwritten in English (Prem Bihari Narain Raizada) & Hindi (Vasant Krishna Vaidya)",
+      "Artwork: Nandalal Bose & Beohar Rammanohar Sinha (Shantiniketan)",
+      "Drafting Committee head: Dr. B. R. Ambedkar",
+      "Took 2 years, 11 months, 18 days",
+      "Adopted 26 Nov 1949; enforced 26 Jan 1950",
+      "World's lengthiest written constitution",
+      "Preserved in helium/nitrogen cases in Parliament Library",
+    ],
+  },
+};

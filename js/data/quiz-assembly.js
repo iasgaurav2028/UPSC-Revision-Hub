@@ -77,4 +77,18 @@ const QUIZ_DATA = {
   "news-budget-priority-groups": QUIZ_news_budget_priority_groups,
 
   "news-2026-07-26-rice-methane": QUIZ_news_rice_methane,
+  "news-2026-07-26-ondevice-ai": QUIZ_news_ondevice_ai,
+
+  "news-2026-07-24-rti-corruption": QUIZ_news_rti_corruption,
+  "news-2026-07-24-right-to-protest": QUIZ_news_right_to_protest,
+  "news-2026-07-24-education-collapse": QUIZ_news_education_collapse,
+
+  "qr-presidents": QUIZ_qr_presidents,
+  "qr-anti-defection": QUIZ_qr_anti_defection,
+  "qr-original-constitution": QUIZ_qr_original_constitution,
+  "qr-state-nicknames": QUIZ_qr_state_nicknames,
+  "qr-siliguri-corridor": QUIZ_qr_siliguri_corridor,
+  "qr-types-of-mining": QUIZ_qr_types_of_mining,
+  "qr-levels-of-partnership": QUIZ_qr_levels_partnership,
+  "qr-important-full-forms": QUIZ_qr_full_forms,
 };

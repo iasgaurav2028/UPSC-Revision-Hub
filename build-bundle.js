@@ -53,8 +53,9 @@
 
 const fs = require("fs");
 const path = require("path");
-const vm = require("vm");
-const { scanDataFiles, topoSortFiles } = require("./scan-data.js");
+const { scanDataFiles, topoSortFiles, loadDataObjects } = require(
+  "./scan-data.js",
+);
 
 const root = __dirname;
 const dataDir = path.join(root, "js", "data");
@@ -113,60 +114,6 @@ function buildIdToChunk(records) {
     }
   }
   return idToChunk;
-}
-
-/**
- * Load the topo-sorted data files into an isolated VM sandbox and return
- * the assembled { TREE_DATA, QUIZ_DATA } objects. Mirrors validate.js —
- * the data files are pure data, but a few touch a minimal document/
- * localStorage shim, so we provide stubs.
- */
-function loadDataObjects(sortedRecords) {
-  let combined = "";
-  for (const r of sortedRecords)
-    combined += fs.readFileSync(r.path, "utf8") + "\n";
-
-  const sandbox = {
-    console,
-    document: {
-      createElement: () => ({
-        style: {},
-        addEventListener() {},
-        textContent: "",
-        get innerHTML() {
-          return this.textContent;
-        },
-        set innerHTML(v) {
-          this._h = v;
-        },
-      }),
-      getElementById: () => ({
-        addEventListener() {},
-        style: {},
-        classList: { add() {}, remove() {}, contains: () => false },
-        innerHTML: "",
-        textContent: "",
-        value: "",
-        querySelectorAll: () => [],
-      }),
-      querySelectorAll: () => [],
-      querySelector: () => ({
-        scrollTop: 0,
-        classList: { add() {}, remove() {}, contains: () => false },
-      }),
-      addEventListener: () => {},
-      documentElement: {},
-    },
-    localStorage: {
-      getItem: () => null,
-      setItem: () => {},
-      removeItem: () => {},
-    },
-  };
-  sandbox.window = sandbox;
-  vm.createContext(sandbox);
-  vm.runInContext(combined, sandbox);
-  return vm.runInContext("({ TREE_DATA, QUIZ_DATA })", sandbox);
 }
 
 /**
