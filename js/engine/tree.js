@@ -395,6 +395,13 @@ function selectAndReveal(id) {
   refreshTree();
   renderNotes();
   pushHistory();
+  // On phones, close the drawer after opening a topic so the note is visible.
+  if (
+    window.matchMedia("(max-width: 680px)").matches &&
+    sidebar.classList.contains("open")
+  ) {
+    closeMobileDrawer();
+  }
 }
 
 // Smoothly scroll the sidebar tree so the given node's row is near the top

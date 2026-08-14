@@ -113,23 +113,17 @@
   letter-spacing: 2px;
   position: relative;
 }
+/* The sidebar close button reuses the topbar hamburger's look via the shared
+   .menu-btn class (see index.html). Only its placement and mobile-only
+   visibility live here — no duplicated styling/hover. */
 .close-drawer {
-  /* Hidden on big screens (use the topbar ☰ to collapse the docked
-     sidebar); shown only on phones ≤680px — see responsive.css. */
-  display: none;
   position: absolute;
   top: 14px;
   right: 12px;
-  background: none;
-  border: 1px solid var(--gold-border);
-  color: var(--gold);
-  width: 28px;
-  height: 28px;
-  border-radius: 6px;
-  font-size: 15px;
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
+  z-index: 3; /* above .brand-logo (z-index:1) so taps reach it */
+}
+.sidebar .close-drawer {
+  display: none; /* hidden on big screens; shown ≤680px in responsive.css */
 }
 
 .overall-progress {
