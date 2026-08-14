@@ -212,9 +212,9 @@ const QUIZ_geo6_ch3 = {
         "Only three pairs",
         "All four pairs",
       ],
-      correct: 1,
+      correct: 2,
       explain:
-        "Pairs I and II are correctly matched. Pair III is incorrect (21 March is Spring, not Autumn, in the Northern Hemisphere). Pair IV is correct (23 September IS Autumn in NH). So actually I, II, and IV — three pairs.",
+        "Three pairs are correctly matched — I (21 June → Summer), II (22 December → Winter), and IV (23 September → Autumn) are all correct for the Northern Hemisphere. Pair III is incorrect (21 March is Spring, not Autumn, in the Northern Hemisphere).",
     },
     {
       q: "The ancient Indian astronomer who stated that 'the earth is round and rotates on its own axis' was:",
@@ -257,6 +257,107 @@ const QUIZ_geo6_ch3 = {
       correct: 3,
       explain:
         "On 21 June (Summer Solstice), the North Pole is inclined towards the Sun, and places beyond the Arctic Circle experience continuous daylight for about six months.",
+    },
+    {
+      q: "A leap year consists of how many days?",
+      options: ["364", "365", "366", "367"],
+      correct: 2,
+      explain:
+        "A leap year has 366 days — the extra day is added to February, giving it 29 days.",
+    },
+    {
+      q: "In a leap year, the extra day is added to which month?",
+      options: ["January", "February", "June", "December"],
+      correct: 1,
+      explain:
+        "The saved 6 hours over four years add up to one full day, which is added to February, making it 29 days.",
+    },
+    {
+      q: "During an equinox, the Sun shines vertically over the:",
+      options: [
+        "Tropic of Cancer",
+        "Tropic of Capricorn",
+        "Equator",
+        "Arctic Circle",
+      ],
+      correct: 2,
+      explain:
+        "On an equinox (21 March and 23 September), neither pole is tilted towards the Sun, and the Sun's rays fall vertically on the equator.",
+    },
+    {
+      q: "On 23 September, the Southern Hemisphere experiences which season?",
+      options: ["Autumn", "Winter", "Spring", "Summer"],
+      correct: 2,
+      explain:
+        "On 23 September (Autumn Equinox for the Northern Hemisphere), the Southern Hemisphere experiences Spring.",
+    },
+    {
+      q: "The daily motion of the Earth refers to its:",
+      options: [
+        "Revolution around the Sun",
+        "Rotation on its axis",
+        "Movement around the Moon",
+        "Tilt on its axis",
+      ],
+      correct: 1,
+      explain:
+        "Rotation on its axis, completed in about 24 hours (the earthday), is the daily motion of the Earth.",
+    },
+    {
+      q: "For convenience, a year is taken as 365 days by ignoring:",
+      options: ["6 hours", "12 hours", "1 day", "6 days"],
+      correct: 0,
+      explain:
+        "The Earth actually takes 365¼ days to revolve; the extra 6 hours are ignored for convenience and adjusted every four years as a leap day.",
+    },
+    {
+      q: [
+        "Consider the following statements about 22 December:",
+        "I. The Northern Hemisphere experiences shorter days and longer nights.",
+        "II. The Sun's rays fall directly on the Tropic of Capricorn.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both are correct — on 22 December the Sun is overhead at the Tropic of Capricorn, and the Northern Hemisphere has shorter days and longer nights.",
+    },
+    {
+      q: "The fact that the Earth remains inclined in the same direction throughout its orbit is chiefly responsible for:",
+      options: [
+        "Day and night",
+        "The occurrence of seasons",
+        "Earthquakes",
+        "Ocean tides",
+      ],
+      correct: 1,
+      explain:
+        "The constant direction of the axial tilt as the Earth revolves causes the hemispheres to receive varying sunlight through the year, producing the seasons.",
+    },
+    {
+      q: "The position of the Earth on 21 June is known as the:",
+      options: [
+        "Winter Solstice",
+        "Summer Solstice",
+        "Spring Equinox",
+        "Autumn Equinox",
+      ],
+      correct: 1,
+      explain:
+        "On 21 June, with the Northern Hemisphere tilted towards the Sun, the Earth is at the Summer Solstice.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Date — Event):",
+        "I. 21 June — Summer Solstice",
+        "II. 21 March — Spring Equinox (Northern Hemisphere)",
+        "III. 22 December — Winter Solstice",
+        "How many of the above pairs are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 2,
+      explain:
+        "All three are correctly matched — 21 June (Summer Solstice), 21 March (Spring Equinox for NH), and 22 December (Winter Solstice).",
     },
   ],
 };

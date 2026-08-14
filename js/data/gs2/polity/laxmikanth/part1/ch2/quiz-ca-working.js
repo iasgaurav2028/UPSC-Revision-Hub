@@ -213,5 +213,137 @@ const QUIZ_ca_working = {
       explain:
         "The Muslim League boycotted the first meeting, insisting on a separate state of Pakistan.",
     },
+    {
+      q: [
+        "Consider the following statements about the first meeting of the Constituent Assembly:",
+        "I. It was held on 9 December 1946.",
+        "II. It was attended by 211 members.",
+        "III. The Muslim League boycotted it.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and III are correct. Statement II is wrong — only 207 members (not 211) attended the first sitting.",
+    },
+    {
+      q: "The practice of electing the oldest member as the temporary/provisional Chairman, followed by the Constituent Assembly, was borrowed from which country's practice?",
+      options: ["British", "American", "French", "Irish"],
+      correct: 2,
+      explain:
+        "Following the French practice, the oldest member, Dr. Sachchidananda Sinha, was elected temporary Chairman.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Office — Person):",
+        "I. Temporary Chairman — Dr. Sachchidananda Sinha",
+        "II. Permanent President — Dr. Rajendra Prasad",
+        "III. First Vice-President — V.T. Krishnamachari",
+        "How many of the pairs given above are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Pairs I and II are correct. Pair III is wrong — the first Vice-President was H.C. Mukherjee; V.T. Krishnamachari was the second Vice-President.",
+    },
+    {
+      q: [
+        "Assertion (A): Only 207 members attended the first sitting of the Constituent Assembly.",
+        "Reason (R): The Muslim League boycotted the meeting, demanding a separate state of Pakistan.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — the Muslim League's boycott is why only 207 members attended the first sitting.",
+    },
+    {
+      q: "Which of the following statements about the sovereign status of the Constituent Assembly is correct?",
+      options: [
+        "It was fully sovereign from its very first meeting",
+        "It became a fully sovereign body after the Indian Independence Act, 1947",
+        "It never became a fully sovereign body",
+        "It became sovereign in November 1946",
+      ],
+      correct: 1,
+      explain:
+        "The Assembly became a fully sovereign body only after the Indian Independence Act, 1947 came into force.",
+    },
+    {
+      q: [
+        "Statement I: After becoming sovereign, the Constituent Assembly performed two separate functions.",
+        "Statement II: When functioning as the Dominion Legislature, it was presided over by Dr. Rajendra Prasad.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are true, and II is the correct explanation of I",
+        "Both statements are true, but II is NOT the correct explanation of I",
+        "Statement I is true, but Statement II is false",
+        "Statement I is false, but Statement II is true",
+      ],
+      correct: 2,
+      explain:
+        "Statement I is true, but Statement II is false — as the Dominion Legislature it was presided over by G.V. Mavlankar, not Dr. Rajendra Prasad.",
+    },
+    {
+      q: "The two Vice-Presidents of the Constituent Assembly were:",
+      options: [
+        "H.C. Mukherjee and V.T. Krishnamachari",
+        "Dr. Sachchidananda Sinha and G.V. Mavlankar",
+        "Dr. Rajendra Prasad and H.C. Mukherjee",
+        "V.T. Krishnamachari and G.V. Mavlankar",
+      ],
+      correct: 0,
+      explain:
+        "The Assembly had two Vice-Presidents — H.C. Mukherjee (25 Jan 1947) and V.T. Krishnamachari (16 July 1947).",
+    },
+    {
+      q: [
+        "Arrange the following events in correct chronological order:",
+        "I. Election of H.C. Mukherjee as Vice-President",
+        "II. First meeting of the Constituent Assembly",
+        "III. Coming into force of the Indian Independence Act",
+        "IV. Election of V.T. Krishnamachari as second Vice-President",
+      ],
+      options: [
+        "II → I → IV → III",
+        "I → II → IV → III",
+        "II → III → I → IV",
+        "II → I → III → IV",
+      ],
+      correct: 0,
+      explain:
+        "Order: first meeting (9 Dec 1946) → H.C. Mukherjee VP (25 Jan 1947) → V.T. Krishnamachari 2nd VP (16 July 1947) → Independence Act (15 Aug 1947).",
+    },
+    {
+      q: "When the Constituent Assembly functioned as the Dominion Legislature (presided over by G.V. Mavlankar), it performed which function?",
+      options: [
+        "Framing the Constitution",
+        "Making ordinary laws for the country",
+        "Electing the President of India",
+        "Nominating the princely-state representatives",
+      ],
+      correct: 1,
+      explain:
+        "As the Dominion Legislature, the Assembly made ordinary laws for the country, distinct from its constitution-making role under Dr. Rajendra Prasad.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. Dr. Sachchidananda Sinha was the oldest member of the Assembly.",
+        "II. Dr. Rajendra Prasad was elected permanent President on 11 December 1946.",
+        "III. H.C. Mukherjee was elected Vice-President on 16 July 1947.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — H.C. Mukherjee was elected on 25 January 1947; 16 July 1947 was V.T. Krishnamachari's election.",
+    },
   ],
 };

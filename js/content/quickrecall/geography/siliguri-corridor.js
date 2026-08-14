@@ -4,4 +4,136 @@
 // by js/engine/loader.js the first time one of its topics is opened.
 // Edit the source under js/data/ and re-run: node build-bundle.js
 // ═══════════════════════════════════════════════════════════
-__registerContent("quickrecall/geography/siliguri-corridor", {"notes":{"qr-siliguri-corridor":{"era":"Quick Recall — Geography","significance":["The Siliguri Corridor is a high-value Prelims fact (location, width, bordering countries) and a recurring internal-security/strategic geography theme","Its role as the sole land link to the North-East makes it central to questions on connectivity, defence and neighbourhood relations","The surrounding tri-junction (Nepal, Bhutan, Bangladesh, and proximity to China's Chumbi Valley) links it to India–China and India–Bangladesh strategic issues"],"features":[{"key":"What & where","main":"The Siliguri Corridor, popularly called the 'Chicken's Neck', is a narrow strip of land in WEST BENGAL that connects the eight North-Eastern states with the rest of India. It is about 20–22 km wide at its narrowest point.","note":"Named for its resemblance to a chicken's neck joining the body (mainland) to the head (North-East)."},{"key":"Bordering countries","main":"The corridor is flanked by NEPAL (to the west), BANGLADESH (to the south) and BHUTAN (to the north). It lies close to the strategically sensitive tri-junction near China's Chumbi Valley (Doklam region).","note":"This concentration of international borders makes it highly vulnerable."},{"key":"Connectivity","main":"It is the ONLY major land link between mainland India and the North-East. National Highway 27 and the key railway line to the North-East pass through it; the town of Siliguri (in Jalpaiguri/Darjeeling area) is the commercial hub of the region.","note":"Nearby states/regions: West Bengal, Assam and Sikkim."},{"key":"Strategic importance","main":"The corridor is vital for defence logistics, movement of troops, trade and connectivity to the North-East. Any blockade or hostile action here could effectively cut off the entire North-East from the rest of India — which is why it is called India's 'Strategic Lifeline'.","note":"The 2017 Doklam standoff underscored its sensitivity."}],"traps":[{"label":"Width and location","lines":["Narrowest width: about 20–22 km.","Located in West Bengal (Jalpaiguri / Darjeeling belt), NOT in Assam or Sikkim."]},{"label":"Bordering countries (directions)","lines":["Nepal — west; Bhutan — north; Bangladesh — south.","China is not a direct border of the corridor but lies close via the Chumbi Valley."]},{"label":"Only land link","lines":["It is the ONLY land connection to the North-East — a blockade isolates the region.","NH-27 and the main NE railway run through it."]}],"mainsAngle":"The Siliguri Corridor exemplifies how physical geography translates directly into strategic vulnerability: a 20-km-wide strip flanked by three countries and near the China frontier binds the North-East to the Indian mainland. Its security drives India's infrastructure push (alternate road/rail links, the Bangladesh transit arrangements) and shapes its Doklam-era posture toward China and Bhutan.","mainsTheme":"Strategic geography — connectivity and security of the North-East","recall":["Siliguri Corridor = 'Chicken's Neck', in West Bengal","Width: ~20–22 km at narrowest point","Borders: Nepal (W), Bhutan (N), Bangladesh (S)","Only land link to the 8 North-Eastern states","NH-27 and the main NE railway pass through it","Called India's 'Strategic Lifeline'; near Doklam/Chumbi Valley"]}},"quizzes":{"qr-siliguri-corridor":{"title":"Chicken's Neck (Siliguri Corridor)","questions":[{"q":"The Siliguri Corridor, or 'Chicken's Neck', is located in which state?","options":["Assam","Sikkim","West Bengal","Bihar"],"correct":2,"explain":"The Siliguri Corridor lies in West Bengal (Jalpaiguri/Darjeeling belt)."},{"q":"The Siliguri Corridor connects the rest of India with:","options":["The eight North-Eastern states","Nepal and Bhutan","The Andaman Islands","Jammu & Kashmir"],"correct":0,"explain":"It is the only major land link between mainland India and the eight North-Eastern states."},{"q":"The approximate width of the Siliguri Corridor at its narrowest point is:","options":["5–8 km","20–22 km","50–60 km","100 km"],"correct":1,"explain":"At its narrowest, the corridor is about 20–22 km wide."},{"q":["Consider the following countries that border the Siliguri Corridor region:","I. Nepal","II. Bhutan","III. Bangladesh","How many of the above border the corridor?"],"options":["Only one","Only two","All three","None"],"correct":2,"explain":"All three — Nepal (west), Bhutan (north) and Bangladesh (south) — flank the corridor."},{"q":"Which national highway passes through the Siliguri Corridor, serving as a key link to the North-East?","options":["NH-44","NH-27","NH-48","NH-16"],"correct":1,"explain":"National Highway 27 passes through the corridor, along with the main railway line to the North-East."},{"q":"The Siliguri Corridor is often described as India's:","options":["Golden Quadrilateral","Strategic Lifeline","Silicon Valley","Spice Route"],"correct":1,"explain":"Because it is the sole land link to the North-East, the corridor is called India's 'Strategic Lifeline'."}]}}});
+__registerContent("quickrecall/geography/siliguri-corridor", {
+  notes: {
+    "qr-siliguri-corridor": {
+      era: "Quick Recall — Geography",
+      significance: [
+        "The Siliguri Corridor is a high-value Prelims fact (location, width, bordering countries) and a recurring internal-security/strategic geography theme",
+        "Its role as the sole land link to the North-East makes it central to questions on connectivity, defence and neighbourhood relations",
+        "The surrounding tri-junction (Nepal, Bhutan, Bangladesh, and proximity to China's Chumbi Valley) links it to India–China and India–Bangladesh strategic issues",
+      ],
+      features: [
+        {
+          key: "What & where",
+          main: "The Siliguri Corridor, popularly called the 'Chicken's Neck', is a narrow strip of land in WEST BENGAL that connects the eight North-Eastern states with the rest of India. It is about 20–22 km wide at its narrowest point.",
+          note: "Named for its resemblance to a chicken's neck joining the body (mainland) to the head (North-East).",
+        },
+        {
+          key: "Bordering countries",
+          main: "The corridor is flanked by NEPAL (to the west), BANGLADESH (to the south) and BHUTAN (to the north). It lies close to the strategically sensitive tri-junction near China's Chumbi Valley (Doklam region).",
+          note: "This concentration of international borders makes it highly vulnerable.",
+        },
+        {
+          key: "Connectivity",
+          main: "It is the ONLY major land link between mainland India and the North-East. National Highway 27 and the key railway line to the North-East pass through it; the town of Siliguri (in Jalpaiguri/Darjeeling area) is the commercial hub of the region.",
+          note: "Nearby states/regions: West Bengal, Assam and Sikkim.",
+        },
+        {
+          key: "Strategic importance",
+          main: "The corridor is vital for defence logistics, movement of troops, trade and connectivity to the North-East. Any blockade or hostile action here could effectively cut off the entire North-East from the rest of India — which is why it is called India's 'Strategic Lifeline'.",
+          note: "The 2017 Doklam standoff underscored its sensitivity.",
+        },
+      ],
+      traps: [
+        {
+          label: "Width and location",
+          lines: [
+            "Narrowest width: about 20–22 km.",
+            "Located in West Bengal (Jalpaiguri / Darjeeling belt), NOT in Assam or Sikkim.",
+          ],
+        },
+        {
+          label: "Bordering countries (directions)",
+          lines: [
+            "Nepal — west; Bhutan — north; Bangladesh — south.",
+            "China is not a direct border of the corridor but lies close via the Chumbi Valley.",
+          ],
+        },
+        {
+          label: "Only land link",
+          lines: [
+            "It is the ONLY land connection to the North-East — a blockade isolates the region.",
+            "NH-27 and the main NE railway run through it.",
+          ],
+        },
+      ],
+      mainsAngle:
+        "The Siliguri Corridor exemplifies how physical geography translates directly into strategic vulnerability: a 20-km-wide strip flanked by three countries and near the China frontier binds the North-East to the Indian mainland. Its security drives India's infrastructure push (alternate road/rail links, the Bangladesh transit arrangements) and shapes its Doklam-era posture toward China and Bhutan.",
+      mainsTheme:
+        "Strategic geography — connectivity and security of the North-East",
+      recall: [
+        "Siliguri Corridor = 'Chicken's Neck', in West Bengal",
+        "Width: ~20–22 km at narrowest point",
+        "Borders: Nepal (W), Bhutan (N), Bangladesh (S)",
+        "Only land link to the 8 North-Eastern states",
+        "NH-27 and the main NE railway pass through it",
+        "Called India's 'Strategic Lifeline'; near Doklam/Chumbi Valley",
+      ],
+    },
+  },
+  quizzes: {
+    "qr-siliguri-corridor": {
+      title: "Chicken's Neck (Siliguri Corridor)",
+      questions: [
+        {
+          q: "The Siliguri Corridor, or 'Chicken's Neck', is located in which state?",
+          options: ["Assam", "Sikkim", "West Bengal", "Bihar"],
+          correct: 2,
+          explain:
+            "The Siliguri Corridor lies in West Bengal (Jalpaiguri/Darjeeling belt).",
+        },
+        {
+          q: "The Siliguri Corridor connects the rest of India with:",
+          options: [
+            "The eight North-Eastern states",
+            "Nepal and Bhutan",
+            "The Andaman Islands",
+            "Jammu & Kashmir",
+          ],
+          correct: 0,
+          explain:
+            "It is the only major land link between mainland India and the eight North-Eastern states.",
+        },
+        {
+          q: "The approximate width of the Siliguri Corridor at its narrowest point is:",
+          options: ["5–8 km", "20–22 km", "50–60 km", "100 km"],
+          correct: 1,
+          explain: "At its narrowest, the corridor is about 20–22 km wide.",
+        },
+        {
+          q: [
+            "Consider the following countries that border the Siliguri Corridor region:",
+            "I. Nepal",
+            "II. Bhutan",
+            "III. Bangladesh",
+            "How many of the above border the corridor?",
+          ],
+          options: ["Only one", "Only two", "All three", "None"],
+          correct: 2,
+          explain:
+            "All three — Nepal (west), Bhutan (north) and Bangladesh (south) — flank the corridor.",
+        },
+        {
+          q: "Which national highway passes through the Siliguri Corridor, serving as a key link to the North-East?",
+          options: ["NH-44", "NH-27", "NH-48", "NH-16"],
+          correct: 1,
+          explain:
+            "National Highway 27 passes through the corridor, along with the main railway line to the North-East.",
+        },
+        {
+          q: "The Siliguri Corridor is often described as India's:",
+          options: [
+            "Golden Quadrilateral",
+            "Strategic Lifeline",
+            "Silicon Valley",
+            "Spice Route",
+          ],
+          correct: 1,
+          explain:
+            "Because it is the sole land link to the North-East, the corridor is called India's 'Strategic Lifeline'.",
+        },
+      ],
+    },
+  },
+});

@@ -338,5 +338,105 @@ const QUIZ_geo6_ch5 = {
       explain:
         "The density of the atmosphere decreases as altitude increases — at high altitudes, the air is much thinner (lower pressure, lower oxygen density), making it very difficult to breathe adequate amounts of oxygen.",
     },
+    {
+      q: "Which is the largest continent, covering about one-third of the total land area of the Earth?",
+      options: ["Africa", "Asia", "North America", "Europe"],
+      correct: 1,
+      explain:
+        "Asia is the largest continent, covering about one-third of the total land area of the Earth.",
+    },
+    {
+      q: "Which ocean encircles the continent of Antarctica?",
+      options: [
+        "Arctic Ocean",
+        "Indian Ocean",
+        "Southern Ocean",
+        "Atlantic Ocean",
+      ],
+      correct: 2,
+      explain:
+        "The Southern Ocean encircles Antarctica and extends northward to 60° south latitude.",
+    },
+    {
+      q: "Which is the smallest of the five oceans?",
+      options: [
+        "Indian Ocean",
+        "Southern Ocean",
+        "Arctic Ocean",
+        "Atlantic Ocean",
+      ],
+      correct: 2,
+      explain:
+        "The Arctic Ocean is the smallest ocean; it lies within the Arctic Circle and surrounds the North Pole.",
+    },
+    {
+      q: "Wind is best defined as:",
+      options: [
+        "Air moving from a low pressure area to a high pressure area",
+        "Air moving from a high pressure area to a low pressure area",
+        "Air that remains stationary at sea level",
+        "The vertical rise of warm air only",
+      ],
+      correct: 1,
+      explain:
+        "Air moves from high pressure areas to low pressure areas, and this moving air is called wind.",
+    },
+    {
+      q: [
+        "Consider the following statements about the atmosphere:",
+        "I. Its density is maximum at sea level and decreases with height.",
+        "II. It extends up to about 1,600 km.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both are correct — atmospheric density is greatest at sea level and decreases with altitude, and the atmosphere extends up to about 1,600 km.",
+    },
+    {
+      q: "In the atmosphere, nitrogen is important chiefly because it:",
+      options: [
+        "Absorbs heat and keeps the planet warm",
+        "Helps in the growth of living organisms",
+        "Is the gas we breathe to live",
+        "Protects the Earth from harmful sun rays",
+      ],
+      correct: 1,
+      explain:
+        "Nitrogen helps in the growth of living organisms; oxygen is the gas we breathe, and carbon dioxide absorbs heat.",
+    },
+    {
+      q: "Approximately what percentage of the Earth's water is fresh water?",
+      options: ["21%", "29%", "2.5%", "71%"],
+      correct: 2,
+      explain:
+        "Only about 2.5% of the Earth's water is fresh water; more than 97% is salty ocean water.",
+    },
+    {
+      q: "Which of the following lines of latitude passes through Europe?",
+      options: [
+        "Equator",
+        "Tropic of Cancer",
+        "Arctic Circle",
+        "Tropic of Capricorn",
+      ],
+      correct: 2,
+      explain:
+        "The Arctic Circle passes through Europe, which lies to the west of Asia and is bound by water on three sides.",
+    },
+    {
+      q: "The Andes, the world's longest mountain range, runs from north to south through which continent?",
+      options: ["North America", "South America", "Africa", "Australia"],
+      correct: 1,
+      explain:
+        "The Andes, the world's longest mountain range, runs north-south through South America; the Amazon, the largest river by volume, also flows through it.",
+    },
+    {
+      q: "The Southern Ocean extends northward up to which latitude?",
+      options: ["40° south", "50° south", "60° south", "66½° south"],
+      correct: 2,
+      explain:
+        "The Southern Ocean encircles Antarctica and extends northward to 60° south latitude.",
+    },
   ],
 };

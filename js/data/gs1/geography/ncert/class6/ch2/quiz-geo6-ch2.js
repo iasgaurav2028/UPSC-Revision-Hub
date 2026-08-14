@@ -530,5 +530,109 @@ const QUIZ_geo6_ch2 = {
       explain:
         "The Torrid Zone, lying between the Tropic of Cancer and the Tropic of Capricorn, receives the maximum heat because the mid-day sun is directly overhead at least once a year on every latitude there.",
     },
+    {
+      q: "According to the chapter, the local time of Dwarka (Gujarat) and Dibrugarh (Assam) differs by about:",
+      options: ["30 minutes", "1 hour", "1 hour 45 minutes", "3 hours"],
+      correct: 2,
+      explain:
+        "Because of their east-west separation, the local time of Dwarka and Dibrugarh differs by about 1 hour 45 minutes — illustrating the need for a standard time.",
+    },
+    {
+      q: [
+        "Consider the following statements about meridians of longitude:",
+        "I. They are semi-circles running from pole to pole.",
+        "II. The distance between them decreases towards the poles and becomes zero at the poles.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both are correct — meridians are semi-circles, and they converge to meet at the poles, where the distance between them becomes zero.",
+    },
+    {
+      q: "Parallels of latitude are best described as:",
+      options: [
+        "Semi-circles running from the North Pole to the South Pole",
+        "Circles running parallel to the equator, measured in degrees",
+        "Lines that all meet at the poles",
+        "Lines of equal length across the globe",
+      ],
+      correct: 1,
+      explain:
+        "Parallels of latitude are circles drawn parallel to the equator and measured in degrees; their size decreases towards the poles.",
+    },
+    {
+      q: "Which country is stated in the chapter to have as many as 11 standard times?",
+      options: ["United States", "China", "Russia", "Canada"],
+      correct: 2,
+      explain:
+        "Russia, owing to its great longitudinal extent, has as many as 11 standard times.",
+    },
+    {
+      q: "The Arctic Circle is located at:",
+      options: ["23½°N", "66½°N", "66½°S", "90°N"],
+      correct: 1,
+      explain: "The Arctic Circle lies at 66½° north of the equator.",
+    },
+    {
+      q: "If it is 12 noon at Greenwich, what time will it be at 30°E of Greenwich?",
+      options: ["10:00 a.m.", "11:00 a.m.", "2:00 p.m.", "1:00 p.m."],
+      correct: 2,
+      explain:
+        "30°E is 2 hours AHEAD of Greenwich (30° ÷ 15° per hour = 2 hours), so it will be 2:00 p.m.",
+    },
+    {
+      q: "The Frigid Zones are located:",
+      options: [
+        "Between the two Tropics",
+        "Between a Tropic and the corresponding polar Circle",
+        "Between the polar Circles and the respective Poles",
+        "Along the equator",
+      ],
+      correct: 2,
+      explain:
+        "The Frigid Zones lie between the Arctic/Antarctic Circles and the North/South Poles, where slanting sun rays make them very cold.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Line — Country it passes through):",
+        "I. Prime Meridian — Ghana",
+        "II. Tropic of Capricorn — Namibia",
+        "III. Equator — Kenya",
+        "How many of the above pairs are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 2,
+      explain:
+        "All three are correctly matched — the Prime Meridian passes through Ghana, the Tropic of Capricorn through Namibia, and the Equator through Kenya.",
+    },
+    {
+      q: "The Earth is divided into how many time zones, each covering how many degrees of longitude?",
+      options: [
+        "12 zones of 30° each",
+        "24 zones of 15° each",
+        "24 zones of 30° each",
+        "15 zones of 24° each",
+      ],
+      correct: 1,
+      explain:
+        "The Earth is divided into 24 time zones of one hour each, with every zone covering 15° of longitude.",
+    },
+    {
+      q: [
+        "Assertion (A): Places east of the Prime Meridian see the sun rise earlier than places to its west.",
+        "Reason (R): The Earth rotates from west to east.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — since the Earth spins west to east, eastern locations rotate into sunlight first and are therefore ahead in time.",
+    },
   ],
 };

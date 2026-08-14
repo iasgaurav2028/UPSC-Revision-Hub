@@ -256,5 +256,147 @@ const QUIZ_classification = {
       explain:
         "Both New Zealand and Israel have unwritten/uncodified constitutions — their constitutional frameworks exist in collections of laws, conventions, and judicial decisions rather than a single supreme document. While New Zealand inherited British constitutional traditions, Israel chose not to draft a full constitution at independence (1948) due to political difficulties.",
     },
+    {
+      q: "An 'evolved' constitution is best described as one that:",
+      options: [
+        "Is deliberately made by a constituent assembly at a single point in time",
+        "Is the outcome of a slow and gradual evolutionary process, expressed through conventions, practices and judicial decisions",
+        "Is promulgated by a king or parliament in the form of a single book",
+        "Divides power between a national government and regional governments",
+      ],
+      correct: 1,
+      explain:
+        "An evolved constitution (e.g. the British Constitution) is the outcome of a slow, gradual evolutionary process, with its provisions found in conventions, practices, principles and judicial decisions rather than a single deliberately drafted document.",
+    },
+    {
+      q: [
+        "Consider the following statements about India's constitutional classification:",
+        "I. It is an enacted constitution.",
+        "II. It is a written/codified constitution.",
+        "III. It is described as quasi-federal.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III",
+      ],
+      correct: 3,
+      explain:
+        "All three are correct — India's Constitution is enacted (made by the Constituent Assembly), written/codified (world's longest written constitution), and described as quasi-federal by K.C. Wheare.",
+    },
+    {
+      q: "Which of the following is an example of an ENACTED constitution?",
+      options: [
+        "The British Constitution",
+        "The Indian Constitution",
+        "The New Zealand Constitution",
+        "The Israeli Constitution",
+      ],
+      correct: 1,
+      explain:
+        "The Indian (and American) Constitution is enacted — deliberately made by a constituent body. The British, New Zealand and Israeli constitutions are evolved/unwritten in character.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Country — Constitutional feature):",
+        "I. Canada — Federal",
+        "II. France — Unitary",
+        "III. Brazil — Unitary",
+        "How many of the above pairs are correctly matched?",
+      ],
+      options: [
+        "Only one pair",
+        "Only two pairs",
+        "All three pairs",
+        "None of the pairs",
+      ],
+      correct: 1,
+      explain:
+        "Pairs I and II are correctly matched — Canada is federal, France is unitary. Pair III is incorrect — Brazil is FEDERAL, not unitary.",
+    },
+    {
+      q: "A RIGID constitution is also known as:",
+      options: [
+        "An elastic constitution",
+        "An inelastic constitution",
+        "A cumulative constitution",
+        "A conventional constitution",
+      ],
+      correct: 1,
+      explain:
+        "A rigid constitution is also called an 'inelastic' constitution — it cannot be stretched or amended like ordinary law and requires a special amendment procedure. A flexible constitution is 'elastic'.",
+    },
+    {
+      q: [
+        "Statement I: A federal constitution provides for a division of powers between the national and regional governments.",
+        "Statement II: In a unitary constitution, regional governments exercise only such powers as are delegated to them by the national government.",
+        "Which one of the following is correct in respect of the above statements?",
+      ],
+      options: [
+        "Both Statement I and Statement II are correct",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct",
+        "Both Statement I and Statement II are incorrect",
+      ],
+      correct: 0,
+      explain:
+        "Both statements are correct — federalism divides power between national and regional governments (each independent in its sphere), while in a unitary system regional governments are subordinate agencies exercising only delegated powers.",
+    },
+    {
+      q: "The 'Procedural vs Prescriptive' classification of constitutions was given by:",
+      options: [
+        "Lord James Bryce",
+        "K.C. Wheare",
+        "Elliot Bulmer",
+        "A.V. Dicey",
+      ],
+      correct: 2,
+      explain:
+        "Elliot Bulmer gave the Procedural vs Prescriptive classification. A procedural constitution defines structures and limits on power; a prescriptive one additionally commits the state to common societal goals.",
+    },
+    {
+      q: "Which classification of constitutions did K.C. Wheare use when he described India as 'quasi-federal'?",
+      options: [
+        "Written vs Unwritten",
+        "Rigid vs Flexible",
+        "Federal vs Unitary",
+        "Procedural vs Prescriptive",
+      ],
+      correct: 2,
+      explain:
+        "Wheare's 'quasi-federal' description of India belongs to the Federal vs Unitary classification — he found India's Centre stronger than the States, departing from a true (coordinate) federation.",
+    },
+    {
+      q: [
+        "Consider the following statements about a written constitution:",
+        "I. Its provisions are incorporated in a book, document or a series of documents.",
+        "II. It is also called a documentary or codified constitution.",
+        "III. It is necessarily flexible, being amendable like ordinary law.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III",
+      ],
+      correct: 0,
+      explain:
+        "Statements I and II are correct — a written constitution is documented/codified. Statement III is incorrect — being written does not make a constitution flexible; the USA and India have written constitutions that are rigid or a synthesis of rigid and flexible.",
+    },
+    {
+      q: "An enacted constitution is also referred to as a:",
+      options: [
+        "Cumulative constitution",
+        "Conventional constitution",
+        "Elastic constitution",
+        "Uncodified constitution",
+      ],
+      correct: 1,
+      explain:
+        "An enacted constitution is also called a 'conventional' constitution (deliberately made by agreement/convention). An evolved constitution is the 'cumulative' one — a common reversal trap.",
+    },
   ],
 };

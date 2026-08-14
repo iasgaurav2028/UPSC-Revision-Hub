@@ -210,5 +210,125 @@ const QUIZ_ch1_govact1935 = {
       explain:
         "While NOT drafted by India's Constituent Assembly and certainly not granting independence, many of its structural elements — the three-list scheme, provincial autonomy concepts, and institutions like Public Service Commissions — were substantially retained when the Constitution was framed.",
     },
+    {
+      q: "The All-India Federation proposed by the Government of India Act, 1935 was to comprise:",
+      options: [
+        "Only British Indian provinces",
+        "Only princely states",
+        "Both British Indian provinces and princely states",
+        "Only the presidencies of Bengal, Bombay and Madras",
+      ],
+      correct: 2,
+      explain:
+        "The proposed Federation was to include both provinces and princely states, but it never came into being as the princely states did not join.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Government of India Act, 1935:",
+        "I. It provided for the establishment of the Reserve Bank of India.",
+        "II. It abolished the Council of India.",
+        "III. It introduced separate electorates for the first time.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — separate electorates were first introduced in 1909.",
+    },
+    {
+      q: [
+        "Arrange the following in chronological order:",
+        "1. Government of India Act, 1935",
+        "2. Communal Award",
+        "3. Government of India Act, 1919",
+        "Select the correct order:",
+      ],
+      options: ["3 - 2 - 1", "1 - 2 - 3", "2 - 3 - 1", "3 - 1 - 2"],
+      correct: 0,
+      explain: "1919 → Communal Award (1932) → 1935, i.e. order 3-2-1.",
+    },
+    {
+      q: "Under the Government of India Act, 1935, residuary powers were vested in the:",
+      options: [
+        "Federal Legislature",
+        "Provincial Legislatures",
+        "Viceroy",
+        "Federal Court",
+      ],
+      correct: 2,
+      explain:
+        "Residuary powers were vested in the Viceroy under the 1935 Act.",
+    },
+    {
+      q: [
+        "Statement I: The dyarchy proposed at the Centre by the 1935 Act never came into operation.",
+        "Statement II: The All-India Federation, on which central dyarchy depended, never materialised.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II correctly explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 0,
+      explain:
+        "Both are correct, and the non-materialisation of the Federation is precisely why central dyarchy never came into operation.",
+    },
+    {
+      q: "The Government of India Act, 1935 abolished dyarchy in the provinces and introduced:",
+      options: [
+        "Provincial Autonomy",
+        "Central dyarchy in the provinces",
+        "Presidential rule",
+        "Direct Crown administration",
+      ],
+      correct: 0,
+      explain:
+        "Provincial dyarchy was replaced by Provincial Autonomy, which operated from 1937 to 1939.",
+    },
+    {
+      q: "Under the Government of India Act, 1935, the three legislative lists were the Federal, Provincial, and Concurrent Lists, containing respectively:",
+      options: [
+        "59, 54 and 36 items",
+        "54, 59 and 36 items",
+        "36, 54 and 59 items",
+        "59, 36 and 54 items",
+      ],
+      correct: 0,
+      explain:
+        "The Federal List had 59 items, the Provincial List 54, and the Concurrent List 36.",
+    },
+    {
+      q: "Which two new provinces were created by the Government of India Act, 1935?",
+      options: [
+        "Bihar and Orissa",
+        "Orissa and Sind",
+        "Assam and Sind",
+        "Punjab and Orissa",
+      ],
+      correct: 1,
+      explain:
+        "The Act created the new provinces of Orissa and Sind, and also separated Burma from India.",
+    },
+    {
+      q: "The Government of India Act, 1935 introduced bicameralism in how many of the eleven provinces?",
+      options: ["Four", "Six", "Eight", "All eleven"],
+      correct: 1,
+      explain:
+        "Bicameralism was introduced in six provinces: Bengal, Bombay, Madras, Bihar, Assam and the United Provinces.",
+    },
+    {
+      q: "Which of the following was NOT a feature of the Government of India Act, 1935?",
+      options: [
+        "Provision for the Reserve Bank of India",
+        "Separation of Burma from India",
+        "Grant of dominion status to India",
+        "Provision for a Federal Court",
+      ],
+      correct: 2,
+      explain:
+        "The 1935 Act did not grant dominion status; it provided provincial autonomy and a (never-realised) federation.",
+    },
   ],
 };

@@ -272,5 +272,132 @@ const QUIZ_constitutionalism = {
       explain:
         "The passage directly supports Option 2 — constitutionalism ACCEPTS the need for government power (doesn't seek to eliminate it) but INSISTS on limitations to prevent that power from becoming authoritarian or oppressive.",
     },
+    {
+      q: "The essence of constitutionalism is best captured by which of the following expressions?",
+      options: [
+        "Unlimited government",
+        "Limited government",
+        "Majoritarian government",
+        "Military government",
+      ],
+      correct: 1,
+      explain:
+        "Constitutionalism means essentially 'limited government' (Roucek) — government whose powers are restrained by law, as opposed to arbitrary, despotic or unrestrained rule.",
+    },
+    {
+      q: [
+        "Consider the following as elements of constitutionalism identified by Louis Henkin:",
+        "I. Popular sovereignty",
+        "II. Rule of law",
+        "III. An independent judiciary",
+        "IV. Respect for individual rights",
+        "How many of the above are among Henkin's eight elements?",
+      ],
+      options: ["Only two", "Only three", "All four", "Only one"],
+      correct: 2,
+      explain:
+        "All four are among Henkin's eight elements of constitutionalism, along with democratic government, separation of powers, civilian control of the military, and police governed by law and judicial control.",
+    },
+    {
+      q: "Which one of the following pairs is correctly matched?",
+      options: [
+        "Grundnorm — Roucek",
+        "Effective restraints upon governmental action — Friedrich",
+        "Quasi-federal — Louis Henkin",
+        "Rigid and flexible classification — Ybema",
+      ],
+      correct: 1,
+      explain:
+        "'Effective restraints upon governmental action' is Friedrich's definition of constitutionalism. Grundnorm is Kelsen's, quasi-federal is Wheare's, and the rigid/flexible classification is Bryce's.",
+    },
+    {
+      q: [
+        "Statement I: The mere existence of a constitution guarantees the presence of constitutionalism.",
+        "Statement II: Constitutionalism requires that a constitution actually impose effective limitations on government power in practice.",
+        "Which one of the following is correct in respect of the above statements?",
+      ],
+      options: [
+        "Both Statement I and Statement II are correct",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct",
+        "Both Statement I and Statement II are incorrect",
+      ],
+      correct: 2,
+      explain:
+        "Statement I is incorrect — even a dictatorship may have a constitution without constitutionalism. Statement II is correct — constitutionalism requires that the constitution actually limit government power in practice.",
+    },
+    {
+      q: "According to the chapter, a constitutional government is described as a 'civilised' government primarily because it is:",
+      options: [
+        "A technologically advanced government",
+        "A limited government constrained by law",
+        "A government of the wealthy elite",
+        "A government run by legal scholars",
+      ],
+      correct: 1,
+      explain:
+        "The chapter equates constitutionalism with a 'limited, and for this reason, a civilised government' — the limitation of power by law is what makes governance 'civilised' as opposed to arbitrary or despotic.",
+    },
+    {
+      q: "Which Henkin element is MOST directly reflected by India's Fundamental Rights in Part III of the Constitution?",
+      options: [
+        "Civilian control of the military",
+        "Respect for individual rights",
+        "Popular sovereignty",
+        "Separation of powers",
+      ],
+      correct: 1,
+      explain:
+        "Fundamental Rights (Part III) most directly embody Henkin's element of 'respect for individual rights' — guaranteeing enforceable rights that the state cannot violate.",
+    },
+    {
+      q: [
+        "Consider the following statements about the concept of constitutionalism:",
+        "I. It is the antithesis of arbitrary rule.",
+        "II. It insists that limitations be placed on governmental power.",
+        "III. It requires that arbitrary power, if conferred by a constitutional document, is fully consistent with constitutionalism.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III",
+      ],
+      correct: 0,
+      explain:
+        "Statements I and II are correct. Statement III is incorrect — arbitrary power, even if conferred by a constitutional document, is a NEGATION of constitutionalism, not consistent with it.",
+    },
+    {
+      q: "Who among the following defined constitutionalism as 'essentially limited government... the antithesis of government by the unrestrained will of rulers'?",
+      options: ["Friedrich", "Roucek", "Wheare", "Ybema"],
+      correct: 1,
+      explain:
+        "This is Roucek's definition — identifiable by 'essentially limited government' and 'antithesis of government by the unrestrained will of rulers'.",
+    },
+    {
+      q: "Which of Henkin's elements is MOST directly demonstrated by the fact that in India the President, a civilian, is the Supreme Commander of the Armed Forces?",
+      options: [
+        "Rule of law",
+        "Civilian control of the military",
+        "Popular sovereignty",
+        "Independent judiciary",
+      ],
+      correct: 1,
+      explain:
+        "This demonstrates Henkin's element of 'civilian control of the military' — the armed forces operate under civilian political authority, with the civilian President (under Article 53) as Supreme Commander.",
+    },
+    {
+      q: "Which of the following would be considered a NEGATION of constitutionalism, even if it exists within a written constitutional framework?",
+      options: [
+        "An independent judiciary reviewing the legality of executive action",
+        "Arbitrary and unlimited power in the hands of a single individual or institution",
+        "Fundamental rights enforceable against the state",
+        "Periodic elections based on universal adult franchise",
+      ],
+      correct: 1,
+      explain:
+        "Arbitrary and unlimited power — even if conferred by a constitutional document — is a negation of constitutionalism, which is fundamentally about limiting government power. The other options are hallmarks of constitutionalism.",
+    },
   ],
 };

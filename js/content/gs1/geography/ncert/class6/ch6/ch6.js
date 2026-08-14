@@ -4,4 +4,589 @@
 // by js/engine/loader.js the first time one of its topics is opened.
 // Edit the source under js/data/ and re-run: node build-bundle.js
 // ═══════════════════════════════════════════════════════════
-__registerContent("gs1/geography/ncert/class6/ch6/ch6", {"notes":{"geo6-ch6":{"era":"NCERT Class 6 — Geography, Chapter 6","significance":["India's locational coordinates, IST, area, population rank, and neighbours are directly tested Prelims static facts","Physical divisions (Himalayas, Northern Plains, Peninsula Plateau, Coastal Plains, Islands) with sub-divisions and key features are individually testable","Specific details — Lakshadweep as coral islands off Kerala, Andaman & Nicobar in Bay of Bengal, Palk Strait, Sunderbans delta — are high-frequency Prelims items"],"features":[{"key":"India — Basic Facts","main":"Area: approximately 3.28 million sq. km\nNorth-south extent: ~3,200 km (Ladakh to Kanyakumari)\nEast-west extent: ~2,900 km (Arunachal Pradesh to Kuchchh)\nPopulation: more than 120 crores (since 2011) — second most populous country after China","note":""},{"key":"Locational Setting","main":"Located in the Northern Hemisphere\nTropic of Cancer (23°30'N) passes almost halfway through the country\nLatitudinal extent: 8°4'N to 37°6'N\nLongitudinal extent: 68°7'E to 97°25'E","note":"Longitudinal extent of ~29° → potential time difference of ~2 hours between easternmost and westernmost points"},{"key":"Indian Standard Time","main":"Longitude of 82°30'E is treated as the Standard Meridian of India\nLocal time at this meridian = Indian Standard Time (IST)\nSun rises about 2 hours earlier in the east (Arunachal Pradesh) than in the west (Gujarat)","note":"IST = GMT + 5 hours 30 minutes"},{"key":"India's Boundaries","main":"North: lofty Himalayas\nWest: Arabian Sea\nEast: Bay of Bengal\nSouth: Indian Ocean\nThe Arabian Sea, Bay of Bengal and Indian Ocean wash the shores of the Indian peninsula","note":"India is a peninsula — a piece of land surrounded by water on three sides"},{"key":"India's Neighbours (7 land neighbours)","main":"Seven countries share land boundaries with India:\nPakistan (west), Afghanistan (northwest), China (north/northeast), Nepal (north), Bhutan (northeast), Bangladesh (east), Myanmar (east)","note":"Sri Lanka and Maldives are island neighbours (connected by sea, not land)"},{"key":"Physical Divisions of India (5 major)","main":"1. The Great Mountains of the North (Himalayas)\n2. The Northern Plains\n3. The Peninsular Plateau\n4. The Coastal Plains\n5. The Islands","note":""},{"key":"The Himalayas — Three Parallel Ranges","main":"Himadri (Great Himalaya) — northernmost; world's highest peaks\nHimachal (Middle Himalaya / Himachal) — many popular hill stations\nShiwalik — southernmost of the three hill ranges","note":"Him+alaya means 'abode of snow'"},{"key":"Northern Indian Plains","main":"Formed by alluvial deposits laid down by rivers: Indus, Ganga, Brahmaputra and their tributaries\nGenerally level and flat\nHighly fertile → high concentration of population\nReason for large population: fertile land + river plains provide food for cultivation","note":""},{"key":"The Peninsular Plateau","main":"To the south of the Northern Plains lies the Peninsular Plateau\nHighly uneven — triangular in shape\nRegion with numerous hill ranges and valleys\nAravalli hills — one of the oldest ranges in the world; border it on the northwest\nRivers Narmada and Tapi: west-flowing rivers that drain into the Arabian Sea","note":"Vindhyas and Satpuras: important ranges on the plateau"},{"key":"Western and Eastern Ghats","main":"Western Ghats (Sahyadris): border the plateau on the west side; almost continuous; rich in minerals\nEastern Ghats: border the plateau on the east; broken and uneven","note":"Sahyadris = another name for Western Ghats"},{"key":"Great Indian Desert","main":"Lies to the west of the peninsula\nDry, hot and sandy — very little vegetation","note":""},{"key":"Coastal Plains","main":"Western Coastal plains: very narrow\nEastern Coastal plains: much broader\nRivers draining into Bay of Bengal from east: Mahanadi, Godavari, Krishna, Kaveri\nThese rivers have formed fertile deltas at their mouths\nSunderban delta: formed where Ganga and Brahmaputra flow into Bay of Bengal (world's largest delta)","note":""},{"key":"Lakshadweep Islands","main":"Located in the Arabian Sea\nCoral islands located off the coast of Kerala","note":"Corals are skeletons of tiny marine animals called Polyps"},{"key":"Andaman and Nicobar Islands","main":"Lie to the southeast of the Indian mainland\nIn the Bay of Bengal","note":"These islands were affected by the Tsunami in 2004"},{"key":"Palk Strait","main":"The strait between India and Sri Lanka","note":"Sri Lanka is separated from India by the Palk Strait"},{"key":"Political and Administrative Divisions","main":"India is divided into 28 States and 8 Union Territories\nDelhi is the national capital\nStates have been formed mainly on the basis of languages","note":""}],"traps":[{"label":"Latitudinal and Longitudinal Extent","lines":["Latitude: 8°4'N to 37°6'N","Longitude: 68°7'E to 97°25'E","Standard Meridian: 82°30'E (NOT 82°E or 83°E)","IST = GMT + 5:30"]},{"label":"3 Himalayan Ranges","lines":["Himadri = Great Himalaya = NORTHERNMOST","Himachal = Middle Himalaya (popular hill stations)","Shiwalik = SOUTHERNMOST of the three","Common trap: mixing up which is northernmost vs southernmost"]},{"label":"Sahyadris = Western Ghats","lines":["Sahyadris is another name for Western Ghats","Western Ghats = almost continuous, rich in minerals","Eastern Ghats = broken and uneven"]},{"label":"Rivers — Arabian Sea vs Bay of Bengal","lines":["Narmada and Tapi flow WEST into the Arabian Sea","Mahanadi, Godavari, Krishna, Kaveri flow EAST into Bay of Bengal","Ganga + Brahmaputra → Bay of Bengal → Sunderban delta"]},{"label":"Islands","lines":["Lakshadweep: Arabian Sea; coral islands; off coast of Kerala","Andaman & Nicobar: Bay of Bengal; southeast of mainland","Palk Strait: between India and Sri Lanka (NOT between India and Maldives)"]},{"label":"7 Land Neighbours vs Island Neighbours","lines":["7 LAND neighbours: Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, Myanmar","ISLAND neighbours: Sri Lanka, Maldives (not included in the 7)"]}],"mainsAngle":"India's physical diversity — the Himalayas (water towers of Asia), the Northern Plains (breadbasket), the Western Ghats (biodiversity hotspot), and the two island chains — shapes its climate, river systems, agriculture, and strategic position. The IST example (sun rises 2 hours earlier in Arunachal than Gujarat) also directly connects Chapter 2's longitude-time concepts to India's geographical reality.","mainsTheme":"Physical geography of India as the foundation for understanding its climate, agriculture, and strategic position","recall":["India area: 3.28 million sq. km","N-S: ~3,200 km (Ladakh to Kanyakumari); E-W: ~2,900 km (AP to Kuchchh)","Latitude: 8°4'N to 37°6'N; Longitude: 68°7'E to 97°25'E","Tropic of Cancer (23°30'N) passes halfway through India","Standard Meridian: 82°30'E → IST = GMT + 5:30","7 land neighbours: Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, Myanmar","3 Himalayan ranges: Himadri (N) → Himachal → Shiwalik (S)","5 physical divisions: Himalayas, Northern Plains, Peninsular Plateau, Coastal Plains, Islands","Northern Plains: alluvial deposits; Indus, Ganga, Brahmaputra","Western Ghats = Sahyadris (continuous, mineral-rich); Eastern Ghats = broken","Narmada, Tapi → Arabian Sea; Godavari, Krishna, Kaveri, Mahanadi → Bay of Bengal","Sunderban delta: Ganga + Brahmaputra → Bay of Bengal (world's largest delta)","Lakshadweep: coral islands, Arabian Sea, off Kerala","Andaman & Nicobar: Bay of Bengal, southeast of mainland","Palk Strait: between India and Sri Lanka","28 States + 8 Union Territories; states based on languages"]}},"quizzes":{"geo6-ch6":{"title":"Our Country – India","questions":[{"q":"India's total geographical area is approximately:","options":["1.28 million sq. km","2.28 million sq. km","3.28 million sq. km","4.28 million sq. km"],"correct":2,"explain":"India has an area of about 3.28 million sq. km."},{"q":"The Tropic of Cancer (23°30'N) passes through India approximately:","options":["Through the northernmost part","Through the southernmost part","Almost halfway through the country","Through the eastern coastline only"],"correct":2,"explain":"The Tropic of Cancer passes almost halfway through India, dividing the country into roughly equal northern and southern halves."},{"q":"India's latitudinal and longitudinal extents are respectively:","options":["8°4'N to 37°6'N and 68°7'E to 97°25'E","6°4'N to 35°6'N and 70°7'E to 95°25'E","10°N to 40°N and 70°E to 100°E","8°4'S to 37°6'N and 68°7'E to 97°25'E"],"correct":0,"explain":"India's precise extents are: Latitude 8°4'N to 37°6'N, Longitude 68°7'E to 97°25'E."},{"q":"India's Standard Meridian (82°30'E) is used because:","options":["It passes through the capital, New Delhi","The longitudinal extent of ~29° creates a ~2-hour time difference — a single meridian provides a uniform standard time","It is the most central longitude in the world","It was chosen by British surveyors during colonial rule"],"correct":1,"explain":"India's ~29° longitudinal extent creates about 2 hours of difference in local time. A uniform IST based on 82°30'E avoids confusion — the sun rises ~2 hours earlier in Arunachal Pradesh (east) than Gujarat (west)."},{"q":"How many countries share land boundaries with India?","options":["Five","Six","Seven","Nine"],"correct":2,"explain":"Seven countries share land boundaries with India: Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, and Myanmar."},{"q":["Consider the following pairs (Country — Directional position relative to India):","I. Pakistan — West","II. Bhutan — Northeast","III. Bangladesh — West","IV. Myanmar — East","How many of the above pairs are correctly matched?"],"options":["Only one pair","Only two pairs","Only three pairs","All four pairs"],"correct":2,"explain":"Pairs I, II, and IV are correctly matched. Pair III is incorrect — Bangladesh lies to the EAST of India, not the west."},{"q":"Which of the following is NOT a land neighbour of India?","options":["Bhutan","Nepal","Sri Lanka","Myanmar"],"correct":2,"explain":"Sri Lanka is an island neighbour separated from India by the Palk Strait — it does NOT share a land boundary with India."},{"q":"The five major physical divisions of India are:","options":["Himalayas, Northern Plains, Peninsular Plateau, Coastal Plains, Islands","Himalayas, Deccan Plateau, Thar Desert, Coastal Plains, Islands","Mountains, Rivers, Deserts, Coasts, Plateaus","Great Plains, Peninsular Plateau, Western Ghats, Eastern Ghats, Islands"],"correct":0,"explain":"The five major physical divisions are: The Great Mountains of the North (Himalayas), The Northern Plains, The Peninsular Plateau, The Coastal Plains, and The Islands."},{"q":"The three parallel ranges of the Himalayas, from north to south, are:","options":["Shiwalik, Himachal, Himadri","Himadri, Himachal, Shiwalik","Himachal, Himadri, Shiwalik","Himadri, Shiwalik, Himachal"],"correct":1,"explain":"From north to south: Himadri (Great Himalaya — northernmost) → Himachal (Middle Himalaya) → Shiwalik (southernmost)."},{"q":["Assertion (A): The Northern Plains of India have a very high concentration of population.","Reason (R): They are formed by alluvial deposits from the Indus, Ganga, Brahmaputra and their tributaries, making them highly fertile and ideal for cultivation.","Which one of the following is correct?"],"options":["Both A and R are true, and R is the correct explanation of A","Both A and R are true, but R is NOT the correct explanation of A","A is true, but R is false","A is false, but R is true"],"correct":0,"explain":"Both are true and R correctly explains A — the fertile alluvial soil supports dense agricultural activity, which is the direct reason for the plains' high population concentration."},{"q":"The Aravalli hills, one of the oldest mountain ranges in the world, border the Peninsular Plateau on which side?","options":["East","West","South","Northwest"],"correct":3,"explain":"The Aravalli hills border the Peninsular Plateau on the northwest side."},{"q":"The rivers Narmada and Tapi flow into which water body?","options":["Bay of Bengal","Arabian Sea","Indian Ocean (directly)","Palk Strait"],"correct":1,"explain":"Narmada and Tapi are west-flowing rivers that drain into the Arabian Sea."},{"q":["Consider the following rivers and their drainage direction:","I. Godavari — flows into Bay of Bengal","II. Krishna — flows into Arabian Sea","III. Narmada — flows into Arabian Sea","IV. Mahanadi — flows into Bay of Bengal","How many of the above pairs are correctly matched?"],"options":["Only one pair","Only two pairs","Only three pairs","All four pairs"],"correct":2,"explain":"Pairs I, III, and IV are correctly matched. Pair II is incorrect — Krishna flows into the BAY OF BENGAL (not the Arabian Sea)."},{"q":"The Sunderban delta is formed by which rivers?","options":["Godavari and Krishna","Narmada and Tapi","Ganga and Brahmaputra","Mahanadi and Godavari"],"correct":2,"explain":"The Sunderban delta is formed where the Ganga and Brahmaputra flow into the Bay of Bengal — it is the world's largest delta."},{"q":"Which of the following best describes the Western Ghats (Sahyadris)?","options":["Broken and uneven; border the plateau on the east","Almost continuous; border the plateau on the west; rich in minerals","Parallel to the Himalayas in the north","Found along the eastern coast; rich in coal deposits"],"correct":1,"explain":"The Western Ghats (Sahyadris) are almost continuous, border the Peninsular Plateau on the west, and are rich in minerals. The Eastern Ghats are broken and uneven."},{"q":"Lakshadweep Islands are located in which water body and what type of islands are they?","options":["Bay of Bengal; volcanic islands","Arabian Sea; coral islands (off the coast of Kerala)","Indian Ocean; sedimentary islands","Arabian Sea; mangrove islands"],"correct":1,"explain":"Lakshadweep Islands are located in the Arabian Sea and are coral islands (formed from skeletons of tiny marine animals called Polyps), located off the coast of Kerala."},{"q":"The Andaman and Nicobar Islands lie in which direction from the Indian mainland and in which water body?","options":["Northwest; Arabian Sea","Southwest; Indian Ocean","Southeast; Bay of Bengal","Northeast; Bay of Bengal"],"correct":2,"explain":"The Andaman and Nicobar Islands lie to the southeast of the Indian mainland, in the Bay of Bengal."},{"q":"The Palk Strait lies between:","options":["India and Maldives","India and Sri Lanka","Sri Lanka and Maldives","India and Bangladesh"],"correct":1,"explain":"The Palk Strait lies between India and Sri Lanka."},{"q":"India is divided into how many States and Union Territories (as per this chapter)?","options":["25 States and 7 UTs","28 States and 8 UTs","29 States and 7 UTs","28 States and 9 UTs"],"correct":1,"explain":"India is divided into 28 States and 8 Union Territories, with Delhi as the national capital."},{"q":["Consider the following statements:","I. The east-west extent of India is greater than its north-south extent.","II. India is the second most populous country after China.","III. Tropic of Cancer passes through the northernmost part of India.","Which of the statements given above is/are correct?"],"options":["II only","I and II only","I, II and III","II and III only"],"correct":0,"explain":"Only Statement II is correct. Statement I is incorrect — N-S (~3,200 km) is greater than E-W (~2,900 km). Statement III is incorrect — Tropic of Cancer passes ALMOST HALFWAY through India, not through its northernmost part."},{"q":["Read the following passage:","'Two groups of islands also form part of India. Lakshadweep Islands are located in the Arabian Sea. These are coral islands located off the coast of Kerala. The Andaman and the Nicobar Islands lie to the southeast of the Indian mainland in the Bay of Bengal.'","Which of the following is most directly supported by this passage?"],"options":["Both island groups are located in the Arabian Sea","Lakshadweep and Andaman & Nicobar Islands are in different water bodies — Arabian Sea and Bay of Bengal respectively","Both island groups are coral islands","Andaman & Nicobar Islands are off the coast of Kerala"],"correct":1,"explain":"The passage clearly places Lakshadweep in the Arabian Sea (coral islands, off Kerala) and Andaman & Nicobar in the Bay of Bengal (southeast of mainland) — they are in different water bodies."},{"q":"Corals are formed from:","options":["Deposits of sand and silt carried by rivers","Skeletons of tiny marine animals called Polyps","Volcanic rock formations underwater","Compressed layers of calcium from sea shells"],"correct":1,"explain":"Corals are skeletons of tiny marine animals called Polyps. When Polyps die, their skeletons are left; other Polyps grow on top of these skeletons, building up higher and higher to form coral islands."},{"q":"The Peninsular Plateau of India is described as triangular in shape. Which of the following features is NOT correctly associated with it?","options":["Bounded by Aravalli hills on the northwest","Western Ghats border it on the west","It is highly fertile and level, similar to the Northern Plains","Rivers Narmada and Tapi flow westward from it into the Arabian Sea"],"correct":2,"explain":"This statement is incorrect — the Peninsular Plateau is highly UNEVEN (not level), unlike the Northern Plains which are generally level and flat."},{"q":"Which of the following rivers have formed fertile DELTAS at their mouths as they drain into the Bay of Bengal?","options":["Narmada, Tapi, Indus","Mahanadi, Godavari, Krishna, Kaveri","Ganga, Yamuna, Brahmaputra","Indus, Jhelum, Chenab"],"correct":1,"explain":"Mahanadi, Godavari, Krishna, and Kaveri flow eastward from the Peninsular Plateau into the Bay of Bengal, forming fertile deltas at their mouths."},{"q":"Which of the following best explains why the sun rises about 2 hours earlier in Arunachal Pradesh than in Gujarat?","options":["Arunachal Pradesh is at a higher latitude than Gujarat","India's east-west longitudinal extent of about 29° means places in the east receive sunrise ~2 hours before places in the west","Arunachal Pradesh has mountains that capture the first rays of the sun","The IST is calculated based on Gujarat's local time"],"correct":1,"explain":"India spans ~29° of longitude east-west. Since 1° of longitude = 4 minutes of time difference, 29° ≈ 116 minutes (~2 hours). Eastern Arunachal Pradesh therefore experiences sunrise approximately 2 hours before western Gujarat."}]}}});
+__registerContent("gs1/geography/ncert/class6/ch6/ch6", {
+  notes: {
+    "geo6-ch6": {
+      era: "NCERT Class 6 — Geography, Chapter 6",
+      significance: [
+        "India's locational coordinates, IST, area, population rank, and neighbours are directly tested Prelims static facts",
+        "Physical divisions (Himalayas, Northern Plains, Peninsula Plateau, Coastal Plains, Islands) with sub-divisions and key features are individually testable",
+        "Specific details — Lakshadweep as coral islands off Kerala, Andaman & Nicobar in Bay of Bengal, Palk Strait, Sunderbans delta — are high-frequency Prelims items",
+      ],
+      features: [
+        {
+          key: "India — Basic Facts",
+          main: "Area: approximately 3.28 million sq. km\nNorth-south extent: ~3,200 km (Ladakh to Kanyakumari)\nEast-west extent: ~2,900 km (Arunachal Pradesh to Kuchchh)\nPopulation: more than 120 crores (since 2011) — second most populous country after China",
+          note: "",
+        },
+        {
+          key: "Locational Setting",
+          main: "Located in the Northern Hemisphere\nTropic of Cancer (23°30'N) passes almost halfway through the country\nLatitudinal extent: 8°4'N to 37°6'N\nLongitudinal extent: 68°7'E to 97°25'E",
+          note: "Longitudinal extent of ~29° → potential time difference of ~2 hours between easternmost and westernmost points",
+        },
+        {
+          key: "Indian Standard Time",
+          main: "Longitude of 82°30'E is treated as the Standard Meridian of India\nLocal time at this meridian = Indian Standard Time (IST)\nSun rises about 2 hours earlier in the east (Arunachal Pradesh) than in the west (Gujarat)",
+          note: "IST = GMT + 5 hours 30 minutes",
+        },
+        {
+          key: "India's Boundaries",
+          main: "North: lofty Himalayas\nWest: Arabian Sea\nEast: Bay of Bengal\nSouth: Indian Ocean\nThe Arabian Sea, Bay of Bengal and Indian Ocean wash the shores of the Indian peninsula",
+          note: "India is a peninsula — a piece of land surrounded by water on three sides",
+        },
+        {
+          key: "India's Neighbours (7 land neighbours)",
+          main: "Seven countries share land boundaries with India:\nPakistan (west), Afghanistan (northwest), China (north/northeast), Nepal (north), Bhutan (northeast), Bangladesh (east), Myanmar (east)",
+          note: "Sri Lanka and Maldives are island neighbours (connected by sea, not land)",
+        },
+        {
+          key: "Physical Divisions of India (5 major)",
+          main: "1. The Great Mountains of the North (Himalayas)\n2. The Northern Plains\n3. The Peninsular Plateau\n4. The Coastal Plains\n5. The Islands",
+          note: "",
+        },
+        {
+          key: "The Himalayas — Three Parallel Ranges",
+          main: "Himadri (Great Himalaya) — northernmost; world's highest peaks\nHimachal (Middle Himalaya / Himachal) — many popular hill stations\nShiwalik — southernmost of the three hill ranges",
+          note: "Him+alaya means 'abode of snow'",
+        },
+        {
+          key: "Northern Indian Plains",
+          main: "Formed by alluvial deposits laid down by rivers: Indus, Ganga, Brahmaputra and their tributaries\nGenerally level and flat\nHighly fertile → high concentration of population\nReason for large population: fertile land + river plains provide food for cultivation",
+          note: "",
+        },
+        {
+          key: "The Peninsular Plateau",
+          main: "To the south of the Northern Plains lies the Peninsular Plateau\nHighly uneven — triangular in shape\nRegion with numerous hill ranges and valleys\nAravalli hills — one of the oldest ranges in the world; border it on the northwest\nRivers Narmada and Tapi: west-flowing rivers that drain into the Arabian Sea",
+          note: "Vindhyas and Satpuras: important ranges on the plateau",
+        },
+        {
+          key: "Western and Eastern Ghats",
+          main: "Western Ghats (Sahyadris): border the plateau on the west side; almost continuous; rich in minerals\nEastern Ghats: border the plateau on the east; broken and uneven",
+          note: "Sahyadris = another name for Western Ghats",
+        },
+        {
+          key: "Great Indian Desert",
+          main: "Lies to the west of the peninsula\nDry, hot and sandy — very little vegetation",
+          note: "",
+        },
+        {
+          key: "Coastal Plains",
+          main: "Western Coastal plains: very narrow\nEastern Coastal plains: much broader\nRivers draining into Bay of Bengal from east: Mahanadi, Godavari, Krishna, Kaveri\nThese rivers have formed fertile deltas at their mouths\nSunderban delta: formed where Ganga and Brahmaputra flow into Bay of Bengal (world's largest delta)",
+          note: "",
+        },
+        {
+          key: "Lakshadweep Islands",
+          main: "Located in the Arabian Sea\nCoral islands located off the coast of Kerala",
+          note: "Corals are skeletons of tiny marine animals called Polyps",
+        },
+        {
+          key: "Andaman and Nicobar Islands",
+          main: "Lie to the southeast of the Indian mainland\nIn the Bay of Bengal",
+          note: "These islands were affected by the Tsunami in 2004",
+        },
+        {
+          key: "Palk Strait",
+          main: "The strait between India and Sri Lanka",
+          note: "Sri Lanka is separated from India by the Palk Strait",
+        },
+        {
+          key: "Political and Administrative Divisions",
+          main: "India is divided into 28 States and 8 Union Territories\nDelhi is the national capital\nStates have been formed mainly on the basis of languages",
+          note: "",
+        },
+      ],
+      traps: [
+        {
+          label: "Latitudinal and Longitudinal Extent",
+          lines: [
+            "Latitude: 8°4'N to 37°6'N",
+            "Longitude: 68°7'E to 97°25'E",
+            "Standard Meridian: 82°30'E (NOT 82°E or 83°E)",
+            "IST = GMT + 5:30",
+          ],
+        },
+        {
+          label: "3 Himalayan Ranges",
+          lines: [
+            "Himadri = Great Himalaya = NORTHERNMOST",
+            "Himachal = Middle Himalaya (popular hill stations)",
+            "Shiwalik = SOUTHERNMOST of the three",
+            "Common trap: mixing up which is northernmost vs southernmost",
+          ],
+        },
+        {
+          label: "Sahyadris = Western Ghats",
+          lines: [
+            "Sahyadris is another name for Western Ghats",
+            "Western Ghats = almost continuous, rich in minerals",
+            "Eastern Ghats = broken and uneven",
+          ],
+        },
+        {
+          label: "Rivers — Arabian Sea vs Bay of Bengal",
+          lines: [
+            "Narmada and Tapi flow WEST into the Arabian Sea",
+            "Mahanadi, Godavari, Krishna, Kaveri flow EAST into Bay of Bengal",
+            "Ganga + Brahmaputra → Bay of Bengal → Sunderban delta",
+          ],
+        },
+        {
+          label: "Islands",
+          lines: [
+            "Lakshadweep: Arabian Sea; coral islands; off coast of Kerala",
+            "Andaman & Nicobar: Bay of Bengal; southeast of mainland",
+            "Palk Strait: between India and Sri Lanka (NOT between India and Maldives)",
+          ],
+        },
+        {
+          label: "7 Land Neighbours vs Island Neighbours",
+          lines: [
+            "7 LAND neighbours: Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, Myanmar",
+            "ISLAND neighbours: Sri Lanka, Maldives (not included in the 7)",
+          ],
+        },
+      ],
+      mainsAngle:
+        "India's physical diversity — the Himalayas (water towers of Asia), the Northern Plains (breadbasket), the Western Ghats (biodiversity hotspot), and the two island chains — shapes its climate, river systems, agriculture, and strategic position. The IST example (sun rises 2 hours earlier in Arunachal than Gujarat) also directly connects Chapter 2's longitude-time concepts to India's geographical reality.",
+      mainsTheme:
+        "Physical geography of India as the foundation for understanding its climate, agriculture, and strategic position",
+      recall: [
+        "India area: 3.28 million sq. km",
+        "N-S: ~3,200 km (Ladakh to Kanyakumari); E-W: ~2,900 km (AP to Kuchchh)",
+        "Latitude: 8°4'N to 37°6'N; Longitude: 68°7'E to 97°25'E",
+        "Tropic of Cancer (23°30'N) passes halfway through India",
+        "Standard Meridian: 82°30'E → IST = GMT + 5:30",
+        "7 land neighbours: Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, Myanmar",
+        "3 Himalayan ranges: Himadri (N) → Himachal → Shiwalik (S)",
+        "5 physical divisions: Himalayas, Northern Plains, Peninsular Plateau, Coastal Plains, Islands",
+        "Northern Plains: alluvial deposits; Indus, Ganga, Brahmaputra",
+        "Western Ghats = Sahyadris (continuous, mineral-rich); Eastern Ghats = broken",
+        "Narmada, Tapi → Arabian Sea; Godavari, Krishna, Kaveri, Mahanadi → Bay of Bengal",
+        "Sunderban delta: Ganga + Brahmaputra → Bay of Bengal (world's largest delta)",
+        "Lakshadweep: coral islands, Arabian Sea, off Kerala",
+        "Andaman & Nicobar: Bay of Bengal, southeast of mainland",
+        "Palk Strait: between India and Sri Lanka",
+        "28 States + 8 Union Territories; states based on languages",
+      ],
+    },
+  },
+  quizzes: {
+    "geo6-ch6": {
+      title: "Our Country – India",
+      questions: [
+        {
+          q: "India's total geographical area is approximately:",
+          options: [
+            "1.28 million sq. km",
+            "2.28 million sq. km",
+            "3.28 million sq. km",
+            "4.28 million sq. km",
+          ],
+          correct: 2,
+          explain: "India has an area of about 3.28 million sq. km.",
+        },
+        {
+          q: "The Tropic of Cancer (23°30'N) passes through India approximately:",
+          options: [
+            "Through the northernmost part",
+            "Through the southernmost part",
+            "Almost halfway through the country",
+            "Through the eastern coastline only",
+          ],
+          correct: 2,
+          explain:
+            "The Tropic of Cancer passes almost halfway through India, dividing the country into roughly equal northern and southern halves.",
+        },
+        {
+          q: "India's latitudinal and longitudinal extents are respectively:",
+          options: [
+            "8°4'N to 37°6'N and 68°7'E to 97°25'E",
+            "6°4'N to 35°6'N and 70°7'E to 95°25'E",
+            "10°N to 40°N and 70°E to 100°E",
+            "8°4'S to 37°6'N and 68°7'E to 97°25'E",
+          ],
+          correct: 0,
+          explain:
+            "India's precise extents are: Latitude 8°4'N to 37°6'N, Longitude 68°7'E to 97°25'E.",
+        },
+        {
+          q: "India's Standard Meridian (82°30'E) is used because:",
+          options: [
+            "It passes through the capital, New Delhi",
+            "The longitudinal extent of ~29° creates a ~2-hour time difference — a single meridian provides a uniform standard time",
+            "It is the most central longitude in the world",
+            "It was chosen by British surveyors during colonial rule",
+          ],
+          correct: 1,
+          explain:
+            "India's ~29° longitudinal extent creates about 2 hours of difference in local time. A uniform IST based on 82°30'E avoids confusion — the sun rises ~2 hours earlier in Arunachal Pradesh (east) than Gujarat (west).",
+        },
+        {
+          q: "How many countries share land boundaries with India?",
+          options: ["Five", "Six", "Seven", "Nine"],
+          correct: 2,
+          explain:
+            "Seven countries share land boundaries with India: Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, and Myanmar.",
+        },
+        {
+          q: [
+            "Consider the following pairs (Country — Directional position relative to India):",
+            "I. Pakistan — West",
+            "II. Bhutan — Northeast",
+            "III. Bangladesh — West",
+            "IV. Myanmar — East",
+            "How many of the above pairs are correctly matched?",
+          ],
+          options: [
+            "Only one pair",
+            "Only two pairs",
+            "Only three pairs",
+            "All four pairs",
+          ],
+          correct: 2,
+          explain:
+            "Pairs I, II, and IV are correctly matched. Pair III is incorrect — Bangladesh lies to the EAST of India, not the west.",
+        },
+        {
+          q: "Which of the following is NOT a land neighbour of India?",
+          options: ["Bhutan", "Nepal", "Sri Lanka", "Myanmar"],
+          correct: 2,
+          explain:
+            "Sri Lanka is an island neighbour separated from India by the Palk Strait — it does NOT share a land boundary with India.",
+        },
+        {
+          q: "The five major physical divisions of India are:",
+          options: [
+            "Himalayas, Northern Plains, Peninsular Plateau, Coastal Plains, Islands",
+            "Himalayas, Deccan Plateau, Thar Desert, Coastal Plains, Islands",
+            "Mountains, Rivers, Deserts, Coasts, Plateaus",
+            "Great Plains, Peninsular Plateau, Western Ghats, Eastern Ghats, Islands",
+          ],
+          correct: 0,
+          explain:
+            "The five major physical divisions are: The Great Mountains of the North (Himalayas), The Northern Plains, The Peninsular Plateau, The Coastal Plains, and The Islands.",
+        },
+        {
+          q: "The three parallel ranges of the Himalayas, from north to south, are:",
+          options: [
+            "Shiwalik, Himachal, Himadri",
+            "Himadri, Himachal, Shiwalik",
+            "Himachal, Himadri, Shiwalik",
+            "Himadri, Shiwalik, Himachal",
+          ],
+          correct: 1,
+          explain:
+            "From north to south: Himadri (Great Himalaya — northernmost) → Himachal (Middle Himalaya) → Shiwalik (southernmost).",
+        },
+        {
+          q: [
+            "Assertion (A): The Northern Plains of India have a very high concentration of population.",
+            "Reason (R): They are formed by alluvial deposits from the Indus, Ganga, Brahmaputra and their tributaries, making them highly fertile and ideal for cultivation.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both A and R are true, and R is the correct explanation of A",
+            "Both A and R are true, but R is NOT the correct explanation of A",
+            "A is true, but R is false",
+            "A is false, but R is true",
+          ],
+          correct: 0,
+          explain:
+            "Both are true and R correctly explains A — the fertile alluvial soil supports dense agricultural activity, which is the direct reason for the plains' high population concentration.",
+        },
+        {
+          q: "The Aravalli hills, one of the oldest mountain ranges in the world, border the Peninsular Plateau on which side?",
+          options: ["East", "West", "South", "Northwest"],
+          correct: 3,
+          explain:
+            "The Aravalli hills border the Peninsular Plateau on the northwest side.",
+        },
+        {
+          q: "The rivers Narmada and Tapi flow into which water body?",
+          options: [
+            "Bay of Bengal",
+            "Arabian Sea",
+            "Indian Ocean (directly)",
+            "Palk Strait",
+          ],
+          correct: 1,
+          explain:
+            "Narmada and Tapi are west-flowing rivers that drain into the Arabian Sea.",
+        },
+        {
+          q: [
+            "Consider the following rivers and their drainage direction:",
+            "I. Godavari — flows into Bay of Bengal",
+            "II. Krishna — flows into Arabian Sea",
+            "III. Narmada — flows into Arabian Sea",
+            "IV. Mahanadi — flows into Bay of Bengal",
+            "How many of the above pairs are correctly matched?",
+          ],
+          options: [
+            "Only one pair",
+            "Only two pairs",
+            "Only three pairs",
+            "All four pairs",
+          ],
+          correct: 2,
+          explain:
+            "Pairs I, III, and IV are correctly matched. Pair II is incorrect — Krishna flows into the BAY OF BENGAL (not the Arabian Sea).",
+        },
+        {
+          q: "The Sunderban delta is formed by which rivers?",
+          options: [
+            "Godavari and Krishna",
+            "Narmada and Tapi",
+            "Ganga and Brahmaputra",
+            "Mahanadi and Godavari",
+          ],
+          correct: 2,
+          explain:
+            "The Sunderban delta is formed where the Ganga and Brahmaputra flow into the Bay of Bengal — it is the world's largest delta.",
+        },
+        {
+          q: "Which of the following best describes the Western Ghats (Sahyadris)?",
+          options: [
+            "Broken and uneven; border the plateau on the east",
+            "Almost continuous; border the plateau on the west; rich in minerals",
+            "Parallel to the Himalayas in the north",
+            "Found along the eastern coast; rich in coal deposits",
+          ],
+          correct: 1,
+          explain:
+            "The Western Ghats (Sahyadris) are almost continuous, border the Peninsular Plateau on the west, and are rich in minerals. The Eastern Ghats are broken and uneven.",
+        },
+        {
+          q: "Lakshadweep Islands are located in which water body and what type of islands are they?",
+          options: [
+            "Bay of Bengal; volcanic islands",
+            "Arabian Sea; coral islands (off the coast of Kerala)",
+            "Indian Ocean; sedimentary islands",
+            "Arabian Sea; mangrove islands",
+          ],
+          correct: 1,
+          explain:
+            "Lakshadweep Islands are located in the Arabian Sea and are coral islands (formed from skeletons of tiny marine animals called Polyps), located off the coast of Kerala.",
+        },
+        {
+          q: "The Andaman and Nicobar Islands lie in which direction from the Indian mainland and in which water body?",
+          options: [
+            "Northwest; Arabian Sea",
+            "Southwest; Indian Ocean",
+            "Southeast; Bay of Bengal",
+            "Northeast; Bay of Bengal",
+          ],
+          correct: 2,
+          explain:
+            "The Andaman and Nicobar Islands lie to the southeast of the Indian mainland, in the Bay of Bengal.",
+        },
+        {
+          q: "The Palk Strait lies between:",
+          options: [
+            "India and Maldives",
+            "India and Sri Lanka",
+            "Sri Lanka and Maldives",
+            "India and Bangladesh",
+          ],
+          correct: 1,
+          explain: "The Palk Strait lies between India and Sri Lanka.",
+        },
+        {
+          q: "India is divided into how many States and Union Territories (as per this chapter)?",
+          options: [
+            "25 States and 7 UTs",
+            "28 States and 8 UTs",
+            "29 States and 7 UTs",
+            "28 States and 9 UTs",
+          ],
+          correct: 1,
+          explain:
+            "India is divided into 28 States and 8 Union Territories, with Delhi as the national capital.",
+        },
+        {
+          q: [
+            "Consider the following statements:",
+            "I. The east-west extent of India is greater than its north-south extent.",
+            "II. India is the second most populous country after China.",
+            "III. Tropic of Cancer passes through the northernmost part of India.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: [
+            "II only",
+            "I and II only",
+            "I, II and III",
+            "II and III only",
+          ],
+          correct: 0,
+          explain:
+            "Only Statement II is correct. Statement I is incorrect — N-S (~3,200 km) is greater than E-W (~2,900 km). Statement III is incorrect — Tropic of Cancer passes ALMOST HALFWAY through India, not through its northernmost part.",
+        },
+        {
+          q: [
+            "Read the following passage:",
+            "'Two groups of islands also form part of India. Lakshadweep Islands are located in the Arabian Sea. These are coral islands located off the coast of Kerala. The Andaman and the Nicobar Islands lie to the southeast of the Indian mainland in the Bay of Bengal.'",
+            "Which of the following is most directly supported by this passage?",
+          ],
+          options: [
+            "Both island groups are located in the Arabian Sea",
+            "Lakshadweep and Andaman & Nicobar Islands are in different water bodies — Arabian Sea and Bay of Bengal respectively",
+            "Both island groups are coral islands",
+            "Andaman & Nicobar Islands are off the coast of Kerala",
+          ],
+          correct: 1,
+          explain:
+            "The passage clearly places Lakshadweep in the Arabian Sea (coral islands, off Kerala) and Andaman & Nicobar in the Bay of Bengal (southeast of mainland) — they are in different water bodies.",
+        },
+        {
+          q: "Corals are formed from:",
+          options: [
+            "Deposits of sand and silt carried by rivers",
+            "Skeletons of tiny marine animals called Polyps",
+            "Volcanic rock formations underwater",
+            "Compressed layers of calcium from sea shells",
+          ],
+          correct: 1,
+          explain:
+            "Corals are skeletons of tiny marine animals called Polyps. When Polyps die, their skeletons are left; other Polyps grow on top of these skeletons, building up higher and higher to form coral islands.",
+        },
+        {
+          q: "The Peninsular Plateau of India is described as triangular in shape. Which of the following features is NOT correctly associated with it?",
+          options: [
+            "Bounded by Aravalli hills on the northwest",
+            "Western Ghats border it on the west",
+            "It is highly fertile and level, similar to the Northern Plains",
+            "Rivers Narmada and Tapi flow westward from it into the Arabian Sea",
+          ],
+          correct: 2,
+          explain:
+            "This statement is incorrect — the Peninsular Plateau is highly UNEVEN (not level), unlike the Northern Plains which are generally level and flat.",
+        },
+        {
+          q: "Which of the following rivers have formed fertile DELTAS at their mouths as they drain into the Bay of Bengal?",
+          options: [
+            "Narmada, Tapi, Indus",
+            "Mahanadi, Godavari, Krishna, Kaveri",
+            "Ganga, Yamuna, Brahmaputra",
+            "Indus, Jhelum, Chenab",
+          ],
+          correct: 1,
+          explain:
+            "Mahanadi, Godavari, Krishna, and Kaveri flow eastward from the Peninsular Plateau into the Bay of Bengal, forming fertile deltas at their mouths.",
+        },
+        {
+          q: "Which of the following best explains why the sun rises about 2 hours earlier in Arunachal Pradesh than in Gujarat?",
+          options: [
+            "Arunachal Pradesh is at a higher latitude than Gujarat",
+            "India's east-west longitudinal extent of about 29° means places in the east receive sunrise ~2 hours before places in the west",
+            "Arunachal Pradesh has mountains that capture the first rays of the sun",
+            "The IST is calculated based on Gujarat's local time",
+          ],
+          correct: 1,
+          explain:
+            "India spans ~29° of longitude east-west. Since 1° of longitude = 4 minutes of time difference, 29° ≈ 116 minutes (~2 hours). Eastern Arunachal Pradesh therefore experiences sunrise approximately 2 hours before western Gujarat.",
+        },
+        {
+          q: "The word 'Himalaya' (Him + alaya) means:",
+          options: [
+            "Land of rivers",
+            "Abode of snow",
+            "Great plateau",
+            "Roof of the world",
+          ],
+          correct: 1,
+          explain:
+            "'Him' means snow and 'alaya' means abode, so Himalaya means the 'abode of snow'.",
+        },
+        {
+          q: "Which country lies to the northwest of India?",
+          options: ["Nepal", "Afghanistan", "Bhutan", "Myanmar"],
+          correct: 1,
+          explain:
+            "Afghanistan lies to the northwest of India among its seven land neighbours.",
+        },
+        {
+          q: [
+            "Consider the following statements about India's Coastal Plains:",
+            "I. The Western Coastal plains are very narrow.",
+            "II. The Eastern Coastal plains are much broader.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+          correct: 2,
+          explain:
+            "Both are correct — the western coastal plains are very narrow while the eastern coastal plains are much broader.",
+        },
+        {
+          q: "The Great Indian Desert lies in which part of the country?",
+          options: [
+            "East of the peninsula",
+            "West of the peninsula",
+            "North of the Himalayas",
+            "South of Kanyakumari",
+          ],
+          correct: 1,
+          explain:
+            "The Great Indian Desert — dry, hot and sandy with little vegetation — lies to the west of the peninsula.",
+        },
+        {
+          q: "Indian Standard Time (IST) is ahead of Greenwich Mean Time by:",
+          options: [
+            "4 hours 30 minutes",
+            "5 hours",
+            "5 hours 30 minutes",
+            "6 hours",
+          ],
+          correct: 2,
+          explain:
+            "IST, based on the Standard Meridian of 82°30'E, is 5 hours 30 minutes ahead of GMT.",
+        },
+        {
+          q: "The north-south extent of India (Ladakh to Kanyakumari) is approximately:",
+          options: ["2,900 km", "3,200 km", "3,600 km", "2,500 km"],
+          correct: 1,
+          explain:
+            "India's north-south extent is about 3,200 km, while its east-west extent is about 2,900 km.",
+        },
+        {
+          q: "Indian states have been formed mainly on the basis of:",
+          options: ["Rivers", "Languages", "Religion", "Population size"],
+          correct: 1,
+          explain:
+            "States in India have been formed mainly on the basis of languages.",
+        },
+        {
+          q: "The Vindhyas and Satpuras are important ranges located in which physical division of India?",
+          options: [
+            "The Himalayas",
+            "The Northern Plains",
+            "The Peninsular Plateau",
+            "The Coastal Plains",
+          ],
+          correct: 2,
+          explain:
+            "The Vindhyas and Satpuras are important ranges of the Peninsular Plateau.",
+        },
+        {
+          q: "India is the second most populous country in the world after:",
+          options: ["USA", "Indonesia", "China", "Russia"],
+          correct: 2,
+          explain:
+            "With more than 120 crore people (since 2011), India is the second most populous country after China.",
+        },
+        {
+          q: [
+            "Consider the following pairs (Direction — Water body bordering India):",
+            "I. West — Arabian Sea",
+            "II. East — Bay of Bengal",
+            "III. South — Indian Ocean",
+            "How many of the above pairs are correctly matched?",
+          ],
+          options: ["Only one", "Only two", "All three", "None"],
+          correct: 2,
+          explain:
+            "All three are correctly matched — the Arabian Sea lies to the west, the Bay of Bengal to the east, and the Indian Ocean to the south of India.",
+        },
+      ],
+    },
+  },
+});

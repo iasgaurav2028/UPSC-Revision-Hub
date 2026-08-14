@@ -262,5 +262,136 @@ const QUIZ_major_committees = {
       explain:
         "This reflects the actual distribution: Nehru (Union architecture + States negotiation), Patel (provincial + protective provisions), Ambedkar (drafting the text), Prasad (procedural/administrative oversight).",
     },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. There were eight major committees.",
+        "II. Jawaharlal Nehru chaired three of them.",
+        "III. Dr. B.R. Ambedkar chaired two of them.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — Ambedkar chaired only one major committee (the Drafting Committee).",
+    },
+    {
+      q: [
+        "Consider the following pairs (Committee — Chairman):",
+        "I. Union Constitution Committee — Jawaharlal Nehru",
+        "II. Steering Committee — Dr. Rajendra Prasad",
+        "III. Provincial Constitution Committee — Dr. B.R. Ambedkar",
+        "How many of the pairs given above are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Pairs I and II are correct. Pair III is wrong — the Provincial Constitution Committee was chaired by Sardar Patel, not Ambedkar.",
+    },
+    {
+      q: "The Rules of Procedure Committee was chaired by:",
+      options: [
+        "Jawaharlal Nehru",
+        "Sardar Vallabhbhai Patel",
+        "Dr. Rajendra Prasad",
+        "Dr. B.R. Ambedkar",
+      ],
+      correct: 2,
+      explain:
+        "Dr. Rajendra Prasad chaired the Rules of Procedure Committee (as well as the Steering Committee).",
+    },
+    {
+      q: [
+        "Assertion (A): The North-West Frontier Tribal Areas Sub-Committee did not function on behalf of the Constituent Assembly of India.",
+        "Reason (R): NWFP and Baluchistan became part of Pakistan following the June 3, 1947 statement and a subsequent referendum.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — since NWFP and Baluchistan joined Pakistan, the sub-committee's mandate no longer applied to India.",
+    },
+    {
+      q: "The Sub-Committee on the North-East Frontier Tribal Areas and Assam Excluded Areas was chaired by:",
+      options: [
+        "J.B. Kripalani",
+        "H.C. Mukherjee",
+        "Gopinath Bardoloi",
+        "A.V. Thakkar",
+      ],
+      correct: 2,
+      explain:
+        "Gopinath Bardoloi chaired the NE Frontier Tribal Areas and Assam Excluded Areas Sub-Committee.",
+    },
+    {
+      q: "Which committee was chaired by Sardar Vallabhbhai Patel?",
+      options: [
+        "Union Powers Committee",
+        "Provincial Constitution Committee",
+        "States Committee",
+        "Steering Committee",
+      ],
+      correct: 1,
+      explain:
+        "Sardar Patel chaired the Provincial Constitution Committee (and the Advisory Committee).",
+    },
+    {
+      q: [
+        "Statement I: The Advisory Committee on Fundamental Rights, Minorities and Tribal and Excluded Areas had five sub-committees.",
+        "Statement II: It was chaired by Jawaharlal Nehru.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are true, and II is the correct explanation of I",
+        "Both statements are true, but II is NOT the correct explanation of I",
+        "Statement I is true, but Statement II is false",
+        "Statement I is false, but Statement II is true",
+      ],
+      correct: 2,
+      explain:
+        "Statement I is true, but Statement II is false — the Advisory Committee was chaired by Sardar Patel, not Nehru.",
+    },
+    {
+      q: "The Excluded and Partially Excluded Areas (other than Assam) Sub-Committee was chaired by:",
+      options: [
+        "A.V. Thakkar",
+        "Gopinath Bardoloi",
+        "H.C. Mukherjee",
+        "J.B. Kripalani",
+      ],
+      correct: 0,
+      explain:
+        "A.V. Thakkar chaired the Excluded and Partially Excluded Areas (non-Assam) Sub-Committee.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. J.B. Kripalani chaired the Fundamental Rights Sub-Committee.",
+        "II. H.C. Mukherjee chaired the Minorities Sub-Committee.",
+        "III. The States Committee was chaired by Sardar Patel.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the States Committee was chaired by Jawaharlal Nehru.",
+    },
+    {
+      q: "Which leader among the following chaired the largest number of major committees of the Constituent Assembly?",
+      options: [
+        "Sardar Vallabhbhai Patel",
+        "Jawaharlal Nehru",
+        "Dr. Rajendra Prasad",
+        "Dr. B.R. Ambedkar",
+      ],
+      correct: 1,
+      explain:
+        "Nehru chaired three major committees (Union Powers, Union Constitution, States) — more than any other leader.",
+    },
   ],
 };

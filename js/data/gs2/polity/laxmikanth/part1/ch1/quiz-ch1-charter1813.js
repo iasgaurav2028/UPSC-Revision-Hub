@@ -174,5 +174,130 @@ const QUIZ_ch1_charter1813 = {
       explain:
         "The Charter Act of 1813 falls chronologically between the Charter Act of 1793 (20 years earlier) and the Charter Act of 1833 (20 years later).",
     },
+    {
+      q: "The Charter Act of 1813 opened British Indian territories to which two influences previously restricted?",
+      options: [
+        "Foreign armies and mercenaries",
+        "Christian missionaries and Western education",
+        "French and Dutch traders",
+        "Indian moneylenders and zamindars",
+      ],
+      correct: 1,
+      explain:
+        "The Act allowed Christian missionaries into India and provided for the spread of Western education.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Charter Act of 1813:",
+        "I. It asserted the sovereignty of the British Crown over the Company's Indian territories.",
+        "II. It authorised local governments to impose and collect taxes.",
+        "III. It abolished the Company's monopoly over the tea trade.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the tea trade and China trade monopoly were retained.",
+    },
+    {
+      q: [
+        "Arrange the following Acts in chronological order:",
+        "1. Charter Act of 1813",
+        "2. Charter Act of 1793",
+        "3. Charter Act of 1833",
+        "Select the correct order:",
+      ],
+      options: ["2 - 1 - 3", "1 - 2 - 3", "3 - 2 - 1", "2 - 3 - 1"],
+      correct: 0,
+      explain: "1793 → 1813 → 1833, i.e. order 2-1-3.",
+    },
+    {
+      q: "The Charter Act of 1813 was the FIRST Act to do which of the following?",
+      options: [
+        "Assert Crown sovereignty over the Company's Indian territories",
+        "Create the office of Viceroy",
+        "Introduce separate electorates",
+        "Abolish the East India Company",
+      ],
+      correct: 0,
+      explain:
+        "It was the first Act to assert the sovereignty of the British Crown over the Company's territories in India.",
+    },
+    {
+      q: [
+        "Statement I: The Charter Act of 1813 opened India to Western liberal ideas.",
+        "Statement II: The Act permitted missionary activity and promoted Western education.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II correctly explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 0,
+      explain:
+        "Both are correct, and missionary access plus Western education were the channels through which Western liberal ideas entered — Statement II explains Statement I.",
+    },
+    {
+      q: "Under the Charter Act of 1813, the Company's general trade monopoly in India was:",
+      options: [
+        "Retained fully",
+        "Abolished, opening trade to all British merchants",
+        "Extended by 20 years",
+        "Transferred to the Crown",
+      ],
+      correct: 1,
+      explain:
+        "The general trade monopoly in India was abolished, opening it to all British merchants, except for tea and China trade.",
+    },
+    {
+      q: "Which trade monopolies did the Company retain even after the Charter Act of 1813?",
+      options: [
+        "Monopoly over cotton and indigo",
+        "Monopoly over tea trade and trade with China",
+        "Monopoly over salt and opium",
+        "Monopoly over all Indian trade",
+      ],
+      correct: 1,
+      explain:
+        "The Company retained its monopoly over the tea trade and trade with China.",
+    },
+    {
+      q: "The authorisation of local governments to impose taxes and punish non-payers under the Charter Act of 1813 represents an early expansion of:",
+      options: [
+        "Judicial power",
+        "Local fiscal and administrative power",
+        "Legislative power of Indians",
+        "Military authority",
+      ],
+      correct: 1,
+      explain:
+        "It marked an early expansion of local fiscal/administrative power to levy and enforce taxes.",
+    },
+    {
+      q: "Which of the following pairs relating to the Charter Act of 1813 is correctly matched?",
+      options: [
+        "Tea trade monopoly — abolished",
+        "Crown sovereignty — first asserted",
+        "Missionaries — banned",
+        "General trade monopoly — retained",
+      ],
+      correct: 1,
+      explain:
+        "Crown sovereignty over Company territories was first asserted by this Act; the other pairs state the opposite of the facts.",
+    },
+    {
+      q: "The provisions of the Charter Act of 1813 regarding education and missionaries are most directly connected to which later phenomenon?",
+      options: [
+        "The economic drain of wealth",
+        "The rise of 19th-century socio-religious reform movements",
+        "The Revolt of 1857",
+        "The partition of Bengal",
+      ],
+      correct: 1,
+      explain:
+        "Exposure to Western education and missionary activity laid early groundwork for later socio-religious reform movements.",
+    },
   ],
 };

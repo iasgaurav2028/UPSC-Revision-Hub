@@ -199,5 +199,147 @@ const QUIZ_functions = {
       explain:
         "The Indian Constitution's comprehensive scope — attempting to fulfil all 8 Bulmer functions while also addressing India's unique diversity challenges — necessitated extensive provisions. Each function requires multiple articles and schedules, making the total document the world's longest written constitution.",
     },
+    {
+      q: "The comprehensive framework of eight functions of a constitution was given by:",
+      options: [
+        "K.C. Wheare",
+        "Elliot Bulmer",
+        "Louis Henkin",
+        "Lord James Bryce",
+      ],
+      correct: 1,
+      explain:
+        "Elliot Bulmer, a constitutional scholar, identified the comprehensive list of eight functions that a constitution can perform.",
+    },
+    {
+      q: "The Preamble of the Indian Constitution, by declaring India a 'Sovereign Socialist Secular Democratic Republic', MOST directly performs which of Bulmer's functions?",
+      options: [
+        "Declare and define the boundaries of the political community",
+        "Declare and define the nature and authority of the political community",
+        "Divide or share power between different layers of government",
+        "Establish and regulate political institutions",
+      ],
+      correct: 1,
+      explain:
+        "Declaring India's character as sovereign, socialist, secular, democratic and republic defines the NATURE AND AUTHORITY of the political community — Bulmer's Function 2.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Bulmer's Function — Indian provision):",
+        "I. Establish and regulate political institutions — Parts V and VI",
+        "II. Commit to social/economic goals — Directive Principles (Part IV)",
+        "III. Declare rights and duties of citizens — Part III and Part IV-A",
+        "How many of the above pairs are correctly matched?",
+      ],
+      options: [
+        "Only one pair",
+        "Only two pairs",
+        "All three pairs",
+        "None of the pairs",
+      ],
+      correct: 2,
+      explain:
+        "All three pairs are correctly matched — Parts V/VI establish institutions, DPSPs (Part IV) commit to social/economic goals, and Part III + Part IV-A declare rights and duties.",
+    },
+    {
+      q: "The distribution of legislative powers through the Union, State and Concurrent Lists (Seventh Schedule) is an exercise of which Bulmer function?",
+      options: [
+        "Express the identity and values of a national community",
+        "Divide or share power between different layers of government",
+        "Declare the religious identity of the state",
+        "Declare and define the rights and duties of citizens",
+      ],
+      correct: 1,
+      explain:
+        "The Seventh Schedule's division of legislative subjects between the Union and the States is a clear exercise of Function 6 — 'divide or share power between different layers of government'.",
+    },
+    {
+      q: [
+        "Statement I: A constitution can express the identity and values of a national community.",
+        "Statement II: In India, this function is reflected in the Preamble and the Fundamental Duties.",
+        "Which one of the following is correct in respect of the above statements?",
+      ],
+      options: [
+        "Both Statement I and Statement II are correct",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct",
+        "Both Statement I and Statement II are incorrect",
+      ],
+      correct: 0,
+      explain:
+        "Both statements are correct — expressing identity and values is Bulmer's Function 3, and in India it is reflected in the Preamble (Justice, Liberty, Equality, Fraternity) and the Fundamental Duties (Article 51A).",
+    },
+    {
+      q: "Articles 25-28 of the Indian Constitution, dealing with freedom of religion and the secular character of the state, relate to which of Bulmer's functions?",
+      options: [
+        "Declaring the religious identity of the state and demarcating sacred-secular relations",
+        "Establishing and regulating political institutions",
+        "Committing the state to developmental goals",
+        "Defining the boundaries of the political community",
+      ],
+      correct: 0,
+      explain:
+        "Articles 25-28 relate to Function 7 — declaring religious identity and demarcating relationships between sacred and secular authorities. India uses this function to establish a secular framework with no official state religion.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. Function 5 (establish institutions) and Function 6 (divide power) are the same function.",
+        "II. Function 8 (commit to social/economic goals) gives a constitution a prescriptive character.",
+        "III. Bulmer's framework helps explain the comprehensive scope of the Indian Constitution.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: [
+        "II and III only",
+        "I and II only",
+        "I and III only",
+        "I, II and III",
+      ],
+      correct: 0,
+      explain:
+        "Statements II and III are correct. Statement I is incorrect — Function 5 (creating institutions) and Function 6 (distributing power between layers) are DISTINCT functions.",
+    },
+    {
+      q: "Which of the following is NOT among Bulmer's eight functions of a constitution?",
+      options: [
+        "Express the identity and values of a national community",
+        "Declare the official language policy of every private organisation",
+        "Divide or share power between different layers of government",
+        "Commit states to particular social, economic or developmental goals",
+      ],
+      correct: 1,
+      explain:
+        "Declaring the language policy of private organisations is NOT a function of a constitution. Bulmer's functions relate to defining the community, its nature, identity, rights, institutions, power-sharing, religion and social goals.",
+    },
+    {
+      q: "The function of 'declaring and defining the boundaries of the political community' is reflected in the Indian Constitution primarily through:",
+      options: [
+        "Articles 1 to 4 (Name and territory of the Union)",
+        "Articles 12 to 35 (Fundamental Rights)",
+        "Articles 36 to 51 (Directive Principles)",
+        "Article 368 (Amendment procedure)",
+      ],
+      correct: 0,
+      explain:
+        "Articles 1-4 deal with the name, territory, admission and reorganisation of states — defining the boundaries of India as a political community, which is Bulmer's Function 1.",
+    },
+    {
+      q: [
+        "Consider the following statements about Bulmer's functional framework:",
+        "I. It recognises that constitutions do more than merely establish government.",
+        "II. It includes the function of managing religious diversity.",
+        "III. Every function in the framework must be performed by every constitution in the world.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III",
+      ],
+      correct: 0,
+      explain:
+        "Statements I and II are correct — the framework recognises constitutions express identity, manage religion and commit to goals, not just establish government. Statement III is incorrect — a constitution CAN perform these functions, but not every constitution performs all of them.",
+    },
   ],
 };

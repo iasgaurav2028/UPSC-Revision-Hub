@@ -249,5 +249,138 @@ const QUIZ_obj_resolution = {
       explain:
         "The Objectives Resolution is foundational — it set the philosophical vision for the entire Constitution: sovereignty, popular sovereignty (Clause 4), social justice (Clause 5), minority protection (Clause 6), and India's global role (Clause 8).",
     },
+    {
+      q: [
+        "Consider the following statements about the Objectives Resolution:",
+        "I. It was moved by Jawaharlal Nehru.",
+        "II. It was moved on 13 December 1946.",
+        "III. It was adopted on 26 January 1947.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the Resolution was adopted on 22 January 1947, not 26 January 1947.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Clause — Content):",
+        "I. Clause 4 — All power and authority derived from the people",
+        "II. Clause 7 — Territorial integrity and sovereign rights",
+        "III. Clause 8 — Safeguards for minorities and backward classes",
+        "How many of the pairs given above are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Pairs I and II are correct. Pair III is wrong — safeguards for minorities were in Clause 6; Clause 8 dealt with India's place in the world.",
+    },
+    {
+      q: "The Objectives Resolution is often described as the ______ of the Indian Constitution.",
+      options: [
+        "supreme law",
+        "philosophical basis / guiding spirit",
+        "operative part",
+        "first Schedule",
+      ],
+      correct: 1,
+      explain:
+        "The Objectives Resolution is described as the philosophical basis or guiding spirit of the Constitution.",
+    },
+    {
+      q: [
+        "Assertion (A): A modified version of the Objectives Resolution forms the Preamble of the Constitution.",
+        "Reason (R): The Objectives Resolution laid down the fundamentals and philosophy of the constitutional structure.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 1,
+      explain:
+        "Both are true, but R is not the direct explanation of A — the Preamble being a modified version of the Resolution is a fact of adoption, distinct from R's statement about the Resolution's philosophical content.",
+    },
+    {
+      q: [
+        "Arrange the following in correct chronological order:",
+        "I. Objectives Resolution adopted",
+        "II. Objectives Resolution moved",
+        "III. First meeting of the Constituent Assembly",
+        "IV. Drafting Committee set up",
+      ],
+      options: [
+        "III → II → I → IV",
+        "II → III → I → IV",
+        "III → I → II → IV",
+        "II → I → III → IV",
+      ],
+      correct: 0,
+      explain:
+        "Order: first meeting (9 Dec 1946) → Resolution moved (13 Dec 1946) → Resolution adopted (22 Jan 1947) → Drafting Committee set up (29 Aug 1947).",
+    },
+    {
+      q: "The words 'Socialist' and 'Secular' were:",
+      options: [
+        "part of the original Objectives Resolution",
+        "not in the original Resolution and added to the Preamble by the 42nd Amendment, 1976",
+        "added by the Objectives Resolution in 1947",
+        "never added to the Constitution at all",
+      ],
+      correct: 1,
+      explain:
+        "'Socialist' and 'Secular' were not in the original Objectives Resolution; they were added to the Preamble by the 42nd Constitutional Amendment, 1976.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. The Objectives Resolution was moved by Dr. B.R. Ambedkar.",
+        "II. Dr. B.R. Ambedkar was the President of the Constituent Assembly.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 3,
+      explain:
+        "Neither is correct — the Resolution was moved by Jawaharlal Nehru, and the President of the Constituent Assembly was Dr. Rajendra Prasad (Ambedkar chaired the Drafting Committee).",
+    },
+    {
+      q: "Clause 3 of the Objectives Resolution proposed that residuary powers would rest with the States, but the final Constitution:",
+      options: [
+        "retained this and gave residuary powers to the States",
+        "reversed it and gave residuary powers to the Centre",
+        "abolished residuary powers altogether",
+        "gave residuary powers to the President",
+      ],
+      correct: 1,
+      explain:
+        "The final Constitution reversed Clause 3's intent and vested residuary powers with the Centre.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. The Objectives Resolution's ideals influenced the Fundamental Rights.",
+        "II. They also influenced the Directive Principles of State Policy.",
+        "III. The Resolution was moved after the Drafting Committee was set up.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the Resolution was moved in December 1946, well before the Drafting Committee was set up (August 1947).",
+    },
+    {
+      q: "The Objectives Resolution was moved in the Constituent Assembly by Jawaharlal Nehru and was unanimously adopted after:",
+      options: [
+        "no debate at all",
+        "an extensive debate",
+        "a single day's sitting",
+        "a nationwide referendum",
+      ],
+      correct: 1,
+      explain:
+        "The Objectives Resolution was unanimously adopted on 22 January 1947 after extensive debate in the Assembly.",
+    },
   ],
 };

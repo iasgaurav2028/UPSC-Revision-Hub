@@ -246,5 +246,131 @@ const QUIZ_ch1_amending1781 = {
       explain:
         "This statement is incorrect and thus the answer — the Act EXCLUDED revenue disputes from the Supreme Court's jurisdiction rather than expanding it to cover them.",
     },
+    {
+      q: "The Amending Act of 1781 settled the question of jurisdiction between which two institutions?",
+      options: [
+        "The Board of Control and the Court of Directors",
+        "The Supreme Court and the Governor-General-in-Council",
+        "The British Parliament and the British Crown",
+        "The Governor of Bombay and the Governor of Madras",
+      ],
+      correct: 1,
+      explain:
+        "The Act settled the conflict between the Supreme Court and the executive (Governor-General-in-Council), which is why it is called the Act of Settlement.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Amending Act of 1781:",
+        "I. It exempted the Governor-General and Council from the Supreme Court's jurisdiction for their official acts.",
+        "II. It made the Governor-General-in-Council the appellate authority for Provincial Court appeals.",
+        "III. It gave the Supreme Court jurisdiction over revenue collection disputes.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — revenue-collection disputes were EXCLUDED from the Supreme Court's jurisdiction.",
+    },
+    {
+      q: "The Amending Act of 1781 empowered the Governor-General-in-Council to frame regulations for:",
+      options: [
+        "The Supreme Court at Calcutta",
+        "The Provincial Courts and Councils",
+        "The Board of Control",
+        "The Court of Directors",
+      ],
+      correct: 1,
+      explain:
+        "The Governor-General-in-Council was empowered to frame regulations for the Provincial Courts and Councils.",
+    },
+    {
+      q: [
+        "Arrange the following Acts in correct chronological order:",
+        "1. Amending Act (Act of Settlement)",
+        "2. Regulating Act",
+        "3. Pitt's India Act",
+        "Select the correct order:",
+      ],
+      options: ["2 - 1 - 3", "1 - 2 - 3", "2 - 3 - 1", "3 - 2 - 1"],
+      correct: 0,
+      explain:
+        "Regulating Act (1773) → Amending Act (1781) → Pitt's India Act (1784), i.e. order 2-1-3.",
+    },
+    {
+      q: "Which of the following best explains WHY the Amending Act of 1781 was necessary?",
+      options: [
+        "To establish the East India Company as a trading body",
+        "To resolve conflicts arising from ambiguities in the Regulating Act of 1773",
+        "To transfer power to the British Crown",
+        "To introduce Indian representation in the legislature",
+      ],
+      correct: 1,
+      explain:
+        "The Act was passed to rectify the defects and ambiguities of the Regulating Act, 1773, chiefly regarding the Supreme Court's jurisdiction.",
+    },
+    {
+      q: "Under the Amending Act of 1781, in personal matters the Supreme Court was required to apply:",
+      options: [
+        "English law to all litigants",
+        "Hindu law to Hindus and Mohammedan law to Muslims",
+        "Company regulations to all litigants",
+        "A single uniform civil code",
+      ],
+      correct: 1,
+      explain:
+        "The Act directed that Hindus be governed by Hindu law and Muslims by Mohammedan law within the Court's jurisdiction.",
+    },
+    {
+      q: [
+        "Statement I: The Amending Act of 1781 excluded revenue matters from the Supreme Court's jurisdiction.",
+        "Statement II: The Act sought to protect the Company's executive and revenue administration from judicial interference.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II correctly explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 0,
+      explain:
+        "Both statements are correct, and the desire to shield revenue administration from judicial interference directly explains the exclusion of revenue matters.",
+    },
+    {
+      q: "The exemption of Company servants from the Supreme Court's jurisdiction under the Amending Act of 1781 applied to:",
+      options: [
+        "All their actions, personal and official",
+        "Only their official actions",
+        "Only their personal actions",
+        "Only actions taken after retirement",
+      ],
+      correct: 1,
+      explain:
+        "The exemption covered acts done in an official capacity, mirroring the exemption granted to the Governor-General and Council.",
+    },
+    {
+      q: "Which of the following pairs is correctly matched with respect to the Amending Act of 1781?",
+      options: [
+        "Revenue disputes — within Supreme Court jurisdiction",
+        "Provincial Court appeals — Governor-General-in-Council",
+        "Personal law — abolished",
+        "Regulation-framing — Court of Directors",
+      ],
+      correct: 1,
+      explain:
+        "Appeals from Provincial Courts lay to the Governor-General-in-Council; the other pairs are incorrectly matched.",
+    },
+    {
+      q: "The Amending Act of 1781 reflects an early colonial tension between which two principles?",
+      options: [
+        "Free trade versus monopoly",
+        "Judicial oversight versus executive convenience",
+        "Centralisation versus decentralisation",
+        "Communal versus joint electorates",
+      ],
+      correct: 1,
+      explain:
+        "The Act resolved the tension between judicial oversight and executive convenience in favour of executive immunity for official acts.",
+    },
   ],
 };

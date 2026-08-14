@@ -239,5 +239,131 @@ const QUIZ_geo7_ch1 = {
       explain:
         "The Hydrosphere is the domain of water, comprising all sources and types of water bodies — rivers, lakes, seas and oceans — and is essential for all living organisms.",
     },
+    {
+      q: "In the study of the environment, the term 'abiotic' refers to:",
+      options: [
+        "The world of living organisms such as plants and animals",
+        "The world of non-living elements such as land",
+        "Only human-made structures like buildings and roads",
+        "The interaction between organisms and energy transfer",
+      ],
+      correct: 1,
+      explain:
+        "Abiotic refers to the world of non-living elements (for example, land). Biotic refers to the world of living organisms such as plants and animals.",
+    },
+    {
+      q: [
+        "Consider the following components of the environment:",
+        "I. Buildings",
+        "II. Roads",
+        "III. Monuments",
+        "IV. Industries",
+        "How many of the above are classified as 'Human-made' components?",
+      ],
+      options: ["Only two", "Only three", "All four", "Only one"],
+      correct: 2,
+      explain:
+        "All four — buildings, roads, monuments and industries — are human-made components of the environment.",
+    },
+    {
+      q: [
+        "Assertion (A): The atmosphere stays wrapped around the Earth rather than escaping into space.",
+        "Reason (R): The gravitational force of the Earth holds the atmosphere around it.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R correctly explains A — it is the Earth's gravitational force that holds the thin layer of air (atmosphere) around the planet.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Sphere — Domain):",
+        "I. Lithosphere — Solid crust / hard top layer",
+        "II. Hydrosphere — Domain of water",
+        "III. Biosphere — Narrow zone supporting life",
+        "How many of the above pairs are correctly matched?",
+      ],
+      options: [
+        "Only one pair",
+        "Only two pairs",
+        "All three pairs",
+        "None of the pairs",
+      ],
+      correct: 2,
+      explain:
+        "All three pairs are correctly matched — Lithosphere (solid crust), Hydrosphere (domain of water), and Biosphere (narrow zone where land, water and air interact to support life).",
+    },
+    {
+      q: "Which of the following is a human-made component of the environment?",
+      options: ["Atmosphere", "Biosphere", "Bridges", "Hydrosphere"],
+      correct: 2,
+      explain:
+        "Bridges are a human-made component. Atmosphere, biosphere and hydrosphere are all part of the natural environment.",
+    },
+    {
+      q: [
+        "Assertion (A): An aquarium is not considered a natural ecosystem.",
+        "Reason (R): An aquarium is artificially created and maintained by humans.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R correctly explains A — an aquarium is artificially set up and maintained, which is precisely why it is not a natural ecosystem, unlike a pond, desert or forest.",
+    },
+    {
+      q: "The Lithosphere provides all of the following EXCEPT:",
+      options: [
+        "Forests and grasslands for grazing",
+        "Land for agriculture and human settlements",
+        "A source of mineral wealth",
+        "The gases we breathe",
+      ],
+      correct: 3,
+      explain:
+        "The gases we breathe are provided by the atmosphere, not the lithosphere. The lithosphere provides forests, grasslands, agricultural land, settlements and mineral wealth.",
+    },
+    {
+      q: "The environment is often called our 'basic life support system' because it provides:",
+      options: [
+        "Only the buildings and roads humans construct",
+        "Air to breathe, water to drink, food to eat, and land to live on",
+        "Only mineral wealth for industries",
+        "Only the political and economic situation of humans",
+      ],
+      correct: 1,
+      explain:
+        "The environment is the basic life support system because it provides the air we breathe, the water we drink, the food we eat and the land where we live.",
+    },
+    {
+      q: "How many broad components make up the environment according to the chapter?",
+      options: ["Two", "Three", "Four", "Five"],
+      correct: 1,
+      explain:
+        "The environment has three broad components — Natural, Human-made, and Human.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. The biosphere is the narrow zone where land, water and air interact to support life.",
+        "II. The plant and animal kingdom together make up the biosphere.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both statements are correct — the biosphere is the living world (plant and animal kingdoms together) and is the narrow zone where land, water and air interact to support life.",
+    },
   ],
 };

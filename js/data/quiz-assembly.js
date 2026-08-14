@@ -82,6 +82,7 @@ const QUIZ_DATA = {
   "news-2026-07-24-rti-corruption": QUIZ_news_rti_corruption,
   "news-2026-07-24-right-to-protest": QUIZ_news_right_to_protest,
   "news-2026-07-24-education-collapse": QUIZ_news_education_collapse,
+  "news-2026-08-04-births-deaths": QUIZ_news_births_deaths,
 
   "qr-presidents": QUIZ_qr_presidents,
   "qr-anti-defection": QUIZ_qr_anti_defection,

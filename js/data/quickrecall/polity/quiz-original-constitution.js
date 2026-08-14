@@ -27,7 +27,12 @@ const QUIZ_qr_original_constitution = {
     },
     {
       q: "The artwork and decoration of the original Constitution was led by artists from:",
-      options: ["Kala Bhavan, Baroda", "Shantiniketan", "J. J. School of Art", "Mayo College"],
+      options: [
+        "Kala Bhavan, Baroda",
+        "Shantiniketan",
+        "J. J. School of Art",
+        "Mayo College",
+      ],
       correct: 1,
       explain:
         "Artists from Shantiniketan, led by Nandalal Bose (with Beohar Rammanohar Sinha), decorated the pages with scenes from India's history.",

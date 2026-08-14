@@ -244,5 +244,124 @@ const QUIZ_ch1_indep1947 = {
       explain:
         "The Act's defining significance lies in completing this constitutional journey and granting genuinely unconstrained constitution-making power to the Constituent Assembly — a legal foundation whose consequences (the 1950 Constitution) remain foundational to India today.",
     },
+    {
+      q: "The Indian Independence Act, 1947 provided for the creation of how many independent dominions?",
+      options: ["One", "Two", "Three", "Four"],
+      correct: 1,
+      explain:
+        "It provided for two independent dominions — India and Pakistan.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Indian Independence Act, 1947:",
+        "I. It abolished the office of Viceroy.",
+        "II. It abolished the office of Secretary of State for India.",
+        "III. It abolished the office of Prime Minister.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the office of Prime Minister was not abolished; Nehru became India's first PM.",
+    },
+    {
+      q: [
+        "Arrange the following 1947 events in chronological order:",
+        "1. Mountbatten Plan",
+        "2. Attlee's declaration",
+        "3. Royal Assent to the Bill",
+        "Select the correct order:",
+      ],
+      options: ["2 - 1 - 3", "1 - 2 - 3", "2 - 3 - 1", "3 - 2 - 1"],
+      correct: 0,
+      explain:
+        "Attlee's declaration (Feb 20) → Mountbatten Plan (June 3) → Royal Assent (July 18), i.e. order 2-1-3.",
+    },
+    {
+      q: "The Indian Independence Act, 1947 came into force on:",
+      options: [
+        "July 18, 1947",
+        "August 15, 1947",
+        "January 26, 1950",
+        "June 30, 1948",
+      ],
+      correct: 1,
+      explain: "The Act came into force on August 15, 1947.",
+    },
+    {
+      q: [
+        "Statement I: British paramountcy over the princely states lapsed under the 1947 Act.",
+        "Statement II: The princely states became free to join India, join Pakistan, or remain independent.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II correctly explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 0,
+      explain:
+        "Both are correct, and the lapse of paramountcy is precisely what left the princely states free to choose their accession.",
+    },
+    {
+      q: "Who became the first Governor-General of independent India?",
+      options: [
+        "C. Rajagopalachari",
+        "Lord Mountbatten",
+        "Jawaharlal Nehru",
+        "Dr. Rajendra Prasad",
+      ],
+      correct: 1,
+      explain:
+        "Lord Mountbatten, the last Viceroy, became the first Governor-General of independent India.",
+    },
+    {
+      q: "Until new constitutions were framed, the two dominions were to be governed under the provisions of which Act?",
+      options: [
+        "Government of India Act, 1919",
+        "Government of India Act, 1935",
+        "Indian Councils Act, 1909",
+        "The Indian Independence Act itself",
+      ],
+      correct: 1,
+      explain:
+        "The dominions were to be governed under the Government of India Act, 1935 (with modifications) until new constitutions were framed.",
+    },
+    {
+      q: "Which royal title was dropped from the British King's titles under the Indian Independence Act, 1947?",
+      options: [
+        "Head of the Commonwealth",
+        "Emperor of India",
+        "Defender of the Faith",
+        "King of England",
+      ],
+      correct: 1,
+      explain:
+        "The title 'Emperor of India' was dropped from the British King's royal titles.",
+    },
+    {
+      q: "The Boundary Commission that demarcated the India-Pakistan border was headed by:",
+      options: [
+        "Lord Mountbatten",
+        "Sir Cyril Radcliffe",
+        "Sir Stafford Cripps",
+        "Sir John Simon",
+      ],
+      correct: 1,
+      explain: "Sir Cyril Radcliffe headed the Boundary Commission.",
+    },
+    {
+      q: "Which of the following powers was granted to the Constituent Assemblies by the Indian Independence Act, 1947?",
+      options: [
+        "Power to frame any constitution and even repeal the Independence Act itself",
+        "Power only to amend the 1935 Act",
+        "Power limited to foreign affairs",
+        "No legislative power until 1950",
+      ],
+      correct: 0,
+      explain:
+        "The Constituent Assemblies were empowered to frame and adopt any constitution and could even repeal the Indian Independence Act itself.",
+    },
   ],
 };

@@ -186,5 +186,125 @@ const QUIZ_enactment = {
       explain:
         "First reading: introduced 4 Nov 1948, discussed till 9 Nov 1948. Second reading: 15 Nov 1948 to 17 Oct 1949 (clause by clause). Third reading: started 14 Nov 1949, passed 26 Nov 1949.",
     },
+    {
+      q: [
+        "Consider the following statements about the readings of the Draft Constitution:",
+        "I. The first reading began on 4 November 1948.",
+        "II. The general discussion lasted five days.",
+        "III. The second reading ended on 26 November 1949.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the second reading ended on 17 October 1949, not 26 November 1949.",
+    },
+    {
+      q: "The original Constitution as adopted on 26 November 1949 contained how many Articles?",
+      options: ["395", "448", "356", "370"],
+      correct: 0,
+      explain:
+        "The original Constitution had a Preamble, 395 Articles, and 8 Schedules.",
+    },
+    {
+      q: [
+        "Consider the following pairs:",
+        "I. Amendments proposed — 7,653",
+        "II. Amendments discussed — 2,473",
+        "III. Members who signed on 26 November 1949 — 299",
+        "How many of the pairs given above are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Pairs I and II are correct. Pair III is wrong — 284 of the 299 members were present and signed on 26 November 1949.",
+    },
+    {
+      q: [
+        "Assertion (A): Dr. B.R. Ambedkar is called the 'Father of the Constitution of India'.",
+        "Reason (R): He piloted the Draft Constitution in the Assembly as the then Law Minister and Chairman of the Drafting Committee.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — his role in piloting the Draft Constitution as Law Minister and Drafting Committee Chairman earned him the title.",
+    },
+    {
+      q: "Every year, 26 November is celebrated in India as:",
+      options: [
+        "Republic Day",
+        "Constitution Day (Samvidhan Divas)",
+        "Independence Day",
+        "National Integration Day",
+      ],
+      correct: 1,
+      explain:
+        "26 November is celebrated as Constitution Day (Samvidhan Divas), a decision taken by the Government of India on 19 November 2015.",
+    },
+    {
+      q: [
+        "Arrange the three stages of enactment in correct chronological order:",
+        "I. Third reading passed (26 November 1949)",
+        "II. First reading introduced (4 November 1948)",
+        "III. Second reading began (15 November 1948)",
+      ],
+      options: ["II → III → I", "I → II → III", "III → II → I", "II → I → III"],
+      correct: 0,
+      explain:
+        "Order: first reading introduced (4 Nov 1948) → second reading began (15 Nov 1948) → third reading passed (26 Nov 1949).",
+    },
+    {
+      q: [
+        "Statement I: The Preamble was enacted before the rest of the Constitution.",
+        "Statement II: The date 26 November 1949 is mentioned in the Preamble as the date of adoption.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are true, and II is the correct explanation of I",
+        "Both statements are true, but II is NOT the correct explanation of I",
+        "Statement I is true, but Statement II is false",
+        "Statement I is false, but Statement II is true",
+      ],
+      correct: 3,
+      explain:
+        "Statement I is false, but Statement II is true — the Preamble was enacted AFTER the entire Constitution; and 26 November 1949 is indeed the date of adoption named in the Preamble.",
+    },
+    {
+      q: "The date on which 'the people of India in the Constituent Assembly adopted, enacted and gave to themselves' the Constitution, as mentioned in the Preamble, is:",
+      options: [
+        "26 January 1950",
+        "26 November 1949",
+        "15 August 1947",
+        "14 November 1949",
+      ],
+      correct: 1,
+      explain:
+        "The Preamble names 26 November 1949 as the date on which the people adopted, enacted and gave to themselves the Constitution.",
+    },
+    {
+      q: "The original Constitution as adopted on 26 November 1949 contained how many Schedules?",
+      options: ["8", "10", "12", "9"],
+      correct: 0,
+      explain:
+        "The original Constitution had 8 Schedules (along with a Preamble and 395 Articles).",
+    },
+    {
+      q: "Which reading of the Draft Constitution involved the clause-by-clause consideration and was the longest stage of the enactment process?",
+      options: [
+        "First reading",
+        "Second reading",
+        "Third reading",
+        "Fourth reading",
+      ],
+      correct: 1,
+      explain:
+        "The second reading (15 Nov 1948 – 17 Oct 1949) was the clause-by-clause consideration and the longest stage.",
+    },
   ],
 };

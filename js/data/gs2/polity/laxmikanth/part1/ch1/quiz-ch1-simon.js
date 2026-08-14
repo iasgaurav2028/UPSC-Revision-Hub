@@ -163,5 +163,125 @@ const QUIZ_ch1_simon = {
       explain:
         "This is the correct chronological sequence — Simon Commission's report first, followed by discussion through Round Table Conferences, then the White Paper, then Joint Select Committee review, culminating in the 1935 Act.",
     },
+    {
+      q: "The Simon Commission was constituted as a statutory commission under a provision of which Act?",
+      options: [
+        "Government of India Act, 1919",
+        "Government of India Act, 1935",
+        "Indian Councils Act, 1909",
+        "Charter Act, 1853",
+      ],
+      correct: 0,
+      explain:
+        "The 1919 Act contained a clause for a statutory review after ten years, which led to the Simon Commission.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Simon Commission:",
+        "I. It was announced in 1927.",
+        "II. All its seven members were British.",
+        "III. It was chaired by Ramsay MacDonald.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — it was chaired by Sir John Simon; Ramsay MacDonald announced the Communal Award.",
+    },
+    {
+      q: [
+        "Arrange the following in chronological order:",
+        "1. Simon Commission announced",
+        "2. Government of India Act, 1919",
+        "3. Government of India Act, 1935",
+        "Select the correct order:",
+      ],
+      options: ["2 - 1 - 3", "1 - 2 - 3", "2 - 3 - 1", "3 - 2 - 1"],
+      correct: 0,
+      explain: "1919 → Simon Commission (1927) → 1935, i.e. order 2-1-3.",
+    },
+    {
+      q: "The Simon Commission was announced how many years before its scheduled time under the 1919 Act?",
+      options: ["One year", "Two years", "Five years", "Ten years"],
+      correct: 1,
+      explain:
+        "It was announced in 1927, two years ahead of its statutorily scheduled time.",
+    },
+    {
+      q: [
+        "Statement I: The Simon Commission was boycotted by all major Indian parties.",
+        "Statement II: The Commission had no Indian members.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II correctly explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 0,
+      explain:
+        "Both are correct, and the entirely British composition (no Indian members) directly explains the universal boycott.",
+    },
+    {
+      q: "The Simon Commission recommended the abolition of which system in the provinces?",
+      options: [
+        "Provincial Autonomy",
+        "Dyarchy",
+        "Separate electorates",
+        "Bicameralism",
+      ],
+      correct: 1,
+      explain:
+        "It recommended abolishing dyarchy and extending responsible government in the provinces.",
+    },
+    {
+      q: "The Simon Commission's report, submitted in 1930, recommended a federation of:",
+      options: [
+        "Only British Indian provinces",
+        "British India and princely states",
+        "Only princely states",
+        "British India and Burma",
+      ],
+      correct: 1,
+      explain:
+        "It recommended a federation of British India and the princely states.",
+    },
+    {
+      q: "Following the Simon Commission's report, the discussions culminated in a document called the:",
+      options: [
+        "White Paper on Constitutional Reforms",
+        "Nehru Report",
+        "Cabinet Mission Plan",
+        "Communal Award",
+      ],
+      correct: 0,
+      explain:
+        "The Round Table Conferences produced the White Paper on Constitutional Reforms, sent to a Joint Select Committee.",
+    },
+    {
+      q: "The recommendations flowing from the Simon Commission process were eventually incorporated into which Act?",
+      options: [
+        "Government of India Act, 1919",
+        "Government of India Act, 1935",
+        "Indian Independence Act, 1947",
+        "Indian Councils Act, 1909",
+      ],
+      correct: 1,
+      explain:
+        "They were incorporated, with changes, into the Government of India Act, 1935.",
+    },
+    {
+      q: "Which of the following statements about the Simon Commission is NOT correct?",
+      options: [
+        "It was chaired by Sir John Simon",
+        "It recommended continuation of communal electorates",
+        "It included prominent Indian members",
+        "Its report was submitted in 1930",
+      ],
+      correct: 2,
+      explain:
+        "The Commission had no Indian members; all seven were British, which is why it was boycotted.",
+    },
   ],
 };

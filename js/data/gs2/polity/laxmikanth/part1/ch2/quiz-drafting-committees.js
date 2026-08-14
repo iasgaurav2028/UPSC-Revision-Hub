@@ -244,5 +244,141 @@ const QUIZ_drafting_committees = {
       explain:
         "Statements I and II are correct. Statement III is incorrect — the FIRST draft was published in February 1948; October 1948 was when the SECOND draft was published.",
     },
+    {
+      q: [
+        "Consider the following statements about the Drafting Committee:",
+        "I. It was set up on 29 August 1947.",
+        "II. It had seven members.",
+        "III. It was chaired by Sir B.N. Rau.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the Drafting Committee was chaired by Dr. B.R. Ambedkar; Sir B.N. Rau was the Constitutional Advisor.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Original member — Replacement):",
+        "I. B.L. Mitter — N. Madhava Rau",
+        "II. D.P. Khaitan — T.T. Krishnamachari",
+        "III. Syed Mohammad Saadullah — Alladi Krishnaswami Ayyar",
+        "How many of the pairs given above are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Pairs I and II are correct. Pair III is wrong — Saadullah was not replaced; he remained a member throughout.",
+    },
+    {
+      q: "B.L. Mitter left the Drafting Committee because he:",
+      options: [
+        "died in 1948",
+        "resigned due to ill-health",
+        "joined the Pakistan Constituent Assembly",
+        "was appointed a High Court judge",
+      ],
+      correct: 1,
+      explain:
+        "B.L. Mitter resigned due to ill-health and was replaced by N. Madhava Rau.",
+    },
+    {
+      q: [
+        "Assertion (A): The Drafting Committee is regarded as the most important committee of the Constituent Assembly.",
+        "Reason (R): It was entrusted with preparing the actual text of the Constitution.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — its core task of drafting the actual text is precisely why it is called the most important committee.",
+    },
+    {
+      q: [
+        "Arrange the following in correct chronological order:",
+        "I. Publication of the second draft",
+        "II. Setting up of the Drafting Committee",
+        "III. Publication of the first draft",
+        "IV. The eight-month public comment period",
+      ],
+      options: [
+        "II → III → IV → I",
+        "II → III → I → IV",
+        "III → II → IV → I",
+        "II → IV → III → I",
+      ],
+      correct: 0,
+      explain:
+        "Order: Drafting Committee set up (29 Aug 1947) → first draft (Feb 1948) → 8-month public comment period → second draft (Oct 1948).",
+    },
+    {
+      q: "Who was appointed as the Chairman of the Drafting Committee?",
+      options: [
+        "Jawaharlal Nehru",
+        "Dr. B.R. Ambedkar",
+        "Alladi Krishnaswami Ayyar",
+        "Dr. Rajendra Prasad",
+      ],
+      correct: 1,
+      explain: "Dr. B.R. Ambedkar was the Chairman of the Drafting Committee.",
+    },
+    {
+      q: [
+        "Statement I: T.T. Krishnamachari was an original member of the Drafting Committee.",
+        "Statement II: He replaced D.P. Khaitan, who died in 1948.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are true, and II is the correct explanation of I",
+        "Both statements are true, but II is NOT the correct explanation of I",
+        "Statement I is true, but Statement II is false",
+        "Statement I is false, but Statement II is true",
+      ],
+      correct: 3,
+      explain:
+        "Statement I is false, but Statement II is true — T.T. Krishnamachari was NOT an original member; he joined as a replacement for D.P. Khaitan, who died in 1948.",
+    },
+    {
+      q: "Which of the following was NOT a member of the Drafting Committee?",
+      options: [
+        "Dr. K.M. Munshi",
+        "N. Gopalaswamy Ayyangar",
+        "Sardar Vallabhbhai Patel",
+        "Syed Mohammad Saadullah",
+      ],
+      correct: 2,
+      explain:
+        "Sardar Patel was not a member of the Drafting Committee. He chaired the Provincial Constitution and Advisory Committees.",
+    },
+    {
+      q: "The Drafting Committee prepared its draft after taking into consideration the proposals of:",
+      options: [
+        "the British Parliament",
+        "the various other committees of the Constituent Assembly",
+        "the Cabinet Mission",
+        "the princely states",
+      ],
+      correct: 1,
+      explain:
+        "The Drafting Committee prepared the draft after considering the proposals of the various other committees of the Assembly.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. The first draft was published in February 1948.",
+        "II. The second draft was published in October 1948.",
+        "III. The Drafting Committee sat for 114 days in total.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the Drafting Committee sat for 141 days; 114 days was the time the full Assembly considered the Draft Constitution.",
+    },
   ],
 };

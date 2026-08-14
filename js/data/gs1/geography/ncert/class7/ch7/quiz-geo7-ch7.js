@@ -227,5 +227,108 @@ const QUIZ_geo7_ch7 = {
       explain:
         "Statements I and II are correct. Statement III is incorrect — Bedouins and Tuaregs are the nomadic tribes of the SAHARA; the people of LADAKH are Muslims and Buddhists.",
     },
+    {
+      q: [
+        "Assertion (A): The Sahara was not always a hot, dry desert.",
+        "Reason (R): Cave paintings in the Sahara show rivers, crocodiles, elephants, lions and giraffes, indicating it was once a lush green plain before climate change made it hot and dry.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R correctly explains A — the cave paintings depicting rivers and animals like crocodiles and giraffes are the evidence that the Sahara was once a green plain, which climate change later turned into a desert.",
+    },
+    {
+      q: "The Tafilalet Oasis, one of the largest oases (about 13,000 sq km), is located in:",
+      options: ["Libya", "Egypt", "Morocco", "Algeria"],
+      correct: 2,
+      explain:
+        "The Tafilalet Oasis in Morocco is one of the largest oases, covering about 13,000 sq km.",
+    },
+    {
+      q: "The altitude of Ladakh varies from about 3,000 m in Kargil to more than 8,000 m in:",
+      options: [
+        "The Zanskar Mountains",
+        "The Karakoram Range",
+        "The Pir Panjal Range",
+        "The Shivalik Hills",
+      ],
+      correct: 1,
+      explain:
+        "Ladakh's altitude varies from about 3,000 m in Kargil to more than 8,000 m in the Karakoram Range.",
+    },
+    {
+      q: "The annual rainfall in Ladakh can be as low as:",
+      options: ["10 cm", "50 cm", "100 cm", "150 cm"],
+      correct: 0,
+      explain:
+        "Ladakh, being a cold desert, receives very little rainfall — as low as 10 cm every year — and experiences freezing winds along with burning hot sunlight.",
+    },
+    {
+      q: "The finest cricket bats are made from the wood of which tree, found in the valleys of Ladakh?",
+      options: ["Poplar", "Willow", "Deodar", "Apricot"],
+      correct: 1,
+      explain:
+        "The finest cricket bats are made from willow wood. Groves of willows and poplars are found in the valleys of Ladakh.",
+    },
+    {
+      q: "In Ladakh, the milk of which animal is used to make cheese and butter?",
+      options: ["Sheep", "Goat", "Yak", "Wild sheep"],
+      correct: 2,
+      explain:
+        "Yak's milk is used to make cheese and butter in Ladakh. Sheep and goat hair is used to make woollens, and animals are reared for milk, meat and hides.",
+    },
+    {
+      q: [
+        "Consider the following crops cultivated in the summer in Ladakh:",
+        "I. Barley",
+        "II. Potatoes",
+        "III. Peas",
+        "IV. Turnip",
+        "How many of the above are grown in Ladakh during summer?",
+      ],
+      options: ["Only two", "Only three", "All four", "Only one"],
+      correct: 2,
+      explain:
+        "All four — barley, potatoes, peas and turnip — along with beans, are cultivated during the busy summer season in Ladakh.",
+    },
+    {
+      q: "The Manali-Leh Highway is significant because it:",
+      options: [
+        "Remains open throughout the year",
+        "Crosses four passes and opens only between July and September",
+        "Connects Leh directly to the Sahara region",
+        "Runs along the Zoji La Pass to the Kashmir Valley",
+      ],
+      correct: 1,
+      explain:
+        "The Manali-Leh Highway crosses four passes — Baralacha la, Lungalacha la, Tanglang la and Rohtang la — and opens only between July and September, when snow is cleared from the road. (NH 1A connects Leh to Kashmir Valley via Zoji La.)",
+    },
+    {
+      q: "During winters in Ladakh, temperatures may remain below:",
+      options: ["-10°C", "-20°C", "-40°C", "0°C"],
+      correct: 2,
+      explain:
+        "Winter temperatures in Ladakh may remain below -40°C for most of the time, while night temperatures fall well below -30°C.",
+    },
+    {
+      q: [
+        "Consider the following animals of the Sahara desert:",
+        "I. Camels",
+        "II. Hyenas",
+        "III. Jackals",
+        "IV. Scorpions",
+        "How many of the above are found in the Sahara?",
+      ],
+      options: ["Only two", "Only three", "All four", "Only one"],
+      correct: 2,
+      explain:
+        "All four are found in the Sahara — camels, hyenas, jackals, foxes, scorpions, and many varieties of snakes and lizards.",
+    },
   ],
 };

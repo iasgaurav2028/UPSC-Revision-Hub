@@ -125,5 +125,119 @@ const QUIZ_congress_experts = {
       explain:
         "The passage says 'closely resembling' — not 'identical to' — the Objectives Resolution. Saying it was 'identical' would go beyond what the passage states.",
     },
+    {
+      q: [
+        "Consider the following statements about the Congress Experts Committee:",
+        "I. It was constituted on 8 July 1946.",
+        "II. It was set up by the Indian National Congress.",
+        "III. It was constituted after the Constituent Assembly's first meeting.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — it was constituted (8 July 1946) before the Assembly's first meeting (9 December 1946).",
+    },
+    {
+      q: "Which of the following was an original member of the Congress Experts Committee?",
+      options: [
+        "Dr. B.R. Ambedkar",
+        "K. Santhanam",
+        "Dr. Rajendra Prasad",
+        "Sardar Vallabhbhai Patel",
+      ],
+      correct: 1,
+      explain:
+        "K. Santhanam was an original member. Ambedkar, Rajendra Prasad and Patel were not members of this committee.",
+    },
+    {
+      q: "The first sitting of the Congress Experts Committee was held at:",
+      options: ["Bombay", "New Delhi", "Calcutta", "Lucknow"],
+      correct: 1,
+      explain:
+        "The first sitting was held at New Delhi (20–22 July 1946); the second at Bombay (15–17 August 1946).",
+    },
+    {
+      q: "Krishna Kripalani was associated with the Congress Experts Committee as its:",
+      options: [
+        "Chairman",
+        "Co-opted member and convener",
+        "Constitutional Advisor",
+        "Secretary of State",
+      ],
+      correct: 1,
+      explain:
+        "Krishna Kripalani was later co-opted as a member and convener of the committee.",
+    },
+    {
+      q: [
+        "Assertion (A): The Congress Experts Committee provided the intellectual groundwork for the Constituent Assembly.",
+        "Reason (R): It drafted a resolution closely resembling the later Objectives Resolution.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — its proto-Objectives Resolution and preparatory notes made it the intellectual precursor to the Assembly's work.",
+    },
+    {
+      q: "The second sitting of the Congress Experts Committee (15–17 August 1946) was held at:",
+      options: ["New Delhi", "Bombay", "Madras", "Nagpur"],
+      correct: 1,
+      explain: "The second sitting was held at Bombay on 15–17 August 1946.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. Jawaharlal Nehru chaired the Congress Experts Committee.",
+        "II. Jawaharlal Nehru was also a member of the Drafting Committee.",
+        "III. K.M. Munshi served on both the Congress Experts Committee and the Drafting Committee.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and III are correct. Statement II is wrong — Nehru was NOT a member of the Drafting Committee.",
+    },
+    {
+      q: "Granville Austin, who assessed the role of the Congress Experts Committee, was:",
+      options: [
+        "A British constitutional expert",
+        "An American constitutional expert",
+        "An Indian jurist",
+        "A member of the Cabinet Mission",
+      ],
+      correct: 1,
+      explain: "Granville Austin was an American constitutional expert.",
+    },
+    {
+      q: "The resolution drafted by the Congress Experts Committee was:",
+      options: [
+        "identical to the Objectives Resolution",
+        "closely resembling the Objectives Resolution",
+        "the final Preamble of the Constitution",
+        "rejected outright by the Constituent Assembly",
+      ],
+      correct: 1,
+      explain:
+        "The committee drafted a resolution closely resembling — not identical to — the Objectives Resolution later moved by Nehru.",
+    },
+    {
+      q: "The main purpose of constituting the Congress Experts Committee was to:",
+      options: [
+        "frame the final Constitution of India",
+        "prepare material for the Constituent Assembly while its elections were still in progress",
+        "negotiate with the princely states",
+        "design the National Flag",
+      ],
+      correct: 1,
+      explain:
+        "It was constituted to prepare material for the Constituent Assembly while the Assembly's elections were still in progress.",
+    },
   ],
 };

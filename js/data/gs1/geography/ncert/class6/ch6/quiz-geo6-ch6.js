@@ -307,5 +307,106 @@ const QUIZ_geo6_ch6 = {
       explain:
         "India spans ~29° of longitude east-west. Since 1° of longitude = 4 minutes of time difference, 29° ≈ 116 minutes (~2 hours). Eastern Arunachal Pradesh therefore experiences sunrise approximately 2 hours before western Gujarat.",
     },
+    {
+      q: "The word 'Himalaya' (Him + alaya) means:",
+      options: [
+        "Land of rivers",
+        "Abode of snow",
+        "Great plateau",
+        "Roof of the world",
+      ],
+      correct: 1,
+      explain:
+        "'Him' means snow and 'alaya' means abode, so Himalaya means the 'abode of snow'.",
+    },
+    {
+      q: "Which country lies to the northwest of India?",
+      options: ["Nepal", "Afghanistan", "Bhutan", "Myanmar"],
+      correct: 1,
+      explain:
+        "Afghanistan lies to the northwest of India among its seven land neighbours.",
+    },
+    {
+      q: [
+        "Consider the following statements about India's Coastal Plains:",
+        "I. The Western Coastal plains are very narrow.",
+        "II. The Eastern Coastal plains are much broader.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both are correct — the western coastal plains are very narrow while the eastern coastal plains are much broader.",
+    },
+    {
+      q: "The Great Indian Desert lies in which part of the country?",
+      options: [
+        "East of the peninsula",
+        "West of the peninsula",
+        "North of the Himalayas",
+        "South of Kanyakumari",
+      ],
+      correct: 1,
+      explain:
+        "The Great Indian Desert — dry, hot and sandy with little vegetation — lies to the west of the peninsula.",
+    },
+    {
+      q: "Indian Standard Time (IST) is ahead of Greenwich Mean Time by:",
+      options: [
+        "4 hours 30 minutes",
+        "5 hours",
+        "5 hours 30 minutes",
+        "6 hours",
+      ],
+      correct: 2,
+      explain:
+        "IST, based on the Standard Meridian of 82°30'E, is 5 hours 30 minutes ahead of GMT.",
+    },
+    {
+      q: "The north-south extent of India (Ladakh to Kanyakumari) is approximately:",
+      options: ["2,900 km", "3,200 km", "3,600 km", "2,500 km"],
+      correct: 1,
+      explain:
+        "India's north-south extent is about 3,200 km, while its east-west extent is about 2,900 km.",
+    },
+    {
+      q: "Indian states have been formed mainly on the basis of:",
+      options: ["Rivers", "Languages", "Religion", "Population size"],
+      correct: 1,
+      explain:
+        "States in India have been formed mainly on the basis of languages.",
+    },
+    {
+      q: "The Vindhyas and Satpuras are important ranges located in which physical division of India?",
+      options: [
+        "The Himalayas",
+        "The Northern Plains",
+        "The Peninsular Plateau",
+        "The Coastal Plains",
+      ],
+      correct: 2,
+      explain:
+        "The Vindhyas and Satpuras are important ranges of the Peninsular Plateau.",
+    },
+    {
+      q: "India is the second most populous country in the world after:",
+      options: ["USA", "Indonesia", "China", "Russia"],
+      correct: 2,
+      explain:
+        "With more than 120 crore people (since 2011), India is the second most populous country after China.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Direction — Water body bordering India):",
+        "I. West — Arabian Sea",
+        "II. East — Bay of Bengal",
+        "III. South — Indian Ocean",
+        "How many of the above pairs are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 2,
+      explain:
+        "All three are correctly matched — the Arabian Sea lies to the west, the Bay of Bengal to the east, and the Indian Ocean to the south of India.",
+    },
   ],
 };

@@ -259,5 +259,131 @@ const QUIZ_ch1_regulating1773 = {
       explain:
         "The Act strengthened oversight via mandatory reporting. Crown sovereignty came only in 1813 (asserted) and 1858 (complete); Diwani was granted in 1765, before this Act; and the Act CREATED, not abolished, an enhanced Governor's post (as Governor-General).",
     },
+    {
+      q: "Who among the following was the first Governor-General of Bengal under the Regulating Act, 1773?",
+      options: [
+        "Lord William Bentinck",
+        "Warren Hastings",
+        "Lord Cornwallis",
+        "Lord Canning",
+      ],
+      correct: 1,
+      explain:
+        "Warren Hastings was the first Governor-General of Bengal, the office created by the Regulating Act, 1773.",
+    },
+    {
+      q: [
+        "Consider the following statements regarding the Regulating Act, 1773:",
+        "I. It provided for the establishment of a Supreme Court at Calcutta.",
+        "II. It permitted Company servants to accept presents from natives with the Council's approval.",
+        "III. It made the Governor-General of Bengal assisted by a Council.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and III are correct. Statement II is wrong — the Act prohibited Company servants from accepting any presents or bribes from natives, with no such exception.",
+    },
+    {
+      q: "The Regulating Act of 1773 is best described as which step in the chain of British parliamentary intervention in the Company's affairs?",
+      options: [
+        "The first step",
+        "The final step",
+        "An intermediate step after Pitt's India Act",
+        "A step taken after the Crown assumed direct control",
+      ],
+      correct: 0,
+      explain:
+        "The Regulating Act, 1773 was the FIRST step by the British Government to control and regulate the affairs of the East India Company.",
+    },
+    {
+      q: [
+        "Arrange the following in correct chronological order:",
+        "1. Establishment of the Supreme Court at Calcutta",
+        "2. Passing of the Regulating Act",
+        "3. Grant of Diwani of Bengal to the Company",
+        "Select the correct order:",
+      ],
+      options: ["3 - 2 - 1", "2 - 1 - 3", "1 - 2 - 3", "3 - 1 - 2"],
+      correct: 0,
+      explain:
+        "Diwani was granted in 1765, the Regulating Act was passed in 1773, and the Supreme Court was established in 1774 — order 3-2-1.",
+    },
+    {
+      q: "The term 'Governor-General-in-Council' as introduced by the Regulating Act, 1773 signifies:",
+      options: [
+        "The Governor-General acting independently of any advisory body",
+        "The Governor-General acting jointly with his 4-member Executive Council",
+        "The Governor-General acting with the Supreme Court judges",
+        "The Governor-General acting under the Court of Directors",
+      ],
+      correct: 1,
+      explain:
+        "It refers to the Governor-General exercising authority together with his four-member Executive Council.",
+    },
+    {
+      q: [
+        "Assertion (A): The Regulating Act, 1773 marked the beginning of the Company's transition from a trading body to a political-administrative authority.",
+        "Reason (R): The Act recognised, for the first time, the political and administrative functions of the Company.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — recognition of political/administrative functions underpinned the transition from trade to governance.",
+    },
+    {
+      q: "Which of the following was a direct consequence of the Regulating Act, 1773 regarding the three Presidencies?",
+      options: [
+        "Bengal was made subordinate to Bombay",
+        "Bombay and Madras were made subordinate to Bengal",
+        "All three became equally independent",
+        "Madras was merged with Bengal",
+      ],
+      correct: 1,
+      explain:
+        "The Act subordinated the Bombay and Madras Presidencies to Bengal, reversing their earlier independent status.",
+    },
+    {
+      q: "The Supreme Court established under the Regulating Act, 1773 consisted of:",
+      options: [
+        "One Chief Justice and three other judges",
+        "One Chief Justice and two other judges",
+        "Two Chief Justices and four other judges",
+        "One Chief Justice and five other judges",
+      ],
+      correct: 0,
+      explain:
+        "The Supreme Court at Calcutta comprised one Chief Justice and three other judges.",
+    },
+    {
+      q: "The prohibition on Company servants engaging in private trade and accepting bribes under the Regulating Act, 1773 was primarily aimed at:",
+      options: [
+        "Increasing the Company's dividends",
+        "Curbing corruption and the abuse of office by Company officials",
+        "Encouraging Indian participation in trade",
+        "Ending the Company's monopoly over trade",
+      ],
+      correct: 1,
+      explain:
+        "The prohibition was a measure against the rampant corruption and private profiteering by Company servants.",
+    },
+    {
+      q: "Which of the following statements about the reporting requirement under the Regulating Act, 1773 is correct?",
+      options: [
+        "The Court of Directors had to report only military affairs to the British Government",
+        "The Court of Directors had to report revenue, civil, and military affairs to the British Government",
+        "The Governor-General reported directly to the British Crown",
+        "No reporting to the British Government was required",
+      ],
+      correct: 1,
+      explain:
+        "The Court of Directors was required to report on revenue, civil, and military affairs to the British Government, establishing parliamentary oversight.",
+    },
   ],
 };

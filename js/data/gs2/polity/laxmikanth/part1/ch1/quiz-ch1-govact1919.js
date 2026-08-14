@@ -233,5 +233,118 @@ const QUIZ_ch1_govact1919 = {
       explain:
         "The 1919 Act extended the principle of separate electorates (introduced for Muslims in 1909) to Sikhs, Indian Christians, Anglo-Indians, and Europeans.",
     },
+    {
+      q: "In the Montagu-Chelmsford Reforms, Chelmsford held which office?",
+      options: [
+        "Secretary of State for India",
+        "Viceroy of India",
+        "Prime Minister of Britain",
+        "Governor of Bombay",
+      ],
+      correct: 1,
+      explain:
+        "Chelmsford was the Viceroy of India; Montagu was the Secretary of State.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Government of India Act, 1919:",
+        "I. It introduced dyarchy in the provinces.",
+        "II. It introduced bicameralism at the Centre.",
+        "III. It introduced separate electorates for Muslims for the first time.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — separate electorates for Muslims were introduced in 1909; 1919 extended them to other communities.",
+    },
+    {
+      q: [
+        "Arrange the following in chronological order:",
+        "1. Government of India Act, 1919",
+        "2. Indian Councils Act, 1909",
+        "3. Simon Commission",
+        "Select the correct order:",
+      ],
+      options: ["2 - 1 - 3", "1 - 2 - 3", "2 - 3 - 1", "3 - 2 - 1"],
+      correct: 0,
+      explain: "1909 → 1919 → Simon Commission (1927), i.e. order 2-1-3.",
+    },
+    {
+      q: "Under provincial dyarchy of the 1919 Act, subjects administered by the Governor with the help of ministers responsible to the legislature were called:",
+      options: [
+        "Reserved subjects",
+        "Transferred subjects",
+        "Central subjects",
+        "Concurrent subjects",
+      ],
+      correct: 1,
+      explain:
+        "Transferred subjects were administered by the Governor with responsible ministers; reserved subjects were administered by the Governor with his Executive Council.",
+    },
+    {
+      q: [
+        "Statement I: Dyarchy under the 1919 Act was largely unsuccessful.",
+        "Statement II: Reserved subjects were administered without accountability to the legislature.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II correctly explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 0,
+      explain:
+        "Both are correct, and the lack of accountability over reserved subjects is a core reason dyarchy failed.",
+    },
+    {
+      q: "The Government of India Act, 1919 came into force in which year?",
+      options: ["1919", "1920", "1921", "1923"],
+      correct: 2,
+      explain: "Though passed in 1919, the Act came into force in 1921.",
+    },
+    {
+      q: "The Government of India Act, 1919 introduced bicameralism at the Centre with which two houses?",
+      options: [
+        "Rajya Sabha and Lok Sabha",
+        "Council of State and Legislative Assembly",
+        "Council of India and Chamber of Princes",
+        "Federal Assembly and Council of States",
+      ],
+      correct: 1,
+      explain:
+        "The two houses were the Council of State (Upper) and the Legislative Assembly (Lower).",
+    },
+    {
+      q: "The Central Public Service Commission, provided for by the 1919 Act, was actually set up in which year?",
+      options: ["1919", "1921", "1926", "1935"],
+      correct: 2,
+      explain:
+        "The Central PSC was set up in 1926, on the recommendation of the Lee Commission (1923-24).",
+    },
+    {
+      q: "The statutory commission provided for by the 1919 Act, to review its working after ten years, materialised as the:",
+      options: [
+        "Lee Commission",
+        "Simon Commission",
+        "Hunter Commission",
+        "Cabinet Mission",
+      ],
+      correct: 1,
+      explain: "This provision led to the Simon Commission, appointed in 1927.",
+    },
+    {
+      q: "Which of the following was NOT a feature of the Government of India Act, 1919?",
+      options: [
+        "Dyarchy in the provinces",
+        "Separation of central and provincial subjects",
+        "Provincial Autonomy replacing dyarchy",
+        "Creation of the office of High Commissioner for India",
+      ],
+      correct: 2,
+      explain:
+        "Provincial Autonomy (replacing dyarchy) was introduced by the Government of India Act, 1935, not 1919.",
+    },
   ],
 };

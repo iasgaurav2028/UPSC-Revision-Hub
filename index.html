@@ -1,162 +1,229 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UPSC Master Notes — Complete Syllabus</title>
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>UPSC Master Notes — Complete Syllabus</title>
-  <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap"
-    rel="stylesheet" />
-
-  <!--
+    <!--
   STYLESHEET — index.html links only this ONE file. main.css
   internally @imports variables.css, layout.css, components.css,
   views.css, and responsive.css. To edit styles, open the relevant
   file inside css/ directly — you never need to touch this line.
 -->
-  <link rel="stylesheet" href="css/main.css?v=6" />
-</head>
+    <link rel="stylesheet" href="css/main.css?v=8" />
+  </head>
 
-<body>
-  <div class="app">
-    <div class="overlay" id="overlay"></div>
+  <body>
+    <div class="app">
+      <div class="overlay" id="overlay"></div>
 
-    <div class="sidebar" id="sidebar">
-      <div class="brand">
-        <button class="menu-btn close-drawer" id="closeDrawer" aria-label="Close menu">
-          ☰
-        </button>
-        <div class="brand-logo">
-          <svg viewBox="0 0 64 64" role="img" aria-label="UPSC Master Notes logo">
-            <defs>
-              <linearGradient id="blg" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0" stop-color="#e8d5a3" />
-                <stop offset=".55" stop-color="#c9a84c" />
-                <stop offset="1" stop-color="#e8d5a3" />
-              </linearGradient>
-            </defs>
-            <circle cx="32" cy="32" r="29" fill="none" stroke="url(#blg)" stroke-width="2.5" />
-            <circle cx="32" cy="32" r="24" fill="none" stroke="#c9a84c" stroke-opacity=".35" stroke-width="1" />
-            <path
-              d="M32 14 L34.12 20.09 L40.56 20.22 L35.42 24.11 L37.29 30.28 L32 26.6 L26.71 30.28 L28.58 24.11 L23.44 20.22 L29.88 20.09 Z"
-              fill="url(#blg)" />
-            <path d="M13 40 C 20 35 27 36 31.5 39 L 31.5 45 C 27 42 20 41 13 45.5 Z" fill="url(#blg)" />
-            <path d="M51 40 C 44 35 37 36 32.5 39 L 32.5 45 C 37 42 44 41 51 45.5 Z" fill="url(#blg)" />
-          </svg>
+      <div class="sidebar" id="sidebar">
+        <div class="brand">
+          <button
+            class="menu-btn close-drawer"
+            id="closeDrawer"
+            aria-label="Close menu"
+          >
+            ☰
+          </button>
+          <div class="brand-logo">
+            <svg
+              viewBox="0 0 64 64"
+              role="img"
+              aria-label="UPSC Master Notes logo"
+            >
+              <defs>
+                <linearGradient id="blg" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#e8d5a3" />
+                  <stop offset=".55" stop-color="#c9a84c" />
+                  <stop offset="1" stop-color="#e8d5a3" />
+                </linearGradient>
+              </defs>
+              <circle
+                cx="32"
+                cy="32"
+                r="29"
+                fill="none"
+                stroke="url(#blg)"
+                stroke-width="2.5"
+              />
+              <circle
+                cx="32"
+                cy="32"
+                r="24"
+                fill="none"
+                stroke="#c9a84c"
+                stroke-opacity=".35"
+                stroke-width="1"
+              />
+              <path
+                d="M32 14 L34.12 20.09 L40.56 20.22 L35.42 24.11 L37.29 30.28 L32 26.6 L26.71 30.28 L28.58 24.11 L23.44 20.22 L29.88 20.09 Z"
+                fill="url(#blg)"
+              />
+              <path
+                d="M13 40 C 20 35 27 36 31.5 39 L 31.5 45 C 27 42 20 41 13 45.5 Z"
+                fill="url(#blg)"
+              />
+              <path
+                d="M51 40 C 44 35 37 36 32.5 39 L 32.5 45 C 37 42 44 41 51 45.5 Z"
+                fill="url(#blg)"
+              />
+            </svg>
+          </div>
+          <div class="brand-eyebrow">UPSC Civil Services</div>
+          <div class="brand-title">MASTER NOTES</div>
+          <div class="brand-sub">COMPLETE SYLLABUS</div>
         </div>
-        <div class="brand-eyebrow">UPSC Civil Services</div>
-        <div class="brand-title">MASTER NOTES</div>
-        <div class="brand-sub">COMPLETE SYLLABUS</div>
-      </div>
-      <div class="overall-progress">
-        <div class="overall-progress-bar">
-          <div class="overall-progress-fill" id="overallFill" style="width: 0%"></div>
+        <div class="overall-progress">
+          <div class="overall-progress-bar">
+            <div
+              class="overall-progress-fill"
+              id="overallFill"
+              style="width: 0%"
+            ></div>
+          </div>
+          <div class="overall-progress-pct" id="overallPct">0%</div>
         </div>
-        <div class="overall-progress-pct" id="overallPct">0%</div>
+        <div class="search-wrap">
+          <input
+            type="text"
+            class="search-input"
+            id="searchInput"
+            placeholder="Search topics..."
+          />
+          <span class="search-icon">🔍</span>
+          <div class="search-results" id="searchResults"></div>
+        </div>
+        <div class="sidebar-nav" id="sidebarNav"></div>
+        <div class="tree-container" id="treeContainer"></div>
+        <div class="sidebar-footer">GS 1–4 · ESSAY · FULL SYLLABUS</div>
       </div>
-      <div class="search-wrap">
-        <input type="text" class="search-input" id="searchInput" placeholder="Search topics..." />
-        <span class="search-icon">🔍</span>
-        <div class="search-results" id="searchResults"></div>
+
+      <div class="main">
+        <div class="topbar">
+          <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+            ☰
+          </button>
+          <div class="topbar-title" id="topbarTitle">Dashboard</div>
+          <button
+            class="reading-mode-btn"
+            id="readingModeBtn"
+            title="Full-screen reading mode"
+            aria-label="Toggle reading mode"
+          >
+            ⛶
+          </button>
+          <div class="topbar-tag">UPSC 2027–28</div>
+        </div>
+        <div class="notes-scroll">
+          <div class="notes-content" id="notesContent"></div>
+        </div>
+        <div class="note-nav-fab-group" id="noteNavFabGroup">
+          <button
+            class="note-nav-fab note-nav-prev"
+            id="noteNavPrevBtn"
+            title="Previous topic"
+            aria-label="Previous topic"
+          >
+            ◀
+          </button>
+          <button
+            class="note-nav-fab note-nav-next"
+            id="noteNavNextBtn"
+            title="Next topic"
+            aria-label="Next topic"
+          >
+            ▶
+          </button>
+        </div>
+        <button
+          class="exit-reading-btn"
+          id="exitReadingBtn"
+          title="Exit reading mode"
+          aria-label="Exit reading mode"
+        >
+          ✕
+        </button>
       </div>
-      <div class="sidebar-nav" id="sidebarNav"></div>
-      <div class="tree-container" id="treeContainer"></div>
-      <div class="sidebar-footer">GS 1–4 · ESSAY · FULL SYLLABUS</div>
     </div>
 
-    <div class="main">
-      <div class="topbar">
-        <button class="menu-btn" id="menuBtn" aria-label="Open menu">
-          ☰
-        </button>
-        <div class="topbar-title" id="topbarTitle">Dashboard</div>
-        <button class="reading-mode-btn" id="readingModeBtn" title="Full-screen reading mode"
-          aria-label="Toggle reading mode">
-          ⛶
-        </button>
-        <div class="topbar-tag">UPSC 2027–28</div>
-      </div>
-      <div class="notes-scroll">
-        <div class="notes-content" id="notesContent"></div>
-      </div>
-      <div class="note-nav-fab-group" id="noteNavFabGroup">
-        <button class="note-nav-fab note-nav-prev" id="noteNavPrevBtn" title="Previous topic"
-          aria-label="Previous topic">
-          ◀
-        </button>
-        <button class="note-nav-fab note-nav-next" id="noteNavNextBtn" title="Next topic" aria-label="Next topic">
-          ▶
-        </button>
-      </div>
-      <button class="exit-reading-btn" id="exitReadingBtn" title="Exit reading mode" aria-label="Exit reading mode">
-        ✕
-      </button>
-    </div>
-  </div>
-
-  <div class="chapter-complete-overlay" id="chapterCompleteOverlay">
-    <div class="chapter-complete-card">
-      <div class="chapter-complete-emoji">🎉</div>
-      <div class="chapter-complete-title" id="chapterCompleteTitle">
-        Congratulations!
-      </div>
-      <div class="chapter-complete-sub" id="chapterCompleteSub"></div>
-      <div class="chapter-complete-actions">
-        <button class="chapter-complete-hurrah-btn" id="chapterCompleteHurrahBtn">
-          Hurrah! 🎉
-        </button>
-        <button class="chapter-complete-close-btn" id="chapterCompleteCloseBtn">
-          Stay Here
-        </button>
+    <div class="chapter-complete-overlay" id="chapterCompleteOverlay">
+      <div class="chapter-complete-card">
+        <div class="chapter-complete-emoji">🎉</div>
+        <div class="chapter-complete-title" id="chapterCompleteTitle">
+          Congratulations!
+        </div>
+        <div class="chapter-complete-sub" id="chapterCompleteSub"></div>
+        <div class="chapter-complete-actions">
+          <button
+            class="chapter-complete-hurrah-btn"
+            id="chapterCompleteHurrahBtn"
+          >
+            Hurrah! 🎉
+          </button>
+          <button
+            class="chapter-complete-close-btn"
+            id="chapterCompleteCloseBtn"
+          >
+            Stay Here
+          </button>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!--
+    <!--
   PREVIOUS-CHAPTER CONFIRM — shown when the ◀ back button is pressed on
   the first topic of a chapter and there's an earlier chapter to step
   into. Reuses the .chapter-complete-* styling (no new CSS) but with
   neutral, non-celebratory wording.
 -->
-  <div class="chapter-complete-overlay" id="prevChapterOverlay">
-    <div class="chapter-complete-card">
-      <div class="chapter-complete-emoji">📖</div>
-      <div class="chapter-complete-title" id="prevChapterTitle">
-        Go to previous chapter?
-      </div>
-      <div class="chapter-complete-sub" id="prevChapterSub"></div>
-      <div class="chapter-complete-actions">
-        <button class="chapter-complete-hurrah-btn" id="prevChapterGoBtn">
-          ◀ Go Back
-        </button>
-        <button class="chapter-complete-close-btn" id="prevChapterCloseBtn">
-          Stay Here
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <div class="quiz-overlay" id="quizOverlay">
-    <div class="quiz-modal">
-      <div class="quiz-header">
-        <div class="quiz-header-title" id="quizTitle">PRACTICE HUB</div>
-        <button class="quiz-close" id="quizClose">✕</button>
-      </div>
-      <div class="quiz-progress-bar">
-        <div class="quiz-progress-fill" id="quizProgressFill" style="width: 0%"></div>
-      </div>
-      <div class="quiz-body" id="quizBody"></div>
-      <div class="quiz-footer" id="quizFooter">
-        <button class="quiz-nav-btn" id="quizPrevBtn">◀ Prev</button>
-        <span class="quiz-score-label" id="quizScoreLabel"></span>
-        <button class="quiz-nav-btn" id="quizNextBtn">Next ▶</button>
+    <div class="chapter-complete-overlay" id="prevChapterOverlay">
+      <div class="chapter-complete-card">
+        <div class="chapter-complete-emoji">📖</div>
+        <div class="chapter-complete-title" id="prevChapterTitle">
+          Go to previous chapter?
+        </div>
+        <div class="chapter-complete-sub" id="prevChapterSub"></div>
+        <div class="chapter-complete-actions">
+          <button class="chapter-complete-hurrah-btn" id="prevChapterGoBtn">
+            ◀ Go Back
+          </button>
+          <button class="chapter-complete-close-btn" id="prevChapterCloseBtn">
+            Stay Here
+          </button>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!--
+    <div class="quiz-overlay" id="quizOverlay">
+      <div class="quiz-modal">
+        <div class="quiz-header">
+          <div class="quiz-header-title" id="quizTitle">PRACTICE HUB</div>
+          <button class="quiz-close" id="quizClose">✕</button>
+        </div>
+        <div class="quiz-progress-bar">
+          <div
+            class="quiz-progress-fill"
+            id="quizProgressFill"
+            style="width: 0%"
+          ></div>
+        </div>
+        <div class="quiz-body" id="quizBody"></div>
+        <div class="quiz-footer" id="quizFooter">
+          <button class="quiz-nav-btn" id="quizPrevBtn">◀ Prev</button>
+          <span class="quiz-score-label" id="quizScoreLabel"></span>
+          <button class="quiz-nav-btn" id="quizNextBtn">Next ▶</button>
+        </div>
+      </div>
+    </div>
+
+    <!--
   SCRIPT — index.html links only this ONE file. bundle.js is small and
   fixed-cost: it holds the TREE_DATA "skeleton" (every topic's title/
   icon/hierarchy, used by the sidebar, search and navigation) plus the
@@ -176,7 +243,6 @@
   Never edit js/bundle.js or js/content/*.js directly; edit the source
   files under js/data/ (or js/engine/) and re-run the command above.
 -->
-  <script src="js/bundle.js?v=6"></script>
-</body>
-
+    <script src="js/bundle.js?v=8"></script>
+  </body>
 </html>

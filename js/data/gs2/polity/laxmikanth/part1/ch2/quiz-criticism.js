@@ -266,5 +266,135 @@ const QUIZ_criticism = {
       explain:
         "This balanced view acknowledges the validity of structural criticisms (no universal franchise, Congress dominance) while recognising the Assembly's genuine achievement — producing an enduring Constitution built on broad consensus.",
     },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. Naziruddin Ahmed was himself a member of the Constituent Assembly.",
+        "II. He referred to the Drafting Committee as the 'Drifting Committee'.",
+        "III. Granville Austin was a British constitutional expert.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — Granville Austin was an American constitutional expert.",
+    },
+    {
+      q: "How many major criticisms of the Constituent Assembly are commonly listed?",
+      options: ["Four", "Five", "Six", "Seven"],
+      correct: 2,
+      explain:
+        "Six major criticisms are listed: not representative, not sovereign, time-consuming, Congress-dominated, lawyer-politician dominated, and Hindu-dominated.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Remark — Author):",
+        "I. 'Body of Hindus' — Lord Viscount Simon",
+        "II. 'Only one major community in India' — Winston Churchill",
+        "III. 'Drifting Committee' — Granville Austin",
+        "How many of the pairs given above are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Pairs I and II are correct. Pair III is wrong — 'Drifting Committee' was coined by Naziruddin Ahmed, not Granville Austin.",
+    },
+    {
+      q: [
+        "Assertion (A): The Constituent Assembly was criticised as not being a sovereign body.",
+        "Reason (R): It was created by the proposals of the British Government and initially held its sessions with British permission.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — being created under the Cabinet Mission Plan and meeting with British permission is precisely why it was called 'not sovereign'.",
+    },
+    {
+      q: "Which of the following was NOT among the six major criticisms of the Constituent Assembly?",
+      options: [
+        "It was time-consuming",
+        "It was dominated by the Congress",
+        "It was dominated by lawyers and politicians",
+        "It was dominated by the princely states",
+      ],
+      correct: 3,
+      explain:
+        "'Dominated by the princely states' was not a criticism. The six criticisms concerned representation, sovereignty, time, Congress, lawyer-politicians, and Hindus.",
+    },
+    {
+      q: [
+        "Statement I: The Constituent Assembly was criticised as not being a fully representative body.",
+        "Statement II: Its members were directly elected by the people on the basis of universal adult franchise.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are true, and II is the correct explanation of I",
+        "Both statements are true, but II is NOT the correct explanation of I",
+        "Statement I is true, but Statement II is false",
+        "Statement I is false, but Statement II is true",
+      ],
+      correct: 2,
+      explain:
+        "Statement I is true, but Statement II is false — members were indirectly elected by provincial assemblies on a limited franchise, not by universal adult franchise.",
+    },
+    {
+      q: "Which criticism of the Constituent Assembly was effectively resolved by the passage of the Indian Independence Act, 1947?",
+      options: [
+        "Time-consuming",
+        "Not a sovereign body",
+        "Dominated by Hindus",
+        "Dominated by lawyers",
+      ],
+      correct: 1,
+      explain:
+        "The 'not a sovereign body' criticism was addressed once the Indian Independence Act, 1947 made the Assembly fully sovereign.",
+    },
+    {
+      q: [
+        "Consider the following statements about criticisms of the Constituent Assembly:",
+        "I. Critics compared its duration unfavourably with the American Constitution, framed in about four months.",
+        "II. The Assembly took about 2 years, 11 months and 18 days.",
+        "III. The 'Drifting Committee' jibe reflected the criticism of Congress dominance.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the 'Drifting Committee' jibe reflected the 'time-consuming' criticism, not Congress dominance.",
+    },
+    {
+      q: "The remarks 'a body of Hindus' and 'only one major community in India' together point to the criticism that the Assembly was:",
+      options: [
+        "not sovereign",
+        "dominated by a single community (Hindus)",
+        "time-consuming",
+        "dominated by lawyers and politicians",
+      ],
+      correct: 1,
+      explain:
+        "Both remarks (by Simon and Churchill respectively) point to the criticism that the Assembly was dominated by Hindus.",
+    },
+    {
+      q: [
+        "Assertion (A): Despite criticisms, the Constituent Assembly is regarded as having produced an enduring Constitution.",
+        "Reason (R): It achieved a broad consensus on foundational values across communities.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — the broad consensus on foundational values underlies the Constitution's endurance despite the criticisms.",
+    },
   ],
 };

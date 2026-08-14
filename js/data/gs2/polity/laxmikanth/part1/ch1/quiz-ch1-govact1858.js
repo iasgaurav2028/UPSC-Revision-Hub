@@ -248,5 +248,130 @@ const QUIZ_ch1_govact1858 = {
       explain:
         "Its watershed significance lies in ending Company rule (1773–1858) and beginning direct Crown rule (1858–1947) — a fundamental legal and constitutional turning point, distinct from the later, separate developments listed in the other options.",
     },
+    {
+      q: "The Government of India Act, 1858 transferred power, territories, and revenues from the East India Company to:",
+      options: [
+        "The British Parliament",
+        "The British Crown",
+        "The Board of Control",
+        "The Governor-General",
+      ],
+      correct: 1,
+      explain:
+        "The Act transferred power, territories, and revenues from the Company directly to the British Crown.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Government of India Act, 1858:",
+        "I. It created the office of Secretary of State for India.",
+        "II. It established a 15-member advisory Council of India.",
+        "III. It introduced the portfolio system.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the portfolio system was introduced by Canning in 1859 and recognised by the Act of 1861.",
+    },
+    {
+      q: [
+        "Arrange the following in chronological order:",
+        "1. Government of India Act, 1858",
+        "2. Charter Act of 1853",
+        "3. Indian Councils Act, 1861",
+        "Select the correct order:",
+      ],
+      options: ["2 - 1 - 3", "1 - 2 - 3", "2 - 3 - 1", "3 - 2 - 1"],
+      correct: 0,
+      explain: "1853 → 1858 → 1861, i.e. order 2-1-3.",
+    },
+    {
+      q: "The Secretary of State for India, created by the 1858 Act, was:",
+      options: [
+        "A member of the British Cabinet responsible to the British Parliament",
+        "An officer appointed by the Viceroy",
+        "A member of the Indian legislature",
+        "The head of the Court of Directors",
+      ],
+      correct: 0,
+      explain:
+        "The Secretary of State for India was a member of the British Cabinet, responsible to the British Parliament.",
+    },
+    {
+      q: [
+        "Statement I: The Government of India Act, 1858 ended the system of double government.",
+        "Statement II: It abolished both the Board of Control and the Court of Directors.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II correctly explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 0,
+      explain:
+        "Both are correct, and abolishing the two bodies of the dual system is exactly what ended double government — Statement II explains Statement I.",
+    },
+    {
+      q: "The system of 'double government' ended by the 1858 Act had originally been created by which Act?",
+      options: [
+        "Regulating Act of 1773",
+        "Pitt's India Act of 1784",
+        "Charter Act of 1833",
+        "Charter Act of 1853",
+      ],
+      correct: 1,
+      explain:
+        "Double government was created by Pitt's India Act of 1784 (Court of Directors + Board of Control) and ended in 1858.",
+    },
+    {
+      q: "Lord Canning holds the unique distinction of being:",
+      options: [
+        "The last Governor-General of Bengal",
+        "The last Governor-General of India and the first Viceroy of India",
+        "The first Secretary of State for India",
+        "The first Governor-General of India",
+      ],
+      correct: 1,
+      explain:
+        "Canning was the last Governor-General of India and became the first Viceroy of India under the 1858 Act.",
+    },
+    {
+      q: "The Secretary of State-in-Council was made a 'body corporate' under the 1858 Act, which meant it could:",
+      options: [
+        "Levy taxes in Britain",
+        "Sue and be sued in both India and England",
+        "Appoint the Viceroy",
+        "Dissolve provincial councils",
+      ],
+      correct: 1,
+      explain:
+        "As a body corporate, the Secretary of State-in-Council could sue and be sued in India and England.",
+    },
+    {
+      q: "Which of the following best captures the practical scope of the 1858 Act?",
+      options: [
+        "It fundamentally reorganised governance within India",
+        "It mainly improved the administrative machinery in England, with little change to governance within India",
+        "It introduced elected legislatures in India",
+        "It granted dominion status to India",
+      ],
+      correct: 1,
+      explain:
+        "The Act primarily restructured control machinery in England; it did not substantially change the system of governance within India.",
+    },
+    {
+      q: "Which of the following was NOT a feature of the Government of India Act, 1858?",
+      options: [
+        "Abolition of the East India Company",
+        "Creation of the Secretary of State for India",
+        "Introduction of separate electorates",
+        "Renaming of the Governor-General as Viceroy",
+      ],
+      correct: 2,
+      explain:
+        "Separate electorates were introduced by the Indian Councils Act of 1909, not the 1858 Act.",
+    },
   ],
 };

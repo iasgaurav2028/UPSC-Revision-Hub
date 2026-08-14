@@ -248,5 +248,132 @@ const QUIZ_important_facts = {
       explain:
         "Statements I and II are correct. Statement III is incorrect — Prem Behari Narain Raizada calligraphed the ENGLISH version; the Hindi calligrapher was Vasant Krishan Vaidya.",
     },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. The elephant was the seal (symbol) of the Constituent Assembly.",
+        "II. The original Constitution was handwritten, not printed.",
+        "III. Sir B.N. Rau was the Chief Draftsman of the Constitution.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — Sir B.N. Rau was the Constitutional Advisor; S.N. Mukherjee was the Chief Draftsman.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Role — Person):",
+        "I. Constitutional Advisor — Sir B.N. Rau",
+        "II. Secretary to the Assembly — H.V.R. Iyengar",
+        "III. Chief Draftsman — Prem Behari Narain Raizada",
+        "How many of the pairs given above are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Pairs I and II are correct. Pair III is wrong — the Chief Draftsman was S.N. Mukherjee; Raizada was the English calligrapher.",
+    },
+    {
+      q: [
+        "Assertion (A): In case of a conflict between the Hindi and English texts of the Constitution, the English text prevails.",
+        "Reason (R): The Hindi version is an authoritative translation rather than an independent source.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — because the Hindi text is an authoritative translation, not an independent source, the English text prevails in a conflict.",
+    },
+    {
+      q: "The 58th Constitutional Amendment Act, 1987 is associated with:",
+      options: [
+        "the anti-defection law",
+        "the authoritative Hindi text of the Constitution",
+        "the reduction of the voting age",
+        "the creation of new states",
+      ],
+      correct: 1,
+      explain:
+        "The 58th Amendment, 1987 inserted Article 394-A to provide for an authoritative Hindi text of the Constitution.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. Nand Lal Bose illuminated the original English Preamble.",
+        "II. Beohar Rammanohar Sinha did the calligraphy of the Hindi version.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 3,
+      explain:
+        "Neither is correct — Beohar Rammanohar Sinha illuminated the English Preamble; Nand Lal Bose decorated the Hindi version; and the Hindi calligraphy was done by Vasant Krishan Vaidya.",
+    },
+    {
+      q: "Which of the following correctly pairs a person with their contribution to the Constitution?",
+      options: [
+        "Prem Behari Narain Raizada — Hindi calligraphy",
+        "Vasant Krishan Vaidya — Hindi calligraphy",
+        "Nand Lal Bose — illumination of the English Preamble",
+        "S.N. Mukherjee — English calligraphy",
+      ],
+      correct: 1,
+      explain:
+        "Vasant Krishan Vaidya did the calligraphy of the Hindi version. Raizada did the English calligraphy, Sinha illuminated the English Preamble, and Mukherjee was Chief Draftsman.",
+    },
+    {
+      q: [
+        "Consider the following statements about Article 394-A:",
+        "I. It was inserted by the 58th Amendment, 1987.",
+        "II. It is placed in Part XXII of the Constitution.",
+        "III. It empowers the Prime Minister to publish the Hindi text.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — it empowers the President (not the Prime Minister) to cause publication of the Hindi text.",
+    },
+    {
+      q: "Sir B.N. Rau's principal contribution to the making of the Constitution was:",
+      options: [
+        "chairing the Drafting Committee",
+        "preparing the initial/preliminary constitutional framework as Constitutional Advisor",
+        "calligraphing the original Constitution",
+        "serving as Secretary to the Assembly",
+      ],
+      correct: 1,
+      explain:
+        "As Constitutional Advisor, Sir B.N. Rau prepared the initial constitutional framework before the Drafting Committee began its work.",
+    },
+    {
+      q: "The technical drafting of the Constitution's text within the Drafting Committee process was handled by the Chief Draftsman, namely:",
+      options: [
+        "Dr. B.R. Ambedkar",
+        "S.N. Mukherjee",
+        "Sir B.N. Rau",
+        "H.V.R. Iyengar",
+      ],
+      correct: 1,
+      explain:
+        "S.N. Mukherjee was the Chief Draftsman responsible for the technical drafting of the Constitution's text.",
+    },
+    {
+      q: "Under Article 394-A, the published Hindi translation of the Constitution is:",
+      options: [
+        "of no legal value",
+        "deemed the authoritative text in Hindi for all purposes",
+        "superior to the English text in all cases",
+        "valid only for parliamentary proceedings",
+      ],
+      correct: 1,
+      explain:
+        "The published Hindi translation is deemed the authoritative text in Hindi for all purposes, though the English text prevails in a conflict.",
+    },
   ],
 };

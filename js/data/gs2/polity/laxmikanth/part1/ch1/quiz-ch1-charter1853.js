@@ -208,5 +208,120 @@ const QUIZ_ch1_charter1853 = {
       explain:
         "The Act's true significance lies in institutional specialisation and merit-based recruitment, combined with the symbolically important absence of a fixed tenure — Crown sovereignty transfer came only in 1858.",
     },
+    {
+      q: "Which of the following was a key feature of the Charter Act of 1853 regarding the tenure of Company rule?",
+      options: [
+        "It fixed a 20-year tenure for Company rule",
+        "It did not specify a fixed period for Company rule",
+        "It ended Company rule immediately",
+        "It fixed a 10-year tenure for Company rule",
+      ],
+      correct: 1,
+      explain:
+        "Unlike earlier Charters, the 1853 Act specified no fixed period, signalling Parliament could end Company rule at any time.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Charter Act of 1853:",
+        "I. It introduced open competition for civil service recruitment, open to Indians.",
+        "II. It formed the Indian (Central) Legislative Council.",
+        "III. It introduced separate electorates for Muslims.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — separate electorates came with the Act of 1909.",
+    },
+    {
+      q: [
+        "Arrange the following in chronological order:",
+        "1. Charter Act of 1853",
+        "2. Charter Act of 1833",
+        "3. Government of India Act of 1858",
+        "Select the correct order:",
+      ],
+      options: ["2 - 1 - 3", "1 - 2 - 3", "2 - 3 - 1", "3 - 2 - 1"],
+      correct: 0,
+      explain: "1833 → 1853 → 1858, i.e. order 2-1-3.",
+    },
+    {
+      q: "The Macaulay Committee, connected to the civil service reform of the Charter Act of 1853, was appointed in:",
+      options: ["1853", "1854", "1858", "1861"],
+      correct: 1,
+      explain:
+        "The Macaulay Committee on the Indian Civil Service was appointed in 1854.",
+    },
+    {
+      q: [
+        "Statement I: The Charter Act of 1853 separated the legislative and executive functions of the Governor-General's council.",
+        "Statement II: This is often described as creating a mini-Parliament in India.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II correctly explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 1,
+      explain:
+        "Both are correct, but Statement II is a characterisation of the resulting body rather than an explanation of WHY the functions were separated.",
+    },
+    {
+      q: "The Charter Act of 1853 introduced local representation by appointing 4 of the 6 new members on the recommendation of local governments of:",
+      options: [
+        "Bengal, Bombay, Madras, and Agra",
+        "Bengal, Punjab, Madras, and Sind",
+        "Bombay, Madras, Punjab, and Assam",
+        "Bengal, Bihar, Orissa, and Agra",
+      ],
+      correct: 0,
+      explain:
+        "The four members were recommended by the local governments of Madras, Bombay, Bengal, and Agra.",
+    },
+    {
+      q: "Which of the following correctly captures the difference between the civil service provisions of 1833 and 1853?",
+      options: [
+        "1833 implemented open competition; 1853 abolished it",
+        "1833 proposed open competition (negated); 1853 actually introduced it",
+        "Both Acts merely proposed it",
+        "Neither Act addressed civil services",
+      ],
+      correct: 1,
+      explain:
+        "The 1833 proposal was negated; the 1853 Act genuinely introduced open competition, followed by the Macaulay Committee in 1854.",
+    },
+    {
+      q: "The Charter Act of 1853 was the last in the series of Charter Acts that began in:",
+      options: ["1773", "1793", "1813", "1833"],
+      correct: 1,
+      explain:
+        "The Charter Acts series began in 1793 and ended with the 1853 Act.",
+    },
+    {
+      q: "Which of the following distinguishes the centralisation of 1833 from the reform of 1853?",
+      options: [
+        "1833 separated legislative and executive functions; 1853 centralised power",
+        "1833 concentrated legislative power in the Governor-General of India; 1853 separated legislative from executive functions",
+        "Both did the same thing",
+        "Neither dealt with the legislature",
+      ],
+      correct: 1,
+      explain:
+        "1833 concentrated legislative power in the Governor-General of India, while 1853 separated legislative from executive functions.",
+    },
+    {
+      q: "Which of the following was NOT a feature of the Charter Act of 1853?",
+      options: [
+        "Separation of legislative and executive functions",
+        "Open competition for civil services",
+        "A fixed 20-year period for Company rule",
+        "Local representation in the Central Legislative Council",
+      ],
+      correct: 2,
+      explain:
+        "The 1853 Act deliberately did NOT fix a period for Company rule, breaking from the earlier Charters' practice.",
+    },
   ],
 };

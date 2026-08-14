@@ -222,5 +222,128 @@ const QUIZ_changes_independence_act = {
       explain:
         "The two functions were performed on completely separate days with separate presiding officers — this structural distinction is the key testable detail of this section.",
     },
+    {
+      q: "The dual role of the Constituent Assembly (as a constituent body and a legislative body) continued until:",
+      options: [
+        "15 August 1947",
+        "26 November 1949",
+        "26 January 1950",
+        "17 April 1952",
+      ],
+      correct: 1,
+      explain:
+        "The dual function continued until 26 November 1949, when the work of constitution-making was completed.",
+    },
+    {
+      q: [
+        "Consider the following statements about the reduction of the Assembly's strength after partition:",
+        "I. Total strength was reduced from 389 to 299.",
+        "II. Indian provinces' seats were reduced from 296 to 229.",
+        "III. Princely states' seats were reduced from 93 to 60.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — princely states' seats were reduced from 93 to 70, not 60.",
+    },
+    {
+      q: "Following which plan did most of the remaining princely states send their representatives to the Constituent Assembly?",
+      options: [
+        "The August Offer",
+        "The Mountbatten Plan (3 June 1947)",
+        "The Cabinet Mission Plan",
+        "The Cripps proposals",
+      ],
+      correct: 1,
+      explain:
+        "After the Mountbatten Plan (3 June 1947), most of the remaining princely states sent their representatives to the Assembly.",
+    },
+    {
+      q: [
+        "Assertion (A): The strength of the Constituent Assembly was reduced to 299 after partition.",
+        "Reason (R): Muslim League members from the areas that became part of Pakistan withdrew from the Assembly.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — the withdrawal of Muslim League members from Pakistan areas caused the strength to fall from 389 to 299.",
+    },
+    {
+      q: [
+        "Arrange the following events in correct chronological order:",
+        "I. Adoption of the National Flag",
+        "II. Ratification of Commonwealth membership",
+        "III. Election of the first President of India",
+        "IV. Assembly first met as the Dominion Legislature",
+      ],
+      options: [
+        "I → IV → II → III",
+        "IV → I → II → III",
+        "I → II → IV → III",
+        "IV → I → III → II",
+      ],
+      correct: 0,
+      explain:
+        "Order: National Flag (22 July 1947) → first met as Dominion Legislature (17 Nov 1947) → Commonwealth membership (May 1949) → first President elected (24 Jan 1950).",
+    },
+    {
+      q: "After partition, a separate Constituent Assembly was set up for which of the following?",
+      options: ["Bangladesh", "Pakistan", "Ceylon", "Burma"],
+      correct: 1,
+      explain:
+        "A separate Constituent Assembly was set up for Pakistan after the Muslim League members from the Pakistan areas withdrew.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Event — Date):",
+        "I. National Flag adopted — 22 July 1947",
+        "II. Commonwealth membership ratified — May 1949",
+        "III. National Anthem adopted — 22 July 1947",
+        "How many of the pairs given above are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Pairs I and II are correct. Pair III is wrong — the National Anthem was adopted on 24 January 1950, not 22 July 1947.",
+    },
+    {
+      q: "After its final session, the Constituent Assembly did not dissolve but continued as the Provisional Parliament of India from:",
+      options: [
+        "24 January 1950",
+        "26 January 1950",
+        "17 April 1952",
+        "15 August 1947",
+      ],
+      correct: 1,
+      explain:
+        "The Assembly continued as the Provisional Parliament of India from 26 January 1950 until 17 April 1952.",
+    },
+    {
+      q: [
+        "Consider the following statistics about the making of the Constitution:",
+        "I. The Assembly held 11 sessions.",
+        "II. The process took 2 years, 11 months and 18 days.",
+        "III. The total expenditure was ₹64 crore.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the total expenditure was ₹64 lakh, not ₹64 crore.",
+    },
+    {
+      q: "Which of the following was NOT among the six princely states whose representatives joined the Constituent Assembly on 28 April 1947?",
+      options: ["Baroda", "Bikaner", "Hyderabad", "Udaipur"],
+      correct: 2,
+      explain:
+        "The six states were Baroda, Bikaner, Jaipur, Patiala, Rewa and Udaipur. Hyderabad was not among them.",
+    },
   ],
 };

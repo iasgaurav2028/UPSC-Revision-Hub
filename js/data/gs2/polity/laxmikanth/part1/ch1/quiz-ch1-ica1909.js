@@ -252,5 +252,125 @@ const QUIZ_ch1_ica1909 = {
       explain:
         "This central tension — genuine expansion of participation alongside the institutionalisation of communal division — is the defining historiographical debate surrounding the 1909 Act.",
     },
+    {
+      q: "Under the Indian Councils Act, 1909, the strength of the Central Legislative Council was increased to:",
+      options: ["16", "30", "60", "100"],
+      correct: 2,
+      explain:
+        "Central Legislative Council membership was raised from 16 to 60.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Indian Councils Act, 1909:",
+        "I. It introduced separate electorates for Muslims.",
+        "II. It allowed non-official majority in provincial councils.",
+        "III. It abolished the office of Secretary of State.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the Secretary of State was not abolished (that happened in 1947).",
+    },
+    {
+      q: [
+        "Arrange the following in chronological order:",
+        "1. Indian Councils Act, 1909",
+        "2. Indian Councils Act, 1892",
+        "3. Government of India Act, 1919",
+        "Select the correct order:",
+      ],
+      options: ["2 - 1 - 3", "1 - 2 - 3", "2 - 3 - 1", "3 - 2 - 1"],
+      correct: 0,
+      explain: "1892 → 1909 → 1919, i.e. order 2-1-3.",
+    },
+    {
+      q: "The first Indian to be associated with the Viceroy's Executive Council under the 1909 Act was:",
+      options: [
+        "Dadabhai Naoroji",
+        "Satyendra Prasad Sinha",
+        "Sir Dinkar Rao",
+        "Gopal Krishna Gokhale",
+      ],
+      correct: 1,
+      explain:
+        "Satyendra Prasad Sinha joined the Viceroy's Executive Council as Law Member.",
+    },
+    {
+      q: [
+        "Statement I: The Indian Councils Act, 1909 is said to have 'legalised communalism'.",
+        "Statement II: It introduced separate electorates for Muslims.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II correctly explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 0,
+      explain:
+        "Both are correct, and introducing separate electorates for Muslims is exactly why the Act is said to have legalised communalism.",
+    },
+    {
+      q: "Which majority arrangement did the 1909 Act establish in the Central Legislative Council?",
+      options: [
+        "Non-official majority",
+        "Official majority",
+        "Equal official and non-official members",
+        "Entirely elected members",
+      ],
+      correct: 1,
+      explain:
+        "The Central council retained an official majority, while provincial councils were allowed non-official majorities.",
+    },
+    {
+      q: "Lord Minto is described in constitutional history as the 'Father of' which of the following?",
+      options: [
+        "Provincial Autonomy",
+        "Communal Electorate",
+        "Indian Federalism",
+        "Local Self-Government",
+      ],
+      correct: 1,
+      explain:
+        "Lord Minto is called the 'Father of Communal Electorate' for introducing separate electorates for Muslims.",
+    },
+    {
+      q: "In the Morley-Minto Reforms, the correct pairing of office holders was:",
+      options: [
+        "Morley = Viceroy; Minto = Secretary of State",
+        "Morley = Secretary of State; Minto = Viceroy",
+        "Both were Viceroys",
+        "Both were Secretaries of State",
+      ],
+      correct: 1,
+      explain:
+        "Morley was the Secretary of State for India and Minto was the Viceroy.",
+    },
+    {
+      q: "Besides Muslims, separate representation under the 1909 Act was extended to which of the following?",
+      options: [
+        "Presidency corporations, chambers of commerce, universities and zamindars",
+        "Only the depressed classes",
+        "Only women",
+        "Only labour unions",
+      ],
+      correct: 0,
+      explain:
+        "Separate representation extended to presidency corporations, chambers of commerce, universities, and zamindars.",
+    },
+    {
+      q: "Which of the following was NOT a feature of the Indian Councils Act, 1909?",
+      options: [
+        "Separate electorates for Muslims",
+        "Increase of Central council members to 60",
+        "Introduction of dyarchy in the provinces",
+        "Association of Indians with the Executive Council",
+      ],
+      correct: 2,
+      explain:
+        "Dyarchy in the provinces was introduced by the Government of India Act, 1919, not the 1909 Act.",
+    },
   ],
 };

@@ -4,4 +4,514 @@
 // by js/engine/loader.js the first time one of its topics is opened.
 // Edit the source under js/data/ and re-run: node build-bundle.js
 // ═══════════════════════════════════════════════════════════
-__registerContent("gs2/polity/laxmikanth/part1/ch2/minor-committees", {"notes":{"ch2-committees-minor":{"era":"Constituent Assembly — 1946–1949","significance":["Minor committees are less frequently tested but their chairmen appear in match-the-following questions","Three committee chairs were NOT members of the Constituent Assembly — a notable exception frequently tested","The Ad-hoc Committee on the National Flag (chaired by Rajendra Prasad) is especially relevant given the flag's adoption on 22 July 1947"],"features":[{"key":"1. Finance and Staff Committee","main":"Chairman: Dr. Rajendra Prasad","note":""},{"key":"2. Credentials Committee","main":"Chairman: Alladi Krishnaswami Ayyar","note":""},{"key":"3. House Committee","main":"Chairman: B. Pattabhi Sitaramayya","note":""},{"key":"4. Order of Business Committee","main":"Chairman: Dr. K.M. Munshi","note":""},{"key":"5. Ad-hoc Committee on the National Flag","main":"Chairman: Dr. Rajendra Prasad","note":"Led to the adoption of the National Flag on 22 July 1947"},{"key":"6. Committee on the Functions of the Constituent Assembly","main":"Chairman: G.V. Mavalankar","note":"G.V. Mavalankar also served as Speaker of the Dominion Legislature"},{"key":"7. Ad-hoc Committee on the Supreme Court","main":"Chairman: S. Varadachari — NOT a member of the Constituent Assembly","note":""},{"key":"8. Committee on Chief Commissioners' Provinces","main":"Chairman: B. Pattabhi Sitaramayya","note":"Sitaramayya chaired two minor committees"},{"key":"9. Expert Committee on Financial Provisions of the Union Constitution","main":"Chairman: Nalini Ranjan Sarkar — NOT a member of the Constituent Assembly","note":""},{"key":"10. Linguistic Provinces Commission","main":"Chairman: S.K. Dar — NOT a member of the Constituent Assembly","note":"Also known as the 'Dar Commission' — examined the feasibility of linguistic reorganisation of provinces"},{"key":"11. Special Committee to Examine the Draft Constitution","main":"Chairman: Jawaharlal Nehru","note":""},{"key":"12. Press Gallery Committee","main":"Chairman: Usha Nath Sen","note":""},{"key":"13. Ad-hoc Committee on Citizenship","main":"Chairman: S. Varadachari — NOT a member of the Constituent Assembly","note":"S. Varadachari chaired two committees without being an Assembly member"}],"traps":[{"label":"Chairmen NOT Members of the Constituent Assembly","lines":["S. Varadachari — Ad-hoc Committee on Supreme Court + Ad-hoc Committee on Citizenship","Nalini Ranjan Sarkar — Expert Committee on Financial Provisions","S.K. Dar — Linguistic Provinces Commission","Only these three were outsiders; all other chairmen were Assembly members"]},{"label":"B. Pattabhi Sitaramayya Chaired Two Minor Committees","lines":["House Committee — Sitaramayya","Committee on Chief Commissioners' Provinces — Sitaramayya"]},{"label":"Rajendra Prasad Chaired Two Minor Committees Also","lines":["Finance and Staff Committee — Rajendra Prasad","Ad-hoc Committee on the National Flag — Rajendra Prasad","(Plus 2 major committees: Rules of Procedure + Steering)"]},{"label":"Alladi Krishnaswami Ayyar vs Alladi in Drafting Committee","lines":["Alladi Krishnaswami Ayyar — chaired the Credentials Committee (minor)","Also a member of the Drafting Committee (major) — two different roles"]}],"mainsAngle":"The use of non-Assembly members as chairmen of three minor committees (Varadachari, Sarkar, Dar) shows the Assembly's pragmatic approach — expertise mattered more than formal membership for technical committees on the Supreme Court, financial provisions, and linguistic reorganisation.","mainsTheme":"Technical expertise outside elected membership — pragmatism in constitutional design","recall":["13 minor committees total","3 chairmen NOT Assembly members: S. Varadachari, Nalini Ranjan Sarkar, S.K. Dar","Sitaramayya: House Committee + Chief Commissioners' Provinces Committee","Rajendra Prasad: Finance & Staff + National Flag (minor) + 2 major","G.V. Mavalankar: Functions of Constituent Assembly Committee","S.K. Dar: Linguistic Provinces Commission"]}},"quizzes":{"ch2-committees-minor":{"title":"Minor Committees of the Constituent Assembly","questions":[{"q":"How many minor committees did the Constituent Assembly appoint?","options":["10","11","13","15"],"correct":2,"explain":"There were 13 minor committees alongside the 8 major committees."},{"q":"Who chaired the Ad-hoc Committee on the National Flag?","options":["Jawaharlal Nehru","Dr. Rajendra Prasad","G.V. Mavalankar","Dr. B.R. Ambedkar"],"correct":1,"explain":"Dr. Rajendra Prasad chaired the Ad-hoc Committee on the National Flag, which led to the adoption of the National Flag on 22 July 1947."},{"q":"Which of the following minor committee chairmen were NOT members of the Constituent Assembly?","options":["B. Pattabhi Sitaramayya and G.V. Mavalankar","S. Varadachari, Nalini Ranjan Sarkar, and S.K. Dar","Alladi Krishnaswami Ayyar and Dr. K.M. Munshi","Usha Nath Sen and Dr. Rajendra Prasad"],"correct":1,"explain":"S. Varadachari (Ad-hoc Committees on Supreme Court and Citizenship), Nalini Ranjan Sarkar (Expert Committee on Financial Provisions), and S.K. Dar (Linguistic Provinces Commission) were NOT members of the Constituent Assembly."},{"q":"The Linguistic Provinces Commission was chaired by:","options":["G.V. Mavalankar","Nalini Ranjan Sarkar","S.K. Dar","B. Pattabhi Sitaramayya"],"correct":2,"explain":"S.K. Dar chaired the Linguistic Provinces Commission — he was not a member of the Constituent Assembly."},{"q":"B. Pattabhi Sitaramayya chaired which two minor committees?","options":["Finance and Staff Committee; Press Gallery Committee","House Committee; Committee on Chief Commissioners' Provinces","Order of Business Committee; Credentials Committee","Ad-hoc Committee on Citizenship; House Committee"],"correct":1,"explain":"B. Pattabhi Sitaramayya chaired both the House Committee and the Committee on Chief Commissioners' Provinces."},{"q":"S. Varadachari, though not a member of the Constituent Assembly, chaired which two committees?","options":["Linguistic Provinces Commission; Ad-hoc Committee on the Supreme Court","Ad-hoc Committee on the Supreme Court; Ad-hoc Committee on Citizenship","Expert Committee on Financial Provisions; Ad-hoc Committee on Citizenship","Ad-hoc Committee on the National Flag; Press Gallery Committee"],"correct":1,"explain":"S. Varadachari chaired both the Ad-hoc Committee on the Supreme Court and the Ad-hoc Committee on Citizenship — neither role required Assembly membership."},{"q":"Who chaired the Committee on the Functions of the Constituent Assembly?","options":["Dr. Rajendra Prasad","G.V. Mavalankar","Dr. K.M. Munshi","Alladi Krishnaswami Ayyar"],"correct":1,"explain":"G.V. Mavalankar chaired this committee. He also served as Speaker of the Dominion Legislature."},{"q":"The Order of Business Committee was chaired by:","options":["G.V. Mavalankar","B. Pattabhi Sitaramayya","Dr. K.M. Munshi","Usha Nath Sen"],"correct":2,"explain":"Dr. K.M. Munshi chaired the Order of Business Committee."},{"q":"The Expert Committee on the Financial Provisions of the Union Constitution was chaired by:","options":["Dr. Rajendra Prasad","S.K. Dar","Nalini Ranjan Sarkar","Alladi Krishnaswami Ayyar"],"correct":2,"explain":"Nalini Ranjan Sarkar chaired this Expert Committee — he was not a member of the Constituent Assembly."},{"q":["Consider the following pairs:","Committee — Chairman","I. Credentials Committee — Alladi Krishnaswami Ayyar","II. Press Gallery Committee — G.V. Mavalankar","III. Finance and Staff Committee — Dr. Rajendra Prasad","How many of the above pairs are correctly matched?"],"options":["Only one pair","Only two pairs","All three pairs","None of the pairs"],"correct":1,"explain":"Pairs I and III are correctly matched. Pair II is incorrect — the Press Gallery Committee was chaired by Usha Nath Sen, not G.V. Mavalankar."},{"q":"The Special Committee to Examine the Draft Constitution was chaired by:","options":["Dr. B.R. Ambedkar","Dr. Rajendra Prasad","Jawaharlal Nehru","Sardar Patel"],"correct":2,"explain":"Jawaharlal Nehru chaired the Special Committee to Examine the Draft Constitution — one of his minor committee roles in addition to his three major committee chairmanships."},{"q":["Assertion (A): The use of non-Assembly members as chairmen of certain minor committees was an unusual feature of the Constituent Assembly's work.","Reason (R): The Assembly prioritised domain expertise over formal membership for technical committees dealing with the Supreme Court, financial provisions, and linguistic provinces.","Which one of the following is correct?"],"options":["Both A and R are true, and R is the correct explanation of A","Both A and R are true, but R is NOT the correct explanation of A","A is true, but R is false","A is false, but R is true"],"correct":0,"explain":"Both are true and R correctly explains A — three non-member chairmen (Varadachari, Sarkar, Dar) all headed highly technical committees where specialist knowledge mattered more than elected membership."},{"q":"Which of the following statements about Dr. Rajendra Prasad's committee roles is MOST accurate?","options":["He chaired only the Drafting Committee among minor committees","He chaired four committees in total: two major (Rules of Procedure + Steering) and two minor (Finance & Staff + National Flag)","He chaired only the Steering Committee and the National Flag Committee","He had no minor committee chairmanships — only major ones"],"correct":1,"explain":"Prasad was the most multi-tasked leader in the Assembly's committee structure: two major committees (Rules of Procedure, Steering) and two minor committees (Finance & Staff, National Flag Ad-hoc) — plus serving as overall President of the Assembly."},{"q":"Which of the following correctly pairs Alladi Krishnaswami Ayyar with his roles in the Constituent Assembly?","options":["Chairman — Credentials Committee (minor); Member — Drafting Committee (major)","Chairman — Drafting Committee (major); Member — Credentials Committee (minor)","Chairman — Minorities Sub-Committee; Member — House Committee","Chairman — Advisory Committee; Member — Finance Committee"],"correct":0,"explain":"Alladi Krishnaswami Ayyar chaired the Credentials Committee (minor committee) and was also a member of the Drafting Committee (major committee) — two distinct roles."},{"q":["Consider the following passage:","'The Constituent Assembly appointed a number of committees to deal with different tasks of constitution-making. Out of these, eight were major committees and the others were minor committees.'","Which of the following can be correctly inferred from this passage alone?"],"options":["There were exactly 21 committees in total","All committees had the same number of members","There were 8 major committees and an unspecified number of minor committees","Minor committees were appointed after all major committees had completed their work"],"correct":2,"explain":"The passage only specifies 8 major committees, with 'others' being minor — the exact number of minor committees (13) is not inferable from this passage alone."},{"q":"G.V. Mavalankar held which of the following roles in the constitutional framework?","options":["Chairman of the Drafting Committee and Speaker of the Dominion Legislature","Chairman — Committee on the Functions of the Constituent Assembly AND Speaker of the Dominion Legislature","President of the Constituent Assembly and Chairman of the Steering Committee","Chairman — Rules of Procedure Committee and Speaker of the Dominion Legislature"],"correct":1,"explain":"G.V. Mavalankar chaired the Committee on Functions of the Constituent Assembly (minor committee) and also served as Speaker of the Dominion Legislature when the Assembly sat in its legislative capacity."},{"q":"Which minor committee was chaired by Dr. K.M. Munshi?","options":["House Committee","Credentials Committee","Order of Business Committee","Finance and Staff Committee"],"correct":2,"explain":"Dr. K.M. Munshi chaired the Order of Business Committee. He was also a member of the Drafting Committee."},{"q":["Consider the following statements:","I. S. Varadachari was NOT a member of the Constituent Assembly.","II. S.K. Dar was NOT a member of the Constituent Assembly.","III. Nalini Ranjan Sarkar WAS a member of the Constituent Assembly.","Which of the statements given above is/are correct?"],"options":["I and II only","II and III only","I, II and III","I only"],"correct":0,"explain":"Statements I and II are correct. Statement III is incorrect — Nalini Ranjan Sarkar was also NOT a member of the Constituent Assembly, like the other two."},{"q":"The Press Gallery Committee of the Constituent Assembly was chaired by:","options":["G.V. Mavalankar","Dr. Rajendra Prasad","Usha Nath Sen","B. Pattabhi Sitaramayya"],"correct":2,"explain":"Usha Nath Sen chaired the Press Gallery Committee."},{"q":"Which of the following is the most significant reason why the minor committees matter for UPSC preparation?","options":["They drafted the Preamble of the Constitution","Their chairmen (especially non-Assembly members and those chairing multiple committees) are tested in match-the-following and assertion-reason questions","They were more influential than the major committees in shaping the Constitution","They are the only committees mentioned in the Constitution itself"],"correct":1,"explain":"Minor committee chairmen — especially the three non-Assembly members (Varadachari, Sarkar, Dar) and leaders like Sitaramayya (two committees) — regularly appear in UPSC match-the-following and assertion-reason questions."}]}}});
+__registerContent("gs2/polity/laxmikanth/part1/ch2/minor-committees", {
+  notes: {
+    "ch2-committees-minor": {
+      era: "Constituent Assembly — 1946–1949",
+      significance: [
+        "Minor committees are less frequently tested but their chairmen appear in match-the-following questions",
+        "Three committee chairs were NOT members of the Constituent Assembly — a notable exception frequently tested",
+        "The Ad-hoc Committee on the National Flag (chaired by Rajendra Prasad) is especially relevant given the flag's adoption on 22 July 1947",
+      ],
+      features: [
+        {
+          key: "1. Finance and Staff Committee",
+          main: "Chairman: Dr. Rajendra Prasad",
+          note: "",
+        },
+        {
+          key: "2. Credentials Committee",
+          main: "Chairman: Alladi Krishnaswami Ayyar",
+          note: "",
+        },
+        {
+          key: "3. House Committee",
+          main: "Chairman: B. Pattabhi Sitaramayya",
+          note: "",
+        },
+        {
+          key: "4. Order of Business Committee",
+          main: "Chairman: Dr. K.M. Munshi",
+          note: "",
+        },
+        {
+          key: "5. Ad-hoc Committee on the National Flag",
+          main: "Chairman: Dr. Rajendra Prasad",
+          note: "Led to the adoption of the National Flag on 22 July 1947",
+        },
+        {
+          key: "6. Committee on the Functions of the Constituent Assembly",
+          main: "Chairman: G.V. Mavalankar",
+          note: "G.V. Mavalankar also served as Speaker of the Dominion Legislature",
+        },
+        {
+          key: "7. Ad-hoc Committee on the Supreme Court",
+          main: "Chairman: S. Varadachari — NOT a member of the Constituent Assembly",
+          note: "",
+        },
+        {
+          key: "8. Committee on Chief Commissioners' Provinces",
+          main: "Chairman: B. Pattabhi Sitaramayya",
+          note: "Sitaramayya chaired two minor committees",
+        },
+        {
+          key: "9. Expert Committee on Financial Provisions of the Union Constitution",
+          main: "Chairman: Nalini Ranjan Sarkar — NOT a member of the Constituent Assembly",
+          note: "",
+        },
+        {
+          key: "10. Linguistic Provinces Commission",
+          main: "Chairman: S.K. Dar — NOT a member of the Constituent Assembly",
+          note: "Also known as the 'Dar Commission' — examined the feasibility of linguistic reorganisation of provinces",
+        },
+        {
+          key: "11. Special Committee to Examine the Draft Constitution",
+          main: "Chairman: Jawaharlal Nehru",
+          note: "",
+        },
+        {
+          key: "12. Press Gallery Committee",
+          main: "Chairman: Usha Nath Sen",
+          note: "",
+        },
+        {
+          key: "13. Ad-hoc Committee on Citizenship",
+          main: "Chairman: S. Varadachari — NOT a member of the Constituent Assembly",
+          note: "S. Varadachari chaired two committees without being an Assembly member",
+        },
+      ],
+      traps: [
+        {
+          label: "Chairmen NOT Members of the Constituent Assembly",
+          lines: [
+            "S. Varadachari — Ad-hoc Committee on Supreme Court + Ad-hoc Committee on Citizenship",
+            "Nalini Ranjan Sarkar — Expert Committee on Financial Provisions",
+            "S.K. Dar — Linguistic Provinces Commission",
+            "Only these three were outsiders; all other chairmen were Assembly members",
+          ],
+        },
+        {
+          label: "B. Pattabhi Sitaramayya Chaired Two Minor Committees",
+          lines: [
+            "House Committee — Sitaramayya",
+            "Committee on Chief Commissioners' Provinces — Sitaramayya",
+          ],
+        },
+        {
+          label: "Rajendra Prasad Chaired Two Minor Committees Also",
+          lines: [
+            "Finance and Staff Committee — Rajendra Prasad",
+            "Ad-hoc Committee on the National Flag — Rajendra Prasad",
+            "(Plus 2 major committees: Rules of Procedure + Steering)",
+          ],
+        },
+        {
+          label: "Alladi Krishnaswami Ayyar vs Alladi in Drafting Committee",
+          lines: [
+            "Alladi Krishnaswami Ayyar — chaired the Credentials Committee (minor)",
+            "Also a member of the Drafting Committee (major) — two different roles",
+          ],
+        },
+      ],
+      mainsAngle:
+        "The use of non-Assembly members as chairmen of three minor committees (Varadachari, Sarkar, Dar) shows the Assembly's pragmatic approach — expertise mattered more than formal membership for technical committees on the Supreme Court, financial provisions, and linguistic reorganisation.",
+      mainsTheme:
+        "Technical expertise outside elected membership — pragmatism in constitutional design",
+      recall: [
+        "13 minor committees total",
+        "3 chairmen NOT Assembly members: S. Varadachari, Nalini Ranjan Sarkar, S.K. Dar",
+        "Sitaramayya: House Committee + Chief Commissioners' Provinces Committee",
+        "Rajendra Prasad: Finance & Staff + National Flag (minor) + 2 major",
+        "G.V. Mavalankar: Functions of Constituent Assembly Committee",
+        "S.K. Dar: Linguistic Provinces Commission",
+      ],
+    },
+  },
+  quizzes: {
+    "ch2-committees-minor": {
+      title: "Minor Committees of the Constituent Assembly",
+      questions: [
+        {
+          q: "How many minor committees did the Constituent Assembly appoint?",
+          options: ["10", "11", "13", "15"],
+          correct: 2,
+          explain:
+            "There were 13 minor committees alongside the 8 major committees.",
+        },
+        {
+          q: "Who chaired the Ad-hoc Committee on the National Flag?",
+          options: [
+            "Jawaharlal Nehru",
+            "Dr. Rajendra Prasad",
+            "G.V. Mavalankar",
+            "Dr. B.R. Ambedkar",
+          ],
+          correct: 1,
+          explain:
+            "Dr. Rajendra Prasad chaired the Ad-hoc Committee on the National Flag, which led to the adoption of the National Flag on 22 July 1947.",
+        },
+        {
+          q: "Which of the following minor committee chairmen were NOT members of the Constituent Assembly?",
+          options: [
+            "B. Pattabhi Sitaramayya and G.V. Mavalankar",
+            "S. Varadachari, Nalini Ranjan Sarkar, and S.K. Dar",
+            "Alladi Krishnaswami Ayyar and Dr. K.M. Munshi",
+            "Usha Nath Sen and Dr. Rajendra Prasad",
+          ],
+          correct: 1,
+          explain:
+            "S. Varadachari (Ad-hoc Committees on Supreme Court and Citizenship), Nalini Ranjan Sarkar (Expert Committee on Financial Provisions), and S.K. Dar (Linguistic Provinces Commission) were NOT members of the Constituent Assembly.",
+        },
+        {
+          q: "The Linguistic Provinces Commission was chaired by:",
+          options: [
+            "G.V. Mavalankar",
+            "Nalini Ranjan Sarkar",
+            "S.K. Dar",
+            "B. Pattabhi Sitaramayya",
+          ],
+          correct: 2,
+          explain:
+            "S.K. Dar chaired the Linguistic Provinces Commission — he was not a member of the Constituent Assembly.",
+        },
+        {
+          q: "B. Pattabhi Sitaramayya chaired which two minor committees?",
+          options: [
+            "Finance and Staff Committee; Press Gallery Committee",
+            "House Committee; Committee on Chief Commissioners' Provinces",
+            "Order of Business Committee; Credentials Committee",
+            "Ad-hoc Committee on Citizenship; House Committee",
+          ],
+          correct: 1,
+          explain:
+            "B. Pattabhi Sitaramayya chaired both the House Committee and the Committee on Chief Commissioners' Provinces.",
+        },
+        {
+          q: "S. Varadachari, though not a member of the Constituent Assembly, chaired which two committees?",
+          options: [
+            "Linguistic Provinces Commission; Ad-hoc Committee on the Supreme Court",
+            "Ad-hoc Committee on the Supreme Court; Ad-hoc Committee on Citizenship",
+            "Expert Committee on Financial Provisions; Ad-hoc Committee on Citizenship",
+            "Ad-hoc Committee on the National Flag; Press Gallery Committee",
+          ],
+          correct: 1,
+          explain:
+            "S. Varadachari chaired both the Ad-hoc Committee on the Supreme Court and the Ad-hoc Committee on Citizenship — neither role required Assembly membership.",
+        },
+        {
+          q: "Who chaired the Committee on the Functions of the Constituent Assembly?",
+          options: [
+            "Dr. Rajendra Prasad",
+            "G.V. Mavalankar",
+            "Dr. K.M. Munshi",
+            "Alladi Krishnaswami Ayyar",
+          ],
+          correct: 1,
+          explain:
+            "G.V. Mavalankar chaired this committee. He also served as Speaker of the Dominion Legislature.",
+        },
+        {
+          q: "The Order of Business Committee was chaired by:",
+          options: [
+            "G.V. Mavalankar",
+            "B. Pattabhi Sitaramayya",
+            "Dr. K.M. Munshi",
+            "Usha Nath Sen",
+          ],
+          correct: 2,
+          explain: "Dr. K.M. Munshi chaired the Order of Business Committee.",
+        },
+        {
+          q: "The Expert Committee on the Financial Provisions of the Union Constitution was chaired by:",
+          options: [
+            "Dr. Rajendra Prasad",
+            "S.K. Dar",
+            "Nalini Ranjan Sarkar",
+            "Alladi Krishnaswami Ayyar",
+          ],
+          correct: 2,
+          explain:
+            "Nalini Ranjan Sarkar chaired this Expert Committee — he was not a member of the Constituent Assembly.",
+        },
+        {
+          q: [
+            "Consider the following pairs:",
+            "Committee — Chairman",
+            "I. Credentials Committee — Alladi Krishnaswami Ayyar",
+            "II. Press Gallery Committee — G.V. Mavalankar",
+            "III. Finance and Staff Committee — Dr. Rajendra Prasad",
+            "How many of the above pairs are correctly matched?",
+          ],
+          options: [
+            "Only one pair",
+            "Only two pairs",
+            "All three pairs",
+            "None of the pairs",
+          ],
+          correct: 1,
+          explain:
+            "Pairs I and III are correctly matched. Pair II is incorrect — the Press Gallery Committee was chaired by Usha Nath Sen, not G.V. Mavalankar.",
+        },
+        {
+          q: "The Special Committee to Examine the Draft Constitution was chaired by:",
+          options: [
+            "Dr. B.R. Ambedkar",
+            "Dr. Rajendra Prasad",
+            "Jawaharlal Nehru",
+            "Sardar Patel",
+          ],
+          correct: 2,
+          explain:
+            "Jawaharlal Nehru chaired the Special Committee to Examine the Draft Constitution — one of his minor committee roles in addition to his three major committee chairmanships.",
+        },
+        {
+          q: [
+            "Assertion (A): The use of non-Assembly members as chairmen of certain minor committees was an unusual feature of the Constituent Assembly's work.",
+            "Reason (R): The Assembly prioritised domain expertise over formal membership for technical committees dealing with the Supreme Court, financial provisions, and linguistic provinces.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both A and R are true, and R is the correct explanation of A",
+            "Both A and R are true, but R is NOT the correct explanation of A",
+            "A is true, but R is false",
+            "A is false, but R is true",
+          ],
+          correct: 0,
+          explain:
+            "Both are true and R correctly explains A — three non-member chairmen (Varadachari, Sarkar, Dar) all headed highly technical committees where specialist knowledge mattered more than elected membership.",
+        },
+        {
+          q: "Which of the following statements about Dr. Rajendra Prasad's committee roles is MOST accurate?",
+          options: [
+            "He chaired only the Drafting Committee among minor committees",
+            "He chaired four committees in total: two major (Rules of Procedure + Steering) and two minor (Finance & Staff + National Flag)",
+            "He chaired only the Steering Committee and the National Flag Committee",
+            "He had no minor committee chairmanships — only major ones",
+          ],
+          correct: 1,
+          explain:
+            "Prasad was the most multi-tasked leader in the Assembly's committee structure: two major committees (Rules of Procedure, Steering) and two minor committees (Finance & Staff, National Flag Ad-hoc) — plus serving as overall President of the Assembly.",
+        },
+        {
+          q: "Which of the following correctly pairs Alladi Krishnaswami Ayyar with his roles in the Constituent Assembly?",
+          options: [
+            "Chairman — Credentials Committee (minor); Member — Drafting Committee (major)",
+            "Chairman — Drafting Committee (major); Member — Credentials Committee (minor)",
+            "Chairman — Minorities Sub-Committee; Member — House Committee",
+            "Chairman — Advisory Committee; Member — Finance Committee",
+          ],
+          correct: 0,
+          explain:
+            "Alladi Krishnaswami Ayyar chaired the Credentials Committee (minor committee) and was also a member of the Drafting Committee (major committee) — two distinct roles.",
+        },
+        {
+          q: [
+            "Consider the following passage:",
+            "'The Constituent Assembly appointed a number of committees to deal with different tasks of constitution-making. Out of these, eight were major committees and the others were minor committees.'",
+            "Which of the following can be correctly inferred from this passage alone?",
+          ],
+          options: [
+            "There were exactly 21 committees in total",
+            "All committees had the same number of members",
+            "There were 8 major committees and an unspecified number of minor committees",
+            "Minor committees were appointed after all major committees had completed their work",
+          ],
+          correct: 2,
+          explain:
+            "The passage only specifies 8 major committees, with 'others' being minor — the exact number of minor committees (13) is not inferable from this passage alone.",
+        },
+        {
+          q: "G.V. Mavalankar held which of the following roles in the constitutional framework?",
+          options: [
+            "Chairman of the Drafting Committee and Speaker of the Dominion Legislature",
+            "Chairman — Committee on the Functions of the Constituent Assembly AND Speaker of the Dominion Legislature",
+            "President of the Constituent Assembly and Chairman of the Steering Committee",
+            "Chairman — Rules of Procedure Committee and Speaker of the Dominion Legislature",
+          ],
+          correct: 1,
+          explain:
+            "G.V. Mavalankar chaired the Committee on Functions of the Constituent Assembly (minor committee) and also served as Speaker of the Dominion Legislature when the Assembly sat in its legislative capacity.",
+        },
+        {
+          q: "Which minor committee was chaired by Dr. K.M. Munshi?",
+          options: [
+            "House Committee",
+            "Credentials Committee",
+            "Order of Business Committee",
+            "Finance and Staff Committee",
+          ],
+          correct: 2,
+          explain:
+            "Dr. K.M. Munshi chaired the Order of Business Committee. He was also a member of the Drafting Committee.",
+        },
+        {
+          q: [
+            "Consider the following statements:",
+            "I. S. Varadachari was NOT a member of the Constituent Assembly.",
+            "II. S.K. Dar was NOT a member of the Constituent Assembly.",
+            "III. Nalini Ranjan Sarkar WAS a member of the Constituent Assembly.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: [
+            "I and II only",
+            "II and III only",
+            "I, II and III",
+            "I only",
+          ],
+          correct: 0,
+          explain:
+            "Statements I and II are correct. Statement III is incorrect — Nalini Ranjan Sarkar was also NOT a member of the Constituent Assembly, like the other two.",
+        },
+        {
+          q: "The Press Gallery Committee of the Constituent Assembly was chaired by:",
+          options: [
+            "G.V. Mavalankar",
+            "Dr. Rajendra Prasad",
+            "Usha Nath Sen",
+            "B. Pattabhi Sitaramayya",
+          ],
+          correct: 2,
+          explain: "Usha Nath Sen chaired the Press Gallery Committee.",
+        },
+        {
+          q: "Which of the following is the most significant reason why the minor committees matter for UPSC preparation?",
+          options: [
+            "They drafted the Preamble of the Constitution",
+            "Their chairmen (especially non-Assembly members and those chairing multiple committees) are tested in match-the-following and assertion-reason questions",
+            "They were more influential than the major committees in shaping the Constitution",
+            "They are the only committees mentioned in the Constitution itself",
+          ],
+          correct: 1,
+          explain:
+            "Minor committee chairmen — especially the three non-Assembly members (Varadachari, Sarkar, Dar) and leaders like Sitaramayya (two committees) — regularly appear in UPSC match-the-following and assertion-reason questions.",
+        },
+        {
+          q: [
+            "Consider the following statements:",
+            "I. There were thirteen minor committees.",
+            "II. The Ad-hoc Committee on the National Flag was chaired by Dr. Rajendra Prasad.",
+            "III. The Credentials Committee was chaired by G.V. Mavalankar.",
+            "How many of the statements given above are correct?",
+          ],
+          options: ["Only one", "Only two", "All three", "None"],
+          correct: 1,
+          explain:
+            "Statements I and II are correct. Statement III is wrong — the Credentials Committee was chaired by Alladi Krishnaswami Ayyar.",
+        },
+        {
+          q: [
+            "Consider the following pairs (Committee — Chairman):",
+            "I. House Committee — B. Pattabhi Sitaramayya",
+            "II. Order of Business Committee — Dr. K.M. Munshi",
+            "III. Finance and Staff Committee — G.V. Mavalankar",
+            "How many of the pairs given above are correctly matched?",
+          ],
+          options: ["Only one", "Only two", "All three", "None"],
+          correct: 1,
+          explain:
+            "Pairs I and II are correct. Pair III is wrong — the Finance and Staff Committee was chaired by Dr. Rajendra Prasad.",
+        },
+        {
+          q: "The Linguistic Provinces Commission chaired by S.K. Dar is also popularly known as the:",
+          options: [
+            "Dar Commission",
+            "Sarkar Commission",
+            "States Reorganisation Commission",
+            "Fazl Ali Commission",
+          ],
+          correct: 0,
+          explain:
+            "The Linguistic Provinces Commission under S.K. Dar is popularly called the 'Dar Commission'.",
+        },
+        {
+          q: [
+            "Assertion (A): Some minor committees were chaired by persons who were not members of the Constituent Assembly.",
+            "Reason (R): For certain technical committees, the Assembly valued domain expertise over formal membership.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both A and R are true, and R is the correct explanation of A",
+            "Both A and R are true, but R is NOT the correct explanation of A",
+            "A is true, but R is false",
+            "A is false, but R is true",
+          ],
+          correct: 0,
+          explain:
+            "Both are true and R explains A — technical committees (Supreme Court, financial provisions, linguistic provinces) were headed by non-members chosen for their expertise.",
+        },
+        {
+          q: "The Credentials Committee of the Constituent Assembly was chaired by:",
+          options: [
+            "S. Varadachari",
+            "Alladi Krishnaswami Ayyar",
+            "Usha Nath Sen",
+            "B. Pattabhi Sitaramayya",
+          ],
+          correct: 1,
+          explain:
+            "Alladi Krishnaswami Ayyar chaired the Credentials Committee (and was also a member of the Drafting Committee).",
+        },
+        {
+          q: [
+            "Statement I: Nalini Ranjan Sarkar chaired the Expert Committee on the Financial Provisions of the Union Constitution.",
+            "Statement II: Nalini Ranjan Sarkar was a member of the Constituent Assembly.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both statements are true, and II is the correct explanation of I",
+            "Both statements are true, but II is NOT the correct explanation of I",
+            "Statement I is true, but Statement II is false",
+            "Statement I is false, but Statement II is true",
+          ],
+          correct: 2,
+          explain:
+            "Statement I is true, but Statement II is false — Nalini Ranjan Sarkar was NOT a member of the Constituent Assembly.",
+        },
+        {
+          q: [
+            "Consider the following statements about S. Varadachari:",
+            "I. He chaired the Ad-hoc Committee on the Supreme Court.",
+            "II. He also chaired the Ad-hoc Committee on Citizenship.",
+            "III. He was a member of the Constituent Assembly.",
+            "How many of the statements given above are correct?",
+          ],
+          options: ["Only one", "Only two", "All three", "None"],
+          correct: 1,
+          explain:
+            "Statements I and II are correct. Statement III is wrong — S. Varadachari was NOT a member of the Constituent Assembly.",
+        },
+        {
+          q: "The Special Committee to Examine the Draft Constitution was chaired by:",
+          options: [
+            "Dr. B.R. Ambedkar",
+            "Jawaharlal Nehru",
+            "Dr. Rajendra Prasad",
+            "G.V. Mavalankar",
+          ],
+          correct: 1,
+          explain:
+            "Jawaharlal Nehru chaired the Special Committee to Examine the Draft Constitution.",
+        },
+        {
+          q: "Which of the following minor committees was chaired by Dr. Rajendra Prasad?",
+          options: [
+            "Order of Business Committee",
+            "Finance and Staff Committee",
+            "Credentials Committee",
+            "Press Gallery Committee",
+          ],
+          correct: 1,
+          explain:
+            "Dr. Rajendra Prasad chaired the Finance and Staff Committee (and the Ad-hoc Committee on the National Flag).",
+        },
+        {
+          q: "How many of the minor committee chairmen were NOT members of the Constituent Assembly?",
+          options: ["Two", "Three", "Four", "Five"],
+          correct: 1,
+          explain:
+            "Three chairmen were not Assembly members: S. Varadachari, Nalini Ranjan Sarkar, and S.K. Dar.",
+        },
+      ],
+    },
+  },
+});

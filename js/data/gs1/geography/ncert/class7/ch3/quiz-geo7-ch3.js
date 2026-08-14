@@ -231,5 +231,131 @@ const QUIZ_geo7_ch3 = {
       explain:
         "Large deposits of loess are found in China — when fine, light sand grains are carried over very long distances by wind and deposited in large areas.",
     },
+    {
+      q: "Forces that build mountains through the movement of the Earth's interior are classified as:",
+      options: [
+        "Exogenic depositional forces",
+        "Endogenic diastrophic forces",
+        "Exogenic erosional forces",
+        "Sudden surface forces",
+      ],
+      correct: 1,
+      explain:
+        "Mountain-building forces are endogenic diastrophic forces — they act slowly from the interior of the Earth, unlike the sudden endogenic forces (earthquakes, volcanoes).",
+    },
+    {
+      q: "Lithospheric plates move at a rate of approximately:",
+      options: [
+        "A few centimetres each day",
+        "A few millimetres each year",
+        "A few metres each year",
+        "A few kilometres each century",
+      ],
+      correct: 1,
+      explain:
+        "The lithospheric plates move very slowly — just a few millimetres each year — driven by the circular movement of molten magma inside the Earth.",
+    },
+    {
+      q: "On the Richter Scale, an earthquake measuring 2.0 or less is:",
+      options: [
+        "Felt only a little",
+        "Capable of causing damage",
+        "Considered very strong",
+        "Classified as a major earthquake",
+      ],
+      correct: 0,
+      explain:
+        "An earthquake of 2.0 or less is felt only a little. Over 5.0 can cause damage, 6.0 or higher is very strong, and 7.0 is a major earthquake.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Bhuj earthquake:",
+        "I. It occurred on 26 January 2001.",
+        "II. It struck Bhuj Town in Gujarat.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both statements are correct — the Bhuj earthquake (magnitude 6.9) struck Bhuj Town, Gujarat on 26 January 2001.",
+    },
+    {
+      q: "Which of the following is mentioned as a traditional method of predicting an approaching earthquake?",
+      options: [
+        "Measuring changes in air pressure",
+        "Observing animal behaviour, such as fish getting agitated or snakes coming to the surface",
+        "Tracking the movement of clouds",
+        "Recording changes in ocean salinity",
+      ],
+      correct: 1,
+      explain:
+        "The chapter notes that studying animal behaviour — fish in ponds getting agitated and snakes coming to the surface — is a traditional way of anticipating an earthquake.",
+    },
+    {
+      q: "A waterfall is formed when:",
+      options: [
+        "A river twists and turns forming large bends in a plain",
+        "A river tumbles down at a steep angle over very hard rocks or a steep valley side",
+        "A meander loop cuts off from the main river",
+        "A river breaks into distributaries near the sea",
+      ],
+      correct: 1,
+      explain:
+        "A waterfall is formed when a river, in its youthful stage, tumbles down at a steep angle over very hard rocks or down a steep valley side.",
+    },
+    {
+      q: "Sand dunes — low hill-like structures found in deserts — are formed by:",
+      options: [
+        "Erosion of rocks by glaciers",
+        "Deposition of sand by wind",
+        "Deposition of sediment by rivers",
+        "Erosion of coasts by sea waves",
+      ],
+      correct: 1,
+      explain:
+        "Sand dunes are depositional landforms — they form when wind deposits sand as low hill-like structures in deserts.",
+    },
+    {
+      q: "Glaciers are often described as 'rivers of ice' because they:",
+      options: [
+        "Are frozen rivers that flow only in winter",
+        "Erode the landscape by bulldozing soil and stones, exposing the solid rock below",
+        "Deposit loess over large areas like China",
+        "Form only in coastal regions",
+      ],
+      correct: 1,
+      explain:
+        "Glaciers are 'rivers of ice' that erode the landscape by bulldozing soil and stones to expose the solid rock beneath, and carve out deep hollows that later become mountain lakes.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Waterfall — Location):",
+        "I. Angel Falls — Venezuela",
+        "II. Niagara Falls — Canada–USA border",
+        "III. Victoria Falls — Zambia–Zimbabwe border",
+        "How many of the above pairs are correctly matched?",
+      ],
+      options: [
+        "Only one pair",
+        "Only two pairs",
+        "All three pairs",
+        "None of the pairs",
+      ],
+      correct: 2,
+      explain:
+        "All three pairs are correctly matched — Angel Falls (Venezuela) is the highest waterfall, Niagara Falls lies on the Canada-USA border, and Victoria Falls on the Zambia-Zimbabwe border.",
+    },
+    {
+      q: "According to the chapter's earthquake preparedness advice, a safe spot during an earthquake indoors is:",
+      options: [
+        "Near a window or mirror",
+        "Beside a fireplace or chimney",
+        "Under a strong table or desk, or against an inside corner or wall",
+        "In an open lift",
+      ],
+      correct: 2,
+      explain:
+        "A safe spot is under a kitchen counter, table or desk, or against an inside corner or wall. One should stay away from fireplaces, chimneys, windows, mirrors and picture frames.",
+    },
   ],
 };

@@ -251,5 +251,131 @@ const QUIZ_minor_committees = {
       explain:
         "Minor committee chairmen — especially the three non-Assembly members (Varadachari, Sarkar, Dar) and leaders like Sitaramayya (two committees) — regularly appear in UPSC match-the-following and assertion-reason questions.",
     },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. There were thirteen minor committees.",
+        "II. The Ad-hoc Committee on the National Flag was chaired by Dr. Rajendra Prasad.",
+        "III. The Credentials Committee was chaired by G.V. Mavalankar.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the Credentials Committee was chaired by Alladi Krishnaswami Ayyar.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Committee — Chairman):",
+        "I. House Committee — B. Pattabhi Sitaramayya",
+        "II. Order of Business Committee — Dr. K.M. Munshi",
+        "III. Finance and Staff Committee — G.V. Mavalankar",
+        "How many of the pairs given above are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Pairs I and II are correct. Pair III is wrong — the Finance and Staff Committee was chaired by Dr. Rajendra Prasad.",
+    },
+    {
+      q: "The Linguistic Provinces Commission chaired by S.K. Dar is also popularly known as the:",
+      options: [
+        "Dar Commission",
+        "Sarkar Commission",
+        "States Reorganisation Commission",
+        "Fazl Ali Commission",
+      ],
+      correct: 0,
+      explain:
+        "The Linguistic Provinces Commission under S.K. Dar is popularly called the 'Dar Commission'.",
+    },
+    {
+      q: [
+        "Assertion (A): Some minor committees were chaired by persons who were not members of the Constituent Assembly.",
+        "Reason (R): For certain technical committees, the Assembly valued domain expertise over formal membership.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — technical committees (Supreme Court, financial provisions, linguistic provinces) were headed by non-members chosen for their expertise.",
+    },
+    {
+      q: "The Credentials Committee of the Constituent Assembly was chaired by:",
+      options: [
+        "S. Varadachari",
+        "Alladi Krishnaswami Ayyar",
+        "Usha Nath Sen",
+        "B. Pattabhi Sitaramayya",
+      ],
+      correct: 1,
+      explain:
+        "Alladi Krishnaswami Ayyar chaired the Credentials Committee (and was also a member of the Drafting Committee).",
+    },
+    {
+      q: [
+        "Statement I: Nalini Ranjan Sarkar chaired the Expert Committee on the Financial Provisions of the Union Constitution.",
+        "Statement II: Nalini Ranjan Sarkar was a member of the Constituent Assembly.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are true, and II is the correct explanation of I",
+        "Both statements are true, but II is NOT the correct explanation of I",
+        "Statement I is true, but Statement II is false",
+        "Statement I is false, but Statement II is true",
+      ],
+      correct: 2,
+      explain:
+        "Statement I is true, but Statement II is false — Nalini Ranjan Sarkar was NOT a member of the Constituent Assembly.",
+    },
+    {
+      q: [
+        "Consider the following statements about S. Varadachari:",
+        "I. He chaired the Ad-hoc Committee on the Supreme Court.",
+        "II. He also chaired the Ad-hoc Committee on Citizenship.",
+        "III. He was a member of the Constituent Assembly.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — S. Varadachari was NOT a member of the Constituent Assembly.",
+    },
+    {
+      q: "The Special Committee to Examine the Draft Constitution was chaired by:",
+      options: [
+        "Dr. B.R. Ambedkar",
+        "Jawaharlal Nehru",
+        "Dr. Rajendra Prasad",
+        "G.V. Mavalankar",
+      ],
+      correct: 1,
+      explain:
+        "Jawaharlal Nehru chaired the Special Committee to Examine the Draft Constitution.",
+    },
+    {
+      q: "Which of the following minor committees was chaired by Dr. Rajendra Prasad?",
+      options: [
+        "Order of Business Committee",
+        "Finance and Staff Committee",
+        "Credentials Committee",
+        "Press Gallery Committee",
+      ],
+      correct: 1,
+      explain:
+        "Dr. Rajendra Prasad chaired the Finance and Staff Committee (and the Ad-hoc Committee on the National Flag).",
+    },
+    {
+      q: "How many of the minor committee chairmen were NOT members of the Constituent Assembly?",
+      options: ["Two", "Three", "Four", "Five"],
+      correct: 1,
+      explain:
+        "Three chairmen were not Assembly members: S. Varadachari, Nalini Ranjan Sarkar, and S.K. Dar.",
+    },
   ],
 };

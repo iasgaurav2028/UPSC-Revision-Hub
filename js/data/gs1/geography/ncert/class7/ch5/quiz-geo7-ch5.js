@@ -248,5 +248,114 @@ const QUIZ_geo7_ch5 = {
       explain:
         "Statements I and II are correct. Statement III is incorrect — the chapter specifically states that early warning systems existed across the Pacific Ocean but NOT in the Indian Ocean at the time — which is why the damage was so severe.",
     },
+    {
+      q: "Approximately what proportion of the Earth's surface is covered by water, and how much of the total water is held by the oceans?",
+      options: [
+        "One-half of the surface; oceans hold 50%",
+        "Three-fourths of the surface; oceans hold 97.3% (saline)",
+        "One-fourth of the surface; oceans hold 75%",
+        "Two-thirds of the surface; oceans hold 2.7%",
+      ],
+      correct: 1,
+      explain:
+        "About three-fourths (75%) of the Earth's surface is covered by water, and the oceans hold 97.3% of all water — which is saline and unfit for human use.",
+    },
+    {
+      q: "Salinity is defined as:",
+      options: [
+        "The temperature of ocean water at the surface",
+        "The amount of salt present in grams in 1,000 grams of water",
+        "The depth at which ocean water becomes dense",
+        "The rate at which ocean water evaporates",
+      ],
+      correct: 1,
+      explain:
+        "Salinity is the amount of salt (in grams) present in 1,000 grams of water. Most of this salt is sodium chloride — common table salt.",
+    },
+    {
+      q: "Which of the following holds the largest share of the Earth's fresh water?",
+      options: ["Rivers", "Fresh water lakes", "Ice caps", "The atmosphere"],
+      correct: 2,
+      explain:
+        "Ice caps hold about 2.0% of all water — the largest share of fresh water. Groundwater is 0.68% and rivers only 0.0001%.",
+    },
+    {
+      q: "The share of total water held by rivers is only about:",
+      options: ["2.0%", "0.68%", "0.009%", "0.0001%"],
+      correct: 3,
+      explain:
+        "Rivers hold only about 0.0001% of the total water — the tiniest fraction. Most fresh water is locked in ice caps (2.0%).",
+    },
+    {
+      q: "Warm ocean currents are best described as those which:",
+      options: [
+        "Carry water from polar regions towards the tropics",
+        "Originate near the equator and move towards the poles, bringing warm temperatures over the land surface",
+        "Flow only along the ocean floor",
+        "Are caused by the gravitational pull of the moon",
+      ],
+      correct: 1,
+      explain:
+        "Warm currents originate near the equator and move towards the poles, bringing warm temperatures over land. Cold currents carry water from polar/higher latitudes to tropical/lower latitudes.",
+    },
+    {
+      q: "The rhythmic rise and fall of ocean water twice a day (tides) is caused mainly by:",
+      options: [
+        "Winds scraping across the ocean surface",
+        "The strong gravitational pull of the sun and the moon on the Earth's surface",
+        "Underwater earthquakes and volcanic eruptions",
+        "The rotation of ocean currents",
+      ],
+      correct: 1,
+      explain:
+        "Tides are caused by the strong gravitational pull of the sun and the moon on the Earth's surface, producing high and low tides twice a day.",
+    },
+    {
+      q: [
+        "Consider the following statements about tsunamis:",
+        "I. A tsunami can be caused by an earthquake, a volcanic eruption or an underwater landslide.",
+        "II. The largest tsunami wave ever measured was about 150 m high.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both statements are correct — tsunamis are caused by earthquakes, volcanic eruptions or underwater landslides, and while they may be as high as 15 m, the largest ever measured was about 150 m.",
+    },
+    {
+      q: [
+        "Assertion (A): The same water has existed on Earth for centuries and is continually recycled.",
+        "Reason (R): Water in the water cycle continually changes its form and circulates between the oceans, the atmosphere and the land.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R correctly explains A — because water endlessly circulates through the water cycle (changing form between ocean, atmosphere and land), the same water has effectively existed for centuries, like in a terrarium.",
+    },
+    {
+      q: "Which of the following correctly distinguishes high tide from low tide?",
+      options: [
+        "High tide: water recedes to its lowest level; Low tide: water rises to its highest level",
+        "High tide: water rises to its highest level covering much of the shore; Low tide: water falls to its lowest level and recedes",
+        "High tide and low tide occur only during full moon",
+        "High tide occurs in summer; low tide occurs in winter",
+      ],
+      correct: 1,
+      explain:
+        "During high tide, water covers much of the shore by rising to its highest level. During low tide, water falls to its lowest level and recedes from the shore.",
+    },
+    {
+      q: "The 2004 tsunami caused a sudden displacement of the ocean floor by about:",
+      options: ["1–2 m", "10–20 m", "50–60 m", "100–150 m"],
+      correct: 1,
+      explain:
+        "As the Indian plate went under the Burma plate, there was a sudden movement of the sea floor, displacing the ocean floor by about 10–20 m and triggering the devastating tsunami.",
+    },
   ],
 };

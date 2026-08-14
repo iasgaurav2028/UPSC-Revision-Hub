@@ -265,5 +265,147 @@ const QUIZ_meaning = {
       explain:
         "Statements II and III are correct. Statement I is incorrect — the constitution is called 'fundamental law' because it is the FOUNDATIONAL/SUPREME law, not merely because it is oldest. Many constitutional amendments and ordinary laws are older than some constitutional provisions in other countries.",
     },
+    {
+      q: "Which one of the following best captures the 'modern meaning' of a constitution as described in the chapter?",
+      options: [
+        "A set of principles specifying the organisation and working of the government and the relationship between the government and the people",
+        "A collection of religious and moral commandments binding on citizens",
+        "A treaty signed between a nation and international organisations",
+        "A code of civil law regulating disputes between private individuals",
+      ],
+      correct: 0,
+      explain:
+        "In its modern sense, a constitution is a set of principles specifying (a) the organisation and working of the government and (b) the relationship between the government and the people in terms of their rights and duties. It does not regulate private disputes between citizens.",
+    },
+    {
+      q: [
+        "Consider the following statements about the term 'constituere':",
+        "I. It is a Latin word.",
+        "II. It means 'to establish' or 'to set up'.",
+        "III. It is the etymological root of the word 'constitution'.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: [
+        "I and II only",
+        "II and III only",
+        "I, II and III",
+        "I and III only",
+      ],
+      correct: 2,
+      explain:
+        "All three are correct — 'constituere' is a Latin word meaning 'to establish' or 'to set up', and it is the etymological root from which the modern term 'constitution' is derived.",
+    },
+    {
+      q: "Hans Kelsen, who gave the concept of 'grundnorm', is best described as:",
+      options: [
+        "A British constitutional historian",
+        "An Austrian jurist known for the Pure Theory of Law",
+        "An American Supreme Court judge",
+        "A member of the Indian Constituent Assembly",
+      ],
+      correct: 1,
+      explain:
+        "Hans Kelsen was an Austrian jurist associated with the 'Pure Theory of Law' (Reine Rechtslehre). His concept of 'grundnorm' refers to the foundational legal norm from which all other norms derive their validity.",
+    },
+    {
+      q: [
+        "Statement I: A constitution regulates the relationship between the government and the people.",
+        "Statement II: A constitution regulates private legal relationships between individual citizens.",
+        "Which one of the following is correct in respect of the above statements?",
+      ],
+      options: [
+        "Both Statement I and Statement II are correct",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct",
+        "Both Statement I and Statement II are incorrect",
+      ],
+      correct: 1,
+      explain:
+        "Statement I is correct — the constitution governs the government-people relationship. Statement II is incorrect — regulating private relationships between citizens is the domain of civil law, not the constitution.",
+    },
+    {
+      q: "The description of a constitution as the 'supreme law of the state' primarily conveys that:",
+      options: [
+        "It is the longest legal document of the state",
+        "All other laws must conform to it and cannot override it",
+        "It can only be interpreted by the head of state",
+        "It applies only to government officials, not ordinary citizens",
+      ],
+      correct: 1,
+      explain:
+        "Describing the constitution as the 'supreme law of the state' means it stands above all other laws — every ordinary law must conform to it, and any inconsistent law is invalid.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Scholar — Distinctive feature of their definition):",
+        "I. Wheare — Shortest and most concise definition",
+        "II. Wade and Phillips — Emphasises the constitution as a document with special legal sanctity",
+        "III. Gilchrist — Emphasises 'body of rules or laws'",
+        "How many of the above pairs are correctly matched?",
+      ],
+      options: [
+        "Only one pair",
+        "Only two pairs",
+        "All three pairs",
+        "None of the pairs",
+      ],
+      correct: 2,
+      explain:
+        "All three pairs are correctly matched — Wheare's is the shortest and most concise; Wade and Phillips emphasise 'special legal sanctity' and the document idea; Gilchrist speaks of a 'body of rules or laws'.",
+    },
+    {
+      q: "Which of the following elements is present in Gettell's definition but absent in Gilchrist's definition of a constitution?",
+      options: [
+        "Distribution of powers to the various organs of government",
+        "The relation of the government to the people over whom its authority is exercised",
+        "The general principles on which powers are exercised",
+        "The organisation of government",
+      ],
+      correct: 1,
+      explain:
+        "Gettell adds 'the relation of the government to the people over whom its authority is exercised' — an element not present in Gilchrist's definition, which focuses on organisation of government, distribution of powers, and general principles of exercise.",
+    },
+    {
+      q: "The phrase 'instrument of the government' as a description of the constitution emphasises that the constitution is:",
+      options: [
+        "A musical framework for state ceremonies",
+        "A tool or means through which the government is organised and operates",
+        "A document exclusively concerned with citizens' duties",
+        "A temporary arrangement that lapses after each election",
+      ],
+      correct: 1,
+      explain:
+        "'Instrument of the government' describes the constitution as the fundamental tool or means through which government is constituted and functions — all government power operates through this instrument.",
+    },
+    {
+      q: [
+        "Consider the following statements regarding what a constitution covers in its modern sense:",
+        "I. The organisation and working of the government.",
+        "II. The distribution of powers among the organs of government.",
+        "III. The rights and duties of citizens in relation to the government.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: [
+        "I and II only",
+        "I and III only",
+        "II and III only",
+        "I, II and III",
+      ],
+      correct: 3,
+      explain:
+        "All three are correct — a constitution in its modern sense covers the organisation and working of government, the distribution of powers among its organs, and the rights and duties of citizens in relation to the government.",
+    },
+    {
+      q: "Which one of the following pairs is correctly matched?",
+      options: [
+        "Grundnorm — K.C. Wheare",
+        "'Special legal sanctity' — Wade and Phillips",
+        "'Collection of rules which establish and regulate the government' — Gettell",
+        "'Distribution of sovereign powers' — Gilchrist",
+      ],
+      correct: 1,
+      explain:
+        "'Special legal sanctity' belongs to Wade and Phillips. Grundnorm is Kelsen's (not Wheare's), the 'collection of rules' phrase is Wheare's (not Gettell's), and 'distribution of sovereign powers' is Gettell's (not Gilchrist's).",
+    },
   ],
 };

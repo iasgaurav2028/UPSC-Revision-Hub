@@ -161,5 +161,137 @@ const QUIZ_enforcement = {
       explain:
         "Articles 5, 6, 7, 8, and 9 (pertaining to citizenship) were among the 15 Articles that came into force on 26 November 1949 itself.",
     },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. Fifteen Articles came into force on 26 November 1949.",
+        "II. The major part of the Constitution came into force on 26 January 1950.",
+        "III. The Preamble came into force on 26 November 1949.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the Preamble, being part of the major body of the Constitution, came into force on 26 January 1950.",
+    },
+    {
+      q: "Which of the following Acts was REPEALED upon the commencement of the Constitution?",
+      options: [
+        "Abolition of Privy Council Jurisdiction Act, 1949",
+        "Government of India Act, 1935",
+        "Indian Contract Act, 1872",
+        "Indian Penal Code, 1860",
+      ],
+      correct: 1,
+      explain:
+        "The Government of India Act, 1935 (with its supplementing Acts) and the Indian Independence Act, 1947 were repealed on commencement.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Date — Event):",
+        "I. 26 November 1949 — Constitution adopted",
+        "II. 26 January 1950 — Constitution commenced",
+        "III. 26 January 1930 — Cabinet Mission arrived in India",
+        "How many of the pairs given above are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Pairs I and II are correct. Pair III is wrong — 26 January 1930 was celebrated as Purna Swaraj Day, not the Cabinet Mission's arrival.",
+    },
+    {
+      q: [
+        "Assertion (A): 26 January was chosen as the date of commencement of the Constitution.",
+        "Reason (R): 26 January 1930 had been celebrated as Purna Swaraj Day following the Lahore Session of the INC in December 1929.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — the historical significance of 26 January 1930 as Purna Swaraj Day is precisely why 26 January was chosen for commencement.",
+    },
+    {
+      q: [
+        "Arrange the following in correct chronological order:",
+        "I. Constitution commenced",
+        "II. Lahore Session of the INC",
+        "III. First observance of Purna Swaraj Day",
+        "IV. Constitution adopted",
+      ],
+      options: [
+        "II → III → IV → I",
+        "II → IV → III → I",
+        "III → II → IV → I",
+        "II → III → I → IV",
+      ],
+      correct: 0,
+      explain:
+        "Order: Lahore Session (Dec 1929) → Purna Swaraj Day (26 Jan 1930) → Constitution adopted (26 Nov 1949) → Constitution commenced (26 Jan 1950).",
+    },
+    {
+      q: "Article 324, which came into force on 26 November 1949, pertains to:",
+      options: [
+        "Citizenship",
+        "The Election Commission",
+        "The oath of the President",
+        "Definitions and interpretation",
+      ],
+      correct: 1,
+      explain:
+        "Article 324 (Election Commission) was among the 15 Articles that came into force on 26 November 1949.",
+    },
+    {
+      q: [
+        "Statement I: The Government of India Act, 1935 was repealed on the commencement of the Constitution.",
+        "Statement II: The Abolition of Privy Council Jurisdiction Act, 1949 was also repealed at the same time.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are true, and II is the correct explanation of I",
+        "Both statements are true, but II is NOT the correct explanation of I",
+        "Statement I is true, but Statement II is false",
+        "Statement I is false, but Statement II is true",
+      ],
+      correct: 2,
+      explain:
+        "Statement I is true, but Statement II is false — the Abolition of Privy Council Jurisdiction Act, 1949 was continued (not repealed).",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. The date of commencement of the Constitution is celebrated as Republic Day.",
+        "II. The date of adoption is celebrated as Constitution Day.",
+        "III. Both dates fall in the year 1949.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the date of commencement (26 January) falls in 1950, not 1949.",
+    },
+    {
+      q: "Which of the following Articles, relating to the oath of the President, came into force on 26 November 1949?",
+      options: ["Article 60", "Article 324", "Article 367", "Article 393"],
+      correct: 0,
+      explain:
+        "Article 60 (oath of the President) was among the 15 Articles that came into force on 26 November 1949.",
+    },
+    {
+      q: "The Articles that came into force on 26 November 1949 primarily dealt with:",
+      options: [
+        "fundamental rights and directive principles",
+        "citizenship, elections, provisional parliament and transitional provisions",
+        "the union judiciary and the executive",
+        "centre-state financial relations",
+      ],
+      correct: 1,
+      explain:
+        "The 15 Articles operative from 26 November 1949 dealt with citizenship, elections, provisional parliament, temporary/transitional provisions and the short title.",
+    },
   ],
 };

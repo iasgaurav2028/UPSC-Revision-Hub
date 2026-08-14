@@ -459,5 +459,116 @@ const QUIZ_geo6_ch1 = {
       explain:
         "Venus takes about 243 days to spin once on its axis — longer than Mercury's ~88-day orbital period around the Sun, an unusual and frequently tested fact about Venus's extremely slow rotation.",
     },
+    {
+      q: [
+        "Consider the following statements about the Sun:",
+        "I. It is the centre of the Solar System.",
+        "II. It provides the gravitational (pulling) force that binds the Solar System.",
+        "III. It is made up of extremely hot gases.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I and II only", "II and III only", "I, II and III", "I only"],
+      correct: 2,
+      explain:
+        "All three are correct — the Sun is the centre of the Solar System, made of hot gases, and its gravitational pull holds the system together.",
+    },
+    {
+      q: "Approximately how far is Venus from the Sun?",
+      options: [
+        "58 million km",
+        "108 million km",
+        "150 million km",
+        "228 million km",
+      ],
+      correct: 1,
+      explain:
+        "Venus lies about 108 million km from the Sun, between Mercury (58) and Earth (150).",
+    },
+    {
+      q: [
+        "Consider the following pairs (planet — approximate distance from the Sun in million km):",
+        "I. Mercury — 58",
+        "II. Saturn — 1,427",
+        "III. Uranus — 2,869",
+        "How many of the above pairs are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 2,
+      explain:
+        "All three pairs are correctly matched: Mercury 58, Saturn 1,427, and Uranus 2,869 million km.",
+    },
+    {
+      q: "Which is the farthest planet from the Sun?",
+      options: ["Uranus", "Saturn", "Neptune", "Jupiter"],
+      correct: 2,
+      explain:
+        "Neptune, at about 4,496 million km, is the farthest planet from the Sun.",
+    },
+    {
+      q: "Which is the largest planet in the Solar System?",
+      options: ["Saturn", "Jupiter", "Earth", "Neptune"],
+      correct: 1,
+      explain:
+        "Jupiter is the largest planet; it also lies about 778 million km from the Sun.",
+    },
+    {
+      q: [
+        "Assertion (A): A meteoroid that is not fully burnt up may create a hollow or crater on the Earth's surface.",
+        "Reason (R): Friction with the air heats and burns meteoroids as they approach the Earth.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 1,
+      explain:
+        "Both are true, but R is not a full explanation of A — a crater forms precisely because the meteoroid was NOT fully burnt and struck the ground, while the burning in R is what usually destroys them before impact.",
+    },
+    {
+      q: "The Universe is best described as:",
+      options: [
+        "A single galaxy containing our Solar System",
+        "Millions of galaxies together",
+        "The Sun and its eight planets",
+        "The band of the Milky Way alone",
+      ],
+      correct: 1,
+      explain:
+        "Millions of galaxies together make up the Universe; a galaxy itself is a huge system of billions of stars with dust and gases.",
+    },
+    {
+      q: "Which pair is correctly matched (planet — approximate number of moons)?",
+      options: [
+        "Uranus — about 27 moons",
+        "Mars — 1 moon",
+        "Venus — 2 moons",
+        "Earth — 3 moons",
+      ],
+      correct: 0,
+      explain:
+        "Uranus has about 27 moons. Mars has 2, Venus has 0, and Earth has 1.",
+    },
+    {
+      q: "The Saptarishi is described as a group of how many stars?",
+      options: ["Five", "Six", "Seven", "Nine"],
+      correct: 2,
+      explain:
+        "Saptarishi means 'seven sages' — a group of seven stars forming part of the Ursa Major constellation.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Moon:",
+        "I. Its surface has no conditions favourable for life.",
+        "II. It has mountains, plains and depressions.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both are correct — the Moon has no life-supporting conditions, and its surface has mountains, plains and depressions that cast shadows visible from Earth.",
+    },
   ],
 };

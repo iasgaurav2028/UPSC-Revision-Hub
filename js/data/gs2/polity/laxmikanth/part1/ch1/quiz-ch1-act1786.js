@@ -122,5 +122,126 @@ const QUIZ_ch1_act1786 = {
       explain:
         "Cornwallis's appointment and the Act of 1786 share the same year — the Act was passed specifically to enable his conditions upon assuming office.",
     },
+    {
+      q: "Under the Act of 1786, the Governor-General was permitted to override the decisions of his Council:",
+      options: [
+        "In all matters routinely",
+        "In special cases",
+        "Never",
+        "Only with prior approval of the Court of Directors",
+      ],
+      correct: 1,
+      explain:
+        "The Act gave the Governor-General power to override his Council's decisions in special cases.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Act of 1786:",
+        "I. It was enacted to meet the conditions of Lord Cornwallis.",
+        "II. It allowed the Governor-General to also serve as Commander-in-Chief.",
+        "III. It introduced the Board of Control.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the Board of Control was created by Pitt's India Act of 1784.",
+    },
+    {
+      q: [
+        "Arrange the following in chronological order:",
+        "1. Act of 1786",
+        "2. Pitt's India Act",
+        "3. Charter Act of 1793",
+        "Select the correct order:",
+      ],
+      options: ["2 - 1 - 3", "1 - 2 - 3", "2 - 3 - 1", "3 - 1 - 2"],
+      correct: 0,
+      explain:
+        "Pitt's India Act (1784) → Act of 1786 → Charter Act (1793), i.e. 2-1-3.",
+    },
+    {
+      q: "Which of the following correctly captures the significance of the Act of 1786?",
+      options: [
+        "It introduced representative government",
+        "It shows how an individual administrator's personal conditions were institutionalised as powers of an office",
+        "It transferred power to the Crown",
+        "It established the Supreme Court",
+      ],
+      correct: 1,
+      explain:
+        "The Act illustrates the personalisation of institutional power — Cornwallis's personal demands became formal powers of the Governor-General's office.",
+    },
+    {
+      q: [
+        "Statement I: The Act of 1786 was narrow and person-specific in its original scope.",
+        "Statement II: Its provisions were later generalised by the Charter Act of 1793.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II correctly explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 1,
+      explain:
+        "Both statements are correct, but Statement II describes a later development rather than explaining why the 1786 Act was narrow in scope.",
+    },
+    {
+      q: "The two conditions demanded by Lord Cornwallis, met by the Act of 1786, related to:",
+      options: [
+        "Override power over the Council and the post of Commander-in-Chief",
+        "Trade monopoly and revenue collection",
+        "Judicial immunity and personal law",
+        "Separate electorate and franchise",
+      ],
+      correct: 0,
+      explain:
+        "Cornwallis's two conditions were the power to override the Council and the ability to hold the post of Commander-in-Chief simultaneously.",
+    },
+    {
+      q: "The Act of 1786 combined civil and military authority in one person by allowing the Governor-General to also be the:",
+      options: [
+        "Chief Justice",
+        "Commander-in-Chief",
+        "President of the Board of Control",
+        "Secretary of State",
+      ],
+      correct: 1,
+      explain:
+        "It allowed the Governor-General to simultaneously hold the post of Commander-in-Chief, combining civil and military command.",
+    },
+    {
+      q: "The override power first granted to Cornwallis in 1786 was extended to all future Governors-General and Presidency Governors by which Act?",
+      options: [
+        "Charter Act of 1793",
+        "Charter Act of 1813",
+        "Charter Act of 1833",
+        "Government of India Act of 1858",
+      ],
+      correct: 0,
+      explain:
+        "The Charter Act of 1793 generalised this personal override power to all future Governors-General and Presidency Governors.",
+    },
+    {
+      q: "Which of the following was NOT a feature of the Act of 1786?",
+      options: [
+        "Power to override the Council in special cases",
+        "Combining the office of Commander-in-Chief with Governor-General",
+        "Introduction of separate electorates",
+        "Fulfilment of Cornwallis's conditions",
+      ],
+      correct: 2,
+      explain:
+        "Separate electorates were introduced much later (1909); they had nothing to do with the Act of 1786.",
+    },
+    {
+      q: "In which year did Lord Cornwallis assume the office of Governor-General of Bengal?",
+      options: ["1773", "1784", "1786", "1793"],
+      correct: 2,
+      explain:
+        "Cornwallis assumed office in 1786, the same year the Act enabling his conditions was passed.",
+    },
   ],
 };

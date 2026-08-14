@@ -60,7 +60,10 @@ const DATA_qr_state_nicknames = {
         rows: [
           ["Andaman & Nicobar Islands", "Emerald Islands"],
           ["Chandigarh", "The City Beautiful"],
-          ["Dadra & Nagar Haveli and Daman & Diu", "Green Land / Land of Sea Breeze"],
+          [
+            "Dadra & Nagar Haveli and Daman & Diu",
+            "Green Land / Land of Sea Breeze",
+          ],
           ["Delhi (NCT)", "Heart of India"],
           ["Jammu & Kashmir", "Paradise on Earth"],
           ["Ladakh", "Land of High Passes"],

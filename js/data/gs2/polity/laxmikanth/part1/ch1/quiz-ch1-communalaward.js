@@ -252,5 +252,130 @@ const QUIZ_ch1_communalaward = {
       explain:
         "The Communal Award represents the point of maximum extension of this principle — building on religion-based separate electorates (1909, 1919) by adding caste-based representation for Depressed Classes, before the Poona Pact partially reversed this specific extension.",
     },
+    {
+      q: "The Communal Award of 1932 extended separate electorates, for the first time, to which group?",
+      options: [
+        "Muslims",
+        "Sikhs",
+        "The Depressed Classes (Scheduled Castes)",
+        "Anglo-Indians",
+      ],
+      correct: 2,
+      explain:
+        "The Award newly extended separate electorates to the Depressed Classes; other communities already had them.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Communal Award of 1932:",
+        "I. It was announced by British PM Ramsay MacDonald.",
+        "II. It led to Gandhiji's fast unto death at Yerawada Jail.",
+        "III. It was welcomed by Gandhiji.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — Gandhiji opposed the extension to Depressed Classes.",
+    },
+    {
+      q: [
+        "Arrange the following in chronological order:",
+        "1. Communal Award",
+        "2. Simon Commission report",
+        "3. Government of India Act, 1935",
+        "Select the correct order:",
+      ],
+      options: ["2 - 1 - 3", "1 - 2 - 3", "2 - 3 - 1", "3 - 2 - 1"],
+      correct: 0,
+      explain:
+        "Simon report (1930) → Communal Award (1932) → GoI Act 1935, i.e. order 2-1-3.",
+    },
+    {
+      q: "The Poona Pact was an agreement between the Indian National Congress and:",
+      options: [
+        "Muhammad Ali Jinnah",
+        "Dr. B.R. Ambedkar",
+        "Ramsay MacDonald",
+        "Lord Willingdon",
+      ],
+      correct: 1,
+      explain:
+        "The Poona Pact was concluded between the Congress and Dr. B.R. Ambedkar, leader of the Depressed Classes.",
+    },
+    {
+      q: [
+        "Statement I: The Poona Pact replaced separate electorates for Depressed Classes with reserved seats.",
+        "Statement II: It retained a Hindu joint electorate.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II correctly explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 1,
+      explain:
+        "Both are correct, but Statement II describes a parallel feature of the Pact rather than explaining the replacement of separate electorates with reserved seats.",
+    },
+    {
+      q: "Gandhiji undertook his fast unto death against the Communal Award at:",
+      options: [
+        "Sabarmati Ashram",
+        "Yerawada Jail, Poona",
+        "Aga Khan Palace",
+        "Naini Jail",
+      ],
+      correct: 1,
+      explain: "Gandhiji fasted unto death at Yerawada Jail in Poona.",
+    },
+    {
+      q: "The provisions of the Poona Pact were incorporated into which Act?",
+      options: [
+        "Government of India Act, 1919",
+        "Government of India Act, 1935",
+        "Indian Independence Act, 1947",
+        "Indian Councils Act, 1909",
+      ],
+      correct: 1,
+      explain:
+        "After British acceptance, the Poona Pact's provisions were incorporated into the Government of India Act, 1935.",
+    },
+    {
+      q: "Which of the following correctly distinguishes the Communal Award from the Poona Pact regarding Depressed Classes?",
+      options: [
+        "Award = joint electorate; Pact = separate electorate",
+        "Award = separate electorate; Pact = joint electorate with reserved seats",
+        "Both provided separate electorates",
+        "Both provided joint electorates without reservation",
+      ],
+      correct: 1,
+      explain:
+        "The Communal Award gave separate electorates; the Poona Pact replaced this with a joint electorate plus reserved seats.",
+    },
+    {
+      q: "The Communal Award of 1932 continued separate electorates that already existed for which communities?",
+      options: [
+        "Muslims, Sikhs, Indian Christians, Anglo-Indians and Europeans",
+        "Only the Depressed Classes",
+        "Only women and labour",
+        "Only zamindars",
+      ],
+      correct: 0,
+      explain:
+        "It continued the pre-existing separate electorates for Muslims, Sikhs, Indian Christians, Anglo-Indians, and Europeans.",
+    },
+    {
+      q: "Which of the following statements about the Communal Award of 1932 is NOT correct?",
+      options: [
+        "It was announced by Ramsay MacDonald",
+        "It extended separate electorate to the Depressed Classes",
+        "It was welcomed by Gandhiji as a step towards unity",
+        "It led to the Poona Pact",
+      ],
+      correct: 2,
+      explain:
+        "Gandhiji strongly opposed the Award's extension to Depressed Classes, undertaking a fast unto death against it.",
+    },
   ],
 };

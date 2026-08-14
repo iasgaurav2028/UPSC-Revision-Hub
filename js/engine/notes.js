@@ -505,7 +505,8 @@ function renderSectionsHtml(sections) {
         break;
       }
       case "table": {
-        html += titleHtml + `<div class="note-table-wrap"><table class="note-table">`;
+        html +=
+          titleHtml + `<div class="note-table-wrap"><table class="note-table">`;
         if (sec.headers && sec.headers.length) {
           html += `<thead><tr>`;
           sec.headers.forEach((h) => {
@@ -781,6 +782,8 @@ function renderNewsArticleNote(node) {
   html += `</div>`;
   html += `<div class="note-actions">`;
   html += `<button class="mark-done-btn ${isDone ? "is-done" : ""}" id="markDoneBtn">${isDone ? "✓ Reviewed" : "Mark as Reviewed"}</button>`;
+  if (QUIZ_DATA[node.id])
+    html += `<button class="quiz-cta-btn" id="startQuizBtn">🎯 Practice Hub</button>`;
   html += `</div></div></div>`;
 
   if (n.summary) {
@@ -883,6 +886,10 @@ function renderNewsArticleNote(node) {
       refreshTree();
       renderNewsArticleNote(node);
     });
+  }
+  const quizBtn = document.getElementById("startQuizBtn");
+  if (quizBtn) {
+    quizBtn.addEventListener("click", () => openQuiz(node.id));
   }
 }
 
@@ -1019,8 +1026,9 @@ function openPrevChapterConfirm(currentChapter, prevChapter, targetLeaf) {
   const goBtn = document.getElementById("prevChapterGoBtn");
   if (!overlay || !sub || !goBtn) return;
 
-  sub.innerHTML = `This takes you back to <strong>${esc(prevChapter.title)}</strong>${prevChapter.subtitle ? " — " + esc(prevChapter.subtitle) : ""
-    }, opening its last topic <strong>${esc(targetLeaf.title)}</strong>.`;
+  sub.innerHTML = `This takes you back to <strong>${esc(prevChapter.title)}</strong>${
+    prevChapter.subtitle ? " — " + esc(prevChapter.subtitle) : ""
+  }, opening its last topic <strong>${esc(targetLeaf.title)}</strong>.`;
 
   goBtn.onclick = () => {
     overlay.classList.remove("active");

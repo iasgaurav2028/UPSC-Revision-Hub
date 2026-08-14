@@ -238,5 +238,119 @@ const QUIZ_ch1_ica1861 = {
       explain:
         "The 1861 Act's twin themes — Indian association with governance (how far to include Indians) and decentralisation (how much power provinces should hold) — recur throughout subsequent Acts up to 1935, making it a genuine turning point.",
     },
+    {
+      q: "Under the Indian Councils Act of 1861, Indians nominated to the legislative council were classified as:",
+      options: [
+        "Official members",
+        "Non-official members",
+        "Elected members",
+        "Ex-officio members",
+      ],
+      correct: 1,
+      explain:
+        "The nominated Indians were non-official members, distinct from official (bureaucrat) members.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Indian Councils Act of 1861:",
+        "I. It restored legislative powers to Bombay and Madras.",
+        "II. It gave legal recognition to the portfolio system.",
+        "III. It introduced direct election of Indian members.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — members were nominated, not elected.",
+    },
+    {
+      q: [
+        "Arrange the following in chronological order:",
+        "1. Indian Councils Act, 1861",
+        "2. Government of India Act, 1858",
+        "3. Indian Councils Act, 1892",
+        "Select the correct order:",
+      ],
+      options: ["2 - 1 - 3", "1 - 2 - 3", "2 - 3 - 1", "3 - 2 - 1"],
+      correct: 0,
+      explain: "1858 → 1861 → 1892, i.e. order 2-1-3.",
+    },
+    {
+      q: "The portfolio system, recognised by the 1861 Act, was originally introduced by Lord Canning in:",
+      options: ["1857", "1858", "1859", "1861"],
+      correct: 2,
+      explain:
+        "Canning introduced the portfolio system in 1859; the 1861 Act gave it legal recognition.",
+    },
+    {
+      q: [
+        "Statement I: The Indian Councils Act of 1861 reversed the centralising trend in British India.",
+        "Statement II: It restored legislative powers to the Bombay and Madras Presidencies.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II correctly explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 0,
+      explain:
+        "Both are correct, and restoring Presidency legislative powers is exactly how the centralising trend was reversed.",
+    },
+    {
+      q: "The emergency ordinance issued by the Viceroy under the 1861 Act, without the council's concurrence, had a validity of:",
+      options: ["3 months", "6 months", "1 year", "2 years"],
+      correct: 1,
+      explain: "Such ordinances had a maximum life of 6 months.",
+    },
+    {
+      q: "Which of the following Indians was nominated to the legislative council by Lord Canning in 1862?",
+      options: [
+        "Satyendra Prasad Sinha",
+        "Sir Dinkar Rao",
+        "Dadabhai Naoroji",
+        "Surendranath Banerjee",
+      ],
+      correct: 1,
+      explain:
+        "Canning nominated the Raja of Benaras, the Maharaja of Patiala, and Sir Dinkar Rao in 1862.",
+    },
+    {
+      q: "The centralising trend reversed by the 1861 Act had reached its climax with which Act?",
+      options: [
+        "Regulating Act of 1773",
+        "Charter Act of 1833",
+        "Charter Act of 1853",
+        "Pitt's India Act of 1784",
+      ],
+      correct: 1,
+      explain:
+        "Centralisation peaked with the Charter Act of 1833; decentralisation began with the 1861 Act.",
+    },
+    {
+      q: "Which of the following pairs of new legislative council and year is correctly matched under the 1861 Act's provisions?",
+      options: [
+        "Bengal — 1862",
+        "Punjab — 1886",
+        "North-Western Provinces — 1897",
+        "Madras — 1862",
+      ],
+      correct: 0,
+      explain:
+        "Bengal's council was established in 1862; NW Provinces in 1886 and Punjab in 1897.",
+    },
+    {
+      q: "The Indian Councils Act of 1861 marked the beginning of which broad policy of the Crown after 1857?",
+      options: [
+        "Complete exclusion of Indians from governance",
+        "Controlled association of Indians with administration and decentralisation",
+        "Immediate grant of self-government",
+        "Abolition of legislative councils",
+      ],
+      correct: 1,
+      explain:
+        "It began the post-1857 policy of controlled association of Indians with administration alongside legislative decentralisation.",
+    },
   ],
 };

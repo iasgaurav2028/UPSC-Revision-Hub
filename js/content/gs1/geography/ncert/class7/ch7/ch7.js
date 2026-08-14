@@ -4,4 +4,508 @@
 // by js/engine/loader.js the first time one of its topics is opened.
 // Edit the source under js/data/ and re-run: node build-bundle.js
 // ═══════════════════════════════════════════════════════════
-__registerContent("gs1/geography/ncert/class7/ch7/ch7", {"notes":{"geo7-ch7":{"era":"NCERT Class 7 — Geography (Our Environment), Chapter 7","significance":["Sahara and Ladakh are two of the most frequently compared environments in Prelims match-the-following questions","Exact facts: Sahara area (8.54 million sq km), Sahara touches 11 countries (all named), Al Azizia temperature record (57.7°C, 1922), Drass as coldest inhabited place — all directly testable","Bedouins and Tuaregs (nomadic tribes of Sahara), Chiru/Tibetan antelope (endangered, shahtoosh), famous Ladakhi monasteries — frequently tested","Ladakh cold desert facts: Kargil 3,000m to Karakoram 8,000m+ altitude, rainfall as low as 10cm, NH 1A connecting Leh to Srinagar"],"features":[{"key":"Desert — Definition","main":"An arid region characterised by extremely high or low temperatures and has scanty/scarce vegetation\nCharacterised by: low rainfall, scanty vegetation, extreme temperatures\nTypes: Hot deserts and Cold deserts","note":""},{"key":"The Hot Desert — Sahara","main":"World's largest hot desert\nArea: approximately 8.54 million sq km\nCovers a large part of North Africa\nTouches 11 countries: Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, Sudan, Tunisia, and Western Sahara","note":"Compare: India has an area of 3.28 million sq km — Sahara is about 2.6 times larger"},{"key":"Sahara — Landforms","main":"Besides vast stretches of sand, Sahara has:\nGravel plains\nElevated plateaus with bare rocky surfaces (may be more than 2,500m high at some places)","note":"Sahara was once a lush green plain — cave paintings show rivers, crocodiles, elephants, lions, giraffes, cattle — climate change turned it hot and dry"},{"key":"Sahara — Climate","main":"Scorching hot and parch dry\nShort rainy season; sky is mostly cloudless and clear\nMoisture evaporates faster than it accumulates\nDay temperatures may soar up to 50°C; sand and bare rocks radiate this heat making everything hot\nNights may be freezing cold, with temperatures nearing zero\nAl Azizia in Sahara (south of Tripoli, Libya) recorded the highest temperature of 57.7°C in 1922","note":""},{"key":"Sahara — Flora and Fauna","main":"Vegetation: cactus, date palms, acacia\nOasis: green islands with date palms\nAnimals: camels, hyenas, jackals, foxes, scorpions, many varieties of snakes and lizards","note":"Depressions formed when wind blows away sands; underground water reaches surface → oasis formed; Tafilalet Oasis in Morocco = large oasis (about 13,000 sq km)"},{"key":"Sahara — People (Bedouins and Tuaregs)","main":"Bedouins and Tuaregs: nomadic tribes rearing livestock — goats, sheep, camels, horses\nAnimals provide: milk, hides (for leather belts, slippers, water bottles), hair (for mats, carpets, clothes, blankets)\nWear heavy robes to protect against dust storms and hot winds\nOasis in Sahara and Nile Valley in Egypt: supports settled population\nPeople grow: date palms, rice, wheat, barley, beans\nEgyptian cotton: famous worldwide; grown in Egypt","note":""},{"key":"Sahara — Minerals and Changing Life","main":"Discovery of oil in Algeria, Libya and Egypt constantly transforming Sahara\nOther minerals: iron, phosphorus, manganese, uranium\nGleaming glass-cased office buildings tower over ancient camel mosques; superhighways crisscross ancient camel paths\nTuaregs: guides for foreign tourists; nomadic herdsmen taking to city life; finding jobs in oil and gas","note":""},{"key":"The Cold Desert — Ladakh","main":"Cold desert lying in the Great Himalayas, on the eastern side of Jammu and Kashmir\nKarakoram Range in the north and Zanskar Mountains in the south enclose it\nSeveral rivers flow through Ladakh — INDUS being the most important; rivers form deep valleys and gorges\nSeveral glaciers found — e.g. Gangri glacier","note":"Ladakh = 'La' (mountain pass) + 'Dak' (country)\nAlso known as 'Khapa-chan' meaning 'snow land'"},{"key":"Ladakh — Altitude and Climate","main":"Altitude varies from ~3,000m in Kargil to more than 8,000m in Karakoram\nDue to high altitude: extremely cold and dry; air is thin (heat of sun felt intensely)\nYou can suffer sunstroke and frostbite at the same time\nDay temperatures in summer: just above zero degree\nNight temperatures: well below -30°C\nWinter temperatures: may remain below -40°C for most of the time\nLittle rainfall: as low as 10 cm every year\nExperiences freezing winds and burning hot sunlight","note":"Drass: one of the coldest inhabited places on Earth; located in Ladakh"},{"key":"Ladakh — Flora and Fauna","main":"Sparse vegetation; scanty patches of grasses and shrubs\nValleys: groves of willows and poplars\nSummer: fruit trees bloom — apples, apricots, walnuts\nBirds: robins, redstarts, Tibetan snowcock, raven, hoopoe (some migratory)\nAnimals: wild goats, wild sheep, yak, special kinds of dogs\nAnimals reared for milk, meat and hides; yak's milk used to make cheese and butter; sheep and goat hair = woollens","note":"Chiru or Tibetan antelope: endangered species; hunted for its wool called shahtoosh (light in weight, extremely warm)\nFinest cricket bats made from willow wood (found in valleys)"},{"key":"Ladakh — People","main":"People are either Muslims or Buddhists\nSeveral Buddhist monasteries (gompas) dot the landscape\nFamous monasteries: Hemis, Thiksey, Shey, Lamayuru\nSummer: busy cultivating barley, potatoes, peas, beans, turnip\nWinter months: harsh; people engaged in festivities and ceremonies\nWomen: very hard working — work in house, fields, manage small business and shops\nLeh (capital) is well connected by road and air","note":""},{"key":"Ladakh — Transport","main":"National Highway 1A connects Leh to Kashmir Valley through the Zoji La Pass\nManali–Leh Highway crosses four passes: Baralacha la, Lungalacha la, Tanglang la, Rohtang la\nHighway opens only between July and September (snow); cleared from the road","note":""},{"key":"Ladakh — Tourism","main":"Tourism is a major activity\nTourists from within India and abroad\nVisits to gompas, witnessing ceremonies, treks to see meadows and glaciers are important activities","note":""}],"traps":[{"label":"Sahara — Area and Country Count","lines":["Sahara area: ~8.54 million sq km (world's LARGEST HOT desert)","Touches ELEVEN countries: Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, Sudan, Tunisia, Western Sahara","Exercise directly asks: Sahara is in which part of Africa → NORTHERN Africa"]},{"label":"Al Azizia Temperature Record","lines":["Al Azizia in Sahara (south of Tripoli, Libya): recorded 57.7°C in 1922","Highest temperature ever recorded","Located in the SAHARA desert"]},{"label":"Bedouins vs Tuaregs","lines":["Both are NOMADIC tribes of the Sahara","They rear goats, sheep, camels, and horses","Both wear heavy robes — NOT light clothes — to protect against dust storms and hot winds"]},{"label":"Ladakh — Hot and Cold Simultaneously","lines":["Due to high altitude: air is thin → sun's heat felt intensely despite freezing temperatures","You can get BOTH sunstroke and frostbite at the same time","This paradox is a directly testable 'Do You Know' fact"]},{"label":"Chiru / Tibetan Antelope — Shahtoosh","lines":["Chiru (Tibetan antelope) = endangered species","Hunted for its wool = shahtoosh (light in weight, extremely warm)","NOT to be confused with Pashmina (which is from Pashmina goats)"]},{"label":"Drass — Coldest Inhabited Place","lines":["Drass = one of the coldest inhabited places on Earth","Located in LADAKH"]},{"label":"Ladakh Famous Monasteries","lines":["Famous gompas/monasteries: Hemis, Thiksey, Shey, Lamayuru","Exercise directly asks: Hemis in Ladakh is a famous → monastery (NOT temple or church)"]}],"mainsAngle":"Chapter 7 illustrates two extremes of human adaptation to harsh environments. The Sahara section connects to GS-1 world geography and GS-3 energy questions (oil discovery transforming nomadic cultures in Algeria, Libya, Egypt). The Ladakh section is directly relevant to contemporary GS-2/GS-3 topics on border infrastructure (NH 1A, Manali-Leh Highway), environmental concerns (Chiru/shahtoosh poaching, Galwan-area ecology), and tourism development in ecologically fragile areas.","mainsTheme":"Human adaptation in extreme environments — Sahara (hot desert) and Ladakh (cold desert)","recall":["Desert = arid region, extremely high/low temperatures, scanty vegetation","Sahara: world's largest hot desert; 8.54 million sq km; 11 countries; North Africa","Sahara climate: scorching hot days (up to 50°C), freezing cold nights","Al Azizia (Libya): 57.7°C in 1922 — highest recorded temperature","Sahara vegetation: cactus, date palms, acacia","Bedouins + Tuaregs: nomadic tribes of Sahara; rear goats, sheep, camels, horses","Egyptian cotton: famous worldwide; grown in Egypt","Oil in Algeria, Libya, Egypt transforming Sahara","Ladakh = La (mountain pass) + Dak (country); also Khapa-chan (snow land)","Ladakh lies in Great Himalayas; eastern side of J&K","Most important river: Indus; Gangri glacier example","Ladakh altitude: 3,000m (Kargil) to 8,000m+ (Karakoram)","Rainfall: as low as 10 cm/year","Drass: one of coldest inhabited places on Earth; in Ladakh","Animals: wild goats, wild sheep, yak; Chiru (endangered) → shahtoosh wool","People: Muslims or Buddhists; monasteries = Hemis, Thiksey, Shey, Lamayuru","NH 1A: Leh to Kashmir Valley via Zoji La Pass"]}},"quizzes":{"geo7-ch7":{"title":"Life in the Deserts","questions":[{"q":"A desert is defined as:","options":["Any region with no human habitation","An arid region characterised by extremely high or low temperatures and scarce vegetation","Any region receiving less than 50 cm of rainfall annually","A region found only in Africa and Asia"],"correct":1,"explain":"A desert is an arid region characterised by extremely high or low temperatures (hence hot AND cold deserts exist) and has scanty/scarce vegetation."},{"q":"The Sahara is described as the world's largest hot desert. Its area is approximately:","options":["3.28 million sq km","5.50 million sq km","8.54 million sq km","12 million sq km"],"correct":2,"explain":"The Sahara has an area of about 8.54 million sq km. For reference, India's total area is 3.28 million sq km — the Sahara is nearly 2.6 times larger."},{"q":"The Sahara desert touches how many countries, and in which part of Africa is it located?","options":["Eight countries; Central Africa","Eleven countries; Northern Africa","Five countries; Eastern Africa","Fifteen countries; Western Africa"],"correct":1,"explain":"The Sahara touches eleven countries and covers a large part of Northern Africa: Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, Sudan, Tunisia, and Western Sahara."},{"q":"The highest temperature ever recorded in the Sahara (57.7°C) was at:","options":["Cairo, Egypt","Timbuktu, Mali","Al Azizia, Libya (south of Tripoli)","Agadez, Niger"],"correct":2,"explain":"Al Azizia in the Sahara desert, south of Tripoli in Libya, recorded the highest temperature of 57.7°C in 1922."},{"q":["Consider the following statements about the Sahara's climate:","I. Days can be scorching hot with temperatures soaring up to 50°C.","II. Nights in the Sahara are always warm.","III. The sky is mostly cloudless and clear.","Which of the statements given above is/are correct?"],"options":["I and III only","I, II and III","I only","II and III only"],"correct":0,"explain":"Statements I and III are correct. Statement II is incorrect — Sahara nights can be FREEZING COLD with temperatures nearing zero degrees."},{"q":"Which of the following correctly describes the vegetation of the Sahara desert?","options":["Tropical deciduous trees like teak and sal","Dense rainforest with bromeliads and orchids","Cactus, date palms, and acacia; with oasis supporting date palms","Coniferous trees like pine and deodar"],"correct":2,"explain":"Sahara vegetation includes cactus, date palms and acacia. At oases (where underground water reaches the surface), date palms grow and settlements are possible."},{"q":"An oasis in the Sahara desert forms because:","options":["Rivers flow underground and emerge at certain points","Wind blows away sands forming depressions where underground water reaches the surface","The desert receives heavy seasonal rainfall at certain locations","Ancient rivers dried up and left fertile zones"],"correct":1,"explain":"Depressions are formed when wind blows away sands. In these depressions, underground water reaches the surface, forming an oasis — a fertile area where people can settle and grow date palms and other crops."},{"q":"Bedouins and Tuaregs are associated with which desert and what is their primary occupation?","options":["Ladakh; yak herding and barley farming","Sahara; nomadic lifestyle rearing livestock (goats, sheep, camels, horses)","Thar; camel herding and handicraft making","Gobi; nomadic herding of horses and cattle"],"correct":1,"explain":"Bedouins and Tuaregs are nomadic tribes of the Sahara desert who rear livestock such as goats, sheep, camels and horses — these animals provide milk, hides, and hair for their daily needs."},{"q":"Egyptian cotton, famous worldwide, is grown in:","options":["Libya","Sudan","Egypt","Morocco"],"correct":2,"explain":"Egyptian cotton is famous worldwide and is grown in Egypt — particularly in the Nile Valley where water availability makes agriculture possible even in the otherwise arid Sahara region."},{"q":"Which minerals are transforming the Sahara desert through their discovery?","options":["Gold and diamonds in Mali and Niger","Oil in Algeria, Libya and Egypt; iron, phosphorus, manganese, uranium also found","Coal and copper in Sudan and Mauritania","Bauxite and tin in Chad and Tunisia"],"correct":1,"explain":"The discovery of oil (in Algeria, Libya, and Egypt) is constantly transforming the Sahara. Other important minerals include iron, phosphorus, manganese, and uranium."},{"q":"Ladakh is described as a cold desert. The word 'Ladakh' is made up of two words. What do they mean?","options":["'La' = snow and 'Dak' = land","'La' = mountain pass and 'Dak' = country","'La' = lake and 'Dak' = desert","'La' = cold and 'Dak' = mountain"],"correct":1,"explain":"Ladakh is made up of 'La' meaning 'mountain pass' and 'Dak' meaning 'country'. It is also known as 'Khapa-chan', meaning 'snow land'."},{"q":"Ladakh is located on the eastern side of Jammu and Kashmir and is enclosed by:","options":["The Aravalli Hills in the north and the Vindhya Range in the south","The Karakoram Range in the north and the Zanskar Mountains in the south","The Himalayan Range in the north and the Shivalik Hills in the south","The Hindu Kush in the north and the Pir Panjal Range in the south"],"correct":1,"explain":"Ladakh is enclosed by the Karakoram Range in the north and the Zanskar Mountains in the south."},{"q":"The most important river flowing through Ladakh is:","options":["Brahmaputra","Jhelum","Indus","Shyok"],"correct":2,"explain":"The Indus is the most important river flowing through Ladakh — it forms deep valleys and gorges there. The Indus also passes through the famous Gangri glacier region."},{"q":["Assertion (A): In Ladakh, you may suffer from both sunstroke and frostbite at the same time.","Reason (R): The air at high altitude in Ladakh is so thin that the heat of the sun can be felt intensely even while temperatures remain freezing cold.","Which one of the following is correct?"],"options":["Both A and R are true, and R is the correct explanation of A","Both A and R are true, but R is NOT the correct explanation of A","A is true, but R is false","A is false, but R is true"],"correct":0,"explain":"Both are true and R correctly explains A — thin air at high altitude cannot block solar radiation effectively, so the sun burns intensely even while the surrounding air temperature remains below freezing."},{"q":"Drass in Ladakh is notable because it is:","options":["The highest human settlement in the world","One of the coldest inhabited places on Earth","The site of the largest glacier in India","The capital of the cold desert region"],"correct":1,"explain":"Drass is one of the coldest inhabited places on Earth — it is located in Ladakh and experiences some of the most extreme cold temperatures where humans still live."},{"q":"The Chiru (Tibetan antelope) is an endangered species. It is hunted primarily for:","options":["Its meat, which is considered a delicacy","Its wool called shahtoosh, which is light in weight and extremely warm","Its horns, which are used in traditional medicine","Its hide, which is used to make leather goods"],"correct":1,"explain":"The Chiru (Tibetan antelope) is endangered because it is hunted for its wool called shahtoosh — famous for being light in weight and extremely warm."},{"q":"The people of Ladakh are mainly:","options":["Hindus and Sikhs","Muslims and Buddhists","Christians and Muslims","Buddhists and Hindus"],"correct":1,"explain":"The people of Ladakh are either Muslims or Buddhists. Several Buddhist monasteries (gompas) dot the Ladakhi landscape."},{"q":"Which of the following is NOT one of the famous Buddhist monasteries (gompas) of Ladakh mentioned in the chapter?","options":["Hemis","Thiksey","Shey","Tawang"],"correct":3,"explain":"Hemis, Thiksey, Shey, and Lamayuru are the famous monasteries mentioned for Ladakh. Tawang monastery is in Arunachal Pradesh — NOT mentioned as a Ladakhi monastery."},{"q":"The National Highway that connects Leh to Kashmir Valley in Ladakh is:","options":["NH 44","NH 1A (through Zoji La Pass)","NH 58","NH 22"],"correct":1,"explain":"National Highway 1A connects Leh to Kashmir Valley through the Zoji La Pass."},{"q":["Consider the following statements comparing the Sahara and Ladakh:","I. Sahara is a HOT desert; Ladakh is a COLD desert.","II. Sahara is in North Africa; Ladakh is in the Great Himalayas (eastern J&K).","III. Bedouins and Tuaregs are nomadic tribes of Ladakh; Muslims and Buddhists are the people of Sahara.","Which of the statements given above is/are correct?"],"options":["I and II only","I, II and III","II and III only","I only"],"correct":0,"explain":"Statements I and II are correct. Statement III is incorrect — Bedouins and Tuaregs are the nomadic tribes of the SAHARA; the people of LADAKH are Muslims and Buddhists."}]}}});
+__registerContent("gs1/geography/ncert/class7/ch7/ch7", {
+  notes: {
+    "geo7-ch7": {
+      era: "NCERT Class 7 — Geography (Our Environment), Chapter 7",
+      significance: [
+        "Sahara and Ladakh are two of the most frequently compared environments in Prelims match-the-following questions",
+        "Exact facts: Sahara area (8.54 million sq km), Sahara touches 11 countries (all named), Al Azizia temperature record (57.7°C, 1922), Drass as coldest inhabited place — all directly testable",
+        "Bedouins and Tuaregs (nomadic tribes of Sahara), Chiru/Tibetan antelope (endangered, shahtoosh), famous Ladakhi monasteries — frequently tested",
+        "Ladakh cold desert facts: Kargil 3,000m to Karakoram 8,000m+ altitude, rainfall as low as 10cm, NH 1A connecting Leh to Srinagar",
+      ],
+      features: [
+        {
+          key: "Desert — Definition",
+          main: "An arid region characterised by extremely high or low temperatures and has scanty/scarce vegetation\nCharacterised by: low rainfall, scanty vegetation, extreme temperatures\nTypes: Hot deserts and Cold deserts",
+          note: "",
+        },
+        {
+          key: "The Hot Desert — Sahara",
+          main: "World's largest hot desert\nArea: approximately 8.54 million sq km\nCovers a large part of North Africa\nTouches 11 countries: Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, Sudan, Tunisia, and Western Sahara",
+          note: "Compare: India has an area of 3.28 million sq km — Sahara is about 2.6 times larger",
+        },
+        {
+          key: "Sahara — Landforms",
+          main: "Besides vast stretches of sand, Sahara has:\nGravel plains\nElevated plateaus with bare rocky surfaces (may be more than 2,500m high at some places)",
+          note: "Sahara was once a lush green plain — cave paintings show rivers, crocodiles, elephants, lions, giraffes, cattle — climate change turned it hot and dry",
+        },
+        {
+          key: "Sahara — Climate",
+          main: "Scorching hot and parch dry\nShort rainy season; sky is mostly cloudless and clear\nMoisture evaporates faster than it accumulates\nDay temperatures may soar up to 50°C; sand and bare rocks radiate this heat making everything hot\nNights may be freezing cold, with temperatures nearing zero\nAl Azizia in Sahara (south of Tripoli, Libya) recorded the highest temperature of 57.7°C in 1922",
+          note: "",
+        },
+        {
+          key: "Sahara — Flora and Fauna",
+          main: "Vegetation: cactus, date palms, acacia\nOasis: green islands with date palms\nAnimals: camels, hyenas, jackals, foxes, scorpions, many varieties of snakes and lizards",
+          note: "Depressions formed when wind blows away sands; underground water reaches surface → oasis formed; Tafilalet Oasis in Morocco = large oasis (about 13,000 sq km)",
+        },
+        {
+          key: "Sahara — People (Bedouins and Tuaregs)",
+          main: "Bedouins and Tuaregs: nomadic tribes rearing livestock — goats, sheep, camels, horses\nAnimals provide: milk, hides (for leather belts, slippers, water bottles), hair (for mats, carpets, clothes, blankets)\nWear heavy robes to protect against dust storms and hot winds\nOasis in Sahara and Nile Valley in Egypt: supports settled population\nPeople grow: date palms, rice, wheat, barley, beans\nEgyptian cotton: famous worldwide; grown in Egypt",
+          note: "",
+        },
+        {
+          key: "Sahara — Minerals and Changing Life",
+          main: "Discovery of oil in Algeria, Libya and Egypt constantly transforming Sahara\nOther minerals: iron, phosphorus, manganese, uranium\nGleaming glass-cased office buildings tower over ancient camel mosques; superhighways crisscross ancient camel paths\nTuaregs: guides for foreign tourists; nomadic herdsmen taking to city life; finding jobs in oil and gas",
+          note: "",
+        },
+        {
+          key: "The Cold Desert — Ladakh",
+          main: "Cold desert lying in the Great Himalayas, on the eastern side of Jammu and Kashmir\nKarakoram Range in the north and Zanskar Mountains in the south enclose it\nSeveral rivers flow through Ladakh — INDUS being the most important; rivers form deep valleys and gorges\nSeveral glaciers found — e.g. Gangri glacier",
+          note: "Ladakh = 'La' (mountain pass) + 'Dak' (country)\nAlso known as 'Khapa-chan' meaning 'snow land'",
+        },
+        {
+          key: "Ladakh — Altitude and Climate",
+          main: "Altitude varies from ~3,000m in Kargil to more than 8,000m in Karakoram\nDue to high altitude: extremely cold and dry; air is thin (heat of sun felt intensely)\nYou can suffer sunstroke and frostbite at the same time\nDay temperatures in summer: just above zero degree\nNight temperatures: well below -30°C\nWinter temperatures: may remain below -40°C for most of the time\nLittle rainfall: as low as 10 cm every year\nExperiences freezing winds and burning hot sunlight",
+          note: "Drass: one of the coldest inhabited places on Earth; located in Ladakh",
+        },
+        {
+          key: "Ladakh — Flora and Fauna",
+          main: "Sparse vegetation; scanty patches of grasses and shrubs\nValleys: groves of willows and poplars\nSummer: fruit trees bloom — apples, apricots, walnuts\nBirds: robins, redstarts, Tibetan snowcock, raven, hoopoe (some migratory)\nAnimals: wild goats, wild sheep, yak, special kinds of dogs\nAnimals reared for milk, meat and hides; yak's milk used to make cheese and butter; sheep and goat hair = woollens",
+          note: "Chiru or Tibetan antelope: endangered species; hunted for its wool called shahtoosh (light in weight, extremely warm)\nFinest cricket bats made from willow wood (found in valleys)",
+        },
+        {
+          key: "Ladakh — People",
+          main: "People are either Muslims or Buddhists\nSeveral Buddhist monasteries (gompas) dot the landscape\nFamous monasteries: Hemis, Thiksey, Shey, Lamayuru\nSummer: busy cultivating barley, potatoes, peas, beans, turnip\nWinter months: harsh; people engaged in festivities and ceremonies\nWomen: very hard working — work in house, fields, manage small business and shops\nLeh (capital) is well connected by road and air",
+          note: "",
+        },
+        {
+          key: "Ladakh — Transport",
+          main: "National Highway 1A connects Leh to Kashmir Valley through the Zoji La Pass\nManali–Leh Highway crosses four passes: Baralacha la, Lungalacha la, Tanglang la, Rohtang la\nHighway opens only between July and September (snow); cleared from the road",
+          note: "",
+        },
+        {
+          key: "Ladakh — Tourism",
+          main: "Tourism is a major activity\nTourists from within India and abroad\nVisits to gompas, witnessing ceremonies, treks to see meadows and glaciers are important activities",
+          note: "",
+        },
+      ],
+      traps: [
+        {
+          label: "Sahara — Area and Country Count",
+          lines: [
+            "Sahara area: ~8.54 million sq km (world's LARGEST HOT desert)",
+            "Touches ELEVEN countries: Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, Sudan, Tunisia, Western Sahara",
+            "Exercise directly asks: Sahara is in which part of Africa → NORTHERN Africa",
+          ],
+        },
+        {
+          label: "Al Azizia Temperature Record",
+          lines: [
+            "Al Azizia in Sahara (south of Tripoli, Libya): recorded 57.7°C in 1922",
+            "Highest temperature ever recorded",
+            "Located in the SAHARA desert",
+          ],
+        },
+        {
+          label: "Bedouins vs Tuaregs",
+          lines: [
+            "Both are NOMADIC tribes of the Sahara",
+            "They rear goats, sheep, camels, and horses",
+            "Both wear heavy robes — NOT light clothes — to protect against dust storms and hot winds",
+          ],
+        },
+        {
+          label: "Ladakh — Hot and Cold Simultaneously",
+          lines: [
+            "Due to high altitude: air is thin → sun's heat felt intensely despite freezing temperatures",
+            "You can get BOTH sunstroke and frostbite at the same time",
+            "This paradox is a directly testable 'Do You Know' fact",
+          ],
+        },
+        {
+          label: "Chiru / Tibetan Antelope — Shahtoosh",
+          lines: [
+            "Chiru (Tibetan antelope) = endangered species",
+            "Hunted for its wool = shahtoosh (light in weight, extremely warm)",
+            "NOT to be confused with Pashmina (which is from Pashmina goats)",
+          ],
+        },
+        {
+          label: "Drass — Coldest Inhabited Place",
+          lines: [
+            "Drass = one of the coldest inhabited places on Earth",
+            "Located in LADAKH",
+          ],
+        },
+        {
+          label: "Ladakh Famous Monasteries",
+          lines: [
+            "Famous gompas/monasteries: Hemis, Thiksey, Shey, Lamayuru",
+            "Exercise directly asks: Hemis in Ladakh is a famous → monastery (NOT temple or church)",
+          ],
+        },
+      ],
+      mainsAngle:
+        "Chapter 7 illustrates two extremes of human adaptation to harsh environments. The Sahara section connects to GS-1 world geography and GS-3 energy questions (oil discovery transforming nomadic cultures in Algeria, Libya, Egypt). The Ladakh section is directly relevant to contemporary GS-2/GS-3 topics on border infrastructure (NH 1A, Manali-Leh Highway), environmental concerns (Chiru/shahtoosh poaching, Galwan-area ecology), and tourism development in ecologically fragile areas.",
+      mainsTheme:
+        "Human adaptation in extreme environments — Sahara (hot desert) and Ladakh (cold desert)",
+      recall: [
+        "Desert = arid region, extremely high/low temperatures, scanty vegetation",
+        "Sahara: world's largest hot desert; 8.54 million sq km; 11 countries; North Africa",
+        "Sahara climate: scorching hot days (up to 50°C), freezing cold nights",
+        "Al Azizia (Libya): 57.7°C in 1922 — highest recorded temperature",
+        "Sahara vegetation: cactus, date palms, acacia",
+        "Bedouins + Tuaregs: nomadic tribes of Sahara; rear goats, sheep, camels, horses",
+        "Egyptian cotton: famous worldwide; grown in Egypt",
+        "Oil in Algeria, Libya, Egypt transforming Sahara",
+        "Ladakh = La (mountain pass) + Dak (country); also Khapa-chan (snow land)",
+        "Ladakh lies in Great Himalayas; eastern side of J&K",
+        "Most important river: Indus; Gangri glacier example",
+        "Ladakh altitude: 3,000m (Kargil) to 8,000m+ (Karakoram)",
+        "Rainfall: as low as 10 cm/year",
+        "Drass: one of coldest inhabited places on Earth; in Ladakh",
+        "Animals: wild goats, wild sheep, yak; Chiru (endangered) → shahtoosh wool",
+        "People: Muslims or Buddhists; monasteries = Hemis, Thiksey, Shey, Lamayuru",
+        "NH 1A: Leh to Kashmir Valley via Zoji La Pass",
+      ],
+    },
+  },
+  quizzes: {
+    "geo7-ch7": {
+      title: "Life in the Deserts",
+      questions: [
+        {
+          q: "A desert is defined as:",
+          options: [
+            "Any region with no human habitation",
+            "An arid region characterised by extremely high or low temperatures and scarce vegetation",
+            "Any region receiving less than 50 cm of rainfall annually",
+            "A region found only in Africa and Asia",
+          ],
+          correct: 1,
+          explain:
+            "A desert is an arid region characterised by extremely high or low temperatures (hence hot AND cold deserts exist) and has scanty/scarce vegetation.",
+        },
+        {
+          q: "The Sahara is described as the world's largest hot desert. Its area is approximately:",
+          options: [
+            "3.28 million sq km",
+            "5.50 million sq km",
+            "8.54 million sq km",
+            "12 million sq km",
+          ],
+          correct: 2,
+          explain:
+            "The Sahara has an area of about 8.54 million sq km. For reference, India's total area is 3.28 million sq km — the Sahara is nearly 2.6 times larger.",
+        },
+        {
+          q: "The Sahara desert touches how many countries, and in which part of Africa is it located?",
+          options: [
+            "Eight countries; Central Africa",
+            "Eleven countries; Northern Africa",
+            "Five countries; Eastern Africa",
+            "Fifteen countries; Western Africa",
+          ],
+          correct: 1,
+          explain:
+            "The Sahara touches eleven countries and covers a large part of Northern Africa: Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, Sudan, Tunisia, and Western Sahara.",
+        },
+        {
+          q: "The highest temperature ever recorded in the Sahara (57.7°C) was at:",
+          options: [
+            "Cairo, Egypt",
+            "Timbuktu, Mali",
+            "Al Azizia, Libya (south of Tripoli)",
+            "Agadez, Niger",
+          ],
+          correct: 2,
+          explain:
+            "Al Azizia in the Sahara desert, south of Tripoli in Libya, recorded the highest temperature of 57.7°C in 1922.",
+        },
+        {
+          q: [
+            "Consider the following statements about the Sahara's climate:",
+            "I. Days can be scorching hot with temperatures soaring up to 50°C.",
+            "II. Nights in the Sahara are always warm.",
+            "III. The sky is mostly cloudless and clear.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: [
+            "I and III only",
+            "I, II and III",
+            "I only",
+            "II and III only",
+          ],
+          correct: 0,
+          explain:
+            "Statements I and III are correct. Statement II is incorrect — Sahara nights can be FREEZING COLD with temperatures nearing zero degrees.",
+        },
+        {
+          q: "Which of the following correctly describes the vegetation of the Sahara desert?",
+          options: [
+            "Tropical deciduous trees like teak and sal",
+            "Dense rainforest with bromeliads and orchids",
+            "Cactus, date palms, and acacia; with oasis supporting date palms",
+            "Coniferous trees like pine and deodar",
+          ],
+          correct: 2,
+          explain:
+            "Sahara vegetation includes cactus, date palms and acacia. At oases (where underground water reaches the surface), date palms grow and settlements are possible.",
+        },
+        {
+          q: "An oasis in the Sahara desert forms because:",
+          options: [
+            "Rivers flow underground and emerge at certain points",
+            "Wind blows away sands forming depressions where underground water reaches the surface",
+            "The desert receives heavy seasonal rainfall at certain locations",
+            "Ancient rivers dried up and left fertile zones",
+          ],
+          correct: 1,
+          explain:
+            "Depressions are formed when wind blows away sands. In these depressions, underground water reaches the surface, forming an oasis — a fertile area where people can settle and grow date palms and other crops.",
+        },
+        {
+          q: "Bedouins and Tuaregs are associated with which desert and what is their primary occupation?",
+          options: [
+            "Ladakh; yak herding and barley farming",
+            "Sahara; nomadic lifestyle rearing livestock (goats, sheep, camels, horses)",
+            "Thar; camel herding and handicraft making",
+            "Gobi; nomadic herding of horses and cattle",
+          ],
+          correct: 1,
+          explain:
+            "Bedouins and Tuaregs are nomadic tribes of the Sahara desert who rear livestock such as goats, sheep, camels and horses — these animals provide milk, hides, and hair for their daily needs.",
+        },
+        {
+          q: "Egyptian cotton, famous worldwide, is grown in:",
+          options: ["Libya", "Sudan", "Egypt", "Morocco"],
+          correct: 2,
+          explain:
+            "Egyptian cotton is famous worldwide and is grown in Egypt — particularly in the Nile Valley where water availability makes agriculture possible even in the otherwise arid Sahara region.",
+        },
+        {
+          q: "Which minerals are transforming the Sahara desert through their discovery?",
+          options: [
+            "Gold and diamonds in Mali and Niger",
+            "Oil in Algeria, Libya and Egypt; iron, phosphorus, manganese, uranium also found",
+            "Coal and copper in Sudan and Mauritania",
+            "Bauxite and tin in Chad and Tunisia",
+          ],
+          correct: 1,
+          explain:
+            "The discovery of oil (in Algeria, Libya, and Egypt) is constantly transforming the Sahara. Other important minerals include iron, phosphorus, manganese, and uranium.",
+        },
+        {
+          q: "Ladakh is described as a cold desert. The word 'Ladakh' is made up of two words. What do they mean?",
+          options: [
+            "'La' = snow and 'Dak' = land",
+            "'La' = mountain pass and 'Dak' = country",
+            "'La' = lake and 'Dak' = desert",
+            "'La' = cold and 'Dak' = mountain",
+          ],
+          correct: 1,
+          explain:
+            "Ladakh is made up of 'La' meaning 'mountain pass' and 'Dak' meaning 'country'. It is also known as 'Khapa-chan', meaning 'snow land'.",
+        },
+        {
+          q: "Ladakh is located on the eastern side of Jammu and Kashmir and is enclosed by:",
+          options: [
+            "The Aravalli Hills in the north and the Vindhya Range in the south",
+            "The Karakoram Range in the north and the Zanskar Mountains in the south",
+            "The Himalayan Range in the north and the Shivalik Hills in the south",
+            "The Hindu Kush in the north and the Pir Panjal Range in the south",
+          ],
+          correct: 1,
+          explain:
+            "Ladakh is enclosed by the Karakoram Range in the north and the Zanskar Mountains in the south.",
+        },
+        {
+          q: "The most important river flowing through Ladakh is:",
+          options: ["Brahmaputra", "Jhelum", "Indus", "Shyok"],
+          correct: 2,
+          explain:
+            "The Indus is the most important river flowing through Ladakh — it forms deep valleys and gorges there. The Indus also passes through the famous Gangri glacier region.",
+        },
+        {
+          q: [
+            "Assertion (A): In Ladakh, you may suffer from both sunstroke and frostbite at the same time.",
+            "Reason (R): The air at high altitude in Ladakh is so thin that the heat of the sun can be felt intensely even while temperatures remain freezing cold.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both A and R are true, and R is the correct explanation of A",
+            "Both A and R are true, but R is NOT the correct explanation of A",
+            "A is true, but R is false",
+            "A is false, but R is true",
+          ],
+          correct: 0,
+          explain:
+            "Both are true and R correctly explains A — thin air at high altitude cannot block solar radiation effectively, so the sun burns intensely even while the surrounding air temperature remains below freezing.",
+        },
+        {
+          q: "Drass in Ladakh is notable because it is:",
+          options: [
+            "The highest human settlement in the world",
+            "One of the coldest inhabited places on Earth",
+            "The site of the largest glacier in India",
+            "The capital of the cold desert region",
+          ],
+          correct: 1,
+          explain:
+            "Drass is one of the coldest inhabited places on Earth — it is located in Ladakh and experiences some of the most extreme cold temperatures where humans still live.",
+        },
+        {
+          q: "The Chiru (Tibetan antelope) is an endangered species. It is hunted primarily for:",
+          options: [
+            "Its meat, which is considered a delicacy",
+            "Its wool called shahtoosh, which is light in weight and extremely warm",
+            "Its horns, which are used in traditional medicine",
+            "Its hide, which is used to make leather goods",
+          ],
+          correct: 1,
+          explain:
+            "The Chiru (Tibetan antelope) is endangered because it is hunted for its wool called shahtoosh — famous for being light in weight and extremely warm.",
+        },
+        {
+          q: "The people of Ladakh are mainly:",
+          options: [
+            "Hindus and Sikhs",
+            "Muslims and Buddhists",
+            "Christians and Muslims",
+            "Buddhists and Hindus",
+          ],
+          correct: 1,
+          explain:
+            "The people of Ladakh are either Muslims or Buddhists. Several Buddhist monasteries (gompas) dot the Ladakhi landscape.",
+        },
+        {
+          q: "Which of the following is NOT one of the famous Buddhist monasteries (gompas) of Ladakh mentioned in the chapter?",
+          options: ["Hemis", "Thiksey", "Shey", "Tawang"],
+          correct: 3,
+          explain:
+            "Hemis, Thiksey, Shey, and Lamayuru are the famous monasteries mentioned for Ladakh. Tawang monastery is in Arunachal Pradesh — NOT mentioned as a Ladakhi monastery.",
+        },
+        {
+          q: "The National Highway that connects Leh to Kashmir Valley in Ladakh is:",
+          options: ["NH 44", "NH 1A (through Zoji La Pass)", "NH 58", "NH 22"],
+          correct: 1,
+          explain:
+            "National Highway 1A connects Leh to Kashmir Valley through the Zoji La Pass.",
+        },
+        {
+          q: [
+            "Consider the following statements comparing the Sahara and Ladakh:",
+            "I. Sahara is a HOT desert; Ladakh is a COLD desert.",
+            "II. Sahara is in North Africa; Ladakh is in the Great Himalayas (eastern J&K).",
+            "III. Bedouins and Tuaregs are nomadic tribes of Ladakh; Muslims and Buddhists are the people of Sahara.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: [
+            "I and II only",
+            "I, II and III",
+            "II and III only",
+            "I only",
+          ],
+          correct: 0,
+          explain:
+            "Statements I and II are correct. Statement III is incorrect — Bedouins and Tuaregs are the nomadic tribes of the SAHARA; the people of LADAKH are Muslims and Buddhists.",
+        },
+        {
+          q: [
+            "Assertion (A): The Sahara was not always a hot, dry desert.",
+            "Reason (R): Cave paintings in the Sahara show rivers, crocodiles, elephants, lions and giraffes, indicating it was once a lush green plain before climate change made it hot and dry.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both A and R are true, and R is the correct explanation of A",
+            "Both A and R are true, but R is NOT the correct explanation of A",
+            "A is true, but R is false",
+            "A is false, but R is true",
+          ],
+          correct: 0,
+          explain:
+            "Both are true and R correctly explains A — the cave paintings depicting rivers and animals like crocodiles and giraffes are the evidence that the Sahara was once a green plain, which climate change later turned into a desert.",
+        },
+        {
+          q: "The Tafilalet Oasis, one of the largest oases (about 13,000 sq km), is located in:",
+          options: ["Libya", "Egypt", "Morocco", "Algeria"],
+          correct: 2,
+          explain:
+            "The Tafilalet Oasis in Morocco is one of the largest oases, covering about 13,000 sq km.",
+        },
+        {
+          q: "The altitude of Ladakh varies from about 3,000 m in Kargil to more than 8,000 m in:",
+          options: [
+            "The Zanskar Mountains",
+            "The Karakoram Range",
+            "The Pir Panjal Range",
+            "The Shivalik Hills",
+          ],
+          correct: 1,
+          explain:
+            "Ladakh's altitude varies from about 3,000 m in Kargil to more than 8,000 m in the Karakoram Range.",
+        },
+        {
+          q: "The annual rainfall in Ladakh can be as low as:",
+          options: ["10 cm", "50 cm", "100 cm", "150 cm"],
+          correct: 0,
+          explain:
+            "Ladakh, being a cold desert, receives very little rainfall — as low as 10 cm every year — and experiences freezing winds along with burning hot sunlight.",
+        },
+        {
+          q: "The finest cricket bats are made from the wood of which tree, found in the valleys of Ladakh?",
+          options: ["Poplar", "Willow", "Deodar", "Apricot"],
+          correct: 1,
+          explain:
+            "The finest cricket bats are made from willow wood. Groves of willows and poplars are found in the valleys of Ladakh.",
+        },
+        {
+          q: "In Ladakh, the milk of which animal is used to make cheese and butter?",
+          options: ["Sheep", "Goat", "Yak", "Wild sheep"],
+          correct: 2,
+          explain:
+            "Yak's milk is used to make cheese and butter in Ladakh. Sheep and goat hair is used to make woollens, and animals are reared for milk, meat and hides.",
+        },
+        {
+          q: [
+            "Consider the following crops cultivated in the summer in Ladakh:",
+            "I. Barley",
+            "II. Potatoes",
+            "III. Peas",
+            "IV. Turnip",
+            "How many of the above are grown in Ladakh during summer?",
+          ],
+          options: ["Only two", "Only three", "All four", "Only one"],
+          correct: 2,
+          explain:
+            "All four — barley, potatoes, peas and turnip — along with beans, are cultivated during the busy summer season in Ladakh.",
+        },
+        {
+          q: "The Manali-Leh Highway is significant because it:",
+          options: [
+            "Remains open throughout the year",
+            "Crosses four passes and opens only between July and September",
+            "Connects Leh directly to the Sahara region",
+            "Runs along the Zoji La Pass to the Kashmir Valley",
+          ],
+          correct: 1,
+          explain:
+            "The Manali-Leh Highway crosses four passes — Baralacha la, Lungalacha la, Tanglang la and Rohtang la — and opens only between July and September, when snow is cleared from the road. (NH 1A connects Leh to Kashmir Valley via Zoji La.)",
+        },
+        {
+          q: "During winters in Ladakh, temperatures may remain below:",
+          options: ["-10°C", "-20°C", "-40°C", "0°C"],
+          correct: 2,
+          explain:
+            "Winter temperatures in Ladakh may remain below -40°C for most of the time, while night temperatures fall well below -30°C.",
+        },
+        {
+          q: [
+            "Consider the following animals of the Sahara desert:",
+            "I. Camels",
+            "II. Hyenas",
+            "III. Jackals",
+            "IV. Scorpions",
+            "How many of the above are found in the Sahara?",
+          ],
+          options: ["Only two", "Only three", "All four", "Only one"],
+          correct: 2,
+          explain:
+            "All four are found in the Sahara — camels, hyenas, jackals, foxes, scorpions, and many varieties of snakes and lizards.",
+        },
+      ],
+    },
+  },
+});

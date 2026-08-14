@@ -217,5 +217,112 @@ const QUIZ_geo7_ch4 = {
       explain:
         "The Odisha supercyclone (winds up to 260 km/hr, lasting 36+ hours) shows how cyclones cause damage through three factors: wind velocity, heavy rain, and tidal surge — directly relevant to GS-3 Disaster Management.",
     },
+    {
+      q: "Which of the following statements about oxygen in the atmosphere is correct?",
+      options: [
+        "It is the most plentiful gas in the atmosphere",
+        "It is the second most plentiful gas; animals breathe it and plants produce it during photosynthesis",
+        "It makes up 78% of the atmosphere",
+        "Only bacteria can use it directly",
+      ],
+      correct: 1,
+      explain:
+        "Oxygen (21%) is the second most plentiful gas after nitrogen. Humans and animals breathe it, and green plants produce it during photosynthesis.",
+    },
+    {
+      q: "The troposphere, the most important layer of the atmosphere, has an average height of about:",
+      options: ["13 km", "50 km", "80 km", "400 km"],
+      correct: 0,
+      explain:
+        "The troposphere has an average height of about 13 km. We live and breathe in this layer, and almost all weather phenomena occur here.",
+    },
+    {
+      q: "In which layer of the atmosphere do light gases like helium and hydrogen float off into space?",
+      options: ["Stratosphere", "Mesosphere", "Thermosphere", "Exosphere"],
+      correct: 3,
+      explain:
+        "The Exosphere is the uppermost layer with very thin air, from where light gases like helium and hydrogen float into space.",
+    },
+    {
+      q: [
+        "Consider the following possible consequences of global warming:",
+        "I. Melting of snow in the coldest parts of the Earth",
+        "II. Rise in sea levels and flooding of coastal areas",
+        "III. Extinction of some plants and animals",
+        "How many of the above are mentioned as consequences of global warming?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 2,
+      explain:
+        "All three are consequences of global warming mentioned in the chapter — melting snow, rising sea levels with coastal flooding, drastic climate changes, and extinction of some species.",
+    },
+    {
+      q: "A wind is named after:",
+      options: [
+        "The direction towards which it blows",
+        "The direction from which it blows",
+        "The season in which it blows",
+        "The speed at which it blows",
+      ],
+      correct: 1,
+      explain:
+        "A wind is named after the direction FROM which it blows — for example, a wind blowing from the west is called a westerly.",
+    },
+    {
+      q: "Convectional rainfall occurs when:",
+      options: [
+        "Moist air is forced up a mountain barrier",
+        "Warm air rises, cools, and condenses — common in the plains during summer",
+        "Cold air and warm air masses meet",
+        "Water vapour condenses at night due to cooling of the ground",
+      ],
+      correct: 1,
+      explain:
+        "Convectional rainfall occurs when warm air rises, cools and condenses to form clouds and rain — it is common in the plains during the hot summer season.",
+    },
+    {
+      q: "Cyclonic rainfall is caused when:",
+      options: [
+        "Warm moist air is pushed up the windward side of hills",
+        "Cold air and warm air meet, with the warm air rising over the cold air",
+        "The ground heats up strongly during summer afternoons",
+        "Winds blow constantly from high to low pressure",
+      ],
+      correct: 1,
+      explain:
+        "Cyclonic rainfall occurs when a mass of cold air and a mass of warm air meet; the lighter warm air rises over the cold air and cools, producing rainfall.",
+    },
+    {
+      q: "The capacity of air to hold water vapour is called:",
+      options: ["Insolation", "Precipitation", "Humidity", "Air pressure"],
+      correct: 2,
+      explain:
+        "Humidity is the capacity of air to hold water vapour. When the air is full of water vapour it is a humid day and clothes dry slowly.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Instrument — Measurement):",
+        "I. Thermometer — Temperature",
+        "II. Rain gauge — Amount of rainfall",
+        "III. Wind vane — Direction of the wind",
+        "How many of the above pairs are correctly matched?",
+      ],
+      options: [
+        "Only one pair",
+        "Only two pairs",
+        "All three pairs",
+        "None of the pairs",
+      ],
+      correct: 2,
+      explain:
+        "All three pairs are correctly matched — thermometer (temperature), rain gauge (rainfall amount), and wind vane (wind direction). A barometer measures atmospheric pressure.",
+    },
+    {
+      q: "During the Odisha supercyclone of 29 October 1999, the winds reached speeds of up to:",
+      options: ["120 km/hr", "180 km/hr", "260 km/hr", "400 km/hr"],
+      correct: 2,
+      explain:
+        "The Odisha supercyclone of 29 October 1999 brought winds of up to 260 km/hr that lasted over 36 hours, devastating large portions of the state.",
+    },
   ],
 };

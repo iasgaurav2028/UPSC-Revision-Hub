@@ -120,7 +120,7 @@ function topoSortFiles(records) {
       if (!depPath) {
         throw new Error(
           `Unresolved reference: "${refName}" is used in ${relPath} but no file declares it.\n` +
-          `  (Check for a typo, or a missing/not-yet-created file.)`,
+            `  (Check for a typo, or a missing/not-yet-created file.)`,
         );
       }
       if (depPath !== relPath) visit(depPath, chain.concat(relPath));
@@ -160,7 +160,7 @@ function loadDataObjects(sortedRecords) {
     document: {
       createElement: () => ({
         style: {},
-        addEventListener() { },
+        addEventListener() {},
         textContent: "",
         get innerHTML() {
           return this.textContent;
@@ -170,9 +170,9 @@ function loadDataObjects(sortedRecords) {
         },
       }),
       getElementById: () => ({
-        addEventListener() { },
+        addEventListener() {},
         style: {},
-        classList: { add() { }, remove() { }, contains: () => false },
+        classList: { add() {}, remove() {}, contains: () => false },
         innerHTML: "",
         textContent: "",
         value: "",
@@ -181,9 +181,9 @@ function loadDataObjects(sortedRecords) {
       querySelectorAll: () => [],
       querySelector: () => ({
         scrollTop: 0,
-        classList: { add() { }, remove() { }, contains: () => false },
+        classList: { add() {}, remove() {}, contains: () => false },
       }),
-      addEventListener: () => { },
+      addEventListener: () => {},
       documentElement: {},
       fullscreenElement: null,
       webkitFullscreenElement: null,
@@ -191,8 +191,8 @@ function loadDataObjects(sortedRecords) {
     },
     localStorage: {
       getItem: () => null,
-      setItem: () => { },
-      removeItem: () => { },
+      setItem: () => {},
+      removeItem: () => {},
     },
   };
   sandbox.window = sandbox;

@@ -33,12 +33,7 @@ const QUIZ_qr_levels_partnership = {
         "3. Comprehensive Strategic Partnership",
         "Select the correct order:",
       ],
-      options: [
-        "2 → 1 → 3",
-        "1 → 2 → 3",
-        "3 → 1 → 2",
-        "2 → 3 → 1",
-      ],
+      options: ["2 → 1 → 3", "1 → 2 → 3", "3 → 1 → 2", "2 → 3 → 1"],
       correct: 0,
       explain:
         "In rising order: Normal Diplomatic Relations → Strategic Partnership → Comprehensive Strategic Partnership.",

@@ -251,5 +251,117 @@ const QUIZ_geo7_ch2 = {
       explain:
         "Statements II and III are correct. Statement I is incorrect — the OPPOSITE is true: the crust is ~35 km thick under continental masses but only ~5 km thick on ocean floors.",
     },
+    {
+      q: "The mantle lies just beneath the crust and extends to a depth of about:",
+      options: ["1,000 km", "2,900 km", "3,500 km", "6,371 km"],
+      correct: 1,
+      explain:
+        "The mantle extends to a depth of about 2,900 km below the crust and constitutes 84% of the Earth's volume — the largest layer by volume.",
+    },
+    {
+      q: "The radius of the Earth is approximately:",
+      options: ["3,500 km", "2,900 km", "6,371 km", "8,540 km"],
+      correct: 2,
+      explain:
+        "The radius of the Earth is about 6,371 km. The core alone has a radius of about 3,500 km.",
+    },
+    {
+      q: "The oceanic crust is called 'SIMA' because it is mainly composed of:",
+      options: [
+        "Silica and alumina",
+        "Silica and magnesium",
+        "Nickel and iron",
+        "Sodium and magnesium",
+      ],
+      correct: 1,
+      explain:
+        "SIMA = Si (silica) + Ma (magnesium). This is the composition of the oceanic crust, in contrast to the continental crust (SIAL — silica and alumina).",
+    },
+    {
+      q: [
+        "Consider the following pairs (Rock type — Word origin meaning):",
+        "I. Igneous — Latin 'Ignis' meaning fire",
+        "II. Sedimentary — Latin 'sedimentum' meaning settle down",
+        "III. Metamorphic — Greek 'metamorphose' meaning change of form",
+        "How many of the above pairs are correctly matched?",
+      ],
+      options: [
+        "Only one pair",
+        "Only two pairs",
+        "All three pairs",
+        "None of the pairs",
+      ],
+      correct: 2,
+      explain:
+        "All three pairs are correctly matched — the names of the three rock types come directly from these word origins.",
+    },
+    {
+      q: "A rock is best defined as:",
+      options: [
+        "Any naturally occurring substance with a definite chemical composition",
+        "Any natural mass of mineral matter that makes up the Earth's crust",
+        "Only the molten material found inside the Earth",
+        "The remains of dead plants and animals in layers",
+      ],
+      correct: 1,
+      explain:
+        "A rock is any natural mass of mineral matter that makes up the Earth's crust. Rocks can be of different colour, size and texture.",
+    },
+    {
+      q: [
+        "Arrange the process of formation of sedimentary rocks in the correct order:",
+        "I. Rocks break down into small fragments called sediments",
+        "II. Sediments are transported and deposited by wind, water, etc.",
+        "III. Loose sediments are compressed and hardened to form layers of rock",
+        "Which is the correct sequence?",
+      ],
+      options: ["I → II → III", "III → II → I", "II → I → III", "I → III → II"],
+      correct: 0,
+      explain:
+        "Sedimentary rocks form in this order: rocks break into sediments → sediments transported and deposited → loose sediments compressed and hardened into layers of rock.",
+    },
+    {
+      q: "Grinding stones used to prepare powder and paste of spices are commonly made of:",
+      options: ["Basalt", "Granite", "Marble", "Slate"],
+      correct: 1,
+      explain:
+        "Granite (an intrusive igneous rock with large grains) is hard and is used to make grinding stones for spices.",
+    },
+    {
+      q: [
+        "Consider the following minerals used as fuels:",
+        "I. Coal",
+        "II. Natural gas",
+        "III. Petroleum",
+        "How many of the above are correctly identified as fuel minerals?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 2,
+      explain:
+        "All three — coal, natural gas and petroleum — are minerals used as fuels. Minerals like iron, aluminium, gold and uranium are used in industries.",
+    },
+    {
+      q: [
+        "Statement I: The mantle is the largest of the Earth's three layers by volume.",
+        "Statement II: The mantle constitutes about 84% of the Earth's volume.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 0,
+      explain:
+        "Both are correct and II explains I — the mantle is the largest layer by volume precisely because it makes up about 84% of the Earth's volume (crust 1%, core 15%).",
+    },
+    {
+      q: "Which of the following is an example of a metamorphic rock formed from limestone?",
+      options: ["Slate", "Marble", "Sandstone", "Basalt"],
+      correct: 1,
+      explain:
+        "Marble is a metamorphic rock formed when limestone is subjected to great heat and pressure. Clay similarly changes into slate.",
+    },
   ],
 };

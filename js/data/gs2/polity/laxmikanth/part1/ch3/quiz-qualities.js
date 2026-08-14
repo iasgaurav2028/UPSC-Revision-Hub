@@ -184,6 +184,127 @@ const QUIZ_qualities = {
         "The chapter specifically states comprehensiveness means covering: 'the powers of the government as well as the rights and duties of the citizens.' Foreign policy positions and amendment procedures may be included in a constitution but are NOT part of the chapter's definition of comprehensiveness.",
     },
     {
+      q: "According to the chapter, a lengthy constitution with too many details is undesirable because it:",
+      options: [
+        "Makes the constitution more democratic",
+        "Creates confusion in the interpretation of its clauses",
+        "Automatically becomes a living document",
+        "Reduces the discretion of judges to zero",
+      ],
+      correct: 1,
+      explain:
+        "The quality of Brevity requires precision — a lengthy constitution with too many details creates confusion in the interpretation of its clauses.",
+    },
+    {
+      q: "The quality of 'Clarity' primarily requires that a constitution should:",
+      options: [
+        "Be as short as possible",
+        "Specify its provisions in clear terms, avoiding complicated language",
+        "Contain one definite meaning to limit judicial discretion",
+        "Adapt to changing circumstances over time",
+      ],
+      correct: 1,
+      explain:
+        "Clarity requires the constitution to specify its provisions in clear terms; complicated language would reduce the degree of understanding among citizens.",
+    },
+    {
+      q: [
+        "Consider the following qualities of a good constitution:",
+        "I. Brevity",
+        "II. Clarity",
+        "III. Definiteness",
+        "IV. Adaptability",
+        "How many of the above are among the seven qualities discussed in the chapter?",
+      ],
+      options: ["Only two", "Only three", "All four", "Only one"],
+      correct: 2,
+      explain:
+        "All four are among the seven qualities — Brevity, Clarity, Definiteness, Comprehensiveness, Suitability, Stability and Adaptability.",
+    },
+    {
+      q: [
+        "Statement I: Comprehensiveness reduces the scope for controversies and litigations by covering the powers of government and the rights and duties of citizens.",
+        "Statement II: Comprehensiveness is fully compatible with Brevity, so a constitution can maximise both simultaneously.",
+        "Which one of the following is correct in respect of the above statements?",
+      ],
+      options: [
+        "Both Statement I and Statement II are correct",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct",
+        "Both Statement I and Statement II are incorrect",
+      ],
+      correct: 1,
+      explain:
+        "Statement I is correct. Statement II is incorrect — Brevity and Comprehensiveness are inherently in tension; a constitution cannot be both maximally brief and maximally comprehensive at the same time.",
+    },
+    {
+      q: "The concept of a constitution being a 'living document' is directly associated with which quality?",
+      options: ["Stability", "Adaptability", "Brevity", "Definiteness"],
+      correct: 1,
+      explain:
+        "The 'living document' concept is directly associated with Adaptability — the constitution should be dynamic and able to adapt to changing situations rather than remaining static.",
+    },
+    {
+      q: "Which quality of a good constitution is concerned with facilitating political stability and strengthening citizens' obedience to the constitution?",
+      options: ["Suitability", "Stability", "Clarity", "Comprehensiveness"],
+      correct: 1,
+      explain:
+        "Stability is the quality that facilitates political stability and resists easy tampering, thereby strengthening the obedience of citizens to the constitution.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. Definiteness reduces the discretion of judges by giving provisions an unambiguous meaning.",
+        "II. Suitability requires the constitution to reflect the needs and aspirations of the people.",
+        "III. Adaptability requires the constitution to remain completely unchangeable.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: [
+        "I and II only",
+        "II and III only",
+        "I and III only",
+        "I, II and III",
+      ],
+      correct: 0,
+      explain:
+        "Statements I and II are correct. Statement III is incorrect — Adaptability requires the constitution to be dynamic and capable of change, not unchangeable; unchangeability would contradict the 'living document' idea.",
+    },
+    {
+      q: "Which one of the following pairs of qualities represents the two core tensions in constitutional design highlighted in the chapter?",
+      options: [
+        "Clarity vs Definiteness, and Suitability vs Brevity",
+        "Brevity vs Comprehensiveness, and Stability vs Adaptability",
+        "Clarity vs Stability, and Definiteness vs Adaptability",
+        "Suitability vs Comprehensiveness, and Brevity vs Clarity",
+      ],
+      correct: 1,
+      explain:
+        "The two core tensions are Brevity vs Comprehensiveness and Stability vs Adaptability — a constitution cannot maximise both qualities in each pair simultaneously and must strike a balance.",
+    },
+    {
+      q: "The USA's adoption of a very short constitution, with gaps later filled by judicial interpretation, illustrates a prioritisation of which quality?",
+      options: ["Comprehensiveness", "Brevity", "Suitability", "Stability"],
+      correct: 1,
+      explain:
+        "The USA prioritised Brevity — adopting a short constitution (7 Articles + 27 Amendments) whose gaps have been filled through judicial interpretation, in contrast to India's comprehensive approach.",
+    },
+    {
+      q: [
+        "Statement I: The Basic Structure Doctrine acts as an ultimate safeguard for the stability of the Indian Constitution.",
+        "Statement II: The Supreme Court's expansion of Article 21 illustrates the Constitution functioning as a living document.",
+        "Which one of the following is correct in respect of the above statements?",
+      ],
+      options: [
+        "Both statements are correct and represent the balance between stability and adaptability",
+        "Statement I is correct but Statement II is incorrect",
+        "Statement I is incorrect but Statement II is correct",
+        "Both statements are incorrect",
+      ],
+      correct: 0,
+      explain:
+        "Both statements are correct — the Basic Structure Doctrine protects stability (limiting what even amendments can alter), while the progressive expansion of Article 21 shows adaptability (living-document interpretation). Together they reflect the stability-adaptability balance.",
+    },
+    {
       q: "Which of the following correctly explains why 'Clarity' is listed as a separate quality from 'Definiteness'?",
       options: [
         "They are actually the same quality mentioned twice",

@@ -277,5 +277,98 @@ const QUIZ_geo6_ch4 = {
       explain:
         "The chapter's examples: small scale — 5 cm on map = 500 km (for large areas like continents); large scale — 5 cm on map = 500 metres (for small areas like villages).",
     },
+    {
+      q: "Including both cardinal and intermediate directions, how many principal directions are there?",
+      options: ["Four", "Six", "Eight", "Ten"],
+      correct: 2,
+      explain:
+        "There are eight principal directions — four cardinal (N, S, E, W) and four intermediate (NE, SE, SW, NW).",
+    },
+    {
+      q: "The intermediate direction 'North-East (NE)' lies between which two cardinal points?",
+      options: [
+        "North and West",
+        "North and East",
+        "South and East",
+        "South and West",
+      ],
+      correct: 1,
+      explain: "North-East lies midway between North and East.",
+    },
+    {
+      q: "To show the detailed length and breadth of a single room, which of the following is most suitable?",
+      options: ["A small scale map", "A sketch", "A plan", "A political map"],
+      correct: 2,
+      explain:
+        "A plan — a drawing of a small area on a large scale — is used to show detailed measurements such as the length and breadth of a room.",
+    },
+    {
+      q: "On a map, the colour brown is conventionally used to represent:",
+      options: ["Water bodies", "Mountains", "Plains", "Plateau"],
+      correct: 1,
+      explain:
+        "Brown is used to represent mountains (Blue=water, Yellow=plateau, Green=plains).",
+    },
+    {
+      q: [
+        "Assertion (A): A globe shows the correct shape and size of the Earth's features, but a flat map involves some distortion.",
+        "Reason (R): It is impossible to flatten a round shape completely without distortion.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — because a spherical surface cannot be flattened without distortion, maps drawn on flat paper inevitably distort shapes and sizes.",
+    },
+    {
+      q: "Physical maps are also known as:",
+      options: [
+        "Political maps",
+        "Relief maps",
+        "Thematic maps",
+        "Sketch maps",
+      ],
+      correct: 1,
+      explain:
+        "Maps showing natural features such as mountains, plains and rivers are called physical or relief maps.",
+    },
+    {
+      q: "On a map with a scale of 1 cm = 5 km, two towns that are 15 km apart on the ground would be shown how far apart on the map?",
+      options: ["1 cm", "3 cm", "5 cm", "15 cm"],
+      correct: 1,
+      explain:
+        "At 1 cm = 5 km, 15 km would be represented by 15 ÷ 5 = 3 cm on the map.",
+    },
+    {
+      q: "Which of the following is NOT one of the three components of a map?",
+      options: ["Distance (Scale)", "Direction", "Symbol", "Title"],
+      correct: 3,
+      explain:
+        "The three components of a map are Distance (Scale), Direction, and Symbol. Title is not counted among these three components.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. A globe is useful for studying the Earth as a whole.",
+        "II. A map is useful for studying parts of the Earth such as a district or town.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both are correct — a globe helps study the whole Earth, while maps are better suited for studying specific parts of it.",
+    },
+    {
+      q: "A rough drawing of an area drawn from memory and not to scale is called a:",
+      options: ["Plan", "Sketch map", "Relief map", "Political map"],
+      correct: 1,
+      explain:
+        "A drawing based mainly on memory and spot observation, and not drawn to scale, is called a sketch (sketch map).",
+    },
   ],
 };

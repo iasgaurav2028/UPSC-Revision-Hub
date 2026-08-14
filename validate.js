@@ -38,9 +38,11 @@
  */
 
 const path = require("path");
-const { scanDataFiles, topoSortFiles, loadDataObjects } = require(
-  "./scan-data.js",
-);
+const {
+  scanDataFiles,
+  topoSortFiles,
+  loadDataObjects,
+} = require("./scan-data.js");
 
 const root = __dirname;
 const dataDir = path.join(root, "js", "data");

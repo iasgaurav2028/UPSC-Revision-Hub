@@ -236,5 +236,117 @@ const QUIZ_geo7_ch6 = {
       explain:
         "The 'Namami Gange' Programme has been initiated specifically to conserve the River Ganga — distinct from the Swachh Bharat Mission which focuses on sanitation broadly.",
     },
+    {
+      q: "The climate of the Amazon Basin is best described as:",
+      options: [
+        "Hot and dry throughout the year with scanty rainfall",
+        "Hot and wet throughout the year, with rain almost every day",
+        "Cool and dry with distinct seasons",
+        "Monsoon type with a wet season from mid-June to mid-September",
+      ],
+      correct: 1,
+      explain:
+        "The Amazon Basin has a hot and wet climate throughout the year. Both days and nights are almost equally hot and humid, and it rains almost every day.",
+    },
+    {
+      q: "Bromeliads in the Amazon rainforest are special plants because they:",
+      options: [
+        "Grow underground like a potato",
+        "Store water in their leaves, and frogs use these pockets of water to lay their eggs",
+        "Are the main food crop of the local people",
+        "Provide wood for building Maloca houses",
+      ],
+      correct: 1,
+      explain:
+        "Bromeliads are special plants that store water in their leaves; frogs make use of these little pockets of water to lay their eggs.",
+    },
+    {
+      q: [
+        "Consider the following animals of the Amazon Basin:",
+        "I. Toucan",
+        "II. Macaw",
+        "III. Sloth",
+        "IV. Anaconda",
+        "How many of the above are found in the Amazon Basin?",
+      ],
+      options: ["Only two", "Only three", "All four", "Only one"],
+      correct: 2,
+      explain:
+        "All four are found in the Amazon Basin — toucans and macaws (birds), the sloth, and the anaconda (a snake), along with monkeys, crocodiles and piranha.",
+    },
+    {
+      q: "The place where a river flows into another body of water is called the river's:",
+      options: ["Tributary", "Mouth", "Basin", "Delta"],
+      correct: 1,
+      explain:
+        "The place where a river flows into another body of water is called the river's mouth. Small rivers that join the main river are called tributaries, and the main river together with its tributaries drains an area called the river basin.",
+    },
+    {
+      q: "In the Ganga-Brahmaputra Basin, the monsoon brings rains during which period?",
+      options: [
+        "Mid-March to mid-June",
+        "Mid-June to mid-September",
+        "October to December",
+        "January to March",
+      ],
+      correct: 1,
+      explain:
+        "The Ganga-Brahmaputra Basin has a monsoon climate; the monsoon brings rains from mid-June to mid-September. Summers are hot and winters are cool.",
+    },
+    {
+      q: "Which of the following are the main cash crops of the Ganga-Brahmaputra Basin?",
+      options: [
+        "Coffee and cocoa",
+        "Sugarcane and jute",
+        "Date palms and barley",
+        "Manioc and maize",
+      ],
+      correct: 1,
+      explain:
+        "Sugarcane and jute are the main cash crops of the Ganga-Brahmaputra Basin. Paddy is the main food crop; wheat, maize, sorghum, gram and millets are also grown.",
+    },
+    {
+      q: "In the Ganga-Brahmaputra Basin, the Bengal tiger and crocodiles are found in:",
+      options: [
+        "The Brahmaputra plain",
+        "The Himalayan foothills",
+        "The delta area (Sundarbans)",
+        "The western dry plains",
+      ],
+      correct: 2,
+      explain:
+        "The Bengal tiger and crocodiles are found in the delta area, which has mangrove forests (the Sundarbans). The one-horned rhinoceros, by contrast, is found in the Brahmaputra plain.",
+    },
+    {
+      q: "The mangrove forests of the Ganga-Brahmaputra Basin's delta area are known as:",
+      options: [
+        "The Kaziranga forests",
+        "The Sundarbans",
+        "The Terai forests",
+        "The bamboo groves",
+      ],
+      correct: 1,
+      explain:
+        "The delta area has mangrove forests known as the Sundarbans. The plains have tropical deciduous trees (teak, sal, peepal), and the Brahmaputra plain has thick bamboo groves.",
+    },
+    {
+      q: "The Kaziranga and Manas wildlife sanctuaries, important tourist attractions, are located in:",
+      options: ["Uttar Pradesh", "Bihar", "Assam", "West Bengal"],
+      correct: 2,
+      explain:
+        "Kaziranga and Manas wildlife sanctuaries are located in Assam and are important tourist attractions of the Ganga-Brahmaputra Basin.",
+    },
+    {
+      q: [
+        "Consider the following statements about agriculture in the Ganga-Brahmaputra Basin:",
+        "I. On mountain and hill slopes, terrace farming is practised.",
+        "II. Silk is produced through the cultivation of silkworms in parts of Bihar and Assam.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both statements are correct — terrace farming is done on mountain and hill slopes, and silk is produced through sericulture (silkworm cultivation) in parts of Bihar and Assam.",
+    },
   ],
 };

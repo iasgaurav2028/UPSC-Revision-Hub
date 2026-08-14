@@ -321,5 +321,135 @@ const QUIZ_ca_composition = {
       explain:
         "Because the princely-state representatives were nominated by the rulers, the Assembly was partly nominated (and partly elected) in character.",
     },
+    {
+      q: [
+        "Consider the following statements about the composition of the Constituent Assembly:",
+        "I. The total strength was fixed at 389.",
+        "II. Of these, 296 seats were allotted to the princely states.",
+        "III. Seats were allotted roughly in the ratio of one seat per one million population.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and III are correct. Statement II is wrong — 296 seats were allotted to British India and 93 to the princely states.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Province — Category):",
+        "I. Coorg — Chief Commissioners' province",
+        "II. Assam — Governors' province",
+        "III. Ajmer-Merwara — Governors' province",
+        "How many of the pairs given above are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Pairs I and II are correct. Pair III is wrong — Ajmer-Merwara was a Chief Commissioners' province, not a governors' province.",
+    },
+    {
+      q: "In the scheme for dividing the provincial seats, the category 'General' referred to:",
+      options: [
+        "Only caste Hindus",
+        "All communities except Muslims and Sikhs",
+        "Only the Scheduled Castes",
+        "Muslims and Sikhs taken together",
+      ],
+      correct: 1,
+      explain:
+        "'General' covered all communities except Muslims and Sikhs — the three seat-division categories were Muslims, Sikhs and General.",
+    },
+    {
+      q: [
+        "Statement I: The Constituent Assembly was not directly elected on the basis of universal adult franchise.",
+        "Statement II: The provincial assemblies that elected its members were themselves constituted on a limited franchise under the Government of India Act, 1935.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are true, and II is the correct explanation of I",
+        "Both statements are true, but II is NOT the correct explanation of I",
+        "Statement I is true, but Statement II is false",
+        "Statement I is false, but Statement II is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and II explains I — because the provincial assemblies were themselves elected on a limited franchise, the Assembly could not be a directly, adult-franchise-elected body.",
+    },
+    {
+      q: [
+        "Assertion (A): The Constituent Assembly included almost all the important personalities of India at that time.",
+        "Reason (R): Mahatma Gandhi was a prominent member of the Constituent Assembly.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 2,
+      explain:
+        "A is true, but R is false — the Assembly included all important personalities of the time EXCEPT Mahatma Gandhi, who was not a member.",
+    },
+    {
+      q: "The 4 seats of the Chief Commissioners' provinces, when added to the 292 seats of the governors' provinces, give the total seats allotted to:",
+      options: [
+        "British India (296)",
+        "The princely states (93)",
+        "The whole Assembly (389)",
+        "The governors' provinces alone",
+      ],
+      correct: 0,
+      explain:
+        "292 (governors' provinces) + 4 (Chief Commissioners' provinces) = 296, the total seats allotted to British India.",
+    },
+    {
+      q: "The representatives of each community in a British province were elected by:",
+      options: [
+        "The general electorate of the province through direct vote",
+        "Members of that community in the provincial legislative assembly through single transferable vote",
+        "Nomination by the provincial Governor",
+        "The Cabinet Mission members",
+      ],
+      correct: 1,
+      explain:
+        "Representatives of each community were elected by members of that community in the provincial legislative assembly, using proportional representation by single transferable vote.",
+    },
+    {
+      q: "Which of the following statements about representation in the Constituent Assembly is correct?",
+      options: [
+        "It excluded Scheduled Castes and Scheduled Tribes",
+        "It included representatives of all sections, including SCs, STs, and women",
+        "It included only elected Hindus and Muslims",
+        "Princely states were barred from any representation",
+      ],
+      correct: 1,
+      explain:
+        "The Assembly included representatives of all sections of society — Hindus, Muslims, Sikhs, Parsis, Anglo-Indians, Indian Christians, SCs, STs and women from all these sections.",
+    },
+    {
+      q: "The elections for the 296 British-India seats of the Constituent Assembly were held in:",
+      options: [
+        "July–August 1946",
+        "November 1946",
+        "December 1946",
+        "January 1947",
+      ],
+      correct: 0,
+      explain:
+        "Elections for the 296 British-India seats were held in July–August 1946 (INC 208, Muslim League 73, others 15).",
+    },
+    {
+      q: [
+        "Consider the following statements regarding the July–August 1946 elections to the Constituent Assembly:",
+        "I. The Indian National Congress emerged as the single largest party.",
+        "II. The 93 seats reserved for the princely states were also filled in these elections.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 0,
+      explain:
+        "Only I is correct — the INC won 208 of the 296 British-India seats. The 93 princely-state seats remained unfilled as the states stayed away.",
+    },
   ],
 };

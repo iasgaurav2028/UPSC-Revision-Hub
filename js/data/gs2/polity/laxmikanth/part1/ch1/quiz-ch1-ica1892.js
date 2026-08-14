@@ -181,5 +181,125 @@ const QUIZ_ch1_ica1892 = {
       explain:
         "The 1892 Act sits between the 1861 Act (which introduced pure nomination) and the 1909 Act (which introduced separate electorates and non-official majority in provinces) — expanding deliberative functions and introducing indirect, election-resembling mechanisms as an intermediate step.",
     },
+    {
+      q: "The Indian Councils Act of 1892 gave legislative councils the power to:",
+      options: [
+        "Reject the budget entirely",
+        "Discuss the budget and address questions to the executive",
+        "Elect the Viceroy",
+        "Appoint judges",
+      ],
+      correct: 1,
+      explain:
+        "The Act enlarged deliberative functions — allowing councils to discuss the budget and to put questions to the executive.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Indian Councils Act of 1892:",
+        "I. It maintained an official majority in the councils.",
+        "II. It increased the number of non-official members.",
+        "III. It introduced separate electorates for Muslims.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — separate electorates came with the Act of 1909.",
+    },
+    {
+      q: [
+        "Arrange the following in chronological order:",
+        "1. Indian Councils Act, 1892",
+        "2. Indian Councils Act, 1861",
+        "3. Indian Councils Act, 1909",
+        "Select the correct order:",
+      ],
+      options: ["2 - 1 - 3", "1 - 2 - 3", "2 - 3 - 1", "3 - 2 - 1"],
+      correct: 0,
+      explain: "1861 → 1892 → 1909, i.e. order 2-1-3.",
+    },
+    {
+      q: "A notable feature of the Indian Councils Act of 1892 regarding the selection of members was that it:",
+      options: [
+        "Used the term 'election' explicitly",
+        "Provided a limited, indirect election-like mechanism without using the word 'election'",
+        "Introduced universal adult franchise",
+        "Abolished nomination entirely",
+      ],
+      correct: 1,
+      explain:
+        "The Act made limited, indirect provision resembling election but never used the word 'election'.",
+    },
+    {
+      q: [
+        "Statement I: The Indian Councils Act of 1892 expanded councils' deliberative functions.",
+        "Statement II: Councils could now discuss the budget, which had been introduced in India in 1860.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II correctly explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 1,
+      explain:
+        "Both are correct, but Statement II adds detail about the budget's origin rather than explaining WHY deliberative functions were expanded.",
+    },
+    {
+      q: "The Budget system in British India was introduced in which year, well before councils gained the power to discuss it?",
+      options: ["1858", "1860", "1892", "1861"],
+      correct: 1,
+      explain:
+        "The Budget system was introduced in 1860; the power to discuss it was granted in 1892.",
+    },
+    {
+      q: "Under the 1892 Act, Central Legislative Council members were nominated by the Viceroy on the recommendation of:",
+      options: [
+        "The Indian National Congress",
+        "Provincial councils and the Bengal Chamber of Commerce",
+        "District boards only",
+        "The British Parliament",
+      ],
+      correct: 1,
+      explain:
+        "Central council members were nominated on the recommendation of provincial councils and the Bengal Chamber of Commerce.",
+    },
+    {
+      q: "Which of the following recommending bodies was associated with provincial council nominations under the 1892 Act?",
+      options: [
+        "Universities and trade associations",
+        "The Muslim League",
+        "The Chamber of Princes",
+        "The Federal Court",
+      ],
+      correct: 0,
+      explain:
+        "Provincial nominations drew on recommendations from district boards, municipalities, universities, trade associations, and zamindars.",
+    },
+    {
+      q: "The overall approach of the Indian Councils Act of 1892 to representation is best described as:",
+      options: [
+        "Bold and fully democratic",
+        "Cautious, incremental, and indirect",
+        "A complete rejection of representation",
+        "Focused on judicial reform",
+      ],
+      correct: 1,
+      explain:
+        "The Act reflected cautious incrementalism — expanding representation in substance while avoiding formal electoral language.",
+    },
+    {
+      q: "Which of the following statements about the Indian Councils Act of 1892 is INCORRECT?",
+      options: [
+        "It increased non-official members",
+        "It granted a non-official majority in provincial councils",
+        "It maintained official majority",
+        "It allowed budget discussion",
+      ],
+      correct: 1,
+      explain:
+        "Non-official majority in provincial councils came only with the Act of 1909, not 1892 — official majority was maintained in 1892.",
+    },
   ],
 };

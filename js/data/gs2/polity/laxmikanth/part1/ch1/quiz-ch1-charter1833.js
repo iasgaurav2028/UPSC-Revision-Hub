@@ -243,5 +243,125 @@ const QUIZ_ch1_charter1833 = {
       explain:
         "The provision was negated in practice due to Court of Directors' opposition; genuine open competition for civil services was introduced only by the Charter Act of 1853, two decades later.",
     },
+    {
+      q: "The Charter Act of 1833 was the FIRST to vest the Government of India with authority over:",
+      options: [
+        "Only Bengal",
+        "All British territory in India",
+        "Only the three Presidencies",
+        "The princely states",
+      ],
+      correct: 1,
+      explain:
+        "It was the first Act to give the Government of India authority over the whole of British territory in India.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Charter Act of 1833:",
+        "I. It ended the Company's commercial functions.",
+        "II. It created the office of Governor-General of India.",
+        "III. It introduced separate electorates.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — separate electorates were introduced by the Indian Councils Act of 1909.",
+    },
+    {
+      q: [
+        "Arrange the following in chronological order:",
+        "1. Charter Act of 1833",
+        "2. Charter Act of 1813",
+        "3. Charter Act of 1853",
+        "Select the correct order:",
+      ],
+      options: ["2 - 1 - 3", "1 - 2 - 3", "2 - 3 - 1", "3 - 2 - 1"],
+      correct: 0,
+      explain: "1813 → 1833 → 1853, i.e. order 2-1-3.",
+    },
+    {
+      q: "The Charter Act of 1833 is regarded as the final step towards which trend in British Indian administration?",
+      options: [
+        "Decentralisation",
+        "Centralisation",
+        "Federalism",
+        "Provincial autonomy",
+      ],
+      correct: 1,
+      explain:
+        "It was the final step towards centralisation, concentrating legislative and administrative power at the Centre.",
+    },
+    {
+      q: [
+        "Statement I: Bombay and Madras Governors lost their legislative powers under the Charter Act of 1833.",
+        "Statement II: The Governor-General of India was given exclusive legislative power for all of British India.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II correctly explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 0,
+      explain:
+        "Both are correct, and vesting exclusive legislative power in the Governor-General of India directly explains why Bombay and Madras lost theirs.",
+    },
+    {
+      q: "After the Charter Act of 1833, laws made were called 'Acts'. What were laws made before 1833 called?",
+      options: ["Ordinances", "Regulations", "Statutes", "Bills"],
+      correct: 1,
+      explain:
+        "Pre-1833 laws were called 'Regulations'; post-1833 laws were called 'Acts'.",
+    },
+    {
+      q: "The open competition provision for civil services in the Charter Act of 1833 was:",
+      options: [
+        "Successfully implemented from 1833",
+        "Proposed but negated after opposition from the Court of Directors",
+        "Never included in the Act",
+        "Restricted to British candidates only from the start",
+      ],
+      correct: 1,
+      explain:
+        "The provision was proposed and stated Indians should not be debarred from office, but it was negated after the Court of Directors' opposition.",
+    },
+    {
+      q: "After the Charter Act of 1833, the East India Company held its Indian territories:",
+      options: [
+        "As absolute sovereign owner",
+        "In trust for His Majesty, His heirs and successors",
+        "As a leasehold from the princely states",
+        "Jointly with the British Parliament",
+      ],
+      correct: 1,
+      explain:
+        "The territories were held 'in trust for His Majesty, His heirs and successors', a step towards Crown ownership completed in 1858.",
+    },
+    {
+      q: "Which of the following distinguishes the legislative change of 1833 from that of 1853?",
+      options: [
+        "1833 separated functions; 1853 centralised power",
+        "1833 centralised legislative power in the Governor-General of India; 1853 separated legislative from executive functions",
+        "Both Acts did exactly the same thing",
+        "Neither Act altered legislative arrangements",
+      ],
+      correct: 1,
+      explain:
+        "1833 centralised legislative power; 1853 separated the legislative and executive functions — two distinct concepts often confused.",
+    },
+    {
+      q: "Which of the following was the first Governor-General of India, as distinct from the first Governor-General of Bengal?",
+      options: [
+        "Warren Hastings",
+        "Lord William Bentinck",
+        "Lord Canning",
+        "Lord Cornwallis",
+      ],
+      correct: 1,
+      explain:
+        "Lord William Bentinck was the first Governor-General of India (1833); Warren Hastings had been the first Governor-General of Bengal (1773).",
+    },
   ],
 };

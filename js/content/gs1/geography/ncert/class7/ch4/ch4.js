@@ -4,4 +4,529 @@
 // by js/engine/loader.js the first time one of its topics is opened.
 // Edit the source under js/data/ and re-run: node build-bundle.js
 // ═══════════════════════════════════════════════════════════
-__registerContent("gs1/geography/ncert/class7/ch4/ch4", {"notes":{"geo7-ch4":{"era":"NCERT Class 7 — Geography (Our Environment), Chapter 4","significance":["Atmospheric composition (N₂ 78%, O₂ 21%, Ar 0.93%, CO₂ 0.03%) is among the most tested static facts in Prelims","5 atmospheric layers with their features, weather instruments, and wind types are individually testable","Greenhouse effect, global warming mechanism, and the Odisha cyclone case study (1999) connect to GS-3 Disaster Management","The distinction between weather and climate, insolation, air pressure, and types of rainfall are foundational geography facts"],"features":[{"key":"Atmosphere — Definition","main":"The Earth is surrounded by a huge blanket of air called the atmosphere\nAll living beings depend on it for survival\nProvides air to breathe, protects us from harmful sun rays","note":""},{"key":"Composition of the Atmosphere","main":"Nitrogen: 78% (most plentiful gas — bacteria, roots of some plants use it)\nOxygen: 21% (second most plentiful — we breathe it; plants produce it in photosynthesis)\nArgon: 0.93%\nCarbon dioxide: 0.03%\nOther gases (hydrogen, helium, ozone, etc.): 0.04%\nApart from gases, tiny dust particles are also present in the air","note":""},{"key":"Role of Key Gases","main":"Nitrogen: used by bacteria and plant roots to fix nitrogen; plants and animals exhale it; plants cannot use it directly\nOxygen: breath of life for humans and animals\nCarbon dioxide: used by green plants for photosynthesis; also creates greenhouse effect","note":""},{"key":"Greenhouse Effect & Global Warming","main":"CO₂ creates a greenhouse effect by trapping heat radiated from the Earth\nWithout it, Earth would be too cold to live in\nHowever, increased CO₂ (from factory smoke, car fumes) increases the Earth's temperature\nThis rise in temperature is called global warming\nConsequences: snow in coldest parts melts, sea levels rise, floods in coastal areas, drastic climate changes, extinction of some plants and animals","note":""},{"key":"Structure of the Atmosphere — 5 Layers","main":"From Earth's surface upward: Troposphere → Stratosphere → Mesosphere → Thermosphere → Exosphere","note":""},{"key":"Layer 1: Troposphere","main":"Most important layer; average height = 13 km\nWe breathe and live here\nAlmost all weather phenomena (rainfall, fog, hailstorm) occur here","note":""},{"key":"Layer 2: Stratosphere","main":"Above the troposphere; extends up to 50 km\nAlmost free from clouds and associated weather phenomena\nIdeal for flying aeroplanes\nContains a layer of OZONE gas — protects us from harmful sun rays","note":""},{"key":"Layer 3: Mesosphere","main":"Third layer; extends up to 80 km\nMeteorites burn up in this layer on entering from space","note":""},{"key":"Layer 4: Thermosphere","main":"Temperature rises very rapidly with increasing height\nIonosphere is a part of this layer; extends between 80–400 km\nIonosphere helps in RADIO TRANSMISSION — radio waves transmitted from Earth are reflected back by this layer","note":""},{"key":"Layer 5: Exosphere","main":"The uppermost layer; has very thin air\nLight gases like helium and hydrogen float into space from here","note":""},{"key":"Weather vs Climate","main":"Weather: the hour-to-hour, day-to-day condition of the atmosphere\nClimate: the average weather condition of a place for a longer period of time","note":"Weather can change dramatically from day to day; climate is stable over years"},{"key":"Temperature","main":"The degree of hotness and coldness of the air is temperature\nInfluenced by INSOLATION (incoming solar energy intercepted by the Earth)\nInsolation DECREASES from the equator towards the poles — hence poles are colder\nTemperature in cities is higher than villages (concrete, metals, asphalt absorb heat and release it at night; high-rise buildings trap warm air)","note":"Standard unit of temperature = degree Celsius; invented by Anders Celsius; water freezes at 0°C and boils at 100°C"},{"key":"Air Pressure","main":"Pressure exerted by the weight of air on the Earth's surface = air pressure\nAir pressure is HIGHEST at sea level and DECREASES with height\nHigh temperature areas → air gets heated and rises → low pressure area → cloudy skies and wet weather\nLow temperature areas → air is cold and heavy → sinks → high pressure area → clear and sunny skies\nAir ALWAYS moves from high pressure to low pressure","note":"On moon: no air, no air pressure — astronauts wear space suits to provide counter pressure"},{"key":"Wind","main":"Movement of air from high pressure area to low pressure area = wind\nA wind is named after the direction FROM which it blows (e.g. wind blowing FROM the west = westerly)\nThree types: (1) Permanent winds, (2) Seasonal winds, (3) Local winds","note":""},{"key":"Types of Winds","main":"1. Permanent winds: Trade winds, westerlies, and easterlies — blow constantly throughout the year in a particular direction\n2. Seasonal winds: Change direction with seasons; e.g. monsoons in India\n3. Local winds: Blow only in a particular period of the day or year in a small area; e.g. land and sea breeze; 'loo' (hot and dry local wind of the northern plains of India)","note":""},{"key":"Moisture & Humidity","main":"When water evaporates from land and water bodies → becomes water vapour\nCapacity of air to hold water vapour = humidity\nWhen air is full of water vapour = humid day; clothes dry slowly","note":""},{"key":"Precipitation and Rainfall","main":"When water vapour rises, it cools → condenses → forms clouds → droplets too heavy to float → fall as precipitation (rain, snow, sleet, hail)\nThree types of rainfall:\n1. Convectional rainfall: warm air rises, cools, condenses (in plains during summer)\n2. Relief (Orographic) rainfall: moist air forced up hills/mountains on windward side; rain falls on windward side; leeward side gets less rain\n3. Cyclonic rainfall: when cold air and warm air meet; warm air rises over cold air","note":"Other forms of precipitation besides rainfall: snow, sleet, hail"},{"key":"Cyclone — Odisha Case Study (1999)","main":"17–18 October 1999: cyclone hit five districts of Odisha\n29 October 1999: supercyclone devastated large portions of the state\nDamages due to: wind velocity, rain, and tidal surge\nWinds up to 260 km/hr lasted over 36 hours\nThe supercyclone swept the entire coast of Odisha — about 13 million people affected\nAbout 13 people killed; standing crops of paddy, vegetables and fruits heavily damaged","note":"The cyclone originated as a 'depression' in the Gulf of Thailand and gradually moved northwestward"},{"key":"Weather Instruments","main":"Thermometer: measures temperature\nBarometre: measures atmospheric pressure\nRain gauge: measures the amount of rainfall\nWind vane: shows the direction of the wind","note":""}],"traps":[{"label":"Atmospheric Composition — Exact Percentages","lines":["N₂ = 78%; O₂ = 21%; Ar = 0.93%; CO₂ = 0.03%; others = 0.04%","Common trap: swapping N₂ and O₂ OR misquoting CO₂ as 0.3%","N₂ is most plentiful but we CANNOT use it directly — only bacteria and some plant roots can"]},{"label":"5 Atmospheric Layers — Unique Features","lines":["Troposphere: all weather; 13 km; we live here","Stratosphere: ozone layer; aeroplane flying; up to 50 km","Mesosphere: meteorites burn up; up to 80 km","Thermosphere: radio waves reflected; Ionosphere here; 80-400 km","Exosphere: helium/hydrogen float to space; uppermost"]},{"label":"Weather vs Climate","lines":["Weather = daily/hourly atmospheric condition","Climate = average weather over a LONGER period","Common trap: using 'weather' and 'climate' interchangeably"]},{"label":"Air Pressure and Weather","lines":["High pressure → clear, sunny skies","Low pressure → cloudy, wet weather","Air ALWAYS moves from HIGH to LOW pressure","Common trap: reversing the pressure-weather relationship"]},{"label":"'Loo' Wind","lines":["Loo = hot and dry LOCAL wind of the NORTHERN PLAINS of India","It is a local wind — NOT a permanent or seasonal wind","Named after the direction FROM which it blows"]},{"label":"Rainfall Types","lines":["Convectional: warm air rises in plains/summer","Relief (Orographic): moist air hit mountains → windward side gets rain, leeward side (rain shadow) is dry","Cyclonic: warm meets cold air"]}],"mainsAngle":"The greenhouse effect and global warming mechanism (CO₂ → heat trapped → temperature rise → sea level rise → floods → extinction risk) is the most GS-3-relevant content of this chapter. The Odisha cyclone case study (1999) also directly maps to Disaster Management questions about cyclone preparedness, damage factors, and the vulnerability of coastal states.","mainsTheme":"Atmosphere, climate, and human impact — greenhouse effect, global warming, and disaster management","recall":["Atmospheric composition: N₂ 78%, O₂ 21%, Ar 0.93%, CO₂ 0.03%","5 layers: Troposphere (13km) → Stratosphere (50km, ozone, aeroplanes) → Mesosphere (80km, meteorites) → Thermosphere (400km, Ionosphere, radio waves) → Exosphere (helium/hydrogen float away)","All weather phenomena occur in the troposphere","Ozone layer in the stratosphere","Weather = daily; Climate = long-term average","Insolation decreases equator to poles","High pressure → clear/sunny; Low pressure → cloudy/wet","Air moves from high to low pressure","Wind types: permanent, seasonal, local (loo = local, northern plains)","3 rainfall types: convectional, relief/orographic, cyclonic","Global warming: excess CO₂ → greenhouse effect intensified → warming","Odisha supercyclone: 29 October 1999; winds up to 260 km/hr"]}},"quizzes":{"geo7-ch4":{"title":"Air","questions":[{"q":"The correct composition of the atmosphere (approximate percentages) is:","options":["Nitrogen 78%, Oxygen 21%, Argon 0.93%, CO₂ 0.03%","Oxygen 78%, Nitrogen 21%, Argon 0.93%, CO₂ 0.03%","Nitrogen 78%, Oxygen 21%, CO₂ 0.93%, Argon 0.03%","Nitrogen 71%, Oxygen 28%, CO₂ 0.03%, Argon 0.93%"],"correct":0,"explain":"The correct composition is: Nitrogen 78% (most plentiful), Oxygen 21%, Argon 0.93%, Carbon Dioxide 0.03%, plus other trace gases."},{"q":["Consider the following statements about nitrogen in the atmosphere:","I. Nitrogen is the most plentiful gas in the atmosphere.","II. Plants can use atmospheric nitrogen directly.","III. Bacteria and roots of some plants can use atmospheric nitrogen.","Which of the statements given above is/are correct?"],"options":["I and III only","I, II and III","II and III only","I only"],"correct":0,"explain":"Statements I and III are correct. Statement II is incorrect — plants CANNOT use atmospheric nitrogen directly; only bacteria and roots of some plants can convert (fix) atmospheric nitrogen."},{"q":"The greenhouse effect is primarily caused by which gas in the atmosphere?","options":["Nitrogen","Oxygen","Argon","Carbon Dioxide"],"correct":3,"explain":"Carbon dioxide (CO₂) creates the greenhouse effect by trapping heat radiated from the Earth — preventing it from escaping into space."},{"q":["Assertion (A): An increase in CO₂ in the atmosphere leads to global warming.","Reason (R): CO₂ creates a greenhouse effect by trapping heat radiated by the Earth; more CO₂ means more heat is retained, raising the Earth's temperature.","Which one of the following is correct?"],"options":["Both A and R are true, and R is the correct explanation of A","Both A and R are true, but R is NOT the correct explanation of A","A is true, but R is false","A is false, but R is true"],"correct":0,"explain":"Both are true and R correctly explains A — this is the precise mechanism of global warming through the enhanced greenhouse effect."},{"q":"The correct sequence of atmospheric layers from Earth's surface upward is:","options":["Troposphere → Stratosphere → Mesosphere → Thermosphere → Exosphere","Stratosphere → Troposphere → Mesosphere → Exosphere → Thermosphere","Troposphere → Mesosphere → Stratosphere → Thermosphere → Exosphere","Exosphere → Thermosphere → Mesosphere → Stratosphere → Troposphere"],"correct":0,"explain":"From Earth's surface upward: Troposphere → Stratosphere → Mesosphere → Thermosphere → Exosphere."},{"q":"Almost all weather phenomena like rainfall, fog and hailstorm occur in which layer of the atmosphere?","options":["Stratosphere","Mesosphere","Troposphere","Thermosphere"],"correct":2,"explain":"The Troposphere (average height 13 km) is the most important layer — we breathe here and almost all weather phenomena occur here."},{"q":"Which layer of the atmosphere is ideal for flying aeroplanes and contains the ozone layer?","options":["Troposphere","Stratosphere","Mesosphere","Thermosphere"],"correct":1,"explain":"The Stratosphere (up to 50 km) is almost free from clouds and weather — making it ideal for aeroplanes. It also contains the ozone layer that protects us from harmful sun rays."},{"q":"Meteorites burn up on entering which layer of the atmosphere?","options":["Troposphere","Stratosphere","Mesosphere","Exosphere"],"correct":2,"explain":"Meteorites burn up in the Mesosphere (up to 80 km) on entering from space."},{"q":"Radio waves transmitted from the Earth are reflected back to the Earth by which layer/part of the atmosphere?","options":["Stratosphere","Ozone layer","Ionosphere (part of Thermosphere)","Exosphere"],"correct":2,"explain":"The Ionosphere, which is a part of the Thermosphere (80–400 km), helps in radio transmission by reflecting radio waves back to the Earth."},{"q":"Which of the following correctly distinguishes 'weather' from 'climate'?","options":["Weather is the long-term average atmospheric condition; Climate is the daily condition","Weather is the hour-to-hour, day-to-day atmospheric condition; Climate is the average weather condition over a longer period","Weather and climate refer to the same concept","Weather refers only to temperature; Climate refers only to rainfall"],"correct":1,"explain":"Weather is the day-to-day/hour-to-hour condition of the atmosphere; Climate is the average weather condition of a place over a longer period of time."},{"q":"Insolation is defined as:","options":["The process of insulating buildings from heat","The incoming solar energy intercepted by the Earth","The reflection of sunlight from the Earth's surface","The absorption of heat by the ocean"],"correct":1,"explain":"Insolation = incoming solar energy intercepted by the Earth. It is an important factor influencing the distribution of temperature."},{"q":"The amount of insolation decreases from the equator towards the poles. This explains why:","options":["The equator receives less heat than the poles","The poles are colder than the equatorial regions","The equator has more rainfall than the poles","The poles have more daylight than the equator"],"correct":1,"explain":"Since insolation (incoming solar energy) decreases from the equator to the poles, equatorial regions are warmer and polar regions are colder — also explaining why poles are covered with snow."},{"q":"Air pressure is highest at:","options":["The top of the atmosphere","Mountain peaks","Sea level","The equator"],"correct":2,"explain":"Air pressure is highest at sea level and decreases as we go up the layers of the atmosphere — because there is more air above pushing down at lower altitudes."},{"q":"Which of the following correctly pairs weather type with pressure condition?","options":["High pressure → cloudy skies and wet weather","Low pressure → clear and sunny skies","High pressure → clear and sunny skies; Low pressure → cloudy and wet weather","Low pressure → clear and sunny skies; High pressure → cloudy and wet weather"],"correct":2,"explain":"High temperature → air rises → low pressure → cloudy/wet. Low temperature → air sinks → high pressure → clear/sunny. This is a frequently tested pairing."},{"q":"The movement of air from high pressure area to low pressure area is called:","options":["Rain","Tide","Wind","Precipitation"],"correct":2,"explain":"Wind is the movement of air from a high pressure area to a low pressure area."},{"q":"The hot and dry local wind of the northern plains of India is called:","options":["Westerly","Trade wind","Monsoon","Loo"],"correct":3,"explain":"'Loo' is the hot and dry LOCAL wind that blows in the northern plains of India during summer. It is a local wind — not permanent or seasonal."},{"q":["Consider the following pairs (Wind type — Example):","I. Permanent winds — Trade winds, westerlies, easterlies","II. Seasonal winds — Monsoons","III. Local winds — Loo, land and sea breeze","How many of the above pairs are correctly matched?"],"options":["Only one pair","Only two pairs","All three pairs","None of the pairs"],"correct":2,"explain":"All three pairs are correctly matched — trade winds/westerlies/easterlies are permanent; monsoons are seasonal; loo and land/sea breeze are local winds."},{"q":"Which instrument is used to measure atmospheric pressure?","options":["Thermometer","Rain gauge","Barometer","Wind vane"],"correct":2,"explain":"A Barometer (Barometre) measures atmospheric pressure. A Thermometer measures temperature, a Rain gauge measures rainfall, and a Wind vane shows wind direction."},{"q":"Relief (Orographic) rainfall occurs when:","options":["Warm air rises spontaneously over hot ground in the plains","Cold air meets warm air causing the warm air to rise","Moist air is forced up mountains/hills; rain falls on the windward side; the leeward side is dry","Water vapour condenses due to decreasing temperature at night"],"correct":2,"explain":"Relief/Orographic rainfall: moist air hits a mountain barrier and is forced to rise. It cools, condenses and rains on the windward side. The leeward (rain shadow) side gets very little rain."},{"q":"The Odisha supercyclone of October 1999 is significant as a case study because it illustrates:","options":["A purely geological event with no atmospheric factors","The devastating combination of wind velocity, heavy rain and tidal surge causing widespread destruction in a coastal state","A volcanic eruption causing climate change","The formation of a tsunami in the Bay of Bengal"],"correct":1,"explain":"The Odisha supercyclone (winds up to 260 km/hr, lasting 36+ hours) shows how cyclones cause damage through three factors: wind velocity, heavy rain, and tidal surge — directly relevant to GS-3 Disaster Management."}]}}});
+__registerContent("gs1/geography/ncert/class7/ch4/ch4", {
+  notes: {
+    "geo7-ch4": {
+      era: "NCERT Class 7 — Geography (Our Environment), Chapter 4",
+      significance: [
+        "Atmospheric composition (N₂ 78%, O₂ 21%, Ar 0.93%, CO₂ 0.03%) is among the most tested static facts in Prelims",
+        "5 atmospheric layers with their features, weather instruments, and wind types are individually testable",
+        "Greenhouse effect, global warming mechanism, and the Odisha cyclone case study (1999) connect to GS-3 Disaster Management",
+        "The distinction between weather and climate, insolation, air pressure, and types of rainfall are foundational geography facts",
+      ],
+      features: [
+        {
+          key: "Atmosphere — Definition",
+          main: "The Earth is surrounded by a huge blanket of air called the atmosphere\nAll living beings depend on it for survival\nProvides air to breathe, protects us from harmful sun rays",
+          note: "",
+        },
+        {
+          key: "Composition of the Atmosphere",
+          main: "Nitrogen: 78% (most plentiful gas — bacteria, roots of some plants use it)\nOxygen: 21% (second most plentiful — we breathe it; plants produce it in photosynthesis)\nArgon: 0.93%\nCarbon dioxide: 0.03%\nOther gases (hydrogen, helium, ozone, etc.): 0.04%\nApart from gases, tiny dust particles are also present in the air",
+          note: "",
+        },
+        {
+          key: "Role of Key Gases",
+          main: "Nitrogen: used by bacteria and plant roots to fix nitrogen; plants and animals exhale it; plants cannot use it directly\nOxygen: breath of life for humans and animals\nCarbon dioxide: used by green plants for photosynthesis; also creates greenhouse effect",
+          note: "",
+        },
+        {
+          key: "Greenhouse Effect & Global Warming",
+          main: "CO₂ creates a greenhouse effect by trapping heat radiated from the Earth\nWithout it, Earth would be too cold to live in\nHowever, increased CO₂ (from factory smoke, car fumes) increases the Earth's temperature\nThis rise in temperature is called global warming\nConsequences: snow in coldest parts melts, sea levels rise, floods in coastal areas, drastic climate changes, extinction of some plants and animals",
+          note: "",
+        },
+        {
+          key: "Structure of the Atmosphere — 5 Layers",
+          main: "From Earth's surface upward: Troposphere → Stratosphere → Mesosphere → Thermosphere → Exosphere",
+          note: "",
+        },
+        {
+          key: "Layer 1: Troposphere",
+          main: "Most important layer; average height = 13 km\nWe breathe and live here\nAlmost all weather phenomena (rainfall, fog, hailstorm) occur here",
+          note: "",
+        },
+        {
+          key: "Layer 2: Stratosphere",
+          main: "Above the troposphere; extends up to 50 km\nAlmost free from clouds and associated weather phenomena\nIdeal for flying aeroplanes\nContains a layer of OZONE gas — protects us from harmful sun rays",
+          note: "",
+        },
+        {
+          key: "Layer 3: Mesosphere",
+          main: "Third layer; extends up to 80 km\nMeteorites burn up in this layer on entering from space",
+          note: "",
+        },
+        {
+          key: "Layer 4: Thermosphere",
+          main: "Temperature rises very rapidly with increasing height\nIonosphere is a part of this layer; extends between 80–400 km\nIonosphere helps in RADIO TRANSMISSION — radio waves transmitted from Earth are reflected back by this layer",
+          note: "",
+        },
+        {
+          key: "Layer 5: Exosphere",
+          main: "The uppermost layer; has very thin air\nLight gases like helium and hydrogen float into space from here",
+          note: "",
+        },
+        {
+          key: "Weather vs Climate",
+          main: "Weather: the hour-to-hour, day-to-day condition of the atmosphere\nClimate: the average weather condition of a place for a longer period of time",
+          note: "Weather can change dramatically from day to day; climate is stable over years",
+        },
+        {
+          key: "Temperature",
+          main: "The degree of hotness and coldness of the air is temperature\nInfluenced by INSOLATION (incoming solar energy intercepted by the Earth)\nInsolation DECREASES from the equator towards the poles — hence poles are colder\nTemperature in cities is higher than villages (concrete, metals, asphalt absorb heat and release it at night; high-rise buildings trap warm air)",
+          note: "Standard unit of temperature = degree Celsius; invented by Anders Celsius; water freezes at 0°C and boils at 100°C",
+        },
+        {
+          key: "Air Pressure",
+          main: "Pressure exerted by the weight of air on the Earth's surface = air pressure\nAir pressure is HIGHEST at sea level and DECREASES with height\nHigh temperature areas → air gets heated and rises → low pressure area → cloudy skies and wet weather\nLow temperature areas → air is cold and heavy → sinks → high pressure area → clear and sunny skies\nAir ALWAYS moves from high pressure to low pressure",
+          note: "On moon: no air, no air pressure — astronauts wear space suits to provide counter pressure",
+        },
+        {
+          key: "Wind",
+          main: "Movement of air from high pressure area to low pressure area = wind\nA wind is named after the direction FROM which it blows (e.g. wind blowing FROM the west = westerly)\nThree types: (1) Permanent winds, (2) Seasonal winds, (3) Local winds",
+          note: "",
+        },
+        {
+          key: "Types of Winds",
+          main: "1. Permanent winds: Trade winds, westerlies, and easterlies — blow constantly throughout the year in a particular direction\n2. Seasonal winds: Change direction with seasons; e.g. monsoons in India\n3. Local winds: Blow only in a particular period of the day or year in a small area; e.g. land and sea breeze; 'loo' (hot and dry local wind of the northern plains of India)",
+          note: "",
+        },
+        {
+          key: "Moisture & Humidity",
+          main: "When water evaporates from land and water bodies → becomes water vapour\nCapacity of air to hold water vapour = humidity\nWhen air is full of water vapour = humid day; clothes dry slowly",
+          note: "",
+        },
+        {
+          key: "Precipitation and Rainfall",
+          main: "When water vapour rises, it cools → condenses → forms clouds → droplets too heavy to float → fall as precipitation (rain, snow, sleet, hail)\nThree types of rainfall:\n1. Convectional rainfall: warm air rises, cools, condenses (in plains during summer)\n2. Relief (Orographic) rainfall: moist air forced up hills/mountains on windward side; rain falls on windward side; leeward side gets less rain\n3. Cyclonic rainfall: when cold air and warm air meet; warm air rises over cold air",
+          note: "Other forms of precipitation besides rainfall: snow, sleet, hail",
+        },
+        {
+          key: "Cyclone — Odisha Case Study (1999)",
+          main: "17–18 October 1999: cyclone hit five districts of Odisha\n29 October 1999: supercyclone devastated large portions of the state\nDamages due to: wind velocity, rain, and tidal surge\nWinds up to 260 km/hr lasted over 36 hours\nThe supercyclone swept the entire coast of Odisha — about 13 million people affected\nAbout 13 people killed; standing crops of paddy, vegetables and fruits heavily damaged",
+          note: "The cyclone originated as a 'depression' in the Gulf of Thailand and gradually moved northwestward",
+        },
+        {
+          key: "Weather Instruments",
+          main: "Thermometer: measures temperature\nBarometre: measures atmospheric pressure\nRain gauge: measures the amount of rainfall\nWind vane: shows the direction of the wind",
+          note: "",
+        },
+      ],
+      traps: [
+        {
+          label: "Atmospheric Composition — Exact Percentages",
+          lines: [
+            "N₂ = 78%; O₂ = 21%; Ar = 0.93%; CO₂ = 0.03%; others = 0.04%",
+            "Common trap: swapping N₂ and O₂ OR misquoting CO₂ as 0.3%",
+            "N₂ is most plentiful but we CANNOT use it directly — only bacteria and some plant roots can",
+          ],
+        },
+        {
+          label: "5 Atmospheric Layers — Unique Features",
+          lines: [
+            "Troposphere: all weather; 13 km; we live here",
+            "Stratosphere: ozone layer; aeroplane flying; up to 50 km",
+            "Mesosphere: meteorites burn up; up to 80 km",
+            "Thermosphere: radio waves reflected; Ionosphere here; 80-400 km",
+            "Exosphere: helium/hydrogen float to space; uppermost",
+          ],
+        },
+        {
+          label: "Weather vs Climate",
+          lines: [
+            "Weather = daily/hourly atmospheric condition",
+            "Climate = average weather over a LONGER period",
+            "Common trap: using 'weather' and 'climate' interchangeably",
+          ],
+        },
+        {
+          label: "Air Pressure and Weather",
+          lines: [
+            "High pressure → clear, sunny skies",
+            "Low pressure → cloudy, wet weather",
+            "Air ALWAYS moves from HIGH to LOW pressure",
+            "Common trap: reversing the pressure-weather relationship",
+          ],
+        },
+        {
+          label: "'Loo' Wind",
+          lines: [
+            "Loo = hot and dry LOCAL wind of the NORTHERN PLAINS of India",
+            "It is a local wind — NOT a permanent or seasonal wind",
+            "Named after the direction FROM which it blows",
+          ],
+        },
+        {
+          label: "Rainfall Types",
+          lines: [
+            "Convectional: warm air rises in plains/summer",
+            "Relief (Orographic): moist air hit mountains → windward side gets rain, leeward side (rain shadow) is dry",
+            "Cyclonic: warm meets cold air",
+          ],
+        },
+      ],
+      mainsAngle:
+        "The greenhouse effect and global warming mechanism (CO₂ → heat trapped → temperature rise → sea level rise → floods → extinction risk) is the most GS-3-relevant content of this chapter. The Odisha cyclone case study (1999) also directly maps to Disaster Management questions about cyclone preparedness, damage factors, and the vulnerability of coastal states.",
+      mainsTheme:
+        "Atmosphere, climate, and human impact — greenhouse effect, global warming, and disaster management",
+      recall: [
+        "Atmospheric composition: N₂ 78%, O₂ 21%, Ar 0.93%, CO₂ 0.03%",
+        "5 layers: Troposphere (13km) → Stratosphere (50km, ozone, aeroplanes) → Mesosphere (80km, meteorites) → Thermosphere (400km, Ionosphere, radio waves) → Exosphere (helium/hydrogen float away)",
+        "All weather phenomena occur in the troposphere",
+        "Ozone layer in the stratosphere",
+        "Weather = daily; Climate = long-term average",
+        "Insolation decreases equator to poles",
+        "High pressure → clear/sunny; Low pressure → cloudy/wet",
+        "Air moves from high to low pressure",
+        "Wind types: permanent, seasonal, local (loo = local, northern plains)",
+        "3 rainfall types: convectional, relief/orographic, cyclonic",
+        "Global warming: excess CO₂ → greenhouse effect intensified → warming",
+        "Odisha supercyclone: 29 October 1999; winds up to 260 km/hr",
+      ],
+    },
+  },
+  quizzes: {
+    "geo7-ch4": {
+      title: "Air",
+      questions: [
+        {
+          q: "The correct composition of the atmosphere (approximate percentages) is:",
+          options: [
+            "Nitrogen 78%, Oxygen 21%, Argon 0.93%, CO₂ 0.03%",
+            "Oxygen 78%, Nitrogen 21%, Argon 0.93%, CO₂ 0.03%",
+            "Nitrogen 78%, Oxygen 21%, CO₂ 0.93%, Argon 0.03%",
+            "Nitrogen 71%, Oxygen 28%, CO₂ 0.03%, Argon 0.93%",
+          ],
+          correct: 0,
+          explain:
+            "The correct composition is: Nitrogen 78% (most plentiful), Oxygen 21%, Argon 0.93%, Carbon Dioxide 0.03%, plus other trace gases.",
+        },
+        {
+          q: [
+            "Consider the following statements about nitrogen in the atmosphere:",
+            "I. Nitrogen is the most plentiful gas in the atmosphere.",
+            "II. Plants can use atmospheric nitrogen directly.",
+            "III. Bacteria and roots of some plants can use atmospheric nitrogen.",
+            "Which of the statements given above is/are correct?",
+          ],
+          options: [
+            "I and III only",
+            "I, II and III",
+            "II and III only",
+            "I only",
+          ],
+          correct: 0,
+          explain:
+            "Statements I and III are correct. Statement II is incorrect — plants CANNOT use atmospheric nitrogen directly; only bacteria and roots of some plants can convert (fix) atmospheric nitrogen.",
+        },
+        {
+          q: "The greenhouse effect is primarily caused by which gas in the atmosphere?",
+          options: ["Nitrogen", "Oxygen", "Argon", "Carbon Dioxide"],
+          correct: 3,
+          explain:
+            "Carbon dioxide (CO₂) creates the greenhouse effect by trapping heat radiated from the Earth — preventing it from escaping into space.",
+        },
+        {
+          q: [
+            "Assertion (A): An increase in CO₂ in the atmosphere leads to global warming.",
+            "Reason (R): CO₂ creates a greenhouse effect by trapping heat radiated by the Earth; more CO₂ means more heat is retained, raising the Earth's temperature.",
+            "Which one of the following is correct?",
+          ],
+          options: [
+            "Both A and R are true, and R is the correct explanation of A",
+            "Both A and R are true, but R is NOT the correct explanation of A",
+            "A is true, but R is false",
+            "A is false, but R is true",
+          ],
+          correct: 0,
+          explain:
+            "Both are true and R correctly explains A — this is the precise mechanism of global warming through the enhanced greenhouse effect.",
+        },
+        {
+          q: "The correct sequence of atmospheric layers from Earth's surface upward is:",
+          options: [
+            "Troposphere → Stratosphere → Mesosphere → Thermosphere → Exosphere",
+            "Stratosphere → Troposphere → Mesosphere → Exosphere → Thermosphere",
+            "Troposphere → Mesosphere → Stratosphere → Thermosphere → Exosphere",
+            "Exosphere → Thermosphere → Mesosphere → Stratosphere → Troposphere",
+          ],
+          correct: 0,
+          explain:
+            "From Earth's surface upward: Troposphere → Stratosphere → Mesosphere → Thermosphere → Exosphere.",
+        },
+        {
+          q: "Almost all weather phenomena like rainfall, fog and hailstorm occur in which layer of the atmosphere?",
+          options: [
+            "Stratosphere",
+            "Mesosphere",
+            "Troposphere",
+            "Thermosphere",
+          ],
+          correct: 2,
+          explain:
+            "The Troposphere (average height 13 km) is the most important layer — we breathe here and almost all weather phenomena occur here.",
+        },
+        {
+          q: "Which layer of the atmosphere is ideal for flying aeroplanes and contains the ozone layer?",
+          options: [
+            "Troposphere",
+            "Stratosphere",
+            "Mesosphere",
+            "Thermosphere",
+          ],
+          correct: 1,
+          explain:
+            "The Stratosphere (up to 50 km) is almost free from clouds and weather — making it ideal for aeroplanes. It also contains the ozone layer that protects us from harmful sun rays.",
+        },
+        {
+          q: "Meteorites burn up on entering which layer of the atmosphere?",
+          options: ["Troposphere", "Stratosphere", "Mesosphere", "Exosphere"],
+          correct: 2,
+          explain:
+            "Meteorites burn up in the Mesosphere (up to 80 km) on entering from space.",
+        },
+        {
+          q: "Radio waves transmitted from the Earth are reflected back to the Earth by which layer/part of the atmosphere?",
+          options: [
+            "Stratosphere",
+            "Ozone layer",
+            "Ionosphere (part of Thermosphere)",
+            "Exosphere",
+          ],
+          correct: 2,
+          explain:
+            "The Ionosphere, which is a part of the Thermosphere (80–400 km), helps in radio transmission by reflecting radio waves back to the Earth.",
+        },
+        {
+          q: "Which of the following correctly distinguishes 'weather' from 'climate'?",
+          options: [
+            "Weather is the long-term average atmospheric condition; Climate is the daily condition",
+            "Weather is the hour-to-hour, day-to-day atmospheric condition; Climate is the average weather condition over a longer period",
+            "Weather and climate refer to the same concept",
+            "Weather refers only to temperature; Climate refers only to rainfall",
+          ],
+          correct: 1,
+          explain:
+            "Weather is the day-to-day/hour-to-hour condition of the atmosphere; Climate is the average weather condition of a place over a longer period of time.",
+        },
+        {
+          q: "Insolation is defined as:",
+          options: [
+            "The process of insulating buildings from heat",
+            "The incoming solar energy intercepted by the Earth",
+            "The reflection of sunlight from the Earth's surface",
+            "The absorption of heat by the ocean",
+          ],
+          correct: 1,
+          explain:
+            "Insolation = incoming solar energy intercepted by the Earth. It is an important factor influencing the distribution of temperature.",
+        },
+        {
+          q: "The amount of insolation decreases from the equator towards the poles. This explains why:",
+          options: [
+            "The equator receives less heat than the poles",
+            "The poles are colder than the equatorial regions",
+            "The equator has more rainfall than the poles",
+            "The poles have more daylight than the equator",
+          ],
+          correct: 1,
+          explain:
+            "Since insolation (incoming solar energy) decreases from the equator to the poles, equatorial regions are warmer and polar regions are colder — also explaining why poles are covered with snow.",
+        },
+        {
+          q: "Air pressure is highest at:",
+          options: [
+            "The top of the atmosphere",
+            "Mountain peaks",
+            "Sea level",
+            "The equator",
+          ],
+          correct: 2,
+          explain:
+            "Air pressure is highest at sea level and decreases as we go up the layers of the atmosphere — because there is more air above pushing down at lower altitudes.",
+        },
+        {
+          q: "Which of the following correctly pairs weather type with pressure condition?",
+          options: [
+            "High pressure → cloudy skies and wet weather",
+            "Low pressure → clear and sunny skies",
+            "High pressure → clear and sunny skies; Low pressure → cloudy and wet weather",
+            "Low pressure → clear and sunny skies; High pressure → cloudy and wet weather",
+          ],
+          correct: 2,
+          explain:
+            "High temperature → air rises → low pressure → cloudy/wet. Low temperature → air sinks → high pressure → clear/sunny. This is a frequently tested pairing.",
+        },
+        {
+          q: "The movement of air from high pressure area to low pressure area is called:",
+          options: ["Rain", "Tide", "Wind", "Precipitation"],
+          correct: 2,
+          explain:
+            "Wind is the movement of air from a high pressure area to a low pressure area.",
+        },
+        {
+          q: "The hot and dry local wind of the northern plains of India is called:",
+          options: ["Westerly", "Trade wind", "Monsoon", "Loo"],
+          correct: 3,
+          explain:
+            "'Loo' is the hot and dry LOCAL wind that blows in the northern plains of India during summer. It is a local wind — not permanent or seasonal.",
+        },
+        {
+          q: [
+            "Consider the following pairs (Wind type — Example):",
+            "I. Permanent winds — Trade winds, westerlies, easterlies",
+            "II. Seasonal winds — Monsoons",
+            "III. Local winds — Loo, land and sea breeze",
+            "How many of the above pairs are correctly matched?",
+          ],
+          options: [
+            "Only one pair",
+            "Only two pairs",
+            "All three pairs",
+            "None of the pairs",
+          ],
+          correct: 2,
+          explain:
+            "All three pairs are correctly matched — trade winds/westerlies/easterlies are permanent; monsoons are seasonal; loo and land/sea breeze are local winds.",
+        },
+        {
+          q: "Which instrument is used to measure atmospheric pressure?",
+          options: ["Thermometer", "Rain gauge", "Barometer", "Wind vane"],
+          correct: 2,
+          explain:
+            "A Barometer (Barometre) measures atmospheric pressure. A Thermometer measures temperature, a Rain gauge measures rainfall, and a Wind vane shows wind direction.",
+        },
+        {
+          q: "Relief (Orographic) rainfall occurs when:",
+          options: [
+            "Warm air rises spontaneously over hot ground in the plains",
+            "Cold air meets warm air causing the warm air to rise",
+            "Moist air is forced up mountains/hills; rain falls on the windward side; the leeward side is dry",
+            "Water vapour condenses due to decreasing temperature at night",
+          ],
+          correct: 2,
+          explain:
+            "Relief/Orographic rainfall: moist air hits a mountain barrier and is forced to rise. It cools, condenses and rains on the windward side. The leeward (rain shadow) side gets very little rain.",
+        },
+        {
+          q: "The Odisha supercyclone of October 1999 is significant as a case study because it illustrates:",
+          options: [
+            "A purely geological event with no atmospheric factors",
+            "The devastating combination of wind velocity, heavy rain and tidal surge causing widespread destruction in a coastal state",
+            "A volcanic eruption causing climate change",
+            "The formation of a tsunami in the Bay of Bengal",
+          ],
+          correct: 1,
+          explain:
+            "The Odisha supercyclone (winds up to 260 km/hr, lasting 36+ hours) shows how cyclones cause damage through three factors: wind velocity, heavy rain, and tidal surge — directly relevant to GS-3 Disaster Management.",
+        },
+        {
+          q: "Which of the following statements about oxygen in the atmosphere is correct?",
+          options: [
+            "It is the most plentiful gas in the atmosphere",
+            "It is the second most plentiful gas; animals breathe it and plants produce it during photosynthesis",
+            "It makes up 78% of the atmosphere",
+            "Only bacteria can use it directly",
+          ],
+          correct: 1,
+          explain:
+            "Oxygen (21%) is the second most plentiful gas after nitrogen. Humans and animals breathe it, and green plants produce it during photosynthesis.",
+        },
+        {
+          q: "The troposphere, the most important layer of the atmosphere, has an average height of about:",
+          options: ["13 km", "50 km", "80 km", "400 km"],
+          correct: 0,
+          explain:
+            "The troposphere has an average height of about 13 km. We live and breathe in this layer, and almost all weather phenomena occur here.",
+        },
+        {
+          q: "In which layer of the atmosphere do light gases like helium and hydrogen float off into space?",
+          options: ["Stratosphere", "Mesosphere", "Thermosphere", "Exosphere"],
+          correct: 3,
+          explain:
+            "The Exosphere is the uppermost layer with very thin air, from where light gases like helium and hydrogen float into space.",
+        },
+        {
+          q: [
+            "Consider the following possible consequences of global warming:",
+            "I. Melting of snow in the coldest parts of the Earth",
+            "II. Rise in sea levels and flooding of coastal areas",
+            "III. Extinction of some plants and animals",
+            "How many of the above are mentioned as consequences of global warming?",
+          ],
+          options: ["Only one", "Only two", "All three", "None"],
+          correct: 2,
+          explain:
+            "All three are consequences of global warming mentioned in the chapter — melting snow, rising sea levels with coastal flooding, drastic climate changes, and extinction of some species.",
+        },
+        {
+          q: "A wind is named after:",
+          options: [
+            "The direction towards which it blows",
+            "The direction from which it blows",
+            "The season in which it blows",
+            "The speed at which it blows",
+          ],
+          correct: 1,
+          explain:
+            "A wind is named after the direction FROM which it blows — for example, a wind blowing from the west is called a westerly.",
+        },
+        {
+          q: "Convectional rainfall occurs when:",
+          options: [
+            "Moist air is forced up a mountain barrier",
+            "Warm air rises, cools, and condenses — common in the plains during summer",
+            "Cold air and warm air masses meet",
+            "Water vapour condenses at night due to cooling of the ground",
+          ],
+          correct: 1,
+          explain:
+            "Convectional rainfall occurs when warm air rises, cools and condenses to form clouds and rain — it is common in the plains during the hot summer season.",
+        },
+        {
+          q: "Cyclonic rainfall is caused when:",
+          options: [
+            "Warm moist air is pushed up the windward side of hills",
+            "Cold air and warm air meet, with the warm air rising over the cold air",
+            "The ground heats up strongly during summer afternoons",
+            "Winds blow constantly from high to low pressure",
+          ],
+          correct: 1,
+          explain:
+            "Cyclonic rainfall occurs when a mass of cold air and a mass of warm air meet; the lighter warm air rises over the cold air and cools, producing rainfall.",
+        },
+        {
+          q: "The capacity of air to hold water vapour is called:",
+          options: ["Insolation", "Precipitation", "Humidity", "Air pressure"],
+          correct: 2,
+          explain:
+            "Humidity is the capacity of air to hold water vapour. When the air is full of water vapour it is a humid day and clothes dry slowly.",
+        },
+        {
+          q: [
+            "Consider the following pairs (Instrument — Measurement):",
+            "I. Thermometer — Temperature",
+            "II. Rain gauge — Amount of rainfall",
+            "III. Wind vane — Direction of the wind",
+            "How many of the above pairs are correctly matched?",
+          ],
+          options: [
+            "Only one pair",
+            "Only two pairs",
+            "All three pairs",
+            "None of the pairs",
+          ],
+          correct: 2,
+          explain:
+            "All three pairs are correctly matched — thermometer (temperature), rain gauge (rainfall amount), and wind vane (wind direction). A barometer measures atmospheric pressure.",
+        },
+        {
+          q: "During the Odisha supercyclone of 29 October 1999, the winds reached speeds of up to:",
+          options: ["120 km/hr", "180 km/hr", "260 km/hr", "400 km/hr"],
+          correct: 2,
+          explain:
+            "The Odisha supercyclone of 29 October 1999 brought winds of up to 260 km/hr that lasted over 36 hours, devastating large portions of the state.",
+        },
+      ],
+    },
+  },
+});

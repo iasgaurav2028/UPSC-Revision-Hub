@@ -322,5 +322,138 @@ const QUIZ_ca_demand = {
       explain:
         "Nehru declared that the Assembly should be elected on the basis of adult franchise, without outside interference.",
     },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. M.N. Roy was a pioneer of the communist movement in India.",
+        "II. The idea of a Constituent Assembly for India was first proposed in 1934.",
+        "III. The INC officially demanded a Constituent Assembly for the first time in 1934.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the INC's first official demand came in 1935, not 1934.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Event — Year):",
+        "I. August Offer — 1940",
+        "II. Cripps Mission — 1942",
+        "III. Cabinet Mission's arrival in India — 1946",
+        "How many of the pairs given above are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 2,
+      explain:
+        "All three pairs are correctly matched — August Offer (1940), Cripps Mission (1942), and Cabinet Mission arrival (24 March 1946).",
+    },
+    {
+      q: [
+        "Arrange the following in correct chronological order:",
+        "I. INC's first official demand for a Constituent Assembly",
+        "II. M.N. Roy's idea of a Constituent Assembly",
+        "III. Nehru's declaration on adult franchise",
+        "IV. Cripps Mission",
+      ],
+      options: [
+        "II → I → III → IV",
+        "I → II → III → IV",
+        "II → III → I → IV",
+        "I → III → II → IV",
+      ],
+      correct: 0,
+      explain:
+        "Order: M.N. Roy's idea (1934) → INC demand (1935) → Nehru's declaration (1938) → Cripps Mission (1942).",
+    },
+    {
+      q: [
+        "Assertion (A): The Cripps Mission of 1942 failed to resolve the constitutional deadlock.",
+        "Reason (R): The Muslim League rejected the Cripps proposals as it wanted India divided into two autonomous states with two separate Constituent Assemblies.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — the Muslim League's demand for two separate assemblies was a key reason the Cripps Mission failed.",
+    },
+    {
+      q: "The demand for a Constituent Assembly was translated into a concrete scheme for a single Constituent Assembly by which of the following?",
+      options: [
+        "The August Offer",
+        "The Cripps Mission",
+        "The Cabinet Mission",
+        "The Mountbatten Plan",
+      ],
+      correct: 2,
+      explain:
+        "The Cabinet Mission (1946) rejected the idea of two assemblies and put forth a scheme for a single Constituent Assembly.",
+    },
+    {
+      q: "Which of the following pairs relating to the Cabinet Mission is correctly matched?",
+      options: [
+        "Lord Pethick-Lawrence — Secretary of State for India",
+        "A.V. Alexander — Viceroy of India",
+        "Sir Stafford Cripps — Governor-General",
+        "Lord Mountbatten — member of the Cabinet Mission",
+      ],
+      correct: 0,
+      explain:
+        "Lord Pethick-Lawrence, the Secretary of State for India, headed the Cabinet Mission. Mountbatten was not a member; Cripps and Alexander held no such posts.",
+    },
+    {
+      q: "The idea of two separate Constituent Assemblies for India was:",
+      options: [
+        "proposed by the Cabinet Mission",
+        "demanded by the Muslim League but rejected by the Cabinet Mission",
+        "accepted in the August Offer of 1940",
+        "first proposed by M.N. Roy in 1934",
+      ],
+      correct: 1,
+      explain:
+        "The Muslim League wanted two separate Constituent Assemblies for two autonomous states; the Cabinet Mission rejected this and proposed a single assembly.",
+    },
+    {
+      q: [
+        "Consider the following statements about the evolution of the demand for a Constituent Assembly:",
+        "I. The INC reiterated its demand through a resolution in 1939.",
+        "II. Nehru's 1938 declaration insisted on framing the Constitution without outside interference.",
+        "III. The demand was first accepted in principle in the Cripps proposals of 1942.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the demand was first accepted in principle in the August Offer of 1940, not the Cripps proposals.",
+    },
+    {
+      q: "Which of the following represents the correct chronological sequence?",
+      options: [
+        "Idea of a Constituent Assembly (1934) → August Offer (1940) → Cripps Mission (1942) → Cabinet Mission (1946)",
+        "August Offer (1940) → Idea of a Constituent Assembly (1934) → Cabinet Mission (1946) → Cripps Mission (1942)",
+        "Cripps Mission (1942) → Idea of a Constituent Assembly (1934) → August Offer (1940) → Cabinet Mission (1946)",
+        "Idea of a Constituent Assembly (1934) → Cripps Mission (1942) → August Offer (1940) → Cabinet Mission (1946)",
+      ],
+      correct: 0,
+      explain:
+        "The correct sequence is: idea (1934) → August Offer (1940) → Cripps Mission (1942) → Cabinet Mission (1946).",
+    },
+    {
+      q: "The Government of India Act, 1935, in the context of the demand for a Constituent Assembly, was significant because:",
+      options: [
+        "it conceded the demand for a Constituent Assembly for the first time",
+        "it provided the limited franchise on which the provincial assemblies (which later elected Assembly members) were constituted",
+        "it created two separate Constituent Assemblies",
+        "it was drafted by M.N. Roy",
+      ],
+      correct: 1,
+      explain:
+        "The GoI Act 1935 did NOT concede the demand; it provided the limited franchise for the provincial assemblies that later indirectly elected members of the Constituent Assembly.",
+    },
   ],
 };

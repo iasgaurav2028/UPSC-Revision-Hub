@@ -163,5 +163,126 @@ const QUIZ_ch1_charter1793 = {
       explain:
         "This statement is incorrect and thus the answer — the Act INCREASED, not reduced, the Governor-General's control over Bombay and Madras.",
     },
+    {
+      q: "The Charter Act of 1793 extended the East India Company's trade monopoly in India for a further:",
+      options: ["10 years", "20 years", "25 years", "30 years"],
+      correct: 1,
+      explain:
+        "The Act extended the Company's trade monopoly in India for another 20 years.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Charter Act of 1793:",
+        "I. It extended override power to all future Governors-General.",
+        "II. It provided that Board of Control staff be paid from Indian revenues.",
+        "III. It abolished the Company's trade monopoly.",
+        "How many of the statements given above are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Statements I and II are correct. Statement III is wrong — the trade monopoly was EXTENDED, not abolished (abolition came in 1813).",
+    },
+    {
+      q: [
+        "Statement I: The Charter Act of 1793 converted a personal privilege into a systemic institutional feature.",
+        "Statement II: It generalised Cornwallis's override power to all future Governors-General and Presidency Governors.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct, and Statement II correctly explains Statement I",
+        "Both statements are correct, but Statement II does NOT explain Statement I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 0,
+      explain:
+        "Both are correct, and Statement II directly explains Statement I — generalising a personal power is exactly how the privilege became systemic.",
+    },
+    {
+      q: "Under the Charter Act of 1793, the Commander-in-Chief was to be a member of the Governor-General's council:",
+      options: [
+        "Always, as a permanent entitlement",
+        "Only if specifically appointed as such",
+        "Never under any circumstances",
+        "Only during war",
+      ],
+      correct: 1,
+      explain:
+        "The C-in-C was not automatically a council member; membership required a specific appointment.",
+    },
+    {
+      q: [
+        "Arrange the following in chronological order:",
+        "1. Charter Act of 1793",
+        "2. Act of 1786",
+        "3. Charter Act of 1813",
+        "Select the correct order:",
+      ],
+      options: ["2 - 1 - 3", "1 - 2 - 3", "2 - 3 - 1", "3 - 2 - 1"],
+      correct: 0,
+      explain:
+        "Act of 1786 → Charter Act of 1793 → Charter Act of 1813, i.e. 2-1-3.",
+    },
+    {
+      q: "The Charter Act of 1793 increased the Governor-General's control over which governments?",
+      options: [
+        "Bengal and Punjab",
+        "Bombay and Madras",
+        "Madras and Agra",
+        "Bombay and Bengal",
+      ],
+      correct: 1,
+      explain:
+        "The Act enhanced the Governor-General's control over the Bombay and Madras governments.",
+    },
+    {
+      q: "The provision to pay Board of Control salaries from Indian revenues reflects which colonial financial pattern?",
+      options: [
+        "Funding British oversight machinery from Indian resources",
+        "Granting India fiscal autonomy",
+        "Reducing taxation on Indians",
+        "Transferring costs to the British treasury",
+      ],
+      correct: 0,
+      explain:
+        "It reflects the recurring pattern of funding British administrative and oversight machinery out of Indian revenues.",
+    },
+    {
+      q: "Which of the following was established BEFORE the Charter Act of 1793?",
+      options: [
+        "The Board of Control",
+        "The Federal Court",
+        "Separate electorates",
+        "The office of Viceroy",
+      ],
+      correct: 0,
+      explain:
+        "The Board of Control was created earlier by Pitt's India Act of 1784; the Charter Act of 1793 merely provided for its salaries.",
+    },
+    {
+      q: "Which of the following distinguishes the Act of 1786 from the Charter Act of 1793 regarding the override power?",
+      options: [
+        "1786 gave the power to all Governors-General; 1793 restricted it to Cornwallis",
+        "1786 gave the power personally to Cornwallis; 1793 extended it to all future Governors-General",
+        "Both Acts gave it only to Cornwallis",
+        "Neither Act dealt with the override power",
+      ],
+      correct: 1,
+      explain:
+        "The 1786 Act granted the override power personally to Cornwallis; the 1793 Act generalised it to all future Governors-General and Governors.",
+    },
+    {
+      q: "Which of the following statements about the Charter Act of 1793 is INCORRECT?",
+      options: [
+        "It extended the trade monopoly for 20 years",
+        "It generalised the override power",
+        "It abolished the Board of Control",
+        "It provided for Board of Control salaries from Indian revenue",
+      ],
+      correct: 2,
+      explain:
+        "The Act did not abolish the Board of Control; the Board continued to function and its salaries were charged to Indian revenues.",
+    },
   ],
 };

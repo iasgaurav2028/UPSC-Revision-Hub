@@ -60,8 +60,7 @@ const DATA_qr_full_forms = {
     ],
     mainsAngle:
       "The web of examination and recruitment bodies — from UPSC and SSC to the NTA-run entrance tests — reflects both the reach of India's merit-based public recruitment and the ongoing debate over centralisation, exam integrity and equity in access to education and jobs.",
-    mainsTheme:
-      "Institutions of education and public recruitment in India",
+    mainsTheme: "Institutions of education and public recruitment in India",
     recall: [
       "NCERT — National Council of Educational Research and Training",
       "CBSE — Central Board of Secondary Education",
