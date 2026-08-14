@@ -9,7 +9,6 @@
 // ╚══════════════════════════════════════════════════════════════════╝
 
 const CIRCLED = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩"];
-const DASH_ICONS = { gs1: "🏛", gs2: "⚖", gs3: "📊", gs4: "🧭", essay: "✍" };
 
 // Toggle the dashboard background image on the main panel. Only the
 // dashboard uses it; note/timeline/browse views keep the plain background.
@@ -448,6 +447,153 @@ function renderNotes() {
   updateNoteNavBar(node);
 }
 
+// ╔══════════════════════════════════════════════════════════╗
+// ║  FLEXIBLE SECTION RENDERER                                 ║
+// ║                                                            ║
+// ║  A note may define `sections: [ {type, title, ...} ]` to   ║
+// ║  lay out its body freely — instead of the fixed            ║
+// ║  significance/features/traps/mains/recall structure. This  ║
+// ║  lets each subject use its own headings and mix in tables, ║
+// ║  images and maps (e.g. Geography maps, Economics data).    ║
+// ║                                                            ║
+// ║  Supported section types:                                  ║
+// ║   points   { title, icon?, items:[str] }      numbered list║
+// ║   features { title, icon?, items:[{key,main,note?}] }      ║
+// ║   table    { title, icon?, headers:[str], rows:[[str]] }   ║
+// ║   image    { title?, icon?, src, caption?, alt? }          ║
+// ║   map      { title?, src, caption? }   (framed like a map) ║
+// ║   prose    { title?, icon?, text }     (paragraphs)        ║
+// ║   traps    { title, items:[str | {label,lines:[str]}] }    ║
+// ║   mains    { title, quote, theme? }                        ║
+// ║   recall   { title, items:[str] }      (chips)             ║
+// ╚══════════════════════════════════════════════════════════╝
+function renderSectionsHtml(sections) {
+  let html = "";
+  (sections || []).forEach((sec) => {
+    if (!sec || !sec.type) return;
+    const titleHtml = sec.title
+      ? `<div class="section-title">${sec.icon ? esc(sec.icon) + " " : ""}${esc(sec.title)}</div>`
+      : "";
+    switch (sec.type) {
+      case "points":
+      case "significance": {
+        html += titleHtml + `<div class="sig-box">`;
+        (sec.items || []).forEach((s, i) => {
+          html += `<div class="sig-item"><span class="sig-num">${CIRCLED[i] || i + 1 + "."}</span><span class="sig-text">${esc(s)}</span></div>`;
+        });
+        html += `</div>`;
+        break;
+      }
+      case "features": {
+        html += titleHtml + `<div class="features">`;
+        (sec.items || []).forEach((f) => {
+          html += `<div class="feature-row"><div class="fkey">${esc(f.key)}</div><div>`;
+          String(f.main || "")
+            .split("\n")
+            .forEach((line, j) => {
+              html += `<div class="fval-line ${j === 0 ? "first" : ""}">${esc(line)}</div>`;
+            });
+          if (f.note) html += `<div class="fval-note">${esc(f.note)}</div>`;
+          html += `</div></div>`;
+        });
+        html += `</div>`;
+        break;
+      }
+      case "table": {
+        html += titleHtml + `<div class="note-table-wrap"><table class="note-table">`;
+        if (sec.headers && sec.headers.length) {
+          html += `<thead><tr>`;
+          sec.headers.forEach((h) => {
+            html += `<th>${esc(h)}</th>`;
+          });
+          html += `</tr></thead>`;
+        }
+        html += `<tbody>`;
+        (sec.rows || []).forEach((row) => {
+          html += `<tr>`;
+          (row || []).forEach((cell) => {
+            html += `<td>${esc(cell)}</td>`;
+          });
+          html += `</tr>`;
+        });
+        html += `</tbody></table></div>`;
+        break;
+      }
+      case "image":
+      case "map": {
+        html += titleHtml;
+        // Optional size: "wide" (~720px) or "full" (100%) for dense
+        // infographics; default stays compact (see CSS .note-figure img).
+        const sizeCls =
+          sec.size === "full"
+            ? " fig-full"
+            : sec.size === "wide"
+              ? " fig-wide"
+              : "";
+        const cls =
+          (sec.type === "map" ? "note-figure note-map" : "note-figure") +
+          sizeCls;
+        html += `<figure class="${cls}">`;
+        html += `<img src="${esc(sec.src)}" alt="${esc(sec.alt || sec.caption || sec.title || "")}" loading="lazy">`;
+        if (sec.caption) html += `<figcaption>${esc(sec.caption)}</figcaption>`;
+        html += `</figure>`;
+        break;
+      }
+      case "prose":
+      case "text": {
+        html += titleHtml + `<div class="note-prose">`;
+        String(sec.text || "")
+          .split("\n")
+          .forEach((para) => {
+            if (para.trim()) html += `<p>${esc(para)}</p>`;
+          });
+        html += `</div>`;
+        break;
+      }
+      case "traps": {
+        html += titleHtml + `<div class="trap-box">`;
+        (sec.items || []).forEach((t) => {
+          html += `<div class="trap-item"><span class="t-icon">✗</span><div>`;
+          if (typeof t === "string") {
+            html += `<div class="t-line">${esc(t)}</div>`;
+          } else {
+            if (t.label) html += `<div class="t-label">${esc(t.label)}</div>`;
+            (t.lines || []).forEach((line) => {
+              html += `<div class="t-line">${esc(line)}</div>`;
+            });
+          }
+          html += `</div></div>`;
+        });
+        html += `</div>`;
+        break;
+      }
+      case "mains": {
+        html += titleHtml + `<div class="mains-box">`;
+        const q = Array.isArray(sec.quote)
+          ? sec.quote.join(" ")
+          : sec.quote || "";
+        html += `<div class="mains-quote">&ldquo;${esc(q)}&rdquo;</div>`;
+        if (sec.theme) {
+          html += `<div class="mains-theme-label">Key Theme</div><div class="mains-theme">${esc(sec.theme)}</div>`;
+        }
+        html += `</div>`;
+        break;
+      }
+      case "recall": {
+        html += titleHtml + `<div class="hooks">`;
+        (sec.items || []).forEach((r) => {
+          html += `<span class="hook">${esc(r)}</span>`;
+        });
+        html += `</div>`;
+        break;
+      }
+      default:
+        html += titleHtml;
+    }
+  });
+  return html;
+}
+
 function renderStandardNote(node) {
   const container = document.getElementById("notesContent");
   const topbarTitle = document.getElementById("topbarTitle");
@@ -480,56 +626,77 @@ function renderStandardNote(node) {
     html += `<button class="quiz-cta-btn" id="startQuizBtn">🎯 Practice Hub</button>`;
   html += `</div></div></div>`;
 
-  html += `<div class="section-title">⚖ Constitutional Significance</div><div class="sig-box">`;
-  (n.significance || []).forEach((s, i) => {
-    html += `<div class="sig-item"><span class="sig-num">${CIRCLED[i] || i + 1 + "."}</span><span class="sig-text">${esc(s)}</span></div>`;
-  });
-  html += `</div>`;
-
-  html += `<div class="section-title">📜 Key Features</div><div class="features">`;
-  (n.features || []).forEach((f) => {
-    html += `<div class="feature-row"><div class="fkey">${esc(f.key)}</div><div>`;
-    f.main.split("\n").forEach((line, j) => {
-      html += `<div class="fval-line ${j === 0 ? "first" : ""}">${esc(line)}</div>`;
+  if (Array.isArray(n.sections)) {
+    // Flexible, subject-agnostic layout.
+    html += renderSectionsHtml(n.sections);
+  } else {
+    // Legacy fixed layout. The first section's title is configurable via
+    // `significanceTitle` so non-polity subjects aren't stuck with
+    // "Constitutional Significance"; it defaults to a neutral label.
+    html += `<div class="section-title">${esc(n.significanceTitle || "🎯 Significance")}</div><div class="sig-box">`;
+    (n.significance || []).forEach((s, i) => {
+      html += `<div class="sig-item"><span class="sig-num">${CIRCLED[i] || i + 1 + "."}</span><span class="sig-text">${esc(s)}</span></div>`;
     });
-    if (f.note) html += `<div class="fval-note">${esc(f.note)}</div>`;
-    html += `</div></div>`;
-  });
-  html += `</div>`;
+    html += `</div>`;
 
-  html += `<div class="two-col">`;
-  html += `<div class="two-col-cell"><div class="section-title">⚠ Prelims Traps</div><div class="trap-box">`;
-  (n.traps || []).forEach((t) => {
-    html += `<div class="trap-item"><span class="t-icon">✗</span><div>`;
-    if (typeof t === "string") {
-      // Simple shape: a plain trap line.
-      html += `<div class="t-line">${esc(t)}</div>`;
-    } else {
-      // Structured shape: { label, lines: [ ... ] }.
-      if (t.label) html += `<div class="t-label">${esc(t.label)}</div>`;
-      (t.lines || []).forEach((line) => {
-        html += `<div class="t-line">${esc(line)}</div>`;
-      });
+    // Optional diagrams/images for legacy notes: an `images` array of
+    // { type:"image"|"map", title?, src, caption? } rendered via the same
+    // flexible section renderer, placed near the top for visual context.
+    if (Array.isArray(n.images)) {
+      html += renderSectionsHtml(n.images);
     }
+
+    html += `<div class="section-title">📜 Key Features</div><div class="features">`;
+    (n.features || []).forEach((f) => {
+      html += `<div class="feature-row"><div class="fkey">${esc(f.key)}</div><div>`;
+      f.main.split("\n").forEach((line, j) => {
+        html += `<div class="fval-line ${j === 0 ? "first" : ""}">${esc(line)}</div>`;
+      });
+      if (f.note) html += `<div class="fval-note">${esc(f.note)}</div>`;
+      html += `</div></div>`;
+    });
+    html += `</div>`;
+
+    // Optional extra flexible sections for legacy notes (tables, points,
+    // images, etc.) rendered after Key Features and before Traps/Mains.
+    if (Array.isArray(n.extraSections)) {
+      html += renderSectionsHtml(n.extraSections);
+    }
+
+    html += `<div class="two-col">`;
+    html += `<div class="two-col-cell"><div class="section-title">⚠ Prelims Traps</div><div class="trap-box">`;
+    (n.traps || []).forEach((t) => {
+      html += `<div class="trap-item"><span class="t-icon">✗</span><div>`;
+      if (typeof t === "string") {
+        // Simple shape: a plain trap line.
+        html += `<div class="t-line">${esc(t)}</div>`;
+      } else {
+        // Structured shape: { label, lines: [ ... ] }.
+        if (t.label) html += `<div class="t-label">${esc(t.label)}</div>`;
+        (t.lines || []).forEach((line) => {
+          html += `<div class="t-line">${esc(line)}</div>`;
+        });
+      }
+      html += `</div></div>`;
+    });
     html += `</div></div>`;
-  });
-  html += `</div></div>`;
 
-  html += `<div class="two-col-cell"><div class="section-title">✍ Mains Angle</div><div class="mains-box">`;
-  const stdMainsAngle = Array.isArray(n.mainsAngle)
-    ? n.mainsAngle.join(" ")
-    : n.mainsAngle || "";
-  html += `<div class="mains-quote">&ldquo;${esc(stdMainsAngle)}&rdquo;</div>`;
-  html += `<div class="mains-theme-label">Key Theme</div>`;
-  html += `<div class="mains-theme">${esc(n.mainsTheme || "")}</div>`;
-  html += `</div></div>`;
-  html += `</div>`;
+    html += `<div class="two-col-cell"><div class="section-title">✍ Mains Angle</div><div class="mains-box">`;
+    const stdMainsAngle = Array.isArray(n.mainsAngle)
+      ? n.mainsAngle.join(" ")
+      : n.mainsAngle || "";
+    html += `<div class="mains-quote">&ldquo;${esc(stdMainsAngle)}&rdquo;</div>`;
+    html += `<div class="mains-theme-label">Key Theme</div>`;
+    html += `<div class="mains-theme">${esc(n.mainsTheme || "")}</div>`;
+    html += `</div></div>`;
+    html += `</div>`;
 
-  html += `<div class="section-title">🔑 Quick Recall</div><div class="hooks">`;
-  (n.recall || []).forEach((r) => {
-    html += `<span class="hook">${esc(r)}</span>`;
-  });
-  html += `</div>`;
+    html += `<div class="section-title">🔑 Quick Recall</div><div class="hooks">`;
+    (n.recall || []).forEach((r) => {
+      html += `<span class="hook">${esc(r)}</span>`;
+    });
+    html += `</div>`;
+  }
 
   container.innerHTML = html;
   document.querySelector(".notes-scroll").scrollTop = 0;

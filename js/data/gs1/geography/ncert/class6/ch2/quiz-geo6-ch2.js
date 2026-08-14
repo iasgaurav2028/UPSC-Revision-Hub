@@ -1,6 +1,7 @@
-// Quiz for: geo6-ch2 (35 questions, UPSC Prelims-style — exceeds the usual
+// Quiz for: geo6-ch2 (45 questions, UPSC Prelims-style — exceeds the usual
 // 20-question baseline given the density of testable content: exact degree
-// values, heat zones, and time-zone calculation logic)
+// values, heat zones, time-zone calculation logic, and which major lines
+// pass through which countries / Indian states)
 const QUIZ_geo6_ch2 = {
   title: "Globe: Latitudes and Longitudes",
   questions: [
@@ -416,6 +417,118 @@ const QUIZ_geo6_ch2 = {
       correct: 1,
       explain:
         "82½°E was chosen as a central reference meridian running through India, whose local time is applied uniformly as IST across the country, despite India's actual longitudinal spread from about 68°E to 97°E.",
+    },
+    {
+      q: "Which of the following major lines does NOT pass through India?",
+      options: [
+        "Tropic of Cancer",
+        "Equator",
+        "Standard Meridian (82½°E)",
+        "None of the above",
+      ],
+      correct: 1,
+      explain:
+        "The Equator (0°) does not pass through India — it lies to the south, passing through the Maldives and Indonesia. The Tropic of Cancer, however, roughly bisects India.",
+    },
+    {
+      q: "The Tropic of Cancer passes through how many Indian states?",
+      options: ["6", "7", "8", "9"],
+      correct: 2,
+      explain:
+        "The Tropic of Cancer passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.",
+    },
+    {
+      q: [
+        "Consider the following Indian states:",
+        "I. Gujarat",
+        "II. Maharashtra",
+        "III. Chhattisgarh",
+        "IV. Mizoram",
+        "Through how many of the above does the Tropic of Cancer pass?",
+      ],
+      options: ["Two", "Three", "Four", "One"],
+      correct: 1,
+      explain:
+        "The Tropic of Cancer passes through Gujarat, Chhattisgarh and Mizoram, but NOT Maharashtra — so three of the four listed states.",
+    },
+    {
+      q: "Through which of the following countries does the Equator pass?",
+      options: ["India", "Egypt", "Kenya", "Australia"],
+      correct: 2,
+      explain:
+        "The Equator passes through Kenya (along with Ecuador, Colombia, Brazil, Indonesia and others). It does not pass through India, Egypt or Australia.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. The Tropic of Capricorn passes through Australia.",
+        "II. The Tropic of Capricorn passes through Brazil.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both are correct. The Tropic of Capricorn (23½°S) passes through Australia, Brazil, Chile, Argentina, South Africa and Madagascar, among others.",
+    },
+    {
+      q: "The Prime Meridian (0° longitude) passes through which of the following countries?",
+      options: ["Italy", "United Kingdom", "Germany", "Portugal"],
+      correct: 1,
+      explain:
+        "The Prime Meridian passes through the United Kingdom (Greenwich), France, Spain, Algeria, Mali, Burkina Faso, Togo and Ghana.",
+    },
+    {
+      q: [
+        "Consider the following pairs (Line — Country it passes through):",
+        "I. Equator — Indonesia",
+        "II. Tropic of Cancer — Egypt",
+        "III. Prime Meridian — Spain",
+        "How many of the above pairs are correctly matched?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 2,
+      explain:
+        "All three are correctly matched: the Equator passes through Indonesia, the Tropic of Cancer through Egypt, and the Prime Meridian through Spain.",
+    },
+    {
+      q: "Which of the following is the correct west-to-east sequence of Indian states through which the Tropic of Cancer passes?",
+      options: [
+        "Gujarat → Rajasthan → Madhya Pradesh → Chhattisgarh → Jharkhand → West Bengal → Tripura → Mizoram",
+        "Mizoram → Tripura → West Bengal → Gujarat → Rajasthan → Jharkhand → Madhya Pradesh → Chhattisgarh",
+        "Rajasthan → Gujarat → Jharkhand → Madhya Pradesh → Chhattisgarh → Mizoram → Tripura → West Bengal",
+        "Gujarat → Madhya Pradesh → Rajasthan → Jharkhand → Chhattisgarh → Tripura → West Bengal → Mizoram",
+      ],
+      correct: 0,
+      explain:
+        "From west to east, the order is Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.",
+    },
+    {
+      q: [
+        "Assertion (A): The Tropic of Cancer passes through more countries than it does not, making it a key reference line for the Northern Hemisphere.",
+        "Reason (R): The Tropic of Cancer passes through parts of Africa, West Asia and Asia, including India, China and Egypt.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 3,
+      explain:
+        "R is a true statement (the Tropic of Cancer does pass through India, China and Egypt). A, as worded, is not a meaningful/correct claim, so A is false while R is true.",
+    },
+    {
+      q: "Which zone of the Earth receives the maximum heat because the mid-day sun is overhead at least once a year on every latitude within it?",
+      options: [
+        "North Temperate Zone",
+        "Torrid Zone",
+        "South Frigid Zone",
+        "Antarctic Zone",
+      ],
+      correct: 1,
+      explain:
+        "The Torrid Zone, lying between the Tropic of Cancer and the Tropic of Capricorn, receives the maximum heat because the mid-day sun is directly overhead at least once a year on every latitude there.",
     },
   ],
 };

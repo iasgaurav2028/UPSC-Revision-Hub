@@ -5,66 +5,110 @@ const DATA_qr_state_nicknames = {
   icon: "🗺",
   isLeaf: true,
   notes: {
-    era: "Quick Recall — Geography",
-    significance: [
-      "State/UT nicknames are classic 'match the following' targets in Prelims and many state PSC exams",
-      "Some nicknames overlap (two 'Rice Bowls', two 'Dev Bhoomi') which makes them common trap questions",
-      "The sobriquets often encode geography, agriculture or culture, aiding recall of a state's key features",
-    ],
-    features: [
+    // NEW flexible format: `sections` lets this note use its own headings
+    // and a raw-data TABLE instead of the polity-style fixed layout.
+    source: "Geography",
+    sections: [
       {
-        key: "States (selected)",
-        main: "Andhra Pradesh — Rice Bowl of India\nArunachal Pradesh — Land of the Rising Sun\nAssam — Land of Red River & Blue Hills\nBihar — Land of Buddha\nChhattisgarh — Rice Bowl of India\nGoa — Pearl of the Orient\nGujarat — Land of Legends\nHaryana — Granary of India\nHimachal Pradesh — Dev Bhoomi\nJharkhand — Land of Forests\nKarnataka — Land of Coffee\nKerala — God's Own Country\nMadhya Pradesh — Heart of India",
-        note: "Note the two 'Rice Bowls': Andhra Pradesh and Chhattisgarh.",
-      },
-      {
-        key: "States (contd.)",
-        main: "Maharashtra — Land of Saints\nManipur — Jewel of India\nMeghalaya — Land of Highlanders\nNagaland — Land of Festivals\nOdisha — Soul of India\nPunjab — Land of Five Rivers\nRajasthan — Land of Kings\nSikkim — Organic State of India\nTamil Nadu — Land of Temples\nTelangana — Land of Prosperity\nTripura — Land of Royal Heritage\nUttar Pradesh — Land of Pilgrimage\nUttarakhand — Dev Bhoomi\nWest Bengal — Land of Culture",
-        note: "Two 'Dev Bhoomi': Himachal Pradesh and Uttarakhand.",
-      },
-      {
-        key: "Union Territories",
-        main: "Andaman & Nicobar Islands — Emerald Islands\nChandigarh — The City Beautiful\nDadra & Nagar Haveli and Daman & Diu — Green Land / Land of Sea Breeze\nDelhi (NCT) — Heart of India\nJammu & Kashmir — Paradise on Earth\nLadakh — Land of High Passes\nLakshadweep — Coral Islands\nPuducherry — French Riviera of the East",
-        note: "Puducherry reflects its French colonial past.",
-      },
-    ],
-    traps: [
-      {
-        label: "Duplicate nicknames",
-        lines: [
-          "Rice Bowl of India: Andhra Pradesh AND Chhattisgarh (regionally, Kuttanad in Kerala too).",
-          "Dev Bhoomi (Land of Gods): Himachal Pradesh AND Uttarakhand.",
+        type: "points",
+        title: "🎯 Why It Matters",
+        icon: "",
+        items: [
+          "State/UT nicknames are classic 'match the following' targets in Prelims and many state PSC exams",
+          "Some nicknames overlap (two 'Rice Bowls', two 'Dev Bhoomi'), which makes them common trap questions",
+          "The sobriquets often encode geography, agriculture or culture, aiding recall of a state's key features",
         ],
       },
       {
-        label: "Easily confused pairs",
-        lines: [
-          "Land of the Rising Sun = Arunachal Pradesh (easternmost, sun rises first).",
-          "Land of Five Rivers = Punjab (Panj + Aab).",
-          "God's Own Country = Kerala.",
+        type: "table",
+        title: "🗺 States & Their Nicknames",
+        headers: ["State", "Nickname"],
+        rows: [
+          ["Andhra Pradesh", "Rice Bowl of India"],
+          ["Arunachal Pradesh", "Land of the Rising Sun"],
+          ["Assam", "Land of Red River & Blue Hills"],
+          ["Bihar", "Land of Buddha"],
+          ["Chhattisgarh", "Rice Bowl of India"],
+          ["Goa", "Pearl of the Orient"],
+          ["Gujarat", "Land of Legends"],
+          ["Haryana", "Granary of India"],
+          ["Himachal Pradesh", "Dev Bhoomi (Land of Gods)"],
+          ["Jharkhand", "Land of Forests"],
+          ["Karnataka", "Land of Coffee"],
+          ["Kerala", "God's Own Country"],
+          ["Madhya Pradesh", "Heart of India"],
+          ["Maharashtra", "Land of Saints"],
+          ["Manipur", "Jewel of India"],
+          ["Meghalaya", "Land of Highlanders"],
+          ["Nagaland", "Land of Festivals"],
+          ["Odisha", "Soul of India"],
+          ["Punjab", "Land of Five Rivers"],
+          ["Rajasthan", "Land of Kings"],
+          ["Sikkim", "Organic State of India"],
+          ["Tamil Nadu", "Land of Temples"],
+          ["Telangana", "Land of Prosperity"],
+          ["Tripura", "Land of Royal Heritage"],
+          ["Uttar Pradesh", "Land of Pilgrimage"],
+          ["Uttarakhand", "Dev Bhoomi (Land of Gods)"],
+          ["West Bengal", "Land of Culture"],
         ],
       },
       {
-        label: "UT sobriquets",
-        lines: [
-          "Paradise on Earth = Jammu & Kashmir.",
-          "The City Beautiful = Chandigarh.",
-          "Emerald Islands = Andaman & Nicobar.",
+        type: "table",
+        title: "🏝 Union Territories & Their Nicknames",
+        headers: ["Union Territory", "Nickname"],
+        rows: [
+          ["Andaman & Nicobar Islands", "Emerald Islands"],
+          ["Chandigarh", "The City Beautiful"],
+          ["Dadra & Nagar Haveli and Daman & Diu", "Green Land / Land of Sea Breeze"],
+          ["Delhi (NCT)", "Heart of India"],
+          ["Jammu & Kashmir", "Paradise on Earth"],
+          ["Ladakh", "Land of High Passes"],
+          ["Lakshadweep", "Coral Islands"],
+          ["Puducherry", "French Riviera of the East"],
         ],
       },
-    ],
-    mainsAngle:
-      "Regional sobriquets capture the geographical and cultural identity of India's states — from Punjab's five rivers to Kerala's lush landscape — and are a reminder that India's federal diversity is rooted in distinct physical and cultural geographies that shape agriculture, economy and tourism.",
-    mainsTheme: "Regional identity and the geographical diversity of India",
-    recall: [
-      "God's Own Country — Kerala",
-      "Land of Five Rivers — Punjab",
-      "Land of the Rising Sun — Arunachal Pradesh",
-      "Rice Bowl of India — Andhra Pradesh & Chhattisgarh",
-      "Dev Bhoomi — Himachal Pradesh & Uttarakhand",
-      "Organic State of India — Sikkim",
-      "Paradise on Earth — Jammu & Kashmir",
-      "The City Beautiful — Chandigarh",
+      {
+        type: "traps",
+        title: "⚠ Prelims Traps",
+        items: [
+          {
+            label: "Duplicate nicknames",
+            lines: [
+              "Rice Bowl of India: Andhra Pradesh AND Chhattisgarh.",
+              "Dev Bhoomi (Land of Gods): Himachal Pradesh AND Uttarakhand.",
+            ],
+          },
+          {
+            label: "Easily confused pairs",
+            lines: [
+              "Land of the Rising Sun = Arunachal Pradesh (easternmost).",
+              "Land of Five Rivers = Punjab; God's Own Country = Kerala.",
+            ],
+          },
+        ],
+      },
+      {
+        type: "mains",
+        title: "✍ Mains / Value Addition",
+        quote:
+          "Regional sobriquets capture the geographical and cultural identity of India's states — a reminder that India's federal diversity is rooted in distinct physical and cultural geographies that shape agriculture, economy and tourism.",
+        theme: "Regional identity and the geographical diversity of India",
+      },
+      {
+        type: "recall",
+        title: "🔑 Quick Recall",
+        items: [
+          "God's Own Country — Kerala",
+          "Land of Five Rivers — Punjab",
+          "Land of the Rising Sun — Arunachal Pradesh",
+          "Rice Bowl — Andhra Pradesh & Chhattisgarh",
+          "Dev Bhoomi — Himachal Pradesh & Uttarakhand",
+          "Organic State — Sikkim",
+          "Paradise on Earth — Jammu & Kashmir",
+          "The City Beautiful — Chandigarh",
+        ],
+      },
     ],
   },
 };

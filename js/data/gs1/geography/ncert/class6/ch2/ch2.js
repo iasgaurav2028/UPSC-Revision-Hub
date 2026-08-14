@@ -8,6 +8,54 @@ const DATA_geo6_ch2 = {
   isChapter: true,
   notes: {
     era: "NCERT Class 6 — Geography, Chapter 2",
+    images: [
+      {
+        type: "image",
+        size: "full",
+        title: "🌍 Earth's Important Lines, Zones & Angles (Overview)",
+        src: "images/geo-earth-lines-zones-angles.jpg",
+        caption:
+          "One-look overview: major lines of latitude (90°N to 90°S), the three heat zones, both hemispheres, angles of incidence, and why these lines matter.",
+      },
+    ],
+    extraSections: [
+      {
+        type: "table",
+        title: "🌍 Which Line Passes Through Which Countries",
+        headers: ["Line", "Value", "Major countries it passes through"],
+        rows: [
+          [
+            "Equator",
+            "0°",
+            "Ecuador, Colombia, Brazil, Gabon, Congo, DR Congo, Uganda, Kenya, Somalia, Maldives, Indonesia, Kiribati (NOT India)",
+          ],
+          [
+            "Tropic of Cancer",
+            "23½°N",
+            "Mexico, Western Sahara, Mali, Algeria, Niger, Libya, Egypt, Saudi Arabia, UAE, Oman, India, Bangladesh, Myanmar, China, Taiwan",
+          ],
+          [
+            "Tropic of Capricorn",
+            "23½°S",
+            "Chile, Argentina, Paraguay, Brazil, Namibia, Botswana, South Africa, Mozambique, Madagascar, Australia",
+          ],
+          [
+            "Prime Meridian",
+            "0° longitude",
+            "United Kingdom, France, Spain, Algeria, Mali, Burkina Faso, Togo, Ghana",
+          ],
+        ],
+      },
+      {
+        type: "points",
+        title: "🇮🇳 Tropic of Cancer Through India (8 States)",
+        items: [
+          "Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, Mizoram",
+          "Mnemonic: 'GuRa MaCh Jha We TriMi' — 8 states from west to east",
+          "The Equator does NOT pass through India; the Tropic of Cancer roughly bisects the country",
+        ],
+      },
+    ],
     significance: [
       "Establishes the entire coordinate system (latitude/longitude) used throughout Geography, map reading, and time-zone calculations — one of the most exam-relevant foundational chapters",
       "The exact degree values (23½°, 66½°, 82½°E) and heat-zone boundaries are extremely frequently tested static facts",

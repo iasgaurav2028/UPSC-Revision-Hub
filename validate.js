@@ -164,6 +164,39 @@ function main() {
           `News-type leaf "${leaf.id}" (${leaf.title}) has neither a summary nor keyPoints.`,
         );
       }
+    } else if (Array.isArray(n.sections)) {
+      // Flexible section-based note. Validate each section has a known type.
+      const KNOWN_TYPES = [
+        "points",
+        "significance",
+        "features",
+        "table",
+        "image",
+        "map",
+        "prose",
+        "text",
+        "traps",
+        "mains",
+        "recall",
+      ];
+      if (n.sections.length === 0) {
+        warn(`Leaf "${leaf.id}" (${leaf.title}) has an empty sections array.`);
+      }
+      n.sections.forEach((sec, i) => {
+        if (!sec || !sec.type) {
+          warn(
+            `Leaf "${leaf.id}" (${leaf.title}) section #${i + 1} is missing a "type".`,
+          );
+        } else if (!KNOWN_TYPES.includes(sec.type)) {
+          warn(
+            `Leaf "${leaf.id}" (${leaf.title}) section #${i + 1} has unknown type "${sec.type}". Known: ${KNOWN_TYPES.join(", ")}.`,
+          );
+        } else if ((sec.type === "image" || sec.type === "map") && !sec.src) {
+          warn(
+            `Leaf "${leaf.id}" (${leaf.title}) ${sec.type} section #${i + 1} is missing "src".`,
+          );
+        }
+      });
     } else {
       const missingFields = [
         "significance",
