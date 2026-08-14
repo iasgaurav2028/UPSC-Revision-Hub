@@ -2141,6 +2141,18 @@ function openSidebar() {
   }
 }
 
+// Hide the sidebar regardless of screen size. Always clear the drawer state
+// (harmless on desktop — it just removes classes that aren't set), and add
+// the docked-collapse class only on larger screens. Doing the drawer-close
+// unconditionally guarantees the mobile ☰ closes the drawer even if the
+// viewport width sits near the breakpoint.
+function closeSidebar() {
+  closeMobileDrawer();
+  if (!window.matchMedia("(max-width: 680px)").matches) {
+    document.querySelector(".app").classList.add("sidebar-collapsed");
+  }
+}
+
 // The topbar ☰ button does double duty: on phones (≤680px) it opens the
 // slide-in drawer; on larger screens it collapses/expands the docked sidebar.
 function toggleSidebar() {
@@ -2153,7 +2165,7 @@ function toggleSidebar() {
 }
 
 menuBtn.addEventListener("click", toggleSidebar);
-closeDrawerBtn.addEventListener("click", closeMobileDrawer);
+closeDrawerBtn.addEventListener("click", closeSidebar);
 overlay.addEventListener("click", closeMobileDrawer);
 
 // ╔══════════════════════════════════════════════════════════╗

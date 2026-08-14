@@ -114,6 +114,8 @@
   position: relative;
 }
 .close-drawer {
+  /* Hidden on big screens (use the topbar ☰ to collapse the docked
+     sidebar); shown only on phones ≤680px — see responsive.css. */
   display: none;
   position: absolute;
   top: 14px;
