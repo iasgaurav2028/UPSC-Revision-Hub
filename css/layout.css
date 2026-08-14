@@ -501,7 +501,9 @@
   flex-shrink: 0;
 }
 .menu-btn {
-  display: none;
+  /* Visible on all sizes: acts as the mobile drawer opener AND the
+     desktop sidebar collapse/expand toggle. */
+  display: flex;
   background: none;
   border: 1px solid var(--gold-border);
   color: var(--gold);
@@ -513,6 +515,25 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  transition:
+    background 0.15s,
+    border-color 0.15s;
+}
+.menu-btn:hover {
+  background: rgba(201, 168, 76, 0.1);
+  border-color: var(--gold);
+}
+
+/* Desktop: collapse the sidebar to reclaim reading space. Toggled by the
+   topbar ☰ button (on phones ≤680px the button opens the drawer instead). */
+@media (min-width: 681px) {
+  .app.sidebar-collapsed .sidebar {
+    width: 0;
+    min-width: 0;
+    border-right-color: transparent;
+    opacity: 0;
+    pointer-events: none;
+  }
 }
 .topbar-title {
   font-family: "Cinzel", Georgia, serif;

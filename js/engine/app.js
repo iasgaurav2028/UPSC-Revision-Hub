@@ -23,7 +23,29 @@ function closeMobileDrawer() {
   overlay.classList.remove("active");
 }
 
-menuBtn.addEventListener("click", openMobileDrawer);
+// Make the sidebar visible regardless of screen size: on phones (≤680px)
+// slide the drawer in; on larger screens un-collapse the docked sidebar.
+// Used e.g. when a dashboard card is clicked so the revealed tree is visible.
+function openSidebar() {
+  if (window.matchMedia("(max-width: 680px)").matches) {
+    openMobileDrawer();
+  } else {
+    document.querySelector(".app").classList.remove("sidebar-collapsed");
+  }
+}
+
+// The topbar ☰ button does double duty: on phones (≤680px) it opens the
+// slide-in drawer; on larger screens it collapses/expands the docked sidebar.
+function toggleSidebar() {
+  if (window.matchMedia("(max-width: 680px)").matches) {
+    if (sidebar.classList.contains("open")) closeMobileDrawer();
+    else openMobileDrawer();
+  } else {
+    document.querySelector(".app").classList.toggle("sidebar-collapsed");
+  }
+}
+
+menuBtn.addEventListener("click", toggleSidebar);
 closeDrawerBtn.addEventListener("click", closeMobileDrawer);
 overlay.addEventListener("click", closeMobileDrawer);
 
@@ -41,7 +63,7 @@ function enterReadingMode() {
   // (e.g. some mobile browsers or iframes disallow it) — the CSS-based
   // distraction-free layout above still applies either way.
   const el = document.documentElement;
-  if (el.requestFullscreen) el.requestFullscreen().catch(() => {});
+  if (el.requestFullscreen) el.requestFullscreen().catch(() => { });
   else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
   document.querySelector(".notes-scroll").scrollTop = 0;
 }
@@ -49,7 +71,7 @@ function enterReadingMode() {
 function exitReadingMode() {
   appEl.classList.remove("reading-mode");
   if (document.fullscreenElement) {
-    document.exitFullscreen().catch(() => {});
+    document.exitFullscreen().catch(() => { });
   } else if (document.webkitFullscreenElement) {
     document.webkitExitFullscreen();
   }
@@ -153,7 +175,7 @@ window.addEventListener("popstate", (e) => {
 try {
   localStorage.removeItem("upsc-tree-expanded");
   localStorage.removeItem("upsc-tree-state");
-} catch (err) {}
+} catch (err) { }
 
 refreshTree();
 renderSidebarNav();

@@ -57,6 +57,9 @@ function renderDashboard() {
       expanded[id] = true;
       saveExpanded();
       refreshTree();
+      // Reveal the sidebar so the just-expanded subject is visible —
+      // opens the drawer on phones, un-collapses it on larger screens.
+      openSidebar();
     });
   });
 }
