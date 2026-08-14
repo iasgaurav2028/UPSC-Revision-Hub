@@ -910,6 +910,22 @@ function selectAndReveal(id) {
   pushHistory();
 }
 
+// Smoothly scroll the sidebar tree so the given node's row is near the top
+// of the tree container (used e.g. after clicking a dashboard card, so the
+// revealed subject slides into view rather than being below the fold).
+function scrollTreeToNode(id) {
+  requestAnimationFrame(() => {
+    const container = document.querySelector(".tree-container");
+    if (!container) return;
+    const row = container.querySelector(`.tree-row[data-id="${id}"]`);
+    if (!row) return;
+    const cRect = container.getBoundingClientRect();
+    const rRect = row.getBoundingClientRect();
+    const top = container.scrollTop + (rRect.top - cRect.top) - 8;
+    container.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+  });
+}
+
 // ╔══════════════════════════════════════════════════════════╗
 // ║  NOTES / DASHBOARD RENDERING                              ║
 // ╚══════════════════════════════════════════════════════════╝
@@ -977,6 +993,8 @@ function renderDashboard() {
       // Reveal the sidebar so the just-expanded subject is visible —
       // opens the drawer on phones, un-collapses it on larger screens.
       openSidebar();
+      // Auto-slide the tree to the clicked subject if it's below the fold.
+      scrollTreeToNode(id);
     });
   });
 }

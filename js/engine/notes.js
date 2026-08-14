@@ -60,6 +60,8 @@ function renderDashboard() {
       // Reveal the sidebar so the just-expanded subject is visible —
       // opens the drawer on phones, un-collapses it on larger screens.
       openSidebar();
+      // Auto-slide the tree to the clicked subject if it's below the fold.
+      scrollTreeToNode(id);
     });
   });
 }
