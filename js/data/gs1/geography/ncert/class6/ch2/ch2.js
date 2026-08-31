@@ -47,6 +47,32 @@ const DATA_geo6_ch2 = {
         ],
       },
       {
+        type: "features",
+        title: "🌍 Earth's Orbit & Axial Tilt — Key Definitions",
+        items: [
+          {
+            key: "Elliptical Orbit (दीर्घवृत्तीय कक्षा)",
+            main: "Earth moves around the Sun in an elliptical (oval) path.",
+            note: "पृथ्वी सूर्य की परिक्रमा दीर्घवृत्तीय पथ पर करती है।",
+          },
+          {
+            key: "Orbital / Ecliptic Plane (कक्षीय या क्रांतिवृत्तीय तल)",
+            main: "The flat plane of Earth's orbit around the Sun.",
+            note: "सूर्य की परिक्रमा का समतल तल।",
+          },
+          {
+            key: "Axial Tilt (अक्षीय झुकाव)",
+            main: "Earth's axis is tilted 23½° from the perpendicular (to the orbital plane).",
+            note: "पृथ्वी की धुरी लंबवत से 23½° झुकी है।",
+          },
+          {
+            key: "Tilt Relation (झुकाव संबंध)",
+            main: "The axis makes an angle of 66½° with the orbital plane.\n(23½° + 66½° = 90° — the two angles are complementary.)",
+            note: "धुरी कक्षीय तल से 66½° का कोण बनाती है।",
+          },
+        ],
+      },
+      {
         type: "points",
         title: "🇮🇳 Tropic of Cancer Through India (8 States)",
         items: [

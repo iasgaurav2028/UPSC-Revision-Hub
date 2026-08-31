@@ -74,5 +74,175 @@ const QUIZ_qr_levels_partnership = {
       explain:
         "India–Russia ties are described as a 'Special and Privileged Strategic Partnership', among the deepest in India's hierarchy of relations.",
     },
+    {
+      q: "A 'Cooperative Partnership' between two countries is best characterised by:",
+      options: [
+        "Deep defence and critical-technology cooperation",
+        "Sector-specific cooperation in areas like trade, education, health and culture",
+        "Only the exchange of embassies and visas",
+        "Full geopolitical alignment across all sectors",
+      ],
+      correct: 1,
+      explain:
+        "A Cooperative Partnership involves sectoral cooperation (trade, education, health, tourism, culture) — a moderate level of engagement rather than a strategic/security one.",
+    },
+    {
+      q: [
+        "Consider the following statements about the hierarchy of partnerships:",
+        "I. A Strategic Partnership focuses on strategic/security domains such as defence and technology.",
+        "II. A Comprehensive Strategic Partnership extends cooperation across nearly all sectors.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both are correct — a Strategic Partnership is security-focused, while a Comprehensive Strategic Partnership broadens ties across nearly all sectors.",
+    },
+    {
+      q: [
+        "Arrange the following tiers in increasing order of depth of engagement:",
+        "1. Comprehensive Strategic Partnership",
+        "2. Cooperative Partnership",
+        "3. Strategic Partnership",
+        "4. Special & Privileged Strategic Partnership",
+        "Select the correct order (lowest first):",
+      ],
+      options: ["2 → 3 → 1 → 4", "3 → 2 → 1 → 4", "2 → 1 → 3 → 4", "4 → 1 → 3 → 2"],
+      correct: 0,
+      explain:
+        "Rising order: Cooperative Partnership → Strategic Partnership → Comprehensive Strategic Partnership → Special & Privileged Strategic Partnership.",
+    },
+    {
+      q: "India's calibrated hierarchy of partnerships is most closely linked to which strategic doctrine?",
+      options: [
+        "Non-alignment (Cold War era only)",
+        "Multi-alignment",
+        "Isolationism",
+        "Collective security alliance",
+      ],
+      correct: 1,
+      explain:
+        "The graded architecture of ties reflects India's strategy of 'multi-alignment' — engaging different powers at different depths to maximise autonomy in a multipolar world.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. The partnership labels are rigid legal categories fixed by treaty.",
+        "II. A country can be 'upgraded' from one tier to another over time.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 1,
+      explain:
+        "Only II is correct. The labels are diplomatic conventions, not rigid legal categories, and countries are often 'upgraded' from one tier to another.",
+    },
+    {
+      q: "Which of the following pairs a partnership example correctly as commonly cited for India?",
+      options: [
+        "India–Russia — Normal Diplomatic Relations",
+        "India–UAE — Comprehensive Strategic Partnership",
+        "India–Australia — Cooperative Partnership only",
+        "India–Russia — Cooperative Partnership",
+      ],
+      correct: 1,
+      explain:
+        "India–UAE and India–Australia are commonly cited as Comprehensive Strategic Partnerships; India–Russia is a Special & Privileged Strategic Partnership.",
+    },
+    {
+      q: "The exchange of embassies, visas and ordinary trade between two countries corresponds to which tier?",
+      options: [
+        "Strategic Partnership",
+        "Comprehensive Strategic Partnership",
+        "Normal Diplomatic Relations",
+        "Special & Privileged Strategic Partnership",
+      ],
+      correct: 2,
+      explain:
+        "Establishing embassies, visas and basic trade/cultural exchange is the hallmark of Normal Diplomatic Relations, the lowest tier.",
+    },
+    {
+      q: [
+        "Statement I: A Comprehensive Strategic Partnership involves cooperation only in the security domain.",
+        "Statement II: It extends strategic ties into a whole-of-relationship framework covering economy, technology and global issues.",
+        "Which one of the following is correct?",
+      ],
+      options: [
+        "Both statements are correct",
+        "Statement I is correct, II is incorrect",
+        "Statement I is incorrect, II is correct",
+        "Both statements are incorrect",
+      ],
+      correct: 2,
+      explain:
+        "Statement I is wrong — a Comprehensive Strategic Partnership goes beyond security to nearly all sectors, which is exactly what Statement II (correct) describes.",
+    },
+    {
+      q: "Deep defence cooperation, resilient supply chains and geopolitical alignment are features most associated with a:",
+      options: [
+        "Cooperative Partnership",
+        "Normal Diplomatic Relation",
+        "Special & Privileged Strategic Partnership",
+        "Consular Relation",
+      ],
+      correct: 2,
+      explain:
+        "These deepest-trust features — critical technologies, resilient supply chains and geopolitical alignment — define the Special & Privileged Strategic Partnership tier.",
+    },
+    {
+      q: "How many broad tiers are described in this hierarchy of bilateral engagement (from Normal Diplomatic Relations to Special & Privileged Strategic Partnership)?",
+      options: ["Three", "Four", "Five", "Six"],
+      correct: 2,
+      explain:
+        "Five tiers: Normal Diplomatic Relations, Cooperative Partnership, Strategic Partnership, Comprehensive Strategic Partnership, and Special & Privileged Strategic Partnership.",
+    },
+    {
+      q: [
+        "Consider the following about how relations evolve between countries:",
+        "I. Ties are built gradually, moving up a hierarchy over time.",
+        "II. Each higher tier means broader sectors of cooperation and greater trust.",
+        "III. The same country's tier is always identical across all its partners.",
+        "How many of the statements are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Only I and II are correct. III is wrong — the same country's tier can differ across different partners and can change over time.",
+    },
+    {
+      q: "Which tier sits immediately BELOW the Comprehensive Strategic Partnership in the hierarchy?",
+      options: [
+        "Normal Diplomatic Relations",
+        "Cooperative Partnership",
+        "Strategic Partnership",
+        "Special & Privileged Strategic Partnership",
+      ],
+      correct: 2,
+      explain:
+        "The order is Cooperative → Strategic → Comprehensive Strategic, so the Strategic Partnership sits immediately below the Comprehensive Strategic Partnership.",
+    },
+    {
+      q: "A key reason India uses graded partnership labels ('strategic', 'comprehensive strategic', etc.) is to:",
+      options: [
+        "Lock itself into permanent military alliances",
+        "Signal priority and intent while preserving flexibility",
+        "Avoid all defence cooperation",
+        "Replace formal diplomacy with trade alone",
+      ],
+      correct: 1,
+      explain:
+        "The vocabulary lets India signal priority and intent to partners while preserving flexibility and strategic autonomy in a multipolar world.",
+    },
+    {
+      q: [
+        "Match the tier with its defining feature:",
+        "I. Strategic Partnership — a) sectoral cooperation (trade, education, health)",
+        "II. Cooperative Partnership — b) defence, security, technology, counter-terrorism",
+        "Select the correct answer:",
+      ],
+      options: ["I-a, II-b", "I-b, II-a", "Both mean sectoral cooperation", "Both mean defence cooperation"],
+      correct: 1,
+      explain:
+        "Strategic Partnership = defence/security/technology cooperation (b); Cooperative Partnership = sectoral cooperation in trade, education, health, etc. (a).",
+    },
   ],
 };

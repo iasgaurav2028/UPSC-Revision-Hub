@@ -32,7 +32,31 @@ function renderDashboard() {
         </div>
         <div class="dash-hero-tricolour" aria-hidden="true"></div>
       </div>
+    </div>`;
+
+  // ── Progress overview: donut + stat tiles (visualises tracked data) ──
+  const op = overallProgress();
+  const qs = quizStats();
+  const streak = studyStreak();
+  const opColor =
+    op.pct >= 66 ? "#5fb3a3" : op.pct >= 33 ? "var(--gold)" : "#e8886b";
+  html += `
+    <div class="dash-stats">
+      <div class="dash-ring-card">
+        ${svgRing(op.pct, opColor, 132, 12, op.pct + "%", "complete")}
+        <div class="dash-ring-meta">
+          <div class="dash-ring-title">Overall Progress</div>
+          <div class="dash-ring-detail">${op.done} of ${op.total} topics studied</div>
+        </div>
+      </div>
+      <div class="dash-stat-tiles">
+        <div class="stat-tile"><div class="stat-ico">📚</div><div class="stat-val">${op.done}</div><div class="stat-cap">Topics done</div></div>
+        <div class="stat-tile"><div class="stat-ico">📝</div><div class="stat-val">${qs.quizzesTaken}</div><div class="stat-cap">Quizzes taken</div></div>
+        <div class="stat-tile"><div class="stat-ico">🎯</div><div class="stat-val">${qs.avgBest}%</div><div class="stat-cap">Avg best score</div></div>
+        <div class="stat-tile"><div class="stat-ico">🔥</div><div class="stat-val">${streak}</div><div class="stat-cap">Day streak</div></div>
+      </div>
     </div>
+    <div class="dash-section-label">Subjects</div>
     <div class="dash-grid">`;
   let cardIndex = 0;
   for (const id of DASHBOARD_IDS) {
@@ -1026,9 +1050,8 @@ function openPrevChapterConfirm(currentChapter, prevChapter, targetLeaf) {
   const goBtn = document.getElementById("prevChapterGoBtn");
   if (!overlay || !sub || !goBtn) return;
 
-  sub.innerHTML = `This takes you back to <strong>${esc(prevChapter.title)}</strong>${
-    prevChapter.subtitle ? " — " + esc(prevChapter.subtitle) : ""
-  }, opening its last topic <strong>${esc(targetLeaf.title)}</strong>.`;
+  sub.innerHTML = `This takes you back to <strong>${esc(prevChapter.title)}</strong>${prevChapter.subtitle ? " — " + esc(prevChapter.subtitle) : ""
+    }, opening its last topic <strong>${esc(targetLeaf.title)}</strong>.`;
 
   goBtn.onclick = () => {
     overlay.classList.remove("active");

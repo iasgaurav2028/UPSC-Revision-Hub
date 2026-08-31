@@ -85,5 +85,136 @@ const QUIZ_qr_anti_defection = {
       explain:
         "The Presiding Officer of the House decides disqualification questions, though the decision is subject to judicial review as held in Kihoto Hollohan (1992).",
     },
+    {
+      q: "The 91st Constitutional Amendment Act, 2003 capped the total number of ministers in the Council of Ministers at what proportion of the strength of the House?",
+      options: ["10%", "12%", "15%", "20%"],
+      correct: 2,
+      explain:
+        "The 91st Amendment inserted Articles 75(1A)/164(1A) capping the Council of Ministers at 15% of the total strength of the House (with a minimum of 12 in states).",
+    },
+    {
+      q: "A nominated member of a House incurs disqualification under the Tenth Schedule if he joins a political party after the expiry of:",
+      options: [
+        "One month from taking his seat",
+        "Three months from taking his seat",
+        "Six months from taking his seat",
+        "One year from taking his seat",
+      ],
+      correct: 2,
+      explain:
+        "A nominated member is disqualified if he joins any political party after six months from taking his seat. He may join a party within that six-month window.",
+    },
+    {
+      q: [
+        "Consider the following statements regarding the 91st Amendment Act, 2003:",
+        "I. It deleted the earlier 'split' exception based on one-third members.",
+        "II. It barred a disqualified member from being appointed a minister until re-election or the end of the term.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both are correct. The 91st Amendment removed the one-third split exception and, through Articles 75(1B)/164(1B), barred disqualified members from being appointed ministers until re-elected or the term ends.",
+    },
+    {
+      q: "Which Article, inserted by the 91st Amendment, bars a disqualified member from holding a remunerative political post?",
+      options: ["Article 361A", "Article 361B", "Article 164(1A)", "Article 75(1B)"],
+      correct: 1,
+      explain:
+        "Article 361B bars a member disqualified on the ground of defection from being appointed to any remunerative political post until re-election or the end of the term.",
+    },
+    {
+      q: "In Kihoto Hollohan v. Zachillhu (1992), which paragraph of the Tenth Schedule did the Supreme Court strike down as unconstitutional?",
+      options: ["Paragraph 2", "Paragraph 4", "Paragraph 6", "Paragraph 7"],
+      correct: 3,
+      explain:
+        "The Court struck down Paragraph 7, which had barred the jurisdiction of courts, holding it required ratification by states; the Presiding Officer's decision was thus made subject to judicial review.",
+    },
+    {
+      q: "The phrase 'Aaya Ram Gaya Ram', which the Anti-Defection Law sought to curb, refers to:",
+      options: [
+        "Corruption in the bureaucracy",
+        "Unprincipled floor-crossing / frequent party switching by legislators",
+        "Delay in passing bills",
+        "Misuse of the whip in money bills",
+      ],
+      correct: 1,
+      explain:
+        "'Aaya Ram Gaya Ram' symbolises the culture of unprincipled and frequent floor-crossing by legislators, which the Anti-Defection Law aimed to end.",
+    },
+    {
+      q: "A member of a political party can be disqualified for voting or abstaining contrary to the party whip only if the act is not condoned by the party within:",
+      options: ["7 days", "10 days", "15 days", "30 days"],
+      correct: 2,
+      explain:
+        "Violating the party whip attracts disqualification only if the party does not condone the act within 15 days.",
+    },
+    {
+      q: [
+        "Consider the following statements about the merger exception under the Tenth Schedule:",
+        "I. A merger is deemed to have taken place only if at least two-thirds of the members of the legislature party agree to it.",
+        "II. Members who accept such a merger are not disqualified.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both are correct. A protected merger requires the agreement of at least two-thirds of the legislature party's members, and those who accept it are not disqualified.",
+    },
+    {
+      q: "The minimum size of the Council of Ministers in a state, as fixed by the 91st Amendment, is:",
+      options: ["10 ministers", "12 ministers", "15 ministers", "20 ministers"],
+      correct: 1,
+      explain:
+        "The 91st Amendment fixed a minimum of 12 ministers for a state Council of Ministers, even where 15% of the House strength would be fewer.",
+    },
+    {
+      q: "Match List-I (Amendment) with List-II (Contribution) and select the correct answer:\nA. 52nd Amendment  B. 91st Amendment\n1. Deleted the split exception  2. Added the Tenth Schedule",
+      options: [
+        "A-2, B-1",
+        "A-1, B-2",
+        "A-2, B-2",
+        "A-1, B-1",
+      ],
+      correct: 0,
+      explain:
+        "The 52nd Amendment (1985) added the Tenth Schedule; the 91st Amendment (2003) deleted the one-third split exception. Hence A-2, B-1.",
+    },
+    {
+      q: "In Kihoto Hollohan (1992), the Supreme Court held that while deciding disqualification, the Presiding Officer acts as a:",
+      options: [
+        "Purely political authority",
+        "Tribunal whose decision is subject to judicial review",
+        "Final authority immune from any review",
+        "Delegate of the Election Commission",
+      ],
+      correct: 1,
+      explain:
+        "The Court held that the Presiding Officer functions as a tribunal, so the decision is amenable to judicial review on grounds such as mala fides and perversity.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. The Anti-Defection Law applies to both Parliament and State Legislatures.",
+        "II. The whip is generally decisive in matters such as money bills and confidence/no-confidence motions.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both are correct. The Tenth Schedule applies to members of both Parliament and State Legislatures, and courts have observed the whip is decisive mainly in crucial votes like money bills and confidence motions.",
+    },
+    {
+      q: "Which body has been proposed by reformers as an alternative to the Presiding Officer for deciding defection cases?",
+      options: [
+        "The Council of Ministers",
+        "An independent tribunal or the Election Commission",
+        "The Attorney General",
+        "The Comptroller and Auditor General",
+      ],
+      correct: 1,
+      explain:
+        "Reform proposals suggest shifting the adjudicatory role from the Speaker to an independent tribunal or the Election Commission to ensure impartiality.",
+    },
   ],
 };

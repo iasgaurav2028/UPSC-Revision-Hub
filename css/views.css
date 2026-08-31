@@ -963,24 +963,6 @@
   color: var(--text-dim);
 }
 
-.quiz-result {
-  text-align: center;
-  padding: 30px 20px;
-}
-.quiz-result-score {
-  font-family: "Cinzel Decorative", "Cinzel", Georgia, serif;
-  font-size: 42px;
-  color: var(--gold);
-  margin-bottom: 10px;
-}
-.quiz-result-label {
-  font-family: "Cinzel", Georgia, serif;
-  font-size: 11px;
-  color: var(--text-dim);
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin-bottom: 24px;
-}
 .quiz-retry-btn {
   background: var(--gold);
   color: var(--bg-deep);
@@ -1003,4 +985,233 @@
 }
 .overlay.active {
   display: block;
+}
+
+/* ═══════════════════════════════════════════════════════════
+   VISUALISATION UPGRADE — progress rings, dashboard stats,
+   quiz result screen, and light theme polish.
+   ═══════════════════════════════════════════════════════════ */
+
+/* ── SVG progress ring (shared by dashboard + quiz result) ── */
+.ring {
+  display: block;
+}
+.ring-label {
+  fill: var(--gold-light);
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.ring-sub {
+  fill: var(--text-dim);
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ── Dashboard progress overview ── */
+.dash-stats {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  padding: 0 30px;
+  margin: 4px 0 22px;
+  align-items: stretch;
+}
+.dash-ring-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 22px;
+  background: linear-gradient(135deg, var(--bg-card), rgba(19, 37, 63, 0.4));
+  border: 1px solid var(--gold-border);
+  border-radius: 14px;
+}
+.dash-ring-meta {
+  min-width: 0;
+}
+.dash-ring-title {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: var(--gold);
+  margin-bottom: 4px;
+}
+.dash-ring-detail {
+  color: var(--text-dim);
+  font-size: 13px;
+}
+.dash-stat-tiles {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.stat-tile {
+  background: linear-gradient(135deg, var(--bg-card), rgba(19, 37, 63, 0.4));
+  border: 1px solid var(--gold-border);
+  border-radius: 14px;
+  padding: 16px 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease;
+}
+.stat-tile:hover {
+  transform: translateY(-3px);
+  border-color: rgba(201, 168, 76, 0.4);
+}
+.stat-ico {
+  font-size: 20px;
+}
+.stat-val {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--gold-light);
+  line-height: 1.1;
+}
+.stat-cap {
+  font-size: 10.5px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+.dash-section-label {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--gold);
+  padding: 0 30px;
+  margin-bottom: 10px;
+  opacity: 0.85;
+}
+
+/* Subtle lift on subject cards for a more tactile dashboard */
+.dash-card {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+.dash-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.35);
+}
+
+/* ── Quiz result screen ── */
+.quiz-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 26px 10px 12px;
+}
+.quiz-result-ring {
+  filter: drop-shadow(0 4px 14px rgba(0, 0, 0, 0.35));
+}
+.quiz-result-verdict {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+.quiz-result-breakdown {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  max-width: 340px;
+}
+.qr-stat {
+  flex: 1;
+  background: var(--bg-card);
+  border: 1px solid var(--gold-border);
+  border-radius: 10px;
+  padding: 12px 6px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.qr-num {
+  font-family: "Cinzel", Georgia, serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text);
+}
+.qr-cap {
+  font-size: 10px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+.qr-correct {
+  border-color: var(--green-border);
+}
+.qr-correct .qr-num {
+  color: var(--green);
+}
+.qr-wrong {
+  border-color: var(--danger-border);
+}
+.qr-wrong .qr-num {
+  color: var(--danger);
+}
+.quiz-result-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 4px;
+}
+.quiz-retry-btn.primary {
+  background: linear-gradient(135deg, var(--gold), var(--gold-light));
+  color: #1a1206;
+  border-color: transparent;
+  font-weight: 600;
+}
+
+/* ── Note section polish: gentle depth on the section boxes ── */
+.sig-box,
+.trap-box,
+.mains-box,
+.features,
+.note-table-wrap {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+.feature-row {
+  transition: background 0.15s ease;
+  border-radius: 6px;
+}
+.feature-row:hover {
+  background: var(--gold-faint);
+}
+.note-table tbody tr {
+  transition: background 0.15s ease;
+}
+.note-table tbody tr:hover {
+  background: rgba(201, 168, 76, 0.07);
+}
+
+/* ── Responsive: stack the dashboard stats on smaller screens ── */
+@media (max-width: 820px) {
+  .dash-stats {
+    grid-template-columns: 1fr;
+    padding: 0 18px;
+  }
+  .dash-section-label {
+    padding: 0 18px;
+  }
+}
+@media (max-width: 520px) {
+  .dash-stat-tiles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .quiz-result-actions {
+    flex-direction: column;
+    width: 100%;
+    max-width: 340px;
+  }
 }

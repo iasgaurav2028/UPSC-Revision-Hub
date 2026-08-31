@@ -12,7 +12,19 @@ const DATA_quickrecall = {
   subtitle: "Rapid revision — every UPSC subject",
   icon: "⚡",
   children: [
-    { id: "qr-history", title: "History", icon: "📜", children: [] },
+    {
+      id: "qr-history",
+      title: "History",
+      icon: "📜",
+      children: [
+        DATA_qr_ancient_india,
+        DATA_qr_buddhism,
+        DATA_qr_jagir_mansab,
+        DATA_qr_advent_europeans,
+        DATA_qr_gg_viceroys,
+        DATA_qr_freedom_journey,
+      ],
+    },
     {
       id: "qr-geography",
       title: "Geography",
@@ -21,6 +33,9 @@ const DATA_quickrecall = {
         DATA_qr_state_nicknames,
         DATA_qr_siliguri_corridor,
         DATA_qr_types_of_mining,
+        DATA_qr_river_tributaries,
+        DATA_qr_brahmaputra,
+        DATA_qr_indus_water_treaty,
       ],
     },
     {
@@ -31,6 +46,9 @@ const DATA_quickrecall = {
         DATA_qr_presidents,
         DATA_qr_anti_defection,
         DATA_qr_original_constitution,
+        DATA_qr_governance_sj,
+        DATA_qr_rti_act,
+        DATA_qr_exam_fraud,
       ],
     },
     { id: "qr-economics", title: "Economy", icon: "💰", children: [] },

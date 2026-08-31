@@ -603,3 +603,18 @@
 .exit-reading-btn:active {
   transform: scale(0.96);
 }
+
+/* ── Home navigation: clickable brand + topbar home button ── */
+.brand-logo,
+.brand-eyebrow,
+.brand-title,
+.brand-sub {
+  cursor: pointer;
+}
+.brand:hover .brand-title {
+  color: var(--gold-light);
+}
+.home-btn {
+  font-size: 20px;
+  line-height: 1;
+}

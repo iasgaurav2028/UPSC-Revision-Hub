@@ -43,6 +43,7 @@ let favourited = {}; // { [leafId]: true } — favourite topics
 let recents = []; // [{ id, title, ts }] — most recent first, max 20
 let revisionHistory = []; // [{ id, title, ts, action }] — log of completed/reviewed/quiz events
 let dailyTracker = {}; // { "YYYY-MM-DD": count } — topics touched per day
+let quizResults = {}; // { [leafId]: { bestPct, lastPct, lastScore, total, attempts, ts } }
 
 try {
   completed = JSON.parse(localStorage.getItem("upsc-completed") || "{}");
@@ -76,6 +77,11 @@ try {
 } catch (err) {
   dailyTracker = {};
 }
+try {
+  quizResults = JSON.parse(localStorage.getItem("upsc-quiz-results") || "{}");
+} catch (err) {
+  quizResults = {};
+}
 
 function saveExpanded() {
   // Deliberately a no-op: expanded state is session-only (in-memory),
@@ -84,22 +90,22 @@ function saveExpanded() {
 function saveCompleted() {
   try {
     localStorage.setItem("upsc-completed", JSON.stringify(completed));
-  } catch (err) {}
+  } catch (err) { }
 }
 function saveBookmarked() {
   try {
     localStorage.setItem("upsc-bookmarked", JSON.stringify(bookmarked));
-  } catch (err) {}
+  } catch (err) { }
 }
 function saveFavourited() {
   try {
     localStorage.setItem("upsc-favourited", JSON.stringify(favourited));
-  } catch (err) {}
+  } catch (err) { }
 }
 function saveRecents() {
   try {
     localStorage.setItem("upsc-recents", JSON.stringify(recents));
-  } catch (err) {}
+  } catch (err) { }
 }
 function saveRevisionHistory() {
   try {
@@ -107,12 +113,81 @@ function saveRevisionHistory() {
       "upsc-revision-history",
       JSON.stringify(revisionHistory),
     );
-  } catch (err) {}
+  } catch (err) { }
 }
 function saveDailyTracker() {
   try {
     localStorage.setItem("upsc-daily-tracker", JSON.stringify(dailyTracker));
-  } catch (err) {}
+  } catch (err) { }
+}
+function saveQuizResults() {
+  try {
+    localStorage.setItem("upsc-quiz-results", JSON.stringify(quizResults));
+  } catch (err) { }
+}
+
+// Record a completed quiz attempt (keeps best score + attempt count).
+function recordQuizResult(nodeId, score, total) {
+  const pct = total ? Math.round((score / total) * 100) : 0;
+  const prev = quizResults[nodeId] || { bestPct: 0, attempts: 0 };
+  quizResults[nodeId] = {
+    bestPct: Math.max(prev.bestPct || 0, pct),
+    lastPct: pct,
+    lastScore: score,
+    total,
+    attempts: (prev.attempts || 0) + 1,
+    ts: Date.now(),
+  };
+  saveQuizResults();
+}
+
+// Aggregate quiz stats for the dashboard.
+function quizStats() {
+  const ids = Object.keys(quizResults);
+  const attempts = ids.reduce((s, id) => s + (quizResults[id].attempts || 0), 0);
+  const avgBest = ids.length
+    ? Math.round(
+      ids.reduce((s, id) => s + (quizResults[id].bestPct || 0), 0) / ids.length,
+    )
+    : 0;
+  return { quizzesTaken: ids.length, attempts, avgBest };
+}
+
+// Consecutive-day study streak (today may be empty and still count).
+function studyStreak() {
+  let streak = 0;
+  const d = new Date();
+  for (let i = 0; i < 400; i++) {
+    const key =
+      d.getFullYear() +
+      "-" +
+      String(d.getMonth() + 1).padStart(2, "0") +
+      "-" +
+      String(d.getDate()).padStart(2, "0");
+    const e = dailyTracker[key];
+    const has =
+      e && ((e.count || 0) > 0 || (Array.isArray(e.opened) && e.opened.length));
+    if (has) streak++;
+    else if (i !== 0) break;
+    d.setDate(d.getDate() - 1);
+  }
+  return streak;
+}
+
+// A small inline SVG progress ring/donut (no external libraries).
+function svgRing(pct, color, size, stroke, label, sub) {
+  const r = (size - stroke) / 2;
+  const c = 2 * Math.PI * r;
+  const off = c * (1 - Math.max(0, Math.min(100, pct)) / 100);
+  const cx = size / 2;
+  return `<svg class="ring" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+    <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="rgba(201,168,76,0.14)" stroke-width="${stroke}"/>
+    <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="${color}" stroke-width="${stroke}"
+      stroke-linecap="round" stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}"
+      transform="rotate(-90 ${cx} ${cx})" style="transition:stroke-dashoffset 0.9s cubic-bezier(0.2,0.7,0.2,1)"/>
+    <text x="50%" y="49%" text-anchor="middle" dominant-baseline="middle" class="ring-label">${esc(String(label))}</text>
+    ${sub ? `<text x="50%" y="67%" text-anchor="middle" dominant-baseline="middle" class="ring-sub">${esc(String(sub))}</text>` : ""}
+  </svg>`;
 }
 
 function todayKey() {

@@ -62,6 +62,39 @@ closeDrawerBtn.addEventListener("click", closeSidebar);
 overlay.addEventListener("click", closeMobileDrawer);
 
 // ╔══════════════════════════════════════════════════════════╗
+// ║  HOME / DASHBOARD navigation                              ║
+// ║  Return to the dashboard from anywhere without reloading. ║
+// ╚══════════════════════════════════════════════════════════╝
+function goHome() {
+  selectedId = null;
+  // Reset the sidebar to the tree view and clear any note selection.
+  if (typeof sidebarView !== "undefined") {
+    sidebarView = "tree";
+    if (typeof renderSidebarNav === "function") renderSidebarNav();
+    if (typeof refreshTree === "function") refreshTree();
+  }
+  renderDashboard();
+  pushHistory();
+  const ns = document.querySelector(".notes-scroll");
+  if (ns) ns.scrollTop = 0;
+  // On phones, close the drawer so the dashboard is visible.
+  if (window.matchMedia("(max-width: 680px)").matches) closeMobileDrawer();
+}
+
+// Sidebar brand (logo + title) acts as a Home button (ignore the ☰ button).
+const brandEl = document.querySelector(".brand");
+if (brandEl) {
+  brandEl.addEventListener("click", (e) => {
+    if (e.target.closest("#closeDrawer")) return;
+    goHome();
+  });
+}
+
+// Topbar Home button.
+const homeBtn = document.getElementById("homeBtn");
+if (homeBtn) homeBtn.addEventListener("click", goHome);
+
+// ╔══════════════════════════════════════════════════════════╗
 // ║  FULL-SCREEN READING MODE                                 ║
 // ╚══════════════════════════════════════════════════════════╝
 const appEl = document.querySelector(".app");
@@ -75,7 +108,7 @@ function enterReadingMode() {
   // (e.g. some mobile browsers or iframes disallow it) — the CSS-based
   // distraction-free layout above still applies either way.
   const el = document.documentElement;
-  if (el.requestFullscreen) el.requestFullscreen().catch(() => {});
+  if (el.requestFullscreen) el.requestFullscreen().catch(() => { });
   else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
   document.querySelector(".notes-scroll").scrollTop = 0;
 }
@@ -83,7 +116,7 @@ function enterReadingMode() {
 function exitReadingMode() {
   appEl.classList.remove("reading-mode");
   if (document.fullscreenElement) {
-    document.exitFullscreen().catch(() => {});
+    document.exitFullscreen().catch(() => { });
   } else if (document.webkitFullscreenElement) {
     document.webkitExitFullscreen();
   }
@@ -187,7 +220,7 @@ window.addEventListener("popstate", (e) => {
 try {
   localStorage.removeItem("upsc-tree-expanded");
   localStorage.removeItem("upsc-tree-state");
-} catch (err) {}
+} catch (err) { }
 
 refreshTree();
 renderSidebarNav();

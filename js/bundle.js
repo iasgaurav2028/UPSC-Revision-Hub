@@ -6,1068 +6,7 @@
 // source under js/data/ or js/engine/, then re-run: node build-bundle.js
 // ═══════════════════════════════════════════════════════════
 
-const TREE_DATA = [
-  {
-    id: "syllabus",
-    title: "UPSC Syllabus",
-    subtitle: "Overview & Structure",
-    icon: "📋",
-    isLeaf: true,
-  },
-  {
-    id: "gs1",
-    title: "GS-1",
-    subtitle: "History, Geography, Society, Culture",
-    icon: "🏛",
-    children: [
-      {
-        id: "gs1-history",
-        title: "History",
-        icon: "📜",
-        children: [
-          { id: "gs1-history-ancient", title: "Ancient History", icon: "🏺" },
-          { id: "gs1-history-medieval", title: "Medieval History", icon: "🕌" },
-          { id: "gs1-history-modern", title: "Modern History", icon: "🇮🇳" },
-        ],
-      },
-      {
-        id: "gs1-geography",
-        title: "Geography",
-        icon: "🌍",
-        children: [
-          {
-            id: "gs1-geography-ncert",
-            title: "NCERT",
-            icon: "📗",
-            children: [
-              {
-                id: "gs1-geo-class6",
-                title: "Class 6",
-                icon: "📘",
-                children: [
-                  {
-                    id: "geo6-ch1",
-                    title: "The Earth in the Solar System",
-                    subtitle: "NCERT Class 6, Chapter 1",
-                    icon: "🌍",
-                    isLeaf: true,
-                    isChapter: true,
-                    hasNotes: true,
-                    chunk: "gs1/geography/ncert/class6/ch1/ch1",
-                    hasQuiz: true,
-                  },
-                  {
-                    id: "geo6-ch2",
-                    title: "Globe: Latitudes and Longitudes",
-                    subtitle: "NCERT Class 6, Chapter 2",
-                    icon: "🌐",
-                    isLeaf: true,
-                    isChapter: true,
-                    hasNotes: true,
-                    chunk: "gs1/geography/ncert/class6/ch2/ch2",
-                    hasQuiz: true,
-                  },
-                  {
-                    id: "geo6-ch3",
-                    title: "Motions of the Earth",
-                    subtitle: "NCERT Class 6, Chapter 3",
-                    icon: "🌍",
-                    isLeaf: true,
-                    isChapter: true,
-                    hasNotes: true,
-                    chunk: "gs1/geography/ncert/class6/ch3/ch3",
-                    hasQuiz: true,
-                  },
-                  {
-                    id: "geo6-ch4",
-                    title: "Maps",
-                    subtitle: "NCERT Class 6, Chapter 4",
-                    icon: "🗺",
-                    isLeaf: true,
-                    isChapter: true,
-                    hasNotes: true,
-                    chunk: "gs1/geography/ncert/class6/ch4/ch4",
-                    hasQuiz: true,
-                  },
-                  {
-                    id: "geo6-ch5",
-                    title: "Major Domains of the Earth",
-                    subtitle: "NCERT Class 6, Chapter 5",
-                    icon: "🌏",
-                    isLeaf: true,
-                    isChapter: true,
-                    hasNotes: true,
-                    chunk: "gs1/geography/ncert/class6/ch5/ch5",
-                    hasQuiz: true,
-                  },
-                  {
-                    id: "geo6-ch6",
-                    title: "Our Country – India",
-                    subtitle: "NCERT Class 6, Chapter 6",
-                    icon: "🇮🇳",
-                    isLeaf: true,
-                    isChapter: true,
-                    hasNotes: true,
-                    chunk: "gs1/geography/ncert/class6/ch6/ch6",
-                    hasQuiz: true,
-                  },
-                ],
-              },
-              {
-                id: "gs1-geo-class7",
-                title: "Class 7",
-                icon: "📘",
-                children: [
-                  {
-                    id: "geo7-ch1",
-                    title: "Environment",
-                    subtitle: "NCERT Class 7, Chapter 1",
-                    icon: "🌿",
-                    isLeaf: true,
-                    isChapter: true,
-                    hasNotes: true,
-                    chunk: "gs1/geography/ncert/class7/ch1/ch1",
-                    hasQuiz: true,
-                  },
-                  {
-                    id: "geo7-ch2",
-                    title: "Inside Our Earth",
-                    subtitle: "NCERT Class 7, Chapter 2",
-                    icon: "🌋",
-                    isLeaf: true,
-                    isChapter: true,
-                    hasNotes: true,
-                    chunk: "gs1/geography/ncert/class7/ch2/ch2",
-                    hasQuiz: true,
-                  },
-                  {
-                    id: "geo7-ch3",
-                    title: "Our Changing Earth",
-                    subtitle: "NCERT Class 7, Chapter 3",
-                    icon: "🌊",
-                    isLeaf: true,
-                    isChapter: true,
-                    hasNotes: true,
-                    chunk: "gs1/geography/ncert/class7/ch3/ch3",
-                    hasQuiz: true,
-                  },
-                  {
-                    id: "geo7-ch4",
-                    title: "Air",
-                    subtitle: "NCERT Class 7, Chapter 4",
-                    icon: "💨",
-                    isLeaf: true,
-                    isChapter: true,
-                    hasNotes: true,
-                    chunk: "gs1/geography/ncert/class7/ch4/ch4",
-                    hasQuiz: true,
-                  },
-                  {
-                    id: "geo7-ch5",
-                    title: "Water",
-                    subtitle: "NCERT Class 7, Chapter 5",
-                    icon: "🌊",
-                    isLeaf: true,
-                    isChapter: true,
-                    hasNotes: true,
-                    chunk: "gs1/geography/ncert/class7/ch5/ch5",
-                    hasQuiz: true,
-                  },
-                  {
-                    id: "geo7-ch6",
-                    title:
-                      "Human Environment Interactions: The Tropical and Subtropical Region",
-                    subtitle: "NCERT Class 7, Chapter 6",
-                    icon: "🌴",
-                    isLeaf: true,
-                    isChapter: true,
-                    hasNotes: true,
-                    chunk: "gs1/geography/ncert/class7/ch6/ch6",
-                    hasQuiz: true,
-                  },
-                  {
-                    id: "geo7-ch7",
-                    title: "Life in the Deserts",
-                    subtitle: "NCERT Class 7, Chapter 7",
-                    icon: "🏜",
-                    isLeaf: true,
-                    isChapter: true,
-                    hasNotes: true,
-                    chunk: "gs1/geography/ncert/class7/ch7/ch7",
-                    hasQuiz: true,
-                  },
-                ],
-              },
-              { id: "gs1-geo-class8", title: "Class 8", icon: "📘" },
-              { id: "gs1-geo-class9", title: "Class 9", icon: "📘" },
-              { id: "gs1-geo-class10", title: "Class 10", icon: "📘" },
-              {
-                id: "gs1-geo-class11",
-                title: "Class 11",
-                subtitle: "Physical Geography — critical",
-                icon: "📘",
-              },
-              { id: "gs1-geo-class12", title: "Class 12", icon: "📘" },
-            ],
-          },
-        ],
-      },
-      { id: "gs1-society", title: "Indian Society", icon: "👥" },
-      { id: "gs1-culture", title: "Art & Culture", icon: "🎭" },
-    ],
-  },
-  {
-    id: "gs2",
-    title: "GS-2",
-    subtitle: "Polity, Governance, IR",
-    icon: "⚖",
-    children: [
-      {
-        id: "gs2-polity",
-        title: "Polity",
-        icon: "🏛",
-        children: [
-          {
-            id: "gs2-polity-ncert",
-            title: "NCERT",
-            icon: "📗",
-            children: [
-              { id: "gs2-polity-ncert-class9", title: "Class 9", icon: "📘" },
-              { id: "gs2-polity-ncert-class10", title: "Class 10", icon: "📘" },
-              { id: "gs2-polity-ncert-class11", title: "Class 11", icon: "📘" },
-              { id: "gs2-polity-ncert-class12", title: "Class 12", icon: "📘" },
-            ],
-          },
-          {
-            id: "gs2-polity-laxmikanth",
-            title: "Laxmikanth",
-            icon: "📕",
-            children: [
-              {
-                id: "lax-part1",
-                title: "Part I",
-                subtitle: "Constitutional Framework",
-                icon: "📖",
-                children: [
-                  {
-                    id: "ch1",
-                    title: "Chapter 1",
-                    subtitle: "Historical Background",
-                    icon: "📚",
-                    isChapter: true,
-                    children: [
-                      {
-                        id: "ch1-company",
-                        title: "Company Rule",
-                        subtitle: "1773 – 1858",
-                        icon: "🏛",
-                        children: [
-                          {
-                            id: "ch1-regulating1773",
-                            title: "Regulating Act of 1773",
-                            icon: "⚖",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk:
-                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
-                            hasQuiz: true,
-                          },
-                          {
-                            id: "ch1-amending1781",
-                            title: "Amending Act of 1781",
-                            icon: "⚖",
-                            pageRef: "Act of Settlement",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk:
-                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
-                            hasQuiz: true,
-                          },
-                          {
-                            id: "ch1-pitts1784",
-                            title: "Pitt's India Act of 1784",
-                            icon: "⚖",
-                            pageRef: "By PM William Pitt",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk:
-                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
-                            hasQuiz: true,
-                          },
-                          {
-                            id: "ch1-act1786",
-                            title: "Act of 1786",
-                            icon: "⚖",
-                            pageRef: "Lord Cornwallis's demands",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk:
-                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
-                            hasQuiz: true,
-                          },
-                          {
-                            id: "ch1-charter1793",
-                            title: "Charter Act of 1793",
-                            icon: "⚖",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk:
-                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
-                            hasQuiz: true,
-                          },
-                          {
-                            id: "ch1-charter1813",
-                            title: "Charter Act of 1813",
-                            icon: "⚖",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk:
-                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
-                            hasQuiz: true,
-                          },
-                          {
-                            id: "ch1-charter1833",
-                            title: "Charter Act of 1833",
-                            icon: "⚖",
-                            pageRef: "Final step to centralisation",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk:
-                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
-                            hasQuiz: true,
-                          },
-                          {
-                            id: "ch1-charter1853",
-                            title: "Charter Act of 1853",
-                            icon: "⚖",
-                            pageRef: "Last of the Charter Acts",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk:
-                              "gs2/polity/laxmikanth/part1/ch1/company-rule",
-                            hasQuiz: true,
-                          },
-                        ],
-                      },
-                      {
-                        id: "ch1-crown",
-                        title: "Crown Rule",
-                        subtitle: "1858 – 1947",
-                        icon: "👑",
-                        children: [
-                          {
-                            id: "ch1-govact1858",
-                            title: "Government of India Act, 1858",
-                            icon: "⚖",
-                            pageRef: "Post Revolt of 1857",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
-                            hasQuiz: true,
-                          },
-                          {
-                            id: "ch1-ica1861",
-                            title: "Indian Councils Act, 1861",
-                            icon: "⚖",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
-                            hasQuiz: true,
-                          },
-                          {
-                            id: "ch1-ica1892",
-                            title: "Indian Councils Act, 1892",
-                            icon: "⚖",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
-                            hasQuiz: true,
-                          },
-                          {
-                            id: "ch1-ica1909",
-                            title: "Indian Councils Act, 1909",
-                            subtitle: "Morley-Minto Reforms",
-                            icon: "⚖",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
-                            hasQuiz: true,
-                          },
-                          {
-                            id: "ch1-govact1919",
-                            title: "Government of India Act, 1919",
-                            subtitle: "Montagu-Chelmsford Reforms",
-                            icon: "⚖",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
-                            hasQuiz: true,
-                          },
-                          {
-                            id: "ch1-simon",
-                            title: "Simon Commission (1927)",
-                            icon: "📋",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
-                            hasQuiz: true,
-                          },
-                          {
-                            id: "ch1-communalaward",
-                            title: "Communal Award (1932)",
-                            icon: "📋",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
-                            hasQuiz: true,
-                          },
-                          {
-                            id: "ch1-govact1935",
-                            title: "Government of India Act, 1935",
-                            subtitle: "321 Sections, 10 Schedules",
-                            icon: "⚖",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
-                            hasQuiz: true,
-                          },
-                          {
-                            id: "ch1-indep1947",
-                            title: "Indian Independence Act, 1947",
-                            icon: "🇮🇳",
-                            pageRef: "In force: Aug 15, 1947",
-                            isLeaf: true,
-                            hasNotes: true,
-                            chunk: "gs2/polity/laxmikanth/part1/ch1/crown-rule",
-                            hasQuiz: true,
-                          },
-                        ],
-                      },
-                    ],
-                  },
-                  {
-                    id: "ch2",
-                    title: "Chapter 2",
-                    subtitle: "Making of the Constitution",
-                    icon: "📚",
-                    isChapter: true,
-                    children: [
-                      {
-                        id: "ch2-ca-demand",
-                        title: "Demand for a Constituent Assembly",
-                        icon: "🏛",
-                        pageRef: "Making of the Constitution",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk:
-                          "gs2/polity/laxmikanth/part1/ch2/constituent-assembly-demand",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch2-ca-composition",
-                        title: "Composition of the Constituent Assembly",
-                        icon: "🏛",
-                        pageRef: "Making of the Constitution",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk:
-                          "gs2/polity/laxmikanth/part1/ch2/constituent-assembly-composition",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch2-ca-working",
-                        title: "Working of the Constituent Assembly",
-                        icon: "🏛",
-                        pageRef: "Making of the Constitution",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk:
-                          "gs2/polity/laxmikanth/part1/ch2/constituent-assembly-working",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch2-obj-resolution",
-                        title: "Objectives Resolution",
-                        icon: "📜",
-                        pageRef: "Objectives Resolution",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk:
-                          "gs2/polity/laxmikanth/part1/ch2/objectives-resolution",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch2-changes-independence-act",
-                        title: "Changes by the Independence Act",
-                        subtitle: "Sovereignty, Dual Role & Other Functions",
-                        icon: "⚖",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk:
-                          "gs2/polity/laxmikanth/part1/ch2/changes-independence-act",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch2-committees-major",
-                        title: "Major Committees",
-                        subtitle:
-                          "8 Major Committees of the Constituent Assembly",
-                        icon: "🏛",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk:
-                          "gs2/polity/laxmikanth/part1/ch2/major-committees",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch2-committees-minor",
-                        title: "Minor Committees",
-                        subtitle:
-                          "13 Minor Committees of the Constituent Assembly",
-                        icon: "📋",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk:
-                          "gs2/polity/laxmikanth/part1/ch2/minor-committees",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch2-committees-drafting",
-                        title: "Drafting Committee",
-                        subtitle: "The Most Important Committee",
-                        icon: "✍",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk:
-                          "gs2/polity/laxmikanth/part1/ch2/drafting-committees",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch2-criticism",
-                        title: "Criticism of the Constituent Assembly",
-                        subtitle: "6 Major Criticisms",
-                        icon: "⚖",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk:
-                          "gs2/polity/laxmikanth/part1/ch2/criticism-constituent-assembly",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch2-important-facts",
-                        title: "Important Facts About the Constituent Assembly",
-                        subtitle: "Symbol, Officials, Calligraphy & Hindi Text",
-                        icon: "📌",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk:
-                          "gs2/polity/laxmikanth/part1/ch2/important-facts",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch2-enactment",
-                        title: "Enactment of the Constitution",
-                        subtitle: "Three Readings & Ambedkar's Role",
-                        icon: "📝",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk:
-                          "gs2/polity/laxmikanth/part1/ch2/enactment-constitution",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch2-enforcement",
-                        title: "Enforcement of the Constitution",
-                        subtitle:
-                          "26 Nov 1949 vs 26 Jan 1950 — Key Distinctions",
-                        icon: "⚡",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk:
-                          "gs2/polity/laxmikanth/part1/ch2/enforcement-constitution",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch2-congress-experts",
-                        title: "Congress Experts Committee",
-                        subtitle:
-                          "The Committee That Set India on the Road to Its Constitution",
-                        icon: "🏛",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk:
-                          "gs2/polity/laxmikanth/part1/ch2/congress-experts-committee",
-                        hasQuiz: true,
-                      },
-                    ],
-                  },
-                  {
-                    id: "ch3",
-                    title: "Chapter 3",
-                    subtitle: "The Constitution: Why and How?",
-                    icon: "📜",
-                    isChapter: true,
-                    children: [
-                      {
-                        id: "ch3-meaning",
-                        title: "Meaning of Constitution",
-                        subtitle: "Etymology, Definitions & Descriptions",
-                        icon: "📖",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk: "gs2/polity/laxmikanth/part1/ch3/meaning",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch3-functions",
-                        title: "Functions of a Constitution",
-                        subtitle: "Elliot Bulmer's 8-Point Framework",
-                        icon: "⚙",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk: "gs2/polity/laxmikanth/part1/ch3/functions",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch3-qualities",
-                        title: "Qualities of a Good Constitution",
-                        subtitle: "7 Essential Characteristics",
-                        icon: "⭐",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk: "gs2/polity/laxmikanth/part1/ch3/qualities",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch3-classification",
-                        title: "Classification of Constitutions",
-                        subtitle: "5 Types with Examples",
-                        icon: "🗂",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk: "gs2/polity/laxmikanth/part1/ch3/classification",
-                        hasQuiz: true,
-                      },
-                      {
-                        id: "ch3-constitutionalism",
-                        title:
-                          "Constitutionalism and Constitutional Government",
-                        subtitle:
-                          "Meaning, Definitions & 8 Elements (Louis Henkin)",
-                        icon: "⚖",
-                        isLeaf: true,
-                        hasNotes: true,
-                        chunk:
-                          "gs2/polity/laxmikanth/part1/ch3/constitutionalism",
-                        hasQuiz: true,
-                      },
-                    ],
-                  },
-                ],
-              },
-              {
-                id: "lax-part2",
-                title: "Part II",
-                subtitle: "System of Government",
-                icon: "📖",
-              },
-              {
-                id: "lax-part3",
-                title: "Part III",
-                subtitle: "Central Government",
-                icon: "📖",
-              },
-              {
-                id: "lax-part4",
-                title: "Part IV",
-                subtitle: "State Government",
-                icon: "📖",
-              },
-              {
-                id: "lax-part5",
-                title: "Part V",
-                subtitle: "Local Government",
-                icon: "📖",
-              },
-              {
-                id: "lax-part6",
-                title: "Part VI",
-                subtitle: "UTs and Special Areas",
-                icon: "📖",
-              },
-              {
-                id: "lax-part7",
-                title: "Part VII",
-                subtitle: "Constitutional Bodies",
-                icon: "📖",
-              },
-              {
-                id: "lax-part8",
-                title: "Part VIII",
-                subtitle: "Non-Constitutional Bodies",
-                icon: "📖",
-              },
-              {
-                id: "lax-part9",
-                title: "Part IX",
-                subtitle: "Other Constitution Dimensions",
-                icon: "📖",
-              },
-              {
-                id: "lax-part10",
-                title: "Part X",
-                subtitle: "Political Dynamics",
-                icon: "📖",
-              },
-              {
-                id: "lax-part11",
-                title: "Part XI",
-                subtitle: "Working of the Constitution",
-                icon: "📖",
-              },
-              {
-                id: "lax-part12",
-                title: "Part XII",
-                subtitle: "Judgements and Doctrines",
-                icon: "📖",
-              },
-              {
-                id: "lax-part13",
-                title: "Part XIII",
-                subtitle: "Comparison of the Constitution",
-                icon: "📖",
-              },
-            ],
-          },
-        ],
-      },
-      { id: "gs2-ir", title: "International Relations", icon: "🌐" },
-    ],
-  },
-  {
-    id: "gs3",
-    title: "GS-3",
-    subtitle: "Economy, Security, S&T, Environment",
-    icon: "📊",
-    children: [
-      {
-        id: "gs3-economics",
-        title: "Economics",
-        icon: "💰",
-        children: [
-          {
-            id: "gs3-economics-budget",
-            title: "Union Budget",
-            subtitle: "Yearly Budget Coverage",
-            icon: "💰",
-            isChapter: true,
-            children: [
-              {
-                id: "news-budget-static",
-                title: "Budget — Static Concepts",
-                subtitle: "FRBM, Funds, Process, Rev vs Cap Exp",
-                icon: "📘",
-                isLeaf: true,
-                hasNotes: true,
-                chunk: "gs3/economics/budget/budget-static-concepts",
-                hasQuiz: true,
-              },
-              {
-                id: "news-budget-priority-groups",
-                title: "4 Priority Groups & MSME Stats",
-                subtitle: "Garib, Yuva, Annadata, Nari + MSME figures",
-                icon: "👥",
-                isLeaf: true,
-                hasNotes: true,
-                chunk: "gs3/economics/budget/priority-groups-msme-stats",
-                hasQuiz: true,
-              },
-              {
-                id: "news-budget-2025",
-                title: "Union Budget 2025-26",
-                subtitle: "1 Feb 2025",
-                icon: "📰",
-                isLeaf: true,
-                hasNotes: true,
-                chunk: "gs3/economics/budget/budget-2025",
-                newsType: true,
-                hasQuiz: true,
-              },
-              {
-                id: "news-budget-2026",
-                title: "Union Budget 2026-27",
-                subtitle: "1 Feb 2026",
-                icon: "📰",
-                isLeaf: true,
-                hasNotes: true,
-                chunk: "gs3/economics/budget/budget-2026",
-                newsType: true,
-                hasQuiz: true,
-              },
-            ],
-          },
-        ],
-      },
-      {
-        id: "gs3-security",
-        title: "Internal Security & Challenges",
-        icon: "🛡",
-      },
-      { id: "gs3-scitech", title: "Science & Technology", icon: "🔬" },
-      { id: "gs3-environment", title: "Environment", icon: "🌱" },
-      { id: "gs3-disaster", title: "Disaster Management", icon: "🌊" },
-    ],
-  },
-  {
-    id: "gs4",
-    title: "GS-4",
-    subtitle: "Ethics, Integrity, Aptitude",
-    icon: "🧭",
-    children: [
-      { id: "gs4-ethics", title: "Ethics", icon: "⚖" },
-      { id: "gs4-integrity", title: "Integrity", icon: "🤝" },
-      { id: "gs4-attitude", title: "Attitude", icon: "🧠" },
-    ],
-  },
-  { id: "essay", title: "Essay", subtitle: "Essay Paper", icon: "✍" },
-  {
-    id: "newspaper",
-    title: "Daily Newspaper",
-    subtitle: "The Hindu — Curated for UPSC",
-    icon: "📰",
-    children: [
-      { id: "news-history", title: "History", icon: "📜" },
-      { id: "news-geography", title: "Geography", icon: "🌍" },
-      {
-        id: "news-society",
-        title: "Society",
-        icon: "👥",
-        children: [
-          {
-            id: "news-2026-07-24-education-collapse",
-            title: "An Education System's Collapse, Young India's Trauma",
-            subtitle:
-              "The Hindu, 24 July 2026 — Sonia Gandhi, Chairperson, Congress Parliamentary Party",
-            icon: "🎓",
-            isLeaf: true,
-            hasNotes: true,
-            chunk: "newspaper/society/2026-07-24/education-collapse",
-            newsType: true,
-            hasQuiz: true,
-          },
-        ],
-      },
-      { id: "news-culture", title: "Art & Culture", icon: "🎭" },
-      {
-        id: "news-polity",
-        title: "Polity & Governance",
-        icon: "⚖",
-        children: [
-          {
-            id: "news-2026-08-04-births-deaths",
-            title: "Registration of Births and Deaths (Amendment) Act, 2026",
-            subtitle:
-              "Parliament, 4 Aug 2026 — Stricter rules for delayed registration",
-            icon: "⚖",
-            isLeaf: true,
-            hasNotes: true,
-            chunk: "newspaper/polity/2026-08-04/births-deaths-amendment",
-            newsType: true,
-            hasQuiz: true,
-          },
-          {
-            id: "news-2026-07-24-rti-corruption",
-            title: "Is Corruption the Biggest Threat to India's Future?",
-            subtitle:
-              "The Hindu, 24 July 2026 — Parley with Shailesh Gandhi & Anjali Bhardwaj",
-            icon: "⚖",
-            isLeaf: true,
-            hasNotes: true,
-            chunk: "newspaper/polity/2026-07-24/rti-corruption",
-            newsType: true,
-            hasQuiz: true,
-          },
-          {
-            id: "news-2026-07-24-right-to-protest",
-            title: "The Right to Protest and the Limits of Police Power",
-            subtitle: "The Hindu, 24 July 2026",
-            icon: "✊",
-            isLeaf: true,
-            hasNotes: true,
-            chunk: "newspaper/polity/2026-07-24/right-to-protest",
-            newsType: true,
-            hasQuiz: true,
-          },
-        ],
-      },
-      { id: "news-ir", title: "International Relations", icon: "🌐" },
-      { id: "news-economics", title: "Economics", icon: "💰" },
-      { id: "news-security", title: "Internal Security", icon: "🛡" },
-      {
-        id: "news-scitech",
-        title: "Science & Technology",
-        icon: "🔬",
-        children: [
-          {
-            id: "news-2026-07-26-ondevice-ai",
-            title: "Are Smartphones Becoming Smarter with On-Device AI?",
-            subtitle: "The Hindu, 26 July 2026",
-            icon: "📱",
-            isLeaf: true,
-            hasNotes: true,
-            chunk: "newspaper/scitech/26_07_2026/ondevice-ai",
-            newsType: true,
-            hasQuiz: true,
-          },
-        ],
-      },
-      {
-        id: "news-environment",
-        title: "Environment",
-        icon: "🌱",
-        children: [
-          {
-            id: "news-2026-07-26-rice-methane",
-            title: "India's Rice Fields Rank Among World's Top Methane Sources",
-            subtitle: "The Hindu, 26 July 2026",
-            icon: "🌾",
-            isLeaf: true,
-            hasNotes: true,
-            chunk: "newspaper/environment/26_07_2026/rice-methane",
-            hasQuiz: true,
-          },
-        ],
-      },
-      { id: "news-disaster", title: "Disaster Management", icon: "🌊" },
-      { id: "news-ethics", title: "Ethics", icon: "🧭" },
-      { id: "news-misc", title: "Miscellaneous / Schemes", icon: "📌" },
-    ],
-  },
-  {
-    id: "quickrecall",
-    title: "Quick Recall",
-    subtitle: "Rapid revision — every UPSC subject",
-    icon: "⚡",
-    children: [
-      { id: "qr-history", title: "History", icon: "📜" },
-      {
-        id: "qr-geography",
-        title: "Geography",
-        icon: "🌏",
-        children: [
-          {
-            id: "qr-state-nicknames",
-            title: "Indian States & Their Nicknames",
-            subtitle: "States & UTs — Popular Sobriquets",
-            icon: "🗺",
-            isLeaf: true,
-            hasNotes: true,
-            chunk: "quickrecall/geography/state-nicknames",
-            hasQuiz: true,
-          },
-          {
-            id: "qr-siliguri-corridor",
-            title: "Chicken's Neck (Siliguri Corridor)",
-            subtitle: "India's Strategic Lifeline to the North-East",
-            icon: "🗺",
-            isLeaf: true,
-            hasNotes: true,
-            chunk: "quickrecall/geography/siliguri-corridor",
-            hasQuiz: true,
-          },
-          {
-            id: "qr-types-of-mining",
-            title: "Types of Mining",
-            subtitle: "Surface, Underground, Placer & In-Situ",
-            icon: "⛏",
-            isLeaf: true,
-            hasNotes: true,
-            chunk: "quickrecall/geography/types-of-mining",
-            hasQuiz: true,
-          },
-        ],
-      },
-      {
-        id: "qr-polity",
-        title: "Polity & Governance",
-        icon: "⚖",
-        children: [
-          {
-            id: "qr-presidents",
-            title: "Presidents of India (Full List)",
-            subtitle: "1st to 15th — Order, Tenure & Firsts",
-            icon: "🏛",
-            isLeaf: true,
-            hasNotes: true,
-            chunk: "quickrecall/polity/presidents",
-            hasQuiz: true,
-          },
-          {
-            id: "qr-anti-defection",
-            title: "Anti-Defection Law",
-            subtitle: "10th Schedule — Grounds, Exceptions & Case Law",
-            icon: "⚖",
-            isLeaf: true,
-            hasNotes: true,
-            chunk: "quickrecall/polity/anti-defection",
-            hasQuiz: true,
-          },
-          {
-            id: "qr-original-constitution",
-            title: "The Original Constitution",
-            subtitle: "Calligraphy, Artwork & Preservation Facts",
-            icon: "📜",
-            isLeaf: true,
-            hasNotes: true,
-            chunk: "quickrecall/polity/original-constitution",
-            hasQuiz: true,
-          },
-        ],
-      },
-      { id: "qr-economics", title: "Economy", icon: "💰" },
-      {
-        id: "qr-society",
-        title: "Society",
-        icon: "👥",
-        children: [
-          {
-            id: "qr-important-full-forms",
-            title: "Important Full Forms",
-            subtitle: "Education & Recruitment Bodies / Exams",
-            icon: "🔤",
-            isLeaf: true,
-            hasNotes: true,
-            chunk: "quickrecall/society/important-full-forms",
-            hasQuiz: true,
-          },
-        ],
-      },
-      { id: "qr-culture", title: "Art & Culture", icon: "🎭" },
-      {
-        id: "qr-ir",
-        title: "International Relations",
-        icon: "🌐",
-        children: [
-          {
-            id: "qr-levels-of-partnership",
-            title: "Levels of Partnership (Bilateral Relations)",
-            subtitle: "The Hierarchy of Diplomatic Engagement",
-            icon: "🤝",
-            isLeaf: true,
-            hasNotes: true,
-            chunk: "quickrecall/ir/levels-of-partnership",
-            hasQuiz: true,
-          },
-        ],
-      },
-      { id: "qr-scitech", title: "Science & Technology", icon: "🔬" },
-      { id: "qr-environment", title: "Environment & Ecology", icon: "🌱" },
-      { id: "qr-security", title: "Internal Security", icon: "🛡" },
-      { id: "qr-disaster", title: "Disaster Management", icon: "🌪" },
-      { id: "qr-ethics", title: "Ethics (GS-4)", icon: "🧭" },
-    ],
-  },
-];
+const TREE_DATA = [{"id":"syllabus","title":"UPSC Syllabus","subtitle":"Overview & Structure","icon":"📋","isLeaf":true},{"id":"gs1","title":"GS-1","subtitle":"History, Geography, Society, Culture","icon":"🏛","children":[{"id":"gs1-history","title":"History","icon":"📜","children":[{"id":"gs1-history-ancient","title":"Ancient History","icon":"🏺"},{"id":"gs1-history-medieval","title":"Medieval History","icon":"🕌"},{"id":"gs1-history-modern","title":"Modern History","icon":"🇮🇳"}]},{"id":"gs1-geography","title":"Geography","icon":"🌍","children":[{"id":"gs1-geography-ncert","title":"NCERT","icon":"📗","children":[{"id":"gs1-geo-class6","title":"Class 6","icon":"📘","children":[{"id":"geo6-ch1","title":"The Earth in the Solar System","subtitle":"NCERT Class 6, Chapter 1","icon":"🌍","isLeaf":true,"isChapter":true,"hasNotes":true,"chunk":"gs1/geography/ncert/class6/ch1/ch1","hasQuiz":true},{"id":"geo6-ch2","title":"Globe: Latitudes and Longitudes","subtitle":"NCERT Class 6, Chapter 2","icon":"🌐","isLeaf":true,"isChapter":true,"hasNotes":true,"chunk":"gs1/geography/ncert/class6/ch2/ch2","hasQuiz":true},{"id":"geo6-ch3","title":"Motions of the Earth","subtitle":"NCERT Class 6, Chapter 3","icon":"🌍","isLeaf":true,"isChapter":true,"hasNotes":true,"chunk":"gs1/geography/ncert/class6/ch3/ch3","hasQuiz":true},{"id":"geo6-ch4","title":"Maps","subtitle":"NCERT Class 6, Chapter 4","icon":"🗺","isLeaf":true,"isChapter":true,"hasNotes":true,"chunk":"gs1/geography/ncert/class6/ch4/ch4","hasQuiz":true},{"id":"geo6-ch5","title":"Major Domains of the Earth","subtitle":"NCERT Class 6, Chapter 5","icon":"🌏","isLeaf":true,"isChapter":true,"hasNotes":true,"chunk":"gs1/geography/ncert/class6/ch5/ch5","hasQuiz":true},{"id":"geo6-ch6","title":"Our Country – India","subtitle":"NCERT Class 6, Chapter 6","icon":"🇮🇳","isLeaf":true,"isChapter":true,"hasNotes":true,"chunk":"gs1/geography/ncert/class6/ch6/ch6","hasQuiz":true}]},{"id":"gs1-geo-class7","title":"Class 7","icon":"📘","children":[{"id":"geo7-ch1","title":"Environment","subtitle":"NCERT Class 7, Chapter 1","icon":"🌿","isLeaf":true,"isChapter":true,"hasNotes":true,"chunk":"gs1/geography/ncert/class7/ch1/ch1","hasQuiz":true},{"id":"geo7-ch2","title":"Inside Our Earth","subtitle":"NCERT Class 7, Chapter 2","icon":"🌋","isLeaf":true,"isChapter":true,"hasNotes":true,"chunk":"gs1/geography/ncert/class7/ch2/ch2","hasQuiz":true},{"id":"geo7-ch3","title":"Our Changing Earth","subtitle":"NCERT Class 7, Chapter 3","icon":"🌊","isLeaf":true,"isChapter":true,"hasNotes":true,"chunk":"gs1/geography/ncert/class7/ch3/ch3","hasQuiz":true},{"id":"geo7-ch4","title":"Air","subtitle":"NCERT Class 7, Chapter 4","icon":"💨","isLeaf":true,"isChapter":true,"hasNotes":true,"chunk":"gs1/geography/ncert/class7/ch4/ch4","hasQuiz":true},{"id":"geo7-ch5","title":"Water","subtitle":"NCERT Class 7, Chapter 5","icon":"🌊","isLeaf":true,"isChapter":true,"hasNotes":true,"chunk":"gs1/geography/ncert/class7/ch5/ch5","hasQuiz":true},{"id":"geo7-ch6","title":"Human Environment Interactions: The Tropical and Subtropical Region","subtitle":"NCERT Class 7, Chapter 6","icon":"🌴","isLeaf":true,"isChapter":true,"hasNotes":true,"chunk":"gs1/geography/ncert/class7/ch6/ch6","hasQuiz":true},{"id":"geo7-ch7","title":"Life in the Deserts","subtitle":"NCERT Class 7, Chapter 7","icon":"🏜","isLeaf":true,"isChapter":true,"hasNotes":true,"chunk":"gs1/geography/ncert/class7/ch7/ch7","hasQuiz":true}]},{"id":"gs1-geo-class8","title":"Class 8","icon":"📘"},{"id":"gs1-geo-class9","title":"Class 9","icon":"📘"},{"id":"gs1-geo-class10","title":"Class 10","icon":"📘"},{"id":"gs1-geo-class11","title":"Class 11","subtitle":"Physical Geography — critical","icon":"📘"},{"id":"gs1-geo-class12","title":"Class 12","icon":"📘"}]}]},{"id":"gs1-society","title":"Indian Society","icon":"👥"},{"id":"gs1-culture","title":"Art & Culture","icon":"🎭"}]},{"id":"gs2","title":"GS-2","subtitle":"Polity, Governance, IR","icon":"⚖","children":[{"id":"gs2-polity","title":"Polity","icon":"🏛","children":[{"id":"gs2-polity-ncert","title":"NCERT","icon":"📗","children":[{"id":"gs2-polity-ncert-class9","title":"Class 9","icon":"📘"},{"id":"gs2-polity-ncert-class10","title":"Class 10","icon":"📘"},{"id":"gs2-polity-ncert-class11","title":"Class 11","icon":"📘"},{"id":"gs2-polity-ncert-class12","title":"Class 12","icon":"📘"}]},{"id":"gs2-polity-laxmikanth","title":"Laxmikanth","icon":"📕","children":[{"id":"lax-part1","title":"Part I","subtitle":"Constitutional Framework","icon":"📖","children":[{"id":"ch1","title":"Chapter 1","subtitle":"Historical Background","icon":"📚","isChapter":true,"children":[{"id":"ch1-company","title":"Company Rule","subtitle":"1773 – 1858","icon":"🏛","children":[{"id":"ch1-regulating1773","title":"Regulating Act of 1773","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true},{"id":"ch1-amending1781","title":"Amending Act of 1781","icon":"⚖","pageRef":"Act of Settlement","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true},{"id":"ch1-pitts1784","title":"Pitt's India Act of 1784","icon":"⚖","pageRef":"By PM William Pitt","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true},{"id":"ch1-act1786","title":"Act of 1786","icon":"⚖","pageRef":"Lord Cornwallis's demands","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true},{"id":"ch1-charter1793","title":"Charter Act of 1793","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true},{"id":"ch1-charter1813","title":"Charter Act of 1813","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true},{"id":"ch1-charter1833","title":"Charter Act of 1833","icon":"⚖","pageRef":"Final step to centralisation","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true},{"id":"ch1-charter1853","title":"Charter Act of 1853","icon":"⚖","pageRef":"Last of the Charter Acts","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/company-rule","hasQuiz":true}]},{"id":"ch1-crown","title":"Crown Rule","subtitle":"1858 – 1947","icon":"👑","children":[{"id":"ch1-govact1858","title":"Government of India Act, 1858","icon":"⚖","pageRef":"Post Revolt of 1857","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-ica1861","title":"Indian Councils Act, 1861","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-ica1892","title":"Indian Councils Act, 1892","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-ica1909","title":"Indian Councils Act, 1909","subtitle":"Morley-Minto Reforms","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-govact1919","title":"Government of India Act, 1919","subtitle":"Montagu-Chelmsford Reforms","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-simon","title":"Simon Commission (1927)","icon":"📋","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-communalaward","title":"Communal Award (1932)","icon":"📋","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-govact1935","title":"Government of India Act, 1935","subtitle":"321 Sections, 10 Schedules","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true},{"id":"ch1-indep1947","title":"Indian Independence Act, 1947","icon":"🇮🇳","pageRef":"In force: Aug 15, 1947","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch1/crown-rule","hasQuiz":true}]}]},{"id":"ch2","title":"Chapter 2","subtitle":"Making of the Constitution","icon":"📚","isChapter":true,"children":[{"id":"ch2-ca-demand","title":"Demand for a Constituent Assembly","icon":"🏛","pageRef":"Making of the Constitution","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/constituent-assembly-demand","hasQuiz":true},{"id":"ch2-ca-composition","title":"Composition of the Constituent Assembly","icon":"🏛","pageRef":"Making of the Constitution","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/constituent-assembly-composition","hasQuiz":true},{"id":"ch2-ca-working","title":"Working of the Constituent Assembly","icon":"🏛","pageRef":"Making of the Constitution","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/constituent-assembly-working","hasQuiz":true},{"id":"ch2-obj-resolution","title":"Objectives Resolution","icon":"📜","pageRef":"Objectives Resolution","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/objectives-resolution","hasQuiz":true},{"id":"ch2-changes-independence-act","title":"Changes by the Independence Act","subtitle":"Sovereignty, Dual Role & Other Functions","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/changes-independence-act","hasQuiz":true},{"id":"ch2-committees-major","title":"Major Committees","subtitle":"8 Major Committees of the Constituent Assembly","icon":"🏛","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/major-committees","hasQuiz":true},{"id":"ch2-committees-minor","title":"Minor Committees","subtitle":"13 Minor Committees of the Constituent Assembly","icon":"📋","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/minor-committees","hasQuiz":true},{"id":"ch2-committees-drafting","title":"Drafting Committee","subtitle":"The Most Important Committee","icon":"✍","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/drafting-committees","hasQuiz":true},{"id":"ch2-criticism","title":"Criticism of the Constituent Assembly","subtitle":"6 Major Criticisms","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/criticism-constituent-assembly","hasQuiz":true},{"id":"ch2-important-facts","title":"Important Facts About the Constituent Assembly","subtitle":"Symbol, Officials, Calligraphy & Hindi Text","icon":"📌","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/important-facts","hasQuiz":true},{"id":"ch2-enactment","title":"Enactment of the Constitution","subtitle":"Three Readings & Ambedkar's Role","icon":"📝","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/enactment-constitution","hasQuiz":true},{"id":"ch2-enforcement","title":"Enforcement of the Constitution","subtitle":"26 Nov 1949 vs 26 Jan 1950 — Key Distinctions","icon":"⚡","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/enforcement-constitution","hasQuiz":true},{"id":"ch2-congress-experts","title":"Congress Experts Committee","subtitle":"The Committee That Set India on the Road to Its Constitution","icon":"🏛","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch2/congress-experts-committee","hasQuiz":true}]},{"id":"ch3","title":"Chapter 3","subtitle":"The Constitution: Why and How?","icon":"📜","isChapter":true,"children":[{"id":"ch3-meaning","title":"Meaning of Constitution","subtitle":"Etymology, Definitions & Descriptions","icon":"📖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch3/meaning","hasQuiz":true},{"id":"ch3-functions","title":"Functions of a Constitution","subtitle":"Elliot Bulmer's 8-Point Framework","icon":"⚙","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch3/functions","hasQuiz":true},{"id":"ch3-qualities","title":"Qualities of a Good Constitution","subtitle":"7 Essential Characteristics","icon":"⭐","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch3/qualities","hasQuiz":true},{"id":"ch3-classification","title":"Classification of Constitutions","subtitle":"5 Types with Examples","icon":"🗂","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch3/classification","hasQuiz":true},{"id":"ch3-constitutionalism","title":"Constitutionalism and Constitutional Government","subtitle":"Meaning, Definitions & 8 Elements (Louis Henkin)","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"gs2/polity/laxmikanth/part1/ch3/constitutionalism","hasQuiz":true}]}]},{"id":"lax-part2","title":"Part II","subtitle":"System of Government","icon":"📖"},{"id":"lax-part3","title":"Part III","subtitle":"Central Government","icon":"📖"},{"id":"lax-part4","title":"Part IV","subtitle":"State Government","icon":"📖"},{"id":"lax-part5","title":"Part V","subtitle":"Local Government","icon":"📖"},{"id":"lax-part6","title":"Part VI","subtitle":"UTs and Special Areas","icon":"📖"},{"id":"lax-part7","title":"Part VII","subtitle":"Constitutional Bodies","icon":"📖"},{"id":"lax-part8","title":"Part VIII","subtitle":"Non-Constitutional Bodies","icon":"📖"},{"id":"lax-part9","title":"Part IX","subtitle":"Other Constitution Dimensions","icon":"📖"},{"id":"lax-part10","title":"Part X","subtitle":"Political Dynamics","icon":"📖"},{"id":"lax-part11","title":"Part XI","subtitle":"Working of the Constitution","icon":"📖"},{"id":"lax-part12","title":"Part XII","subtitle":"Judgements and Doctrines","icon":"📖"},{"id":"lax-part13","title":"Part XIII","subtitle":"Comparison of the Constitution","icon":"📖"}]}]},{"id":"gs2-ir","title":"International Relations","icon":"🌐"}]},{"id":"gs3","title":"GS-3","subtitle":"Economy, Security, S&T, Environment","icon":"📊","children":[{"id":"gs3-economics","title":"Economics","icon":"💰","children":[{"id":"gs3-economics-budget","title":"Union Budget","subtitle":"Yearly Budget Coverage","icon":"💰","isChapter":true,"children":[{"id":"news-budget-static","title":"Budget — Static Concepts","subtitle":"FRBM, Funds, Process, Rev vs Cap Exp","icon":"📘","isLeaf":true,"hasNotes":true,"chunk":"gs3/economics/budget/budget-static-concepts","hasQuiz":true},{"id":"news-budget-priority-groups","title":"4 Priority Groups & MSME Stats","subtitle":"Garib, Yuva, Annadata, Nari + MSME figures","icon":"👥","isLeaf":true,"hasNotes":true,"chunk":"gs3/economics/budget/priority-groups-msme-stats","hasQuiz":true},{"id":"news-budget-2025","title":"Union Budget 2025-26","subtitle":"1 Feb 2025","icon":"📰","isLeaf":true,"hasNotes":true,"chunk":"gs3/economics/budget/budget-2025","newsType":true,"hasQuiz":true},{"id":"news-budget-2026","title":"Union Budget 2026-27","subtitle":"1 Feb 2026","icon":"📰","isLeaf":true,"hasNotes":true,"chunk":"gs3/economics/budget/budget-2026","newsType":true,"hasQuiz":true}]}]},{"id":"gs3-security","title":"Internal Security & Challenges","icon":"🛡"},{"id":"gs3-scitech","title":"Science & Technology","icon":"🔬"},{"id":"gs3-environment","title":"Environment","icon":"🌱"},{"id":"gs3-disaster","title":"Disaster Management","icon":"🌊"}]},{"id":"gs4","title":"GS-4","subtitle":"Ethics, Integrity, Aptitude","icon":"🧭","children":[{"id":"gs4-ethics","title":"Ethics","icon":"⚖"},{"id":"gs4-integrity","title":"Integrity","icon":"🤝"},{"id":"gs4-attitude","title":"Attitude","icon":"🧠"}]},{"id":"essay","title":"Essay","subtitle":"Essay Paper","icon":"✍"},{"id":"newspaper","title":"Daily Newspaper","subtitle":"The Hindu — Curated for UPSC","icon":"📰","children":[{"id":"news-history","title":"History","icon":"📜"},{"id":"news-geography","title":"Geography","icon":"🌍"},{"id":"news-society","title":"Society","icon":"👥","children":[{"id":"news-2026-07-24-education-collapse","title":"An Education System's Collapse, Young India's Trauma","subtitle":"The Hindu, 24 July 2026 — Sonia Gandhi, Chairperson, Congress Parliamentary Party","icon":"🎓","isLeaf":true,"hasNotes":true,"chunk":"newspaper/society/2026-07-24/education-collapse","newsType":true,"hasQuiz":true}]},{"id":"news-culture","title":"Art & Culture","icon":"🎭"},{"id":"news-polity","title":"Polity & Governance","icon":"⚖","children":[{"id":"news-2026-08-28-lok-sabha-543","title":"Why 543 Should Remain 543 (Delimitation Debate)","subtitle":"Editorial by S.Y. Quraishi, 28 Aug 2026","icon":"🏛","isLeaf":true,"hasNotes":true,"chunk":"newspaper/polity/2026-08-28/lok-sabha-543","newsType":true,"hasQuiz":true},{"id":"news-2026-08-28-obc-creamy-layer","title":"OBC Creamy Layer Income Test — Stuck Between Ministries","subtitle":"Parliamentary panel flags inconsistency, 28 Aug 2026","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"newspaper/polity/2026-08-28/obc-creamy-layer","newsType":true,"hasQuiz":true},{"id":"news-2026-08-04-births-deaths","title":"Registration of Births and Deaths (Amendment) Act, 2026","subtitle":"Parliament, 4 Aug 2026 — Stricter rules for delayed registration","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"newspaper/polity/2026-08-04/births-deaths-amendment","newsType":true,"hasQuiz":true},{"id":"news-2026-07-24-rti-corruption","title":"Is Corruption the Biggest Threat to India's Future?","subtitle":"The Hindu, 24 July 2026 — Parley with Shailesh Gandhi & Anjali Bhardwaj","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"newspaper/polity/2026-07-24/rti-corruption","newsType":true,"hasQuiz":true},{"id":"news-2026-07-24-right-to-protest","title":"The Right to Protest and the Limits of Police Power","subtitle":"The Hindu, 24 July 2026","icon":"✊","isLeaf":true,"hasNotes":true,"chunk":"newspaper/polity/2026-07-24/right-to-protest","newsType":true,"hasQuiz":true}]},{"id":"news-ir","title":"International Relations","icon":"🌐"},{"id":"news-economics","title":"Economics","icon":"💰","children":[{"id":"news-2026-08-28-strategic-fuel","title":"Can India Build a Strategic Fuel System?","subtitle":"Explainer on energy security, 28 Aug 2026","icon":"🛢","isLeaf":true,"hasNotes":true,"chunk":"newspaper/economics/2026-08-28/strategic-fuel-system","newsType":true,"hasQuiz":true},{"id":"news-2026-08-28-sugar-allocation","title":"Government to Introduce Fortnightly Sugar Allocation","subtitle":"New quota system from September, 28 Aug 2026","icon":"💰","isLeaf":true,"hasNotes":true,"chunk":"newspaper/economics/2026-08-28/fortnightly-sugar-allocation","newsType":true,"hasQuiz":true}]},{"id":"news-security","title":"Internal Security","icon":"🛡"},{"id":"news-scitech","title":"Science & Technology","icon":"🔬","children":[{"id":"news-2026-07-26-ondevice-ai","title":"Are Smartphones Becoming Smarter with On-Device AI?","subtitle":"The Hindu, 26 July 2026","icon":"📱","isLeaf":true,"hasNotes":true,"chunk":"newspaper/scitech/26_07_2026/ondevice-ai","newsType":true,"hasQuiz":true}]},{"id":"news-environment","title":"Environment","icon":"🌱","children":[{"id":"news-2026-07-26-rice-methane","title":"India's Rice Fields Rank Among World's Top Methane Sources","subtitle":"The Hindu, 26 July 2026","icon":"🌾","isLeaf":true,"hasNotes":true,"chunk":"newspaper/environment/26_07_2026/rice-methane","hasQuiz":true}]},{"id":"news-disaster","title":"Disaster Management","icon":"🌊"},{"id":"news-ethics","title":"Ethics","icon":"🧭"},{"id":"news-misc","title":"Miscellaneous / Schemes","icon":"📌"}]},{"id":"quickrecall","title":"Quick Recall","subtitle":"Rapid revision — every UPSC subject","icon":"⚡","children":[{"id":"qr-history","title":"History","icon":"📜","children":[{"id":"qr-ancient-india-overview","title":"Ancient Indian History (Overview)","subtitle":"Stone Age to Harshavardhana","icon":"🏺","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/history/ancient-india-overview","hasQuiz":true},{"id":"qr-buddhism","title":"Buddhism (Bauddha Dharma)","subtitle":"Buddha, Teachings, Councils & Schools","icon":"☸","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/history/buddhism","hasQuiz":true},{"id":"qr-jagir-mansab","title":"Jagir & Mansab System","subtitle":"Mughal Administration","icon":"🏯","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/history/jagir-mansab","hasQuiz":true},{"id":"qr-advent-europeans","title":"Advent of Europeans & British Consolidation","subtitle":"Arrival of Trading Companies to Crown Rule","icon":"⛵","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/history/advent-europeans","hasQuiz":true},{"id":"qr-gg-viceroys","title":"Governors-General & Viceroys of India","subtitle":"1773–1947 — With Major Events","icon":"👑","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/history/gg-viceroys","hasQuiz":true},{"id":"qr-freedom-journey","title":"India's Freedom Journey (1857–1947)","subtitle":"Timeline of the Freedom Struggle","icon":"🇮🇳","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/history/freedom-journey","hasQuiz":true}]},{"id":"qr-geography","title":"Geography","icon":"🌏","children":[{"id":"qr-state-nicknames","title":"Indian States & Their Nicknames","subtitle":"States & UTs — Popular Sobriquets","icon":"🗺","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/geography/state-nicknames","hasQuiz":true},{"id":"qr-siliguri-corridor","title":"Chicken's Neck (Siliguri Corridor)","subtitle":"India's Strategic Lifeline to the North-East","icon":"🗺","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/geography/siliguri-corridor","hasQuiz":true},{"id":"qr-types-of-mining","title":"Types of Mining","subtitle":"Surface, Underground, Placer & In-Situ","icon":"⛏","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/geography/types-of-mining","hasQuiz":true},{"id":"qr-river-tributaries","title":"Tributaries of Major Indian Rivers","subtitle":"Ganga, Yamuna, Brahmaputra, Indus, Peninsular","icon":"🌊","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/geography/river-tributaries","hasQuiz":true},{"id":"qr-brahmaputra-system","title":"Brahmaputra River System","subtitle":"Source, Course, Tributaries & Dams","icon":"🏔","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/geography/brahmaputra-system","hasQuiz":true},{"id":"qr-indus-water-treaty","title":"Indus Waters Treaty (1960)","subtitle":"India–Pakistan Water-Sharing Agreement","icon":"🌊","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/geography/indus-waters-treaty","hasQuiz":true}]},{"id":"qr-polity","title":"Polity & Governance","icon":"⚖","children":[{"id":"qr-presidents","title":"Presidents of India (Full List)","subtitle":"1st to 15th — Order, Tenure & Firsts","icon":"🏛","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/polity/presidents","hasQuiz":true},{"id":"qr-anti-defection","title":"Anti-Defection Law","subtitle":"10th Schedule — Grounds, Exceptions & Case Law","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/polity/anti-defection","hasQuiz":true},{"id":"qr-original-constitution","title":"The Original Constitution","subtitle":"Calligraphy, Artwork & Preservation Facts","icon":"📜","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/polity/original-constitution","hasQuiz":true},{"id":"qr-governance-social-justice","title":"Governance & Social Justice","subtitle":"Concepts, Constitutional Basis & Institutions","icon":"⚖","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/polity/governance-social-justice","hasQuiz":true},{"id":"qr-rti-act","title":"Right to Information (RTI) Act, 2005","subtitle":"Objectives, Features, Time Limits & Appeals","icon":"📄","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/polity/rti-act","hasQuiz":true},{"id":"qr-exam-fraud-bill","title":"Public Examinations (Prevention of Unfair Means) Amendment Bill, 2026","subtitle":"Anti-Exam-Fraud Law — Governance","icon":"📝","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/polity/exam-fraud-bill","hasQuiz":true}]},{"id":"qr-economics","title":"Economy","icon":"💰"},{"id":"qr-society","title":"Society","icon":"👥","children":[{"id":"qr-important-full-forms","title":"Important Full Forms","subtitle":"Education & Recruitment Bodies / Exams","icon":"🔤","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/society/important-full-forms","hasQuiz":true}]},{"id":"qr-culture","title":"Art & Culture","icon":"🎭"},{"id":"qr-ir","title":"International Relations","icon":"🌐","children":[{"id":"qr-levels-of-partnership","title":"Levels of Partnership (Bilateral Relations)","subtitle":"The Hierarchy of Diplomatic Engagement","icon":"🤝","isLeaf":true,"hasNotes":true,"chunk":"quickrecall/ir/levels-of-partnership","hasQuiz":true}]},{"id":"qr-scitech","title":"Science & Technology","icon":"🔬"},{"id":"qr-environment","title":"Environment & Ecology","icon":"🌱"},{"id":"qr-security","title":"Internal Security","icon":"🛡"},{"id":"qr-disaster","title":"Disaster Management","icon":"🌪"},{"id":"qr-ethics","title":"Ethics (GS-4)","icon":"🧭"}]}];
 
 // ── js/engine/core.js ──
 // ╔══════════════════════════════════════════════════════════════════╗
@@ -1115,6 +54,7 @@ let favourited = {}; // { [leafId]: true } — favourite topics
 let recents = []; // [{ id, title, ts }] — most recent first, max 20
 let revisionHistory = []; // [{ id, title, ts, action }] — log of completed/reviewed/quiz events
 let dailyTracker = {}; // { "YYYY-MM-DD": count } — topics touched per day
+let quizResults = {}; // { [leafId]: { bestPct, lastPct, lastScore, total, attempts, ts } }
 
 try {
   completed = JSON.parse(localStorage.getItem("upsc-completed") || "{}");
@@ -1148,6 +88,11 @@ try {
 } catch (err) {
   dailyTracker = {};
 }
+try {
+  quizResults = JSON.parse(localStorage.getItem("upsc-quiz-results") || "{}");
+} catch (err) {
+  quizResults = {};
+}
 
 function saveExpanded() {
   // Deliberately a no-op: expanded state is session-only (in-memory),
@@ -1156,22 +101,22 @@ function saveExpanded() {
 function saveCompleted() {
   try {
     localStorage.setItem("upsc-completed", JSON.stringify(completed));
-  } catch (err) {}
+  } catch (err) { }
 }
 function saveBookmarked() {
   try {
     localStorage.setItem("upsc-bookmarked", JSON.stringify(bookmarked));
-  } catch (err) {}
+  } catch (err) { }
 }
 function saveFavourited() {
   try {
     localStorage.setItem("upsc-favourited", JSON.stringify(favourited));
-  } catch (err) {}
+  } catch (err) { }
 }
 function saveRecents() {
   try {
     localStorage.setItem("upsc-recents", JSON.stringify(recents));
-  } catch (err) {}
+  } catch (err) { }
 }
 function saveRevisionHistory() {
   try {
@@ -1179,12 +124,81 @@ function saveRevisionHistory() {
       "upsc-revision-history",
       JSON.stringify(revisionHistory),
     );
-  } catch (err) {}
+  } catch (err) { }
 }
 function saveDailyTracker() {
   try {
     localStorage.setItem("upsc-daily-tracker", JSON.stringify(dailyTracker));
-  } catch (err) {}
+  } catch (err) { }
+}
+function saveQuizResults() {
+  try {
+    localStorage.setItem("upsc-quiz-results", JSON.stringify(quizResults));
+  } catch (err) { }
+}
+
+// Record a completed quiz attempt (keeps best score + attempt count).
+function recordQuizResult(nodeId, score, total) {
+  const pct = total ? Math.round((score / total) * 100) : 0;
+  const prev = quizResults[nodeId] || { bestPct: 0, attempts: 0 };
+  quizResults[nodeId] = {
+    bestPct: Math.max(prev.bestPct || 0, pct),
+    lastPct: pct,
+    lastScore: score,
+    total,
+    attempts: (prev.attempts || 0) + 1,
+    ts: Date.now(),
+  };
+  saveQuizResults();
+}
+
+// Aggregate quiz stats for the dashboard.
+function quizStats() {
+  const ids = Object.keys(quizResults);
+  const attempts = ids.reduce((s, id) => s + (quizResults[id].attempts || 0), 0);
+  const avgBest = ids.length
+    ? Math.round(
+      ids.reduce((s, id) => s + (quizResults[id].bestPct || 0), 0) / ids.length,
+    )
+    : 0;
+  return { quizzesTaken: ids.length, attempts, avgBest };
+}
+
+// Consecutive-day study streak (today may be empty and still count).
+function studyStreak() {
+  let streak = 0;
+  const d = new Date();
+  for (let i = 0; i < 400; i++) {
+    const key =
+      d.getFullYear() +
+      "-" +
+      String(d.getMonth() + 1).padStart(2, "0") +
+      "-" +
+      String(d.getDate()).padStart(2, "0");
+    const e = dailyTracker[key];
+    const has =
+      e && ((e.count || 0) > 0 || (Array.isArray(e.opened) && e.opened.length));
+    if (has) streak++;
+    else if (i !== 0) break;
+    d.setDate(d.getDate() - 1);
+  }
+  return streak;
+}
+
+// A small inline SVG progress ring/donut (no external libraries).
+function svgRing(pct, color, size, stroke, label, sub) {
+  const r = (size - stroke) / 2;
+  const c = 2 * Math.PI * r;
+  const off = c * (1 - Math.max(0, Math.min(100, pct)) / 100);
+  const cx = size / 2;
+  return `<svg class="ring" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+    <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="rgba(201,168,76,0.14)" stroke-width="${stroke}"/>
+    <circle cx="${cx}" cy="${cx}" r="${r}" fill="none" stroke="${color}" stroke-width="${stroke}"
+      stroke-linecap="round" stroke-dasharray="${c.toFixed(1)}" stroke-dashoffset="${off.toFixed(1)}"
+      transform="rotate(-90 ${cx} ${cx})" style="transition:stroke-dashoffset 0.9s cubic-bezier(0.2,0.7,0.2,1)"/>
+    <text x="50%" y="49%" text-anchor="middle" dominant-baseline="middle" class="ring-label">${esc(String(label))}</text>
+    ${sub ? `<text x="50%" y="67%" text-anchor="middle" dominant-baseline="middle" class="ring-sub">${esc(String(sub))}</text>` : ""}
+  </svg>`;
 }
 
 function todayKey() {
@@ -2033,7 +1047,31 @@ function renderDashboard() {
         </div>
         <div class="dash-hero-tricolour" aria-hidden="true"></div>
       </div>
+    </div>`;
+
+  // ── Progress overview: donut + stat tiles (visualises tracked data) ──
+  const op = overallProgress();
+  const qs = quizStats();
+  const streak = studyStreak();
+  const opColor =
+    op.pct >= 66 ? "#5fb3a3" : op.pct >= 33 ? "var(--gold)" : "#e8886b";
+  html += `
+    <div class="dash-stats">
+      <div class="dash-ring-card">
+        ${svgRing(op.pct, opColor, 132, 12, op.pct + "%", "complete")}
+        <div class="dash-ring-meta">
+          <div class="dash-ring-title">Overall Progress</div>
+          <div class="dash-ring-detail">${op.done} of ${op.total} topics studied</div>
+        </div>
+      </div>
+      <div class="dash-stat-tiles">
+        <div class="stat-tile"><div class="stat-ico">📚</div><div class="stat-val">${op.done}</div><div class="stat-cap">Topics done</div></div>
+        <div class="stat-tile"><div class="stat-ico">📝</div><div class="stat-val">${qs.quizzesTaken}</div><div class="stat-cap">Quizzes taken</div></div>
+        <div class="stat-tile"><div class="stat-ico">🎯</div><div class="stat-val">${qs.avgBest}%</div><div class="stat-cap">Avg best score</div></div>
+        <div class="stat-tile"><div class="stat-ico">🔥</div><div class="stat-val">${streak}</div><div class="stat-cap">Day streak</div></div>
+      </div>
     </div>
+    <div class="dash-section-label">Subjects</div>
     <div class="dash-grid">`;
   let cardIndex = 0;
   for (const id of DASHBOARD_IDS) {
@@ -3027,9 +2065,8 @@ function openPrevChapterConfirm(currentChapter, prevChapter, targetLeaf) {
   const goBtn = document.getElementById("prevChapterGoBtn");
   if (!overlay || !sub || !goBtn) return;
 
-  sub.innerHTML = `This takes you back to <strong>${esc(prevChapter.title)}</strong>${
-    prevChapter.subtitle ? " — " + esc(prevChapter.subtitle) : ""
-  }, opening its last topic <strong>${esc(targetLeaf.title)}</strong>.`;
+  sub.innerHTML = `This takes you back to <strong>${esc(prevChapter.title)}</strong>${prevChapter.subtitle ? " — " + esc(prevChapter.subtitle) : ""
+    }, opening its last topic <strong>${esc(targetLeaf.title)}</strong>.`;
 
   goBtn.onclick = () => {
     overlay.classList.remove("active");
@@ -3146,23 +2183,53 @@ function renderQuizQuestion() {
 
 function renderQuizResult() {
   const { questions, answers } = quizState;
+  const total = questions.length;
   const score = answers.filter((a, i) => a === questions[i].correct).length;
-  const pct = Math.round((score / questions.length) * 100);
+  const wrong = total - score; // unanswered count as wrong
+  const pct = Math.round((score / total) * 100);
   document.getElementById("quizProgressFill").style.width = "100%";
   document.getElementById("quizFooter").style.display = "none";
+
+  const ringColor =
+    pct >= 75 ? "#5fb3a3" : pct >= 40 ? "#C9A84C" : "#e8886b";
+  const verdict =
+    pct >= 85
+      ? "Outstanding! 🏆"
+      : pct >= 60
+        ? "Well done! 👍"
+        : pct >= 40
+          ? "Good — keep revising"
+          : "Needs revision 📖";
+
   document.getElementById("quizBody").innerHTML = `
     <div class="quiz-result">
-      <div class="quiz-result-score">${score}/${questions.length}</div>
-      <div class="quiz-result-label">${pct}% Score</div>
-      <button class="quiz-retry-btn" id="quizRetryBtn">Retry</button>
+      <div class="quiz-result-ring">${svgRing(pct, ringColor, 150, 13, pct + "%", score + "/" + total)}</div>
+      <div class="quiz-result-verdict" style="color:${ringColor}">${verdict}</div>
+      <div class="quiz-result-breakdown">
+        <div class="qr-stat qr-correct"><span class="qr-num">${score}</span><span class="qr-cap">Correct</span></div>
+        <div class="qr-stat qr-wrong"><span class="qr-num">${wrong}</span><span class="qr-cap">Incorrect</span></div>
+        <div class="qr-stat"><span class="qr-num">${total}</span><span class="qr-cap">Total</span></div>
+      </div>
+      <div class="quiz-result-actions">
+        <button class="quiz-retry-btn" id="quizReviewBtn">Review answers</button>
+        <button class="quiz-retry-btn primary" id="quizRetryBtn">Retry quiz</button>
+      </div>
     </div>`;
+
   document.getElementById("quizRetryBtn").addEventListener("click", () => {
     openQuiz(currentPracticeNodeId);
   });
+  document.getElementById("quizReviewBtn").addEventListener("click", () => {
+    quizState.index = 0;
+    document.getElementById("quizFooter").style.display = "flex";
+    renderQuizQuestion();
+  });
 
   const node = findNode(TREE_DATA, currentPracticeNodeId);
-  if (node)
-    logRevisionEvent(node, `quiz: ${score}/${questions.length} (${pct}%)`);
+  if (node) {
+    recordQuizResult(currentPracticeNodeId, score, total);
+    logRevisionEvent(node, `quiz: ${score}/${total} (${pct}%)`);
+  }
 }
 
 document.getElementById("quizPrevBtn").addEventListener("click", () => {
@@ -3245,6 +2312,39 @@ closeDrawerBtn.addEventListener("click", closeSidebar);
 overlay.addEventListener("click", closeMobileDrawer);
 
 // ╔══════════════════════════════════════════════════════════╗
+// ║  HOME / DASHBOARD navigation                              ║
+// ║  Return to the dashboard from anywhere without reloading. ║
+// ╚══════════════════════════════════════════════════════════╝
+function goHome() {
+  selectedId = null;
+  // Reset the sidebar to the tree view and clear any note selection.
+  if (typeof sidebarView !== "undefined") {
+    sidebarView = "tree";
+    if (typeof renderSidebarNav === "function") renderSidebarNav();
+    if (typeof refreshTree === "function") refreshTree();
+  }
+  renderDashboard();
+  pushHistory();
+  const ns = document.querySelector(".notes-scroll");
+  if (ns) ns.scrollTop = 0;
+  // On phones, close the drawer so the dashboard is visible.
+  if (window.matchMedia("(max-width: 680px)").matches) closeMobileDrawer();
+}
+
+// Sidebar brand (logo + title) acts as a Home button (ignore the ☰ button).
+const brandEl = document.querySelector(".brand");
+if (brandEl) {
+  brandEl.addEventListener("click", (e) => {
+    if (e.target.closest("#closeDrawer")) return;
+    goHome();
+  });
+}
+
+// Topbar Home button.
+const homeBtn = document.getElementById("homeBtn");
+if (homeBtn) homeBtn.addEventListener("click", goHome);
+
+// ╔══════════════════════════════════════════════════════════╗
 // ║  FULL-SCREEN READING MODE                                 ║
 // ╚══════════════════════════════════════════════════════════╝
 const appEl = document.querySelector(".app");
@@ -3258,7 +2358,7 @@ function enterReadingMode() {
   // (e.g. some mobile browsers or iframes disallow it) — the CSS-based
   // distraction-free layout above still applies either way.
   const el = document.documentElement;
-  if (el.requestFullscreen) el.requestFullscreen().catch(() => {});
+  if (el.requestFullscreen) el.requestFullscreen().catch(() => { });
   else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen();
   document.querySelector(".notes-scroll").scrollTop = 0;
 }
@@ -3266,7 +2366,7 @@ function enterReadingMode() {
 function exitReadingMode() {
   appEl.classList.remove("reading-mode");
   if (document.fullscreenElement) {
-    document.exitFullscreen().catch(() => {});
+    document.exitFullscreen().catch(() => { });
   } else if (document.webkitFullscreenElement) {
     document.webkitExitFullscreen();
   }
@@ -3370,7 +2470,7 @@ window.addEventListener("popstate", (e) => {
 try {
   localStorage.removeItem("upsc-tree-expanded");
   localStorage.removeItem("upsc-tree-state");
-} catch (err) {}
+} catch (err) { }
 
 refreshTree();
 renderSidebarNav();
@@ -3379,3 +2479,4 @@ renderNotes();
 // Seed the initial history entry (the dashboard) so the first Back press
 // returns here rather than immediately leaving the site.
 history.replaceState(currentViewState(), "");
+

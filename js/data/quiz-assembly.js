@@ -92,4 +92,23 @@ const QUIZ_DATA = {
   "qr-types-of-mining": QUIZ_qr_types_of_mining,
   "qr-levels-of-partnership": QUIZ_qr_levels_partnership,
   "qr-important-full-forms": QUIZ_qr_full_forms,
+
+  "news-2026-08-28-lok-sabha-543": QUIZ_news_ls_543,
+  "news-2026-08-28-obc-creamy-layer": QUIZ_news_obc_creamy,
+  "news-2026-08-28-sugar-allocation": QUIZ_news_sugar,
+  "news-2026-08-28-strategic-fuel": QUIZ_news_strategic_fuel,
+
+  "qr-freedom-journey": QUIZ_qr_freedom_journey,
+  "qr-jagir-mansab": QUIZ_qr_jagir_mansab,
+  "qr-ancient-india-overview": QUIZ_qr_ancient_india,
+  "qr-river-tributaries": QUIZ_qr_river_tributaries,
+  "qr-governance-social-justice": QUIZ_qr_governance_sj,
+  "qr-rti-act": QUIZ_qr_rti_act,
+
+  "qr-gg-viceroys": QUIZ_qr_gg_viceroys,
+  "qr-advent-europeans": QUIZ_qr_advent_europeans,
+  "qr-buddhism": QUIZ_qr_buddhism,
+  "qr-brahmaputra-system": QUIZ_qr_brahmaputra,
+  "qr-indus-water-treaty": QUIZ_qr_indus_water_treaty,
+  "qr-exam-fraud-bill": QUIZ_qr_exam_fraud,
 };

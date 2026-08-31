@@ -3,5 +3,5 @@ const DATA_news_economics = {
   id: "news-economics",
   title: "Economics",
   icon: "💰",
-  children: [],
+  children: [DATA_news_strategic_fuel, DATA_news_sugar],
 };

@@ -1,0 +1,224 @@
+const QUIZ_qr_jagir_mansab = {
+  title: "Jagir & Mansab System",
+  questions: [
+    {
+      q: "The Mansabdari system in India was introduced by:",
+      options: ["Babur", "Akbar", "Shah Jahan", "Aurangzeb"],
+      correct: 1,
+      explain:
+        "The Mansabdari system — a rank system for officials — was introduced by Akbar.",
+    },
+    {
+      q: "In the Mansab system, the term 'Zat' referred to:",
+      options: [
+        "The number of cavalry to be maintained",
+        "The personal rank/status of the mansabdar",
+        "The land revenue collected",
+        "The salary paid in cash",
+      ],
+      correct: 1,
+      explain:
+        "'Zat' denoted the personal rank and status (and personal pay) of a mansabdar.",
+    },
+    {
+      q: "In the Mansab system, 'Sawar' indicated:",
+      options: [
+        "The personal rank of the official",
+        "The number of cavalry (horsemen) the mansabdar had to maintain",
+        "The type of jagir assigned",
+        "The revenue collected from peasants",
+      ],
+      correct: 1,
+      explain:
+        "'Sawar' fixed the number of cavalry/horsemen a mansabdar was required to maintain.",
+    },
+    {
+      q: "A 'Jagir' is best described as:",
+      options: [
+        "A hereditary ownership of land",
+        "A land/revenue grant given by the King to nobles, without ownership rights",
+        "A tax paid by nobles to the King",
+        "A military rank",
+      ],
+      correct: 1,
+      explain:
+        "A jagir was a grant of the right to collect revenue given to nobles to pay their salary — with no ownership of the land.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Jagir system:",
+        "I. A jagir conferred ownership rights over land.",
+        "II. Jagirs were transferable at the King's will.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 1,
+      explain:
+        "Only II is correct. Statement I is wrong — a jagir gave the right to collect revenue, NOT ownership of land.",
+    },
+    {
+      q: "The holder of a jagir was called a:",
+      options: ["Mansabdar", "Jagirdar", "Zamindar", "Diwan"],
+      correct: 1,
+      explain: "The holder of a jagir was called a Jagirdar.",
+    },
+    {
+      q: "Under the Mansab system, an official's salary could be paid:",
+      options: [
+        "Only in cash",
+        "Only through a jagir",
+        "In cash or through the assignment of a jagir",
+        "Only in kind (grain)",
+      ],
+      correct: 2,
+      explain:
+        "A mansabdar's salary was paid either in cash or through the assignment of a jagir.",
+    },
+    {
+      q: [
+        "Consider the following about the Mansab system:",
+        "I. Every mansabdar was assigned two numbers — Zat and Sawar.",
+        "II. Mansabdars were transferable across the empire.",
+        "III. The system was intended to remove favouritism and fix duties.",
+        "How many of the statements are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 2,
+      explain:
+        "All three are correct — the dual Zat/Sawar ranks, empire-wide transferability, and the goal of fixing salary/duties while removing favouritism.",
+    },
+    {
+      q: "Assertion (A): The transferability of jagirs often led to the exploitation of peasants.\nReason (R): Jagirdars with short, uncertain tenures tried to extract maximum revenue quickly.\nWhich one of the following is correct?",
+      options: [
+        "Both A and R are true, and R is the correct explanation of A",
+        "Both A and R are true, but R is NOT the correct explanation of A",
+        "A is true, but R is false",
+        "A is false, but R is true",
+      ],
+      correct: 0,
+      explain:
+        "Both are true and R explains A — frequent transfers gave jagirdars little stake in the long-term welfare of peasants, encouraging maximum short-term extraction.",
+    },
+    {
+      q: "Which of the following best states the purpose of the jagir?",
+      options: [
+        "To grant hereditary kingdoms to princes",
+        "To pay salary to officers and maintain their loyalty",
+        "To abolish land revenue",
+        "To create independent local rulers",
+      ],
+      correct: 1,
+      explain:
+        "The jagir was used to pay salaries to officers and secure their loyalty to the emperor.",
+    },
+    {
+      q: [
+        "Match the term with its meaning:",
+        "I. Zat — a) cavalry to be maintained",
+        "II. Sawar — b) personal rank/status",
+        "Select the correct answer:",
+      ],
+      options: ["I-a, II-b", "I-b, II-a", "Both mean rank", "Both mean cavalry"],
+      correct: 1,
+      explain: "Zat = personal rank/status (b); Sawar = cavalry to be maintained (a).",
+    },
+    {
+      q: "The King's power to transfer or resume a jagir mainly served to:",
+      options: [
+        "Make jagirdars hereditary rulers",
+        "Prevent jagirdars from building a permanent local power base",
+        "Abolish the mansab system",
+        "Grant land ownership to peasants",
+      ],
+      correct: 1,
+      explain:
+        "Transferability and the power to resume jagirs prevented nobles from entrenching permanent local power — reinforcing central control.",
+    },
+    {
+      q: "Revenue from a jagir was collected from:",
+      options: ["The King's treasury", "Peasants", "Foreign traders", "Other nobles"],
+      correct: 1,
+      explain: "Jagirdars collected revenue from the peasants of the assigned area.",
+    },
+    {
+      q: "The Mansabdari system primarily helped the Mughal empire achieve:",
+      options: [
+        "Decentralisation of power to provinces",
+        "Centralisation and efficient administration",
+        "The abolition of the army",
+        "Hereditary succession of nobles",
+      ],
+      correct: 1,
+      explain:
+        "By organising the nobility into a single, transferable, non-hereditary hierarchy, the mansab system aided centralisation and efficient administration.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. A mansab was a rank held by an official.",
+        "II. Mansabs were strictly hereditary and could not be revoked.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 0,
+      explain:
+        "Only I is correct. Statement II is wrong — mansabs were NOT hereditary and could be altered/revoked by the emperor, which is what strengthened central control.",
+    },
+    {
+      q: "Which of the following is a key distinction between a jagir and a mansab?",
+      options: [
+        "A jagir is a rank; a mansab is a land grant",
+        "A jagir is a revenue/land assignment; a mansab is a rank/position of an official",
+        "Both are identical terms",
+        "A mansab conferred land ownership; a jagir did not",
+      ],
+      correct: 1,
+      explain:
+        "A jagir is an assignment of revenue (land grant), while a mansab is the rank/position of an official — a mansabdar could be paid via a jagir.",
+    },
+    {
+      q: "A jagirdar's rights over the assigned area were essentially:",
+      options: [
+        "Ownership and inheritance rights",
+        "The right to collect revenue only",
+        "Judicial powers over nobles",
+        "The right to mint coins",
+      ],
+      correct: 1,
+      explain:
+        "A jagirdar held only the right to collect revenue from the area — not ownership or hereditary rights.",
+    },
+    {
+      q: "Which ruler's reign is most associated with the systematic organisation of both the mansab and jagir arrangements?",
+      options: ["Babur", "Akbar", "Jahangir", "Bahadur Shah Zafar"],
+      correct: 1,
+      explain:
+        "Akbar systematically organised the Mansabdari system, within which salaries were often paid through jagirs.",
+    },
+    {
+      q: "The overall impact of the Jagir system on peasants was:",
+      options: [
+        "Reduced tax burden and prosperity",
+        "A burden that often led to exploitation",
+        "Grant of land ownership to peasants",
+        "Complete exemption from revenue",
+      ],
+      correct: 1,
+      explain:
+        "The jagir system placed a burden on peasants and, due to transferability and revenue pressure, often led to their exploitation.",
+    },
+    {
+      q: [
+        "Consider the following statements about the Mansab system under Akbar:",
+        "I. The word 'mansab' means a rank or position.",
+        "II. It graded the nobility into a single, centralised hierarchy.",
+        "III. Mansabdars could not be transferred across the empire.",
+        "How many of the statements are correct?",
+      ],
+      options: ["Only one", "Only two", "All three", "None"],
+      correct: 1,
+      explain:
+        "Only I and II are correct. Statement III is wrong — mansabdars were transferable all over the empire, which strengthened imperial control.",
+    },
+  ],
+};

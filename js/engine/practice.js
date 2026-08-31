@@ -95,23 +95,53 @@ function renderQuizQuestion() {
 
 function renderQuizResult() {
   const { questions, answers } = quizState;
+  const total = questions.length;
   const score = answers.filter((a, i) => a === questions[i].correct).length;
-  const pct = Math.round((score / questions.length) * 100);
+  const wrong = total - score; // unanswered count as wrong
+  const pct = Math.round((score / total) * 100);
   document.getElementById("quizProgressFill").style.width = "100%";
   document.getElementById("quizFooter").style.display = "none";
+
+  const ringColor =
+    pct >= 75 ? "#5fb3a3" : pct >= 40 ? "#C9A84C" : "#e8886b";
+  const verdict =
+    pct >= 85
+      ? "Outstanding! 🏆"
+      : pct >= 60
+        ? "Well done! 👍"
+        : pct >= 40
+          ? "Good — keep revising"
+          : "Needs revision 📖";
+
   document.getElementById("quizBody").innerHTML = `
     <div class="quiz-result">
-      <div class="quiz-result-score">${score}/${questions.length}</div>
-      <div class="quiz-result-label">${pct}% Score</div>
-      <button class="quiz-retry-btn" id="quizRetryBtn">Retry</button>
+      <div class="quiz-result-ring">${svgRing(pct, ringColor, 150, 13, pct + "%", score + "/" + total)}</div>
+      <div class="quiz-result-verdict" style="color:${ringColor}">${verdict}</div>
+      <div class="quiz-result-breakdown">
+        <div class="qr-stat qr-correct"><span class="qr-num">${score}</span><span class="qr-cap">Correct</span></div>
+        <div class="qr-stat qr-wrong"><span class="qr-num">${wrong}</span><span class="qr-cap">Incorrect</span></div>
+        <div class="qr-stat"><span class="qr-num">${total}</span><span class="qr-cap">Total</span></div>
+      </div>
+      <div class="quiz-result-actions">
+        <button class="quiz-retry-btn" id="quizReviewBtn">Review answers</button>
+        <button class="quiz-retry-btn primary" id="quizRetryBtn">Retry quiz</button>
+      </div>
     </div>`;
+
   document.getElementById("quizRetryBtn").addEventListener("click", () => {
     openQuiz(currentPracticeNodeId);
   });
+  document.getElementById("quizReviewBtn").addEventListener("click", () => {
+    quizState.index = 0;
+    document.getElementById("quizFooter").style.display = "flex";
+    renderQuizQuestion();
+  });
 
   const node = findNode(TREE_DATA, currentPracticeNodeId);
-  if (node)
-    logRevisionEvent(node, `quiz: ${score}/${questions.length} (${pct}%)`);
+  if (node) {
+    recordQuizResult(currentPracticeNodeId, score, total);
+    logRevisionEvent(node, `quiz: ${score}/${total} (${pct}%)`);
+  }
 }
 
 document.getElementById("quizPrevBtn").addEventListener("click", () => {

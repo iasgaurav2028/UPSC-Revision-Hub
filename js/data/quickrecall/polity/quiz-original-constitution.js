@@ -85,5 +85,156 @@ const QUIZ_qr_original_constitution = {
       explain:
         "26 November, the day the Constitution was adopted in 1949, is celebrated as Constitution Day (Samvidhan Divas).",
     },
+    {
+      q: "Who calligraphed the Hindi version of the original Constitution?",
+      options: [
+        "Prem Bihari Narain Raizada",
+        "Vasant Krishna Vaidya",
+        "Nandalal Bose",
+        "Beohar Rammanohar Sinha",
+      ],
+      correct: 1,
+      explain:
+        "The Hindi version of the original Constitution was written by Vasant Krishna Vaidya; the English version was calligraphed by Prem Bihari Narain Raizada.",
+    },
+    {
+      q: "Who headed the Drafting Committee of the Constituent Assembly?",
+      options: [
+        "Jawaharlal Nehru",
+        "Dr. Rajendra Prasad",
+        "Dr. B. R. Ambedkar",
+        "Sardar Vallabhbhai Patel",
+      ],
+      correct: 2,
+      explain:
+        "Dr. B. R. Ambedkar headed the Drafting Committee and is known as the 'Father of the Indian Constitution'.",
+    },
+    {
+      q: "The Drafting Committee of the Constituent Assembly had how many members?",
+      options: ["5 members", "7 members", "9 members", "11 members"],
+      correct: 1,
+      explain:
+        "The Drafting Committee consisted of 7 members, headed by Dr. B. R. Ambedkar.",
+    },
+    {
+      q: "The beautification of the Preamble and the calligraphic borders of the Hindi version were done by:",
+      options: [
+        "Nandalal Bose",
+        "Beohar Rammanohar Sinha",
+        "Prem Bihari Narain Raizada",
+        "Vasant Krishna Vaidya",
+      ],
+      correct: 1,
+      explain:
+        "Beohar Rammanohar Sinha beautified the Preamble and did the calligraphic borders of the Hindi version, while Nandalal Bose led the overall artwork.",
+    },
+    {
+      q: "What request did Prem Bihari Narain Raizada make instead of charging a fee for his calligraphy?",
+      options: [
+        "A permanent government post",
+        "That his name and his grandfather's name appear on each page",
+        "A plot of land in Delhi",
+        "A national award",
+      ],
+      correct: 1,
+      explain:
+        "He charged no fee and only asked that his name and his grandfather's name appear on each page of the Constitution.",
+    },
+    {
+      q: "The Constitution of India holds the distinction of being:",
+      options: [
+        "The oldest written constitution in the world",
+        "The lengthiest written constitution of any sovereign country",
+        "The shortest written constitution",
+        "The only unwritten constitution in Asia",
+      ],
+      correct: 1,
+      explain:
+        "The Indian Constitution is the lengthiest written constitution of any sovereign country in the world.",
+    },
+    {
+      q: [
+        "Consider the following statements about the artwork of the original Constitution:",
+        "I. The illustrations were made by artists from Shantiniketan.",
+        "II. The scenes depict India's history from Mohenjo-daro to the freedom movement.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both are correct. Shantiniketan artists led by Nandalal Bose illustrated the pages with scenes ranging from Mohenjo-daro seals to the freedom struggle.",
+    },
+    {
+      q: "26 January was chosen as the date to enforce the Constitution because it honoured:",
+      options: [
+        "The Quit India Movement of 1942",
+        "The Purna Swaraj declaration of 1930",
+        "The Dandi March of 1930",
+        "The formation of the Constituent Assembly in 1946",
+      ],
+      correct: 1,
+      explain:
+        "26 January was chosen to commemorate the Purna Swaraj (complete independence) declaration made by the Congress in 1930.",
+    },
+    {
+      q: "Match List-I (Person) with List-II (Contribution) and select the correct answer:\nA. Prem Bihari Narain Raizada  B. Nandalal Bose\n1. Artwork / illustrations  2. English calligraphy",
+      options: [
+        "A-2, B-1",
+        "A-1, B-2",
+        "A-2, B-2",
+        "A-1, B-1",
+      ],
+      correct: 0,
+      explain:
+        "Prem Bihari Narain Raizada did the English calligraphy and Nandalal Bose led the artwork. Hence A-2, B-1.",
+    },
+    {
+      q: "The original copies of the Constitution are preserved in the Library of:",
+      options: [
+        "The Supreme Court of India",
+        "The Parliament of India, New Delhi",
+        "The National Archives, New Delhi",
+        "Rashtrapati Bhavan",
+      ],
+      correct: 1,
+      explain:
+        "The original handwritten copies are preserved in special gas-filled cases in the Library of the Parliament of India, New Delhi.",
+    },
+    {
+      q: "Statement I: The Constitution was adopted on 26 November 1949.\nStatement II: 26 November is now observed as Constitution Day.\nWhich one of the following is correct?",
+      options: [
+        "Both Statement I and Statement II are correct, and II explains I",
+        "Both are correct, but II does not explain I",
+        "Statement I is correct, but Statement II is incorrect",
+        "Statement I is incorrect, but Statement II is correct",
+      ],
+      correct: 0,
+      explain:
+        "Both statements are correct and II explains I — 26 November is observed as Constitution Day precisely because the Constitution was adopted on that date in 1949.",
+    },
+    {
+      q: "The original Constitution was written in which style of the English hand by its calligrapher?",
+      options: [
+        "Block capitals",
+        "Flowing italic style",
+        "Gothic script",
+        "Typewritten Roman",
+      ],
+      correct: 1,
+      explain:
+        "Prem Bihari Narain Raizada wrote the English version in a flowing italic style.",
+    },
+    {
+      q: [
+        "Consider the following statements:",
+        "I. The Constitution took 2 years, 11 months and 18 days to complete.",
+        "II. It was handwritten rather than printed.",
+        "Which of the statements given above is/are correct?",
+      ],
+      options: ["I only", "II only", "Both I and II", "Neither I nor II"],
+      correct: 2,
+      explain:
+        "Both are correct. The Constituent Assembly took 2 years, 11 months and 18 days, and the original Constitution was handwritten in English and Hindi.",
+    },
   ],
 };
